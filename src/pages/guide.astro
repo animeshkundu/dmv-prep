@@ -1,0 +1,4 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro'; import { STATES, stateSlug } from '../lib/states-directory'; import { href } from '../lib/site'; import '../styles/pages.css';
+---
+<BaseLayout title="Permit guide"><section class="container page-shell"><h1>Get your learner's permit</h1><p class="muted">Requirements differ by state. Choose yours for documents, ages, fees, testing, and official links.</p><div class="link-grid">{STATES.map((state)=><a class="card link-card" href={href(`/state/${stateSlug(state.code)}/guide`)}><strong>{state.name}</strong><p class="muted">{state.agencyShort} permit guide</p></a>)}</div></section></BaseLayout>

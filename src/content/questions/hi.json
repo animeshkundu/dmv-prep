@@ -1,0 +1,248 @@
+[
+  {
+    "id": "hi-speed-001",
+    "category": "speed-limits",
+    "stateScope": ["HI"],
+    "prompt": "In Hawaii, unless a different limit is posted, the speed limit in a marked school zone is:",
+    "options": ["15 mph", "20 mph", "25 mph", "35 mph"],
+    "correctIndex": 2,
+    "explanation": "Hawaii posts a 25 mph limit in marked school zones unless a lower speed is signed. Always slow further when children are present.",
+    "difficulty": "easy",
+    "references": [{ "label": "School zones", "citation": "Hawaii Driver's Manual, speed limits", "url": "https://hidot.hawaii.gov/highways/library/motor-vehicle-safety-office/english-original-hawaii-drivers-manual/" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "hi-alc-001",
+    "category": "alcohol-drugs",
+    "stateScope": ["HI"],
+    "prompt": "Under Hawaii's zero-tolerance law, a driver under 21 can face license action for driving with a blood alcohol concentration (BAC) of at least:",
+    "options": ["0.08%", "0.05%", "0.02%", "0.01%"],
+    "correctIndex": 2,
+    "explanation": "For drivers under 21, Hawaii sets the limit at 0.02% BAC. Any measurable alcohol at or above that level can trigger a citation and suspension.",
+    "difficulty": "medium",
+    "references": [{ "label": "Under-21 alcohol law", "citation": "Hawaii Driver's Manual, alcohol and the law", "url": "https://hidot.hawaii.gov/highways/library/motor-vehicle-safety-office/english-original-hawaii-drivers-manual/" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "hi-alc-002",
+    "category": "alcohol-drugs",
+    "stateScope": ["HI"],
+    "prompt": "For a driver age 21 or older operating a regular passenger vehicle in Hawaii, the illegal BAC level begins at:",
+    "options": ["0.05%", "0.08%", "0.10%", "0.04%"],
+    "correctIndex": 1,
+    "explanation": "The standard adult BAC limit in Hawaii is 0.08%. Commercial drivers are held to 0.04%, and drivers under 21 to 0.02%.",
+    "difficulty": "easy",
+    "references": [{ "label": "OVUII / adult BAC", "citation": "Hawaii Driver's Manual, alcohol and the law", "url": "https://hidot.hawaii.gov/highways/library/motor-vehicle-safety-office/english-original-hawaii-drivers-manual/" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "hi-gdl-001",
+    "category": "gdl-teen",
+    "stateScope": ["HI"],
+    "prompt": "A Hawaii provisional license holder is generally restricted from carrying:",
+    "options": [
+      "Any passengers at all",
+      "More than one passenger under 18, unless they are household members",
+      "Passengers on the freeway only",
+      "More than three passengers of any age"
+    ],
+    "correctIndex": 1,
+    "explanation": "Provisional drivers in Hawaii may carry no more than one passenger under 18 unless the passengers are members of the driver's household.",
+    "difficulty": "medium",
+    "references": [{ "label": "Provisional license", "citation": "Hawaii Driver's Manual, graduated licensing", "url": "https://hidot.hawaii.gov/highways/library/motor-vehicle-safety-office/english-original-hawaii-drivers-manual/" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "hi-gdl-002",
+    "category": "gdl-teen",
+    "stateScope": ["HI"],
+    "prompt": "Unless an exception applies, a Hawaii provisional license holder may not drive during which hours?",
+    "options": [
+      "9 p.m. to 6 a.m.",
+      "Midnight to 5 a.m.",
+      "11 p.m. to 5 a.m.",
+      "10 p.m. to 4 a.m."
+    ],
+    "correctIndex": 2,
+    "explanation": "Hawaii's provisional (graduated) license prohibits driving between 11 p.m. and 5 a.m., with limited exceptions such as driving to or from work with proper documentation.",
+    "difficulty": "medium",
+    "references": [{ "label": "Nighttime restriction", "citation": "Hawaii Driver's Manual, graduated licensing", "url": "https://hidot.hawaii.gov/highways/library/motor-vehicle-safety-office/english-original-hawaii-drivers-manual/" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "hi-laws-001",
+    "category": "traffic-laws",
+    "stateScope": ["HI"],
+    "prompt": "As you approach a police car stopped on the shoulder with its emergency lights flashing, Hawaii's Move Over Law requires you to:",
+    "options": [
+      "Speed up to clear the area quickly",
+      "Move over a lane if you safely can, or slow to a safe speed if you cannot",
+      "Stop completely until the officer waves you on",
+      "Sound your horn as you pass"
+    ],
+    "correctIndex": 1,
+    "explanation": "Hawaii's Move Over Law directs drivers to change lanes away from a stopped emergency or service vehicle when safe, and otherwise to slow to a careful speed while passing.",
+    "difficulty": "easy",
+    "references": [{ "label": "Move Over Law", "citation": "Hawaii Driver's Manual, sharing the road with emergency vehicles", "url": "https://hidot.hawaii.gov/highways/library/motor-vehicle-safety-office/english-original-hawaii-drivers-manual/" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "hi-signs-001",
+    "category": "road-signs",
+    "stateScope": ["HI"],
+    "prompt": "A diamond-shaped sign with a yellow background and black symbols is used to:",
+    "options": [
+      "Give a regulatory order such as a speed limit",
+      "Warn you of a hazard or a change in road conditions ahead",
+      "Provide route or destination information",
+      "Mark a construction detour"
+    ],
+    "correctIndex": 1,
+    "explanation": "Yellow diamond-shaped signs are warning signs. They alert you to conditions ahead such as curves, merges, or pedestrian crossings so you can prepare to react.",
+    "difficulty": "easy",
+    "references": [{ "label": "Warning signs", "citation": "Hawaii Driver's Manual, traffic signs", "url": "https://hidot.hawaii.gov/highways/library/motor-vehicle-safety-office/english-original-hawaii-drivers-manual/" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "hi-signals-001",
+    "category": "traffic-signals",
+    "stateScope": ["HI"],
+    "prompt": "At an intersection a steady red light for your direction means you must:",
+    "options": [
+      "Slow down and proceed with caution",
+      "Stop, and you may turn right after stopping unless a sign prohibits it",
+      "Stop only if other traffic is present",
+      "Treat it as a yield"
+    ],
+    "correctIndex": 1,
+    "explanation": "A steady red light requires a full stop at the line. In Hawaii you may turn right on red after stopping and yielding, unless a posted sign prohibits the turn.",
+    "difficulty": "easy",
+    "references": [{ "label": "Traffic signals", "citation": "Hawaii Driver's Manual, traffic signals", "url": "https://hidot.hawaii.gov/highways/library/motor-vehicle-safety-office/english-original-hawaii-drivers-manual/" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "hi-row-001",
+    "category": "right-of-way",
+    "stateScope": ["HI"],
+    "prompt": "Two vehicles arrive at a four-way stop at the same time. Who should proceed first?",
+    "options": [
+      "The larger vehicle",
+      "The vehicle on the left",
+      "The vehicle on the right",
+      "Whoever accelerates first"
+    ],
+    "correctIndex": 2,
+    "explanation": "When two vehicles reach a four-way stop at the same moment, the driver on the left yields to the driver on the right.",
+    "difficulty": "medium",
+    "references": [{ "label": "Right of way", "citation": "Hawaii Driver's Manual, right-of-way rules", "url": "https://hidot.hawaii.gov/highways/library/motor-vehicle-safety-office/english-original-hawaii-drivers-manual/" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "hi-safe-001",
+    "category": "safe-driving",
+    "stateScope": ["HI"],
+    "prompt": "Hawaii law prohibits a driver from using a handheld mobile electronic device while driving. This means you generally may not:",
+    "options": [
+      "Use a hands-free system while driving",
+      "Hold and operate a phone in your hand while the vehicle is on the roadway",
+      "Have a phone anywhere in the vehicle",
+      "Use a GPS mounted on the dashboard"
+    ],
+    "correctIndex": 1,
+    "explanation": "Hawaii bans holding and using a mobile electronic device while driving. Hands-free use by adults is allowed, but holding the phone to talk or text is not.",
+    "difficulty": "medium",
+    "references": [{ "label": "Distracted driving", "citation": "Hawaii Driver's Manual, distracted driving", "url": "https://hidot.hawaii.gov/highways/library/motor-vehicle-safety-office/english-original-hawaii-drivers-manual/" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "hi-mark-001",
+    "category": "pavement-markings",
+    "stateScope": ["HI"],
+    "prompt": "A solid yellow line on your side of a two-lane, two-way road means:",
+    "options": [
+      "You may pass when the road is clear",
+      "You must not cross the line to pass",
+      "The road ahead ends",
+      "Parking is allowed along the line"
+    ],
+    "correctIndex": 1,
+    "explanation": "A solid yellow line on your side means passing is not allowed. Yellow lines separate traffic moving in opposite directions.",
+    "difficulty": "easy",
+    "references": [{ "label": "Pavement markings", "citation": "Hawaii Driver's Manual, pavement markings", "url": "https://hidot.hawaii.gov/highways/library/motor-vehicle-safety-office/english-original-hawaii-drivers-manual/" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "hi-park-001",
+    "category": "parking",
+    "stateScope": ["HI"],
+    "prompt": "When parking near a fire hydrant, you must leave a clear distance of at least:",
+    "options": ["5 feet", "10 feet", "15 feet", "25 feet"],
+    "correctIndex": 1,
+    "explanation": "Do not park within 10 feet of a fire hydrant so firefighters can reach it in an emergency.",
+    "difficulty": "medium",
+    "references": [{ "label": "Parking rules", "citation": "Hawaii Driver's Manual, parking", "url": "https://hidot.hawaii.gov/highways/library/motor-vehicle-safety-office/english-original-hawaii-drivers-manual/" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "hi-share-001",
+    "category": "sharing-the-road",
+    "stateScope": ["HI"],
+    "prompt": "When passing a bicyclist traveling in the same direction on a Hawaii roadway, you should:",
+    "options": [
+      "Pass as closely as possible to save time",
+      "Give the bicyclist a safe amount of space and pass only when it is clear",
+      "Honk continuously until they move off the road",
+      "Always come to a complete stop before passing"
+    ],
+    "correctIndex": 1,
+    "explanation": "Bicyclists have the right to use the road. Slow down, wait for a safe gap, and leave ample clearance before passing.",
+    "difficulty": "easy",
+    "references": [{ "label": "Sharing the road", "citation": "Hawaii Driver's Manual, sharing the road with bicyclists", "url": "https://hidot.hawaii.gov/highways/library/motor-vehicle-safety-office/english-original-hawaii-drivers-manual/" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "hi-pen-001",
+    "category": "penalties-points",
+    "stateScope": ["HI"],
+    "prompt": "How does Hawaii primarily track a driver's traffic convictions for licensing decisions?",
+    "options": [
+      "A numeric demerit-point total that suspends you at a set score",
+      "Through a driving record of convictions, where serious or repeated offenses lead to suspension or revocation",
+      "By counting only parking tickets",
+      "It does not keep any driving record"
+    ],
+    "correctIndex": 1,
+    "explanation": "Hawaii does not use a fixed numeric point system like some states. Instead, convictions are recorded on your driving abstract, and serious or repeat violations can result in suspension or revocation.",
+    "difficulty": "hard",
+    "references": [{ "label": "Driving record", "citation": "Hawaii Driver's Manual, penalties and your driving record", "url": "https://hidot.hawaii.gov/highways/library/motor-vehicle-safety-office/english-original-hawaii-drivers-manual/" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  }
+]

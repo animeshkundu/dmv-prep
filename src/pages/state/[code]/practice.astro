@@ -1,0 +1,5 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro'; import Quiz from '../../../islands/Quiz'; import { STATES, byCode, stateSlug } from '../../../lib/states-directory'; import { studyContent } from '../../../lib/content'; import { applicableQuestions, categoriesPresent } from '../../../lib/questions'; import '../../../styles/pages.css';
+export function getStaticPaths(){return STATES.map((state)=>({params:{code:stateSlug(state.code)}}));} const code=Astro.params.code!.toUpperCase(); const directory=byCode(code)!; const content=await studyContent(code); const questions=applicableQuestions(content.questions,code); const categories=categoriesPresent(questions);
+---
+<BaseLayout title={`${directory.name} practice test`}><section class="study-shell"><h1>{directory.name} practice questions</h1><p class="muted">Study all available topics with immediate explanations and citations.</p><p>{categories.map((category)=><span class="badge">{category.replaceAll('-',' ')}</span>)}</p><Quiz client:load questions={questions}/></section></BaseLayout>

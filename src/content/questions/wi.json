@@ -1,0 +1,238 @@
+[
+  {
+    "id": "wi-alcohol-drugs-001",
+    "category": "alcohol-drugs",
+    "stateScope": ["WI"],
+    "prompt": "In Wisconsin, a driver age 21 or older commits Operating While Intoxicated (OWI) when their blood alcohol concentration reaches:",
+    "options": ["0.10%", "0.08%", "0.05%", "0.02%"],
+    "correctIndex": 1,
+    "explanation": "Wisconsin's legal limit for drivers 21 and older is 0.08%. At or above that BAC a driver can be charged with OWI.",
+    "difficulty": "easy",
+    "references": [{ "label": "OWI limits", "citation": "Wisconsin Motorists' Handbook (BDS126), Alcohol, Drugs and Driving", "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "wi-alcohol-drugs-002",
+    "category": "alcohol-drugs",
+    "stateScope": ["WI"],
+    "prompt": "Under Wisconsin's Absolute Sobriety ('Not a Drop') law, a driver under 21 may not drive with a BAC of:",
+    "options": [
+      "0.08% or higher",
+      "0.05% or higher",
+      "0.02% or higher",
+      "Any amount above 0.00%"
+    ],
+    "correctIndex": 3,
+    "explanation": "Wisconsin's Absolute Sobriety law prohibits drivers under 21 from operating with any measurable alcohol in their system, so any BAC above 0.00% is a violation.",
+    "difficulty": "medium",
+    "references": [{ "label": "Absolute Sobriety", "citation": "Wisconsin Motorists' Handbook (BDS126), Alcohol, Drugs and Driving", "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "wi-penalties-points-001",
+    "category": "penalties-points",
+    "stateScope": ["WI"],
+    "prompt": "In Wisconsin, accumulating how many demerit points within a 12-month period leads to license suspension?",
+    "options": ["6 points", "8 points", "12 points", "15 points"],
+    "correctIndex": 2,
+    "explanation": "Wisconsin suspends a driver's license when 12 or more demerit points are accumulated within a 12-month period. The suspension length increases with more points.",
+    "difficulty": "medium",
+    "references": [{ "label": "Demerit points", "citation": "Wisconsin Motorists' Handbook (BDS126), Point System", "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "wi-penalties-points-002",
+    "category": "penalties-points",
+    "stateScope": ["WI"],
+    "prompt": "During the first year with a Wisconsin probationary license, demerit points for a conviction are:",
+    "options": [
+      "Reduced by half",
+      "Doubled for a second conviction within the year",
+      "Not counted at all",
+      "Always forgiven"
+    ],
+    "correctIndex": 1,
+    "explanation": "For probationary (new) drivers, Wisconsin doubles the demerit points for a second moving-violation conviction within a year, making a suspension more likely.",
+    "difficulty": "hard",
+    "references": [{ "label": "Probationary point doubling", "citation": "Wisconsin Motorists' Handbook (BDS126), Point System", "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "wi-gdl-teen-001",
+    "category": "gdl-teen",
+    "stateScope": ["WI"],
+    "prompt": "Before taking the driving test, a Wisconsin GDL applicant under 18 must complete how many hours of supervised behind-the-wheel practice?",
+    "options": ["20 hours", "30 hours", "50 hours", "60 hours"],
+    "correctIndex": 2,
+    "explanation": "Wisconsin requires 50 hours of supervised driving practice, at least 10 of which must be at night, before the driving skills test.",
+    "difficulty": "medium",
+    "references": [{ "label": "Practice requirement", "citation": "Wisconsin Motorists' Handbook (BDS126), Graduated Licensing", "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "wi-gdl-teen-002",
+    "category": "gdl-teen",
+    "stateScope": ["WI"],
+    "prompt": "During the first 9 months of a Wisconsin probationary license, the driver may carry:",
+    "options": [
+      "As many passengers as there are seat belts",
+      "Only immediate family plus one other passenger, unless a qualified adult is present",
+      "No passengers at all",
+      "Only passengers over 18"
+    ],
+    "correctIndex": 1,
+    "explanation": "For the first 9 months, a Wisconsin probationary driver may carry only immediate family members plus one additional passenger unless supervised. A parent, guardian, or spouse may qualify at 19; another qualified adult must be at least 21.",
+    "difficulty": "hard",
+    "references": [{ "label": "Passenger restriction", "citation": "Wisconsin Motorists' Handbook (BDS126), Graduated Licensing", "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "wi-gdl-teen-003",
+    "category": "gdl-teen",
+    "stateScope": ["WI"],
+    "prompt": "A Wisconsin probationary driver under 18 is restricted from driving during which nighttime hours (with limited exceptions)?",
+    "options": ["10 p.m. to 5 a.m.", "Midnight to 5 a.m.", "11 p.m. to 6 a.m.", "9 p.m. to 4 a.m."],
+    "correctIndex": 1,
+    "explanation": "For the first 9 months, Wisconsin probationary drivers under 18 may not drive between midnight and 5 a.m. unless driving to or from work, school, or a religious activity, or accompanied by a qualified adult.",
+    "difficulty": "medium",
+    "references": [{ "label": "Nighttime restriction", "citation": "Wisconsin Motorists' Handbook (BDS126), Graduated Licensing", "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "wi-gdl-teen-004",
+    "category": "gdl-teen",
+    "stateScope": ["WI"],
+    "prompt": "How long must a Wisconsin driver hold an instruction permit before taking the driving test for a probationary license?",
+    "options": ["30 days", "3 months", "6 months", "12 months"],
+    "correctIndex": 2,
+    "explanation": "A Wisconsin instruction permit must be held for at least 6 months (and the driver must be at least 16) before taking the road test for a probationary license.",
+    "difficulty": "medium",
+    "references": [{ "label": "Permit holding period", "citation": "Wisconsin Motorists' Handbook (BDS126), Graduated Licensing", "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "wi-speed-limits-001",
+    "category": "speed-limits",
+    "stateScope": ["WI"],
+    "prompt": "The maximum speed limit on rural Wisconsin interstate highways, where posted, is:",
+    "options": ["55 mph", "65 mph", "70 mph", "75 mph"],
+    "correctIndex": 2,
+    "explanation": "Wisconsin's maximum posted speed limit on rural interstate highways is 70 mph. Lower limits apply in urban areas and work zones.",
+    "difficulty": "easy",
+    "references": [{ "label": "Speed limits", "citation": "Wisconsin Motorists' Handbook (BDS126), Speed Limits", "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "wi-traffic-laws-001",
+    "category": "traffic-laws",
+    "stateScope": ["WI"],
+    "prompt": "Wisconsin's Move Over Law requires that when you approach a stopped emergency, tow, or highway maintenance vehicle with flashing lights, you:",
+    "options": [
+      "Come to a complete stop",
+      "Move over a lane if possible, or slow down if you cannot",
+      "Maintain your speed and stay in your lane",
+      "Turn on your hazard lights and continue"
+    ],
+    "correctIndex": 1,
+    "explanation": "Wisconsin law requires drivers to move into a lane away from the stopped vehicle when it is safe, or to slow down if changing lanes is not possible.",
+    "difficulty": "easy",
+    "references": [{ "label": "Move Over Law", "citation": "Wisconsin Motorists' Handbook (BDS126), Sharing the Road", "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "wi-traffic-laws-002",
+    "category": "traffic-laws",
+    "stateScope": ["WI"],
+    "prompt": "In Wisconsin, texting while driving is:",
+    "options": [
+      "Allowed for drivers over 18",
+      "Prohibited for all drivers",
+      "Allowed at stop signs",
+      "Only prohibited in school zones"
+    ],
+    "correctIndex": 1,
+    "explanation": "Wisconsin bans texting (composing or reading electronic messages) while driving for all drivers, and prohibits any cell phone use for drivers holding a probationary license or instruction permit.",
+    "difficulty": "medium",
+    "references": [{ "label": "Distracted driving", "citation": "Wisconsin Motorists' Handbook (BDS126), Distracted Driving", "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "wi-safe-driving-001",
+    "category": "safe-driving",
+    "stateScope": ["WI"],
+    "prompt": "In Wisconsin, you must turn on your headlights:",
+    "options": [
+      "Only between 11 p.m. and 5 a.m.",
+      "From one half-hour after sunset to one half-hour before sunrise, and when visibility is limited",
+      "Only during heavy rain",
+      "Only on freeways"
+    ],
+    "correctIndex": 1,
+    "explanation": "Wisconsin requires headlights from a half-hour after sunset until a half-hour before sunrise, and any time weather or conditions limit visibility to 500 feet or less.",
+    "difficulty": "medium",
+    "references": [{ "label": "Headlight use", "citation": "Wisconsin Motorists' Handbook (BDS126), Vehicle Lighting", "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "wi-right-of-way-001",
+    "category": "right-of-way",
+    "stateScope": ["WI"],
+    "prompt": "When you meet a stopped school bus with red lights flashing on an undivided Wisconsin road, you must:",
+    "options": [
+      "Slow to 10 mph and pass carefully",
+      "Stop at least 20 feet away in both directions until the lights stop flashing",
+      "Pass only on the left",
+      "Sound your horn and proceed"
+    ],
+    "correctIndex": 1,
+    "explanation": "On undivided roads in Wisconsin, traffic in both directions must stop at least 20 feet from a school bus with flashing red lights and remain stopped until the lights are off and the bus moves.",
+    "difficulty": "medium",
+    "references": [{ "label": "School buses", "citation": "Wisconsin Motorists' Handbook (BDS126), Sharing the Road", "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "wi-alcohol-drugs-003",
+    "category": "alcohol-drugs",
+    "stateScope": ["WI"],
+    "prompt": "Under Wisconsin's implied consent law, refusing an officer's lawful request for a chemical test results in:",
+    "options": [
+      "A verbal warning only",
+      "License revocation and possible ignition interlock",
+      "No consequence for a first refusal",
+      "A small fine only"
+    ],
+    "correctIndex": 1,
+    "explanation": "Driving in Wisconsin means you have consented to chemical testing. Refusing a lawful test leads to license revocation and can require an ignition interlock device, in addition to any OWI penalties.",
+    "difficulty": "medium",
+    "references": [{ "label": "Implied consent", "citation": "Wisconsin Motorists' Handbook (BDS126), Alcohol, Drugs and Driving", "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  }
+]

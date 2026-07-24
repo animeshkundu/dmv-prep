@@ -1,0 +1,91 @@
+{
+  "code": "AR",
+  "name": "Arkansas",
+  "agencyName": "Arkansas Department of Finance and Administration, Office of Motor Vehicle / Driver Services",
+  "agencyShort": "OMV",
+  "officialSiteUrl": "https://www.dfa.arkansas.gov/",
+  "handbookLandingUrl": "https://www.dps.arkansas.gov/law-enforcement/arkansas-state-police/services-programs/driver-examination/",
+  "handbookPdfUrl": "https://media.ark.org/dps/Arkansas-DL-Manual-English-1.pdf",
+  "handbookFormat": "pdf",
+  "handbookEditionYear": 2026,
+  "handbookCopyrightStatus": "unknown",
+  "applicantVariants": [
+    { "id": "under-18", "label": "Under 18 (instruction/learner then intermediate)" },
+    { "id": "adult", "label": "Adult (18+)" }
+  ],
+  "examVariants": [
+    {
+      "variantId": "adult",
+      "label": "Adult Class D knowledge (written) test",
+      "numQuestions": 25,
+      "numToPass": 20,
+      "languages": ["en", "es"],
+      "onlineAvailable": false
+    },
+    {
+      "variantId": "under-18",
+      "label": "Under-18 Class D knowledge (written) test",
+      "numQuestions": 25,
+      "numToPass": 20,
+      "languages": ["en", "es"],
+      "onlineAvailable": false
+    }
+  ],
+  "retake": {
+    "retakeFee": "$5 for each written examination"
+  },
+  "gdl": {
+    "permitMinAge": "14 (instruction permit)",
+    "provisionalMinAge": "16 (intermediate license)",
+    "fullLicenseMinAge": "18 (unrestricted)",
+    "permitHoldingPeriod": "6 months clean record before next stage",
+    "supervisedHoursRequired": "None specified by statute",
+    "nightCurfew": "No driving 11 p.m.-4 a.m. (intermediate license) unless with a licensed adult 21+, or for work/school/church/emergency",
+    "passengerLimits": "Intermediate drivers may not carry more than one passenger under 21 who is not a family member",
+    "driverEdRequired": false
+  },
+  "process": {
+    "appointmentRequired": "varies",
+    "requiredDocuments": [
+      "Proof of legal presence (e.g. U.S. birth certificate or U.S. passport)",
+      "Proof of identity (e.g. current license/ID, school ID, or marriage certificate)",
+      "Social Security card",
+      "Two proofs of Arkansas residency (e.g. utility bill, pay stub, bank statement)"
+    ],
+    "realIdNotes": "A REAL ID requires proof of legal presence, one proof of identity, a Social Security card, and two proofs of Arkansas residency. Use the state's online REAL ID quiz to confirm documents before visiting a Revenue Office.",
+    "permitFee": "$40 (1-year instruction permit)",
+    "licenseFee": "$40 (Class D, 8-year)",
+    "feesUrl": "https://www.dfa.arkansas.gov/office/driver-services/licenses-ids-permits/non-commercial-information-ncl/",
+    "visionTestRequired": true,
+    "visionStandard": "20/40 acuity (typical standard; exact threshold not published on the referenced pages)"
+  },
+  "facts": {
+    "bacLimitAdult": "0.08%",
+    "bacLimitCommercial": "0.04%",
+    "bacLimitUnder21": "0.02% (zero tolerance)",
+    "pointSystem": true,
+    "pointSuspensionThreshold": "14 or more points triggers a mandatory hearing; failure to appear leads to suspension (10 points draws a warning)",
+    "moveOverRule": "Move over a lane, or slow down if you cannot, for stopped emergency, law-enforcement, and tow/utility vehicles displaying flashing lights",
+    "interstateMaxSpeed": "75 mph (rural interstates, where posted)",
+    "schoolZoneSpeed": "25 mph when posted/flashing (varies by posted sign)",
+    "namedLaws": ["Move Over Law", "Zero Tolerance Law"]
+  },
+  "references": [
+    {
+      "label": "Arkansas Driver License Test Study Guide",
+      "citation": "Arkansas DL Study Guide (2026), Arkansas State Police Driver Examination",
+      "url": "https://media.ark.org/dps/Arkansas-DL-Manual-English-1.pdf"
+    },
+    {
+      "label": "Arkansas DFA Driver Services (fees / non-commercial license)",
+      "citation": "AR DFA Office of Motor Vehicle, Non-Commercial License information",
+      "url": "https://www.dfa.arkansas.gov/office/driver-services/licenses-ids-permits/non-commercial-information-ncl/"
+    }
+  ],
+  "effectiveDate": "2026-07-24",
+  "sourceSnapshotHash": "seed-pending-verification",
+  "reviewStatus": "draft",
+  "verifyNote": "The official Arkansas study guide confirms a $5 fee for each written examination, minimum licensing ages, and the 20/40 unrestricted vision standard, while DFA confirms the $40 Class D fee for ages 21+. The official sources reviewed do not publish the live Class D knowledge-test count/pass mark or a $40 instruction-permit fee; those figures remain unconfirmed.",
+  "lastVerified": "2026-07-24",
+  "contentVersion": 1
+}

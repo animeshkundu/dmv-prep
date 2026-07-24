@@ -1,0 +1,97 @@
+{
+  "code": "CO",
+  "name": "Colorado",
+  "agencyName": "Colorado Division of Motor Vehicles",
+  "agencyShort": "DMV",
+  "officialSiteUrl": "https://dmv.colorado.gov/",
+  "handbookLandingUrl": "https://dmv.colorado.gov/driver-handbook",
+  "handbookFormat": "mixed",
+  "handbookEditionYear": 2023,
+  "handbookCopyrightStatus": "unknown",
+  "applicantVariants": [
+    { "id": "under-18", "label": "Under 18 (Level 1 instruction permit)" },
+    { "id": "adult", "label": "Adult (18+)" }
+  ],
+  "examVariants": [
+    {
+      "variantId": "under-18",
+      "label": "Under-18 knowledge test",
+      "numQuestions": 25,
+      "numToPass": 20,
+      "languages": ["en", "es"],
+      "onlineAvailable": true
+    },
+    {
+      "variantId": "adult",
+      "label": "Adult knowledge test",
+      "numQuestions": 25,
+      "numToPass": 20,
+      "languages": ["en", "es"],
+      "onlineAvailable": true
+    }
+  ],
+  "retake": {
+    "waitBetweenAttempts": "Retest generally allowed the next day; office and online-vendor policy varies",
+    "retakeFee": "Additional testing fee may apply through third-party vendors"
+  },
+  "gdl": {
+    "permitMinAge": "15 (with driver education); 15 yrs 6 mo with driver awareness course",
+    "provisionalMinAge": "16",
+    "fullLicenseMinAge": "18",
+    "permitHoldingPeriod": "12 months (under 18)",
+    "supervisedHoursRequired": "50 hours (10 at night) with a supervising driver age 21+",
+    "nightHoursRequired": "10 hours",
+    "nightCurfew": "No driving midnight-5 a.m. for the first 12 months of licensing (exceptions for work, school, medical, or emergencies)",
+    "passengerLimits": "First 6 months: no passengers under 21. Second 6 months: no more than 1 passenger under 21 (family exceptions apply)",
+    "driverEdRequired": false
+  },
+  "process": {
+    "appointmentRequired": "encouraged",
+    "schedulingUrl": "https://dmv.colorado.gov/appointments",
+    "requiredDocuments": [
+      "Proof of identity (e.g. birth certificate or U.S. passport)",
+      "Proof of Social Security number",
+      "Proof of Colorado residency",
+      "Affidavit of Liability/Guardianship if under 18"
+    ],
+    "realIdNotes": "Colorado driver licenses and IDs are REAL ID compliant by default (a black star). Applicants provide proof of identity, Social Security number, and Colorado residency; a non-REAL-ID option is available on request.",
+    "permitFee": "$20.00 (instruction permit)",
+    "licenseFee": "$34.00 (minor/adult driver license)",
+    "feesUrl": "https://dmv.colorado.gov/state-dmv-fees",
+    "visionTestRequired": true,
+    "visionStandard": "20/40 in at least one eye, with or without corrective lenses"
+  },
+  "facts": {
+    "bacLimitAdult": "0.08% (DUI); 0.05% may support a DWAI charge",
+    "bacLimitCommercial": "0.04%",
+    "bacLimitUnder21": "0.02% (Underage Drinking and Driving)",
+    "pointSystem": true,
+    "pointSuspensionThreshold": "Adults 21+: 12 points in 12 months or 18 in 24 months. Under 18: 6 points in 12 months or 7 before age 18",
+    "moveOverRule": "Slow down and, when safe, move over one lane for stopped emergency, maintenance, tow, and utility vehicles displaying flashing lights",
+    "interstateMaxSpeed": "75 mph where posted",
+    "schoolZoneSpeed": "20 mph or as posted, with doubled fines",
+    "namedLaws": ["Express Consent Law", "Move Over Law", "Hands-Free Law"]
+  },
+  "references": [
+    {
+      "label": "Colorado Driver Handbook",
+      "citation": "Colorado DMV Driver Handbook",
+      "url": "https://dmv.colorado.gov/driver-handbooks"
+    },
+    {
+      "label": "Permits and First-Time Driver License",
+      "citation": "Colorado DMV first-time driver license page",
+      "url": "https://dmv.colorado.gov/permits-first-time-driver-license"
+    },
+    {
+      "label": "Driver License Fees",
+      "citation": "Colorado DMV fees page",
+      "url": "https://dmv.colorado.gov/fees"
+    }
+  ],
+  "effectiveDate": "2026-07-24",
+  "sourceSnapshotHash": "seed-pending-verification",
+  "reviewStatus": "adversarially-verified",
+  "lastVerified": "2026-07-24",
+  "contentVersion": 1
+}

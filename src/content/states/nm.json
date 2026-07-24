@@ -1,0 +1,92 @@
+{
+  "code": "NM",
+  "name": "New Mexico",
+  "agencyName": "New Mexico Motor Vehicle Division (Taxation and Revenue)",
+  "agencyShort": "MVD",
+  "officialSiteUrl": "https://www.mvd.newmexico.gov/",
+  "handbookLandingUrl": "https://www.mvd.newmexico.gov/resources/mvd-procedures-manuals/download-manuals/",
+  "handbookPdfUrl": "https://www.mvd.newmexico.gov/wp-content/uploads/2020/12/English-Drivers-Manualver11.19.19.pdf",
+  "handbookFormat": "pdf",
+  "handbookEditionYear": 2019,
+  "handbookCopyrightStatus": "unknown",
+  "applicantVariants": [
+    { "id": "under-18", "label": "Under 18 (instruction permit, graduated licensing)" },
+    { "id": "adult", "label": "Adult (18+) Class D knowledge test" }
+  ],
+  "examVariants": [
+    {
+      "variantId": "under-18",
+      "label": "Under-18 knowledge test (Class D)",
+      "numQuestions": 25,
+      "numToPass": 18,
+      "languages": ["en", "es"],
+      "onlineAvailable": false
+    },
+    {
+      "variantId": "adult",
+      "label": "Adult knowledge test (Class D)",
+      "numQuestions": 25,
+      "numToPass": 18,
+      "languages": ["en", "es"],
+      "onlineAvailable": false
+    }
+  ],
+  "retake": {
+    "waitBetweenAttempts": "Retake typically allowed after a short wait; confirm with your MVD field office",
+    "retakeFee": "May require a new test fee on additional attempts"
+  },
+  "gdl": {
+    "permitMinAge": "15 (driver education enrollment required for under 18)",
+    "provisionalMinAge": "15 yrs 6 mo",
+    "fullLicenseMinAge": "16 yrs 6 mo (or licensed 12 months)",
+    "permitHoldingPeriod": "6 months",
+    "supervisedHoursRequired": "50 hours (10 at night)",
+    "nightHoursRequired": "10 hours",
+    "nightCurfew": "No driving midnight-5 a.m. on a provisional license (with exceptions)",
+    "passengerLimits": "No more than one passenger under 21 on a provisional license (with exceptions)",
+    "driverEdRequired": true
+  },
+  "process": {
+    "appointmentRequired": "encouraged",
+    "requiredDocuments": [
+      "Proof of identification number (e.g. Social Security card)",
+      "Proof of identity and age (e.g. certified birth certificate or U.S. passport)",
+      "Two proofs of New Mexico residency (for a REAL ID)",
+      "Proof of enrollment or graduation (applicants under 18)"
+    ],
+    "realIdNotes": "A New Mexico REAL ID requires proof of identity, proof of your identification/Social Security number, and two documents proving New Mexico residency. A non-REAL ID (standard) credential is also offered.",
+    "permitFee": "$10 (instructional permit)",
+    "licenseFee": "$18 (4-year) or $34 (8-year); provisional license $18",
+    "feesUrl": "https://www.mvd.newmexico.gov/nm-drivers-licenses-ids/drivers-license/apply-for-a-learners-permit/",
+    "visionTestRequired": true,
+    "visionStandard": "At least 20/40 in one or both eyes, with or without corrective lenses"
+  },
+  "facts": {
+    "bacLimitAdult": "0.08%",
+    "bacLimitCommercial": "0.04%",
+    "bacLimitUnder21": "0.02% (zero tolerance)",
+    "pointSystem": true,
+    "pointSuspensionThreshold": "12 points in 12 months triggers a one-year suspension; 7 or more points may lead to a hearing",
+    "moveOverRule": "Move over a lane or slow down for stopped emergency, police, and highway maintenance vehicles displaying flashing lights",
+    "interstateMaxSpeed": "75 mph",
+    "schoolZoneSpeed": "15 mph in a marked school zone during posted hours (unless otherwise posted)",
+    "namedLaws": ["Statewide texting ban", "Move Over Law", "Zero Tolerance Law"]
+  },
+  "references": [
+    {
+      "label": "New Mexico Driver Manual",
+      "citation": "NM MVD Driver Manual (2019 ed.)",
+      "url": "https://www.mvd.newmexico.gov/wp-content/uploads/2020/12/English-Drivers-Manualver11.19.19.pdf"
+    },
+    {
+      "label": "MVD Download Manuals",
+      "citation": "NM MVD Download Manuals page",
+      "url": "https://www.mvd.newmexico.gov/resources/mvd-procedures-manuals/download-manuals/"
+    }
+  ],
+  "effectiveDate": "2026-07-24",
+  "sourceSnapshotHash": "seed-pending-verification",
+  "reviewStatus": "adversarially-verified",
+  "lastVerified": "2026-07-24",
+  "contentVersion": 1
+}

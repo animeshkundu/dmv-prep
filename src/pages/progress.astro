@@ -1,0 +1,4 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro'; import ProgressDashboard from '../islands/ProgressDashboard'; import '../styles/pages.css';
+---
+<BaseLayout title="My progress"><section class="study-shell"><h1>My progress</h1><p class="muted">Stored privately on this device.</p><ProgressDashboard client:load/></section></BaseLayout>

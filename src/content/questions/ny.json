@@ -1,0 +1,267 @@
+[
+  {
+    "id": "ny-safe-001",
+    "category": "safe-driving",
+    "stateScope": ["NY"],
+    "prompt": "The New York written knowledge test has 20 questions. To pass you must answer at least 14 correctly and also:",
+    "options": [
+      "Get every road-sign question right",
+      "Answer at least 2 of the 4 road-sign questions correctly",
+      "Finish within 10 minutes",
+      "Answer all 20 correctly"
+    ],
+    "correctIndex": 1,
+    "explanation": "New York's 20-question written test requires 14 correct answers to pass, and at least 2 of the 4 road-sign questions must be answered correctly.",
+    "difficulty": "medium",
+    "references": [{ "label": "Written test", "citation": "New York State Driver's Manual (MV-21), The Written Test", "url": "https://dmv.ny.gov/brochure/mv21.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ny-speed-001",
+    "category": "speed-limits",
+    "stateScope": ["NY"],
+    "prompt": "The highest speed limit posted on portions of New York State highways, including parts of the Thruway, is:",
+    "options": ["55 mph", "60 mph", "65 mph", "70 mph"],
+    "correctIndex": 2,
+    "explanation": "New York's maximum posted speed limit is 65 mph, found on portions of the Thruway and other highways. Many roads are posted lower.",
+    "difficulty": "easy",
+    "references": [{ "label": "Speed limits", "citation": "New York State Driver's Manual (MV-21), Speed Limits", "url": "https://dmv.ny.gov/brochure/mv21.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ny-speed-002",
+    "category": "speed-limits",
+    "stateScope": ["NY"],
+    "prompt": "Unless a different limit is posted, the default city speed limit in New York City is:",
+    "options": ["20 mph", "25 mph", "30 mph", "35 mph"],
+    "correctIndex": 1,
+    "explanation": "New York City's default speed limit is 25 mph unless a different limit is posted. School zones and other areas may be lower.",
+    "difficulty": "medium",
+    "references": [{ "label": "City speed", "citation": "New York State Driver's Manual (MV-21), Speed Limits", "url": "https://dmv.ny.gov/brochure/mv21.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ny-alc-001",
+    "category": "alcohol-drugs",
+    "stateScope": ["NY"],
+    "prompt": "Under New York's Zero Tolerance Law, a driver under 21 can lose their license for driving with a BAC of:",
+    "options": ["0.08% or higher", "0.05% or higher", "0.02% or higher", "any amount at all"],
+    "correctIndex": 2,
+    "explanation": "New York's Zero Tolerance Law applies to drivers under 21 who drive with a BAC of 0.02% to 0.07%, resulting in license suspension.",
+    "difficulty": "medium",
+    "references": [{ "label": "Zero tolerance", "citation": "New York State Driver's Manual (MV-21), Alcohol and Other Drugs", "url": "https://dmv.ny.gov/brochure/mv21.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ny-alc-002",
+    "category": "alcohol-drugs",
+    "stateScope": ["NY"],
+    "prompt": "In New York, a driver 21 or older is charged with Driving While Intoxicated (DWI) at a BAC of:",
+    "options": ["0.05%", "0.08%", "0.10%", "0.04%"],
+    "correctIndex": 1,
+    "explanation": "A BAC of 0.08% or higher is DWI in New York. A very high BAC of 0.18% or more is charged as Aggravated DWI.",
+    "difficulty": "easy",
+    "references": [{ "label": "DWI limit", "citation": "New York State Driver's Manual (MV-21), Alcohol and Other Drugs", "url": "https://dmv.ny.gov/brochure/mv21.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ny-alc-003",
+    "category": "alcohol-drugs",
+    "stateScope": ["NY"],
+    "prompt": "Under New York's Leandra's Law, driving while intoxicated with a passenger age 15 or younger is:",
+    "options": [
+      "A warning on the first offense",
+      "Charged as a felony, even on a first offense",
+      "Only a traffic ticket",
+      "Legal if the child is asleep"
+    ],
+    "correctIndex": 1,
+    "explanation": "Leandra's Law makes it an automatic felony to drive while intoxicated with a child 15 or younger in the vehicle, even for a first offense.",
+    "difficulty": "hard",
+    "references": [{ "label": "Leandra's Law", "citation": "New York State Driver's Manual (MV-21), Alcohol and Other Drugs", "url": "https://dmv.ny.gov/brochure/mv21.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ny-penalties-001",
+    "category": "penalties-points",
+    "stateScope": ["NY"],
+    "prompt": "In New York, your driver license may be suspended if you accumulate:",
+    "options": [
+      "6 points within 12 months",
+      "11 points within 18 months",
+      "3 points within 6 months",
+      "20 points within 5 years"
+    ],
+    "correctIndex": 1,
+    "explanation": "New York may suspend your license if you accumulate 11 points within a 24-month period. Points are counted from the date of the violation.",
+    "difficulty": "hard",
+    "references": [{ "label": "Point system", "citation": "NY DMV Driver Point System", "url": "https://dmv.ny.gov/points-and-penalties/the-new-york-state-driver-point-system" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ny-penalties-002",
+    "category": "penalties-points",
+    "stateScope": ["NY"],
+    "prompt": "In New York, receiving 6 or more points on your driving record within 18 months requires you to:",
+    "options": [
+      "Retake the road test",
+      "Pay a Driver Responsibility Assessment",
+      "Surrender your license permanently",
+      "Attend traffic court weekly"
+    ],
+    "correctIndex": 1,
+    "explanation": "Drivers who receive 6 or more points within 18 months must pay a Driver Responsibility Assessment fee to the NY DMV, separate from any fines.",
+    "difficulty": "medium",
+    "references": [{ "label": "Driver Responsibility Assessment", "citation": "NY DMV Driver Point System", "url": "https://dmv.ny.gov/points-and-penalties/the-new-york-state-driver-point-system" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ny-laws-001",
+    "category": "traffic-laws",
+    "stateScope": ["NY"],
+    "prompt": "The New York law that requires drivers to use caution and move over for stopped emergency and hazard vehicles with flashing lights is known as the:",
+    "options": [
+      "Basic Speed Law",
+      "Ambrose-Searles Move Over Act",
+      "Complete Streets Act",
+      "Dram Shop Law"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Ambrose-Searles Move Over Act requires drivers to exercise due care and move over for stopped emergency, hazard, and maintenance vehicles displaying flashing lights.",
+    "difficulty": "medium",
+    "references": [{ "label": "Move Over Act", "citation": "New York State Driver's Manual (MV-21), Move Over Law", "url": "https://dmv.ny.gov/brochure/mv21.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ny-laws-002",
+    "category": "traffic-laws",
+    "stateScope": ["NY"],
+    "prompt": "In New York, using a handheld cell phone or texting while driving is:",
+    "options": [
+      "Allowed for drivers over 18",
+      "Illegal; phones must be used hands-free",
+      "Allowed while stopped at a red light",
+      "Only illegal in New York City"
+    ],
+    "correctIndex": 1,
+    "explanation": "New York prohibits holding a phone or other portable electronic device while driving statewide. Phones may only be used in a hands-free manner.",
+    "difficulty": "easy",
+    "references": [{ "label": "Cell phone law", "citation": "New York State Driver's Manual (MV-21), Distracted Driving", "url": "https://dmv.ny.gov/brochure/mv21.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ny-gdl-001",
+    "category": "gdl-teen",
+    "stateScope": ["NY"],
+    "prompt": "A New York junior (Class DJ) license holder may generally carry no more than:",
+    "options": [
+      "One passenger under 21 who is not an immediate family member",
+      "Four passengers of any age",
+      "Two passengers under 18",
+      "No passengers at all, ever"
+    ],
+    "correctIndex": 0,
+    "explanation": "Outside New York City, a New York junior license holder may carry no more than one passenger under age 21 unless the additional passengers are immediate family members.",
+    "difficulty": "medium",
+    "references": [{ "label": "Junior license", "citation": "New York State Driver's Manual (MV-21), Junior Licenses", "url": "https://dmv.ny.gov/brochure/mv21.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ny-gdl-002",
+    "category": "gdl-teen",
+    "stateScope": ["NY"],
+    "prompt": "In New York City, a New York junior (Class DJ or MJ) license holder:",
+    "options": [
+      "May drive unsupervised any time",
+      "May not drive at all, even with supervision",
+      "May drive only during daylight",
+      "May drive only on weekends"
+    ],
+    "correctIndex": 1,
+    "explanation": "A junior license does not authorize driving in New York City. A junior learner permit holder may practice there only from 5 a.m. to 9 p.m. under the required supervision in a dual-control vehicle.",
+    "difficulty": "hard",
+    "references": [{ "label": "Junior license", "citation": "New York State Driver's Manual (MV-21), Junior Licenses", "url": "https://dmv.ny.gov/brochure/mv21.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ny-gdl-003",
+    "category": "gdl-teen",
+    "stateScope": ["NY"],
+    "prompt": "Before taking the road test, a New York learner permit holder under 18 must complete supervised driving of at least:",
+    "options": [
+      "20 hours, none at night",
+      "50 hours, including 15 at night",
+      "30 hours, including 10 at night",
+      "10 hours total"
+    ],
+    "correctIndex": 1,
+    "explanation": "New York requires at least 50 hours of supervised practice driving, including 15 hours after sunset, certified on form MV-262, before the road test.",
+    "difficulty": "medium",
+    "references": [{ "label": "Supervised hours", "citation": "New York State Driver's Manual (MV-21), Getting Your License", "url": "https://dmv.ny.gov/brochure/mv21.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ny-gdl-004",
+    "category": "gdl-teen",
+    "stateScope": ["NY"],
+    "prompt": "In New York, a 17-year-old can upgrade from a junior license to a full (senior) license if they:",
+    "options": [
+      "Pay an extra fee only",
+      "Complete a state-approved driver education course and receive a certificate (MV-285)",
+      "Wait until their next birthday",
+      "Drive 500 miles"
+    ],
+    "correctIndex": 1,
+    "explanation": "A New York 17-year-old who completes an approved driver education course receives a certificate (MV-285) that upgrades a junior license to a full license; otherwise the junior restrictions apply until age 18.",
+    "difficulty": "medium",
+    "references": [{ "label": "Driver education", "citation": "New York State Driver's Manual (MV-21), Junior Licenses", "url": "https://dmv.ny.gov/brochure/mv21.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ny-signs-001",
+    "category": "road-signs",
+    "stateScope": ["NY"],
+    "prompt": "In New York, a yellow, diamond-shaped sign is used to:",
+    "options": [
+      "Give a regulation you must obey by law",
+      "Warn of a hazard or a change in road conditions ahead",
+      "Mark a highway exit number",
+      "Show a place of interest"
+    ],
+    "correctIndex": 1,
+    "explanation": "Yellow diamond-shaped signs are warning signs that alert you to hazards or changes ahead, such as curves, intersections, or merging traffic. Knowing sign shapes and colors helps with the road-sign portion of the NY test.",
+    "difficulty": "easy",
+    "references": [{ "label": "Warning signs", "citation": "New York State Driver's Manual (MV-21), Traffic Signs", "url": "https://dmv.ny.gov/brochure/mv21.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  }
+]

@@ -1,0 +1,85 @@
+{
+  "code": "LA",
+  "name": "Louisiana",
+  "agencyName": "Louisiana Office of Motor Vehicles",
+  "agencyShort": "OMV",
+  "officialSiteUrl": "https://expresslane.la.gov/OMV",
+  "handbookLandingUrl": "https://expresslane.la.gov/omv/resources/driver-manuals/",
+  "handbookFormat": "pdf",
+  "handbookEditionYear": 2024,
+  "handbookCopyrightStatus": "terms-of-use",
+  "applicantVariants": [
+    { "id": "under-18", "label": "Under 18 (learner's permit / intermediate license, driver ed required)" },
+    { "id": "adult", "label": "Adult (18+)" }
+  ],
+  "examVariants": [
+    {
+      "variantId": "class-e",
+      "label": "Class D/E knowledge test (all ages)",
+      "numQuestions": 40,
+      "numToPass": 32,
+      "languages": ["en"],
+      "onlineAvailable": false
+    }
+  ],
+  "retake": {
+    "waitBetweenAttempts": "Varies by office",
+    "retakeFee": "Testing fee may apply per attempt"
+  },
+  "gdl": {
+    "permitMinAge": "15 (must complete or be enrolled in driver education)",
+    "provisionalMinAge": "16 (intermediate license)",
+    "fullLicenseMinAge": "17 (full Class E license)",
+    "permitHoldingPeriod": "6 months (minors)",
+    "supervisedHoursRequired": "50 hours (including 15 at night)",
+    "nightHoursRequired": "15 hours",
+    "nightCurfew": "Intermediate: no driving 11 p.m.-5 a.m. unless accompanied by a licensed adult 21+",
+    "passengerLimits": "Intermediate: between 6 p.m. and 5 a.m., no more than 1 passenger under 21 unless accompanied by a licensed adult 21+",
+    "driverEdRequired": true
+  },
+  "process": {
+    "appointmentRequired": "encouraged",
+    "schedulingUrl": "https://expresslane.la.gov/OMV",
+    "requiredDocuments": [
+      "Proof of identity (e.g. certified birth certificate or U.S. passport)",
+      "Proof of Social Security Number",
+      "Two proofs of Louisiana residency",
+      "Driver education certificate (applicants under 18)"
+    ],
+    "realIdNotes": "REAL ID-compliant licenses require proof of identity/legal presence, one proof of SSN, and two proofs of Louisiana residency.",
+    "permitFee": "$32.25 Temporary Instructional Permit base fee; no additional fee to convert to a learner's permit (local service fees may apply)",
+    "licenseFee": "$32.25 Class E base fee through age 69; $18.75 age 70+ (local service fees may apply)",
+    "feesUrl": "https://expresslane.la.gov/omv/resources/fees/",
+    "visionTestRequired": true,
+    "visionStandard": "20/40 in at least one eye (with or without corrective lenses) for an unrestricted license"
+  },
+  "facts": {
+    "bacLimitAdult": "0.08%",
+    "bacLimitCommercial": "0.04%",
+    "bacLimitUnder21": "0.02% (zero tolerance)",
+    "pointSystem": false,
+    "pointSuspensionThreshold": "No traditional point system; suspensions are triggered by specific convictions and accumulated offenses",
+    "moveOverRule": "Move over one lane, or slow down if you cannot safely change lanes, for stopped emergency, law-enforcement, and utility vehicles displaying flashing lights",
+    "interstateMaxSpeed": "70 mph",
+    "schoolZoneSpeed": "Reduced posted limit during posted hours (commonly 25 mph where posted)",
+    "namedLaws": ["Move Over Law", "Texting-while-driving ban (R.S. 32:300.5)"]
+  },
+  "references": [
+    {
+      "label": "Louisiana Class D & E Driver's Guide",
+      "citation": "Louisiana OMV Driver's Guide",
+      "url": "https://expresslane.la.gov/omv/resources/driver-manuals/"
+    },
+    {
+      "label": "Graduated Driver License",
+      "citation": "IIHS Graduated Licensing Laws Table (Louisiana)",
+      "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table"
+    }
+  ],
+  "effectiveDate": "2026-07-24",
+  "sourceSnapshotHash": "seed-pending-verification",
+  "reviewStatus": "draft",
+  "verifyNote": "Louisiana OMV officially confirms fees and GDL ages/hours, but its accessible official pages and Class D/E guide landing page do not directly state the 40-question/32-correct exam format; retain pending direct official confirmation.",
+  "lastVerified": "2026-07-24",
+  "contentVersion": 1
+}

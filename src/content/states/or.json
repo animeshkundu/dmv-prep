@@ -1,0 +1,92 @@
+{
+  "code": "OR",
+  "name": "Oregon",
+  "agencyName": "Oregon Driver and Motor Vehicle Services (DMV)",
+  "agencyShort": "DMV",
+  "officialSiteUrl": "https://www.oregon.gov/odot/dmv/",
+  "handbookLandingUrl": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx",
+  "handbookFormat": "mixed",
+  "handbookEditionYear": 2024,
+  "handbookCopyrightStatus": "terms-of-use",
+  "applicantVariants": [
+    { "id": "under-18", "label": "Under 18 (provisional / instruction permit)" },
+    { "id": "adult", "label": "Adult (18+)" }
+  ],
+  "examVariants": [
+    {
+      "variantId": "under-18",
+      "label": "Under-18 knowledge test (Class C)",
+      "numQuestions": 35,
+      "numToPass": 28,
+      "languages": ["en", "es"],
+      "onlineAvailable": true
+    },
+    {
+      "variantId": "adult",
+      "label": "Adult knowledge test (Class C)",
+      "numQuestions": 35,
+      "numToPass": 28,
+      "languages": ["en", "es"],
+      "onlineAvailable": true
+    }
+  ],
+  "retake": {
+    "waitBetweenAttempts": "Online: up to 2 attempts per 24 hours, 4 attempts total before you must test in a DMV office",
+    "attemptCapPeriod": "4 online attempts, then in-office testing required",
+    "retakeFee": "$7 knowledge-test fee per attempt"
+  },
+  "gdl": {
+    "permitMinAge": "15",
+    "provisionalMinAge": "16",
+    "fullLicenseMinAge": "18",
+    "permitHoldingPeriod": "6 months before the provisional license (minors)",
+    "supervisedHoursRequired": "50 hours with driver education, or 100 hours without",
+    "nightCurfew": "First year: no driving 12 a.m.-5 a.m. unless an exception applies",
+    "passengerLimits": "First 6 months: no passengers under 20 (except immediate family). Second 6 months: no more than 3 passengers under 20 (except immediate family).",
+    "driverEdRequired": false
+  },
+  "process": {
+    "appointmentRequired": "encouraged",
+    "schedulingUrl": "https://www.oregon.gov/odot/dmv/pages/index.aspx",
+    "requiredDocuments": [
+      "Proof of identity and date of birth (e.g. birth certificate or passport)",
+      "Proof of a Social Security Number",
+      "Proof of Oregon residency address",
+      "Second document proving residence address (for REAL ID)"
+    ],
+    "realIdNotes": "Oregon offers an optional REAL ID marked with a star. A REAL ID requires proof of identity, Social Security Number, and two documents proving Oregon residence address. REAL ID is required to board domestic flights.",
+    "permitFee": "$30 (instruction permit), plus $7 per knowledge-test attempt",
+    "licenseFee": "$58 (original Class C driver license)",
+    "feesUrl": "https://www.oregon.gov/odot/dmv/pages/fees/index.aspx",
+    "visionTestRequired": true,
+    "visionStandard": "20/40 in at least one eye, with or without corrective lenses"
+  },
+  "facts": {
+    "bacLimitAdult": "0.08%",
+    "bacLimitCommercial": "0.04%",
+    "bacLimitUnder21": "Any measurable amount (zero tolerance)",
+    "pointSystem": false,
+    "pointSuspensionThreshold": "No numeric point system; suspensions are based on the number and type of convictions and crashes under the Driver Improvement Program",
+    "moveOverRule": "Move over one lane, or slow down if you cannot move over safely, for stopped emergency, tow, and roadside-assistance vehicles displaying warning lights",
+    "interstateMaxSpeed": "65 mph (70 mph on some rural eastern Oregon segments)",
+    "schoolZoneSpeed": "20 mph when children are present or during posted hours",
+    "namedLaws": ["Basic Rule (speed)", "Move Over Law", "Hands-Free Distracted Driving Law"]
+  },
+  "references": [
+    {
+      "label": "Oregon Driver Manual",
+      "citation": "Oregon Driver Manual (2024)",
+      "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx"
+    },
+    {
+      "label": "Knowledge test / testing",
+      "citation": "Oregon Driver Manual, Testing",
+      "url": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Testing.aspx"
+    }
+  ],
+  "effectiveDate": "2026-07-24",
+  "sourceSnapshotHash": "seed-pending-verification",
+  "reviewStatus": "adversarially-verified",
+  "lastVerified": "2026-07-24",
+  "contentVersion": 1
+}

@@ -1,0 +1,243 @@
+[
+  {
+    "id": "mt-speed-001",
+    "category": "speed-limits",
+    "stateScope": ["MT"],
+    "prompt": "On a rural Montana interstate highway, unless a lower limit is posted, the daytime speed limit for cars is:",
+    "options": ["65 mph", "70 mph", "75 mph", "80 mph"],
+    "correctIndex": 3,
+    "explanation": "Montana law sets 80 mph as the top speed limit for passenger cars on rural interstate highways, day or night, unless a lower speed is posted (for example, 65 mph through larger urban areas).",
+    "difficulty": "medium",
+    "references": [{ "label": "Speed restrictions", "citation": "MCA 61-8-303; Montana Driver Manual, Speed Limits", "url": "https://mvdmt.gov/wp-content/uploads/2026/05/25-0100M-Montana-Driver-Manual-English-05.26.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "mt-speed-002",
+    "category": "speed-limits",
+    "stateScope": ["MT"],
+    "prompt": "Under Montana's basic rule for speed, a driver must:",
+    "options": [
+      "Always drive the posted maximum limit to keep up with traffic",
+      "Drive at a speed that is reasonable and prudent for existing conditions",
+      "Never exceed 55 mph anywhere in the state",
+      "Drive 5 mph below the limit at all times"
+    ],
+    "correctIndex": 1,
+    "explanation": "Montana's basic rule requires driving at a speed that is reasonable and prudent for road, weather, traffic, and visibility conditions. The posted number is a maximum for ideal conditions, not a safe speed in rain, snow, or fog.",
+    "difficulty": "medium",
+    "references": [{ "label": "Basic rule", "citation": "Montana Driver Manual, Speed Limits", "url": "https://mvdmt.gov/wp-content/uploads/2026/05/25-0100M-Montana-Driver-Manual-English-05.26.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "mt-alc-001",
+    "category": "alcohol-drugs",
+    "stateScope": ["MT"],
+    "prompt": "In Montana, a driver under 21 can be charged for driving with a blood alcohol concentration (BAC) as low as:",
+    "options": ["0.08%", "0.05%", "0.02%", "0.04%"],
+    "correctIndex": 2,
+    "explanation": "Montana has a zero-tolerance law for drivers under 21: a BAC of 0.02% or higher can result in a DUI-per-se charge and license suspension, well below the 0.08% adult limit.",
+    "difficulty": "medium",
+    "references": [{ "label": "Zero tolerance", "citation": "Montana Driver Manual, Alcohol and Driving", "url": "https://mvdmt.gov/wp-content/uploads/2026/05/25-0100M-Montana-Driver-Manual-English-05.26.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "mt-alc-002",
+    "category": "alcohol-drugs",
+    "stateScope": ["MT"],
+    "prompt": "For a driver 21 or older operating a passenger vehicle in Montana, the blood alcohol concentration (BAC) at which they are considered legally impaired (per se) is:",
+    "options": ["0.10%", "0.08%", "0.05%", "0.04%"],
+    "correctIndex": 1,
+    "explanation": "The per-se limit for drivers 21 and older is 0.08%. Commercial drivers are held to 0.04%, and drivers under 21 to 0.02%.",
+    "difficulty": "easy",
+    "references": [{ "label": "BAC limits", "citation": "Montana Driver Manual, Alcohol and Driving", "url": "https://mvdmt.gov/wp-content/uploads/2026/05/25-0100M-Montana-Driver-Manual-English-05.26.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "mt-gdl-001",
+    "category": "gdl-teen",
+    "stateScope": ["MT"],
+    "prompt": "Through the Montana Traffic Education Program, the youngest age at which a teen can obtain a learner license is:",
+    "options": ["14 years 6 months", "15 years", "16 years", "13 years"],
+    "correctIndex": 0,
+    "explanation": "Teens enrolled in an approved traffic education course may apply for a Montana learner license at 14 years 6 months. The learner license must be held before moving on to a restricted license.",
+    "difficulty": "medium",
+    "references": [{ "label": "Graduated licensing", "citation": "IIHS Graduated Licensing Laws Table (Montana); Montana Driver Manual", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "mt-gdl-002",
+    "category": "gdl-teen",
+    "stateScope": ["MT"],
+    "prompt": "During the first 6 months of a Montana restricted (graduated) license, the driver may carry no more than:",
+    "options": [
+      "No passengers at all",
+      "One passenger under 18 who is not immediate family",
+      "Three passengers under 18",
+      "Any number of passengers"
+    ],
+    "correctIndex": 1,
+    "explanation": "For the first 6 months of the restricted license, a young driver may carry no more than one passenger under 18 who is not a member of the immediate family. The limit rises to three such passengers during the next 6 months.",
+    "difficulty": "hard",
+    "references": [{ "label": "Passenger limits", "citation": "IIHS Graduated Licensing Laws Table (Montana); Montana Driver Manual", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "mt-gdl-003",
+    "category": "gdl-teen",
+    "stateScope": ["MT"],
+    "prompt": "Unless an exception applies, a Montana graduated-license holder generally may not drive between:",
+    "options": ["9 p.m. and 6 a.m.", "11 p.m. and 5 a.m.", "Midnight and 4 a.m.", "10 p.m. and 6 a.m."],
+    "correctIndex": 1,
+    "explanation": "Montana's nighttime restriction for graduated-license drivers prohibits driving between 11 p.m. and 5 a.m., unless a listed exception (such as employment or an emergency) applies.",
+    "difficulty": "medium",
+    "references": [{ "label": "Nighttime restriction", "citation": "IIHS Graduated Licensing Laws Table (Montana); Montana Driver Manual", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "mt-laws-001",
+    "category": "traffic-laws",
+    "stateScope": ["MT"],
+    "prompt": "Under Montana's Move Over Law, when you approach a stopped emergency or law enforcement vehicle with flashing lights on a multi-lane road, you must:",
+    "options": [
+      "Speed up to clear the area quickly",
+      "Move over one lane away if you can do so safely, otherwise slow down",
+      "Stop completely until the vehicle leaves",
+      "Sound your horn and continue at the same speed"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Move Over Law requires you to change one lane away from a stopped emergency, law enforcement, or authorized vehicle displaying flashing lights when it is safe. If you cannot move over, you must slow down and pass with caution.",
+    "difficulty": "easy",
+    "references": [{ "label": "Move Over Law", "citation": "Montana Driver Manual, Sharing the Road / Emergency Vehicles", "url": "https://mvdmt.gov/wp-content/uploads/2026/05/25-0100M-Montana-Driver-Manual-English-05.26.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "mt-safe-001",
+    "category": "safe-driving",
+    "stateScope": ["MT"],
+    "prompt": "In Montana, before you begin driving, seat belts must be:",
+    "options": [
+      "Worn only by the driver",
+      "Worn by the driver and all passengers as required by law",
+      "Optional on rural roads",
+      "Worn only on the interstate"
+    ],
+    "correctIndex": 1,
+    "explanation": "Montana's seat belt law requires the driver and passengers to be properly restrained. Children must be secured in an appropriate child safety restraint. Buckling up is the single most effective way to reduce injury in a crash.",
+    "difficulty": "easy",
+    "references": [{ "label": "Occupant protection", "citation": "Montana Driver Manual, Safe Driving / Seat Belts", "url": "https://mvdmt.gov/wp-content/uploads/2026/05/25-0100M-Montana-Driver-Manual-English-05.26.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "mt-signs-001",
+    "category": "road-signs",
+    "stateScope": ["MT"],
+    "prompt": "A diamond-shaped sign with a yellow background and black symbols is used to:",
+    "options": [
+      "Give a regulatory order you must obey",
+      "Warn you of possible hazards or changing road conditions ahead",
+      "Provide route or destination information",
+      "Mark a construction work zone"
+    ],
+    "correctIndex": 1,
+    "explanation": "Yellow diamond-shaped signs are warning signs. They alert you to conditions ahead such as curves, intersections, or animal crossings so you can slow down and prepare. Orange diamonds are used for construction zones.",
+    "difficulty": "easy",
+    "references": [{ "label": "Warning signs", "citation": "Montana Driver Manual, Traffic Signs (MUTCD colors/shapes)", "url": "https://mvdmt.gov/wp-content/uploads/2026/05/25-0100M-Montana-Driver-Manual-English-05.26.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "mt-row-001",
+    "category": "right-of-way",
+    "stateScope": ["MT"],
+    "prompt": "At an uncontrolled intersection where two vehicles arrive at about the same time, the driver must yield to:",
+    "options": [
+      "The vehicle on the left",
+      "The vehicle on the right",
+      "The larger vehicle",
+      "Whoever accelerates first"
+    ],
+    "correctIndex": 1,
+    "explanation": "When there are no signs or signals and two vehicles reach the intersection at roughly the same time, the driver on the left must yield to the vehicle on the right.",
+    "difficulty": "medium",
+    "references": [{ "label": "Right of way", "citation": "Montana Driver Manual, Right-of-Way Rules", "url": "https://mvdmt.gov/wp-content/uploads/2026/05/25-0100M-Montana-Driver-Manual-English-05.26.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "mt-share-001",
+    "category": "sharing-the-road",
+    "stateScope": ["MT"],
+    "prompt": "When sharing the road with a motorcycle in Montana, you should:",
+    "options": [
+      "Follow more closely than you would a car",
+      "Allow a full lane and increase your following distance",
+      "Share the same lane side by side",
+      "Pass without signaling since motorcycles are small"
+    ],
+    "correctIndex": 1,
+    "explanation": "A motorcycle is entitled to the full width of a lane. Give motorcyclists the same following distance you would give a car, or more, because they can stop quickly and are harder to see.",
+    "difficulty": "easy",
+    "references": [{ "label": "Sharing the road", "citation": "Montana Driver Manual, Sharing the Road with Motorcycles", "url": "https://mvdmt.gov/wp-content/uploads/2026/05/25-0100M-Montana-Driver-Manual-English-05.26.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "mt-mark-001",
+    "category": "pavement-markings",
+    "stateScope": ["MT"],
+    "prompt": "A solid yellow line on your side of the center of a two-way road means:",
+    "options": [
+      "You may pass when the road is clear",
+      "You may not pass in that direction",
+      "The road is one-way",
+      "You must stop ahead"
+    ],
+    "correctIndex": 1,
+    "explanation": "A solid yellow line on your side of the centerline means passing is not allowed in your direction. Yellow lines separate traffic moving in opposite directions.",
+    "difficulty": "easy",
+    "references": [{ "label": "Pavement markings", "citation": "Montana Driver Manual, Pavement Markings", "url": "https://mvdmt.gov/wp-content/uploads/2026/05/25-0100M-Montana-Driver-Manual-English-05.26.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "mt-sig-001",
+    "category": "traffic-signals",
+    "stateScope": ["MT"],
+    "prompt": "A flashing red traffic signal means:",
+    "options": [
+      "Slow down and proceed with caution",
+      "Stop, then proceed when it is safe, as at a stop sign",
+      "The signal is out of order, so speed up",
+      "Go without stopping"
+    ],
+    "correctIndex": 1,
+    "explanation": "A flashing red signal has the same meaning as a stop sign: come to a complete stop, yield to other traffic and pedestrians, then proceed when it is safe. A flashing yellow signal means slow down and proceed with caution.",
+    "difficulty": "easy",
+    "references": [{ "label": "Traffic signals", "citation": "Montana Driver Manual, Traffic Signals", "url": "https://mvdmt.gov/wp-content/uploads/2026/05/25-0100M-Montana-Driver-Manual-English-05.26.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  }
+]

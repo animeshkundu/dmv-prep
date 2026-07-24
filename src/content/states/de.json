@@ -1,0 +1,97 @@
+{
+  "code": "DE",
+  "name": "Delaware",
+  "agencyName": "Delaware Division of Motor Vehicles",
+  "agencyShort": "DMV",
+  "officialSiteUrl": "https://www.dmv.de.gov/",
+  "handbookLandingUrl": "https://dmv.de.gov/forms/index.shtml",
+  "handbookPdfUrl": "https://citizen.dmv.de.gov/forms/driver_serv_forms/pdfs/J102083_DMV_Manual_2024_06_Web.pdf",
+  "handbookFormat": "pdf",
+  "handbookEditionYear": 2024,
+  "handbookCopyrightStatus": "unknown",
+  "applicantVariants": [
+    { "id": "under-18", "label": "Under 18 (Graduated Driver License / Level 1 permit)" },
+    { "id": "adult", "label": "Adult (18+)" }
+  ],
+  "examVariants": [
+    {
+      "variantId": "under-18",
+      "label": "Under-18 knowledge test (Class D)",
+      "numQuestions": 30,
+      "numToPass": 24,
+      "languages": ["en"],
+      "onlineAvailable": false
+    },
+    {
+      "variantId": "adult",
+      "label": "Adult knowledge test (Class D)",
+      "numQuestions": 30,
+      "numToPass": 24,
+      "languages": ["en"],
+      "onlineAvailable": false
+    }
+  ],
+  "retake": {
+    "retakeFee": "Retest fee applies; see DMV fee schedule"
+  },
+  "gdl": {
+    "permitMinAge": "16",
+    "provisionalMinAge": "16 yrs 6 mo",
+    "fullLicenseMinAge": "17",
+    "permitHoldingPeriod": "6 months (Level 1 learner permit)",
+    "supervisedHoursRequired": "50 hours (10 at night)",
+    "nightHoursRequired": "10 hours",
+    "nightCurfew": "No unsupervised driving 10 p.m.-6 a.m. during the restricted period (with exceptions)",
+    "passengerLimits": "During the first 6 months of Level 1, no more than 1 passenger (household/immediate family exceptions)",
+    "driverEdRequired": true
+  },
+  "process": {
+    "appointmentRequired": "encouraged",
+    "requiredDocuments": [
+      "Proof of identity and date of birth (e.g. birth certificate or U.S. passport)",
+      "Proof of Social Security Number",
+      "Two documents proving Delaware residency (for REAL ID)",
+      "Under 18: driver education certificate and parent/guardian signature"
+    ],
+    "realIdNotes": "A Delaware REAL ID (Gold Star) requires proof of identity/date of birth, proof of Social Security Number, and two documents proving Delaware residency. A standard non-REAL ID credential is also available.",
+    "permitFee": "Included in the Class D license fee",
+    "licenseFee": "$50 for an 8-year Class D license (effective October 10, 2025)",
+    "feesUrl": "https://dmv.de.gov/Common/DMVFees/",
+    "visionTestRequired": true,
+    "visionStandard": "20/40 with or without corrective lenses (verify current DMV standard)"
+  },
+  "facts": {
+    "bacLimitAdult": "0.08%",
+    "bacLimitCommercial": "0.04%",
+    "bacLimitUnder21": "0.02% (zero tolerance)",
+    "pointSystem": true,
+    "pointSuspensionThreshold": "Accumulating 14 or more points within 2 years can lead to license suspension",
+    "moveOverRule": "Move over a lane, or slow down if you cannot change lanes safely, for stopped emergency and authorized vehicles displaying flashing lights",
+    "interstateMaxSpeed": "65 mph on interstate highways where posted",
+    "schoolZoneSpeed": "20 mph in a school zone during posted school hours",
+    "namedLaws": ["Move Over Law", "Hands-Free (electronic communication device) Law", "Aggressive Driving Law"]
+  },
+  "references": [
+    {
+      "label": "Delaware Driver Manual",
+      "citation": "Delaware DMV Driver Manual",
+      "url": "https://www.dmv.de.gov/DriverServices/drivers_license/index.shtml"
+    },
+    {
+      "label": "Forms & Manuals",
+      "citation": "Delaware DMV Forms & Manuals",
+      "url": "https://dmv.de.gov/forms/index.shtml"
+    },
+    {
+      "label": "Graduated licensing law table",
+      "citation": "IIHS Graduated Licensing Laws Table (Delaware)",
+      "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table"
+    }
+  ],
+  "effectiveDate": "2026-07-24",
+  "sourceSnapshotHash": "seed-pending-verification",
+  "reviewStatus": "adversarially-verified",
+  "verifyNote": "Official Delaware DMV sources confirm the 30-question exam with 24 correct required, age 16 minimum, GDL rules, current $50 Class D fee, and the 14-calculated-point mandatory suspension. The direct June 2024 manual PDF is recorded. The numeric vision standard was not confirmed in the official manual, so it remains separately qualified.",
+  "lastVerified": "2026-07-24",
+  "contentVersion": 1
+}

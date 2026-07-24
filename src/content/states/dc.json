@@ -1,0 +1,98 @@
+{
+  "code": "DC",
+  "name": "District of Columbia",
+  "agencyName": "District of Columbia Department of Motor Vehicles",
+  "agencyShort": "DMV",
+  "officialSiteUrl": "https://dmv.dc.gov/",
+  "handbookLandingUrl": "https://dmv.dc.gov/publication/dc-dmv-automobile-driver-manual",
+  "handbookFormat": "pdf",
+  "handbookEditionYear": 2024,
+  "handbookCopyrightStatus": "unknown",
+  "applicantVariants": [
+    { "id": "under-21", "label": "Under 21 (GRAD graduated licensing)" },
+    { "id": "adult", "label": "Adult (21+)" }
+  ],
+  "examVariants": [
+    {
+      "variantId": "under-21",
+      "label": "Knowledge test — under 21 (GRAD)",
+      "numQuestions": 30,
+      "numToPass": 24,
+      "languages": ["en"],
+      "onlineAvailable": true
+    },
+    {
+      "variantId": "adult",
+      "label": "Knowledge test — 21 and older",
+      "numQuestions": 25,
+      "numToPass": 20,
+      "languages": ["en"],
+      "onlineAvailable": true
+    }
+  ],
+  "retake": {
+    "waitBetweenAttempts": "3 calendar days",
+    "retakeFee": "$10 per knowledge test attempt"
+  },
+  "gdl": {
+    "permitMinAge": "16",
+    "provisionalMinAge": "16 yrs 6 mo (provisional/intermediate)",
+    "fullLicenseMinAge": "18 (full license); intermediate stage until 21 or completion",
+    "permitHoldingPeriod": "6 months (learner permit)",
+    "supervisedHoursRequired": "40 hours in learner stage; 10 night hours in intermediate stage",
+    "nightHoursRequired": "10 hours (intermediate stage)",
+    "nightCurfew": "Learner: no driving 9 p.m.-6 a.m. Intermediate (Sept-June): 11 p.m.-6 a.m. Sun-Thu and 12:01 a.m.-6 a.m. Fri-Sat; (July-Aug): 12:01 a.m.-6 a.m.",
+    "passengerLimits": "First 6 months of provisional license: no passengers under 21 except immediate family or a driving instructor; restrictions ease afterward",
+    "driverEdRequired": true
+  },
+  "process": {
+    "appointmentRequired": "required",
+    "schedulingUrl": "https://dmv.dc.gov/service/schedule-appointment",
+    "requiredDocuments": [
+      "Proof of identity and date of birth (e.g. birth certificate or passport)",
+      "Proof of Social Security Number",
+      "Two proofs of DC residency",
+      "Parental/guardian consent if under 18"
+    ],
+    "realIdNotes": "A REAL ID credential requires proof of identity/date of birth, proof of SSN, and two proofs of DC residency. A Limited Purpose (non-REAL ID) credential is also available.",
+    "permitFee": "$20 (learner permit)",
+    "licenseFee": "$47 (8-year full license); $20 provisional license; knowledge test $10 at a DC DMV service center ($39.95 proctoring center / $49.95 virtual)",
+    "feesUrl": "https://dmv.dc.gov/book/dmv-fees/driver-license-fees",
+    "visionTestRequired": true,
+    "visionStandard": "20/40 with or without corrective lenses"
+  },
+  "facts": {
+    "bacLimitAdult": "0.08%",
+    "bacLimitCommercial": "0.04%",
+    "bacLimitUnder21": "Zero tolerance (any measurable alcohol)",
+    "pointSystem": true,
+    "pointSuspensionThreshold": "10-11 points: 90-day suspension; 12 or more points: license revocation",
+    "moveOverRule": "Slow down and, when safe, move over a lane for stopped emergency, tow, and service vehicles displaying flashing lights",
+    "interstateMaxSpeed": "55 mph (freeways such as I-295/DC-295)",
+    "schoolZoneSpeed": "15 mph when children are present",
+    "namedLaws": ["Move Over Law", "Distracted Driving Safety Act (handheld ban)", "Zero Tolerance Law"]
+  },
+  "references": [
+    {
+      "label": "DC DMV Driver Manual",
+      "citation": "District of Columbia DMV Driver Manual",
+      "url": "https://dmv.dc.gov/node/1113762"
+    },
+    {
+      "label": "Knowledge Test Information",
+      "citation": "DC DMV — Knowledge Test",
+      "url": "https://public.dmv.washingtondc.gov/BusinessPages/GS/KnowledgeTest/TestInfo.aspx"
+    },
+    {
+      "label": "Driver License Fees",
+      "citation": "DC DMV — Driver License Fees",
+      "url": "https://dmv.dc.gov/book/dmv-fees/driver-license-fees"
+    }
+  ],
+  "effectiveDate": "2026-07-24",
+  "sourceSnapshotHash": "seed-pending-verification",
+  "reviewStatus": "draft",
+  "verifyNote": "Official DC DMV sources confirm the age-based test lengths (under 21: 30; age 21+: 25), $10 service-center test fee, $20 permit/provisional fees, $47 eight-year license fee, minimum age 16, six-month/40-hour learner requirements, BAC limits, and point thresholds. The official pages available in this review did not explicitly state the 24/30 and 20/25 passing scores, and the current manual edition year and seasonal provisional curfew wording remain unconfirmed.",
+  "lastVerified": "2026-07-24",
+  "contentVersion": 1
+}

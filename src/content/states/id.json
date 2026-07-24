@@ -1,0 +1,92 @@
+{
+  "code": "ID",
+  "name": "Idaho",
+  "agencyName": "Idaho Transportation Department (DMV)",
+  "agencyShort": "ITD",
+  "officialSiteUrl": "https://itd.idaho.gov/dmv/",
+  "handbookLandingUrl": "https://itd.idaho.gov/dmv/",
+  "handbookPdfUrl": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf",
+  "handbookFormat": "pdf",
+  "handbookEditionYear": 2026,
+  "handbookCopyrightStatus": "unknown",
+  "applicantVariants": [
+    { "id": "under-17", "label": "Under 17 (Supervised Instruction Permit, graduated licensing)" },
+    { "id": "adult", "label": "Adult (17+) Class D knowledge test" }
+  ],
+  "examVariants": [
+    {
+      "variantId": "under-17",
+      "label": "Under-17 knowledge test (Class D)",
+      "numQuestions": 40,
+      "numToPass": 34,
+      "languages": ["en"],
+      "onlineAvailable": false
+    },
+    {
+      "variantId": "adult",
+      "label": "Adult knowledge test (Class D)",
+      "numQuestions": 40,
+      "numToPass": 34,
+      "languages": ["en"],
+      "onlineAvailable": false
+    }
+  ],
+  "retake": {
+    "waitBetweenAttempts": "You may retest; a knowledge test fee applies on retakes",
+    "retakeFee": "$5 knowledge test fee"
+  },
+  "gdl": {
+    "permitMinAge": "14 yrs 6 mo (Supervised Instruction Permit; driver training required for under 17)",
+    "provisionalMinAge": "15 (driver's license with graduated restrictions)",
+    "fullLicenseMinAge": "17 (all graduated restrictions lifted)",
+    "permitHoldingPeriod": "6 months on the Supervised Instruction Permit",
+    "supervisedHoursRequired": "50 hours (10 at night)",
+    "nightHoursRequired": "10 hours",
+    "nightCurfew": "Drivers under 16 may drive only during daylight hours unless accompanied by a licensed driver age 21 or older seated in the front seat",
+    "passengerLimits": "For the first 6 months, drivers 16 and under may carry no more than one passenger under 17 (other than family)",
+    "driverEdRequired": true
+  },
+  "process": {
+    "appointmentRequired": "varies",
+    "requiredDocuments": [
+      "Proof of identity and date of birth (e.g. certified birth certificate or U.S. passport)",
+      "Proof of Social Security number",
+      "Proof of Idaho residency",
+      "Proof of school enrollment/compliance (applicants under 18)"
+    ],
+    "realIdNotes": "An Idaho Star Card (REAL ID) requires proof of identity/legal presence, proof of Social Security number, and proof of Idaho residency. A standard (non-Star Card) license is also available.",
+    "permitFee": "$20 instruction permit; $21.50 driver-training instruction permit; $5 knowledge test",
+    "licenseFee": "$20 (1-year, ages 17-20), $30 (3-year, ages 15-21), $35 (4-year, age 21+), or $60 (8-year, ages 21-62)",
+    "feesUrl": "https://itd.idaho.gov/dmv/",
+    "visionTestRequired": true,
+    "visionStandard": "At least 20/40 in one or both eyes, with or without corrective lenses"
+  },
+  "facts": {
+    "bacLimitAdult": "0.08%",
+    "bacLimitCommercial": "0.04%",
+    "bacLimitUnder21": "0.02% (zero tolerance)",
+    "pointSystem": true,
+    "pointSuspensionThreshold": "12-17 points in 12 months = 30-day suspension; 18-23 in 24 months = 90 days; 24+ in 36 months = 6 months",
+    "moveOverRule": "Move over a lane or slow down for stopped emergency, tow, and highway maintenance vehicles displaying flashing lights",
+    "interstateMaxSpeed": "80 mph on some rural interstate segments (posted)",
+    "schoolZoneSpeed": "20 mph in a school zone during posted hours",
+    "namedLaws": ["Idaho Hands-Free Law (2020)", "Move Over Law", "Graduated Driver's License (GDL) law"]
+  },
+  "references": [
+    {
+      "label": "Idaho Driver's Handbook",
+      "citation": "Idaho ITD Driver's Handbook (2026 ed.)",
+      "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf"
+    },
+    {
+      "label": "Idaho Young Drivers (GDL)",
+      "citation": "Idaho ITD Young Drivers",
+      "url": "https://itd.idaho.gov/dmv/young-drivers/"
+    }
+  ],
+  "effectiveDate": "2026-07-24",
+  "sourceSnapshotHash": "seed-pending-verification",
+  "reviewStatus": "adversarially-verified",
+  "lastVerified": "2026-07-24",
+  "contentVersion": 1
+}

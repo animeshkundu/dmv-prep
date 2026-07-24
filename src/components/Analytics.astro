@@ -1,0 +1,127 @@
+---
+import { CLARITY_PROJECT_ID, GA4_MEASUREMENT_ID, ANALYTICS_ENABLED } from '../lib/analytics-config';
+import { href } from '../lib/site';
+// Only renders anything when at least one analytics ID is configured. Scripts load
+// exclusively after the visitor accepts, and the choice is remembered on-device.
+---
+
+{
+  ANALYTICS_ENABLED && (
+    <div id="consent" class="consent" role="dialog" aria-modal="false" aria-label="Analytics consent" hidden>
+      <p>
+        We use privacy-respecting analytics to understand what trips people up and improve the
+        study experience. No accounts, and your study progress always stays on your device.
+        <a href={href('/privacy')}>Privacy</a>.
+      </p>
+      <div class="consent-actions">
+        <button id="consent-accept" class="btn btn-primary" type="button">Allow analytics</button>
+        <button id="consent-decline" class="btn btn-ghost" type="button">No thanks</button>
+      </div>
+    </div>
+  )
+}
+
+{
+  ANALYTICS_ENABLED && (
+    <script is:inline define:vars={{ clarityId: CLARITY_PROJECT_ID, gaId: GA4_MEASUREMENT_ID }}>
+      (function () {
+        const KEY = 'dmvp:consent';
+        const banner = document.getElementById('consent');
+
+        function loadClarity(id) {
+          if (!id) return;
+          (function (c, l, a, r, i, t, y) {
+            c[a] =
+              c[a] ||
+              function () {
+                (c[a].q = c[a].q || []).push(arguments);
+              };
+            t = l.createElement(r);
+            t.async = 1;
+            t.src = 'https://www.clarity.ms/tag/' + i;
+            y = l.getElementsByTagName(r)[0];
+            y.parentNode.insertBefore(t, y);
+          })(window, document, 'clarity', 'script', id);
+        }
+
+        function loadGa(id) {
+          if (!id) return;
+          const s = document.createElement('script');
+          s.async = true;
+          s.src = 'https://www.googletagmanager.com/gtag/js?id=' + id;
+          document.head.appendChild(s);
+          window.dataLayer = window.dataLayer || [];
+          window.gtag = function () {
+            window.dataLayer.push(arguments);
+          };
+          window.gtag('js', new Date());
+          window.gtag('config', id, { anonymize_ip: true });
+        }
+
+        function enable() {
+          loadClarity(clarityId);
+          loadGa(gaId);
+        }
+
+        let choice = null;
+        try {
+          choice = localStorage.getItem(KEY);
+        } catch (e) {}
+
+        if (choice === 'granted') {
+          enable();
+        } else if (choice !== 'denied' && banner) {
+          banner.hidden = false;
+        }
+
+        document.getElementById('consent-accept')?.addEventListener('click', () => {
+          try {
+            localStorage.setItem(KEY, 'granted');
+          } catch (e) {}
+          if (banner) banner.hidden = true;
+          enable();
+        });
+        document.getElementById('consent-decline')?.addEventListener('click', () => {
+          try {
+            localStorage.setItem(KEY, 'denied');
+          } catch (e) {}
+          if (banner) banner.hidden = true;
+        });
+      })();
+    </script>
+  )
+}
+
+<style>
+  .consent {
+    position: fixed;
+    left: 50%;
+    bottom: var(--sp-4);
+    transform: translateX(-50%);
+    width: min(40rem, calc(100% - var(--sp-6)));
+    z-index: 80;
+    background: var(--c-surface);
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-lg);
+    box-shadow: var(--shadow-lg);
+    padding: var(--sp-4) var(--sp-5);
+    display: flex;
+    gap: var(--sp-4);
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .consent p {
+    flex: 1 1 20rem;
+    font-size: var(--fs-sm);
+    color: var(--c-text-muted);
+    margin: 0;
+  }
+  .consent-actions {
+    display: flex;
+    gap: var(--sp-2);
+  }
+  .consent .btn {
+    padding: var(--sp-2) var(--sp-4);
+    min-height: 40px;
+  }
+</style>

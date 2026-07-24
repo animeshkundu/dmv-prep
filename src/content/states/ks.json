@@ -1,0 +1,99 @@
+{
+  "code": "KS",
+  "name": "Kansas",
+  "agencyName": "Kansas Department of Revenue, Division of Vehicles",
+  "agencyShort": "DOR",
+  "officialSiteUrl": "https://www.ksrevenue.gov/",
+  "handbookLandingUrl": "https://www.ksrevenue.gov/dovindex.html",
+  "handbookPdfUrl": "https://www.ksrevenue.gov/pdf/dlhb.pdf",
+  "handbookFormat": "pdf",
+  "handbookEditionYear": 2022,
+  "handbookCopyrightStatus": "unknown",
+  "applicantVariants": [
+    { "id": "under-18", "label": "Under 18 (instruction permit / restricted / GDL)" },
+    { "id": "adult", "label": "Adult (18+)" }
+  ],
+  "examVariants": [
+    {
+      "variantId": "adult",
+      "label": "Class C knowledge (written) test",
+      "numQuestions": 25,
+      "numToPass": 20,
+      "languages": ["en", "es"],
+      "onlineAvailable": true
+    },
+    {
+      "variantId": "under-18",
+      "label": "Under-18 Class C knowledge (written) test",
+      "numQuestions": 25,
+      "numToPass": 20,
+      "languages": ["en", "es"],
+      "onlineAvailable": true
+    }
+  ],
+  "retake": {
+    "maxAttemptsBeforeExtraReq": 4,
+    "waitBetweenAttempts": "After four failed knowledge exams, wait 6 months from the most recent failure before restarting",
+    "retakeFee": "$1.50 for a reexamination within 6 months; $3 abandonment fee after 6 months"
+  },
+  "gdl": {
+    "permitMinAge": "14 (instruction permit)",
+    "provisionalMinAge": "16 (restricted license; 15 with approved driver training)",
+    "fullLicenseMinAge": "16 yrs 6 mo (unrestricted)",
+    "permitHoldingPeriod": "12 months",
+    "supervisedHoursRequired": "50 hours total, including 10 at night",
+    "nightCurfew": "No driving 9 p.m.-5 a.m. under a restricted/GDL license except to/from work, school, or religious activities",
+    "passengerLimits": "No more than one non-sibling passenger under 18 while restricted",
+    "driverEdRequired": false
+  },
+  "process": {
+    "appointmentRequired": "varies",
+    "schedulingUrl": "https://ks.knowtodrive.com/",
+    "requiredDocuments": [
+      "Proof of identity/lawful presence (e.g. U.S. birth certificate or passport)",
+      "Proof of Social Security number (Social Security card or SSN document)",
+      "Proof of Kansas residency",
+      "Proof of any name change (e.g. marriage certificate) if applicable"
+    ],
+    "realIdNotes": "A REAL ID-compliant credential requires proof of lawful presence/identity, a Social Security number document, and proof of Kansas residency; a non-compliant (standard) license remains available.",
+    "permitFee": "$10 total ($2 issuance + $8 photo); initial examination is $3 when testing is required",
+    "licenseFee": "New regular Class C with testing: $29 ages 21-64, $23 over 64; under-21 Class C or M row totals $51 and includes a $20 motorcycle fee, so a Class C-only under-21 total is not unambiguously stated on the chart",
+    "feesUrl": "https://www.ksrevenue.gov/pdf/dmvlicfees.pdf",
+    "visionTestRequired": true,
+    "visionStandard": "At least 20/40 in one eye, with or without corrective lenses, for an unrestricted license"
+  },
+  "facts": {
+    "bacLimitAdult": "0.08%",
+    "bacLimitCommercial": "0.04%",
+    "bacLimitUnder21": "0.02% (zero tolerance)",
+    "pointSystem": false,
+    "pointSuspensionThreshold": "No numeric point system; suspension can follow 3 or more moving-violation convictions within 12 months",
+    "moveOverRule": "Move over a lane, or slow down if you cannot safely move, for stopped emergency, tow, and highway-maintenance vehicles with flashing lights",
+    "interstateMaxSpeed": "75 mph (rural interstates, where posted)",
+    "schoolZoneSpeed": "20 mph when posted (varies by posted sign)",
+    "namedLaws": ["Move Over Law", "Zero Tolerance Law"]
+  },
+  "references": [
+    {
+      "label": "Kansas Driving Handbook",
+      "citation": "Kansas Department of Revenue, Kansas Driving Handbook",
+      "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf"
+    },
+    {
+      "label": "Kansas Division of Vehicles (driver licensing)",
+      "citation": "KDOR Division of Vehicles, Driver Licensing",
+      "url": "https://www.ksrevenue.gov/dovindex.html"
+    },
+    {
+      "label": "Kansas Credential Fee Chart",
+      "citation": "KDOR Kansas Credential Fee Chart, updated May 2023",
+      "url": "https://www.ksrevenue.gov/pdf/dmvlicfees.pdf"
+    }
+  ],
+  "effectiveDate": "2026-07-24",
+  "sourceSnapshotHash": "seed-pending-verification",
+  "reviewStatus": "draft",
+  "verifyNote": "The official handbook is revised February 2022 and confirms 25 questions with an 80% passing score (20 correct), ages, and GDL rules. The official fee chart is dated May 2023 and confirms permit, test, and age-banded adult Class C fees, but its under-21 'Class C or M' row bundles a $20 motorcycle fee and does not unambiguously state the Class C-only total. The state-level school-zone 20 mph summary also remains unconfirmed by the handbook.",
+  "lastVerified": "2026-07-24",
+  "contentVersion": 1
+}

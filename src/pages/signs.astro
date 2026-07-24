@@ -1,0 +1,4 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro'; import SignTrainer from '../islands/SignTrainer'; import { getCollection } from 'astro:content'; import { asset } from '../lib/site'; import '../styles/pages.css'; const signs=(await getCollection('signs')).map((entry)=>entry.data);
+---
+<BaseLayout title="Road sign trainer"><section class="container page-shell"><div><h1>Road sign trainer</h1><p class="muted">Build fast recognition of common US road signs.</p></div><div class="study-shell"><SignTrainer client:load signs={signs} base={import.meta.env.BASE_URL}/></div><h2>Sign reference</h2><div class="reference-grid">{signs.map((sign)=><article class="card study-card"><img src={asset(sign.asset)} alt={`${sign.name} road sign`} width="120" height="120"/><h3>{sign.name}</h3><p>{sign.meaning}</p><span class="badge">{sign.category}</span></article>)}</div></section></BaseLayout>

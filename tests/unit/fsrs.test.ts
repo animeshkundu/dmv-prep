@@ -1,0 +1,2 @@
+import { describe, expect, it } from 'vitest'; import { newCard, reviewCard } from '../../src/lib/fsrs';
+describe('fsrs',()=>{it('creates a due card and schedules Good into the future',()=>{const now=new Date('2026-01-01T12:00:00Z');const card=newCard('one',now);expect(card.due).toBe(now.toISOString());const reviewed=reviewCard(card,'good',now);expect(new Date(reviewed.due).getTime()).toBeGreaterThan(now.getTime());expect(reviewed.reps).toBe(1);expect(reviewCard(card,'good',now)).toEqual(reviewed);});});

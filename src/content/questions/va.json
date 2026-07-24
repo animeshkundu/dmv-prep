@@ -1,0 +1,257 @@
+[
+  {
+    "id": "va-alc-001",
+    "category": "alcohol-drugs",
+    "stateScope": ["VA"],
+    "prompt": "In Virginia, it is illegal for a driver under 21 to drive with a blood alcohol concentration (BAC) of:",
+    "options": ["0.01% or higher", "0.02% or higher", "0.05% or higher", "0.08% or higher"],
+    "correctIndex": 1,
+    "explanation": "Virginia's zero-tolerance law makes it illegal for anyone under 21 to drive with a BAC of 0.02% or higher, resulting in license suspension and penalties.",
+    "difficulty": "medium",
+    "references": [{ "label": "Virginia Driver's Manual", "citation": "VA DMV Driver's Manual (DMV 39), Alcohol and the Law", "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "va-alc-002",
+    "category": "alcohol-drugs",
+    "stateScope": ["VA"],
+    "prompt": "For drivers 21 and older, Virginia sets the illegal per se blood alcohol concentration at:",
+    "options": ["0.05%", "0.08%", "0.10%", "0.04%"],
+    "correctIndex": 1,
+    "explanation": "Virginia's adult per se limit is 0.08%. Commercial drivers are limited to 0.04%, and drivers under 21 to 0.02%.",
+    "difficulty": "easy",
+    "references": [{ "label": "Virginia Driver's Manual", "citation": "VA DMV Driver's Manual (DMV 39), Alcohol and the Law", "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "va-speed-001",
+    "category": "speed-limits",
+    "stateScope": ["VA"],
+    "prompt": "The highest speed limit legally posted anywhere in Virginia is:",
+    "options": ["55 mph", "65 mph", "70 mph", "75 mph"],
+    "correctIndex": 2,
+    "explanation": "Virginia's maximum posted limit is 70 mph, found only on certain interstates. Where no limit is posted, the default is 55 mph on highways.",
+    "difficulty": "medium",
+    "references": [{ "label": "Virginia Driver's Manual", "citation": "VA DMV Driver's Manual (DMV 39), Speed Limits", "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "va-speed-002",
+    "category": "speed-limits",
+    "stateScope": ["VA"],
+    "prompt": "In Virginia, when no speed limit is posted on a public highway outside a business or residential district, the default limit is:",
+    "options": ["45 mph", "55 mph", "60 mph", "35 mph"],
+    "correctIndex": 1,
+    "explanation": "Virginia's default limit on public highways is 55 mph where none is posted; it is 25 mph in business and residential districts.",
+    "difficulty": "medium",
+    "references": [{ "label": "Virginia Driver's Manual", "citation": "VA DMV Driver's Manual (DMV 39), Speed Limits", "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "va-gdl-001",
+    "category": "gdl-teen",
+    "stateScope": ["VA"],
+    "prompt": "The minimum age to obtain a Virginia learner's permit is:",
+    "options": ["15", "15 years 6 months", "16", "16 years 3 months"],
+    "correctIndex": 1,
+    "explanation": "You must be at least 15 years and 6 months old to get a Virginia learner's permit, and you must hold it for at least 9 months if under 18.",
+    "difficulty": "medium",
+    "references": [{ "label": "Virginia Driver's Manual", "citation": "VA DMV Driver's Manual (DMV 39), Getting Your License", "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "va-gdl-002",
+    "category": "gdl-teen",
+    "stateScope": ["VA"],
+    "prompt": "A Virginia driver under 18 with a provisional license generally may not drive between:",
+    "options": [
+      "11 p.m. and 5 a.m.",
+      "Midnight and 4 a.m.",
+      "10 p.m. and 6 a.m.",
+      "1 a.m. and 5 a.m."
+    ],
+    "correctIndex": 1,
+    "explanation": "Virginia provisional (under-18) drivers are restricted from driving between midnight and 4 a.m., with exceptions for work, emergencies, and accompanied driving.",
+    "difficulty": "medium",
+    "references": [{ "label": "Virginia Driver's Manual", "citation": "VA DMV Driver's Manual (DMV 39), Juvenile Licensing", "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "va-gdl-003",
+    "category": "gdl-teen",
+    "stateScope": ["VA"],
+    "prompt": "During the first year with a Virginia provisional license, the driver (under 18) may carry:",
+    "options": [
+      "No passengers under 21",
+      "Only one passenger under 21",
+      "Up to three passengers under 21",
+      "Any number of family passengers only"
+    ],
+    "correctIndex": 1,
+    "explanation": "For the first 12 months, a Virginia provisional driver may carry only one passenger under age 21; after that, up to three, with exceptions for family members.",
+    "difficulty": "hard",
+    "references": [{ "label": "Virginia Driver's Manual", "citation": "VA DMV Driver's Manual (DMV 39), Juvenile Licensing", "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "va-gdl-004",
+    "category": "gdl-teen",
+    "stateScope": ["VA"],
+    "prompt": "Before getting a Virginia license, a driver under 18 must complete supervised driving practice of:",
+    "options": [
+      "30 hours, 5 at night",
+      "40 hours, 10 at night",
+      "45 hours, 15 at night",
+      "50 hours, 10 at night"
+    ],
+    "correctIndex": 2,
+    "explanation": "Virginia requires 45 hours of supervised practice, including 15 hours after sunset, before a driver under 18 is licensed.",
+    "difficulty": "hard",
+    "references": [{ "label": "Virginia Driver's Manual", "citation": "VA DMV Driver's Manual (DMV 39), Juvenile Licensing", "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "va-signs-001",
+    "category": "road-signs",
+    "stateScope": ["VA"],
+    "prompt": "On Virginia's two-part knowledge exam, how do you perform on the road-sign portion to move on to the general knowledge section?",
+    "options": [
+      "Answer at least 8 of 10 sign questions correctly",
+      "Answer all 10 road-sign questions correctly",
+      "Answer at least 6 of 10 sign questions correctly",
+      "The sign portion is optional"
+    ],
+    "correctIndex": 1,
+    "explanation": "Virginia's exam has a 10-question road-sign section that must be answered completely correctly before you continue to the 25-question general knowledge section.",
+    "difficulty": "medium",
+    "references": [{ "label": "Virginia Driver's Manual", "citation": "VA DMV Driver's Manual (DMV 39), Knowledge Exam", "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "va-laws-001",
+    "category": "traffic-laws",
+    "stateScope": ["VA"],
+    "prompt": "Under Virginia's hands-free law, while driving you may:",
+    "options": [
+      "Hold your phone for short calls",
+      "Not hold a hand-held personal communications device",
+      "Text while stopped at a red light",
+      "Use a hand-held phone if over 18"
+    ],
+    "correctIndex": 1,
+    "explanation": "Virginia prohibits holding a hand-held personal communications device while driving. Use hands-free technology instead; holding a phone is a primary offense.",
+    "difficulty": "medium",
+    "references": [{ "label": "Virginia Driver's Manual", "citation": "VA DMV Driver's Manual (DMV 39), Distracted Driving", "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "va-laws-002",
+    "category": "traffic-laws",
+    "stateScope": ["VA"],
+    "prompt": "Under Virginia's Move Over Law, when you approach a stopped emergency vehicle with flashing lights on the roadside, you must:",
+    "options": [
+      "Speed up to clear the area quickly",
+      "Move over to another lane if possible, or slow down and pass with caution",
+      "Stop and wait for an officer to wave you through",
+      "Continue at the same speed"
+    ],
+    "correctIndex": 1,
+    "explanation": "Virginia requires drivers to move over a lane for stopped emergency, law-enforcement, and highway vehicles displaying flashing lights, or to slow down and pass cautiously when moving over is not possible.",
+    "difficulty": "medium",
+    "references": [{ "label": "Virginia Driver's Manual", "citation": "VA DMV Driver's Manual (DMV 39), Move Over Law", "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "va-pts-001",
+    "category": "penalties-points",
+    "stateScope": ["VA"],
+    "prompt": "Under Virginia's demerit point system, an adult driver's license is suspended when they accumulate:",
+    "options": [
+      "12 points in 12 months",
+      "18 points in 12 months or 24 points in 24 months",
+      "6 points in 12 months",
+      "20 points in any period"
+    ],
+    "correctIndex": 1,
+    "explanation": "Virginia suspends an adult driver's license after 18 demerit points in 12 months or 24 points in 24 months. Demerit points are assigned as 3, 4, or 6 per conviction.",
+    "difficulty": "hard",
+    "references": [{ "label": "Demerit points", "citation": "VA DMV - Demerit points (drivers 18 and over)", "url": "https://www.dmv.virginia.gov/licenses-ids/improvement/points/over-18" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "va-gdl-005",
+    "category": "gdl-teen",
+    "stateScope": ["VA"],
+    "prompt": "In Virginia, a driver under 18 must complete which requirement before being licensed?",
+    "options": [
+      "A defensive-driving refund course",
+      "A state-approved driver education program",
+      "A commercial endorsement test",
+      "Nothing beyond the knowledge test"
+    ],
+    "correctIndex": 1,
+    "explanation": "Virginia requires drivers under 18 to complete a state-approved driver education program (classroom and behind-the-wheel) before licensure.",
+    "difficulty": "medium",
+    "references": [{ "label": "Virginia Driver's Manual", "citation": "VA DMV Driver's Manual (DMV 39), Juvenile Licensing", "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "va-safe-001",
+    "category": "safe-driving",
+    "stateScope": ["VA"],
+    "prompt": "To be licensed without restriction in Virginia, an applicant's vision must be at least:",
+    "options": [
+      "20/20 in both eyes",
+      "20/40 in at least one eye",
+      "20/60 in at least one eye",
+      "20/70 in both eyes"
+    ],
+    "correctIndex": 1,
+    "explanation": "Virginia requires visual acuity of at least 20/40 in at least one eye, with or without corrective lenses, for an unrestricted license.",
+    "difficulty": "medium",
+    "references": [{ "label": "Virginia Driver's Manual", "citation": "VA DMV Driver's Manual (DMV 39), Vision Requirements", "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "va-laws-003",
+    "category": "traffic-laws",
+    "stateScope": ["VA"],
+    "prompt": "Virginia's general knowledge exam section has 30 questions. To pass that section you must answer correctly at least:",
+    "options": ["18 (60%)", "21 (70%)", "24 (80%)", "27 (90%)"],
+    "correctIndex": 2,
+    "explanation": "You must score at least 80% on the 30-question general knowledge section, meaning 24 correct answers, after answering all 10 road-sign questions correctly.",
+    "difficulty": "easy",
+    "references": [{ "label": "Virginia Driver's Manual", "citation": "VA DMV Driver's Manual (DMV 39), Knowledge Exam", "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  }
+]

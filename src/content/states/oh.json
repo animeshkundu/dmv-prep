@@ -1,0 +1,83 @@
+{
+  "code": "OH",
+  "name": "Ohio",
+  "agencyName": "Ohio Bureau of Motor Vehicles",
+  "agencyShort": "BMV",
+  "officialSiteUrl": "https://www.bmv.ohio.gov/",
+  "handbookLandingUrl": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest",
+  "handbookPdfUrl": "https://www.bmv.ohio.gov/docs/dl-7-a.pdf",
+  "handbookFormat": "pdf",
+  "handbookEditionYear": 2025,
+  "handbookCopyrightStatus": "public-domain",
+  "applicantVariants": [
+    { "id": "standard", "label": "All applicants (Class D non-commercial)" }
+  ],
+  "examVariants": [
+    {
+      "variantId": "standard",
+      "label": "Knowledge test (Class D non-commercial)",
+      "numQuestions": 40,
+      "numToPass": 30,
+      "languages": ["en", "es"],
+      "onlineAvailable": true
+    }
+  ],
+  "retake": {
+    "waitBetweenAttempts": "At least 24 hours (in person)",
+    "attemptCapPeriod": "Online: up to 2 attempts within a 6-month period"
+  },
+  "gdl": {
+    "permitMinAge": "15 yrs 6 mo",
+    "provisionalMinAge": "16",
+    "fullLicenseMinAge": "18 (or unrestricted at 17 after 12 months)",
+    "permitHoldingPeriod": "6 months",
+    "supervisedHoursRequired": "50 hours (10 at night)",
+    "nightHoursRequired": "10 hours",
+    "nightCurfew": "First 12 months: no driving midnight-6 a.m.; second 12 months (or until 18): no driving 1 a.m.-5 a.m. (with exceptions)",
+    "passengerLimits": "First 12 months: no more than 1 non-family passenger unless a parent/guardian is present",
+    "driverEdRequired": true
+  },
+  "process": {
+    "appointmentRequired": "varies",
+    "requiredDocuments": [
+      "Proof of full legal name and date of birth (e.g. birth certificate or valid U.S. passport)",
+      "Proof of Social Security number",
+      "Two proofs of Ohio residency (for adults / REAL ID)",
+      "For applicants under 18: consent of a parent or legal guardian and proof of school enrollment/graduation"
+    ],
+    "realIdNotes": "Ohio issues both compliant (REAL ID) and standard licenses. A compliant card requires one document for full legal name/date of birth, one for SSN, and two proving Ohio residency. A U.S. passport can be used for federal purposes instead.",
+    "permitFee": "$26.50 for a Temporary Instruction Permit Identification Card (TIPIC)",
+    "licenseFee": "Age-based: $28.75 at age 16, $27.50 at 17, and $26.25 at 18; other ages follow the BMV fee schedule",
+    "feesUrl": "https://www.bmv.ohio.gov/fees.aspx",
+    "visionTestRequired": true,
+    "visionStandard": "20/40 in at least one eye, with or without corrective lenses"
+  },
+  "facts": {
+    "bacLimitAdult": "0.08%",
+    "bacLimitCommercial": "0.04%",
+    "bacLimitUnder21": "0.02% (zero tolerance — OVUAC)",
+    "pointSystem": true,
+    "pointSuspensionThreshold": "12 or more points within a 2-year period results in a 6-month license suspension, plus a remedial driving course and a driver's license reexamination before reinstatement",
+    "moveOverRule": "Move Over Law: move over one lane when approaching a stopped emergency, road-service, or maintenance vehicle with flashing lights; if moving over is unsafe, slow down and proceed with caution",
+    "interstateMaxSpeed": "70 mph on rural interstates and turnpike where posted",
+    "schoolZoneSpeed": "20 mph during recess and while children are arriving or leaving, during posted school hours",
+    "namedLaws": ["Move Over Law"]
+  },
+  "references": [
+    {
+      "label": "Digest of Ohio Motor Vehicle Laws",
+      "citation": "Ohio BMV / OSHP, Digest of Ohio Motor Vehicle Laws",
+      "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest"
+    },
+    {
+      "label": "Ohio BMV Graduated Driver License",
+      "citation": "Ohio BMV, Graduated Driver License program",
+      "url": "https://www.bmv.ohio.gov/dl-gdl.aspx"
+    }
+  ],
+  "effectiveDate": "2026-07-24",
+  "sourceSnapshotHash": "seed-pending-verification",
+  "reviewStatus": "adversarially-verified",
+  "lastVerified": "2026-07-24",
+  "contentVersion": 1
+}

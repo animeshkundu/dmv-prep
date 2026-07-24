@@ -1,0 +1,98 @@
+{
+  "code": "MD",
+  "name": "Maryland",
+  "agencyName": "Maryland Motor Vehicle Administration",
+  "agencyShort": "MVA",
+  "officialSiteUrl": "https://mva.maryland.gov/",
+  "handbookLandingUrl": "https://mva.maryland.gov/Pages/default.aspx",
+  "handbookPdfUrl": "https://mva.maryland.gov/Documents/DL-002.pdf",
+  "handbookFormat": "pdf",
+  "handbookEditionYear": 2025,
+  "handbookCopyrightStatus": "terms-of-use",
+  "applicantVariants": [
+    { "id": "under-18", "label": "Under 18 (learner's permit, Rookie Driver GDL)" },
+    { "id": "adult", "label": "Adult (18+) noncommercial Class C" }
+  ],
+  "examVariants": [
+    {
+      "variantId": "under-18",
+      "label": "Under-18 knowledge (law) test - noncommercial Class C",
+      "numQuestions": 25,
+      "numToPass": 22,
+      "timeLimitMinutes": 20,
+      "languages": ["en", "es"],
+      "onlineAvailable": false
+    },
+    {
+      "variantId": "adult",
+      "label": "Adult knowledge (law) test - noncommercial Class C",
+      "numQuestions": 25,
+      "numToPass": 22,
+      "timeLimitMinutes": 20,
+      "languages": ["en", "es"],
+      "onlineAvailable": false
+    }
+  ],
+  "retake": {
+    "waitBetweenAttempts": "Next business day, subject to appointment availability"
+  },
+  "gdl": {
+    "permitMinAge": "15 yrs 9 mo",
+    "provisionalMinAge": "16 yrs 6 mo",
+    "fullLicenseMinAge": "18",
+    "permitHoldingPeriod": "9 months (minors under 18)",
+    "supervisedHoursRequired": "60 hours (10 at night)",
+    "nightHoursRequired": "10 hours",
+    "nightCurfew": "No driving midnight-5 a.m. on a provisional license (under 18) unless supervised",
+    "passengerLimits": "For the first 151 days (about 5 months) of a provisional license, no passengers under 18 unless accompanied by a qualified supervising driver 21+ or an immediate family member",
+    "driverEdRequired": true
+  },
+  "process": {
+    "appointmentRequired": "required",
+    "requiredDocuments": [
+      "Proof of identity and date of birth (e.g. U.S. birth certificate or passport)",
+      "Proof of Social Security number",
+      "Two proofs of Maryland residency",
+      "Proof of lawful status / legal presence"
+    ],
+    "realIdNotes": "REAL ID requires one proof of identity/age, one proof of Social Security number, and two proofs of Maryland residency. Federal REAL ID enforcement is in effect for boarding domestic flights.",
+    "permitFee": "$65 (new noncommercial Type I GLS learner's permit; includes conversion to a full license)",
+    "licenseFee": "$88 (new noncommercial license age 21+, valid 8 years; under-21 terms are prorated at $11/year)",
+    "feesUrl": "https://mva.maryland.gov/licenses-ids/license-id-fees",
+    "visionTestRequired": true,
+    "visionStandard": "At least 20/40 in at least one eye, with or without corrective lenses"
+  },
+  "facts": {
+    "bacLimitAdult": "0.08%",
+    "bacLimitCommercial": "0.04%",
+    "bacLimitUnder21": "0.02% (alcohol restriction for drivers under 21)",
+    "pointSystem": true,
+    "pointSuspensionThreshold": "8-11 points in 2 years leads to suspension; 12+ points in 2 years leads to revocation",
+    "moveOverRule": "Move over a lane, or slow down if you cannot, for stopped emergency, tow, and service vehicles displaying warning lights",
+    "interstateMaxSpeed": "70 mph where posted",
+    "schoolZoneSpeed": "Reduced posted school-zone speed limit when in effect (commonly 15-25 mph)",
+    "namedLaws": ["Move Over Law", "Noah's Law (ignition interlock)", "Jake's Law (distracted driving)"]
+  },
+  "references": [
+    {
+      "label": "Maryland Driver's Manual",
+      "citation": "MDOT MVA Driver's Manual (DL-002, Dec 2025 edition)",
+      "url": "https://mva.maryland.gov/Documents/DL-002.pdf"
+    },
+    {
+      "label": "Driver's License Points",
+      "citation": "MDOT MVA Driver's License Points",
+      "url": "https://mva.maryland.gov/your-mva-guide/drivers-revoked-or-suspended-licenses/drivers-license-points"
+    },
+    {
+      "label": "Rookie Driver / learner's permit",
+      "citation": "MDOT MVA Rookie Driver graduated licensing",
+      "url": "https://mva.maryland.gov/your-mva-guide/teens-new-drivers/learners-permit"
+    }
+  ],
+  "effectiveDate": "2026-07-24",
+  "sourceSnapshotHash": "seed-pending-verification",
+  "reviewStatus": "adversarially-verified",
+  "lastVerified": "2026-07-24",
+  "contentVersion": 1
+}

@@ -1,0 +1,91 @@
+{
+  "code": "WY",
+  "name": "Wyoming",
+  "agencyName": "Wyoming Department of Transportation (Driver Services)",
+  "agencyShort": "DOT",
+  "officialSiteUrl": "https://www.dot.state.wy.us/driverservices",
+  "handbookLandingUrl": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html",
+  "handbookPdfUrl": "https://www.dot.state.wy.us/files/live/sites/wydot/files/shared/Driver_Services/Manuals/DRIV_LIC.pdf",
+  "handbookFormat": "pdf",
+  "handbookEditionYear": 2024,
+  "handbookCopyrightStatus": "unknown",
+  "applicantVariants": [
+    { "id": "under-18", "label": "Under 18 (graduated licensing)" },
+    { "id": "adult", "label": "Adult (18+)" }
+  ],
+  "examVariants": [
+    {
+      "variantId": "standard",
+      "label": "Wyoming knowledge (written) test — Class C, all applicants",
+      "numQuestions": 25,
+      "numToPass": 20,
+      "languages": ["en"],
+      "onlineAvailable": false
+    }
+  ],
+  "retake": {
+    "waitBetweenAttempts": "Retest per local WYDOT office scheduling",
+    "retakeFee": "Written knowledge test is administered at no separate charge"
+  },
+  "gdl": {
+    "permitMinAge": "15",
+    "provisionalMinAge": "16 (intermediate permit)",
+    "fullLicenseMinAge": "16 yrs 6 mo (or age 17)",
+    "permitHoldingPeriod": "10 days (learner permit)",
+    "supervisedHoursRequired": "50 hours (10 at night)",
+    "nightHoursRequired": "10 hours",
+    "nightCurfew": "No driving 11 p.m.-5 a.m. (intermediate permit)",
+    "passengerLimits": "No more than one passenger under 18 who is not immediate family (intermediate permit)",
+    "driverEdRequired": true
+  },
+  "process": {
+    "appointmentRequired": "varies",
+    "schedulingUrl": "https://mvds.onewyo.gov/",
+    "requiredDocuments": [
+      "Proof of identity/date of birth (e.g. certified birth certificate or U.S. passport)",
+      "Proof of Social Security Number",
+      "Two proofs of Wyoming residency showing physical address",
+      "Parental/guardian consent and signature if under 18"
+    ],
+    "realIdNotes": "A REAL ID requires one proof of identity, one proof of SSN, and two proofs of Wyoming residency (originals or certified copies; no photocopies). A standard (non-REAL ID) license is also offered.",
+    "permitFee": "$45 (regular learner permit)",
+    "licenseFee": "$45 (Class C driver license)",
+    "feesUrl": "https://www.dot.state.wy.us/files/live/sites/wydot/files/shared/Driver_Services/Help%20Documents%20and%20Manuals/Driver%20License%20Fee%20Update.pdf",
+    "visionTestRequired": true,
+    "visionStandard": "20/40 with or without corrective lenses"
+  },
+  "facts": {
+    "bacLimitAdult": "0.08%",
+    "bacLimitCommercial": "0.04%",
+    "bacLimitUnder21": "0.02% (zero tolerance)",
+    "pointSystem": false,
+    "pointSuspensionThreshold": "No demerit-point system; four moving-violation convictions within 12 months lead to license suspension",
+    "moveOverRule": "Slow down and, when safe, move over a lane for stopped emergency and service vehicles displaying flashing lights",
+    "interstateMaxSpeed": "80 mph on posted Interstate segments (otherwise 75 mph)",
+    "schoolZoneSpeed": "20 mph in a posted school zone",
+    "namedLaws": ["Move Over Law", "Implied Consent Law", "Texting-While-Driving Ban"]
+  },
+  "references": [
+    {
+      "label": "Wyoming Rules of the Road Driver License Manual",
+      "citation": "WYDOT Driver Services — Driver Manuals",
+      "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
+    },
+    {
+      "label": "Wyoming Maximum Speed Limits",
+      "citation": "Wyo. Stat. § 31-5-301",
+      "url": "https://law.justia.com/codes/wyoming/title-31/chapter-5/article-3/section-31-5-301/"
+    },
+    {
+      "label": "WYDOT Driver Services",
+      "citation": "Wyoming Department of Transportation — Driver Services",
+      "url": "https://www.dot.state.wy.us/driverservices"
+    }
+  ],
+  "effectiveDate": "2026-07-24",
+  "sourceSnapshotHash": "seed-pending-verification",
+  "reviewStatus": "draft",
+  "verifyNote": "Official WYDOT sources resolve the current 2024 Class C manual and confirm $45 regular learner-permit and Class C license fees. The 25-question/20-correct test is consistently reported but was not located in an official page excerpt; Wyoming's lack of a demerit-point system and the four-moving-violations suspension rule also remain unconfirmed from an accessible official passage.",
+  "lastVerified": "2026-07-24",
+  "contentVersion": 1
+}

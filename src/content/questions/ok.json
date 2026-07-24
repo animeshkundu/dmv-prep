@@ -1,0 +1,272 @@
+[
+  {
+    "id": "ok-speed-001",
+    "category": "speed-limits",
+    "stateScope": ["OK"],
+    "prompt": "On a rural Oklahoma interstate or turnpike, unless a lower limit is posted, the maximum speed limit for passenger cars is generally:",
+    "options": ["65 mph", "70 mph", "75 mph", "80 mph"],
+    "correctIndex": 2,
+    "explanation": "Oklahoma allows up to 75 mph on many rural interstates and turnpikes. Always follow the posted sign, as limits are lower in cities and work zones.",
+    "difficulty": "easy",
+    "references": [{ "label": "Speed limits", "citation": "Oklahoma Driver Manual, Speed Limits", "url": "https://oklahoma.gov/service/all-pages/driver-education.html" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ok-alc-001",
+    "category": "alcohol-drugs",
+    "stateScope": ["OK"],
+    "prompt": "In Oklahoma, a driver 21 or older is considered legally impaired (DUI) at a blood alcohol concentration of:",
+    "options": ["0.05%", "0.08%", "0.10%", "0.02%"],
+    "correctIndex": 1,
+    "explanation": "The adult DUI limit in Oklahoma is 0.08%. The commercial limit is 0.04%, and drivers under 21 are held to zero tolerance for any measurable alcohol.",
+    "difficulty": "easy",
+    "references": [{ "label": "DUI limits", "citation": "Oklahoma Driver Manual, Alcohol and Driving", "url": "https://oklahoma.gov/service/all-pages/driver-education.html" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ok-alc-002",
+    "category": "alcohol-drugs",
+    "stateScope": ["OK"],
+    "prompt": "In Oklahoma, an aggravated DUI charge applies when a driver's blood alcohol concentration reaches:",
+    "options": ["0.08% or higher", "0.10% or higher", "0.15% or higher", "0.20% or higher"],
+    "correctIndex": 2,
+    "explanation": "A BAC of 0.15% or higher is charged as aggravated DUI in Oklahoma, which carries stronger penalties including a mandatory ignition interlock device.",
+    "difficulty": "medium",
+    "references": [{ "label": "Aggravated DUI", "citation": "Oklahoma Driver Manual, Alcohol and Driving", "url": "https://oklahoma.gov/service/all-pages/driver-education.html" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ok-penalties-001",
+    "category": "penalties-points",
+    "stateScope": ["OK"],
+    "prompt": "In Oklahoma, your driver's license may be suspended when you accumulate:",
+    "options": [
+      "4 or more points in 12 months",
+      "10 or more points within a 5-year period",
+      "6 or more points at any time",
+      "12 or more points in 1 year"
+    ],
+    "correctIndex": 1,
+    "explanation": "Oklahoma suspends a license when a driver accumulates 10 or more points within a 5-year period. Points can be reduced through safe driving over time or a defensive driving course.",
+    "difficulty": "hard",
+    "references": [{ "label": "Point system", "citation": "Oklahoma Driver Manual, Point System", "url": "https://oklahoma.gov/service/all-pages/driver-education.html" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ok-gdl-001",
+    "category": "gdl-teen",
+    "stateScope": ["OK"],
+    "prompt": "A teen holding an Oklahoma learner permit may drive only:",
+    "options": [
+      "Between 5 a.m. and 10 p.m.",
+      "Between midnight and 6 a.m.",
+      "At any time without restriction",
+      "Only on weekends"
+    ],
+    "correctIndex": 0,
+    "explanation": "Learner permit holders in Oklahoma may drive only between 5 a.m. and 10 p.m., and must be accompanied by a licensed driver 21 or older seated in the front passenger seat.",
+    "difficulty": "medium",
+    "references": [{ "label": "Learner permit restrictions", "citation": "Oklahoma Driver Manual, Graduated Licensing", "url": "https://oklahoma.gov/service/all-pages/driver-education.html" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ok-gdl-002",
+    "category": "gdl-teen",
+    "stateScope": ["OK"],
+    "prompt": "How many hours of supervised driving practice must an Oklahoma teen complete before the intermediate license, and how many must be at night?",
+    "options": [
+      "40 hours, 5 at night",
+      "50 hours, 10 at night",
+      "60 hours, 20 at night",
+      "30 hours, none at night"
+    ],
+    "correctIndex": 1,
+    "explanation": "Oklahoma requires 50 hours of supervised driving practice, including at least 10 hours at night, before a teen can advance from the learner permit.",
+    "difficulty": "medium",
+    "references": [{ "label": "Practice hours", "citation": "Oklahoma Driver Manual, Graduated Licensing", "url": "https://oklahoma.gov/service/all-pages/driver-education.html" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ok-gdl-003",
+    "category": "gdl-teen",
+    "stateScope": ["OK"],
+    "prompt": "With an Oklahoma intermediate license, how many passengers under 18 (other than household members) may the driver carry?",
+    "options": [
+      "No passengers at all",
+      "Only one, unless a licensed driver 21 or older is in the front seat",
+      "Up to three",
+      "As many as there are seat belts"
+    ],
+    "correctIndex": 1,
+    "explanation": "An intermediate license holder may carry only one passenger under 18 who is not a household member, unless a licensed driver 21 or older is seated in the front passenger seat.",
+    "difficulty": "hard",
+    "references": [{ "label": "Passenger limits", "citation": "Oklahoma Driver Manual, Graduated Licensing", "url": "https://oklahoma.gov/service/all-pages/driver-education.html" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ok-safe-001",
+    "category": "safe-driving",
+    "stateScope": ["OK"],
+    "prompt": "Oklahoma's Move Over law requires that when you approach a stopped emergency or maintenance vehicle with flashing lights on a highway, you must:",
+    "options": [
+      "Maintain your speed and stay in your lane",
+      "Move over one lane if you can do so safely, or slow down if you cannot",
+      "Stop until the vehicle moves",
+      "Flash your headlights and continue"
+    ],
+    "correctIndex": 1,
+    "explanation": "Oklahoma's Move Over law requires drivers to change lanes away from stopped emergency, tow, and maintenance vehicles showing flashing lights, or to slow down if changing lanes is not safe.",
+    "difficulty": "easy",
+    "references": [{ "label": "Move Over law", "citation": "Oklahoma Driver Manual, Emergency Vehicles", "url": "https://oklahoma.gov/service/all-pages/driver-education.html" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ok-row-001",
+    "category": "right-of-way",
+    "stateScope": ["OK"],
+    "prompt": "When you are turning left at an intersection and an oncoming vehicle is approaching, you must:",
+    "options": [
+      "Turn quickly before it arrives",
+      "Yield to the oncoming vehicle and turn only when it is safe",
+      "Expect the oncoming vehicle to stop for you",
+      "Sound your horn and complete the turn"
+    ],
+    "correctIndex": 1,
+    "explanation": "A driver turning left must yield the right of way to oncoming traffic that is close enough to be a hazard, and may complete the turn only when there is a safe gap.",
+    "difficulty": "easy",
+    "references": [{ "label": "Right of way", "citation": "Oklahoma Driver Manual, Right of Way", "url": "https://oklahoma.gov/service/all-pages/driver-education.html" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ok-signs-001",
+    "category": "road-signs",
+    "stateScope": ["OK"],
+    "prompt": "A red octagonal (eight-sided) sign always means:",
+    "options": [
+      "Yield to other traffic",
+      "Come to a complete stop",
+      "Do not enter",
+      "Slow down for a curve"
+    ],
+    "correctIndex": 1,
+    "explanation": "The eight-sided red sign is the only shape used for a stop sign. It means come to a complete stop, then proceed when it is safe and legal.",
+    "difficulty": "easy",
+    "references": [{ "label": "Sign shapes", "citation": "Oklahoma Driver Manual, Traffic Signs", "url": "https://oklahoma.gov/service/all-pages/driver-education.html" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ok-signals-001",
+    "category": "traffic-signals",
+    "stateScope": ["OK"],
+    "prompt": "At an intersection with a steady red light, after coming to a complete stop you may turn right:",
+    "options": [
+      "Never, red always means no turns",
+      "Only when a sign prohibits it",
+      "When it is safe and no sign prohibits the turn, after yielding to traffic and pedestrians",
+      "Only if another car turns first"
+    ],
+    "correctIndex": 2,
+    "explanation": "In Oklahoma you may turn right on a steady red light after a complete stop, as long as no sign prohibits it and you yield to pedestrians and cross traffic.",
+    "difficulty": "medium",
+    "references": [{ "label": "Turning on red", "citation": "Oklahoma Driver Manual, Traffic Signals", "url": "https://oklahoma.gov/service/all-pages/driver-education.html" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ok-markings-001",
+    "category": "pavement-markings",
+    "stateScope": ["OK"],
+    "prompt": "Two solid yellow lines in the center of a road mean:",
+    "options": [
+      "Passing is allowed in both directions",
+      "No passing for traffic in either direction",
+      "The road is a one-way street",
+      "You may cross only to turn left into a driveway"
+    ],
+    "correctIndex": 1,
+    "explanation": "Double solid yellow lines mean neither direction of traffic may cross to pass. You may cross them only to turn into or out of a driveway or road where permitted.",
+    "difficulty": "medium",
+    "references": [{ "label": "Pavement markings", "citation": "Oklahoma Driver Manual, Pavement Markings", "url": "https://oklahoma.gov/service/all-pages/driver-education.html" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ok-share-001",
+    "category": "sharing-the-road",
+    "stateScope": ["OK"],
+    "prompt": "When you approach a school bus stopped with its red lights flashing and stop arm extended on an undivided road, you must:",
+    "options": [
+      "Slow down and pass carefully",
+      "Stop and stay stopped until the red lights stop flashing and the arm is withdrawn",
+      "Pass only if no children are crossing",
+      "Continue if you are in the opposite lane"
+    ],
+    "correctIndex": 1,
+    "explanation": "On an undivided roadway, traffic from both directions must stop for a school bus with flashing red lights and an extended stop arm, and remain stopped until the bus resumes motion.",
+    "difficulty": "medium",
+    "references": [{ "label": "School buses", "citation": "Oklahoma Driver Manual, Sharing the Road", "url": "https://oklahoma.gov/service/all-pages/driver-education.html" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ok-safe-002",
+    "category": "safe-driving",
+    "stateScope": ["OK"],
+    "prompt": "If your vehicle begins to skid on a wet Oklahoma road, you should:",
+    "options": [
+      "Brake hard and hold the wheel straight",
+      "Ease off the accelerator and steer in the direction you want the front of the car to go",
+      "Accelerate to regain traction",
+      "Turn the wheel sharply in the opposite direction"
+    ],
+    "correctIndex": 1,
+    "explanation": "In a skid, take your foot off the accelerator, avoid slamming the brakes, and steer gently in the direction you want the front of the vehicle to go until you regain control.",
+    "difficulty": "medium",
+    "references": [{ "label": "Skid control", "citation": "Oklahoma Driver Manual, Safe Driving", "url": "https://oklahoma.gov/service/all-pages/driver-education.html" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ok-laws-001",
+    "category": "traffic-laws",
+    "stateScope": ["OK"],
+    "prompt": "Oklahoma law requires drivers to use headlights:",
+    "options": [
+      "Only between midnight and 5 a.m.",
+      "From sunset to sunrise and when weather or low visibility requires them",
+      "Only on interstates",
+      "Only when other cars have theirs on"
+    ],
+    "correctIndex": 1,
+    "explanation": "Headlights must be on from sunset to sunrise and whenever conditions such as rain, fog, or low light reduce visibility, so you can see and be seen.",
+    "difficulty": "easy",
+    "references": [{ "label": "Headlight use", "citation": "Oklahoma Driver Manual, Vehicle Lights", "url": "https://oklahoma.gov/service/all-pages/driver-education.html" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  }
+]

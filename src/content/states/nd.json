@@ -1,0 +1,90 @@
+{
+  "code": "ND",
+  "name": "North Dakota",
+  "agencyName": "North Dakota Department of Transportation, Driver License Division",
+  "agencyShort": "DOT",
+  "officialSiteUrl": "https://www.dot.nd.gov/",
+  "handbookLandingUrl": "https://www.dot.nd.gov/driver/noncommercial-driver-license-manual",
+  "handbookPdfUrl": "https://www.dot.nd.gov/sites/www/files/documents/Drivers%20-%20documents/noncommercial-manual.pdf",
+  "handbookFormat": "pdf",
+  "handbookEditionYear": 2025,
+  "handbookCopyrightStatus": "unknown",
+  "applicantVariants": [
+    { "id": "under-18", "label": "Under 18 (graduated licensing)" },
+    { "id": "adult", "label": "Adult (18 and older)" }
+  ],
+  "examVariants": [
+    {
+      "variantId": "standard",
+      "label": "Noncommercial (Class D) knowledge test",
+      "numQuestions": 25,
+      "numToPass": 20,
+      "languages": ["en"],
+      "onlineAvailable": true
+    }
+  ],
+  "retake": {
+    "waitBetweenAttempts": "Generally the next business day",
+    "retakeFee": "Confirm any additional test fee with NDDOT"
+  },
+  "gdl": {
+    "permitMinAge": "14",
+    "provisionalMinAge": "16 (age 15 for a parent-requested restricted license)",
+    "fullLicenseMinAge": "16",
+    "permitHoldingPeriod": "12 months if under 16; 6 months or until age 18 if 16 or older",
+    "supervisedHoursRequired": "50 hours (for applicants under 16)",
+    "nightCurfew": "Restricted license holders may not drive from the later of sunset or 9 p.m. until 5 a.m.",
+    "passengerLimits": "No statewide passenger cap under the standard GDL",
+    "driverEdRequired": true
+  },
+  "process": {
+    "appointmentRequired": "encouraged",
+    "schedulingUrl": "https://secure.apps.state.nd.us/dot/dlts/dlos/scheduleWelcome.htm",
+    "requiredDocuments": [
+      "Proof of identity and lawful presence (certified U.S. birth certificate or valid U.S. passport)",
+      "Proof of Social Security number (Social Security card or W-2)",
+      "Two proofs of North Dakota residency (e.g. utility bill, bank statement)",
+      "Certified proof of any legal name change, if applicable"
+    ],
+    "realIdNotes": "A REAL ID (gold star) must be applied for in person with proof of identity/lawful presence, Social Security number, and two proofs of North Dakota residency; documents must be originals or certified copies.",
+    "permitFee": "$15",
+    "licenseFee": "$15",
+    "feesUrl": "https://www.dot.nd.gov/driver/driver-license",
+    "visionTestRequired": true,
+    "visionStandard": "At least 20/40 in one eye, with or without corrective lenses"
+  },
+  "facts": {
+    "bacLimitAdult": "0.08%",
+    "bacLimitCommercial": "0.04%",
+    "bacLimitUnder21": "0.02% (zero tolerance)",
+    "pointSystem": true,
+    "pointSuspensionThreshold": "12 points results in license suspension",
+    "moveOverRule": "Move over a lane or slow down for stopped emergency, law-enforcement, tow and DOT vehicles displaying flashing lights",
+    "interstateMaxSpeed": "80 mph on rural interstate highways unless otherwise posted",
+    "schoolZoneSpeed": "Obey the posted school-zone limit when children are present",
+    "namedLaws": ["Move Over Law", "Zero Tolerance Law (under 21)", "Texting/handheld device ban"]
+  },
+  "references": [
+    {
+      "label": "North Dakota Noncommercial Driver License Manual (2025-2027)",
+      "citation": "NDDOT Noncommercial Driver License Manual",
+      "url": "https://www.dot.nd.gov/driver/noncommercial-driver-license-manual"
+    },
+    {
+      "label": "NDDOT Driver License",
+      "citation": "NDDOT Driver License Division (fees, process, REAL ID)",
+      "url": "https://www.dot.nd.gov/driver/driver-license"
+    },
+    {
+      "label": "IIHS graduated licensing laws table",
+      "citation": "IIHS GDL laws by state (North Dakota)",
+      "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table"
+    }
+  ],
+  "effectiveDate": "2026-07-24",
+  "sourceSnapshotHash": "seed-pending-verification",
+  "reviewStatus": "adversarially-verified",
+  "verifyNote": "Official NDDOT sources confirm age 14, online knowledge-test availability, $15 permit and Class D fees, the 12-point suspension threshold, and the current revised-2025 manual. The 25-question/20-correct exam format is confirmed by official search material. Rural interstate speed was corrected to 80 mph.",
+  "lastVerified": "2026-07-24",
+  "contentVersion": 1
+}

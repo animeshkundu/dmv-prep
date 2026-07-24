@@ -1,0 +1,97 @@
+{
+  "code": "MT",
+  "name": "Montana",
+  "agencyName": "Montana Motor Vehicle Division",
+  "agencyShort": "MVD",
+  "officialSiteUrl": "https://dojmt.gov/driving/",
+  "handbookLandingUrl": "https://mvdmt.gov/forms-driver-license/",
+  "handbookPdfUrl": "https://mvdmt.gov/wp-content/uploads/2026/05/25-0100M-Montana-Driver-Manual-English-05.26.pdf",
+  "handbookFormat": "pdf",
+  "handbookEditionYear": 2026,
+  "handbookCopyrightStatus": "unknown",
+  "applicantVariants": [
+    { "id": "under-18", "label": "Under 18 (learner license / graduated program)" },
+    { "id": "adult", "label": "Adult (18+)" }
+  ],
+  "examVariants": [
+    {
+      "variantId": "under-18",
+      "label": "Under-18 knowledge test (Class D)",
+      "numQuestions": 33,
+      "numToPass": 27,
+      "languages": ["en"],
+      "onlineAvailable": false
+    },
+    {
+      "variantId": "adult",
+      "label": "Adult knowledge test (Class D)",
+      "numQuestions": 33,
+      "numToPass": 27,
+      "languages": ["en"],
+      "onlineAvailable": false
+    }
+  ],
+  "retake": {
+    "waitBetweenAttempts": "24 hours",
+    "retakeFee": "Retest fee applies; see MVD fee schedule"
+  },
+  "gdl": {
+    "permitMinAge": "14 yrs 6 mo (learner license)",
+    "provisionalMinAge": "15 (restricted license)",
+    "fullLicenseMinAge": "16 (after 12 months) or 18",
+    "permitHoldingPeriod": "6 months",
+    "supervisedHoursRequired": "50 hours (10 at night); 75 hours (15 at night) if an approved online course is used",
+    "nightHoursRequired": "10 hours",
+    "nightCurfew": "No driving 11 p.m.-5 a.m. (with exceptions)",
+    "passengerLimits": "First 6 months: no more than 1 passenger under 18; second 6 months: no more than 3 passengers under 18 (family exceptions)",
+    "driverEdRequired": true
+  },
+  "process": {
+    "appointmentRequired": "varies",
+    "requiredDocuments": [
+      "Proof of identity, date of birth, and lawful presence (e.g. birth certificate or U.S. passport)",
+      "Proof of Social Security Number",
+      "Two documents proving Montana residency (for REAL ID)",
+      "Parent/guardian signature for applicants under 18"
+    ],
+    "realIdNotes": "A Montana REAL ID requires proof of identity/date of birth/lawful presence, one proof of Social Security Number, and two documents proving Montana residency. A REAL ID is marked with a star; a standard credential is also available.",
+    "permitFee": "Age-based: $36.57 at age 14.5, decreasing by credential duration to $5.67 at age 20 (standard, no motorcycle endorsement)",
+    "licenseFee": "$62.32 for a standard 12-year license at ages 21-63; age- and term-based fees apply outside that range",
+    "feesUrl": "https://mvdmt.gov/licensing-fees/",
+    "visionTestRequired": true,
+    "visionStandard": "20/40 with or without corrective lenses"
+  },
+  "facts": {
+    "bacLimitAdult": "0.08%",
+    "bacLimitCommercial": "0.04%",
+    "bacLimitUnder21": "0.02% (zero tolerance)",
+    "pointSystem": true,
+    "pointSuspensionThreshold": "30 conviction points within 3 years qualifies a driver as a habitual traffic offender and triggers revocation proceedings",
+    "moveOverRule": "Move over a lane or slow down for stopped emergency, law enforcement, and other authorized vehicles displaying flashing lights",
+    "interstateMaxSpeed": "80 mph (rural interstate, daytime and night); lower where posted, e.g. 65 mph in urban areas",
+    "schoolZoneSpeed": "As posted; obey reduced school-zone limits when children are present (Montana has no single statewide school-zone number)",
+    "namedLaws": ["Basic Rule (speed)", "Move Over Law", "Implied Consent Law"]
+  },
+  "references": [
+    {
+      "label": "Montana Driver Manual",
+      "citation": "Montana MVD Driver Manual",
+      "url": "https://mvdmt.gov/wp-content/uploads/2026/05/25-0100M-Montana-Driver-Manual-English-05.26.pdf"
+    },
+    {
+      "label": "Forms & Manuals: Driver Licensing",
+      "citation": "Montana MVD Driver Licensing forms & manuals",
+      "url": "https://mvdmt.gov/forms-driver-license/"
+    },
+    {
+      "label": "Graduated licensing law table",
+      "citation": "IIHS Graduated Licensing Laws Table (Montana)",
+      "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table"
+    }
+  ],
+  "effectiveDate": "2026-07-24",
+  "sourceSnapshotHash": "seed-pending-verification",
+  "reviewStatus": "adversarially-verified",
+  "lastVerified": "2026-07-24",
+  "contentVersion": 1
+}

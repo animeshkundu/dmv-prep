@@ -1,0 +1,258 @@
+[
+  {
+    "id": "ms-speed-001",
+    "category": "speed-limits",
+    "stateScope": ["MS"],
+    "prompt": "On a Mississippi interstate highway, the maximum posted speed limit is generally:",
+    "options": ["65 mph", "70 mph", "75 mph", "80 mph"],
+    "correctIndex": 1,
+    "explanation": "Mississippi posts a maximum of 70 mph on interstate highways where signed. Lower limits apply in urban areas, construction zones, and wherever posted.",
+    "difficulty": "medium",
+    "references": [{ "label": "Mississippi Driver's Manual", "citation": "Mississippi Driver's Manual, Speed Limits", "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ms-speed-002",
+    "category": "speed-limits",
+    "stateScope": ["MS"],
+    "prompt": "In a posted Mississippi school zone during hours when the reduced limit is in effect, the speed limit is commonly:",
+    "options": ["15 mph", "25 mph", "35 mph", "45 mph"],
+    "correctIndex": 0,
+    "explanation": "Mississippi school zones commonly post a reduced limit of 15 mph when in effect. Always obey the posted school-zone sign and any flashing beacons.",
+    "difficulty": "medium",
+    "references": [{ "label": "Mississippi Driver's Manual", "citation": "Mississippi Driver's Manual, School Zones", "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "draft",
+    "verifyNote": "The cited official manual did not yield a statewide default 15 mph school-zone rule; obeying the posted school-zone limit is confirmed, but this numeric wording needs an official pinpoint citation.",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ms-alcohol-drugs-001",
+    "category": "alcohol-drugs",
+    "stateScope": ["MS"],
+    "prompt": "Under Mississippi's zero-tolerance law, a driver under 21 can be charged for driving with a BAC of at least:",
+    "options": ["0.08%", "0.05%", "0.02%", "0.01%"],
+    "correctIndex": 2,
+    "explanation": "Mississippi sets a 0.02% BAC limit for drivers under 21, compared with 0.08% for adults. An underage DUI can bring fines, license suspension, and mandatory alcohol-safety programs.",
+    "difficulty": "medium",
+    "references": [{ "label": "Mississippi Driver's Manual", "citation": "Mississippi Driver's Manual, Alcohol and Driving", "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ms-alcohol-drugs-002",
+    "category": "alcohol-drugs",
+    "stateScope": ["MS"],
+    "prompt": "In Mississippi, the legal BAC limit for a commercial driver operating a commercial vehicle is:",
+    "options": ["0.08%", "0.05%", "0.04%", "0.02%"],
+    "correctIndex": 2,
+    "explanation": "Commercial drivers in Mississippi are held to a stricter 0.04% BAC limit while operating a commercial motor vehicle.",
+    "difficulty": "medium",
+    "references": [{ "label": "Mississippi Driver's Manual", "citation": "Mississippi Driver's Manual, Alcohol and Driving", "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ms-gdl-teen-001",
+    "category": "gdl-teen",
+    "stateScope": ["MS"],
+    "prompt": "What is the minimum age to obtain a regular Mississippi learner's permit?",
+    "options": ["14", "15", "16", "16 years 6 months"],
+    "correctIndex": 1,
+    "explanation": "Mississippi allows a regular learner's permit at age 15. Drivers advance to an intermediate license at 16 and an unrestricted license at 16 years 6 months.",
+    "difficulty": "medium",
+    "references": [{ "label": "Mississippi Driver's Manual", "citation": "Mississippi Driver's Manual, Graduated Licensing", "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ms-gdl-teen-002",
+    "category": "gdl-teen",
+    "stateScope": ["MS"],
+    "prompt": "A Mississippi intermediate license holder generally may not drive during which hours on Sunday through Thursday, unless accompanied or driving to/from work?",
+    "options": [
+      "9 p.m. to 5 a.m.",
+      "10 p.m. to 6 a.m.",
+      "11 p.m. to 4 a.m.",
+      "Midnight to 5 a.m."
+    ],
+    "correctIndex": 1,
+    "explanation": "On Sunday through Thursday, an intermediate driver may not drive between 10 p.m. and 6 a.m.; on Friday and Saturday the restriction runs 11:30 p.m. to 6 a.m., unless accompanied by a licensed parent or guardian or driving to or from work.",
+    "difficulty": "hard",
+    "references": [{ "label": "Mississippi Driver's Manual", "citation": "Mississippi Driver's Manual, Intermediate License Restrictions", "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ms-gdl-teen-003",
+    "category": "gdl-teen",
+    "stateScope": ["MS"],
+    "prompt": "How long must a driver hold a Mississippi learner's permit before applying for an intermediate license?",
+    "options": ["30 days", "3 months", "6 months", "12 months"],
+    "correctIndex": 3,
+    "explanation": "Mississippi requires holding the learner's permit for 12 months (or until age 16) before moving up to an intermediate license.",
+    "difficulty": "medium",
+    "references": [{ "label": "Mississippi Driver's Manual", "citation": "Mississippi Driver's Manual, Graduated Licensing", "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ms-safe-driving-001",
+    "category": "safe-driving",
+    "stateScope": ["MS"],
+    "prompt": "Under Mississippi's Move Over Law, when you approach a stopped emergency vehicle with flashing lights you should:",
+    "options": [
+      "Keep your speed and lane",
+      "Change to a non-adjacent lane when safe, or slow down if you cannot",
+      "Stop in your lane and wait",
+      "Pass as quickly as possible"
+    ],
+    "correctIndex": 1,
+    "explanation": "Mississippi's Move Over Law requires drivers to move to a non-adjacent lane when it is safe, or to slow down and proceed with caution when moving over is not possible, for stopped emergency and authorized vehicles.",
+    "difficulty": "easy",
+    "references": [{ "label": "Mississippi Driver's Manual", "citation": "Mississippi Driver's Manual, Move Over Law", "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ms-road-signs-001",
+    "category": "road-signs",
+    "stateScope": ["MS"],
+    "prompt": "A five-sided (pentagon-shaped) sign indicates:",
+    "options": [
+      "A railroad crossing",
+      "A school zone or school crossing",
+      "A no-passing zone",
+      "A hospital ahead"
+    ],
+    "correctIndex": 1,
+    "explanation": "A pentagon-shaped sign marks a school zone or school crossing. Slow down and watch for children when approaching.",
+    "difficulty": "easy",
+    "references": [{ "label": "Mississippi Driver's Manual", "citation": "Mississippi Driver's Manual, Traffic Signs", "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ms-road-signs-002",
+    "category": "road-signs",
+    "stateScope": ["MS"],
+    "prompt": "A round (circular) sign with a black X and the letters RR marks:",
+    "options": [
+      "A rest area",
+      "A railroad crossing ahead",
+      "A regional route",
+      "A roundabout"
+    ],
+    "correctIndex": 1,
+    "explanation": "A round yellow sign with a large X and two R's is an advance warning of a railroad crossing. Be prepared to stop for trains.",
+    "difficulty": "easy",
+    "references": [{ "label": "Mississippi Driver's Manual", "citation": "Mississippi Driver's Manual, Warning Signs", "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ms-right-of-way-001",
+    "category": "right-of-way",
+    "stateScope": ["MS"],
+    "prompt": "When you want to make a left turn at an intersection and oncoming traffic is approaching, you must:",
+    "options": [
+      "Turn first because you are turning",
+      "Yield to oncoming traffic that is close enough to be a hazard",
+      "Proceed if you signal",
+      "Expect oncoming traffic to stop for you"
+    ],
+    "correctIndex": 1,
+    "explanation": "A driver turning left must yield to oncoming vehicles that are close enough to be a hazard, completing the turn only when there is a safe gap.",
+    "difficulty": "medium",
+    "references": [{ "label": "Mississippi Driver's Manual", "citation": "Mississippi Driver's Manual, Right of Way", "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ms-parking-001",
+    "category": "parking",
+    "stateScope": ["MS"],
+    "prompt": "A painted curb and signs marking a space with the International Symbol of Access (wheelchair symbol) mean:",
+    "options": [
+      "Anyone may park for a short time",
+      "Parking is reserved for vehicles displaying a valid disability placard or plate",
+      "Loading zone only",
+      "No stopping at any time"
+    ],
+    "correctIndex": 1,
+    "explanation": "Accessible spaces are reserved for vehicles displaying a valid disability placard or plate. Parking there without one can result in a fine and towing.",
+    "difficulty": "easy",
+    "references": [{ "label": "Mississippi Driver's Manual", "citation": "Mississippi Driver's Manual, Parking", "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ms-pavement-markings-001",
+    "category": "pavement-markings",
+    "stateScope": ["MS"],
+    "prompt": "Two solid yellow lines in the center of the road mean:",
+    "options": [
+      "Passing is allowed for both directions",
+      "No passing for traffic in either direction",
+      "A two-way left-turn lane",
+      "The lane is closed"
+    ],
+    "correctIndex": 1,
+    "explanation": "Double solid yellow lines mean passing is prohibited for traffic traveling in both directions. Do not cross them to pass.",
+    "difficulty": "easy",
+    "references": [{ "label": "Mississippi Driver's Manual", "citation": "Mississippi Driver's Manual, Pavement Markings", "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ms-sharing-the-road-001",
+    "category": "sharing-the-road",
+    "stateScope": ["MS"],
+    "prompt": "When sharing the road with a motorcycle, you should:",
+    "options": [
+      "Follow more closely because motorcycles stop faster",
+      "Give the motorcycle a full lane and extra following distance",
+      "Share the lane beside it",
+      "Pass without signaling"
+    ],
+    "correctIndex": 1,
+    "explanation": "Treat a motorcycle as you would any other vehicle: allow it a full lane, increase your following distance, and check carefully for motorcycles before changing lanes or turning.",
+    "difficulty": "easy",
+    "references": [{ "label": "Mississippi Driver's Manual", "citation": "Mississippi Driver's Manual, Sharing the Road", "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ms-safe-driving-002",
+    "category": "safe-driving",
+    "stateScope": ["MS"],
+    "prompt": "If your vehicle begins to skid on a wet Mississippi road, you should:",
+    "options": [
+      "Brake hard and hold the wheel straight",
+      "Ease off the accelerator and steer in the direction you want the front of the car to go",
+      "Accelerate to regain traction",
+      "Turn the wheel sharply the opposite way"
+    ],
+    "correctIndex": 1,
+    "explanation": "In a skid, take your foot off the accelerator, avoid slamming the brakes, and steer gently in the direction you want the front of the vehicle to go until you regain control.",
+    "difficulty": "medium",
+    "references": [{ "label": "Mississippi Driver's Manual", "citation": "Mississippi Driver's Manual, Skidding and Adverse Conditions", "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  }
+]

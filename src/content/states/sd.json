@@ -1,0 +1,88 @@
+{
+  "code": "SD",
+  "name": "South Dakota",
+  "agencyName": "South Dakota Department of Public Safety, Driver Licensing Program",
+  "agencyShort": "DPS",
+  "officialSiteUrl": "https://dps.sd.gov/driver-licensing",
+  "handbookLandingUrl": "https://www.sd.gov/dps?id=cs_kb_article_view&sysparm_article=KB0043733",
+  "handbookFormat": "pdf",
+  "handbookEditionYear": 2021,
+  "handbookCopyrightStatus": "unknown",
+  "applicantVariants": [
+    { "id": "under-18", "label": "Under 18 (graduated licensing)" },
+    { "id": "adult", "label": "Adult (18 and older)" }
+  ],
+  "examVariants": [
+    {
+      "variantId": "standard",
+      "label": "Class D knowledge test (all ages)",
+      "numQuestions": 25,
+      "numToPass": 20,
+      "languages": ["en"],
+      "onlineAvailable": false
+    }
+  ],
+  "retake": {
+    "waitBetweenAttempts": "Generally the next business day",
+    "retakeFee": "Additional test fees may apply; confirm with DPS"
+  },
+  "gdl": {
+    "permitMinAge": "14",
+    "provisionalMinAge": "14 yrs 9 mo (14 yrs 6 mo with driver education)",
+    "fullLicenseMinAge": "16",
+    "permitHoldingPeriod": "180 days (restricted minor's permit before restricted license)",
+    "supervisedHoursRequired": "50 hours (10 at night and 10 in inclement weather)",
+    "nightCurfew": "No driving 10 p.m.-6 a.m. under a restricted minor's permit unless supervised by a parent/guardian",
+    "passengerLimits": "No passengers for the first 6 months; then no more than 1 passenger under 18 (family exempt)",
+    "driverEdRequired": false
+  },
+  "process": {
+    "appointmentRequired": "encouraged",
+    "schedulingUrl": "https://dps.sd.gov/driver-licensing/renew-and-duplicate/appointmentinformation",
+    "requiredDocuments": [
+      "Proof of identity, date of birth and lawful status (certified birth certificate or valid U.S. passport)",
+      "Proof of Social Security number (Social Security card or W-2)",
+      "Two proofs of South Dakota residential address (e.g. utility bill, bank statement)",
+      "Parent or legal guardian present and completed application for applicants under 18"
+    ],
+    "realIdNotes": "A REAL ID (gold star) requires one proof of identity/date of birth/lawful status, proof of Social Security number, and two proofs of South Dakota residency presented in person.",
+    "permitFee": "$38",
+    "licenseFee": "$38 (5-year Class D operator license)",
+    "visionTestRequired": true,
+    "visionStandard": "At least 20/40 in one eye, with or without corrective lenses"
+  },
+  "facts": {
+    "bacLimitAdult": "0.08%",
+    "bacLimitCommercial": "0.04%",
+    "bacLimitUnder21": "0.02% (zero tolerance)",
+    "pointSystem": true,
+    "pointSuspensionThreshold": "15 points in 12 months or 22 points in 24 months",
+    "moveOverRule": "Move over a lane or slow down for stopped emergency, law-enforcement, tow and highway-maintenance vehicles displaying flashing lights",
+    "interstateMaxSpeed": "80 mph on rural interstates",
+    "schoolZoneSpeed": "Obey the posted school-zone limit when children are present",
+    "namedLaws": ["Move Over Law", "Zero Tolerance Law (under 21)", "Texting/handheld device ban"]
+  },
+  "references": [
+    {
+      "label": "South Dakota Driver License Manual",
+      "citation": "SD DPS Driver License Manual",
+      "url": "https://www.sd.gov/dps?id=cs_kb_article_view&sysparm_article=KB0043733"
+    },
+    {
+      "label": "SD DPS Driver Licensing (fees, GDL, process)",
+      "citation": "SD DPS Driver Licensing Program",
+      "url": "https://dps.sd.gov/driver-licensing"
+    },
+    {
+      "label": "IIHS graduated licensing laws table",
+      "citation": "IIHS GDL laws by state (South Dakota)",
+      "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table"
+    }
+  ],
+  "effectiveDate": "2026-07-24",
+  "sourceSnapshotHash": "seed-pending-verification",
+  "reviewStatus": "adversarially-verified",
+  "verifyNote": "Official South Dakota sources confirm the 25-question/20-correct exam format, minimum age 14, current $38 original/renewal license fee effective July 1, 2025, and the REV 2021 manual edition. School-zone limits remain locally posted rather than a single statewide number.",
+  "lastVerified": "2026-07-24",
+  "contentVersion": 1
+}

@@ -1,0 +1,98 @@
+{
+  "code": "AZ",
+  "name": "Arizona",
+  "agencyName": "Arizona Department of Transportation Motor Vehicle Division",
+  "agencyShort": "MVD",
+  "officialSiteUrl": "https://azdot.gov/mvd",
+  "handbookLandingUrl": "https://azdot.gov/resources/arizona-driver-license-manual",
+  "handbookPdfUrl": "https://apps.azdot.gov/files/mvd/mvd-forms-lib/99-0117.pdf",
+  "handbookFormat": "pdf",
+  "handbookEditionYear": 2024,
+  "handbookCopyrightStatus": "unknown",
+  "applicantVariants": [
+    { "id": "under-18", "label": "Under 18 (Class G instruction permit)" },
+    { "id": "adult", "label": "Adult (18+)" }
+  ],
+  "examVariants": [
+    {
+      "variantId": "under-18",
+      "label": "Under-18 knowledge test (Class G)",
+      "numQuestions": 30,
+      "numToPass": 24,
+      "languages": ["en", "es"],
+      "onlineAvailable": true
+    },
+    {
+      "variantId": "adult",
+      "label": "Adult knowledge test (Class D/G)",
+      "numQuestions": 30,
+      "numToPass": 24,
+      "languages": ["en", "es"],
+      "onlineAvailable": false
+    }
+  ],
+  "retake": {
+    "waitBetweenAttempts": "Same-day or next-day retest generally allowed; office policy varies",
+    "retakeFee": "No separate knowledge-test fee; permit application fee applies"
+  },
+  "gdl": {
+    "permitMinAge": "15 yrs 6 mo",
+    "provisionalMinAge": "16",
+    "fullLicenseMinAge": "18",
+    "permitHoldingPeriod": "6 months (until license or age 18)",
+    "supervisedHoursRequired": "30 hours (10 at night); reduced to 20 hours (6 at night) with approved driver education",
+    "nightHoursRequired": "10 hours",
+    "nightCurfew": "No driving midnight-5 a.m. for first 6 months (exceptions for work, school, or accompanied by parent/guardian)",
+    "passengerLimits": "No more than 1 passenger under 18 for first 6 months (exceptions for siblings or when a parent/guardian is present)",
+    "driverEdRequired": false
+  },
+  "process": {
+    "appointmentRequired": "varies",
+    "schedulingUrl": "https://azdot.gov/mvd/appointments",
+    "requiredDocuments": [
+      "Proof of identity (e.g. birth certificate or U.S. passport)",
+      "Proof of Social Security number (for Travel ID / REAL ID)",
+      "Two proofs of Arizona residency (for Travel ID / REAL ID)",
+      "Parent or guardian consent if under 18"
+    ],
+    "realIdNotes": "The Arizona Travel ID is the state's REAL ID. It requires one proof of identity, one proof of Social Security number, and two proofs of Arizona residency, presented in person as originals or certified copies.",
+    "permitFee": "$7 (Class G instruction permit)",
+    "licenseFee": "$25 (ages 16-39); lower for older applicants",
+    "feesUrl": "https://azdot.gov/motor-vehicles/driver-services/driver-license-information/fees-driver-license",
+    "visionTestRequired": true,
+    "visionStandard": "20/40 in at least one eye, with or without corrective lenses"
+  },
+  "facts": {
+    "bacLimitAdult": "0.08%",
+    "bacLimitCommercial": "0.04%",
+    "bacLimitUnder21": "Any amount of alcohol (zero tolerance for under 21)",
+    "pointSystem": true,
+    "pointSuspensionThreshold": "8 or more points in 12 months requires Traffic Survival School or may trigger suspension; 13-17 points in 12 months = 3-month suspension, 18-23 = 6 months, and 24+ in 36 months = 12 months",
+    "moveOverRule": "Move over one lane or slow down for stopped emergency, tow, utility, and other vehicles displaying flashing lights (A.R.S. 28-775)",
+    "interstateMaxSpeed": "75 mph where posted",
+    "schoolZoneSpeed": "15 mph when children are present and school is in session",
+    "namedLaws": ["Move Over Law", "Hands-Free Law (A.R.S. 28-914)"]
+  },
+  "references": [
+    {
+      "label": "Arizona Driver License Manual",
+      "citation": "ADOT MVD Arizona Driver License Manual",
+      "url": "https://azdot.gov/resources/arizona-driver-license-manual"
+    },
+    {
+      "label": "Permit Test (at Home or in an Office)",
+      "citation": "ADOT MVD Permit Test page",
+      "url": "https://azdot.gov/mvd/services/driver-license-ID/permit-test"
+    },
+    {
+      "label": "Driver License Fees",
+      "citation": "ADOT MVD driver license fees",
+      "url": "https://azdot.gov/motor-vehicles/driver-services/driver-license-information/fees-driver-license"
+    }
+  ],
+  "effectiveDate": "2026-07-24",
+  "sourceSnapshotHash": "seed-pending-verification",
+  "reviewStatus": "adversarially-verified",
+  "lastVerified": "2026-07-24",
+  "contentVersion": 1
+}

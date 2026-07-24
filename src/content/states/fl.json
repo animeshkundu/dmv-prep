@@ -1,0 +1,98 @@
+{
+  "code": "FL",
+  "name": "Florida",
+  "agencyName": "Florida Department of Highway Safety and Motor Vehicles",
+  "agencyShort": "FLHSMV",
+  "officialSiteUrl": "https://www.flhsmv.gov/",
+  "handbookLandingUrl": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+  "handbookPdfUrl": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+  "handbookFormat": "pdf",
+  "handbookEditionYear": 2025,
+  "handbookCopyrightStatus": "terms-of-use",
+  "applicantVariants": [
+    { "id": "under-18", "label": "Under 18 (requires TLSAE course)" },
+    { "id": "adult", "label": "Adult (18+)" }
+  ],
+  "examVariants": [
+    {
+      "variantId": "class-e",
+      "label": "Class E Knowledge Exam",
+      "numQuestions": 50,
+      "numToPass": 40,
+      "subRequirements": [
+        {
+          "category": "road-signs",
+          "minCorrect": 0,
+          "outOf": 10,
+          "note": "10 of the 50 questions cover road signs; there is no separate road-sign minimum, only the overall 40/50 (80%) passing score."
+        }
+      ],
+      "languages": ["en", "es"],
+      "onlineAvailable": true
+    }
+  ],
+  "retake": {
+    "waitBetweenAttempts": "Usually the next day",
+    "retakeFee": "Retest fee (approximately $10) may apply for repeat attempts"
+  },
+  "gdl": {
+    "permitMinAge": "15",
+    "provisionalMinAge": "16",
+    "fullLicenseMinAge": "18",
+    "permitHoldingPeriod": "12 months (or until age 18)",
+    "supervisedHoursRequired": "50 hours (10 at night)",
+    "nightHoursRequired": "10 hours",
+    "nightCurfew": "Age 16: no driving 11 p.m.-6 a.m.; age 17: no driving 1 a.m.-5 a.m., unless driving to/from work or with a licensed driver 21 or older",
+    "passengerLimits": "No GDL passenger limit specified",
+    "driverEdRequired": true
+  },
+  "process": {
+    "appointmentRequired": "encouraged",
+    "schedulingUrl": "https://www.flhsmv.gov/locations/",
+    "requiredDocuments": [
+      "Primary identification (e.g. U.S. birth certificate or passport)",
+      "Proof of Social Security Number",
+      "Two documents proving Florida residential address",
+      "4-hour Traffic Law and Substance Abuse Education (TLSAE) course completion (applicants under 18)"
+    ],
+    "realIdNotes": "Florida licenses are REAL ID compliant. Bring proof of identity, proof of Social Security Number, and two proofs of residential address.",
+    "permitFee": "$48 (learner license)",
+    "licenseFee": "$48 (Class E original); tax collector offices may add up to a $6.25 service fee",
+    "feesUrl": "https://www.flhsmv.gov/fees/",
+    "visionTestRequired": true,
+    "visionStandard": "20/40 or better in each eye, with or without corrective lenses"
+  },
+  "facts": {
+    "bacLimitAdult": "0.08%",
+    "bacLimitCommercial": "0.04%",
+    "bacLimitUnder21": "0.02% (zero tolerance under 21)",
+    "pointSystem": true,
+    "pointSuspensionThreshold": "12 points in 12 months (30-day suspension), 18 points in 18 months (3-month suspension), or 24 points in 36 months (1-year suspension)",
+    "moveOverRule": "Move over one lane, or slow to 20 mph below the posted limit, for stopped law enforcement, emergency, tow, utility, and sanitation vehicles with flashing lights",
+    "interstateMaxSpeed": "70 mph",
+    "schoolZoneSpeed": "20 mph when the school-zone signal is flashing or the reduced limit is posted",
+    "namedLaws": ["Move Over Act", "Florida Ban on Texting While Driving Law", "Hands-free requirement in school and work zones"]
+  },
+  "references": [
+    {
+      "label": "Official Florida Driver License Handbook",
+      "citation": "FLHSMV Official Florida Driver License Handbook",
+      "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf"
+    },
+    {
+      "label": "Points and Point Suspensions",
+      "citation": "FLHSMV Points and Point Suspensions",
+      "url": "https://www.flhsmv.gov/driver-licenses-id-cards/driver-license-suspensions-revocations/points-point-suspensions/"
+    },
+    {
+      "label": "Class E Knowledge Exam",
+      "citation": "FLHSMV Class E Knowledge Exam & Driving Skills Test",
+      "url": "https://www.flhsmv.gov/driver-licenses-id-cards/licensing-requirements-teens-graduated-driver-license-laws-driving-curfews/class-e-knowledge-exam-driving-skills-test/"
+    }
+  ],
+  "effectiveDate": "2026-07-24",
+  "sourceSnapshotHash": "seed-pending-verification",
+  "reviewStatus": "adversarially-verified",
+  "lastVerified": "2026-07-24",
+  "contentVersion": 1
+}

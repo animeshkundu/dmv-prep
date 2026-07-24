@@ -1,0 +1,83 @@
+{
+  "code": "IN",
+  "name": "Indiana",
+  "agencyName": "Indiana Bureau of Motor Vehicles",
+  "agencyShort": "BMV",
+  "officialSiteUrl": "https://www.in.gov/bmv/",
+  "handbookLandingUrl": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/drivers-manual/",
+  "handbookFormat": "pdf",
+  "handbookEditionYear": 2024,
+  "handbookCopyrightStatus": "public-domain",
+  "applicantVariants": [
+    { "id": "under-18", "label": "Teen (under 18, graduated license)" },
+    { "id": "adult", "label": "Adult (18+)" }
+  ],
+  "examVariants": [
+    {
+      "variantId": "all",
+      "label": "Knowledge examination (operator license/permit)",
+      "numQuestions": 50,
+      "numToPass": 40,
+      "languages": ["en"],
+      "onlineAvailable": false
+    }
+  ],
+  "retake": {
+    "waitBetweenAttempts": "May retake the next business day",
+    "retakeFee": "No separate knowledge-test fee"
+  },
+  "gdl": {
+    "permitMinAge": "15 (enrolled in approved driver education); 16 without driver education",
+    "provisionalMinAge": "16 yrs 180 days (with driver ed); 16 yrs 270 days (without)",
+    "fullLicenseMinAge": "License held 6 months or age 21, whichever comes first",
+    "permitHoldingPeriod": "180 days (learner permit) before probationary license",
+    "supervisedHoursRequired": "50 hours (10 at night)",
+    "nightHoursRequired": "10 hours",
+    "nightCurfew": "First 180 days: no driving 10 p.m.-5 a.m.; then 11 p.m.-5 a.m. Sun-Fri and 1 a.m.-5 a.m. Sat/Sun (with exceptions)",
+    "passengerLimits": "First 180 days: no passengers except immediate family (with exceptions)",
+    "driverEdRequired": false
+  },
+  "process": {
+    "appointmentRequired": "walk-in",
+    "requiredDocuments": [
+      "Proof of identity",
+      "Proof of Social Security Number",
+      "Proof of lawful status in the U.S.",
+      "Two documents proving Indiana residency"
+    ],
+    "realIdNotes": "Indiana issues REAL ID-compliant credentials (marked with a star). Since May 7, 2025, a REAL ID or other approved ID is required to board domestic flights. Matricula Consular cards are not accepted for identity or residency.",
+    "permitFee": "$9.00 (learner permit)",
+    "licenseFee": "$17.50 (operator license, under age 75)",
+    "feesUrl": "https://www.in.gov/bmv/fees-and-taxes/",
+    "visionTestRequired": true,
+    "visionStandard": "Vision screening required when obtaining, renewing, or amending a license or permit at a BMV branch; qualifying online renewals do not require an in-branch screening"
+  },
+  "facts": {
+    "bacLimitAdult": "0.08%",
+    "bacLimitCommercial": "0.04%",
+    "bacLimitUnder21": "0.02% (zero tolerance)",
+    "pointSystem": true,
+    "pointSuspensionThreshold": "Points assigned per violation and remain 2 years; heavy accumulation over 24 months can lead to suspension. Two or more moving convictions in 12 months for drivers under 18/under 21 requires a Driver Safety Program or suspension",
+    "moveOverRule": "Change lanes away from, or slow below the posted limit for, stopped emergency, tow, and maintenance vehicles displaying flashing lights",
+    "interstateMaxSpeed": "70 mph for passenger vehicles on rural interstates",
+    "schoolZoneSpeed": "Reduced limit as posted during school hours / when children are present",
+    "namedLaws": ["Move Over Law", "Hands-Free Law", "Zero Tolerance Law"]
+  },
+  "references": [
+    {
+      "label": "Indiana Driver's Manual",
+      "citation": "Indiana Bureau of Motor Vehicles Driver's Manual",
+      "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/drivers-manual/"
+    },
+    {
+      "label": "Learner's permit overview",
+      "citation": "IN BMV Learner's Permit",
+      "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/"
+    }
+  ],
+  "effectiveDate": "2026-07-24",
+  "sourceSnapshotHash": "seed-pending-verification",
+  "reviewStatus": "adversarially-verified",
+  "lastVerified": "2026-07-24",
+  "contentVersion": 1
+}

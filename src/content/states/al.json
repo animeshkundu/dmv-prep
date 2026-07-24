@@ -1,0 +1,89 @@
+{
+  "code": "AL",
+  "name": "Alabama",
+  "agencyName": "Alabama Law Enforcement Agency (Driver License Division)",
+  "agencyShort": "ALEA",
+  "officialSiteUrl": "https://www.alea.gov/",
+  "handbookLandingUrl": "https://www.alea.gov/dps/driver-license/driver-license-manuals",
+  "handbookFormat": "pdf",
+  "handbookEditionYear": 2024,
+  "handbookCopyrightStatus": "terms-of-use",
+  "applicantVariants": [
+    { "id": "under-18", "label": "Under 18 (GDL Stage I permit / Stage II restricted)" },
+    { "id": "adult", "label": "Adult (18+)" }
+  ],
+  "examVariants": [
+    {
+      "variantId": "class-d",
+      "label": "Class D knowledge test (all ages)",
+      "numQuestions": 30,
+      "numToPass": 24,
+      "languages": ["en"],
+      "onlineAvailable": false
+    }
+  ],
+  "retake": {
+    "waitBetweenAttempts": "Varies by office (often next business day)",
+    "retakeFee": "$5 testing fee per attempt"
+  },
+  "gdl": {
+    "permitMinAge": "15",
+    "provisionalMinAge": "16 (Stage II restricted license)",
+    "fullLicenseMinAge": "17 (and licensed at least 6 months) for an unrestricted Stage III license",
+    "permitHoldingPeriod": "6 months",
+    "supervisedHoursRequired": "50 hours of supervised driving or completion of an approved driver education course",
+    "nightHoursRequired": "Not separately specified",
+    "nightCurfew": "Stage II: no driving midnight-6 a.m. except for work, school, religious, medical, or emergency reasons",
+    "passengerLimits": "Stage II: no more than 1 passenger other than a parent/guardian or family members",
+    "driverEdRequired": false
+  },
+  "process": {
+    "appointmentRequired": "varies",
+    "requiredDocuments": [
+      "Proof of identity (e.g. certified birth certificate or U.S. passport)",
+      "Proof of Social Security Number",
+      "Two proofs of Alabama residential address",
+      "Parent/guardian signature (applicants under 18)"
+    ],
+    "realIdNotes": "Alabama STAR I.D. (REAL ID) requires one document proving identity/legal presence, one proving SSN, and two proving Alabama street address.",
+    "permitFee": "$36.25 learner license plus $5 testing fee",
+    "licenseFee": "$36.25 (original/renewal Class D)",
+    "feesUrl": "https://www.alea.gov/dps/driver-license/driver-license-online-services",
+    "visionTestRequired": true,
+    "visionStandard": "20/40 in at least one eye (with or without corrective lenses) for an unrestricted license"
+  },
+  "facts": {
+    "bacLimitAdult": "0.08%",
+    "bacLimitCommercial": "0.04%",
+    "bacLimitUnder21": "0.02% (zero tolerance)",
+    "pointSystem": true,
+    "pointSuspensionThreshold": "12-14 points in 2 years = 60-day suspension; escalates up to 1 year at 24+ points",
+    "moveOverRule": "Move over one lane, or slow down if you cannot safely change lanes, for stopped emergency and recovery vehicles displaying flashing lights",
+    "interstateMaxSpeed": "70 mph",
+    "schoolZoneSpeed": "Reduced posted limit during school hours (commonly 15-25 mph where posted)",
+    "namedLaws": ["Move Over Law", "Texting-while-driving ban", "Graduated Driver License (GDL) law"]
+  },
+  "references": [
+    {
+      "label": "Alabama Driver Manual",
+      "citation": "ALEA Alabama Driver Manual",
+      "url": "https://www.alea.gov/dps/driver-license/driver-license-manuals"
+    },
+    {
+      "label": "Alabama Driver License Point System",
+      "citation": "ALEA Driver License Point System",
+      "url": "https://www.alea.gov/dps/driver-license/driver-license-point-system"
+    },
+    {
+      "label": "Graduated Driver License",
+      "citation": "IIHS Graduated Licensing Laws Table (Alabama)",
+      "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table"
+    }
+  ],
+  "effectiveDate": "2026-07-24",
+  "sourceSnapshotHash": "seed-pending-verification",
+  "reviewStatus": "draft",
+  "verifyNote": "ALEA officially confirms fees and GDL ages, but its indexed official pages/manual landing page do not directly state the 30-question/24-correct Class D exam format; retain pending direct official confirmation.",
+  "lastVerified": "2026-07-24",
+  "contentVersion": 1
+}

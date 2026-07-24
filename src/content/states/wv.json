@@ -1,0 +1,94 @@
+{
+  "code": "WV",
+  "name": "West Virginia",
+  "agencyName": "West Virginia Division of Motor Vehicles",
+  "agencyShort": "DMV",
+  "officialSiteUrl": "https://transportation.wv.gov/DMV/",
+  "handbookLandingUrl": "https://transportation.wv.gov/DMV/Drivers/Pages/Handbooks.aspx",
+  "handbookPdfUrl": "https://transportation.wv.gov/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf",
+  "handbookFormat": "pdf",
+  "handbookEditionYear": 2022,
+  "handbookCopyrightStatus": "unknown",
+  "applicantVariants": [
+    { "id": "level-1", "label": "Level 1 instruction permit (graduated licensing)" },
+    { "id": "adult", "label": "Adult (18+) Class E knowledge test" }
+  ],
+  "examVariants": [
+    {
+      "variantId": "level-1",
+      "label": "Level 1 instruction permit knowledge test (Class E)",
+      "numQuestions": 25,
+      "numToPass": 19,
+      "languages": ["en"],
+      "onlineAvailable": true
+    },
+    {
+      "variantId": "adult",
+      "label": "Adult knowledge test (Class E)",
+      "numQuestions": 25,
+      "numToPass": 19,
+      "languages": ["en"],
+      "onlineAvailable": true
+    }
+  ],
+  "retake": {
+    "waitBetweenAttempts": "You may retest; a test fee applies on each attempt",
+    "retakeFee": "$7.50 test fee per attempt"
+  },
+  "gdl": {
+    "permitMinAge": "15 (Level 1 instruction permit)",
+    "provisionalMinAge": "16 (Level 2 intermediate license)",
+    "fullLicenseMinAge": "17 (Level 3 full license), or age 18",
+    "permitHoldingPeriod": "6 months on Level 1, conviction-free",
+    "supervisedHoursRequired": "50 hours (10 at night); waived by completing an approved driver education course",
+    "nightHoursRequired": "10 hours",
+    "nightCurfew": "Level 1: drive only 5 a.m.-10 p.m.; Level 2: no driving 10 p.m.-5 a.m. (with exceptions)",
+    "passengerLimits": "Level 2: no passengers under 20 (other than family) for the first 6 months, then no more than one",
+    "driverEdRequired": false
+  },
+  "process": {
+    "appointmentRequired": "encouraged",
+    "schedulingUrl": "https://telegov.egov.com/wvdmv/",
+    "requiredDocuments": [
+      "Proof of identity (e.g. certified U.S. birth certificate or valid U.S. passport)",
+      "Proof of Social Security number",
+      "Two proofs of West Virginia residency",
+      "Parent/guardian consent (applicants under 18)"
+    ],
+    "realIdNotes": "A West Virginia REAL ID (gold star) requires one proof of identity, one proof of Social Security number, and two proofs of West Virginia residency, plus proof of any legal name change. A $10 surcharge applies the first time you obtain a REAL ID.",
+    "permitFee": "$7.50 (Level 1 instruction permit test fee)",
+    "licenseFee": "$40 for a 5-year Class E driver's license; verify current fee with DMV",
+    "feesUrl": "https://transportation.wv.gov/DMV/Drivers/Pages/Handbooks.aspx",
+    "visionTestRequired": true,
+    "visionStandard": "At least 20/40 in one or both eyes, with or without corrective lenses"
+  },
+  "facts": {
+    "bacLimitAdult": "0.08%",
+    "bacLimitCommercial": "0.04%",
+    "bacLimitUnder21": "0.02% (zero tolerance)",
+    "pointSystem": true,
+    "pointSuspensionThreshold": "12 points in a 2-year period triggers a 30-day suspension; higher totals mean longer suspensions",
+    "moveOverRule": "Move over a lane or slow down for stopped emergency, tow, and utility vehicles displaying flashing lights",
+    "interstateMaxSpeed": "70 mph unless otherwise posted",
+    "schoolZoneSpeed": "15 mph in a school zone when lights are flashing or children are present",
+    "namedLaws": ["Statewide texting and handheld ban", "Move Over Law", "Graduated Driver's License (GDL) law"]
+  },
+  "references": [
+    {
+      "label": "West Virginia Driver's Licensing Handbook",
+      "citation": "WV DMV Driver's Licensing Handbook",
+      "url": "https://transportation.wv.gov/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf"
+    },
+    {
+      "label": "West Virginia Point System",
+      "citation": "WV DMV Point System",
+      "url": "https://transportation.wv.gov/DMV/Drivers/Pages/Point-System.aspx"
+    }
+  ],
+  "effectiveDate": "2026-07-24",
+  "sourceSnapshotHash": "seed-pending-verification",
+  "reviewStatus": "draft",
+  "verifyNote": "Official DMV sources confirm the 25-question/19-correct exam, online availability, ages, GDL rules, point thresholds, and the handbook's July 2022 revision. The current $40 Class E license fee could not be confirmed officially, so the state remains draft.",
+  "lastVerified": "2026-07-24",
+  "contentVersion": 1
+}

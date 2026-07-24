@@ -1,0 +1,99 @@
+{
+  "code": "NY",
+  "name": "New York",
+  "agencyName": "New York State Department of Motor Vehicles",
+  "agencyShort": "DMV",
+  "officialSiteUrl": "https://dmv.ny.gov/",
+  "handbookLandingUrl": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+  "handbookPdfUrl": "https://dmv.ny.gov/brochure/mv21.pdf",
+  "handbookFormat": "mixed",
+  "handbookEditionYear": 2025,
+  "handbookCopyrightStatus": "terms-of-use",
+  "applicantVariants": [
+    { "id": "junior", "label": "Under 18 (junior permit/license)" },
+    { "id": "adult", "label": "Adult (18+)" }
+  ],
+  "examVariants": [
+    {
+      "variantId": "permit",
+      "label": "Learner permit written knowledge test",
+      "numQuestions": 20,
+      "numToPass": 14,
+      "subRequirements": [
+        {
+          "category": "road-signs",
+          "minCorrect": 2,
+          "outOf": 4,
+          "note": "The test includes 4 road-sign questions; you must answer at least 2 of them correctly in addition to passing overall."
+        }
+      ],
+      "languages": ["en"],
+      "onlineAvailable": false
+    }
+  ],
+  "retake": {
+    "waitBetweenAttempts": "Same or next available day",
+    "retakeFee": "Retakes are covered by the original permit application fee"
+  },
+  "gdl": {
+    "permitMinAge": "16",
+    "provisionalMinAge": "16 yrs 6 mo (junior license)",
+    "fullLicenseMinAge": "17 with driver education; 18 without",
+    "permitHoldingPeriod": "6 months",
+    "supervisedHoursRequired": "50 hours (15 at night)",
+    "nightHoursRequired": "15 hours",
+    "nightCurfew": "Junior license: no driving 9 p.m.-5 a.m. without an exception; stricter rules apply in NYC (no unsupervised driving) and Nassau/Suffolk/Long Island",
+    "passengerLimits": "Junior license holders may carry no more than one passenger under 21 unless they are immediate family",
+    "driverEdRequired": true
+  },
+  "process": {
+    "appointmentRequired": "encouraged",
+    "schedulingUrl": "https://dmv.ny.gov/offices",
+    "requiredDocuments": [
+      "Proof documents totaling 6 points (e.g. U.S. passport or birth certificate)",
+      "Proof of date of birth",
+      "Proof of Social Security Number (or ineligibility)",
+      "Proof of New York State residency",
+      "Completed application (MV-44)"
+    ],
+    "realIdNotes": "Choose a standard, REAL ID, or Enhanced document. REAL ID and Enhanced licenses require additional proof of identity, SSN, and New York residency using the DMV 6-point system.",
+    "permitFee": "$64.25-$102.50 combined Class D/DJ fee (varies by age and MCTD region); covers the permit, written test, vision test, and first two road tests",
+    "licenseFee": "Included in the combined learner permit/license fee",
+    "feesUrl": "https://dmv.ny.gov/driver-license/fees-refunds",
+    "visionTestRequired": true,
+    "visionStandard": "20/40 in at least one eye, with or without corrective lenses"
+  },
+  "facts": {
+    "bacLimitAdult": "0.08%",
+    "bacLimitCommercial": "0.04%",
+    "bacLimitUnder21": "0.02% (Zero Tolerance Law)",
+    "pointSystem": true,
+    "pointSuspensionThreshold": "11 points within 18 months may result in suspension; a Driver Responsibility Assessment applies at 6 or more points in 18 months",
+    "moveOverRule": "Ambrose-Searles Move Over Act: move over or slow down for stopped emergency, hazard, and maintenance vehicles displaying flashing lights",
+    "interstateMaxSpeed": "65 mph",
+    "schoolZoneSpeed": "Varies; obey the posted school-zone limit and indicated hours or flashing signals",
+    "namedLaws": ["Ambrose-Searles Move Over Act", "Leandra's Law", "Hands-free / handheld device ban", "Zero Tolerance Law"]
+  },
+  "references": [
+    {
+      "label": "New York State Driver's Manual (MV-21)",
+      "citation": "NYS DMV Driver's Manual (MV-21)",
+      "url": "https://dmv.ny.gov/brochure/mv21.pdf"
+    },
+    {
+      "label": "The New York State Driver Point System",
+      "citation": "NY DMV Driver Point System",
+      "url": "https://dmv.ny.gov/points-and-penalties/the-new-york-state-driver-point-system"
+    },
+    {
+      "label": "Driver License and Learner Permit Fees",
+      "citation": "NY DMV Fees and Refunds",
+      "url": "https://dmv.ny.gov/driver-license/fees-refunds"
+    }
+  ],
+  "effectiveDate": "2026-07-24",
+  "sourceSnapshotHash": "seed-pending-verification",
+  "reviewStatus": "adversarially-verified",
+  "lastVerified": "2026-07-24",
+  "contentVersion": 1
+}

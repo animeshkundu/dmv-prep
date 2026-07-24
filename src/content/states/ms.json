@@ -1,0 +1,89 @@
+{
+  "code": "MS",
+  "name": "Mississippi",
+  "agencyName": "Mississippi Department of Public Safety",
+  "agencyShort": "DPS",
+  "officialSiteUrl": "https://www.dps.ms.gov/",
+  "handbookLandingUrl": "https://www.driverservicebureau.dps.ms.gov/",
+  "handbookPdfUrl": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf",
+  "handbookFormat": "pdf",
+  "handbookEditionYear": 2025,
+  "handbookCopyrightStatus": "unknown",
+  "applicantVariants": [
+    { "id": "under-18", "label": "Under 18 (learner then intermediate license)" },
+    { "id": "adult", "label": "Adult (18+)" }
+  ],
+  "examVariants": [
+    {
+      "variantId": "adult",
+      "label": "Class R knowledge (written) test",
+      "numQuestions": 30,
+      "numToPass": 24,
+      "languages": ["en"],
+      "onlineAvailable": false
+    },
+    {
+      "variantId": "under-18",
+      "label": "Under-18 Class R knowledge (written) test",
+      "numQuestions": 30,
+      "numToPass": 24,
+      "languages": ["en"],
+      "onlineAvailable": false
+    }
+  ],
+  "gdl": {
+    "permitMinAge": "15 (regular learner's permit)",
+    "provisionalMinAge": "16 (intermediate license)",
+    "fullLicenseMinAge": "16 yrs 6 mo (unrestricted)",
+    "permitHoldingPeriod": "12 months on the learner's permit",
+    "supervisedHoursRequired": "None specified by statute",
+    "nightCurfew": "Intermediate drivers may not drive 10 p.m.-6 a.m. Sun.-Thu. and 11:30 p.m.-6 a.m. Fri.-Sat., unless accompanied by a licensed parent/guardian or for work",
+    "passengerLimits": "None specified for young drivers",
+    "driverEdRequired": false
+  },
+  "process": {
+    "appointmentRequired": "encouraged",
+    "requiredDocuments": [
+      "Completed and signed application",
+      "Proof of identity/lawful presence (original birth certificate or acceptable equivalent; no photocopies)",
+      "Social Security card or official document showing full SSN",
+      "Two proofs of Mississippi residency (e.g. utility bill, bank statement)",
+      "School Attendance Form if under 18 (dated within 30 days)"
+    ],
+    "realIdNotes": "A REAL ID requires a completed application, proof of identity/lawful presence, an SSN document, and two proofs of Mississippi residency; name-change documents are required when the current name differs from the birth record.",
+    "permitFee": "$7 (regular Class R learner's permit, valid 2 years)",
+    "licenseFee": "$24 (Class R original/renewal, 4-year)",
+    "feesUrl": "https://www.driverservicebureau.dps.ms.gov/Drivers/Driver_Service_Fees",
+    "visionTestRequired": true,
+    "visionStandard": "Vision exam required at issuance; specific acuity threshold not published on the referenced pages"
+  },
+  "facts": {
+    "bacLimitAdult": "0.08%",
+    "bacLimitCommercial": "0.04%",
+    "bacLimitUnder21": "0.02% (zero tolerance)",
+    "pointSystem": false,
+    "pointSuspensionThreshold": "No point system; suspensions follow specific convictions rather than accumulated points",
+    "moveOverRule": "Move to a non-adjacent lane when safe, or slow down and proceed with caution, for stopped emergency and authorized vehicles with flashing lights",
+    "interstateMaxSpeed": "70 mph (interstates, where posted)",
+    "schoolZoneSpeed": "15 mph when posted/flashing (varies by posted sign)",
+    "namedLaws": ["Move Over Law", "Zero Tolerance Law"]
+  },
+  "references": [
+    {
+      "label": "Mississippi Driver's Manual",
+      "citation": "MS DPS Driver Service Bureau, Mississippi Driver's Manual (Jan 15, 2025 revision)",
+      "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf"
+    },
+    {
+      "label": "MS DPS Driver Service Fees",
+      "citation": "MS DPS Driver Service Bureau, Driver Service Fees",
+      "url": "https://www.driverservicebureau.dps.ms.gov/Drivers/Driver_Service_Fees"
+    }
+  ],
+  "effectiveDate": "2026-07-24",
+  "sourceSnapshotHash": "seed-pending-verification",
+  "reviewStatus": "draft",
+  "verifyNote": "Official DPS pages confirm fees, minimum age, required exams, and the 12-month under-17 permit period, but do not publish the written-test count/pass mark. The 30-question/24-correct format therefore remains unconfirmed; the state remains draft.",
+  "lastVerified": "2026-07-24",
+  "contentVersion": 1
+}

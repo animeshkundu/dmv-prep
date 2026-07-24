@@ -1,0 +1,92 @@
+{
+  "code": "VT",
+  "name": "Vermont",
+  "agencyName": "Vermont Department of Motor Vehicles",
+  "agencyShort": "DMV",
+  "officialSiteUrl": "https://dmv.vermont.gov/",
+  "handbookLandingUrl": "https://dmv.vermont.gov/document/drivers-license-manual",
+  "handbookPdfUrl": "https://dmv.vermont.gov/sites/dmv/files/documents/VN-007-Drivers_Manual.pdf",
+  "handbookFormat": "pdf",
+  "handbookEditionYear": 2024,
+  "handbookCopyrightStatus": "terms-of-use",
+  "handbookTermsUrl": "https://dmv.vermont.gov/",
+  "applicantVariants": [
+    { "id": "under-18", "label": "Under 18 (learner permit / junior license)" },
+    { "id": "adult", "label": "Adult (18+)" }
+  ],
+  "examVariants": [
+    {
+      "variantId": "standard",
+      "label": "Vermont knowledge (permit) test — all applicants",
+      "numQuestions": 20,
+      "numToPass": 16,
+      "languages": ["en"],
+      "onlineAvailable": true
+    }
+  ],
+  "retake": {
+    "waitBetweenAttempts": "Next business day",
+    "retakeFee": "An additional test fee applies for each retake"
+  },
+  "gdl": {
+    "permitMinAge": "15",
+    "provisionalMinAge": "16 (junior driver license)",
+    "fullLicenseMinAge": "18",
+    "permitHoldingPeriod": "12 months (under 18)",
+    "supervisedHoursRequired": "40 hours (10 at night)",
+    "nightHoursRequired": "10 hours",
+    "nightCurfew": "No statewide night curfew for junior drivers",
+    "passengerLimits": "First 3 months of junior license: drive alone unless accompanied by a licensed, unimpaired parent/guardian, driver educator, or person age 25+; second 3 months: immediate-family passengers permitted",
+    "driverEdRequired": true
+  },
+  "process": {
+    "appointmentRequired": "encouraged",
+    "schedulingUrl": "https://dmv.vermont.gov/",
+    "requiredDocuments": [
+      "Proof of identity and date of birth (e.g. birth certificate or passport)",
+      "Proof of Social Security Number",
+      "Proof of Vermont residency (two documents for a REAL ID)",
+      "Parental/guardian consent if under 18"
+    ],
+    "realIdNotes": "A REAL ID-compliant credential requires one proof of identity/date of birth, proof of SSN, and two proofs of Vermont residency. A non-compliant (standard) license is also available with fewer documents.",
+    "permitFee": "$24 (2-year learner permit)",
+    "licenseFee": "$39 (2-year) or $62 (4-year) operator license",
+    "feesUrl": "https://dmv.vermont.gov/licenses/fees",
+    "visionTestRequired": true,
+    "visionStandard": "20/40 with or without corrective lenses"
+  },
+  "facts": {
+    "bacLimitAdult": "0.08%",
+    "bacLimitCommercial": "0.04%",
+    "bacLimitUnder21": "0.02% (zero tolerance)",
+    "pointSystem": true,
+    "pointSuspensionThreshold": "10 or more points within a 2-year period leads to suspension",
+    "moveOverRule": "Slow down and, when safe, move over a lane for stopped emergency, towing, and highway maintenance vehicles displaying flashing lights",
+    "interstateMaxSpeed": "65 mph",
+    "schoolZoneSpeed": "As posted; reduced when children are present",
+    "namedLaws": ["Move Over Law", "Hands-Free Law", "Zero Tolerance Law"]
+  },
+  "references": [
+    {
+      "label": "Vermont Driver's Manual",
+      "citation": "Vermont DMV Driver's License Manual (Nov 2024)",
+      "url": "https://dmv.vermont.gov/sites/dmv/files/documents/VN-007-Drivers_Manual.pdf"
+    },
+    {
+      "label": "Driver's License Fees",
+      "citation": "Vermont DMV — Driver's License Fees",
+      "url": "https://dmv.vermont.gov/licenses/fees"
+    },
+    {
+      "label": "Learner's Permit",
+      "citation": "Vermont DMV — Learner's Permit",
+      "url": "https://dmv.vermont.gov/licenses/new/learners-permit"
+    }
+  ],
+  "effectiveDate": "2026-07-24",
+  "sourceSnapshotHash": "seed-pending-verification",
+  "reviewStatus": "adversarially-verified",
+  "verifyNote": "Official Vermont DMV sources confirm the 20-question/16-correct test, permit age 15, current permit/license fees, BAC limits, GDL requirements, and 10-point suspension threshold. The current manual PDF resolves, but its November 2024 edition date and the locally posted school-zone rule were not independently confirmed in this review.",
+  "lastVerified": "2026-07-24",
+  "contentVersion": 1
+}

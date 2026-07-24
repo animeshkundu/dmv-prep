@@ -1,0 +1,94 @@
+{
+  "code": "CT",
+  "name": "Connecticut",
+  "agencyName": "Connecticut Department of Motor Vehicles",
+  "agencyShort": "DMV",
+  "officialSiteUrl": "https://portal.ct.gov/dmv",
+  "handbookLandingUrl": "https://portal.ct.gov/dmv/licenses-permits-ids/take-knowledge-vision-test",
+  "handbookPdfUrl": "https://portal.ct.gov/-/media/DMV/20/29/R12.pdf",
+  "handbookFormat": "pdf",
+  "handbookEditionYear": 2024,
+  "handbookCopyrightStatus": "terms-of-use",
+  "handbookTermsUrl": "https://portal.ct.gov/policies",
+  "applicantVariants": [
+    { "id": "under-18", "label": "Under 18 (learner's permit, 16-17)" },
+    { "id": "adult", "label": "Adult (18+)" }
+  ],
+  "examVariants": [
+    {
+      "variantId": "under-18",
+      "label": "Under-18 knowledge test (Class D)",
+      "numQuestions": 25,
+      "numToPass": 20,
+      "languages": ["en", "es"],
+      "onlineAvailable": false
+    },
+    {
+      "variantId": "adult",
+      "label": "Adult knowledge test (Class D)",
+      "numQuestions": 25,
+      "numToPass": 20,
+      "languages": ["en", "es"],
+      "onlineAvailable": false
+    }
+  ],
+  "retake": {
+    "waitBetweenAttempts": "Reschedule required; no same-day retake",
+    "retakeFee": "Testing fee applies to each scheduled attempt"
+  },
+  "gdl": {
+    "permitMinAge": "16",
+    "provisionalMinAge": "16 yrs 4 mo",
+    "fullLicenseMinAge": "18",
+    "permitHoldingPeriod": "120 days (with approved training) or 180 days",
+    "supervisedHoursRequired": "40 hours",
+    "nightCurfew": "No driving 11 p.m.-5 a.m. until age 18 (limited exceptions)",
+    "passengerLimits": "First 6 months: only parents/legal guardian or a licensed driving instructor. Second 6 months: add immediate family members. No passengers under 20 outside these rules until age 18.",
+    "driverEdRequired": true
+  },
+  "process": {
+    "appointmentRequired": "required",
+    "schedulingUrl": "https://portal.ct.gov/dmv/licenses-permits-ids/take-knowledge-vision-test",
+    "requiredDocuments": [
+      "Proof of identity and date of birth (e.g. passport or birth certificate)",
+      "Social Security Number",
+      "Two proofs of Connecticut residency (for REAL ID)",
+      "Completed learner's permit application (Form R-229)",
+      "Certificate of completion for the CT Work Zone Safety Course"
+    ],
+    "realIdNotes": "A federally compliant REAL ID (Gold Star) requires proof of identity, one proof of Social Security Number, and two proofs of Connecticut residency. REAL ID is required to board domestic flights.",
+    "permitFee": "$19 learner's permit plus a $40 testing fee (covers vision, knowledge, and one road test)",
+    "licenseFee": "$84 new regular Class D driver license (includes the $40 testing fee; term varies by age)",
+    "feesUrl": "https://portal.ct.gov/dmv/licenses-permits-ids/fees-for-licenses-permits-ids",
+    "visionTestRequired": true,
+    "visionStandard": "20/40 in at least one eye, with or without corrective lenses"
+  },
+  "facts": {
+    "bacLimitAdult": "0.08%",
+    "bacLimitCommercial": "0.04%",
+    "bacLimitUnder21": "0.02% (zero tolerance)",
+    "pointSystem": true,
+    "pointSuspensionThreshold": "Warning notice at 6 points; suspension when 10 or more points accumulate within 24 months",
+    "moveOverRule": "Slow down and, when safe, move over one lane for stopped emergency, maintenance, and tow vehicles displaying flashing lights",
+    "interstateMaxSpeed": "65 mph",
+    "schoolZoneSpeed": "As posted in marked school zones (commonly reduced, often 20 mph)",
+    "namedLaws": ["Move Over Law", "Hands-Free Law", "Work Zone Safety Course requirement"]
+  },
+  "references": [
+    {
+      "label": "Connecticut Driver's Manual",
+      "citation": "CT DMV Driver's Manual (R-12, 2024)",
+      "url": "https://portal.ct.gov/-/media/DMV/20/29/R12.pdf"
+    },
+    {
+      "label": "Take a knowledge and vision test",
+      "citation": "CT DMV Knowledge and Vision Test",
+      "url": "https://portal.ct.gov/dmv/licenses-permits-ids/take-knowledge-vision-test"
+    }
+  ],
+  "effectiveDate": "2026-07-24",
+  "sourceSnapshotHash": "seed-pending-verification",
+  "reviewStatus": "adversarially-verified",
+  "lastVerified": "2026-07-24",
+  "contentVersion": 1
+}

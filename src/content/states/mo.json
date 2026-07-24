@@ -1,0 +1,91 @@
+{
+  "code": "MO",
+  "name": "Missouri",
+  "agencyName": "Missouri Department of Revenue (Motor Vehicle and Driver Licensing)",
+  "agencyShort": "DOR",
+  "officialSiteUrl": "https://dor.mo.gov/driver-license/",
+  "handbookLandingUrl": "https://dor.mo.gov/driver-license/guide/",
+  "handbookPdfUrl": "https://dor.mo.gov/forms/Driver_Guide.pdf",
+  "handbookFormat": "pdf",
+  "handbookEditionYear": 2025,
+  "handbookCopyrightStatus": "public-domain",
+  "applicantVariants": [
+    { "id": "under-18", "label": "Teen (under 18, graduated license)" },
+    { "id": "adult", "label": "Adult (18+)" }
+  ],
+  "examVariants": [
+    {
+      "variantId": "knowledge",
+      "label": "Written (road rules) knowledge test",
+      "numQuestions": 25,
+      "numToPass": 20,
+      "languages": ["en"],
+      "onlineAvailable": false
+    },
+    {
+      "variantId": "signs",
+      "label": "Road sign test",
+      "numQuestions": 20,
+      "numToPass": 16,
+      "languages": ["en"],
+      "onlineAvailable": false
+    }
+  ],
+  "retake": {
+    "retakeFee": "No fee for written or non-CDL skills testing; permit/license fee is paid separately after passing"
+  },
+  "gdl": {
+    "permitMinAge": "15 (instruction permit)",
+    "provisionalMinAge": "16 (intermediate license)",
+    "fullLicenseMinAge": "18 (full under-21 license)",
+    "permitHoldingPeriod": "182 days (instruction permit) before intermediate license",
+    "supervisedHoursRequired": "40 hours (10 at night), certified by parent/guardian",
+    "nightHoursRequired": "10 hours",
+    "nightCurfew": "Intermediate: no driving 1 a.m.-5 a.m. (with exceptions)",
+    "passengerLimits": "Intermediate first 6 months: no more than 1 passenger under 19; thereafter no more than 3 passengers under 19",
+    "driverEdRequired": false
+  },
+  "process": {
+    "appointmentRequired": "varies",
+    "requiredDocuments": [
+      "Proof of identity (e.g. certified birth certificate or U.S. passport)",
+      "Proof of Social Security Number",
+      "Two proofs of Missouri residency",
+      "Proof of lawful status (if not a U.S. citizen)"
+    ],
+    "realIdNotes": "Missouri offers an optional REAL ID-compliant license/permit marked with a star. A REAL ID or passport is required to board domestic flights and enter certain federal facilities.",
+    "permitFee": "$3.50 (instruction permit; confirm current DOR fee chart)",
+    "licenseFee": "$14.00 (intermediate license); Class F full license fees vary by term",
+    "feesUrl": "https://dor.mo.gov/driver-license/",
+    "visionTestRequired": true,
+    "visionStandard": "20/40 in at least one eye, with or without corrective lenses"
+  },
+  "facts": {
+    "bacLimitAdult": "0.08%",
+    "bacLimitCommercial": "0.04%",
+    "bacLimitUnder21": "0.02% (zero tolerance / Abuse and Lose)",
+    "pointSystem": true,
+    "pointSuspensionThreshold": "8 points in 18 months results in suspension; 12 in 12 months, 18 in 24 months, or 24 in 36 months results in revocation",
+    "moveOverRule": "Move over a lane or slow down for stopped emergency and Department of Transportation vehicles displaying flashing lights",
+    "interstateMaxSpeed": "70 mph (posted maximum on interstates)",
+    "schoolZoneSpeed": "Reduced limit as posted during school hours",
+    "namedLaws": ["Move Over Law", "Abuse and Lose Law", "Zero Tolerance Law", "Siddens Bening Hands Free Law"]
+  },
+  "references": [
+    {
+      "label": "Missouri Driver Guide",
+      "citation": "Missouri Driver Guide (Missouri Department of Revenue)",
+      "url": "https://dor.mo.gov/forms/Driver_Guide.pdf"
+    },
+    {
+      "label": "Graduated Driver License Law",
+      "citation": "MO DOR Graduated Driver License",
+      "url": "https://dor.mo.gov/driver-license/issuance/graduated-driver-license/"
+    }
+  ],
+  "effectiveDate": "2026-07-24",
+  "sourceSnapshotHash": "seed-pending-verification",
+  "reviewStatus": "adversarially-verified",
+  "lastVerified": "2026-07-24",
+  "contentVersion": 1
+}

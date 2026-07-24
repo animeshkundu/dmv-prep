@@ -1,0 +1,89 @@
+{
+  "code": "KY",
+  "name": "Kentucky",
+  "agencyName": "Kentucky Division of Driver Licensing",
+  "agencyShort": "DDL",
+  "officialSiteUrl": "https://drive.ky.gov/",
+  "handbookLandingUrl": "https://kentuckystatepolice.ky.gov/driver-testing/",
+  "handbookFormat": "pdf",
+  "handbookEditionYear": 2024,
+  "handbookCopyrightStatus": "terms-of-use",
+  "applicantVariants": [
+    { "id": "under-18", "label": "Under 18 (instruction permit / intermediate license)" },
+    { "id": "adult", "label": "Adult (18+)" }
+  ],
+  "examVariants": [
+    {
+      "variantId": "operator",
+      "label": "Operator knowledge test (all ages)",
+      "numQuestions": 40,
+      "numToPass": 32,
+      "languages": ["en"],
+      "onlineAvailable": false
+    }
+  ],
+  "retake": {
+    "waitBetweenAttempts": "Varies by office",
+    "retakeFee": "Testing fee may apply per attempt"
+  },
+  "gdl": {
+    "permitMinAge": "15",
+    "provisionalMinAge": "16 (intermediate license)",
+    "fullLicenseMinAge": "17 after holding the intermediate license at least 180 days and completing required driver education",
+    "permitHoldingPeriod": "6 months (no driving midnight-6 a.m. while holding the permit)",
+    "supervisedHoursRequired": "60 hours (including 10 at night)",
+    "nightHoursRequired": "10 hours",
+    "nightCurfew": "Intermediate: no driving midnight-6 a.m. unless for work, school, or medical emergency",
+    "passengerLimits": "Intermediate: no more than 1 passenger under 20 unless supervised by a driving instructor or accompanying a licensed adult 21+",
+    "driverEdRequired": false
+  },
+  "process": {
+    "appointmentRequired": "encouraged",
+    "schedulingUrl": "https://drive.ky.gov/",
+    "requiredDocuments": [
+      "Proof of identity (e.g. certified birth certificate or U.S. passport)",
+      "Proof of Social Security Number",
+      "Two proofs of Kentucky residency",
+      "Parent/guardian signature (applicants under 18)"
+    ],
+    "realIdNotes": "Kentucky's REAL ID (voluntary travel ID) requires proof of identity, SSN, and two proofs of Kentucky residency. A standard credential remains available.",
+    "permitFee": "About $15 (instruction permit)",
+    "licenseFee": "About $43 (8-year operator license)",
+    "feesUrl": "https://drive.ky.gov/driver-licensing/Pages/Testing-and-Permit-Fees.aspx",
+    "visionTestRequired": true,
+    "visionStandard": "20/40 in at least one eye (with or without corrective lenses) for an unrestricted license"
+  },
+  "facts": {
+    "bacLimitAdult": "0.08%",
+    "bacLimitCommercial": "0.04%",
+    "bacLimitUnder21": "0.02% (zero tolerance)",
+    "pointSystem": true,
+    "pointSuspensionThreshold": "12 or more points in 2 years (drivers 18+); 7 or more points for drivers under 18",
+    "moveOverRule": "Move over one lane, or slow down if you cannot safely change lanes, for stopped emergency, public-safety, and utility vehicles displaying warning lights (KRS 189.930)",
+    "interstateMaxSpeed": "70 mph (rural interstates)",
+    "schoolZoneSpeed": "Reduced posted limit when in effect (commonly 25 mph where posted)",
+    "namedLaws": ["Move Over Law (KRS 189.930)", "Texting-while-driving ban (KRS 189.292)"]
+  },
+  "references": [
+    {
+      "label": "Kentucky Driver Manual",
+      "citation": "Kentucky State Police Driver Manual",
+      "url": "https://kentuckystatepolice.ky.gov/driver-testing/"
+    },
+    {
+      "label": "Testing and Permit Fees",
+      "citation": "Kentucky Division of Driver Licensing fees",
+      "url": "https://drive.ky.gov/driver-licensing/Pages/Testing-and-Permit-Fees.aspx"
+    },
+    {
+      "label": "Graduated Driver License",
+      "citation": "IIHS Graduated Licensing Laws Table (Kentucky)",
+      "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table"
+    }
+  ],
+  "effectiveDate": "2026-07-24",
+  "sourceSnapshotHash": "seed-pending-verification",
+  "reviewStatus": "adversarially-verified",
+  "lastVerified": "2026-07-24",
+  "contentVersion": 1
+}

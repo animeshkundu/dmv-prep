@@ -1,0 +1,253 @@
+[
+  {
+    "id": "ak-speed-001",
+    "category": "speed-limits",
+    "stateScope": ["AK"],
+    "prompt": "Unless otherwise posted, the maximum speed limit on Alaska highways is:",
+    "options": ["55 mph", "60 mph", "65 mph", "75 mph"],
+    "correctIndex": 0,
+    "explanation": "Alaska's maximum highway speed is 55 mph unless a different limit is posted. Reduce speed for weather, wildlife and road conditions.",
+    "difficulty": "medium",
+    "references": [{ "label": "Alaska Driver Manual", "citation": "Alaska DMV Driver Manual, speed limits", "url": "https://dmv.alaska.gov/credential-services/drivermanual/" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ak-alcohol-drugs-001",
+    "category": "alcohol-drugs",
+    "stateScope": ["AK"],
+    "prompt": "In Alaska, a driver age 21 or older is legally impaired (DUI) at a blood alcohol concentration of:",
+    "options": ["0.10%", "0.08%", "0.05%", "0.04%"],
+    "correctIndex": 1,
+    "explanation": "The per se BAC limit for adult drivers in Alaska is 0.08%. Commercial drivers are limited to 0.04%.",
+    "difficulty": "easy",
+    "references": [{ "label": "Alaska Driver Manual", "citation": "Alaska DMV Driver Manual, alcohol and driving", "url": "https://dmv.alaska.gov/credential-services/drivermanual/" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ak-alcohol-drugs-002",
+    "category": "alcohol-drugs",
+    "stateScope": ["AK"],
+    "prompt": "Under Alaska's zero-tolerance law, a driver under age 21 can face penalties for driving after consuming:",
+    "options": [
+      "A BAC of 0.08% or more only",
+      "A BAC of 0.05% or more",
+      "Any measurable amount of alcohol",
+      "Three or more drinks"
+    ],
+    "correctIndex": 2,
+    "explanation": "Alaska applies a strict zero-tolerance standard to drivers under 21, so operating a vehicle after consuming any measurable alcohol can lead to license action.",
+    "difficulty": "medium",
+    "references": [{ "label": "Alaska Driver Manual", "citation": "Alaska DMV Driver Manual, alcohol and driving", "url": "https://dmv.alaska.gov/credential-services/drivermanual/" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ak-gdl-teen-001",
+    "category": "gdl-teen",
+    "stateScope": ["AK"],
+    "prompt": "What is the youngest age at which an Alaska resident may apply for an instruction permit?",
+    "options": ["13", "14", "15", "16"],
+    "correctIndex": 1,
+    "explanation": "Alaska allows a teen to apply for an instruction permit at age 14.",
+    "difficulty": "medium",
+    "references": [{ "label": "Alaska DMV instruction permit", "citation": "Alaska DMV Instruction Permit", "url": "https://dmv.alaska.gov/credential-services/instruction-permit/" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ak-gdl-teen-002",
+    "category": "gdl-teen",
+    "stateScope": ["AK"],
+    "prompt": "How long must an Alaska teen hold an instruction permit, and how many supervised hours are required, before applying for a provisional license?",
+    "options": [
+      "3 months and 25 hours",
+      "6 months and 40 hours (10 at night or in hazardous conditions)",
+      "1 year and 60 hours",
+      "No minimum period or hours"
+    ],
+    "correctIndex": 1,
+    "explanation": "Alaska requires the instruction permit to be held for at least 6 months and 40 hours of supervised driving, including 10 hours at night or in progressively challenging conditions.",
+    "difficulty": "hard",
+    "references": [{ "label": "Alaska DMV instruction permit", "citation": "Alaska DMV Instruction Permit / GDL", "url": "https://dmv.alaska.gov/credential-services/instruction-permit/" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ak-gdl-teen-003",
+    "category": "gdl-teen",
+    "stateScope": ["AK"],
+    "prompt": "With an Alaska provisional license, a teen driver generally may not carry:",
+    "options": [
+      "Any passengers at all",
+      "Passengers under 21 (except siblings, unless supervised by a qualified licensed driver 21+)",
+      "More than three passengers",
+      "Passengers in the back seat"
+    ],
+    "correctIndex": 1,
+    "explanation": "An Alaska provisional driver may not carry passengers under 21 except siblings, unless a qualified licensed driver at least 21 is present or the trip is directly to or from employment.",
+    "difficulty": "hard",
+    "references": [{ "label": "IIHS GDL table", "citation": "IIHS graduated licensing laws (Alaska)", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ak-gdl-teen-004",
+    "category": "gdl-teen",
+    "stateScope": ["AK"],
+    "prompt": "An Alaska provisional license holder generally may not drive between which hours without a qualifying reason?",
+    "options": [
+      "10 p.m. and 6 a.m.",
+      "1 a.m. and 5 a.m.",
+      "Midnight and 4 a.m.",
+      "9 p.m. and 5 a.m."
+    ],
+    "correctIndex": 1,
+    "explanation": "Alaska restricts provisional drivers from driving between 1 a.m. and 5 a.m. unless accompanied by a qualified licensed adult 21 or older or traveling directly to or from employment.",
+    "difficulty": "hard",
+    "references": [{ "label": "IIHS GDL table", "citation": "IIHS graduated licensing laws (Alaska)", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ak-traffic-laws-001",
+    "category": "traffic-laws",
+    "stateScope": ["AK"],
+    "prompt": "Alaska's Move Over Law requires you to do what when approaching a stopped emergency vehicle with flashing lights?",
+    "options": [
+      "Maintain speed and hold your lane",
+      "Move over a lane if safe, otherwise slow down",
+      "Stop completely in the travel lane",
+      "Flash your headlights and continue"
+    ],
+    "correctIndex": 1,
+    "explanation": "You must move out of the lane nearest the stopped vehicle when it is safe to do so, or slow down if you cannot change lanes.",
+    "difficulty": "medium",
+    "references": [{ "label": "Alaska Driver Manual", "citation": "Alaska DMV Driver Manual, move over law", "url": "https://dmv.alaska.gov/credential-services/drivermanual/" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ak-safe-driving-001",
+    "category": "safe-driving",
+    "stateScope": ["AK"],
+    "prompt": "You are driving on an Alaska highway and see a moose in or near the road. The safest action is to:",
+    "options": [
+      "Speed up to pass it quickly",
+      "Slow down, be ready to stop, and never assume it will stay put",
+      "Sound your horn and drive straight at it",
+      "Flash your high beams and maintain speed"
+    ],
+    "correctIndex": 1,
+    "explanation": "Wildlife collisions, especially with moose, are a major hazard in Alaska. Slow down, be prepared to stop, and watch for more animals, since they are unpredictable and often travel in groups.",
+    "difficulty": "medium",
+    "references": [{ "label": "Alaska Driver Manual", "citation": "Alaska DMV Driver Manual, sharing the road with wildlife", "url": "https://dmv.alaska.gov/credential-services/drivermanual/" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ak-safe-driving-002",
+    "category": "safe-driving",
+    "stateScope": ["AK"],
+    "prompt": "When driving on ice or packed snow in Alaska, you should:",
+    "options": [
+      "Brake hard and steer sharply if you skid",
+      "Increase your following distance and make gentle, gradual movements",
+      "Follow closely to draft the car ahead",
+      "Drive at the posted dry-road limit"
+    ],
+    "correctIndex": 1,
+    "explanation": "On ice or snow, traction is greatly reduced. Increase following distance and use smooth, gradual steering, braking and acceleration to avoid skids.",
+    "difficulty": "medium",
+    "references": [{ "label": "Alaska Driver Manual", "citation": "Alaska DMV Driver Manual, winter driving", "url": "https://dmv.alaska.gov/credential-services/drivermanual/" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ak-traffic-laws-002",
+    "category": "traffic-laws",
+    "stateScope": ["AK"],
+    "prompt": "Under Alaska law, using an electronic device to read, type or send a text message while driving is:",
+    "options": [
+      "Allowed for adults",
+      "Prohibited",
+      "Allowed at stop lights",
+      "Only restricted for permit holders"
+    ],
+    "correctIndex": 1,
+    "explanation": "Alaska prohibits texting and using a screen device to read or send messages while driving; violations carry significant penalties.",
+    "difficulty": "easy",
+    "references": [{ "label": "Alaska Driver Manual", "citation": "Alaska DMV Driver Manual, distracted driving", "url": "https://dmv.alaska.gov/credential-services/drivermanual/" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ak-right-of-way-001",
+    "category": "right-of-way",
+    "stateScope": ["AK"],
+    "prompt": "At a four-way stop in Alaska, if two vehicles arrive at about the same time, who goes first?",
+    "options": [
+      "The vehicle on the left",
+      "The vehicle on the right",
+      "The larger vehicle",
+      "The vehicle going straight, always"
+    ],
+    "correctIndex": 1,
+    "explanation": "When two vehicles reach a four-way stop at the same time, the driver on the left yields to the driver on the right.",
+    "difficulty": "medium",
+    "references": [{ "label": "Alaska Driver Manual", "citation": "Alaska DMV Driver Manual, right of way", "url": "https://dmv.alaska.gov/credential-services/drivermanual/" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ak-sharing-the-road-001",
+    "category": "sharing-the-road",
+    "stateScope": ["AK"],
+    "prompt": "A school bus ahead of you stops on an undivided Alaska road with red lights flashing and its stop arm out. You must:",
+    "options": [
+      "Pass carefully on the left",
+      "Stop and stay stopped until the red lights stop flashing and the arm is withdrawn",
+      "Slow to 15 mph and continue",
+      "Stop only if you see children crossing"
+    ],
+    "correctIndex": 1,
+    "explanation": "Traffic in both directions on an undivided road must stop for a school bus with flashing red lights and an extended stop arm, and remain stopped until it resumes moving.",
+    "difficulty": "medium",
+    "references": [{ "label": "Alaska Driver Manual", "citation": "Alaska DMV Driver Manual, school buses", "url": "https://dmv.alaska.gov/credential-services/drivermanual/" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ak-penalties-points-001",
+    "category": "penalties-points",
+    "stateScope": ["AK"],
+    "prompt": "Alaska uses a point system for traffic violations. Accumulating too many points within a set period can lead to:",
+    "options": [
+      "A cash reward",
+      "Suspension of your driving privilege",
+      "An automatic license upgrade",
+      "No consequences"
+    ],
+    "correctIndex": 1,
+    "explanation": "Points are assigned for traffic convictions in Alaska, and accumulating enough points within 12 or 24 months can result in suspension of your driving privilege.",
+    "difficulty": "easy",
+    "references": [{ "label": "Alaska Driver Manual", "citation": "Alaska DMV Driver Manual, point system", "url": "https://dmv.alaska.gov/credential-services/drivermanual/" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  }
+]

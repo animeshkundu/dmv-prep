@@ -1,0 +1,121 @@
+{
+  "code": "VA",
+  "name": "Virginia",
+  "agencyName": "Virginia Department of Motor Vehicles",
+  "agencyShort": "DMV",
+  "officialSiteUrl": "https://www.dmv.virginia.gov/",
+  "handbookLandingUrl": "https://www.dmv.virginia.gov/licenses-ids/exams/manual",
+  "handbookPdfUrl": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf",
+  "handbookFormat": "mixed",
+  "handbookEditionYear": 2026,
+  "handbookCopyrightStatus": "terms-of-use",
+  "applicantVariants": [
+    { "id": "under-18", "label": "Under 18 (learner's permit, GDL)" },
+    { "id": "adult", "label": "Adult (18+)" }
+  ],
+  "examVariants": [
+    {
+      "variantId": "under-18",
+      "label": "Two-part knowledge exam (road signs + general knowledge)",
+      "numQuestions": 40,
+      "numToPass": 34,
+      "subRequirements": [
+        {
+          "category": "road-signs",
+          "minCorrect": 10,
+          "outOf": 10,
+          "note": "Must correctly answer all 10 road-sign questions to advance to the general section"
+        },
+        {
+          "category": "traffic-laws",
+          "minCorrect": 24,
+          "outOf": 30,
+          "note": "Must score at least 80% (24 of 30) on the general knowledge section"
+        }
+      ],
+      "languages": ["en", "es"],
+      "onlineAvailable": false
+    },
+    {
+      "variantId": "adult",
+      "label": "Two-part knowledge exam (road signs + general knowledge)",
+      "numQuestions": 40,
+      "numToPass": 34,
+      "subRequirements": [
+        {
+          "category": "road-signs",
+          "minCorrect": 10,
+          "outOf": 10,
+          "note": "Must correctly answer all 10 road-sign questions to advance to the general section"
+        },
+        {
+          "category": "traffic-laws",
+          "minCorrect": 24,
+          "outOf": 30,
+          "note": "Must score at least 80% (24 of 30) on the general knowledge section"
+        }
+      ],
+      "languages": ["en", "es"],
+      "onlineAvailable": false
+    }
+  ],
+  "retake": {
+    "waitBetweenAttempts": "Same-day retake not allowed after failing; must wait to reapply",
+    "attemptCapPeriod": "Limited attempts per day/period per DMV policy"
+  },
+  "gdl": {
+    "permitMinAge": "15 yrs 6 mo",
+    "provisionalMinAge": "16 yrs 3 mo",
+    "fullLicenseMinAge": "18",
+    "permitHoldingPeriod": "9 months (minimum, under 18)",
+    "supervisedHoursRequired": "45 hours (with a licensed adult, under 18)",
+    "nightHoursRequired": "15 hours",
+    "nightCurfew": "No driving midnight-4 a.m. (under 18), with exceptions",
+    "passengerLimits": "First 12 months: no more than 1 passenger under 21; after that up to 3 under 21 (family exceptions apply)",
+    "driverEdRequired": true
+  },
+  "process": {
+    "appointmentRequired": "encouraged",
+    "schedulingUrl": "https://www.dmv.virginia.gov/appointments",
+    "requiredDocuments": [
+      "One proof of identity",
+      "One proof of legal presence in the U.S.",
+      "Proof of Social Security Number",
+      "Two proofs of Virginia residency"
+    ],
+    "realIdNotes": "Virginia offers REAL ID-compliant credentials (marked with a star) and standard licenses. REAL ID requires proof of identity, legal presence, SSN, and two proofs of Virginia residency; needed to board domestic flights after the federal deadline.",
+    "permitFee": "$3 (learner's permit) plus $4 per year of license validity",
+    "licenseFee": "$32 (8-year license, $4 per year)",
+    "feesUrl": "https://www.dmv.virginia.gov/licenses-ids/fees",
+    "visionTestRequired": true,
+    "visionStandard": "20/40 or better in at least one eye, with or without corrective lenses"
+  },
+  "facts": {
+    "bacLimitAdult": "0.08%",
+    "bacLimitCommercial": "0.04%",
+    "bacLimitUnder21": "0.02% (zero tolerance)",
+    "pointSystem": true,
+    "pointSuspensionThreshold": "Demerit points (3/4/6 per offense); adult license suspended at 18 points in 12 months or 24 points in 24 months",
+    "moveOverRule": "Move over one lane or slow down for stopped emergency, law-enforcement, and highway vehicles displaying flashing or warning lights",
+    "interstateMaxSpeed": "70 mph (where posted; 55 mph default on other highways)",
+    "schoolZoneSpeed": "25 mph (or as posted, when lights flash / children present)",
+    "namedLaws": ["Move Over Law", "Hands-Free Law", "Zero Tolerance Law"]
+  },
+  "references": [
+    {
+      "label": "Virginia Driver's Manual",
+      "citation": "VA DMV Driver's Manual (DMV 39)",
+      "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf"
+    },
+    {
+      "label": "Demerit points (drivers 18 and over)",
+      "citation": "VA DMV - Traffic violations and demerit points",
+      "url": "https://www.dmv.virginia.gov/licenses-ids/improvement/points/over-18"
+    }
+  ],
+  "effectiveDate": "2026-07-24",
+  "sourceSnapshotHash": "seed-pending-verification",
+  "reviewStatus": "adversarially-verified",
+  "lastVerified": "2026-07-24",
+  "contentVersion": 1
+}

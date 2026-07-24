@@ -1,0 +1,98 @@
+{
+  "code": "RI",
+  "name": "Rhode Island",
+  "agencyName": "Rhode Island Division of Motor Vehicles",
+  "agencyShort": "DMV",
+  "officialSiteUrl": "https://dmv.ri.gov/",
+  "handbookLandingUrl": "https://dmv.ri.gov/licenses-permits-ids/permits-tests/operator-manuals",
+  "handbookPdfUrl": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf",
+  "handbookFormat": "pdf",
+  "handbookEditionYear": 2022,
+  "handbookCopyrightStatus": "unknown",
+  "applicantVariants": [
+    { "id": "under-18", "label": "Under 18 (limited instructional permit / provisional)" },
+    { "id": "adult", "label": "Adult (18+)" }
+  ],
+  "examVariants": [
+    {
+      "variantId": "under-18",
+      "label": "Under-18 computerized knowledge test",
+      "numQuestions": 25,
+      "numToPass": 20,
+      "languages": ["en"],
+      "onlineAvailable": false
+    },
+    {
+      "variantId": "adult",
+      "label": "Adult computerized knowledge test",
+      "numQuestions": 25,
+      "numToPass": 20,
+      "languages": ["en"],
+      "onlineAvailable": false
+    }
+  ],
+  "retake": {
+    "waitBetweenAttempts": "1 day",
+    "retakeFee": "Retest fee applies; see DMV permit fee table"
+  },
+  "gdl": {
+    "permitMinAge": "16 (limited instructional permit)",
+    "provisionalMinAge": "16 yrs 6 mo (limited provisional license)",
+    "fullLicenseMinAge": "17 yrs 6 mo (or 18)",
+    "permitHoldingPeriod": "6 months",
+    "supervisedHoursRequired": "50 hours (10 at night), certified by affidavit",
+    "nightHoursRequired": "10 hours",
+    "nightCurfew": "Unsupervised driving only 5 a.m.-1 a.m. for the first 12 months (with work/school/EMS exceptions)",
+    "passengerLimits": "First 12 months: no more than 1 passenger under 21 (excluding immediate family/household members)",
+    "driverEdRequired": true
+  },
+  "process": {
+    "appointmentRequired": "required",
+    "schedulingUrl": "https://www.ri.gov/DMVReservation/",
+    "requiredDocuments": [
+      "Proof of identity and date of birth (e.g. birth certificate or unexpired passport)",
+      "Proof of Social Security Number (or SSA ineligibility letter)",
+      "Two documents proving Rhode Island residency",
+      "Under 18: driver education completion certificate and parent/guardian signature (or notarized form)"
+    ],
+    "realIdNotes": "A REAL ID-compliant license/permit requires proof of identity and date of birth, proof of Social Security Number, and two proofs of Rhode Island residency, plus documentation of any legal name change.",
+    "permitFee": "$13.50 limited instruction permit (under 18); $8.50 adult instruction permit",
+    "licenseFee": "$29.50 limited provisional license; $44.50 first license (age 18+) plus $28.50 road test fee",
+    "feesUrl": "https://dmv.ri.gov/licenses-permits-ids/drivers-licenses/license-fees",
+    "visionTestRequired": true,
+    "visionStandard": "Vision screening administered at the DMV (current acuity standard not confirmed on an official page)"
+  },
+  "facts": {
+    "bacLimitAdult": "0.08%",
+    "bacLimitCommercial": "0.04%",
+    "bacLimitUnder21": "0.02% (zero tolerance)",
+    "pointSystem": false,
+    "moveOverRule": "Move over a lane, or slow down if unable to change lanes safely, for stopped emergency, maintenance, and tow vehicles displaying flashing lights",
+    "interstateMaxSpeed": "65 mph on rural interstates (55 mph on urban interstates)",
+    "schoolZoneSpeed": "20 mph in a marked school zone during posted school hours when children are present",
+    "namedLaws": ["Colin B. Foote Act (graduated licensing)", "Move Over Law", "Hands-Free Law"]
+  },
+  "references": [
+    {
+      "label": "Rhode Island Operator's Manual",
+      "citation": "RI DMV Operator's Manual (2022)",
+      "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf"
+    },
+    {
+      "label": "New License & Permits",
+      "citation": "RI DMV New License & Permits",
+      "url": "https://dmv.ri.gov/licenses-permits-ids/permits-tests/new-license-permits"
+    },
+    {
+      "label": "Graduated licensing law table",
+      "citation": "IIHS Graduated Licensing Laws Table (Rhode Island)",
+      "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table"
+    }
+  ],
+  "effectiveDate": "2026-07-24",
+  "sourceSnapshotHash": "seed-pending-verification",
+  "reviewStatus": "adversarially-verified",
+  "verifyNote": "Official RI DMV pages confirm the 25-question exam with 20 correct required, current permit/license fees, minimum ages, and GDL requirements. Rhode Island does not use a demerit-point system. The numeric vision acuity standard remains unconfirmed, so the field states only that screening is administered.",
+  "lastVerified": "2026-07-24",
+  "contentVersion": 1
+}

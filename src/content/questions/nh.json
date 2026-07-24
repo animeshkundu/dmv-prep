@@ -1,0 +1,248 @@
+[
+  {
+    "id": "nh-alc-001",
+    "category": "alcohol-drugs",
+    "stateScope": ["NH"],
+    "prompt": "In New Hampshire, a driver under 21 can be charged for driving with a blood alcohol concentration (BAC) as low as:",
+    "options": ["0.08%", "0.05%", "0.02%", "0.04%"],
+    "correctIndex": 2,
+    "explanation": "New Hampshire's zero-tolerance law sets the limit at 0.02% BAC for drivers under 21. A conviction brings a license suspension.",
+    "difficulty": "medium",
+    "references": [{ "label": "Under-21 BAC", "citation": "New Hampshire Driver's Manual, alcohol and driving", "url": "https://www.dmv.nh.gov/sites/g/files/ehbemt416/files/inline-documents/nhdm.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "nh-alc-002",
+    "category": "alcohol-drugs",
+    "stateScope": ["NH"],
+    "prompt": "For an adult (21+) driving a passenger car in New Hampshire, it is illegal to drive with a BAC at or above:",
+    "options": ["0.05%", "0.08%", "0.10%", "0.02%"],
+    "correctIndex": 1,
+    "explanation": "The standard adult BAC limit in New Hampshire is 0.08%. Commercial drivers are limited to 0.04% and drivers under 21 to 0.02%.",
+    "difficulty": "easy",
+    "references": [{ "label": "Adult BAC / DWI", "citation": "New Hampshire Driver's Manual, driving while intoxicated", "url": "https://www.dmv.nh.gov/sites/g/files/ehbemt416/files/inline-documents/nhdm.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "nh-gdl-001",
+    "category": "gdl-teen",
+    "stateScope": ["NH"],
+    "prompt": "A New Hampshire youth operator (under 18) is prohibited from driving during which hours?",
+    "options": [
+      "11 p.m. to 5 a.m.",
+      "1 a.m. to 4 a.m.",
+      "Midnight to 6 a.m.",
+      "10 p.m. to 5 a.m."
+    ],
+    "correctIndex": 1,
+    "explanation": "New Hampshire youth operators may not drive between 1 a.m. and 4 a.m. There are no work or school exceptions to this curfew.",
+    "difficulty": "medium",
+    "references": [{ "label": "Youth operator curfew", "citation": "NH RSA 263:14; New Hampshire Driver's Manual", "url": "https://gc.nh.gov/rsa/html/XXI/263/263-14.htm" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "nh-gdl-002",
+    "category": "gdl-teen",
+    "stateScope": ["NH"],
+    "prompt": "For the first 6 months after receiving a New Hampshire youth operator license, the driver generally may carry:",
+    "options": [
+      "No passengers at all",
+      "No more than one passenger under 25 who is not family, unless a licensed adult 25 or older is in the front seat",
+      "Any number of passengers",
+      "Only passengers over 18"
+    ],
+    "correctIndex": 1,
+    "explanation": "During the first 6 months, a youth operator may carry no more than one non-family passenger under 25 unless a licensed responsible adult who is at least 25 is riding in the front seat.",
+    "difficulty": "hard",
+    "references": [{ "label": "Passenger restriction", "citation": "NH RSA 263:14, youth operator restrictions", "url": "https://gc.nh.gov/rsa/html/XXI/263/263-14.htm" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "nh-laws-001",
+    "category": "traffic-laws",
+    "stateScope": ["NH"],
+    "prompt": "Which statement about seat-belt requirements in New Hampshire is correct?",
+    "options": [
+      "All occupants of any age must wear a seat belt",
+      "New Hampshire has no seat-belt requirement for drivers and passengers 18 and older, but occupants under 18 must be buckled",
+      "Only the driver must wear a seat belt",
+      "Seat belts are optional for everyone"
+    ],
+    "correctIndex": 1,
+    "explanation": "New Hampshire is unique in not requiring adults 18 and older to wear seat belts. However, drivers and passengers under 18 are legally required to be properly restrained. Wearing a belt is still strongly recommended for everyone.",
+    "difficulty": "hard",
+    "references": [{ "label": "Occupant protection", "citation": "New Hampshire Driver's Manual, occupant protection", "url": "https://www.dmv.nh.gov/sites/g/files/ehbemt416/files/inline-documents/nhdm.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "nh-laws-002",
+    "category": "traffic-laws",
+    "stateScope": ["NH"],
+    "prompt": "Under New Hampshire's hands-free law, while driving you may:",
+    "options": [
+      "Hold your phone to send a quick text",
+      "Use a phone or electronic device only in hands-free mode",
+      "Watch video on a mounted screen",
+      "Hold your phone at stop lights"
+    ],
+    "correctIndex": 1,
+    "explanation": "New Hampshire prohibits using handheld electronic devices while driving. Adults may use a device only hands-free; drivers under 18 may not use any mobile device while driving.",
+    "difficulty": "easy",
+    "references": [{ "label": "Hands-free law", "citation": "New Hampshire Driver's Manual, distracted driving", "url": "https://www.dmv.nh.gov/sites/g/files/ehbemt416/files/inline-documents/nhdm.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "nh-speed-001",
+    "category": "speed-limits",
+    "stateScope": ["NH"],
+    "prompt": "On posted rural sections of New Hampshire interstate highways, the maximum speed limit can be as high as:",
+    "options": ["55 mph", "65 mph", "70 mph", "80 mph"],
+    "correctIndex": 2,
+    "explanation": "New Hampshire interstates are generally posted at 65 mph, with certain rural segments posted up to 70 mph. Always obey the posted signs.",
+    "difficulty": "medium",
+    "references": [{ "label": "Speed limits", "citation": "New Hampshire Driver's Manual, speed limits", "url": "https://www.dmv.nh.gov/sites/g/files/ehbemt416/files/inline-documents/nhdm.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "nh-laws-003",
+    "category": "traffic-laws",
+    "stateScope": ["NH"],
+    "prompt": "New Hampshire's Move Over Law requires that when you approach a stopped emergency vehicle with flashing lights, you must:",
+    "options": [
+      "Maintain your speed and stay in your lane",
+      "Move over to a non-adjacent lane if possible, or slow down if you cannot move over",
+      "Stop in the travel lane",
+      "Flash your headlights and continue"
+    ],
+    "correctIndex": 1,
+    "explanation": "Drivers must move over a lane away from a stopped emergency or highway vehicle when it is safe, and slow to a reasonable speed when moving over is not possible.",
+    "difficulty": "easy",
+    "references": [{ "label": "Move Over Law", "citation": "New Hampshire Driver's Manual, emergency vehicles", "url": "https://www.dmv.nh.gov/sites/g/files/ehbemt416/files/inline-documents/nhdm.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "nh-signs-001",
+    "category": "road-signs",
+    "stateScope": ["NH"],
+    "prompt": "An eight-sided (octagonal) red sign always means:",
+    "options": ["Yield", "Stop", "Do not enter", "Slow down"],
+    "correctIndex": 1,
+    "explanation": "The octagonal red sign is used only for STOP. You must come to a complete stop and yield before proceeding.",
+    "difficulty": "easy",
+    "references": [{ "label": "Regulatory signs", "citation": "New Hampshire Driver's Manual, traffic signs", "url": "https://www.dmv.nh.gov/sites/g/files/ehbemt416/files/inline-documents/nhdm.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "nh-signals-001",
+    "category": "traffic-signals",
+    "stateScope": ["NH"],
+    "prompt": "A flashing red traffic signal means you should:",
+    "options": [
+      "Slow down and proceed with caution",
+      "Stop, then proceed when it is safe, as you would at a stop sign",
+      "Speed up to clear the intersection",
+      "Stop and wait for the light to turn green"
+    ],
+    "correctIndex": 1,
+    "explanation": "A flashing red light is treated like a stop sign: come to a full stop, then proceed when the way is clear and it is safe to do so.",
+    "difficulty": "easy",
+    "references": [{ "label": "Flashing signals", "citation": "New Hampshire Driver's Manual, traffic signals", "url": "https://www.dmv.nh.gov/sites/g/files/ehbemt416/files/inline-documents/nhdm.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "nh-row-001",
+    "category": "right-of-way",
+    "stateScope": ["NH"],
+    "prompt": "You reach an intersection where a school bus ahead has stopped with its red lights flashing and stop arm extended. You must:",
+    "options": [
+      "Pass slowly on the left",
+      "Stop and remain stopped until the red lights stop flashing and the arm is withdrawn",
+      "Proceed if no children are visible",
+      "Honk and continue"
+    ],
+    "correctIndex": 1,
+    "explanation": "When a school bus displays flashing red lights and an extended stop arm, traffic must stop and stay stopped until the lights stop and the arm folds in, unless separated by a divided highway.",
+    "difficulty": "medium",
+    "references": [{ "label": "School buses", "citation": "New Hampshire Driver's Manual, school buses", "url": "https://www.dmv.nh.gov/sites/g/files/ehbemt416/files/inline-documents/nhdm.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "nh-safe-001",
+    "category": "safe-driving",
+    "stateScope": ["NH"],
+    "prompt": "New Hampshire winters bring ice and snow. When roads are slippery, the safest adjustment is to:",
+    "options": [
+      "Increase your following distance and reduce speed",
+      "Follow closely so you can see the car ahead",
+      "Brake hard to test traction",
+      "Use cruise control on ice"
+    ],
+    "correctIndex": 0,
+    "explanation": "On snow or ice, stopping distances grow. Slow down, increase your following distance, and avoid sudden steering or braking. Cruise control should not be used on slippery roads.",
+    "difficulty": "easy",
+    "references": [{ "label": "Adverse conditions", "citation": "New Hampshire Driver's Manual, driving in bad weather", "url": "https://www.dmv.nh.gov/sites/g/files/ehbemt416/files/inline-documents/nhdm.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "nh-mark-001",
+    "category": "pavement-markings",
+    "stateScope": ["NH"],
+    "prompt": "A broken (dashed) yellow center line on a two-way road indicates:",
+    "options": [
+      "Passing is never allowed",
+      "You may pass when it is safe and the way is clear",
+      "The lane is for turning only",
+      "The road is one-way"
+    ],
+    "correctIndex": 1,
+    "explanation": "A broken yellow center line means passing is permitted on your side when the road ahead is clear and it is safe to do so.",
+    "difficulty": "easy",
+    "references": [{ "label": "Pavement markings", "citation": "New Hampshire Driver's Manual, pavement markings", "url": "https://www.dmv.nh.gov/sites/g/files/ehbemt416/files/inline-documents/nhdm.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "nh-pen-001",
+    "category": "penalties-points",
+    "stateScope": ["NH"],
+    "prompt": "New Hampshire uses a demerit-point system. The number of points that can lead to suspension:",
+    "options": [
+      "Is the same for every driver",
+      "Depends on the driver's age, with lower thresholds for younger drivers",
+      "Only applies to commercial drivers",
+      "Is unlimited"
+    ],
+    "correctIndex": 1,
+    "explanation": "New Hampshire's point thresholds are tied to age. Younger drivers reach a suspension level with fewer points than drivers 21 and older.",
+    "difficulty": "medium",
+    "references": [{ "label": "Demerit points", "citation": "New Hampshire Driver's Manual, point system", "url": "https://www.dmv.nh.gov/sites/g/files/ehbemt416/files/inline-documents/nhdm.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  }
+]

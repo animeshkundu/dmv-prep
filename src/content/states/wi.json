@@ -1,0 +1,100 @@
+{
+  "code": "WI",
+  "name": "Wisconsin",
+  "agencyName": "Wisconsin Division of Motor Vehicles",
+  "agencyShort": "DMV",
+  "officialSiteUrl": "https://wisconsindot.gov/",
+  "handbookLandingUrl": "https://wisconsindot.gov/Pages/dmv/license-drvs/how-to-apply/handbook.aspx",
+  "handbookPdfUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+  "handbookFormat": "pdf",
+  "handbookEditionYear": 2025,
+  "handbookCopyrightStatus": "terms-of-use",
+  "applicantVariants": [
+    { "id": "under-18", "label": "Under 18 (instruction permit, GDL)" },
+    { "id": "adult", "label": "Adult (18+) Class D" }
+  ],
+  "examVariants": [
+    {
+      "variantId": "under-18",
+      "label": "Under-18 knowledge test - Class D (regular license)",
+      "numQuestions": 50,
+      "numToPass": 40,
+      "languages": ["en", "es"],
+      "onlineAvailable": true
+    },
+    {
+      "variantId": "adult",
+      "label": "Adult knowledge test - Class D (regular license)",
+      "numQuestions": 50,
+      "numToPass": 40,
+      "languages": ["en", "es"],
+      "onlineAvailable": false
+    }
+  ],
+  "retake": {
+    "waitBetweenAttempts": "Next business day",
+    "retakeFee": "No additional fee to retake the knowledge test"
+  },
+  "gdl": {
+    "permitMinAge": "15 yrs 6 mo",
+    "provisionalMinAge": "16",
+    "fullLicenseMinAge": "18 (or when GDL restrictions end after 9 months of probationary licensing)",
+    "permitHoldingPeriod": "6 months",
+    "supervisedHoursRequired": "50 hours (at least 10 at night)",
+    "nightHoursRequired": "10 hours",
+    "nightCurfew": "Probationary drivers under 18 may not drive midnight-5 a.m. for the first 9 months (with limited exceptions)",
+    "passengerLimits": "For the first 9 months of a probationary license, only one passenger (plus immediate family) unless a qualified adult supervisor is present",
+    "driverEdRequired": true
+  },
+  "process": {
+    "appointmentRequired": "encouraged",
+    "requiredDocuments": [
+      "Proof of name and date of birth",
+      "Proof of identity",
+      "Proof of Social Security number",
+      "Proof of Wisconsin residency (two documents for a REAL ID)",
+      "Proof of legal presence / U.S. citizenship or lawful status",
+      "Application form MV3001 (and school enrollment/sponsorship if under 18)"
+    ],
+    "realIdNotes": "A REAL ID-compliant license requires proof of identity/date of birth, one proof of Social Security number, proof of legal presence, and two proofs of Wisconsin residency. Must be applied for in person.",
+    "permitFee": "$35 (instruction permit)",
+    "licenseFee": "$28 (probationary license, valid 2 years); $34 for a regular 8-year license",
+    "visionTestRequired": true,
+    "visionStandard": "At least 20/40 in at least one eye, with or without corrective lenses",
+    "feesUrl": "https://wisconsindot.gov/Pages/dmv/license-drvs/rnw-lic/fees.aspx"
+  },
+  "facts": {
+    "bacLimitAdult": "0.08%",
+    "bacLimitCommercial": "0.04%",
+    "bacLimitUnder21": "0.00% (Absolute Sobriety / Not a Drop law - any detectable alcohol)",
+    "pointSystem": true,
+    "pointSuspensionThreshold": "12 or more demerit points within 12 months leads to suspension",
+    "moveOverRule": "Move over a lane, or slow down if you cannot, for stopped emergency, tow, and highway maintenance vehicles displaying flashing warning lights",
+    "interstateMaxSpeed": "70 mph on rural interstates where posted",
+    "schoolZoneSpeed": "Reduced posted limit near schools when children are present (commonly 15 mph)",
+    "namedLaws": ["Move Over Law", "Absolute Sobriety Law (Not a Drop)", "Graduated Driver Licensing (GDL) Law"]
+  },
+  "references": [
+    {
+      "label": "Wisconsin Motorists' Handbook",
+      "citation": "WisDOT DMV Motorists' Handbook (BDS126)",
+      "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf"
+    },
+    {
+      "label": "Impaired driving (OWI)",
+      "citation": "WisDOT OWI / Absolute Sobriety",
+      "url": "https://wisconsindot.gov/Pages/dmv/license-drvs/susp-or-rvkd/owi.aspx"
+    },
+    {
+      "label": "Teen drivers / GDL",
+      "citation": "WisDOT Graduated Driver Licensing",
+      "url": "https://wisconsindot.gov/Pages/dmv/teen-driver/teen-driver.aspx"
+    }
+  ],
+  "effectiveDate": "2026-07-24",
+  "sourceSnapshotHash": "seed-pending-verification",
+  "reviewStatus": "adversarially-verified",
+  "verifyNote": "The current official WisDOT BDS126 handbook and current knowledge-test page confirm the requirements, but WisDOT does not identify an edition year for the live handbook PDF; handbookEditionYear remains 2025 pending an edition-dated official source.",
+  "lastVerified": "2026-07-24",
+  "contentVersion": 1
+}

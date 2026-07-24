@@ -1,0 +1,11 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { STATES, stateSlug } from '../../lib/states-directory';
+import { href } from '../../lib/site';
+import '../../styles/pages.css';
+const authoredStates = new Set<string>((await getCollection('states')).map((entry) => entry.data.code));
+const questionStates = new Set<string>((await getCollection('questions')).flatMap((entry) => entry.data.stateScope === 'all' ? [] : entry.data.stateScope));
+---
+<BaseLayout title="State permit test prep"><section class="container page-shell"><div><p class="badge">50 states + DC</p><h1>Choose your state</h1><p class="muted">Find state-specific exam facts, practice questions, and permit steps.</p></div><input id="directory-search" class="form-control" type="search" placeholder="Search states" aria-controls="directory"/><div id="directory" class="link-grid">{STATES.map((state) => <a class="card link-card" data-name={`${state.name} ${state.code}`.toLowerCase()} href={href(`/state/${stateSlug(state.code)}`)}><strong>{state.name}</strong><p class="muted">{state.agencyShort}</p>{authoredStates.has(state.code) && questionStates.has(state.code as never) ? <span class="badge">State content ready</span> : <span class="badge">National practice ready</span>}</a>)}</div></section></BaseLayout>
+<script>const input=document.querySelector<HTMLInputElement>('#directory-search');input?.addEventListener('input',()=>document.querySelectorAll<HTMLElement>('#directory [data-name]').forEach((item)=>item.hidden=!(item.dataset.name??'').includes(input.value.toLowerCase())));</script>

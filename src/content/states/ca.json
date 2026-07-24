@@ -1,0 +1,96 @@
+{
+  "code": "CA",
+  "name": "California",
+  "agencyName": "California Department of Motor Vehicles",
+  "agencyShort": "DMV",
+  "officialSiteUrl": "https://www.dmv.ca.gov/",
+  "handbookLandingUrl": "https://www.dmv.ca.gov/portal/handbooks-and-manuals/california-driver-handbook/",
+  "handbookPdfUrl": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+  "handbookFormat": "mixed",
+  "handbookEditionYear": 2025,
+  "handbookCopyrightStatus": "terms-of-use",
+  "handbookTermsUrl": "https://www.dmv.ca.gov/portal/privacy-policy/conditions-of-use/",
+  "applicantVariants": [
+    { "id": "under-18", "label": "Under 18 (provisional instruction permit)" },
+    { "id": "adult", "label": "Adult (18+)" }
+  ],
+  "examVariants": [
+    {
+      "variantId": "under-18",
+      "label": "Under-18 knowledge test (Class C)",
+      "numQuestions": 46,
+      "numToPass": 38,
+      "languages": ["en", "es"],
+      "onlineAvailable": false
+    },
+    {
+      "variantId": "adult",
+      "label": "Adult knowledge test (Class C)",
+      "numQuestions": 36,
+      "numToPass": 30,
+      "languages": ["en", "es"],
+      "onlineAvailable": false
+    }
+  ],
+  "retake": {
+    "maxAttemptsBeforeExtraReq": 3,
+    "waitBetweenAttempts": "7 days",
+    "attemptCapPeriod": "3 attempts per application",
+    "retakeFee": "Included in application fee for first 3 attempts"
+  },
+  "gdl": {
+    "permitMinAge": "15 yrs 6 mo",
+    "provisionalMinAge": "16",
+    "fullLicenseMinAge": "18",
+    "permitHoldingPeriod": "6 months (minors)",
+    "supervisedHoursRequired": "50 hours (10 at night)",
+    "nightHoursRequired": "10 hours",
+    "nightCurfew": "No driving 11pm-5am for first 12 months (with exceptions)",
+    "passengerLimits": "No passengers under 20 for first 12 months (with exceptions)",
+    "driverEdRequired": true
+  },
+  "process": {
+    "appointmentRequired": "encouraged",
+    "schedulingUrl": "https://www.dmv.ca.gov/portal/make-an-appointment/",
+    "requiredDocuments": [
+      "Proof of identity (e.g. birth certificate or passport)",
+      "Social Security Number",
+      "Two proofs of California residency (for REAL ID)",
+      "Completed application (DL 44)"
+    ],
+    "realIdNotes": "REAL ID requires proof of identity, one proof of SSN, and two proofs of residency. Federal deadline in effect for boarding domestic flights.",
+    "permitFee": "$46 (original Class C application fee, covers the instruction permit and license)",
+    "licenseFee": "$46 (original Class C application fee)",
+    "feesUrl": "https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/dl-id-fees/",
+    "visionTestRequired": true,
+    "visionStandard": "20/40 with both eyes together (with or without corrective lenses)"
+  },
+  "facts": {
+    "bacLimitAdult": "0.08%",
+    "bacLimitCommercial": "0.04%",
+    "bacLimitUnder21": "0.01% (zero tolerance)",
+    "pointSystem": true,
+    "pointSuspensionThreshold": "4 points in 12 months, 6 in 24 months, or 8 in 36 months",
+    "moveOverRule": "Move over or slow down for stopped emergency and Caltrans vehicles displaying flashing lights",
+    "interstateMaxSpeed": "65 mph (70 mph on some posted segments)",
+    "schoolZoneSpeed": "25 mph when children are present",
+    "namedLaws": ["Basic Speed Law", "Move Over Law", "Hands-Free Law"]
+  },
+  "references": [
+    {
+      "label": "California Driver Handbook",
+      "citation": "CA DMV Driver Handbook (2025)",
+      "url": "https://www.dmv.ca.gov/portal/handbooks-and-manuals/california-driver-handbook/"
+    },
+    {
+      "label": "DL/ID fees",
+      "citation": "CA DMV DL/ID card fees",
+      "url": "https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/dl-id-fees/"
+    }
+  ],
+  "effectiveDate": "2026-07-24",
+  "sourceSnapshotHash": "seed-pending-verification",
+  "reviewStatus": "adversarially-verified",
+  "lastVerified": "2026-07-24",
+  "contentVersion": 1
+}

@@ -1,0 +1,5 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro'; import MockExam from '../../../islands/MockExam'; import { STATES, byCode, stateSlug } from '../../../lib/states-directory'; import { studyContent } from '../../../lib/content'; import { applicableQuestions } from '../../../lib/questions'; import '../../../styles/pages.css';
+export function getStaticPaths(){return STATES.map((state)=>({params:{code:stateSlug(state.code)}}));} const code=Astro.params.code!.toUpperCase(); const directory=byCode(code)!; const content=await studyContent(code); const questions=applicableQuestions(content.questions,code); const variants=content.state?.examVariants ?? [{variantId:'practice',label:'Practice mock exam',numQuestions:Math.min(20,questions.length),numToPass:Math.ceil(Math.min(20,questions.length)*.8),languages:['en'],onlineAvailable:false}];
+---
+<BaseLayout title={`${directory.name} mock exam`}><section class="study-shell"><h1>{directory.name} mock exam</h1><p class="muted">Answers stay hidden until you finish.</p><MockExam client:load state={code} variants={variants} questions={questions}/></section></BaseLayout>

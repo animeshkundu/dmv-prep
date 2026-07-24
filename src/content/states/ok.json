@@ -1,0 +1,95 @@
+{
+  "code": "OK",
+  "name": "Oklahoma",
+  "agencyName": "Service Oklahoma",
+  "agencyShort": "DPS",
+  "officialSiteUrl": "https://oklahoma.gov/service.html",
+  "handbookLandingUrl": "https://oklahoma.gov/service/all-pages/driver-education.html",
+  "handbookPdfUrl": "https://oklahoma.gov/content/dam/ok/en/oklahoma/documents/drivers/drivermanual.pdf",
+  "handbookFormat": "pdf",
+  "handbookEditionYear": 2023,
+  "handbookCopyrightStatus": "terms-of-use",
+  "applicantVariants": [
+    { "id": "under-18", "label": "Under 18 (learner permit / intermediate)" },
+    { "id": "adult", "label": "Adult (18+)" }
+  ],
+  "examVariants": [
+    {
+      "variantId": "under-18",
+      "label": "Under-18 knowledge test (Class D)",
+      "numQuestions": 20,
+      "numToPass": 15,
+      "timeLimitMinutes": 60,
+      "languages": ["en", "es"],
+      "onlineAvailable": true
+    },
+    {
+      "variantId": "adult",
+      "label": "Adult knowledge test (Class D)",
+      "numQuestions": 20,
+      "numToPass": 15,
+      "timeLimitMinutes": 60,
+      "languages": ["en", "es"],
+      "onlineAvailable": true
+    }
+  ],
+  "retake": {
+    "waitBetweenAttempts": "Online: up to 2 attempts, then test in person",
+    "retakeFee": "$4 per prior failed attempt, collected when the credential is issued"
+  },
+  "gdl": {
+    "permitMinAge": "15 yrs 6 mo (with driver education) or 16",
+    "provisionalMinAge": "16 (intermediate license)",
+    "fullLicenseMinAge": "18 (unrestricted)",
+    "permitHoldingPeriod": "6 months",
+    "supervisedHoursRequired": "50 hours, 10 of which must be at night",
+    "nightCurfew": "Learner permit: drive only 5 a.m.-10 p.m. Intermediate license: no driving 10 p.m.-5 a.m. unless an exception applies.",
+    "passengerLimits": "Only one passenger under 18 (other than household members) unless a licensed driver 21 or older is in the front seat",
+    "driverEdRequired": false
+  },
+  "process": {
+    "appointmentRequired": "encouraged",
+    "schedulingUrl": "https://oklahoma.gov/service/all-pages/new-dl.html",
+    "requiredDocuments": [
+      "Proof of identity (e.g. birth certificate or passport)",
+      "Proof of lawful presence",
+      "Social Security Number",
+      "Two proofs of Oklahoma residency (for REAL ID)"
+    ],
+    "realIdNotes": "Oklahoma offers a REAL ID marked with a star. A REAL ID requires proof of identity, proof of lawful presence, a Social Security Number, and two proofs of Oklahoma residency. REAL ID is required to board domestic flights.",
+    "permitFee": "$42.50 (4-year learner permit); $81.00 (8-year), plus $4 per prior test failure",
+    "licenseFee": "$42.50 (4-year Class D license)",
+    "feesUrl": "https://oklahoma.gov/service/all-pages/new-dl.html",
+    "visionTestRequired": true,
+    "visionStandard": "20/40 in at least one eye, with or without corrective lenses"
+  },
+  "facts": {
+    "bacLimitAdult": "0.08%",
+    "bacLimitCommercial": "0.04%",
+    "bacLimitUnder21": "Any measurable amount (zero tolerance); 0.02% or more triggers suspension",
+    "pointSystem": true,
+    "pointSuspensionThreshold": "License suspension when 10 or more points accumulate within a 5-year period",
+    "moveOverRule": "Change lanes away from, or slow down for, stopped emergency, tow, and highway maintenance vehicles displaying flashing lights on highways and turnpikes",
+    "interstateMaxSpeed": "75 mph on rural interstates and turnpikes (unless posted lower)",
+    "schoolZoneSpeed": "25 mph or as posted during school hours when children are present",
+    "namedLaws": ["Move Over Law", "Zero Tolerance Law (under 21)", "Aggravated DUI (BAC 0.15% or higher)"]
+  },
+  "references": [
+    {
+      "label": "Oklahoma Driver Manual",
+      "citation": "Service Oklahoma Driver Manual",
+      "url": "https://oklahoma.gov/service/all-pages/driver-education.html"
+    },
+    {
+      "label": "Written knowledge test",
+      "citation": "Service Oklahoma, Written Test",
+      "url": "https://oklahoma.gov/service/popular-services/written-test.html"
+    }
+  ],
+  "effectiveDate": "2026-07-24",
+  "sourceSnapshotHash": "seed-pending-verification",
+  "reviewStatus": "draft",
+  "verifyNote": "Official Service Oklahoma pages confirmed the exam, ages, and 4-year permit/license fees, but the cited official pages did not conclusively confirm an 8-year credential fee; only the confirmed 4-year fees are retained.",
+  "lastVerified": "2026-07-24",
+  "contentVersion": 1
+}

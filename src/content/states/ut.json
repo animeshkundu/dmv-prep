@@ -1,0 +1,99 @@
+{
+  "code": "UT",
+  "name": "Utah",
+  "agencyName": "Utah Driver License Division",
+  "agencyShort": "DLD",
+  "officialSiteUrl": "https://dld.utah.gov/",
+  "handbookLandingUrl": "https://dld.utah.gov/resources/",
+  "handbookPdfUrl": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-REV-3.2026.pdf",
+  "handbookFormat": "pdf",
+  "handbookEditionYear": 2026,
+  "handbookCopyrightStatus": "unknown",
+  "applicantVariants": [
+    { "id": "under-18", "label": "Under 18 (learner permit / intermediate license)" },
+    { "id": "adult", "label": "Adult (18+)" },
+    { "id": "previously-licensed", "label": "Previously licensed applicant" }
+  ],
+  "examVariants": [
+    {
+      "variantId": "first-time",
+      "label": "Class D knowledge test (never previously licensed)",
+      "numQuestions": 50,
+      "numToPass": 40,
+      "languages": ["en", "es"],
+      "onlineAvailable": false
+    },
+    {
+      "variantId": "previously-licensed",
+      "label": "Class D knowledge test (previously licensed)",
+      "numQuestions": 25,
+      "numToPass": 20,
+      "languages": ["en", "es"],
+      "onlineAvailable": false
+    }
+  ],
+  "retake": {
+    "waitBetweenAttempts": "Same-day retake generally not allowed; return on a later day",
+    "retakeFee": "No additional knowledge-test fee within the same application in most offices (verify locally)"
+  },
+  "gdl": {
+    "permitMinAge": "15",
+    "provisionalMinAge": "16",
+    "fullLicenseMinAge": "18",
+    "permitHoldingPeriod": "6 months (under 18)",
+    "supervisedHoursRequired": "40 hours (10 at night)",
+    "nightHoursRequired": "10 hours",
+    "nightCurfew": "No driving midnight-5 a.m. until age 18, unless accompanied by a licensed driver 21+ or driving for school, work, or an emergency",
+    "passengerLimits": "For the first 6 months, no passengers under 21 unless they are immediate family or a licensed driver 21+ is present",
+    "driverEdRequired": true
+  },
+  "process": {
+    "appointmentRequired": "encouraged",
+    "requiredDocuments": [
+      "Proof of identity (certified birth certificate or valid passport)",
+      "Proof of Social Security Number",
+      "Two proofs of Utah residence (for a REAL ID card)",
+      "Proof of name change if applicable"
+    ],
+    "realIdNotes": "Utah issues REAL ID-compliant cards. Applicants must present proof of identity, one document with the SSN, and two proofs of Utah residence. Documents must be original or certified; photocopies are not accepted.",
+    "permitFee": "$19.00 (learner permit)",
+    "licenseFee": "$39.00 provisional (under 21) / $52.00 regular Class D (adult)",
+    "feesUrl": "https://dld.utah.gov/fees/",
+    "visionTestRequired": true,
+    "visionStandard": "20/40 in at least one eye, with or without corrective lenses"
+  },
+  "facts": {
+    "bacLimitAdult": "0.05%",
+    "bacLimitCommercial": "0.04%",
+    "bacLimitUnder21": "Any measurable amount (Not-a-Drop, zero tolerance)",
+    "pointSystem": true,
+    "pointSuspensionThreshold": "200 points in 3 years (age 21+); 70 points in 3 years (under 21)",
+    "moveOverRule": "Move over a lane if safe, or slow down, for stopped emergency, tow, and maintenance vehicles displaying flashing lights",
+    "interstateMaxSpeed": "80 mph (posted segments of rural interstate)",
+    "schoolZoneSpeed": "20 mph in a marked school zone",
+    "namedLaws": [".05 DUI Law", "Not-a-Drop Law", "Move Over Law"]
+  },
+  "references": [
+    {
+      "label": "Utah Driver Handbook",
+      "citation": "Utah DLD Driver Handbook (REV 3.2026)",
+      "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-REV-3.2026.pdf"
+    },
+    {
+      "label": "Utah DUI statute (0.05% adult limit)",
+      "citation": "Utah Code § 41-6a-502",
+      "url": "https://le.utah.gov/xcode/Title41/Chapter6A/41-6a-S502.html"
+    },
+    {
+      "label": "Utah Driver License Division fees",
+      "citation": "Utah DLD fee schedule",
+      "url": "https://dld.utah.gov/fees/"
+    }
+  ],
+  "effectiveDate": "2026-07-24",
+  "sourceSnapshotHash": "seed-pending-verification",
+  "reviewStatus": "draft",
+  "verifyNote": "Official DLD confirms the 50-question closed-book test for never-licensed applicants and the 25-question open-book test for previously licensed applicants, but its current written-test page does not publish the passing threshold for the 25-question variant; 20 correct is retained pending direct official confirmation.",
+  "lastVerified": "2026-07-24",
+  "contentVersion": 1
+}

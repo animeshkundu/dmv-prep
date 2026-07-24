@@ -1,0 +1,11 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { STATES, byCode, stateSlug } from '../../lib/states-directory';
+import { studyContent } from '../../lib/content';
+import { href } from '../../lib/site';
+import '../../styles/pages.css';
+export function getStaticPaths(){return STATES.map((state)=>({params:{code:stateSlug(state.code)}}));}
+const code=Astro.params.code!.toUpperCase(); const directory=byCode(code)!; const {state}=await studyContent(code);
+const links=[['Practice questions','practice'],['Mock exam','mock'],['Flashcards','flashcards'],['Permit guide','guide']];
+---
+<BaseLayout title={`${directory.name} permit test`}><section class="container page-shell"><div><p class="badge">{code} · {state?.agencyShort ?? directory.agencyShort}</p><h1>{directory.name} permit test prep</h1><p class="muted">{state ? `Current exam facts and permit steps from the ${state.agencyName}.` : 'State-specific details are coming soon. You can start with national practice now.'}</p></div>{state ? <div class="reference-grid">{state.examVariants.map((variant)=><article class="card study-card"><h2>{variant.label}</h2><p>{variant.numQuestions} questions · {variant.numToPass} to pass</p></article>)}</div> : <aside class="card study-card"><h2>Content coming soon</h2><p>Official handbook links will be added after verification. National practice remains available.</p></aside>}<div class="link-grid">{links.map(([label,path])=><a class="card link-card" href={href(`/state/${stateSlug(code)}/${path}`)}><strong>{label}</strong></a>)}<a class="card link-card" href={href('/signs')}><strong>Road signs</strong></a></div>{state && <article class="card study-card"><h2>Quick process summary</h2><p>Minimum permit age: {state.gdl.permitMinAge}</p><p>Appointments: {state.process.appointmentRequired}</p><p>Vision test: {state.process.visionTestRequired ? 'Required' : 'Not listed as required'}</p></article>}</section></BaseLayout>

@@ -1,0 +1,92 @@
+{
+  "code": "MN",
+  "name": "Minnesota",
+  "agencyName": "Minnesota Driver and Vehicle Services",
+  "agencyShort": "DVS",
+  "officialSiteUrl": "https://dps.mn.gov/divisions/dvs/Pages/default.aspx",
+  "handbookLandingUrl": "https://dps.mn.gov/divisions/dvs/Pages/default.aspx",
+  "handbookPdfUrl": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+  "handbookFormat": "pdf",
+  "handbookEditionYear": 2026,
+  "handbookCopyrightStatus": "terms-of-use",
+  "applicantVariants": [
+    { "id": "under-18", "label": "Under 18 (instruction permit, GDL)" },
+    { "id": "adult", "label": "Adult (18+) Class D" }
+  ],
+  "examVariants": [
+    {
+      "variantId": "under-18",
+      "label": "Under-18 knowledge test - Class D permit",
+      "numQuestions": 40,
+      "numToPass": 32,
+      "languages": ["en", "es", "so", "hmn"],
+      "onlineAvailable": false
+    },
+    {
+      "variantId": "adult",
+      "label": "Adult knowledge test - Class D permit",
+      "numQuestions": 40,
+      "numToPass": 32,
+      "languages": ["en", "es", "so", "hmn"],
+      "onlineAvailable": false
+    }
+  ],
+  "retake": {
+    "waitBetweenAttempts": "Next business day",
+    "retakeFee": "$10 knowledge test fee applies per attempt"
+  },
+  "gdl": {
+    "permitMinAge": "15",
+    "provisionalMinAge": "16",
+    "fullLicenseMinAge": "18 (full Class D once the provisional period ends)",
+    "permitHoldingPeriod": "6 months (minors)",
+    "supervisedHoursRequired": "50 hours (15 at night); reduced to 40 hours if a parent completes the supplemental parental-awareness class",
+    "nightHoursRequired": "15 hours",
+    "nightCurfew": "Provisional drivers under 18 may not drive midnight-5 a.m. during the first 6 months (with exceptions)",
+    "passengerLimits": "First 6 months: no more than 1 passenger under 20; next 6 months: no more than 3 passengers under 20 (immediate family exempt)",
+    "driverEdRequired": true
+  },
+  "process": {
+    "appointmentRequired": "varies",
+    "requiredDocuments": [
+      "Proof of identity and date of birth (e.g. U.S. birth certificate or passport)",
+      "Proof of Social Security number",
+      "Two proofs of current Minnesota residency",
+      "Proof of legal presence / lawful status if not a U.S. citizen"
+    ],
+    "realIdNotes": "A REAL ID requires one identity/date-of-birth document, one Social Security number document, and two proofs of current Minnesota residency. Minnesota also offers an Enhanced Driver's License (EDL). Federal REAL ID enforcement is in effect for domestic flights.",
+    "permitFee": "$29.50 (instruction permit)",
+    "licenseFee": "$32.50 provisional license; $51 standard 4-year Class D license",
+    "visionTestRequired": true,
+    "visionStandard": "At least 20/40 in at least one eye, with or without corrective lenses",
+    "feesUrl": "https://dps.mn.gov/divisions/dvs/Pages/dvs-content-detail.aspx?pageID=182"
+  },
+  "facts": {
+    "bacLimitAdult": "0.08%",
+    "bacLimitCommercial": "0.04%",
+    "bacLimitUnder21": "0.00% (Not a Drop / zero-tolerance law)",
+    "pointSystem": false,
+    "pointSuspensionThreshold": "Minnesota does not use a driver's license point system; suspensions and revocations are based on specific violations",
+    "moveOverRule": "Move over a full lane, or slow down if you cannot, for stopped emergency, road maintenance, construction, and utility vehicles with flashing lights",
+    "interstateMaxSpeed": "70 mph on rural interstates where posted",
+    "schoolZoneSpeed": "Posted reduced school-zone limit when children are present; violations carry enhanced fines",
+    "namedLaws": ["Move Over Law", "Not a Drop Law", "Hands-Free Law", "Slowpoke Law (keep right except to pass)"]
+  },
+  "references": [
+    {
+      "label": "Minnesota Driver's Manual (Class D)",
+      "citation": "MN DPS-DVS Class D Driver's Manual (June 2026 edition)",
+      "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf"
+    },
+    {
+      "label": "Driver and Vehicle Services",
+      "citation": "MN DPS Driver and Vehicle Services",
+      "url": "https://dps.mn.gov/divisions/dvs/Pages/default.aspx"
+    }
+  ],
+  "effectiveDate": "2026-07-24",
+  "sourceSnapshotHash": "seed-pending-verification",
+  "reviewStatus": "adversarially-verified",
+  "lastVerified": "2026-07-24",
+  "contentVersion": 1
+}

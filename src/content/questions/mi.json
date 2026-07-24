@@ -1,0 +1,272 @@
+[
+  {
+    "id": "mi-alc-001",
+    "category": "alcohol-drugs",
+    "stateScope": ["MI"],
+    "prompt": "Under Michigan's Zero Tolerance law, a driver under 21 can be charged for a BAC of:",
+    "options": ["0.08% or higher", "0.05% or higher", "0.02% or higher", "0.10% or higher"],
+    "correctIndex": 2,
+    "explanation": "Michigan's Zero Tolerance law makes it illegal for a driver under 21 to drive with a BAC of 0.02% or higher. The limit for drivers 21 and older is 0.08%.",
+    "difficulty": "medium",
+    "references": [{ "label": "Zero tolerance", "citation": "What Every Driver Must Know, Alcohol/Drugs; MCL 257.625", "url": "https://www.michigan.gov/sos/all-services/manuals/what-every-driver-must-know" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "mi-alc-002",
+    "category": "alcohol-drugs",
+    "stateScope": ["MI"],
+    "prompt": "In Michigan, a driver with a BAC of 0.17% or higher faces enhanced penalties under which law?",
+    "options": [
+      "The Move Over Law",
+      "The High BAC 'Super Drunk' Law",
+      "Kelsey's Law",
+      "The Basic Speed Law"
+    ],
+    "correctIndex": 1,
+    "explanation": "Michigan's High BAC law, often called the 'Super Drunk' law, imposes enhanced penalties on drivers with a BAC of 0.17% or higher, including longer license suspension and mandatory treatment.",
+    "difficulty": "medium",
+    "references": [{ "label": "High BAC law", "citation": "Michigan Impaired Driving Law; MCL 257.625(1)(c)", "url": "https://www.michigan.gov/msp/divisions/ohsp/ohsp-traffic-safety-programs/impaired-driving/impaired-driving-law" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "mi-laws-001",
+    "category": "traffic-laws",
+    "stateScope": ["MI"],
+    "prompt": "Under Michigan's hands-free law (effective 2023), while driving you may not:",
+    "options": [
+      "Use a phone mounted on the dashboard with voice commands",
+      "Hold or manually use a handheld phone, even while stopped at a red light",
+      "Listen to the radio",
+      "Talk to a passenger"
+    ],
+    "correctIndex": 1,
+    "explanation": "Michigan's hands-free law prohibits holding or manually using a handheld mobile device while driving, including when temporarily stopped at a light or in traffic. Hands-free operation is still allowed.",
+    "difficulty": "easy",
+    "references": [{ "label": "Hands-Free Law", "citation": "Michigan Distracted Driving; MCL 257.602b", "url": "https://www.michigan.gov/msp/divisions/ohsp/traffic-safety-programs/distracted-driving" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "mi-laws-002",
+    "category": "traffic-laws",
+    "stateScope": ["MI"],
+    "prompt": "Michigan's Kelsey's Law prohibits which drivers from using a cell phone while driving?",
+    "options": [
+      "All drivers over 65",
+      "Level 1 and Level 2 graduated (teen) license holders",
+      "Commercial drivers only",
+      "Drivers with more than 6 points"
+    ],
+    "correctIndex": 1,
+    "explanation": "Kelsey's Law prohibits Level 1 and Level 2 graduated license holders from using a cell phone while driving, with limited exceptions such as reporting an emergency.",
+    "difficulty": "medium",
+    "references": [{ "label": "Kelsey's Law", "citation": "What Every Driver Must Know, Teen Drivers; MCL 257.602c", "url": "https://www.michigan.gov/sos/all-services/manuals/what-every-driver-must-know" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "mi-gdl-001",
+    "category": "gdl-teen",
+    "stateScope": ["MI"],
+    "prompt": "A Michigan Level 2 (intermediate) license holder is generally restricted from driving during which hours?",
+    "options": [
+      "9 p.m. to 6 a.m.",
+      "10 p.m. to 5 a.m.",
+      "Midnight to 6 a.m.",
+      "11 p.m. to 5 a.m."
+    ],
+    "correctIndex": 1,
+    "explanation": "A Level 2 driver may not drive unsupervised between 10 p.m. and 5 a.m., except when driving to or from employment or an authorized activity, or when accompanied by a parent or licensed adult 21 or older.",
+    "difficulty": "hard",
+    "references": [{ "label": "Level 2 restrictions", "citation": "What Every Driver Must Know, Graduated Licensing; MCL 257.310e", "url": "https://www.michigan.gov/sos/all-services/manuals/what-every-driver-must-know" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "mi-gdl-002",
+    "category": "gdl-teen",
+    "stateScope": ["MI"],
+    "prompt": "Under Michigan's graduated licensing, a Level 2 driver may carry no more than:",
+    "options": [
+      "Three passengers under 21",
+      "One passenger under 21 (with exceptions)",
+      "No passengers at all",
+      "Any number of family passengers only"
+    ],
+    "correctIndex": 1,
+    "explanation": "A Michigan Level 2 driver may have no more than one passenger under 21, unless the passengers are immediate family or the driver is traveling to or from school or a school-sanctioned event.",
+    "difficulty": "hard",
+    "references": [{ "label": "Passenger limits", "citation": "What Every Driver Must Know, Graduated Licensing; MCL 257.310e", "url": "https://www.michigan.gov/sos/all-services/manuals/what-every-driver-must-know" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "mi-gdl-003",
+    "category": "gdl-teen",
+    "stateScope": ["MI"],
+    "prompt": "How many hours of supervised driving must a Michigan teen complete during the graduated licensing program, and how many at night?",
+    "options": [
+      "40 hours, 6 at night",
+      "50 hours, 10 at night",
+      "60 hours, 10 at night",
+      "30 hours, 5 at night"
+    ],
+    "correctIndex": 1,
+    "explanation": "Michigan requires at least 50 hours of supervised driving, including a minimum of 10 hours at night, along with completion of driver education Segments 1 and 2.",
+    "difficulty": "medium",
+    "references": [{ "label": "Supervised hours", "citation": "What Every Driver Must Know, Teen Drivers", "url": "https://www.michigan.gov/sos/all-services/manuals/what-every-driver-must-know" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "mi-gdl-004",
+    "category": "gdl-teen",
+    "stateScope": ["MI"],
+    "prompt": "To obtain a Michigan Level 1 learner's license, a teen must be at least:",
+    "options": [
+      "15 years old",
+      "14 years, 9 months old (and have completed Segment 1 driver education)",
+      "16 years old",
+      "17 years old"
+    ],
+    "correctIndex": 1,
+    "explanation": "A teen may get a Level 1 license at 14 years and 9 months of age, after completing Segment 1 of an approved driver education course.",
+    "difficulty": "medium",
+    "references": [{ "label": "Level 1 eligibility", "citation": "What Every Driver Must Know, Graduated Licensing; MCL 257.310e", "url": "https://www.michigan.gov/sos/all-services/manuals/what-every-driver-must-know" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "mi-speed-001",
+    "category": "speed-limits",
+    "stateScope": ["MI"],
+    "prompt": "On some designated rural freeway segments in Michigan, the maximum posted speed limit for cars is:",
+    "options": ["65 mph", "70 mph", "75 mph", "80 mph"],
+    "correctIndex": 2,
+    "explanation": "While most Michigan freeways are posted at 70 mph, certain designated rural freeway segments are posted at 75 mph for passenger vehicles. Trucks are limited to a lower speed on those roads.",
+    "difficulty": "medium",
+    "references": [{ "label": "Speed limits", "citation": "MDOT Michigan Speed Limits; MCL 257.627-257.628", "url": "https://www.michigan.gov/mdot/travel/michigan-speed-limits" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "mi-speed-002",
+    "category": "speed-limits",
+    "stateScope": ["MI"],
+    "prompt": "Under Michigan's basic speed law, you must:",
+    "options": [
+      "Always drive the exact posted limit",
+      "Drive at a careful and prudent speed no greater than is reasonable for conditions",
+      "Drive 5 mph below the limit at all times",
+      "Match the speed of surrounding traffic even if unsafe"
+    ],
+    "correctIndex": 1,
+    "explanation": "Michigan's basic speed law requires driving at a careful and prudent speed that is reasonable for current conditions, never faster than the posted limit and slower when conditions require.",
+    "difficulty": "easy",
+    "references": [{ "label": "Basic speed law", "citation": "What Every Driver Must Know, Speed; MCL 257.627", "url": "https://www.michigan.gov/sos/all-services/manuals/what-every-driver-must-know" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "mi-pts-001",
+    "category": "penalties-points",
+    "stateScope": ["MI"],
+    "prompt": "In Michigan, accumulating how many points can result in a driver reexamination and possible license action?",
+    "options": [
+      "6 points in 1 year",
+      "12 points in 2 years",
+      "15 points in 3 years",
+      "20 points in 5 years"
+    ],
+    "correctIndex": 1,
+    "explanation": "Accumulating 12 or more points within a 2-year period can lead the Michigan Secretary of State to require a driver reexamination and may result in license suspension. Points stay on your record for 2 years.",
+    "difficulty": "medium",
+    "references": [{ "label": "Point system", "citation": "What Every Driver Must Know, Points and Suspensions; MCL 257.320a", "url": "https://www.michigan.gov/sos/all-services/manuals/what-every-driver-must-know" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "mi-laws-003",
+    "category": "traffic-laws",
+    "stateScope": ["MI"],
+    "prompt": "Michigan's Move Over Law requires that when passing a stopped emergency, tow, or utility vehicle with flashing lights, you must:",
+    "options": [
+      "Stop completely and wait",
+      "Slow down and move over one lane if it is safe to do so",
+      "Maintain speed and stay in your lane",
+      "Sound your horn continuously"
+    ],
+    "correctIndex": 1,
+    "explanation": "Michigan's Move Over Law requires drivers to slow down and, if it is safe, move over one lane away from stopped emergency, tow, and utility vehicles displaying flashing lights.",
+    "difficulty": "easy",
+    "references": [{ "label": "Move Over Law", "citation": "What Every Driver Must Know; MCL 257.653b", "url": "https://www.michigan.gov/sos/all-services/manuals/what-every-driver-must-know" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "mi-row-001",
+    "category": "right-of-way",
+    "stateScope": ["MI"],
+    "prompt": "In Michigan, when you approach a school bus stopped with its red lights flashing on an undivided road, you must:",
+    "options": [
+      "Slow to 25 mph and pass",
+      "Stop, whether you are behind or meeting the bus, until the lights stop flashing",
+      "Stop only if you are directly behind the bus",
+      "Continue if no children are crossing"
+    ],
+    "correctIndex": 1,
+    "explanation": "On an undivided roadway, drivers approaching from both directions must stop at least 20 feet from a school bus with flashing red lights and remain stopped until the lights are off or the bus moves.",
+    "difficulty": "medium",
+    "references": [{ "label": "School buses", "citation": "What Every Driver Must Know; MCL 257.682", "url": "https://www.michigan.gov/sos/all-services/manuals/what-every-driver-must-know" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "mi-signals-001",
+    "category": "traffic-signals",
+    "stateScope": ["MI"],
+    "prompt": "In Michigan, at a flashing red traffic signal you must:",
+    "options": [
+      "Slow down and proceed with caution",
+      "Stop, then proceed when it is safe, as at a stop sign",
+      "Treat it as a green light",
+      "Stop and wait for the light to change to green"
+    ],
+    "correctIndex": 1,
+    "explanation": "A flashing red signal means the same as a stop sign: come to a complete stop, then proceed when it is safe. A flashing yellow signal means slow down and proceed with caution.",
+    "difficulty": "easy",
+    "references": [{ "label": "Traffic signals", "citation": "What Every Driver Must Know, Traffic Signals", "url": "https://www.michigan.gov/sos/all-services/manuals/what-every-driver-must-know" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "mi-exam-001",
+    "category": "safe-driving",
+    "stateScope": ["MI"],
+    "prompt": "To pass the vision screening for a Michigan driver's license, you generally must have visual acuity of at least:",
+    "options": ["20/20 in both eyes", "20/40 in at least one eye", "20/70 in both eyes", "20/100 in one eye"],
+    "correctIndex": 1,
+    "explanation": "Michigan requires at least 20/40 vision in at least one eye, with or without corrective lenses, to pass the vision screening; lenses may be added as a license restriction.",
+    "difficulty": "easy",
+    "references": [{ "label": "Vision requirement", "citation": "What Every Driver Must Know, Vision Requirements", "url": "https://www.michigan.gov/sos/all-services/manuals/what-every-driver-must-know" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  }
+]

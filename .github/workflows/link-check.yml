@@ -1,0 +1,41 @@
+name: Link & Source Health
+
+# Detects (a) dead official .gov / handbook URLs and (b) changed source content
+# (handbook edits that a link check would miss). Opens an issue on breakage.
+on:
+  schedule:
+    - cron: '17 6 1 * *' # 06:17 UTC on the 1st of each month
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Check official links + source hashes
+        id: check
+        run: node scripts/check-links.mjs --report link-report.json || echo "failures=true" >> "$GITHUB_OUTPUT"
+      - name: Open issue on breakage
+        if: steps.check.outputs.failures == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            let body = 'Automated link/source health check found problems.';
+            try { body = fs.readFileSync('link-report.json', 'utf8'); } catch (e) {}
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `Link/source health check failures — ${new Date().toISOString().slice(0,10)}`,
+              body: '```json\n' + body + '\n```',
+              labels: ['content-maintenance', 'automated'],
+            });

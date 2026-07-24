@@ -1,0 +1,98 @@
+{
+  "code": "GA",
+  "name": "Georgia",
+  "agencyName": "Georgia Department of Driver Services",
+  "agencyShort": "DDS",
+  "officialSiteUrl": "https://dds.georgia.gov/",
+  "handbookLandingUrl": "https://dds.georgia.gov/dds-forms-and-manuals/manuals",
+  "handbookPdfUrl": "https://dds.georgia.gov/document/document/drivers-manual/download",
+  "handbookFormat": "pdf",
+  "handbookEditionYear": 2024,
+  "handbookCopyrightStatus": "unknown",
+  "applicantVariants": [
+    { "id": "under-18", "label": "Under 18 (Class CP permit / Class D provisional)" },
+    { "id": "adult", "label": "Adult (18+, Class C)" }
+  ],
+  "examVariants": [
+    {
+      "variantId": "all",
+      "label": "Road Signs knowledge test (all applicants)",
+      "numQuestions": 20,
+      "numToPass": 15,
+      "languages": ["en"],
+      "onlineAvailable": false
+    },
+    {
+      "variantId": "all",
+      "label": "Road Rules knowledge test (all applicants)",
+      "numQuestions": 20,
+      "numToPass": 15,
+      "languages": ["en"],
+      "onlineAvailable": false
+    }
+  ],
+  "retake": {
+    "waitBetweenAttempts": "Next business day; only the failed section (Road Signs or Road Rules) must be retaken",
+    "retakeFee": "$10 permit fee is nonrefundable and is charged for each test attempt"
+  },
+  "gdl": {
+    "permitMinAge": "15",
+    "provisionalMinAge": "16",
+    "fullLicenseMinAge": "18",
+    "permitHoldingPeriod": "Class CP held at least 12 months and 1 day (minors)",
+    "supervisedHoursRequired": "40 hours (6 at night)",
+    "nightHoursRequired": "6 hours",
+    "nightCurfew": "Class D holders may not drive 12 a.m.-5 a.m.",
+    "passengerLimits": "First 6 months: immediate family only; next 6 months: 1 passenger under 21; after 12 months: up to 3 passengers under 21",
+    "driverEdRequired": true
+  },
+  "process": {
+    "appointmentRequired": "encouraged",
+    "schedulingUrl": "https://dds.georgia.gov/appointments",
+    "requiredDocuments": [
+      "Proof of identity and U.S. citizenship or lawful presence (certified birth certificate or valid U.S. passport)",
+      "Verifiable Social Security Number",
+      "Two proofs of Georgia residency",
+      "Minors: notarized Certificate of School Enrollment (Form DS-1) and completed driver education / ADAP certificate"
+    ],
+    "realIdNotes": "Georgia licenses are REAL ID compliant (gold star). Bring one identity document, one SSN document, and two Georgia residency documents.",
+    "permitFee": "$10 (Class CP instructional permit, valid 2 years)",
+    "licenseFee": "$32 (Class C, 8-year license)",
+    "feesUrl": "https://dds.georgia.gov/georgia-licenses-ids-and-permits/fees",
+    "visionTestRequired": true,
+    "visionStandard": "At least 20/60 in at least one eye, with or without corrective lenses, and at least 140 degrees horizontal field of vision"
+  },
+  "facts": {
+    "bacLimitAdult": "0.08%",
+    "bacLimitCommercial": "0.04%",
+    "bacLimitUnder21": "0.02% (zero tolerance)",
+    "pointSystem": true,
+    "pointSuspensionThreshold": "15 points in any 24-month period (age 21+); drivers under 18 are suspended at 4 points in 12 months",
+    "moveOverRule": "Move over one lane, or slow down if unable, for stopped emergency, utility, and DOT vehicles displaying flashing lights",
+    "interstateMaxSpeed": "70 mph",
+    "schoolZoneSpeed": "As posted, reduced when lights are flashing or children are present (commonly 25 mph)",
+    "namedLaws": ["Joshua's Law", "Super Speeder Law", "Hands-Free Georgia Act", "Move Over Law"]
+  },
+  "references": [
+    {
+      "label": "Georgia Driver's Manual",
+      "citation": "GA DDS Driver's Manual (2023-2024)",
+      "url": "https://dds.georgia.gov/dds-forms-and-manuals/manuals"
+    },
+    {
+      "label": "Points and Points Reduction",
+      "citation": "GA DDS Points Schedule (O.C.G.A. Title 40)",
+      "url": "https://dds.georgia.gov/georgia-licenseid/violations-suspensions-revocations/points-and-points-reduction"
+    },
+    {
+      "label": "Teen Driving Laws (Joshua's Law)",
+      "citation": "GA DDS Teen Driving Laws FAQs; O.C.G.A. § 40-5-24",
+      "url": "https://dds.georgia.gov/teen-driving-laws-faqs"
+    }
+  ],
+  "effectiveDate": "2026-07-24",
+  "sourceSnapshotHash": "seed-pending-verification",
+  "reviewStatus": "adversarially-verified",
+  "lastVerified": "2026-07-24",
+  "contentVersion": 1
+}

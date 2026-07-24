@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output
+dist/
+.astro/
+.output/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Test artifacts
+playwright-report/
+test-results/
+coverage/
+
+# PWA generated
+dev-dist/
+
+# Content pipeline scratch (transient handbook fetches — never commit corpora)
+scripts/.cache/
+*.handbook.tmp

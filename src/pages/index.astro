@@ -1,0 +1,227 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { STATES, stateSlug } from '../lib/states-directory';
+import { href } from '../lib/site';
+
+const features = [
+  { icon: '📝', title: 'Real practice tests', desc: 'Category-by-category questions with instant feedback and a plain-English explanation for every answer.' },
+  { icon: '🎯', title: 'Exam simulator', desc: "Mock exams matched to your state's real question count and pass mark, including the quirks." },
+  { icon: '🧠', title: 'Smart flashcards', desc: 'Spaced repetition (FSRS) resurfaces exactly what you are about to forget. Memorize signs and limits fast.' },
+  { icon: '🚦', title: 'Road-sign trainer', desc: 'Drill every regulatory, warning and guide sign until recognition is automatic.' },
+  { icon: '📋', title: 'Get-your-permit guide', desc: 'Documents, fees, ages, appointments and official links for each state, the whole process in one place.' },
+  { icon: '📈', title: 'Track your progress', desc: 'Mastery by topic, streaks and mock history, saved on your device. No account, works offline.' },
+];
+---
+
+<BaseLayout>
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Free · No sign-up · All 50 states + DC</p>
+      <h1>Pass your written driving test.<br /><span class="accent">The first time.</span></h1>
+      <p class="lede">
+        The one-stop, no-nonsense prep for the US learner's permit knowledge test. Practice tests,
+        mock exams, flashcards and the full permit process. Free, private, and it works offline.
+      </p>
+
+      <div class="picker card" role="search">
+        <label for="state-search" class="picker-label">Choose your state to start</label>
+        <input
+          id="state-search"
+          type="search"
+          placeholder="Search your state…"
+          autocomplete="off"
+          aria-controls="state-list"
+        />
+        <ul id="state-list" class="state-grid" aria-label="US states and territories">
+          {
+            STATES.map((s) => (
+              <li data-name={s.name.toLowerCase()}>
+                <a href={href(`/state/${stateSlug(s.code)}`)}>
+                  <span class="st-code">{s.code}</span>
+                  <span class="st-name">{s.name}</span>
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+        <p id="no-match" class="no-match" hidden>No state matches that search.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container features">
+    <h2 class="section-title">Everything you need, nothing you don't</h2>
+    <div class="feature-grid">
+      {
+        features.map((f) => (
+          <div class="feature card">
+            <span class="feature-icon" aria-hidden="true">{f.icon}</span>
+            <h3>{f.title}</h3>
+            <p>{f.desc}</p>
+          </div>
+        ))
+      }
+    </div>
+  </section>
+
+  <section class="container why">
+    <div class="card why-card">
+      <h2>Why DMV Prep is different</h2>
+      <ul>
+        <li><strong>Actually free.</strong> No paywall on the useful stuff, no bait-and-switch to a paid site.</li>
+        <li><strong>Private by design.</strong> Your progress lives on your device, not our servers.</li>
+        <li><strong>State-accurate.</strong> Every question is original and grounded in your state's official handbook, with the section cited.</li>
+        <li><strong>Works offline.</strong> Install it and study on the bus, in line, anywhere.</li>
+      </ul>
+    </div>
+  </section>
+</BaseLayout>
+
+<script>
+  const input = document.getElementById('state-search') as HTMLInputElement | null;
+  const list = document.getElementById('state-list');
+  const noMatch = document.getElementById('no-match');
+  input?.addEventListener('input', () => {
+    const q = input.value.trim().toLowerCase();
+    let visible = 0;
+    list?.querySelectorAll<HTMLLIElement>('li').forEach((li) => {
+      const match = !q || (li.dataset.name ?? '').includes(q);
+      li.style.display = match ? '' : 'none';
+      if (match) visible++;
+    });
+    if (noMatch) noMatch.hidden = visible !== 0;
+  });
+</script>
+
+<style>
+  .hero {
+    padding-block: var(--sp-8) var(--sp-6);
+    background: radial-gradient(120% 100% at 50% 0%, var(--c-accent-soft) 0%, transparent 60%);
+  }
+  .eyebrow {
+    color: var(--c-accent);
+    font-weight: 700;
+    font-size: var(--fs-sm);
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+  }
+  .hero h1 {
+    margin-top: var(--sp-2);
+  }
+  .accent {
+    color: var(--c-accent);
+  }
+  .lede {
+    margin-top: var(--sp-4);
+    max-width: var(--container-narrow);
+    font-size: var(--fs-lg);
+    color: var(--c-text-muted);
+  }
+  .picker {
+    margin-top: var(--sp-6);
+    padding: var(--sp-5);
+  }
+  .picker-label {
+    display: block;
+    font-weight: 700;
+    margin-bottom: var(--sp-3);
+  }
+  #state-search {
+    width: 100%;
+    font: inherit;
+    padding: var(--sp-3) var(--sp-4);
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-md);
+    background: var(--c-bg);
+    color: var(--c-text);
+    min-height: 44px;
+  }
+  .state-grid {
+    list-style: none;
+    padding: 0;
+    margin: var(--sp-4) 0 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: var(--sp-2);
+  }
+  .state-grid a {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-2);
+    padding: var(--sp-2) var(--sp-3);
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-md);
+    text-decoration: none;
+    color: var(--c-text);
+    background: var(--c-surface);
+    transition: border-color var(--transition), background var(--transition);
+    min-height: 44px;
+  }
+  .state-grid a:hover {
+    border-color: var(--c-accent);
+    background: var(--c-accent-soft);
+  }
+  .st-code {
+    font-weight: 700;
+    font-size: var(--fs-xs);
+    color: var(--c-accent-strong);
+    background: var(--c-accent-soft);
+    border-radius: var(--r-sm);
+    padding: 2px 6px;
+    min-width: 34px;
+    text-align: center;
+  }
+  .st-name {
+    font-size: var(--fs-sm);
+  }
+  .no-match {
+    margin-top: var(--sp-3);
+    color: var(--c-text-muted);
+  }
+  .section-title {
+    text-align: center;
+    margin-top: var(--sp-10);
+  }
+  .features {
+    padding-block: var(--sp-4);
+  }
+  .feature-grid {
+    margin-top: var(--sp-6);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: var(--sp-4);
+  }
+  .feature {
+    padding: var(--sp-5);
+  }
+  .feature-icon {
+    font-size: 1.75rem;
+  }
+  .feature h3 {
+    margin-top: var(--sp-3);
+    font-size: var(--fs-lg);
+  }
+  .feature p {
+    margin-top: var(--sp-2);
+    color: var(--c-text-muted);
+    font-size: var(--fs-sm);
+  }
+  .why {
+    padding-block: var(--sp-8);
+  }
+  .why-card {
+    padding: var(--sp-6);
+  }
+  .why-card ul {
+    margin-top: var(--sp-4);
+    padding-left: var(--sp-5);
+    display: grid;
+    gap: var(--sp-3);
+  }
+  .why-card li {
+    color: var(--c-text-muted);
+  }
+  .why-card strong {
+    color: var(--c-text);
+  }
+</style>

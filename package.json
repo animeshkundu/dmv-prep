@@ -1,0 +1,39 @@
+{
+  "name": "dmv-prep",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Free, one-stop US driving written (permit) test prep — all 50 states + DC. Static PWA on GitHub Pages.",
+  "license": "MIT",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "check": "astro check",
+    "typecheck": "tsc --noEmit",
+    "validate:content": "node scripts/validate-content.mjs",
+    "test": "vitest run --passWithNoTests",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "@astrojs/preact": "^4.0.1",
+    "@astrojs/sitemap": "^3.2.1",
+    "astro": "^5.1.1",
+    "idb-keyval": "^6.2.1",
+    "preact": "^10.25.4",
+    "ts-fsrs": "^4.7.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.4",
+    "@axe-core/playwright": "^4.12.1",
+    "@playwright/test": "^1.49.1",
+    "@vite-pwa/astro": "^0.5.1",
+    "typescript": "^5.7.2",
+    "vite-plugin-pwa": "^0.21.1",
+    "vitest": "^2.1.8",
+    "zod": "^3.24.1"
+  }
+}

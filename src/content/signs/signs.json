@@ -1,0 +1,57 @@
+[
+  {
+    "id": "stop",
+    "name": "Stop",
+    "category": "regulatory",
+    "asset": "/signs/stop.svg",
+    "meaning": "Come to a complete stop at the stop line, crosswalk, or before entering the intersection. Proceed only when it is safe.",
+    "mutcdCode": "R1-1",
+    "stateScope": "all",
+    "references": [{ "label": "Regulatory signs", "citation": "MUTCD R1-1", "url": "https://mutcd.fhwa.dot.gov/" }],
+    "lastVerified": "2026-07-23"
+  },
+  {
+    "id": "yield",
+    "name": "Yield",
+    "category": "regulatory",
+    "asset": "/signs/yield.svg",
+    "meaning": "Slow down and give the right of way to traffic and pedestrians. Stop if necessary.",
+    "mutcdCode": "R1-2",
+    "stateScope": "all",
+    "references": [{ "label": "Regulatory signs", "citation": "MUTCD R1-2", "url": "https://mutcd.fhwa.dot.gov/" }],
+    "lastVerified": "2026-07-23"
+  },
+  {
+    "id": "speed-limit",
+    "name": "Speed Limit",
+    "category": "regulatory",
+    "asset": "/signs/speed-25.svg",
+    "meaning": "The maximum legal speed under ideal conditions. You must not exceed it, and should drive slower when conditions require.",
+    "mutcdCode": "R2-1",
+    "stateScope": "all",
+    "references": [{ "label": "Regulatory signs", "citation": "MUTCD R2-1", "url": "https://mutcd.fhwa.dot.gov/" }],
+    "lastVerified": "2026-07-23"
+  },
+  {
+    "id": "do-not-enter",
+    "name": "Do Not Enter",
+    "category": "regulatory",
+    "asset": "/signs/do-not-enter.svg",
+    "meaning": "Do not enter the roadway from your direction. Common at freeway off-ramps and one-way streets.",
+    "mutcdCode": "R5-1",
+    "stateScope": "all",
+    "references": [{ "label": "Regulatory signs", "citation": "MUTCD R5-1", "url": "https://mutcd.fhwa.dot.gov/" }],
+    "lastVerified": "2026-07-23"
+  },
+  {
+    "id": "divided-highway",
+    "name": "Divided Highway Ahead",
+    "category": "warning",
+    "asset": "/signs/divided-highway.svg",
+    "meaning": "The road ahead is divided by a median or barrier. Keep right of the divider.",
+    "mutcdCode": "W6-1",
+    "stateScope": "all",
+    "references": [{ "label": "Warning signs", "citation": "MUTCD W6-1", "url": "https://mutcd.fhwa.dot.gov/" }],
+    "lastVerified": "2026-07-23"
+  }
+]

@@ -1,0 +1,97 @@
+---
+import { href, SITE_NAME } from '../lib/site';
+---
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href={href('/')}>
+      <span class="brand-mark" aria-hidden="true">🚗</span>
+      <span class="brand-name">{SITE_NAME}</span>
+    </a>
+    <nav aria-label="Primary">
+      <a href={href('/states')}>States</a>
+      <a href={href('/signs')}>Road signs</a>
+      <a href={href('/guide')}>Permit guide</a>
+      <a href={href('/progress')}>My progress</a>
+    </nav>
+    <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode">
+      <span aria-hidden="true">◐</span>
+    </button>
+  </div>
+</header>
+
+<script is:inline define:vars={{ key: 'dmvp:theme' }}>
+  const btn = document.getElementById('theme-toggle');
+  btn?.addEventListener('click', () => {
+    const cur = document.documentElement.getAttribute('data-theme');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const next = cur ? (cur === 'dark' ? 'light' : 'dark') : prefersDark ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    try {
+      localStorage.setItem(key, next);
+    } catch (e) {}
+  });
+</script>
+
+<style>
+  .site-header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: color-mix(in srgb, var(--c-surface) 92%, transparent);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--c-border);
+  }
+  .header-inner {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-4);
+    min-height: 60px;
+  }
+  .brand {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--sp-2);
+    font-weight: 800;
+    font-size: var(--fs-lg);
+    color: var(--c-text);
+    text-decoration: none;
+    letter-spacing: -0.02em;
+  }
+  .brand-mark {
+    font-size: 1.35rem;
+  }
+  nav {
+    display: none;
+    gap: var(--sp-5);
+    margin-inline-start: auto;
+  }
+  nav a {
+    color: var(--c-text-muted);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: var(--fs-sm);
+  }
+  nav a:hover {
+    color: var(--c-text);
+  }
+  .theme-toggle {
+    margin-inline-start: auto;
+    background: transparent;
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-md);
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    color: var(--c-text);
+    font-size: 1.1rem;
+  }
+  @media (min-width: 720px) {
+    nav {
+      display: flex;
+    }
+    .theme-toggle {
+      margin-inline-start: 0;
+    }
+  }
+</style>

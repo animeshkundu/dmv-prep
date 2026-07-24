@@ -1,0 +1,93 @@
+{
+  "code": "TX",
+  "name": "Texas",
+  "agencyName": "Texas Department of Public Safety",
+  "agencyShort": "DPS",
+  "officialSiteUrl": "https://www.dps.texas.gov/",
+  "handbookLandingUrl": "https://www.dps.texas.gov/InternetForms/home/Details/304",
+  "handbookPdfUrl": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf",
+  "handbookFormat": "pdf",
+  "handbookEditionYear": 2025,
+  "handbookCopyrightStatus": "terms-of-use",
+  "applicantVariants": [
+    { "id": "under-18", "label": "Under 18 (minor, requires driver education)" },
+    { "id": "adult", "label": "Adult (18+)" }
+  ],
+  "examVariants": [
+    {
+      "variantId": "class-c",
+      "label": "Class C knowledge test (all ages)",
+      "numQuestions": 30,
+      "numToPass": 21,
+      "languages": ["en", "es"],
+      "onlineAvailable": false
+    }
+  ],
+  "retake": {
+    "maxAttemptsBeforeExtraReq": 3,
+    "waitBetweenAttempts": "Usually the next business day",
+    "attemptCapPeriod": "3 attempts per application fee",
+    "retakeFee": "Additional application/exam fee required after 3 failed attempts"
+  },
+  "gdl": {
+    "permitMinAge": "15",
+    "provisionalMinAge": "16",
+    "fullLicenseMinAge": "18",
+    "permitHoldingPeriod": "6 months",
+    "supervisedHoursRequired": "30 hours (10 at night)",
+    "nightHoursRequired": "10 hours",
+    "nightCurfew": "No driving midnight-5 a.m. for the first 12 months (provisional), with work/emergency exceptions",
+    "passengerLimits": "No more than 1 passenger under 21 who is not family, for the first 12 months",
+    "driverEdRequired": true
+  },
+  "process": {
+    "appointmentRequired": "encouraged",
+    "schedulingUrl": "https://public.txdpsscheduler.com/",
+    "requiredDocuments": [
+      "Proof of U.S. citizenship or lawful presence (e.g. passport or birth certificate)",
+      "Proof of identity (photo ID)",
+      "Proof of Social Security Number",
+      "Two documents proving Texas residency",
+      "Verification of enrollment/driver education (VOE and DE-964) for applicants under 18"
+    ],
+    "realIdNotes": "Texas driver licenses are REAL ID compliant when you present proof of identity, SSN, U.S. citizenship or lawful presence, and two proofs of Texas residency.",
+    "permitFee": "$16 (learner license)",
+    "licenseFee": "$33 (ages 18-84); $16 (under 18)",
+    "feesUrl": "https://www.dps.texas.gov/section/driver-license/driver-license-fees",
+    "visionTestRequired": true,
+    "visionStandard": "20/40 in at least one eye, with or without corrective lenses"
+  },
+  "facts": {
+    "bacLimitAdult": "0.08%",
+    "bacLimitCommercial": "0.04%",
+    "bacLimitUnder21": "Any detectable amount of alcohol (zero tolerance under 21)",
+    "pointSystem": false,
+    "pointSuspensionThreshold": "No current point system; license may be suspended for 4 or more moving-violation convictions in 12 months, or 7 or more in 24 months",
+    "moveOverRule": "Move over a lane or slow to 20 mph below the posted limit for stopped emergency, TxDOT, tow, and utility vehicles displaying flashing lights",
+    "interstateMaxSpeed": "75 mph (up to 85 mph on some posted toll roads such as SH 130)",
+    "schoolZoneSpeed": "20 mph when the reduced-speed zone is in effect; handheld phone use is prohibited in active school zones",
+    "namedLaws": ["Move Over/Slow Down Law", "Statewide texting-while-driving ban"]
+  },
+  "references": [
+    {
+      "label": "Texas Driver Handbook (DL-7)",
+      "citation": "Texas DPS Driver Handbook (DL-7)",
+      "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf"
+    },
+    {
+      "label": "Driver License Fees",
+      "citation": "Texas DPS Driver License Fees",
+      "url": "https://www.dps.texas.gov/section/driver-license/driver-license-fees"
+    },
+    {
+      "label": "Graduated Driver License",
+      "citation": "IIHS Graduated Licensing Laws Table (Texas)",
+      "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table"
+    }
+  ],
+  "effectiveDate": "2026-07-24",
+  "sourceSnapshotHash": "seed-pending-verification",
+  "reviewStatus": "adversarially-verified",
+  "lastVerified": "2026-07-24",
+  "contentVersion": 1
+}

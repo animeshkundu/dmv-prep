@@ -1,0 +1,238 @@
+[
+  {
+    "id": "ri-speed-001",
+    "category": "speed-limits",
+    "stateScope": ["RI"],
+    "prompt": "On a rural interstate highway in Rhode Island, unless otherwise posted, the maximum speed limit for passenger cars is:",
+    "options": ["55 mph", "60 mph", "65 mph", "70 mph"],
+    "correctIndex": 2,
+    "explanation": "Rhode Island's maximum speed limit on rural interstate highways is 65 mph. On urban interstates the limit is typically 55 mph. Always obey posted limits, which may be lower.",
+    "difficulty": "medium",
+    "references": [{ "label": "Speed limits", "citation": "RI DMV Operator's Manual, Speed Limits", "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ri-speed-002",
+    "category": "speed-limits",
+    "stateScope": ["RI"],
+    "prompt": "In a marked Rhode Island school zone during posted school hours when children are present, the speed limit is typically:",
+    "options": ["15 mph", "20 mph", "25 mph", "30 mph"],
+    "correctIndex": 1,
+    "explanation": "Rhode Island school zones are typically posted at 20 mph during school hours when children are present. Slow down and watch for children crossing near schools.",
+    "difficulty": "medium",
+    "references": [{ "label": "School zones", "citation": "RI DMV Operator's Manual, Speed Limits; R.I. Gen. Laws 31-14-2", "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ri-alc-001",
+    "category": "alcohol-drugs",
+    "stateScope": ["RI"],
+    "prompt": "In Rhode Island, a driver under 21 can be charged for driving with a blood alcohol concentration (BAC) of:",
+    "options": ["0.08% or higher", "0.05% or higher", "0.02% or higher", "0.10% or higher"],
+    "correctIndex": 2,
+    "explanation": "Rhode Island's zero-tolerance law makes it illegal for a driver under 21 to drive with a BAC of 0.02% or higher, far below the 0.08% adult limit.",
+    "difficulty": "medium",
+    "references": [{ "label": "Zero tolerance", "citation": "RI DMV Operator's Manual, Alcohol and Driving", "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ri-gdl-001",
+    "category": "gdl-teen",
+    "stateScope": ["RI"],
+    "prompt": "The minimum age to apply for a limited instructional permit in Rhode Island is:",
+    "options": ["15", "16", "16 years 6 months", "17"],
+    "correctIndex": 1,
+    "explanation": "A Rhode Island teen may apply for a limited instructional permit at age 16, after completing driver education. The permit must be held for at least 6 months before applying for a limited provisional license.",
+    "difficulty": "easy",
+    "references": [{ "label": "New license & permits", "citation": "RI DMV New License & Permits", "url": "https://dmv.ri.gov/licenses-permits-ids/permits-tests/new-license-permits" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ri-gdl-002",
+    "category": "gdl-teen",
+    "stateScope": ["RI"],
+    "prompt": "During the first 12 months with a Rhode Island limited provisional license, the driver may carry no more than:",
+    "options": [
+      "No passengers at all",
+      "One passenger under 21, excluding immediate family or household members",
+      "Two passengers of any age",
+      "Any number of passengers with a seat belt"
+    ],
+    "correctIndex": 1,
+    "explanation": "For the first 12 months of a limited provisional license, the driver may carry no more than one passenger under 21, not counting immediate family or household members, to reduce distraction-related crashes.",
+    "difficulty": "hard",
+    "references": [{ "label": "Passenger limits", "citation": "RI DMV New License & Permits (Limited Provisional License)", "url": "https://dmv.ri.gov/licenses-permits-ids/permits-tests/new-license-permits" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ri-gdl-003",
+    "category": "gdl-teen",
+    "stateScope": ["RI"],
+    "prompt": "With a Rhode Island limited provisional license, unsupervised driving is generally allowed only during which hours?",
+    "options": [
+      "5 a.m. to 1 a.m. (no unsupervised driving 1 a.m.-5 a.m.)",
+      "6 a.m. to 10 p.m.",
+      "Any time, with no restriction",
+      "Only during daylight hours"
+    ],
+    "correctIndex": 0,
+    "explanation": "A limited provisional license holder may drive unsupervised only between 5 a.m. and 1 a.m.; driving between 1 a.m. and 5 a.m. requires a licensed supervising driver, unless a work, school, or emergency-service exception applies.",
+    "difficulty": "medium",
+    "references": [{ "label": "Nighttime restriction", "citation": "RI DMV New License & Permits (Limited Provisional License)", "url": "https://dmv.ri.gov/licenses-permits-ids/permits-tests/new-license-permits" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ri-laws-001",
+    "category": "traffic-laws",
+    "stateScope": ["RI"],
+    "prompt": "Rhode Island's Colin B. Foote Act is best known for:",
+    "options": [
+      "Setting the interstate speed limit",
+      "Strengthening graduated licensing and penalties for teen and aggressive driving",
+      "Requiring annual vehicle inspections",
+      "Banning left turns on red"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Colin B. Foote Act strengthened penalties for repeat moving violations, including driver retraining, community service, fines, and possible suspension or revocation. It is named for a young man killed by a reckless driver.",
+    "difficulty": "hard",
+    "references": [{ "label": "Graduated licensing", "citation": "RI DMV Operator's Manual; Colin B. Foote Act", "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ri-laws-002",
+    "category": "traffic-laws",
+    "stateScope": ["RI"],
+    "prompt": "Under Rhode Island's hands-free law, while driving you may use a cell phone:",
+    "options": [
+      "Held in your hand for short calls",
+      "Only in hands-free mode; holding the device is prohibited",
+      "For texting while stopped at a red light",
+      "Freely if you are over 18"
+    ],
+    "correctIndex": 1,
+    "explanation": "Rhode Island prohibits using a handheld electronic device while driving. Drivers must use hands-free technology, and drivers under 18 may not use a cell phone at all while driving.",
+    "difficulty": "easy",
+    "references": [{ "label": "Hands-free law", "citation": "RI DMV Operator's Manual, Distracted Driving", "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ri-safe-001",
+    "category": "safe-driving",
+    "stateScope": ["RI"],
+    "prompt": "Under Rhode Island's Move Over Law, when approaching a stopped emergency or tow vehicle with flashing lights, you should:",
+    "options": [
+      "Maintain your speed and stay in your lane",
+      "Move over one lane if safe, or slow down if you cannot change lanes",
+      "Stop in the roadway until it leaves",
+      "Turn on your high beams and continue"
+    ],
+    "correctIndex": 1,
+    "explanation": "Rhode Island's Move Over Law requires you to change one lane away from a stopped emergency, maintenance, or tow vehicle displaying flashing lights when it is safe. If you cannot move over, slow down and pass carefully.",
+    "difficulty": "easy",
+    "references": [{ "label": "Move Over Law", "citation": "RI DMV Operator's Manual, Emergency Vehicles", "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ri-signs-001",
+    "category": "road-signs",
+    "stateScope": ["RI"],
+    "prompt": "A red, eight-sided (octagonal) sign always means:",
+    "options": ["Yield", "Stop", "Do not enter", "Slow down"],
+    "correctIndex": 1,
+    "explanation": "An octagonal red sign is a STOP sign. You must come to a complete stop, yield to pedestrians and cross traffic, and proceed only when it is safe. No other sign uses the eight-sided shape.",
+    "difficulty": "easy",
+    "references": [{ "label": "Regulatory signs", "citation": "RI DMV Operator's Manual, Traffic Signs", "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ri-row-001",
+    "category": "right-of-way",
+    "stateScope": ["RI"],
+    "prompt": "When entering a rotary (roundabout) in Rhode Island, you must:",
+    "options": [
+      "Stop and wait for a green light",
+      "Yield to traffic already circulating in the rotary",
+      "Enter quickly before other cars",
+      "Always come to a complete stop before entering"
+    ],
+    "correctIndex": 1,
+    "explanation": "Traffic in a rotary or roundabout has the right of way. As you approach, yield to vehicles already circulating, enter when there is a safe gap, and travel counterclockwise to your exit.",
+    "difficulty": "medium",
+    "references": [{ "label": "Roundabouts", "citation": "RI DMV Operator's Manual, Right-of-Way / Rotaries", "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ri-park-001",
+    "category": "parking",
+    "stateScope": ["RI"],
+    "prompt": "You must not park within how many feet of a fire hydrant?",
+    "options": ["5 feet", "8 feet", "15 feet", "25 feet"],
+    "correctIndex": 1,
+    "explanation": "You may not park within 8 feet of a fire hydrant so firefighters can reach it in an emergency. Watch for posted no-parking zones and colored curbs as well.",
+    "difficulty": "medium",
+    "references": [{ "label": "Parking rules", "citation": "RI DMV Operator's Manual, Parking", "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ri-share-001",
+    "category": "sharing-the-road",
+    "stateScope": ["RI"],
+    "prompt": "When a school bus ahead of you stops on a two-lane road with its red lights flashing and stop arm out, you must:",
+    "options": [
+      "Pass slowly on the left",
+      "Stop and remain stopped until the red lights stop flashing and the stop arm is withdrawn",
+      "Continue if no children are visible",
+      "Sound your horn and proceed"
+    ],
+    "correctIndex": 1,
+    "explanation": "When a school bus displays flashing red lights and an extended stop arm, drivers in both directions on an undivided road must stop and stay stopped until the lights stop flashing and the arm is withdrawn. Children may be crossing.",
+    "difficulty": "medium",
+    "references": [{ "label": "School buses", "citation": "RI DMV Operator's Manual, School Buses", "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ri-mark-001",
+    "category": "pavement-markings",
+    "stateScope": ["RI"],
+    "prompt": "A solid white line between lanes of traffic moving in the same direction means:",
+    "options": [
+      "You may change lanes freely",
+      "Lane changing is discouraged; stay within your lane",
+      "The road is one-way",
+      "You must stop ahead"
+    ],
+    "correctIndex": 1,
+    "explanation": "A solid white line separates lanes of traffic going the same direction and discourages lane changes. A broken white line means you may change lanes when it is safe.",
+    "difficulty": "easy",
+    "references": [{ "label": "Pavement markings", "citation": "RI DMV Operator's Manual, Pavement Markings", "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  }
+]

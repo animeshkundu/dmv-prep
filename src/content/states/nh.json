@@ -1,0 +1,90 @@
+{
+  "code": "NH",
+  "name": "New Hampshire",
+  "agencyName": "New Hampshire Division of Motor Vehicles",
+  "agencyShort": "DMV",
+  "officialSiteUrl": "https://www.dmv.nh.gov/",
+  "handbookLandingUrl": "https://www.dmv.nh.gov/",
+  "handbookPdfUrl": "https://www.dmv.nh.gov/sites/g/files/ehbemt416/files/inline-documents/nhdm.pdf",
+  "handbookFormat": "pdf",
+  "handbookEditionYear": 2023,
+  "handbookCopyrightStatus": "public-domain",
+  "applicantVariants": [
+    { "id": "youth-operator", "label": "Youth operator (under 18)" },
+    { "id": "adult", "label": "Adult (18+)" }
+  ],
+  "examVariants": [
+    {
+      "variantId": "adult",
+      "label": "Class D (car) knowledge test",
+      "numQuestions": 40,
+      "numToPass": 32,
+      "timeLimitMinutes": 40,
+      "languages": ["en"],
+      "onlineAvailable": false
+    }
+  ],
+  "retake": {
+    "waitBetweenAttempts": "10 days between attempts",
+    "retakeFee": "Reexamination fee may apply"
+  },
+  "gdl": {
+    "permitMinAge": "15 yrs 6 mo (supervised practice; NH does not issue a separate learner's permit card)",
+    "provisionalMinAge": "16",
+    "fullLicenseMinAge": "18",
+    "permitHoldingPeriod": "None mandated",
+    "supervisedHoursRequired": "40 hours (10 at night)",
+    "nightHoursRequired": "10 hours",
+    "nightCurfew": "No driving 1 a.m.-4 a.m. (youth operators under 18)",
+    "passengerLimits": "For the first 6 months, no more than one passenger under 25 who is not family, unless a licensed adult 25+ is in the front seat; never more occupants than seat belts",
+    "driverEdRequired": true
+  },
+  "process": {
+    "appointmentRequired": "varies",
+    "requiredDocuments": [
+      "Proof of identity and date of birth (e.g. certified birth certificate or U.S. passport)",
+      "Proof of Social Security Number",
+      "Proof of New Hampshire residency (two documents for a REAL ID)",
+      "Proof of legal presence if not a U.S. citizen"
+    ],
+    "realIdNotes": "New Hampshire issues REAL ID-compliant licenses. Bring proof of identity/date of birth, Social Security Number, and two proofs of New Hampshire residency. A REAL ID is optional; a standard license is also available.",
+    "permitFee": "No fee for the supervised-driving permit paperwork; driver education is required for under-18 applicants",
+    "licenseFee": "$50 for a 5-year Class D or youth operator license ($10 per year)",
+    "feesUrl": "https://www.dmv.nh.gov/driver-licenses-ids/license-id-fees",
+    "visionTestRequired": true,
+    "visionStandard": "20/40 with or without corrective lenses"
+  },
+  "facts": {
+    "bacLimitAdult": "0.08%",
+    "bacLimitCommercial": "0.04%",
+    "bacLimitUnder21": "0.02% (zero tolerance)",
+    "pointSystem": true,
+    "pointSuspensionThreshold": "Suspension may follow: under 18, 6/12/18 points in 1/2/3 calendar years; under 21, 9/15/21; age 21+, 12/18/24",
+    "moveOverRule": "Move over a lane, or slow down if you cannot move over, for stopped emergency, maintenance, and highway response vehicles with flashing lights",
+    "interstateMaxSpeed": "65-70 mph (70 mph on posted rural interstate segments)",
+    "schoolZoneSpeed": "Reduced when posted and children are present (commonly 10-25 mph); obey posted school-zone signs",
+    "namedLaws": ["Move Over Law", "Youth Operator Law", "Hands-Free Electronic Devices Law", "Zero Tolerance Law (under 21)"]
+  },
+  "references": [
+    {
+      "label": "New Hampshire Driver's Manual",
+      "citation": "New Hampshire Division of Motor Vehicles, Driver's Manual",
+      "url": "https://www.dmv.nh.gov/sites/g/files/ehbemt416/files/inline-documents/nhdm.pdf"
+    },
+    {
+      "label": "Youth Operator Restrictions (RSA 263:14)",
+      "citation": "NH RSA 263:14, Original and Youth Operators' Licenses",
+      "url": "https://gc.nh.gov/rsa/html/XXI/263/263-14.htm"
+    },
+    {
+      "label": "IIHS Graduated Licensing Laws Table",
+      "citation": "IIHS graduated licensing laws by state (New Hampshire)",
+      "url": "https://www.iihs.org/topics/teenagers/graduated-licensing-laws-table"
+    }
+  ],
+  "effectiveDate": "2026-07-24",
+  "sourceSnapshotHash": "seed-pending-verification",
+  "reviewStatus": "adversarially-verified",
+  "lastVerified": "2026-07-24",
+  "contentVersion": 1
+}

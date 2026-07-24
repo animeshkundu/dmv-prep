@@ -1,0 +1,277 @@
+[
+  {
+    "id": "or-speed-001",
+    "category": "speed-limits",
+    "stateScope": ["OR"],
+    "prompt": "Under Oregon's Basic Rule, you must drive:",
+    "options": [
+      "At exactly the posted speed at all times",
+      "At a speed that is reasonable and safe for existing conditions, never faster than the posted limit",
+      "At least as fast as surrounding traffic",
+      "No faster than 55 mph on any road"
+    ],
+    "correctIndex": 1,
+    "explanation": "Oregon's Basic Rule requires you to drive at a speed that is reasonable and prudent for the conditions, and never faster than the posted maximum. In rain, fog, or traffic the safe speed may be well below the sign.",
+    "difficulty": "medium",
+    "references": [{ "label": "Basic Rule", "citation": "Oregon Driver Manual, Speed", "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "or-speed-002",
+    "category": "speed-limits",
+    "stateScope": ["OR"],
+    "prompt": "Unless otherwise posted, the speed limit in an Oregon school zone when children are present is:",
+    "options": ["15 mph", "20 mph", "25 mph", "30 mph"],
+    "correctIndex": 1,
+    "explanation": "Oregon school-zone speed limits are 20 mph when children are present or during the hours posted on the sign.",
+    "difficulty": "easy",
+    "references": [{ "label": "School zones", "citation": "Oregon Driver Manual, Speed", "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "or-alc-001",
+    "category": "alcohol-drugs",
+    "stateScope": ["OR"],
+    "prompt": "Oregon's zero-tolerance law means a driver under 21 can lose their license for driving with a blood alcohol concentration of:",
+    "options": [
+      "0.08% or more",
+      "0.05% or more",
+      "Any measurable amount above 0.00%",
+      "0.02% or more only"
+    ],
+    "correctIndex": 2,
+    "explanation": "For drivers under 21, Oregon has a zero-tolerance policy: any measurable amount of alcohol can result in suspension. The adult DUII limit is 0.08% and the commercial limit is 0.04%.",
+    "difficulty": "medium",
+    "references": [{ "label": "Zero tolerance", "citation": "Oregon Driver Manual, Alcohol and Drugs", "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "or-gdl-001",
+    "category": "gdl-teen",
+    "stateScope": ["OR"],
+    "prompt": "During the FIRST six months with an Oregon provisional license, a driver under 18 may not carry passengers under 20 unless they are:",
+    "options": [
+      "Classmates",
+      "Immediate family members",
+      "Also licensed drivers",
+      "Seated in the back seat"
+    ],
+    "correctIndex": 1,
+    "explanation": "In the first six months, a provisional driver may not carry passengers under 20 except immediate family. During the second six months, no more than three passengers under 20 (other than immediate family) are allowed.",
+    "difficulty": "hard",
+    "references": [{ "label": "Provisional passenger limits", "citation": "Oregon Driver Manual, Provisional License", "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "or-gdl-002",
+    "category": "gdl-teen",
+    "stateScope": ["OR"],
+    "prompt": "A driver under 18 with an Oregon provisional license generally may not drive during which hours in their first year?",
+    "options": [
+      "10 p.m. to 6 a.m.",
+      "11 p.m. to 5 a.m.",
+      "Midnight to 5 a.m.",
+      "9 p.m. to 4 a.m."
+    ],
+    "correctIndex": 2,
+    "explanation": "Provisional drivers under 18 may not drive between midnight and 5 a.m. during their first year unless an exception applies, such as driving to or from work or with a licensed adult 25 or older.",
+    "difficulty": "medium",
+    "references": [{ "label": "Nighttime restriction", "citation": "Oregon Driver Manual, Provisional License", "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "or-gdl-003",
+    "category": "gdl-teen",
+    "stateScope": ["OR"],
+    "prompt": "How many hours of supervised driving practice must an Oregon teen complete if they also take an approved driver education course?",
+    "options": ["50 hours", "100 hours", "40 hours", "30 hours"],
+    "correctIndex": 0,
+    "explanation": "An Oregon teen who completes an ODOT-approved driver education course needs 50 hours of supervised practice. Without the course, 100 hours are required.",
+    "difficulty": "medium",
+    "references": [{ "label": "Practice hours", "citation": "Oregon Driver Manual, Provisional License", "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "or-laws-001",
+    "category": "traffic-laws",
+    "stateScope": ["OR"],
+    "prompt": "Under Oregon's distracted-driving law, while driving you may use a mobile electronic device:",
+    "options": [
+      "Held in your hand for navigation only",
+      "Only hands-free, with a single touch or swipe to activate or deactivate",
+      "For texting when stopped at a red light",
+      "Freely if you are over 21"
+    ],
+    "correctIndex": 1,
+    "explanation": "Oregon prohibits holding or using a mobile electronic device while driving. Adults may use it hands-free with a single touch or swipe. Drivers under 18 may not use a mobile device at all, even hands-free.",
+    "difficulty": "easy",
+    "references": [{ "label": "Distracted driving", "citation": "Oregon Driver Manual, Cell Phones", "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "or-safe-001",
+    "category": "safe-driving",
+    "stateScope": ["OR"],
+    "prompt": "Oregon's Move Over law requires that when you approach a stopped vehicle with flashing warning lights, such as a police, tow, or roadside-assistance vehicle, you should:",
+    "options": [
+      "Continue at the same speed",
+      "Move over one lane if you can do so safely, or slow down if you cannot",
+      "Come to a complete stop in your lane",
+      "Turn on your hazard lights and pass closely"
+    ],
+    "correctIndex": 1,
+    "explanation": "Oregon's Move Over law requires drivers to change lanes away from a stopped emergency, tow, or roadside-assistance vehicle showing warning lights, or to slow down if changing lanes is not safe.",
+    "difficulty": "easy",
+    "references": [{ "label": "Move Over law", "citation": "Oregon Driver Manual, Emergency Vehicles", "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "or-row-001",
+    "category": "right-of-way",
+    "stateScope": ["OR"],
+    "prompt": "When you reach an uncontrolled intersection (no signs or signals) at about the same time as a vehicle on your right, you should:",
+    "options": [
+      "Proceed first because you are on the left",
+      "Yield to the vehicle on your right",
+      "Sound your horn and go",
+      "Wait for the other driver to wave you through"
+    ],
+    "correctIndex": 1,
+    "explanation": "At an uncontrolled intersection where two vehicles arrive at roughly the same time, the driver on the left yields to the driver on the right.",
+    "difficulty": "easy",
+    "references": [{ "label": "Right of way", "citation": "Oregon Driver Manual, Intersections", "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "or-share-001",
+    "category": "sharing-the-road",
+    "stateScope": ["OR"],
+    "prompt": "When passing a bicyclist on an Oregon roadway, you should:",
+    "options": [
+      "Pass as closely as possible to save time",
+      "Leave enough room so that you would not hit the bicyclist if they fell toward you",
+      "Honk continuously until you have passed",
+      "Never pass a bicyclist under any circumstances"
+    ],
+    "correctIndex": 1,
+    "explanation": "Oregon law requires drivers to give bicyclists a safe passing distance, generally enough that you would not strike the cyclist if they were to fall into your lane. Treat bicyclists as legitimate road users.",
+    "difficulty": "medium",
+    "references": [{ "label": "Bicyclists", "citation": "Oregon Driver Manual, Sharing the Road", "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "or-signs-001",
+    "category": "road-signs",
+    "stateScope": ["OR"],
+    "prompt": "A five-sided (pentagon-shaped) sign on an Oregon road warns you of:",
+    "options": [
+      "A railroad crossing",
+      "A school zone or school crossing",
+      "A hospital ahead",
+      "A no-passing zone"
+    ],
+    "correctIndex": 1,
+    "explanation": "The five-sided pentagon sign marks a school zone or school crossing. Slow down and watch carefully for children.",
+    "difficulty": "easy",
+    "references": [{ "label": "Sign shapes", "citation": "Oregon Driver Manual, Signs", "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "or-signals-001",
+    "category": "traffic-signals",
+    "stateScope": ["OR"],
+    "prompt": "A steady yellow traffic light means:",
+    "options": [
+      "Speed up to beat the red",
+      "The light is about to turn red; stop if you can do so safely",
+      "Stop and wait as at a stop sign",
+      "The intersection is closed"
+    ],
+    "correctIndex": 1,
+    "explanation": "A steady yellow light warns that the signal is about to turn red. Stop before the intersection if you can do so safely rather than trying to beat the light.",
+    "difficulty": "easy",
+    "references": [{ "label": "Traffic signals", "citation": "Oregon Driver Manual, Signals", "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "or-markings-001",
+    "category": "pavement-markings",
+    "stateScope": ["OR"],
+    "prompt": "A broken (dashed) white line between lanes on an Oregon road means:",
+    "options": [
+      "You may not change lanes",
+      "You may change lanes when it is safe",
+      "The lane is for buses only",
+      "Traffic ahead is one-way"
+    ],
+    "correctIndex": 1,
+    "explanation": "A broken white line separates lanes of traffic moving in the same direction and indicates that lane changes are permitted when it is safe to do so.",
+    "difficulty": "easy",
+    "references": [{ "label": "Pavement markings", "citation": "Oregon Driver Manual, Lane Markings", "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "or-safe-002",
+    "category": "safe-driving",
+    "stateScope": ["OR"],
+    "prompt": "Oregon uses a Driver Improvement Program instead of a numeric point system. This means license suspension is based on:",
+    "options": [
+      "A fixed number of points per year",
+      "The number and type of traffic convictions and crashes within set time periods",
+      "The total dollar amount of your fines",
+      "The color of your vehicle"
+    ],
+    "correctIndex": 1,
+    "explanation": "Oregon does not assign numeric points. Under the Driver Improvement Program, DMV takes action based on how many convictions and preventable crashes a driver has within specified time windows.",
+    "difficulty": "hard",
+    "references": [{ "label": "Driver Improvement", "citation": "Oregon Driver Manual, Keeping Your License", "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "or-park-001",
+    "category": "parking",
+    "stateScope": ["OR"],
+    "prompt": "When you park facing downhill next to a curb, you should turn your front wheels:",
+    "options": [
+      "Away from the curb",
+      "Toward the curb",
+      "Straight ahead",
+      "It does not matter"
+    ],
+    "correctIndex": 1,
+    "explanation": "When facing downhill, turn your front wheels toward the curb so that if the vehicle rolls, the curb will block it from rolling into traffic. Also set the parking brake.",
+    "difficulty": "medium",
+    "references": [{ "label": "Parking on hills", "citation": "Oregon Driver Manual, Parking", "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  }
+]

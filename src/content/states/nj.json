@@ -1,0 +1,99 @@
+{
+  "code": "NJ",
+  "name": "New Jersey",
+  "agencyName": "New Jersey Motor Vehicle Commission",
+  "agencyShort": "MVC",
+  "officialSiteUrl": "https://www.nj.gov/mvc/",
+  "handbookLandingUrl": "https://www.nj.gov/mvc/about/manuals.htm",
+  "handbookPdfUrl": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+  "handbookFormat": "pdf",
+  "handbookEditionYear": 2025,
+  "handbookCopyrightStatus": "terms-of-use",
+  "handbookTermsUrl": "https://www.nj.gov/nj/legal.html",
+  "applicantVariants": [
+    { "id": "under-21", "label": "Under 21 (GDL: special learner's or examination permit)" },
+    { "id": "adult", "label": "Adult (21+)" }
+  ],
+  "examVariants": [
+    {
+      "variantId": "under-21",
+      "label": "Knowledge test (Class D) - GDL applicant",
+      "numQuestions": 50,
+      "numToPass": 40,
+      "languages": ["en", "es"],
+      "onlineAvailable": false
+    },
+    {
+      "variantId": "adult",
+      "label": "Knowledge test (Class D) - adult",
+      "numQuestions": 50,
+      "numToPass": 40,
+      "languages": ["en", "es"],
+      "onlineAvailable": false
+    }
+  ],
+  "retake": {
+    "waitBetweenAttempts": "Must reschedule; typically at least the next available day",
+    "retakeFee": "Retest fee applies for the knowledge test"
+  },
+  "gdl": {
+    "permitMinAge": "16 (special learner's permit, with approved driver ed) / 17 (examination permit)",
+    "provisionalMinAge": "17 (probationary license)",
+    "fullLicenseMinAge": "18 (basic license)",
+    "permitHoldingPeriod": "6 months (minimum)",
+    "supervisedHoursRequired": "50 hours (permit holders under 21, permit issued on/after Feb 1, 2025)",
+    "nightHoursRequired": "10 hours",
+    "nightCurfew": "No driving 11:01 p.m.-5 a.m. (GDL permit and probationary drivers)",
+    "passengerLimits": "One passenger, unless accompanied by a parent/guardian or the passengers are the driver's dependents",
+    "driverEdRequired": false
+  },
+  "process": {
+    "appointmentRequired": "required",
+    "schedulingUrl": "https://telegov.njportal.com/njmvc/AppointmentWizard",
+    "requiredDocuments": [
+      "Proof of identity and age meeting the MVC 6 Points of ID standard",
+      "Social Security Number (or proof of ineligibility)",
+      "Proof of New Jersey residential address",
+      "Completed application"
+    ],
+    "realIdNotes": "New Jersey issues both REAL ID and Standard licenses. REAL ID requires documents that satisfy the 6 Points of ID plus proof of Social Security Number and address; needed to board domestic flights after the federal deadline.",
+    "permitFee": "$10 (examination/special learner's permit)",
+    "licenseFee": "$24 (basic Class D license)",
+    "feesUrl": "https://www.nj.gov/mvc/license/firstlic.htm",
+    "visionTestRequired": true,
+    "visionStandard": "20/50 or better in at least one eye, with or without corrective lenses"
+  },
+  "facts": {
+    "bacLimitAdult": "0.08%",
+    "bacLimitCommercial": "0.04%",
+    "bacLimitUnder21": "0.01% (zero tolerance)",
+    "pointSystem": true,
+    "pointSuspensionThreshold": "12 or more points results in license suspension",
+    "moveOverRule": "Move over one lane or slow down for stopped emergency, tow, and highway maintenance vehicles displaying flashing lights",
+    "interstateMaxSpeed": "65 mph (where posted, including the Turnpike and Garden State Parkway)",
+    "schoolZoneSpeed": "25 mph (unless otherwise posted)",
+    "namedLaws": ["Kyleigh's Law (GDL red decal)", "Move Over Law", "Hands-Free / Wireless Device Law"]
+  },
+  "references": [
+    {
+      "label": "New Jersey Driver Manual",
+      "citation": "NJ MVC Driver Manual (rev. 09/2025)",
+      "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+    },
+    {
+      "label": "Graduated Driver License program",
+      "citation": "NJ MVC - Graduated Driver License",
+      "url": "https://www.nj.gov/mvc/about/gdlsafety.htm"
+    },
+    {
+      "label": "First driver license and fees",
+      "citation": "NJ MVC - Get your first driver license",
+      "url": "https://www.nj.gov/mvc/license/firstlic.htm"
+    }
+  ],
+  "effectiveDate": "2026-07-24",
+  "sourceSnapshotHash": "seed-pending-verification",
+  "reviewStatus": "adversarially-verified",
+  "lastVerified": "2026-07-24",
+  "contentVersion": 1
+}

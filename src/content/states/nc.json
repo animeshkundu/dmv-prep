@@ -1,0 +1,97 @@
+{
+  "code": "NC",
+  "name": "North Carolina",
+  "agencyName": "North Carolina Division of Motor Vehicles",
+  "agencyShort": "DMV",
+  "officialSiteUrl": "https://www.ncdot.gov/dmv/",
+  "handbookLandingUrl": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/handbooks.aspx",
+  "handbookFormat": "mixed",
+  "handbookEditionYear": 2024,
+  "handbookCopyrightStatus": "unknown",
+  "applicantVariants": [
+    { "id": "under-18", "label": "Under 18 (Graduated Licensing Levels 1-3)" },
+    { "id": "adult", "label": "Adult (18+, Class C)" }
+  ],
+  "examVariants": [
+    {
+      "variantId": "all",
+      "label": "Written knowledge (road rules) test",
+      "numQuestions": 25,
+      "numToPass": 20,
+      "languages": ["en", "es"],
+      "onlineAvailable": false
+    },
+    {
+      "variantId": "all",
+      "label": "Road sign identification test",
+      "numQuestions": 8,
+      "numToPass": 6,
+      "languages": ["en", "es"],
+      "onlineAvailable": false
+    }
+  ],
+  "retake": {
+    "waitBetweenAttempts": "Retake on a later date; contact NCDMV for scheduling"
+  },
+  "gdl": {
+    "permitMinAge": "15",
+    "provisionalMinAge": "16",
+    "fullLicenseMinAge": "16 yrs 6 mo (Level 3); fully unrestricted at 18",
+    "permitHoldingPeriod": "Level 1 held at least 9 months",
+    "supervisedHoursRequired": "60 hours (10 at night)",
+    "nightHoursRequired": "10 hours",
+    "nightCurfew": "Level 1 and Level 2: unsupervised driving only 5 a.m.-9 p.m. (work, school, and emergency-service exceptions)",
+    "passengerLimits": "Level 2: only one passenger under 21 who is not immediate family/household (with school-commute exception)",
+    "driverEdRequired": true
+  },
+  "process": {
+    "appointmentRequired": "varies",
+    "requiredDocuments": [
+      "Proof of identity and date of birth (certified birth certificate or valid U.S. passport)",
+      "Proof of Social Security Number",
+      "Two documents proving North Carolina residency",
+      "Proof of legal presence in the U.S. (if not a citizen)",
+      "Under 18: Driving Eligibility Certificate from your school"
+    ],
+    "realIdNotes": "North Carolina offers REAL ID-marked licenses. Bring one identity/DOB document, one SSN document, two residency documents, and proof of legal presence.",
+    "permitFee": "$25.50 (Level 1 Limited Learner Permit)",
+    "licenseFee": "$6.50 per year (Class C; 8-year license about $52) as of July 1, 2024",
+    "feesUrl": "https://www.ncdot.gov/dmv/license-id/driver-licenses/Pages/license-fees.aspx",
+    "visionTestRequired": true,
+    "visionStandard": "At least 20/40 in at least one eye, with or without corrective lenses"
+  },
+  "facts": {
+    "bacLimitAdult": "0.08%",
+    "bacLimitCommercial": "0.04%",
+    "bacLimitUnder21": "0.00% (zero tolerance; any measurable alcohol)",
+    "pointSystem": true,
+    "pointSuspensionThreshold": "12 points within 3 years may lead to suspension",
+    "moveOverRule": "Move over one lane, or slow down if unable, for stopped emergency and law-enforcement vehicles displaying flashing lights",
+    "interstateMaxSpeed": "70 mph",
+    "schoolZoneSpeed": "As posted (commonly 20-35 mph when children are present)",
+    "namedLaws": ["Move Over Law", "Graduated Driver License (Levels 1-3)", "Under-18 cell phone and texting ban"]
+  },
+  "references": [
+    {
+      "label": "North Carolina Driver's Handbook",
+      "citation": "NCDMV North Carolina Driver's Handbook",
+      "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/handbooks.aspx"
+    },
+    {
+      "label": "Graduated Driver License Informational Handout (DL-214)",
+      "citation": "NCDMV DL-214; N.C.G.S. § 20-11",
+      "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/graduated-licensing.aspx"
+    },
+    {
+      "label": "License Suspension and Point System",
+      "citation": "NCDMV License Suspension (N.C.G.S. § 20-16)",
+      "url": "https://www.ncdot.gov/dmv/license-id/license-suspension/Pages/default.aspx"
+    }
+  ],
+  "effectiveDate": "2026-07-24",
+  "sourceSnapshotHash": "seed-pending-verification",
+  "reviewStatus": "draft",
+  "verifyNote": "Official NCDMV sources confirm the 25-question road-rules test and $25.50 Level 1 fee, but the separate road-sign test's exact 8-question/6-correct format was not located in a current official source.",
+  "lastVerified": "2026-07-24",
+  "contentVersion": 1
+}

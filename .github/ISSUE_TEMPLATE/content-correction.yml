@@ -1,0 +1,36 @@
+name: Content correction or takedown
+description: Report an inaccurate question/fact, or request removal of content (e.g. a state official).
+title: "[Content] "
+labels: ["content-maintenance"]
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Type of report
+      options:
+        - Factual error in a question or explanation
+        - Outdated process/fee/requirement
+        - Broken or wrong official link
+        - Takedown / rights request (official agency)
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Where is it?
+      description: State and page/question id if known (e.g. "CA practice, question ca-speed-002").
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: What is wrong, and what is correct?
+      description: Please include a link to the official state handbook section or page if you have one.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Official source (URL)
+      description: A .gov handbook or page that supports the correction.

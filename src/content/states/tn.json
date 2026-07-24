@@ -1,0 +1,94 @@
+{
+  "code": "TN",
+  "name": "Tennessee",
+  "agencyName": "Tennessee Department of Safety and Homeland Security (Driver Services)",
+  "agencyShort": "DOS",
+  "officialSiteUrl": "https://www.tn.gov/safety/driver-services.html",
+  "handbookLandingUrl": "https://www.tn.gov/safety/driver-services/classd/comprehensivedlmanual.html",
+  "handbookPdfUrl": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+  "handbookFormat": "pdf",
+  "handbookEditionYear": 2022,
+  "handbookCopyrightStatus": "public-domain",
+  "applicantVariants": [
+    { "id": "under-18", "label": "Teen (under 18, graduated license)" },
+    { "id": "adult", "label": "Adult (18+)" }
+  ],
+  "examVariants": [
+    {
+      "variantId": "under-18",
+      "label": "Teen knowledge test (Class D)",
+      "numQuestions": 30,
+      "numToPass": 24,
+      "timeLimitMinutes": 60,
+      "languages": ["en", "es"],
+      "onlineAvailable": true
+    },
+    {
+      "variantId": "adult",
+      "label": "Adult knowledge test (Class D)",
+      "numQuestions": 30,
+      "numToPass": 24,
+      "languages": ["en", "es"],
+      "onlineAvailable": false
+    }
+  ],
+  "retake": {
+    "waitBetweenAttempts": "Same day retake generally not allowed; return on a later day",
+    "retakeFee": "No separate knowledge-test fee; permit application fee applies"
+  },
+  "gdl": {
+    "permitMinAge": "15",
+    "provisionalMinAge": "16 (intermediate license)",
+    "fullLicenseMinAge": "17 (unrestricted after intermediate) or 18",
+    "permitHoldingPeriod": "180 days (learner permit) before intermediate license",
+    "supervisedHoursRequired": "50 hours (10 at night), certified by parent/guardian",
+    "nightHoursRequired": "10 hours",
+    "nightCurfew": "Intermediate: no driving 11 p.m.-6 a.m. (with exceptions)",
+    "passengerLimits": "Intermediate: no more than 1 passenger (with exceptions for family)",
+    "driverEdRequired": false
+  },
+  "process": {
+    "appointmentRequired": "encouraged",
+    "schedulingUrl": "https://www.tn.gov/safety/driver-services/schedule.html",
+    "requiredDocuments": [
+      "Proof of U.S. citizenship or lawful permanent residency",
+      "Proof of Social Security Number",
+      "Two proofs of Tennessee residency",
+      "Primary and secondary proof of identity"
+    ],
+    "realIdNotes": "Tennessee offers a REAL ID-compliant license marked with a gold star. Since May 7, 2025, a REAL ID or passport is needed to board domestic flights and enter certain federal facilities.",
+    "permitFee": "$10.50 (learner permit, under 18); $5.50 (18+)",
+    "licenseFee": "$28.00 (Class D, 8-year); intermediate restricted $24.50",
+    "feesUrl": "https://www.tn.gov/safety/driver-services/helpful-information/fees.html",
+    "visionTestRequired": true,
+    "visionStandard": "20/40 in at least one eye, with or without corrective lenses"
+  },
+  "facts": {
+    "bacLimitAdult": "0.08%",
+    "bacLimitCommercial": "0.04%",
+    "bacLimitUnder21": "0.02% (zero tolerance)",
+    "pointSystem": true,
+    "pointSuspensionThreshold": "Adults 18+: 12 or more points in 12 months triggers a proposed suspension; drivers under 18: 6 or more points in 12 months triggers the juvenile suspension process",
+    "moveOverRule": "Move over a lane or slow down for stopped emergency, utility, and highway maintenance vehicles displaying flashing lights",
+    "interstateMaxSpeed": "70 mph (posted maximum on controlled-access highways)",
+    "schoolZoneSpeed": "Reduced limit as posted (commonly 15 mph) when warning flashers are operating",
+    "namedLaws": ["Move Over Law", "Hands-Free Law", "Zero Tolerance Law", "Slowpoke Law"]
+  },
+  "references": [
+    {
+      "label": "Tennessee Comprehensive Driver License Manual",
+      "citation": "TN Comprehensive Driver License Manual",
+      "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+    },
+    {
+      "label": "Driver license fees",
+      "citation": "TN Department of Safety, Driver Services fees",
+      "url": "https://www.tn.gov/safety/driver-services/helpful-information/fees.html"
+    }
+  ],
+  "effectiveDate": "2026-07-24",
+  "sourceSnapshotHash": "seed-pending-verification",
+  "reviewStatus": "adversarially-verified",
+  "lastVerified": "2026-07-24",
+  "contentVersion": 1
+}

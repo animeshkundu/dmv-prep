@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Official state DMV directory
+    url: https://www.usa.gov/motor-vehicle-services
+    about: For official requirements, always check your state's DMV site.

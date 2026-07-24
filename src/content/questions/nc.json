@@ -1,0 +1,277 @@
+[
+  {
+    "id": "nc-alc-001",
+    "category": "alcohol-drugs",
+    "stateScope": ["NC"],
+    "prompt": "In North Carolina, a driver under 21 may be charged for driving after consuming alcohol at a blood alcohol concentration of:",
+    "options": [
+      "0.08% or higher",
+      "0.05% or higher",
+      "0.02% or higher",
+      "Any measurable amount (0.00% tolerance)"
+    ],
+    "correctIndex": 3,
+    "explanation": "North Carolina has a zero-tolerance law: a driver under 21 may not drive after consuming any alcohol. Any measurable amount can result in charges and license revocation. The adult limit is 0.08%.",
+    "difficulty": "medium",
+    "references": [{ "label": "Zero tolerance", "citation": "NC Driver's Handbook, Alcohol and the Law; N.C.G.S. § 20-138.3", "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/handbooks.aspx" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "nc-alc-002",
+    "category": "alcohol-drugs",
+    "stateScope": ["NC"],
+    "prompt": "The legal blood alcohol concentration (BAC) limit for a non-commercial adult driver in North Carolina is:",
+    "options": ["0.10%", "0.08%", "0.05%", "0.04%"],
+    "correctIndex": 1,
+    "explanation": "In North Carolina, a driver 21 or older is considered impaired at a BAC of 0.08% or higher. Commercial drivers are limited to 0.04%.",
+    "difficulty": "easy",
+    "references": [{ "label": "Impaired driving", "citation": "NC Driver's Handbook; N.C.G.S. § 20-138.1", "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/handbooks.aspx" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "nc-gdl-001",
+    "category": "gdl-teen",
+    "stateScope": ["NC"],
+    "prompt": "Under North Carolina's graduated licensing, a Level 1 (Limited Learner Permit) holder must always drive:",
+    "options": [
+      "Alone during daylight hours only",
+      "With a supervising driver (licensed 5+ years) in the front passenger seat",
+      "With any adult passenger in the vehicle",
+      "Only on non-interstate roads"
+    ],
+    "correctIndex": 1,
+    "explanation": "A Level 1 permit holder must always be supervised by a driver who has been licensed at least 5 years, seated in the front passenger seat. For the first 6 months, driving is limited to 5 a.m.-9 p.m.",
+    "difficulty": "medium",
+    "references": [{ "label": "Level 1 permit", "citation": "NC Driver's Handbook, Graduated Licensing; N.C.G.S. § 20-11", "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/graduated-licensing.aspx" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "nc-gdl-002",
+    "category": "gdl-teen",
+    "stateScope": ["NC"],
+    "prompt": "A North Carolina Level 2 (Limited Provisional) license holder may generally drive unsupervised only between:",
+    "options": [
+      "6 a.m. and 10 p.m.",
+      "5 a.m. and 9 p.m.",
+      "Midnight and 5 a.m.",
+      "Any time, with no restriction"
+    ],
+    "correctIndex": 1,
+    "explanation": "A Level 2 driver may drive unsupervised only between 5 a.m. and 9 p.m., unless driving to or from work or volunteer fire/rescue/EMS duty.",
+    "difficulty": "hard",
+    "references": [{ "label": "Level 2 restrictions", "citation": "NC Driver's Handbook, Graduated Licensing; N.C.G.S. § 20-11", "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/graduated-licensing.aspx" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "nc-gdl-003",
+    "category": "gdl-teen",
+    "stateScope": ["NC"],
+    "prompt": "How many hours of supervised driving must a North Carolina Level 1 permit holder log, and how many must be at night?",
+    "options": [
+      "40 hours, 6 at night",
+      "50 hours, 10 at night",
+      "60 hours, 10 at night",
+      "30 hours, 5 at night"
+    ],
+    "correctIndex": 2,
+    "explanation": "North Carolina requires 60 hours of supervised driving during Level 1, at least 10 of which must be at night, before advancing to Level 2.",
+    "difficulty": "medium",
+    "references": [{ "label": "Supervised hours", "citation": "NC Driver's Handbook, Graduated Licensing (DL-214)", "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/graduated-licensing.aspx" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "nc-gdl-004",
+    "category": "gdl-teen",
+    "stateScope": ["NC"],
+    "prompt": "For a North Carolina Level 2 driver, passenger restrictions generally limit them to:",
+    "options": [
+      "No passengers at all",
+      "Only one passenger under 21 who is not immediate family/household",
+      "Up to four passengers of any age",
+      "Passengers only during daytime"
+    ],
+    "correctIndex": 1,
+    "explanation": "A Level 2 driver may have only one passenger under 21 who is not a member of the immediate family or household, though a limited school-commute exception applies.",
+    "difficulty": "hard",
+    "references": [{ "label": "Passenger limits", "citation": "NC Driver's Handbook, Graduated Licensing; N.C.G.S. § 20-11", "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/graduated-licensing.aspx" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "nc-pts-001",
+    "category": "penalties-points",
+    "stateScope": ["NC"],
+    "prompt": "In North Carolina, accumulating how many driver license points can lead to a license suspension?",
+    "options": [
+      "6 points within 1 year",
+      "12 points within 3 years",
+      "15 points within 2 years",
+      "20 points within 5 years"
+    ],
+    "correctIndex": 1,
+    "explanation": "North Carolina may suspend your license when you accumulate 12 points within a 3-year period. After reinstatement, 8 points in 3 years can trigger another suspension.",
+    "difficulty": "medium",
+    "references": [{ "label": "Point system", "citation": "NCDMV License Suspension; N.C.G.S. § 20-16", "url": "https://www.ncdot.gov/dmv/license-id/license-suspension/Pages/default.aspx" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "nc-speed-001",
+    "category": "speed-limits",
+    "stateScope": ["NC"],
+    "prompt": "The maximum speed limit on a North Carolina interstate highway is generally:",
+    "options": ["55 mph", "65 mph", "70 mph", "75 mph"],
+    "correctIndex": 2,
+    "explanation": "North Carolina interstates are generally posted at a maximum of 70 mph, though lower limits may be posted in some areas. Always obey the posted limit.",
+    "difficulty": "easy",
+    "references": [{ "label": "Speed limits", "citation": "NC Driver's Handbook, Speed Limits", "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/handbooks.aspx" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "nc-speed-002",
+    "category": "speed-limits",
+    "stateScope": ["NC"],
+    "prompt": "In North Carolina, driving faster than 80 mph, or faster than 15 mph over a limit of 55 mph or higher, can result in:",
+    "options": [
+      "A warning only",
+      "A license suspension",
+      "No penalty if traffic is light",
+      "A reduction of points"
+    ],
+    "correctIndex": 1,
+    "explanation": "North Carolina can suspend your license for excessive speeding, such as driving over 80 mph, even if you have not reached the 12-point suspension threshold.",
+    "difficulty": "medium",
+    "references": [{ "label": "Excessive speed", "citation": "NCDMV License Suspension; N.C.G.S. § 20-16.1", "url": "https://www.ncdot.gov/dmv/license-id/license-suspension/Pages/default.aspx" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "nc-laws-001",
+    "category": "traffic-laws",
+    "stateScope": ["NC"],
+    "prompt": "In North Carolina, drivers under 18 are prohibited from:",
+    "options": [
+      "Driving on any interstate",
+      "Using a cell phone (including hands-free) while driving, except in an emergency",
+      "Driving with the radio on",
+      "Driving any vehicle with a passenger"
+    ],
+    "correctIndex": 1,
+    "explanation": "North Carolina prohibits drivers under 18 from using a mobile phone while driving, including hands-free use, except to call a parent or in an emergency. Texting while driving is banned for all drivers.",
+    "difficulty": "medium",
+    "references": [{ "label": "Cell phone ban", "citation": "NC Driver's Handbook; N.C.G.S. § 20-137.3", "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/handbooks.aspx" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "nc-laws-002",
+    "category": "traffic-laws",
+    "stateScope": ["NC"],
+    "prompt": "North Carolina's Move Over Law requires that, when approaching a stopped law-enforcement or emergency vehicle with flashing lights, you:",
+    "options": [
+      "Come to a complete stop in your lane",
+      "Move over one lane if possible, or slow down if you cannot",
+      "Speed up to clear the area quickly",
+      "Turn on your headlights only"
+    ],
+    "correctIndex": 1,
+    "explanation": "North Carolina's Move Over Law requires drivers to move over one lane away from a stopped emergency or law-enforcement vehicle with flashing lights, or to slow down if changing lanes is not possible.",
+    "difficulty": "easy",
+    "references": [{ "label": "Move Over Law", "citation": "NC Driver's Handbook; N.C.G.S. § 20-157", "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/handbooks.aspx" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "nc-row-001",
+    "category": "right-of-way",
+    "stateScope": ["NC"],
+    "prompt": "On a two-lane road in North Carolina, when a school bus stops with its red lights flashing and stop arm out, drivers must:",
+    "options": [
+      "Stop only if traveling behind the bus",
+      "Stop from both directions until the lights stop flashing",
+      "Slow to 20 mph and pass carefully",
+      "Proceed if no children are seen"
+    ],
+    "correctIndex": 1,
+    "explanation": "On a two-lane roadway, traffic in both directions must stop for a stopped school bus with flashing red lights and an extended stop arm, and remain stopped until the bus moves or the lights are turned off.",
+    "difficulty": "medium",
+    "references": [{ "label": "School buses", "citation": "NC Driver's Handbook; N.C.G.S. § 20-217", "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/handbooks.aspx" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "nc-exam-001",
+    "category": "traffic-laws",
+    "stateScope": ["NC"],
+    "prompt": "To pass the North Carolina written knowledge (road rules) test, you must answer correctly at least:",
+    "options": [
+      "15 of 20 questions",
+      "20 of 25 questions",
+      "30 of 40 questions",
+      "38 of 46 questions"
+    ],
+    "correctIndex": 1,
+    "explanation": "North Carolina's written knowledge test has 25 questions, and you must answer at least 20 correctly (80%) to pass.",
+    "difficulty": "easy",
+    "references": [{ "label": "Knowledge test", "citation": "NC Driver's Handbook, The Examination", "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/handbooks.aspx" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "nc-safe-001",
+    "category": "safe-driving",
+    "stateScope": ["NC"],
+    "prompt": "In North Carolina, which occupants age 16 or older are required by the seat belt law to be buckled?",
+    "options": [
+      "Only the driver",
+      "The driver and all front-seat passengers",
+      "Only rear-seat passengers",
+      "Only occupants traveling on interstates"
+    ],
+    "correctIndex": 1,
+    "explanation": "North Carolina requires the driver and front-seat passengers age 16 or older to wear seat belts. Separate child-passenger restraint rules apply to occupants under 16.",
+    "difficulty": "easy",
+    "references": [{ "label": "Seat belts", "citation": "NC Driver's Handbook; N.C.G.S. § 20-135.2A", "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/handbooks.aspx" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "nc-proc-001",
+    "category": "safe-driving",
+    "stateScope": ["NC"],
+    "prompt": "A North Carolina applicant under 18 must present which document related to school attendance?",
+    "options": [
+      "A high school diploma",
+      "A Driving Eligibility Certificate",
+      "A report card only",
+      "No school document is required"
+    ],
+    "correctIndex": 1,
+    "explanation": "Applicants under 18 must present a Driving Eligibility Certificate showing they are enrolled and making adequate progress toward a diploma, or meet an exception, before being licensed.",
+    "difficulty": "medium",
+    "references": [{ "label": "Driving Eligibility Certificate", "citation": "NCDMV Teen Driver requirements; N.C.G.S. § 20-11(n)", "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/graduated-licensing.aspx" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  }
+]

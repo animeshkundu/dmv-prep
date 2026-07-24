@@ -1,0 +1,3 @@
+import { test, expect } from '@playwright/test';
+test('California practice shows an explanation',async({page})=>{await page.goto('./state/ca/practice');await page.getByRole('radio').first().check();await page.getByRole('button',{name:/check answer/i}).click();await expect(page.getByText(/Correct\.|Not quite\./)).toBeVisible();await expect(page.getByText(/Source:/)).toBeVisible();});
+test('California mock shows start screen',async({page})=>{await page.goto('./state/ca/mock');await expect(page.getByRole('heading',{name:/start a mock exam/i})).toBeVisible();await expect(page.getByRole('button',{name:/start mock exam/i})).toBeVisible();});

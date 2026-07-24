@@ -1,0 +1,248 @@
+[
+  {
+    "id": "me-alc-001",
+    "category": "alcohol-drugs",
+    "stateScope": ["ME"],
+    "prompt": "Under Maine's zero-tolerance law, a driver under 21 who is found with any measurable alcohol faces:",
+    "options": [
+      "Only a warning",
+      "License suspension, because the under-21 limit is 0.00% (any amount)",
+      "A citation only above 0.08%",
+      "No penalty on a first offense"
+    ],
+    "correctIndex": 1,
+    "explanation": "Maine has zero tolerance for drivers under 21: any measurable alcohol (a 0.00% standard) results in a license suspension, typically one year for a first offense.",
+    "difficulty": "medium",
+    "references": [{ "label": "Under-21 alcohol", "citation": "Maine Motorist Handbook, OUI and zero tolerance", "url": "https://www.maine.gov/sos/bmv/driver-licenses-and-ids/car-license/driver-license-manual-and-Maine-motorist-handbook-and-study-guide" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "me-alc-002",
+    "category": "alcohol-drugs",
+    "stateScope": ["ME"],
+    "prompt": "In Maine, an adult (21+) driving a passenger vehicle is guilty of OUI at a blood alcohol concentration of:",
+    "options": ["0.05% or more", "0.08% or more", "0.10% or more", "0.02% or more"],
+    "correctIndex": 1,
+    "explanation": "Maine's adult OUI (Operating Under the Influence) limit is 0.08% BAC. Commercial drivers are limited to 0.04%, and drivers under 21 have zero tolerance.",
+    "difficulty": "easy",
+    "references": [{ "label": "OUI limit", "citation": "Maine Motorist Handbook, OUI law", "url": "https://www.maine.gov/sos/bmv/driver-licenses-and-ids/car-license/driver-license-manual-and-Maine-motorist-handbook-and-study-guide" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "me-gdl-001",
+    "category": "gdl-teen",
+    "stateScope": ["ME"],
+    "prompt": "During the first months of holding a Maine intermediate license, a driver may not drive during which hours?",
+    "options": [
+      "11 p.m. to 5 a.m.",
+      "Midnight to 5 a.m.",
+      "1 a.m. to 4 a.m.",
+      "10 p.m. to 6 a.m."
+    ],
+    "correctIndex": 1,
+    "explanation": "Maine intermediate license holders are restricted from driving between midnight and 5 a.m., with only limited exceptions such as employment or emergencies.",
+    "difficulty": "medium",
+    "references": [{ "label": "Intermediate license curfew", "citation": "Maine Motorist Handbook, graduated licensing", "url": "https://www.maine.gov/sos/bmv/driver-licenses-and-ids/car-license/how-to-obtain-a-license" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "me-gdl-002",
+    "category": "gdl-teen",
+    "stateScope": ["ME"],
+    "prompt": "For the first 9 months (or until age 18), a Maine intermediate license holder may carry passengers who are:",
+    "options": [
+      "Any friends under 18",
+      "Only immediate family members, unless a licensed driver at least 20 years old with 2 years' experience is present",
+      "Up to three passengers of any age",
+      "Only one passenger of any age"
+    ],
+    "correctIndex": 1,
+    "explanation": "During the first 9 months, intermediate license holders may carry only immediate family members as passengers unless accompanied by a licensed driver who is at least 20 years old and has held a license for at least two years.",
+    "difficulty": "hard",
+    "references": [{ "label": "Passenger restriction", "citation": "Maine Motorist Handbook, intermediate license", "url": "https://www.maine.gov/sos/bmv/driver-licenses-and-ids/car-license/how-to-obtain-a-license" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "me-gdl-003",
+    "category": "gdl-teen",
+    "stateScope": ["ME"],
+    "prompt": "A Maine intermediate license holder using a cell phone while driving:",
+    "options": [
+      "May use it hands-free only",
+      "Is prohibited from using any mobile phone or handheld device, even hands-free",
+      "May text at red lights",
+      "May use it freely once over 16"
+    ],
+    "correctIndex": 1,
+    "explanation": "Maine bars intermediate license holders from using a cell phone or handheld electronic device while driving, even in hands-free mode, until they hold a full license.",
+    "difficulty": "medium",
+    "references": [{ "label": "Intermediate device rule", "citation": "Maine Motorist Handbook, graduated licensing restrictions", "url": "https://www.maine.gov/sos/bmv/driver-licenses-and-ids/car-license/how-to-obtain-a-license" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "me-speed-001",
+    "category": "speed-limits",
+    "stateScope": ["ME"],
+    "prompt": "In a Maine school zone during posted times, the speed limit is:",
+    "options": ["25 mph", "20 mph", "15 mph", "10 mph"],
+    "correctIndex": 2,
+    "explanation": "Maine sets a 15 mph limit in school zones during the posted hours or when the zone is in use. Slow down and watch for children.",
+    "difficulty": "medium",
+    "references": [{ "label": "School-zone speed", "citation": "29-A M.R.S. §2074, rates of speed", "url": "https://www.mainelegislature.org/legis/statutes/29-A/title29-Asec2074.html" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "me-speed-002",
+    "category": "speed-limits",
+    "stateScope": ["ME"],
+    "prompt": "On posted sections of Maine interstate highways, the maximum speed limit may be:",
+    "options": ["55 mph", "65 mph", "70 mph", "75 mph"],
+    "correctIndex": 2,
+    "explanation": "Maine posts a maximum of 70 mph on certain interstate segments. Always drive at or below the posted limit and adjust for conditions.",
+    "difficulty": "easy",
+    "references": [{ "label": "Interstate speed", "citation": "29-A M.R.S. §2074, rates of speed", "url": "https://www.mainelegislature.org/legis/statutes/29-A/title29-Asec2074.html" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "me-laws-001",
+    "category": "traffic-laws",
+    "stateScope": ["ME"],
+    "prompt": "Maine's Move Over Law requires drivers approaching a stopped emergency or maintenance vehicle with flashing lights to:",
+    "options": [
+      "Keep the same speed and lane",
+      "Change lanes away from the vehicle when safe, or slow down if you cannot change lanes",
+      "Stop until signaled to go",
+      "Pass in the breakdown lane"
+    ],
+    "correctIndex": 1,
+    "explanation": "Maine drivers must move over a lane away from a stopped emergency or maintenance vehicle when it is safe, and otherwise slow to a careful speed.",
+    "difficulty": "easy",
+    "references": [{ "label": "Move Over Law", "citation": "Maine Motorist Handbook, emergency vehicles", "url": "https://www.maine.gov/sos/bmv/driver-licenses-and-ids/car-license/driver-license-manual-and-Maine-motorist-handbook-and-study-guide" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "me-signs-001",
+    "category": "road-signs",
+    "stateScope": ["ME"],
+    "prompt": "A triangular red-and-white sign pointing downward means:",
+    "options": ["Stop", "Yield", "Merge", "No passing"],
+    "correctIndex": 1,
+    "explanation": "The downward-pointing red-and-white triangle is a YIELD sign. Slow down, be ready to stop, and give the right of way to traffic and pedestrians.",
+    "difficulty": "easy",
+    "references": [{ "label": "Regulatory signs", "citation": "Maine Motorist Handbook, traffic signs", "url": "https://www.maine.gov/sos/bmv/driver-licenses-and-ids/car-license/driver-license-manual-and-Maine-motorist-handbook-and-study-guide" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "me-signals-001",
+    "category": "traffic-signals",
+    "stateScope": ["ME"],
+    "prompt": "A steady yellow traffic light means:",
+    "options": [
+      "Speed up to beat the red",
+      "The light is about to turn red; stop if you can do so safely",
+      "Stop and wait",
+      "Proceed without caution"
+    ],
+    "correctIndex": 1,
+    "explanation": "A steady yellow light warns that the signal is about to turn red. Stop if you can do so safely; do not try to race through the intersection.",
+    "difficulty": "easy",
+    "references": [{ "label": "Traffic signals", "citation": "Maine Motorist Handbook, traffic signals", "url": "https://www.maine.gov/sos/bmv/driver-licenses-and-ids/car-license/driver-license-manual-and-Maine-motorist-handbook-and-study-guide" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "me-row-001",
+    "category": "right-of-way",
+    "stateScope": ["ME"],
+    "prompt": "You are turning left at an intersection with a green light (no arrow). You must:",
+    "options": [
+      "Turn immediately because you have the green",
+      "Yield to oncoming traffic and pedestrians before completing the turn",
+      "Stop and wait for a green arrow",
+      "Sound your horn and turn"
+    ],
+    "correctIndex": 1,
+    "explanation": "A green light without an arrow lets you turn left only after yielding to oncoming vehicles and any pedestrians in the crosswalk.",
+    "difficulty": "medium",
+    "references": [{ "label": "Right of way", "citation": "Maine Motorist Handbook, turning and right-of-way", "url": "https://www.maine.gov/sos/bmv/driver-licenses-and-ids/car-license/driver-license-manual-and-Maine-motorist-handbook-and-study-guide" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "me-safe-001",
+    "category": "safe-driving",
+    "stateScope": ["ME"],
+    "prompt": "In Maine, moose and deer are a real hazard, especially at dawn and dusk. If a large animal is in your path, you should:",
+    "options": [
+      "Swerve sharply into the oncoming lane",
+      "Brake firmly, stay in your lane, and try to steer to where the animal came from",
+      "Speed up to pass in front of it",
+      "Turn off your headlights"
+    ],
+    "correctIndex": 1,
+    "explanation": "Brake firmly and stay in your lane rather than swerving, which risks a rollover or head-on crash. Animals often bolt back toward where they started, so steering behind the animal can help.",
+    "difficulty": "medium",
+    "references": [{ "label": "Animals on the road", "citation": "Maine Motorist Handbook, hazards and safe driving", "url": "https://www.maine.gov/sos/bmv/driver-licenses-and-ids/car-license/driver-license-manual-and-Maine-motorist-handbook-and-study-guide" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "me-mark-001",
+    "category": "pavement-markings",
+    "stateScope": ["ME"],
+    "prompt": "Double solid yellow lines in the center of the road mean:",
+    "options": [
+      "Passing is allowed from both directions",
+      "Neither direction may cross to pass",
+      "The left lane is for turning",
+      "You may cross to reach a driveway only at night"
+    ],
+    "correctIndex": 1,
+    "explanation": "Double solid yellow lines mean passing is prohibited for traffic in both directions. You may cross only to turn into or out of a driveway or road where permitted.",
+    "difficulty": "easy",
+    "references": [{ "label": "Pavement markings", "citation": "Maine Motorist Handbook, pavement markings", "url": "https://www.maine.gov/sos/bmv/driver-licenses-and-ids/car-license/driver-license-manual-and-Maine-motorist-handbook-and-study-guide" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "me-pen-001",
+    "category": "penalties-points",
+    "stateScope": ["ME"],
+    "prompt": "Maine assigns demerit points for moving violations. Accumulating too many points within a year can result in:",
+    "options": [
+      "A cash reward",
+      "Suspension of your driver's license",
+      "Automatic license upgrade",
+      "Removal of all prior points"
+    ],
+    "correctIndex": 1,
+    "explanation": "Points are added to your record for convictions. Reaching Maine's threshold (generally 12 points within a 12-month period) can lead to a license suspension.",
+    "difficulty": "medium",
+    "references": [{ "label": "Point system", "citation": "Maine Motorist Handbook, demerit points", "url": "https://www.maine.gov/sos/bmv/driver-licenses-and-ids/car-license/driver-license-manual-and-Maine-motorist-handbook-and-study-guide" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  }
+]

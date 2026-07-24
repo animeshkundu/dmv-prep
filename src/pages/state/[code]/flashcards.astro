@@ -1,0 +1,5 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro'; import Flashcards from '../../../islands/Flashcards'; import { STATES, byCode, stateSlug } from '../../../lib/states-directory'; import { studyContent } from '../../../lib/content'; import { applicableQuestions } from '../../../lib/questions'; import '../../../styles/pages.css';
+export function getStaticPaths(){return STATES.map((state)=>({params:{code:stateSlug(state.code)}}));} const code=Astro.params.code!.toUpperCase(); const directory=byCode(code)!; const content=await studyContent(code); const questions=applicableQuestions(content.questions,code);
+---
+<BaseLayout title={`${directory.name} flashcards`}><section class="study-shell"><h1>{directory.name} flashcards</h1><p class="muted">Smart review schedules each card for the right time.</p><Flashcards client:load questions={questions} signs={content.signs}/></section></BaseLayout>

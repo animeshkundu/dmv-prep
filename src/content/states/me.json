@@ -1,0 +1,88 @@
+{
+  "code": "ME",
+  "name": "Maine",
+  "agencyName": "Maine Bureau of Motor Vehicles",
+  "agencyShort": "BMV",
+  "officialSiteUrl": "https://www.maine.gov/sos/bmv/",
+  "handbookLandingUrl": "https://www.maine.gov/sos/bmv/driver-licenses-and-ids/car-license/driver-license-manual-and-Maine-motorist-handbook-and-study-guide",
+  "handbookFormat": "mixed",
+  "handbookEditionYear": 2023,
+  "handbookCopyrightStatus": "public-domain",
+  "applicantVariants": [
+    { "id": "under-18", "label": "Under 18 (intermediate license applicant)" },
+    { "id": "adult", "label": "Adult (18+)" }
+  ],
+  "examVariants": [
+    {
+      "variantId": "adult",
+      "label": "Class C (car) knowledge test",
+      "numQuestions": 30,
+      "numToPass": 24,
+      "languages": ["en", "es", "fr", "so", "ar", "pt", "vi", "zh"],
+      "onlineAvailable": false
+    }
+  ],
+  "retake": {
+    "waitBetweenAttempts": "Varies; applicant may re-test after further study",
+    "retakeFee": "Reexamination fee may apply"
+  },
+  "gdl": {
+    "permitMinAge": "15",
+    "provisionalMinAge": "16",
+    "fullLicenseMinAge": "16 yrs 9 mo (after violation-free intermediate period)",
+    "permitHoldingPeriod": "6 months violation-free before the intermediate license",
+    "supervisedHoursRequired": "70 hours (10 at night)",
+    "nightHoursRequired": "10 hours",
+    "nightCurfew": "No driving midnight-5 a.m. (intermediate license), with limited exceptions",
+    "passengerLimits": "For the first 9 months (or until 18), no passengers except immediate family unless a licensed driver 20+ with 2 years' experience is present",
+    "driverEdRequired": true
+  },
+  "process": {
+    "appointmentRequired": "varies",
+    "requiredDocuments": [
+      "Proof of identity and legal presence (e.g. certified birth certificate or U.S. passport)",
+      "Proof of Social Security Number",
+      "Two proofs of Maine residency (for a REAL ID)",
+      "Driver education completion certificate (applicants under 18)"
+    ],
+    "realIdNotes": "Maine issues REAL ID-compliant licenses (marked with a star). Bring one proof of identity/legal presence, one proof of Social Security Number, and two proofs of Maine residency. A standard (non-REAL ID) license is also available.",
+    "permitFee": "$35 Class C permit examination (written test)",
+    "licenseFee": "$30 standard Class C license for applicants under 65 (6-year term); $20 at age 65+ (4-year term)",
+    "feesUrl": "https://www1.maine.gov/sos/bmv/driver-licenses-and-ids/drivers-license-and-examination-fees",
+    "visionTestRequired": true,
+    "visionStandard": "20/40 in at least one eye, with or without corrective lenses (free screening at the exam)"
+  },
+  "facts": {
+    "bacLimitAdult": "0.08%",
+    "bacLimitCommercial": "0.04%",
+    "bacLimitUnder21": "0.00% (zero tolerance; any measurable alcohol)",
+    "pointSystem": true,
+    "pointSuspensionThreshold": "Accumulation of 12 or more demerit points within 12 months may lead to suspension",
+    "moveOverRule": "Move over a lane, or slow to a safe speed if you cannot, for stopped emergency, maintenance, and service vehicles displaying flashing lights",
+    "interstateMaxSpeed": "70 mph on posted interstate segments (unless otherwise posted)",
+    "schoolZoneSpeed": "15 mph in a school zone during posted hours or when the zone is in use",
+    "namedLaws": ["Move Over Law", "OUI (Operating Under the Influence) Law", "Distracted Driving / Hands-Free Law", "Zero Tolerance Law (under 21)"]
+  },
+  "references": [
+    {
+      "label": "Maine Motorist Handbook and Study Guide",
+      "citation": "Maine Bureau of Motor Vehicles, Driver License Manual and Maine Motorist Handbook",
+      "url": "https://www.maine.gov/sos/bmv/driver-licenses-and-ids/car-license/driver-license-manual-and-Maine-motorist-handbook-and-study-guide"
+    },
+    {
+      "label": "Maine Driver's License Exam",
+      "citation": "Maine BMV, Drivers License Exam",
+      "url": "https://www.maine.gov/sos/bmv/driver-licenses-and-ids/car-license/drivers-license-exam"
+    },
+    {
+      "label": "IIHS Graduated Licensing Laws Table",
+      "citation": "IIHS graduated licensing laws by state (Maine)",
+      "url": "https://www.iihs.org/topics/teenagers/graduated-licensing-laws-table"
+    }
+  ],
+  "effectiveDate": "2026-07-24",
+  "sourceSnapshotHash": "seed-pending-verification",
+  "reviewStatus": "adversarially-verified",
+  "lastVerified": "2026-07-24",
+  "contentVersion": 1
+}

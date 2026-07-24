@@ -1,0 +1,100 @@
+{
+  "code": "MA",
+  "name": "Massachusetts",
+  "agencyName": "Massachusetts Registry of Motor Vehicles",
+  "agencyShort": "RMV",
+  "officialSiteUrl": "https://www.mass.gov/orgs/massachusetts-registry-of-motor-vehicles",
+  "handbookLandingUrl": "https://www.mass.gov/how-to/request-a-drivers-manual",
+  "handbookFormat": "mixed",
+  "handbookEditionYear": 2024,
+  "handbookCopyrightStatus": "unknown",
+  "applicantVariants": [
+    { "id": "under-18", "label": "Under 18 (learner's permit / Junior Operator)" },
+    { "id": "adult", "label": "Adult (18+)" }
+  ],
+  "examVariants": [
+    {
+      "variantId": "under-18",
+      "label": "Class D learner's permit knowledge test",
+      "numQuestions": 25,
+      "numToPass": 18,
+      "timeLimitMinutes": 25,
+      "languages": ["en", "es"],
+      "onlineAvailable": true
+    },
+    {
+      "variantId": "adult",
+      "label": "Class D learner's permit knowledge test",
+      "numQuestions": 25,
+      "numToPass": 18,
+      "timeLimitMinutes": 25,
+      "languages": ["en", "es"],
+      "onlineAvailable": true
+    }
+  ],
+  "retake": {
+    "waitBetweenAttempts": "Must wait until the next day to retest",
+    "retakeFee": "A new learner's permit application fee applies to each attempt"
+  },
+  "gdl": {
+    "permitMinAge": "16",
+    "provisionalMinAge": "16 yrs 6 mo (Junior Operator License)",
+    "fullLicenseMinAge": "18",
+    "permitHoldingPeriod": "6 months (under 18)",
+    "supervisedHoursRequired": "40 hours (reduced to 30 with an approved Driver Skills Development Program); driver education requires additional supervised hours",
+    "nightHoursRequired": "10 hours",
+    "nightCurfew": "Junior Operators may not drive 12:30 a.m.-5 a.m. unless accompanied by a parent or legal guardian",
+    "passengerLimits": "For the first 6 months, Junior Operators may not carry passengers under 18 unless a licensed driver 21+ is present or the passenger is immediate family",
+    "driverEdRequired": true
+  },
+  "process": {
+    "appointmentRequired": "required",
+    "schedulingUrl": "https://www.mass.gov/how-to/make-a-reservation-at-the-rmv",
+    "requiredDocuments": [
+      "Proof of identity and date of birth (e.g. U.S. passport or birth certificate)",
+      "Proof of Social Security number",
+      "One document proving lawful presence",
+      "Two documents proving Massachusetts residency",
+      "Parent or guardian signature if under 18"
+    ],
+    "realIdNotes": "The RMV issues both REAL ID and Standard credentials. A REAL ID requires one proof of lawful presence, one proof of Social Security number, and two proofs of Massachusetts residency, presented in person.",
+    "permitFee": "$30 (Class D learner's permit)",
+    "licenseFee": "$50 (Class D license); road test fee is $35",
+    "feesUrl": "https://www.mass.gov/service-details/rmv-fee-schedule",
+    "visionTestRequired": true,
+    "visionStandard": "20/40 in at least one eye, with or without corrective lenses"
+  },
+  "facts": {
+    "bacLimitAdult": "0.08%",
+    "bacLimitCommercial": "0.04%",
+    "bacLimitUnder21": "0.02% (Junior Operator / under 21)",
+    "pointSystem": false,
+    "pointSuspensionThreshold": "Uses surchargeable events, not a point total: 3 surchargeable events in 2 years requires a driver retraining course; 3 speeding tickets in 12 months brings a 30-day suspension",
+    "moveOverRule": "Move over one lane or slow down for stopped emergency, maintenance, and recovery vehicles displaying flashing lights",
+    "interstateMaxSpeed": "65 mph where posted",
+    "schoolZoneSpeed": "20 mph during posted school hours",
+    "namedLaws": ["Move Over Law", "Hands-Free Law (2020)", "Junior Operator Law"]
+  },
+  "references": [
+    {
+      "label": "Massachusetts Driver's Manual",
+      "citation": "Massachusetts RMV Driver's Manual",
+      "url": "https://www.mass.gov/how-to/request-a-drivers-manual"
+    },
+    {
+      "label": "First Time Driver? Start Here",
+      "citation": "Massachusetts RMV first-time driver page",
+      "url": "https://www.mass.gov/info-details/first-time-driver-start-here"
+    },
+    {
+      "label": "RMV Fee Schedule",
+      "citation": "Massachusetts RMV fee schedule",
+      "url": "https://www.mass.gov/service-details/rmv-fee-schedule"
+    }
+  ],
+  "effectiveDate": "2026-07-24",
+  "sourceSnapshotHash": "seed-pending-verification",
+  "reviewStatus": "adversarially-verified",
+  "lastVerified": "2026-07-24",
+  "contentVersion": 1
+}

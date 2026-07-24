@@ -1,0 +1,89 @@
+{
+  "code": "MI",
+  "name": "Michigan",
+  "agencyName": "Michigan Secretary of State",
+  "agencyShort": "SOS",
+  "officialSiteUrl": "https://www.michigan.gov/sos",
+  "handbookLandingUrl": "https://www.michigan.gov/sos/all-services/manuals/what-every-driver-must-know",
+  "handbookFormat": "mixed",
+  "handbookEditionYear": 2025,
+  "handbookCopyrightStatus": "unknown",
+  "applicantVariants": [
+    { "id": "under-18", "label": "Under 18 (Graduated Licensing Level 1/Level 2)" },
+    { "id": "adult", "label": "Adult (18+, original operator license)" }
+  ],
+  "examVariants": [
+    {
+      "variantId": "all",
+      "label": "Knowledge test (Secretary of State branch)",
+      "numQuestions": 50,
+      "numToPass": 40,
+      "languages": ["en"],
+      "onlineAvailable": true
+    }
+  ],
+  "retake": {
+    "waitBetweenAttempts": "Retake at a later date; contact a Secretary of State branch for scheduling"
+  },
+  "gdl": {
+    "permitMinAge": "14 yrs 9 mo (Level 1, after driver education Segment 1)",
+    "provisionalMinAge": "16 (Level 2)",
+    "fullLicenseMinAge": "17 (Level 3 / full license after Level 2 requirements)",
+    "permitHoldingPeriod": "Level 1 held at least 6 months",
+    "supervisedHoursRequired": "50 hours (10 at night)",
+    "nightHoursRequired": "10 hours",
+    "nightCurfew": "Level 2: no unsupervised driving 10 p.m.-5 a.m. (employment and authorized exceptions)",
+    "passengerLimits": "Level 2: no more than 1 passenger under 21 (with exceptions)",
+    "driverEdRequired": true
+  },
+  "process": {
+    "appointmentRequired": "encouraged",
+    "schedulingUrl": "https://www.michigan.gov/sos/all-services/make-an-appointment",
+    "requiredDocuments": [
+      "Proof of identity and legal presence (certified birth certificate or valid U.S. passport)",
+      "Proof of a valid Social Security Number",
+      "Proof of Michigan residency (typically two documents)",
+      "Minors: proof of driver education completion (Segment 1/Segment 2 certificate)"
+    ],
+    "realIdNotes": "Michigan offers a REAL ID-compliant license (star in a circle). Bring identity/legal-presence, SSN, and Michigan residency documents.",
+    "permitFee": "$25 (adult Temporary Instruction Permit; teen GDL licensing may differ)",
+    "licenseFee": "$25 (original operator license)",
+    "feesUrl": "https://www.michigan.gov/sos/all-services/fees",
+    "visionTestRequired": true,
+    "visionStandard": "At least 20/40 in at least one eye, with or without corrective lenses"
+  },
+  "facts": {
+    "bacLimitAdult": "0.08% (0.17% triggers enhanced High BAC 'Super Drunk' penalties)",
+    "bacLimitCommercial": "0.04%",
+    "bacLimitUnder21": "0.02% (zero tolerance)",
+    "pointSystem": true,
+    "pointSuspensionThreshold": "12 points in 2 years can trigger a driver reexamination and possible suspension",
+    "moveOverRule": "Slow down and, if safe, move over one lane for stopped emergency, tow, and utility vehicles displaying flashing lights",
+    "interstateMaxSpeed": "70 mph (75 mph on some posted rural freeway segments)",
+    "schoolZoneSpeed": "As posted (commonly 25 mph when children are present)",
+    "namedLaws": ["Kelsey's Law (teen cell phone ban)", "Michigan Hands-Free Law (2023)", "Move Over Law", "High BAC 'Super Drunk' Law"]
+  },
+  "references": [
+    {
+      "label": "What Every Driver Must Know",
+      "citation": "Michigan SOS 'What Every Driver Must Know' (SOS-133, 2025 ed.)",
+      "url": "https://www.michigan.gov/sos/all-services/manuals/what-every-driver-must-know"
+    },
+    {
+      "label": "Impaired Driving Law",
+      "citation": "Michigan State Police / OHSP Impaired Driving Law; MCL 257.625",
+      "url": "https://www.michigan.gov/msp/divisions/ohsp/ohsp-traffic-safety-programs/impaired-driving/impaired-driving-law"
+    },
+    {
+      "label": "Distracted Driving (Hands-Free Law)",
+      "citation": "Michigan OHSP Distracted Driving; MCL 257.602b",
+      "url": "https://www.michigan.gov/msp/divisions/ohsp/traffic-safety-programs/distracted-driving"
+    }
+  ],
+  "effectiveDate": "2026-07-24",
+  "sourceSnapshotHash": "seed-pending-verification",
+  "reviewStatus": "draft",
+  "verifyNote": "Current Michigan SOS sources confirm adult online availability and fees but do not publish the exact operational knowledge-test question count or passing count; 50/40 remains unconfirmed.",
+  "lastVerified": "2026-07-24",
+  "contentVersion": 1
+}

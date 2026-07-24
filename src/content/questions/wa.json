@@ -1,0 +1,252 @@
+[
+  {
+    "id": "wa-alc-001",
+    "category": "alcohol-drugs",
+    "stateScope": ["WA"],
+    "prompt": "In Washington, a driver under 21 can be charged for driving with a blood alcohol concentration (BAC) as low as:",
+    "options": ["0.01%", "0.02%", "0.05%", "0.08%"],
+    "correctIndex": 1,
+    "explanation": "Washington's zero-tolerance law makes it illegal for a driver under 21 to drive with a BAC of 0.02% or higher, which can lead to license suspension.",
+    "difficulty": "medium",
+    "references": [{ "label": "Washington Driver Guide", "citation": "WA DOL Washington Driver Guide, Alcohol, Drugs and Driving", "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "wa-alc-002",
+    "category": "alcohol-drugs",
+    "stateScope": ["WA"],
+    "prompt": "For drivers 21 and older, Washington's legal blood alcohol concentration limit is:",
+    "options": ["0.05%", "0.08%", "0.10%", "0.04%"],
+    "correctIndex": 1,
+    "explanation": "The per se limit for adult drivers in Washington is 0.08%. Commercial drivers are limited to 0.04%, and drivers under 21 to 0.02%.",
+    "difficulty": "easy",
+    "references": [{ "label": "Washington Driver Guide", "citation": "WA DOL Washington Driver Guide, Alcohol, Drugs and Driving", "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "wa-speed-001",
+    "category": "speed-limits",
+    "stateScope": ["WA"],
+    "prompt": "Unless otherwise posted, the speed limit in a Washington school zone when children are present is:",
+    "options": ["15 mph", "20 mph", "25 mph", "30 mph"],
+    "correctIndex": 1,
+    "explanation": "Washington's school-zone speed limit is 20 mph when children are present or as posted, and violations carry doubled fines.",
+    "difficulty": "medium",
+    "references": [{ "label": "Washington Driver Guide", "citation": "WA DOL Washington Driver Guide, Speed Limits", "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "wa-speed-002",
+    "category": "speed-limits",
+    "stateScope": ["WA"],
+    "prompt": "The maximum speed limit posted on Washington's rural interstate highways is:",
+    "options": ["60 mph", "65 mph", "70 mph", "75 mph"],
+    "correctIndex": 2,
+    "explanation": "Washington posts a maximum of 70 mph on certain rural interstate segments. Many other roads are lower, so always obey the posted sign.",
+    "difficulty": "medium",
+    "references": [{ "label": "Washington Driver Guide", "citation": "WA DOL Washington Driver Guide, Speed Limits", "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "wa-pts-001",
+    "category": "penalties-points",
+    "stateScope": ["WA"],
+    "prompt": "For a regular Washington driver, which moving-violation record triggers a 60-day suspension?",
+    "options": [
+      "12 points in 2 years",
+      "6 moving violations in 12 months or 7 in 24 months",
+      "Any 2 moving violations in 5 years",
+      "Only an alcohol-related violation"
+    ],
+    "correctIndex": 1,
+    "explanation": "Washington does not use a numeric point system. A regular driver's license is suspended for 60 days after 6 moving violations in 12 months or 7 moving violations in 24 months.",
+    "difficulty": "hard",
+    "references": [{ "label": "Washington Driver Guide", "citation": "WA DOL Washington Driver Guide, Your Driving Record", "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "wa-gdl-001",
+    "category": "gdl-teen",
+    "stateScope": ["WA"],
+    "prompt": "In Washington, a teen may get an instruction permit at age 15 only if they:",
+    "options": [
+      "Have a job",
+      "Are enrolled in an approved driver education course",
+      "Have parental permission alone",
+      "Live more than 10 miles from school"
+    ],
+    "correctIndex": 1,
+    "explanation": "Washington allows an instruction permit at 15 if the teen is enrolled in an approved driver education course; otherwise the minimum age is 15 years and 6 months.",
+    "difficulty": "medium",
+    "references": [{ "label": "Washington Driver Guide", "citation": "WA DOL Washington Driver Guide, Teens and Driving", "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "wa-gdl-002",
+    "category": "gdl-teen",
+    "stateScope": ["WA"],
+    "prompt": "A Washington intermediate license holder generally may not drive between:",
+    "options": [
+      "11 p.m. and 5 a.m.",
+      "Midnight and 4 a.m.",
+      "1 a.m. and 5 a.m.",
+      "10 p.m. and 6 a.m."
+    ],
+    "correctIndex": 2,
+    "explanation": "For the first 12 months, Washington intermediate license holders may not drive between 1 a.m. and 5 a.m. unless supervised by a licensed adult 25 or older or driving for an approved reason.",
+    "difficulty": "medium",
+    "references": [{ "label": "Washington Driver Guide", "citation": "WA DOL Washington Driver Guide, Intermediate License", "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "wa-gdl-003",
+    "category": "gdl-teen",
+    "stateScope": ["WA"],
+    "prompt": "During the first 6 months with a Washington intermediate license, the driver may carry:",
+    "options": [
+      "Up to three passengers under 20",
+      "No passengers under 20 (except family members)",
+      "Only one passenger under 20",
+      "Any number of passengers"
+    ],
+    "correctIndex": 1,
+    "explanation": "For the first 6 months, a Washington intermediate driver may not carry passengers under 20 unless they are family members. For the next 6 months, no more than three passengers under 20.",
+    "difficulty": "hard",
+    "references": [{ "label": "Washington Driver Guide", "citation": "WA DOL Washington Driver Guide, Intermediate License", "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "wa-gdl-004",
+    "category": "gdl-teen",
+    "stateScope": ["WA"],
+    "prompt": "Before getting an intermediate license, a Washington teen must complete supervised driving practice of:",
+    "options": [
+      "30 hours, 5 at night",
+      "40 hours, 10 at night",
+      "50 hours, 10 at night",
+      "60 hours, 15 at night"
+    ],
+    "correctIndex": 2,
+    "explanation": "Washington requires 50 hours of supervised driving, including 10 hours at night, before a teen can get an intermediate license.",
+    "difficulty": "hard",
+    "references": [{ "label": "Washington Driver Guide", "citation": "WA DOL Washington Driver Guide, Teens and Driving", "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "wa-laws-001",
+    "category": "traffic-laws",
+    "stateScope": ["WA"],
+    "prompt": "Under Washington's E-DUI (hands-free electronics) law, while driving you may:",
+    "options": [
+      "Hold your phone to read a text",
+      "Not hold a phone or other electronic device in your hand",
+      "Watch a video if stopped in traffic",
+      "Use a hand-held device if you are over 18"
+    ],
+    "correctIndex": 1,
+    "explanation": "Washington's E-DUI law prohibits holding a phone or electronic device while driving, including while stopped in traffic. Use hands-free or voice features only.",
+    "difficulty": "medium",
+    "references": [{ "label": "Washington Driver Guide", "citation": "WA DOL Washington Driver Guide, Distracted Driving (E-DUI)", "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "wa-laws-002",
+    "category": "traffic-laws",
+    "stateScope": ["WA"],
+    "prompt": "Under Washington's Move Over Law, when approaching a stopped emergency or tow vehicle with flashing lights, you must:",
+    "options": [
+      "Keep your speed and lane",
+      "Move over one lane if safe, or slow down if you cannot change lanes",
+      "Stop completely on the shoulder",
+      "Flash your headlights and pass"
+    ],
+    "correctIndex": 1,
+    "explanation": "Washington's Move Over Law requires drivers to move over one lane away from stopped emergency, tow, and roadside-assistance vehicles displaying flashing lights, or to slow down if changing lanes is not safe.",
+    "difficulty": "medium",
+    "references": [{ "label": "Washington Driver Guide", "citation": "WA DOL Washington Driver Guide, Emergency Vehicles", "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "wa-laws-003",
+    "category": "traffic-laws",
+    "stateScope": ["WA"],
+    "prompt": "Washington's knowledge test has 40 questions. To pass, you must answer correctly at least:",
+    "options": ["28 (70%)", "30 (75%)", "32 (80%)", "36 (90%)"],
+    "correctIndex": 2,
+    "explanation": "The Washington knowledge test has 40 questions, and you must answer at least 32 correctly (80%) to pass.",
+    "difficulty": "easy",
+    "references": [{ "label": "Washington Driver Guide", "citation": "WA DOL Washington Driver Guide, Knowledge Test", "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "wa-safe-001",
+    "category": "safe-driving",
+    "stateScope": ["WA"],
+    "prompt": "A standard Washington driver license is NOT valid for boarding domestic flights under federal REAL ID rules. The Washington credential that IS accepted is the:",
+    "options": [
+      "Standard license with a star",
+      "Enhanced Driver License (EDL)",
+      "Instruction permit",
+      "Commercial driver license"
+    ],
+    "correctIndex": 1,
+    "explanation": "Washington's standard license is not REAL ID-compliant. The Enhanced Driver License (EDL), which verifies identity, U.S. citizenship, and residency, meets federal requirements for domestic air travel.",
+    "difficulty": "medium",
+    "references": [{ "label": "Washington Driver Guide", "citation": "WA DOL Washington Driver Guide, Types of Licenses", "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "wa-gdl-005",
+    "category": "gdl-teen",
+    "stateScope": ["WA"],
+    "prompt": "The minimum age to obtain a Washington intermediate driver license is:",
+    "options": ["15", "16", "17", "18"],
+    "correctIndex": 1,
+    "explanation": "A Washington teen may get an intermediate license at 16 after holding an instruction permit for at least 6 months, completing driver education, and logging the required supervised hours.",
+    "difficulty": "medium",
+    "references": [{ "label": "Washington Driver Guide", "citation": "WA DOL Washington Driver Guide, Intermediate License", "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "wa-safe-002",
+    "category": "safe-driving",
+    "stateScope": ["WA"],
+    "prompt": "In Washington, before applying for an intermediate license a teen must hold an instruction permit for at least:",
+    "options": ["30 days", "3 months", "6 months", "12 months"],
+    "correctIndex": 2,
+    "explanation": "Washington requires teens to hold an instruction permit for a minimum of 6 months (with no traffic violations in the prior 6 months) before an intermediate license.",
+    "difficulty": "medium",
+    "references": [{ "label": "Washington Driver Guide", "citation": "WA DOL Washington Driver Guide, Teens and Driving", "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  }
+]

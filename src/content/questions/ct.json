@@ -1,0 +1,277 @@
+[
+  {
+    "id": "ct-speed-001",
+    "category": "speed-limits",
+    "stateScope": ["CT"],
+    "prompt": "On a typical Connecticut interstate highway, unless a different limit is posted, the maximum speed limit is:",
+    "options": ["55 mph", "65 mph", "70 mph", "75 mph"],
+    "correctIndex": 1,
+    "explanation": "Connecticut interstates are generally posted at 65 mph, though some urban or work-zone segments are lower. Always obey the posted sign.",
+    "difficulty": "easy",
+    "references": [{ "label": "Speed limits", "citation": "CT Driver's Manual, Speed Regulation", "url": "https://portal.ct.gov/-/media/DMV/20/29/R12.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ct-alc-001",
+    "category": "alcohol-drugs",
+    "stateScope": ["CT"],
+    "prompt": "Under Connecticut's zero-tolerance law, a driver under 21 can be charged with operating under the influence with a blood alcohol concentration (BAC) as low as:",
+    "options": ["0.08%", "0.05%", "0.02%", "0.01%"],
+    "correctIndex": 2,
+    "explanation": "Connecticut sets a 0.02% BAC limit for drivers under 21. For drivers 21 and over the limit is 0.08%, and for commercial drivers it is 0.04%.",
+    "difficulty": "medium",
+    "references": [{ "label": "Alcohol and driving", "citation": "CT Driver's Manual, Alcohol/Drugs", "url": "https://portal.ct.gov/-/media/DMV/20/29/R12.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ct-penalties-001",
+    "category": "penalties-points",
+    "stateScope": ["CT"],
+    "prompt": "In Connecticut, your driver's license may be suspended for accumulating how many points on your driving record?",
+    "options": [
+      "4 or more points in 12 months",
+      "10 or more points within 24 months",
+      "12 or more points at any time",
+      "6 or more points in 6 months"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Connecticut DMV sends a warning letter at 6 points and may suspend your license once you reach 10 or more points within a 24-month period.",
+    "difficulty": "hard",
+    "references": [{ "label": "Point system", "citation": "CT Driver's Manual, Violations and Points", "url": "https://portal.ct.gov/-/media/DMV/20/29/R12.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ct-gdl-001",
+    "category": "gdl-teen",
+    "stateScope": ["CT"],
+    "prompt": "During the FIRST six months after a 16- or 17-year-old gets a Connecticut license, who may ride as a passenger?",
+    "options": [
+      "Any friends, up to three at a time",
+      "Only the parents or legal guardian, or a licensed driving instructor",
+      "Anyone as long as they are over 20",
+      "No passengers at all under any circumstances"
+    ],
+    "correctIndex": 1,
+    "explanation": "For the first six months, a newly licensed 16- or 17-year-old may carry only a parent/legal guardian (at least one of whom holds a valid license) or a licensed driving instructor. Immediate family may be added during the second six months.",
+    "difficulty": "hard",
+    "references": [{ "label": "Teen passenger restrictions", "citation": "CT Driver's Manual, 16-17 Year Old Restrictions", "url": "https://portal.ct.gov/-/media/DMV/20/29/R12.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ct-gdl-002",
+    "category": "gdl-teen",
+    "stateScope": ["CT"],
+    "prompt": "A 16- or 17-year-old Connecticut driver generally may NOT drive during which hours?",
+    "options": [
+      "9 p.m. to 6 a.m.",
+      "11 p.m. to 5 a.m.",
+      "Midnight to 4 a.m.",
+      "10 p.m. to 6 a.m."
+    ],
+    "correctIndex": 1,
+    "explanation": "Connecticut's teen curfew prohibits driving between 11 p.m. and 5 a.m. until age 18, except for limited reasons such as employment, school, medical need, or religious activities.",
+    "difficulty": "medium",
+    "references": [{ "label": "Teen curfew", "citation": "CT Driver's Manual, Nighttime Restriction", "url": "https://portal.ct.gov/-/media/DMV/20/29/R12.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ct-laws-001",
+    "category": "traffic-laws",
+    "stateScope": ["CT"],
+    "prompt": "Under Connecticut's hands-free law, a driver using a cell phone while driving must:",
+    "options": [
+      "Hold the phone only at red lights",
+      "Use the phone hands-free; holding a handheld phone while driving is prohibited",
+      "Limit handheld calls to two minutes",
+      "Only text, never call"
+    ],
+    "correctIndex": 1,
+    "explanation": "Connecticut prohibits the use of handheld mobile devices while driving. Drivers 18 and older may use hands-free technology; drivers under 18 may not use any mobile device, even hands-free.",
+    "difficulty": "easy",
+    "references": [{ "label": "Distracted driving", "citation": "CT Driver's Manual, Cell Phone Use", "url": "https://portal.ct.gov/-/media/DMV/20/29/R12.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ct-safe-001",
+    "category": "safe-driving",
+    "stateScope": ["CT"],
+    "prompt": "Connecticut's Move Over law requires that when you approach a stopped emergency or maintenance vehicle with flashing lights, you must:",
+    "options": [
+      "Stop completely until the vehicle leaves",
+      "Slow down and, when it is safe, move over one lane away from the vehicle",
+      "Sound your horn to alert the workers",
+      "Speed up to clear the area quickly"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Move Over law requires drivers to reduce speed and, when it is safe to do so, change lanes to leave an empty lane next to a stopped emergency, maintenance, or tow vehicle showing flashing lights.",
+    "difficulty": "easy",
+    "references": [{ "label": "Move Over law", "citation": "CT Driver's Manual, Emergency Vehicles", "url": "https://portal.ct.gov/-/media/DMV/20/29/R12.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ct-row-001",
+    "category": "right-of-way",
+    "stateScope": ["CT"],
+    "prompt": "At a four-way stop in Connecticut where two vehicles arrive at the same time, who has the right of way?",
+    "options": [
+      "The vehicle on the left",
+      "The vehicle on the right",
+      "The larger vehicle",
+      "Whoever accelerates first"
+    ],
+    "correctIndex": 1,
+    "explanation": "When two vehicles reach a four-way stop at the same time, the driver on the left must yield to the driver on the right.",
+    "difficulty": "easy",
+    "references": [{ "label": "Right of way", "citation": "CT Driver's Manual, Intersections", "url": "https://portal.ct.gov/-/media/DMV/20/29/R12.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ct-signals-001",
+    "category": "traffic-signals",
+    "stateScope": ["CT"],
+    "prompt": "A flashing red traffic signal means you must:",
+    "options": [
+      "Slow down and proceed with caution",
+      "Stop, then proceed when it is safe, as at a stop sign",
+      "Speed up to clear the intersection",
+      "Stop and wait for the light to turn green"
+    ],
+    "correctIndex": 1,
+    "explanation": "A flashing red light has the same meaning as a stop sign: come to a complete stop, then proceed when the way is clear.",
+    "difficulty": "easy",
+    "references": [{ "label": "Traffic signals", "citation": "CT Driver's Manual, Signals", "url": "https://portal.ct.gov/-/media/DMV/20/29/R12.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ct-signs-001",
+    "category": "road-signs",
+    "stateScope": ["CT"],
+    "prompt": "A yellow diamond-shaped sign on a Connecticut road is used to:",
+    "options": [
+      "Give a regulation you must obey by law",
+      "Warn you of a possible hazard or a change in road conditions ahead",
+      "Provide route or destination information",
+      "Mark a work zone only"
+    ],
+    "correctIndex": 1,
+    "explanation": "Yellow diamond-shaped signs are warning signs. They alert you to conditions ahead such as curves, intersections, or pedestrian crossings so you can slow down and prepare.",
+    "difficulty": "easy",
+    "references": [{ "label": "Sign shapes and colors", "citation": "CT Driver's Manual, Traffic Signs", "url": "https://portal.ct.gov/-/media/DMV/20/29/R12.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ct-markings-001",
+    "category": "pavement-markings",
+    "stateScope": ["CT"],
+    "prompt": "A solid yellow line on your side of the center of a two-lane road means:",
+    "options": [
+      "You may pass whenever the road is clear",
+      "You must not cross the line to pass",
+      "The road is one-way",
+      "Passing is allowed only at night"
+    ],
+    "correctIndex": 1,
+    "explanation": "A solid yellow line on your side of the road marks a no-passing zone; you may not cross it to pass another vehicle.",
+    "difficulty": "easy",
+    "references": [{ "label": "Pavement markings", "citation": "CT Driver's Manual, Roadway Markings", "url": "https://portal.ct.gov/-/media/DMV/20/29/R12.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ct-share-001",
+    "category": "sharing-the-road",
+    "stateScope": ["CT"],
+    "prompt": "When you approach a school bus stopped on a two-lane road with its red lights flashing and stop arm out, you must:",
+    "options": [
+      "Slow to 15 mph and pass carefully",
+      "Stop and remain stopped until the lights stop flashing and the bus moves",
+      "Pass on the left if no children are visible",
+      "Sound your horn and proceed"
+    ],
+    "correctIndex": 1,
+    "explanation": "Drivers approaching from either direction on an undivided road must stop for a school bus with flashing red lights and an extended stop arm, and stay stopped until the bus resumes motion or the lights stop.",
+    "difficulty": "medium",
+    "references": [{ "label": "School buses", "citation": "CT Driver's Manual, Sharing the Road", "url": "https://portal.ct.gov/-/media/DMV/20/29/R12.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ct-safe-002",
+    "category": "safe-driving",
+    "stateScope": ["CT"],
+    "prompt": "Connecticut law requires which occupants of a passenger vehicle to wear a seat belt?",
+    "options": [
+      "Only the driver",
+      "Only front-seat occupants",
+      "The driver and all passengers, front and rear",
+      "Only occupants under 18"
+    ],
+    "correctIndex": 2,
+    "explanation": "Connecticut requires the driver and all passengers, in both front and rear seats, to be properly restrained by a seat belt or an appropriate child restraint.",
+    "difficulty": "medium",
+    "references": [{ "label": "Occupant protection", "citation": "CT Driver's Manual, Seat Belts", "url": "https://portal.ct.gov/-/media/DMV/20/29/R12.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ct-laws-002",
+    "category": "traffic-laws",
+    "stateScope": ["CT"],
+    "prompt": "Before you may take the Connecticut knowledge test for a learner's permit, you must also complete:",
+    "options": [
+      "A 50-hour supervised driving log",
+      "The free online CT Work Zone Safety Course",
+      "A defensive driving course",
+      "A commercial vehicle inspection"
+    ],
+    "correctIndex": 1,
+    "explanation": "Connecticut requires applicants to complete the free online Work Zone Safety Course before taking the knowledge test for a learner's permit.",
+    "difficulty": "medium",
+    "references": [{ "label": "Permit requirements", "citation": "CT DMV Knowledge and Vision Test", "url": "https://portal.ct.gov/dmv/licenses-permits-ids/take-knowledge-vision-test" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "ct-park-001",
+    "category": "parking",
+    "stateScope": ["CT"],
+    "prompt": "When parking uphill next to a curb in Connecticut, you should turn your front wheels:",
+    "options": [
+      "Toward the curb",
+      "Away from the curb (toward the street)",
+      "Straight ahead",
+      "It does not matter which way"
+    ],
+    "correctIndex": 1,
+    "explanation": "When facing uphill with a curb, turn your wheels away from the curb and let the vehicle roll back slightly so a rear tire rests against the curb. This keeps the car from rolling into traffic if the brakes fail.",
+    "difficulty": "medium",
+    "references": [{ "label": "Parking on hills", "citation": "CT Driver's Manual, Parking", "url": "https://portal.ct.gov/-/media/DMV/20/29/R12.pdf" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  }
+]

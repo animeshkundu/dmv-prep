@@ -1,0 +1,257 @@
+[
+  {
+    "id": "az-speed-001",
+    "category": "speed-limits",
+    "stateScope": ["AZ"],
+    "prompt": "Unless otherwise posted, the speed limit in an Arizona school zone when children are present and school is in session is:",
+    "options": ["15 mph", "20 mph", "25 mph", "10 mph"],
+    "correctIndex": 0,
+    "explanation": "Arizona school-zone limits are typically 15 mph when children are present and school is in session, and drivers must be prepared to stop for crossing children.",
+    "difficulty": "medium",
+    "references": [{ "label": "School zones", "citation": "Arizona Driver License Manual, Speed Limits", "url": "https://azdot.gov/resources/arizona-driver-license-manual" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "az-speed-002",
+    "category": "speed-limits",
+    "stateScope": ["AZ"],
+    "prompt": "On a rural Arizona interstate highway, the maximum posted speed limit is generally:",
+    "options": ["65 mph", "70 mph", "75 mph", "80 mph"],
+    "correctIndex": 2,
+    "explanation": "Arizona posts a maximum of 75 mph on many rural interstate segments. You must always obey the posted limit, which may be lower.",
+    "difficulty": "easy",
+    "references": [{ "label": "Speed limits", "citation": "Arizona Driver License Manual, Speed Limits", "url": "https://azdot.gov/resources/arizona-driver-license-manual" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "az-alc-001",
+    "category": "alcohol-drugs",
+    "stateScope": ["AZ"],
+    "prompt": "In Arizona, a driver under 21 can be charged for driving with:",
+    "options": [
+      "A BAC of 0.08% or higher only",
+      "Any amount of alcohol in their body (zero tolerance)",
+      "A BAC of 0.05% or higher only",
+      "A BAC of 0.02% or higher only"
+    ],
+    "correctIndex": 1,
+    "explanation": "Arizona has zero tolerance for drivers under 21: it is illegal to drive with any amount (any spirituous liquor) of alcohol in the body.",
+    "difficulty": "medium",
+    "references": [{ "label": "Under-21 alcohol", "citation": "Arizona Driver License Manual, Alcohol and Driving", "url": "https://azdot.gov/resources/arizona-driver-license-manual" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "az-alc-002",
+    "category": "alcohol-drugs",
+    "stateScope": ["AZ"],
+    "prompt": "The blood alcohol concentration (BAC) at which an adult 21 or older is presumed to be driving under the influence in Arizona is:",
+    "options": ["0.05%", "0.08%", "0.10%", "0.04%"],
+    "correctIndex": 1,
+    "explanation": "For adult drivers 21 and older, the per se BAC limit in Arizona is 0.08%. Commercial drivers are limited to 0.04%.",
+    "difficulty": "easy",
+    "references": [{ "label": "DUI limits", "citation": "Arizona Driver License Manual, Alcohol and Driving", "url": "https://azdot.gov/resources/arizona-driver-license-manual" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "az-gdl-001",
+    "category": "gdl-teen",
+    "stateScope": ["AZ"],
+    "prompt": "Before applying for a Class G graduated license, an Arizona teen must hold an instruction permit for at least:",
+    "options": ["30 days", "3 months", "6 months", "12 months"],
+    "correctIndex": 2,
+    "explanation": "Arizona requires teens to hold the instruction permit for at least 6 months (or until age 18) before getting a graduated license.",
+    "difficulty": "medium",
+    "references": [{ "label": "Teen permit", "citation": "ADOT Teen Driver Requirements", "url": "https://azdot.gov/mvd/services/driver-services/teen-drivers/permit-and-license-requirements" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "az-gdl-002",
+    "category": "gdl-teen",
+    "stateScope": ["AZ"],
+    "prompt": "During the first 6 months with an Arizona Class G graduated license, the driver generally may not drive between:",
+    "options": [
+      "10 p.m. and 4 a.m.",
+      "Midnight and 5 a.m.",
+      "11 p.m. and 6 a.m.",
+      "9 p.m. and 5 a.m."
+    ],
+    "correctIndex": 1,
+    "explanation": "For the first 6 months, a Class G license holder may not drive between midnight and 5 a.m. unless traveling to or from work or school, or accompanied by a parent or guardian.",
+    "difficulty": "hard",
+    "references": [{ "label": "Teen restrictions", "citation": "ADOT Teen Driver Requirements", "url": "https://azdot.gov/mvd/services/driver-services/teen-drivers/permit-and-license-requirements" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "az-gdl-003",
+    "category": "gdl-teen",
+    "stateScope": ["AZ"],
+    "prompt": "For the first 6 months with an Arizona graduated license, the driver may carry:",
+    "options": [
+      "No passengers at all",
+      "No more than one passenger under 18 (siblings excepted)",
+      "Up to three passengers under 18",
+      "Any number of passengers"
+    ],
+    "correctIndex": 1,
+    "explanation": "During the first 6 months, a graduated-license holder may not carry more than one passenger under 18 unless the passengers are siblings or a parent/guardian is in the vehicle.",
+    "difficulty": "hard",
+    "references": [{ "label": "Passenger limits", "citation": "ADOT Teen Driver Requirements", "url": "https://azdot.gov/mvd/services/driver-services/teen-drivers/permit-and-license-requirements" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "az-gdl-004",
+    "category": "gdl-teen",
+    "stateScope": ["AZ"],
+    "prompt": "How many hours of supervised driving practice must an Arizona teen complete before a graduated license?",
+    "options": [
+      "20 hours, all daytime",
+      "30 hours, including 10 at night",
+      "50 hours, including 10 at night",
+      "40 hours, including 5 at night"
+    ],
+    "correctIndex": 1,
+    "explanation": "Arizona teens must log 30 hours of supervised practice, at least 10 of them at night. Completing an approved driver education course can reduce this to 20 hours (6 at night).",
+    "difficulty": "medium",
+    "references": [{ "label": "Practice hours", "citation": "ADOT Teen Driver Requirements", "url": "https://azdot.gov/mvd/services/driver-services/teen-drivers/permit-and-license-requirements" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "az-pts-001",
+    "category": "penalties-points",
+    "stateScope": ["AZ"],
+    "prompt": "In Arizona, accumulating 8 or more points within 12 months can require a driver to:",
+    "options": [
+      "Pay a flat $50 fine only",
+      "Attend Traffic Survival School",
+      "Retake the road test immediately",
+      "Surrender the vehicle registration"
+    ],
+    "correctIndex": 1,
+    "explanation": "Drivers who reach 8 or more points in 12 months may be required to attend Traffic Survival School. Higher point totals can lead to license suspension.",
+    "difficulty": "medium",
+    "references": [{ "label": "Points", "citation": "Arizona Driver License Manual, Point System", "url": "https://azdot.gov/resources/arizona-driver-license-manual" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "az-laws-001",
+    "category": "traffic-laws",
+    "stateScope": ["AZ"],
+    "prompt": "Under Arizona's hands-free law, while driving you may:",
+    "options": [
+      "Hold and talk on a phone if the call is short",
+      "Only use a phone in hands-free mode (voice or single touch/swipe)",
+      "Text while stopped at a red light",
+      "Use any handheld device if you are over 18"
+    ],
+    "correctIndex": 1,
+    "explanation": "Arizona law prohibits holding or supporting a phone while driving. Phones may be used only in hands-free mode, such as voice commands or a single tap or swipe.",
+    "difficulty": "easy",
+    "references": [{ "label": "Hands-free", "citation": "Arizona Driver License Manual, Distracted Driving (A.R.S. 28-914)", "url": "https://azdot.gov/resources/arizona-driver-license-manual" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "az-laws-002",
+    "category": "traffic-laws",
+    "stateScope": ["AZ"],
+    "prompt": "Under Arizona's Move Over Law, when you approach a stopped vehicle displaying flashing lights on the roadside, you must:",
+    "options": [
+      "Maintain speed and stay in your lane",
+      "Move over one lane if safe, or slow down if you cannot",
+      "Stop completely until the vehicle leaves",
+      "Sound your horn and continue"
+    ],
+    "correctIndex": 1,
+    "explanation": "Arizona's Move Over Law requires drivers to move over one lane away from a stopped emergency, tow, or utility vehicle with flashing lights, or to slow down if changing lanes is not possible.",
+    "difficulty": "medium",
+    "references": [{ "label": "Move Over", "citation": "Arizona Driver License Manual (A.R.S. 28-775)", "url": "https://azdot.gov/resources/arizona-driver-license-manual" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "az-proc-001",
+    "category": "traffic-laws",
+    "stateScope": ["AZ"],
+    "prompt": "The minimum age to apply for an Arizona Class G instruction permit is:",
+    "options": ["15 years", "15 years 6 months", "16 years", "14 years 6 months"],
+    "correctIndex": 1,
+    "explanation": "You must be at least 15 years and 6 months old to apply for a Class G instruction permit in Arizona.",
+    "difficulty": "easy",
+    "references": [{ "label": "Permit age", "citation": "ADOT Permit Test page", "url": "https://azdot.gov/mvd/services/driver-license-ID/permit-test" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "az-signs-001",
+    "category": "road-signs",
+    "stateScope": ["AZ"],
+    "prompt": "In Arizona's dust-prone areas, if you encounter a severe dust storm and cannot see, the recommended action is to:",
+    "options": [
+      "Slow down but keep driving with lights on",
+      "Pull off the roadway, stop, turn off lights, and take your foot off the brake",
+      "Turn on hazard lights and continue at reduced speed",
+      "Stop in the travel lane and wait"
+    ],
+    "correctIndex": 1,
+    "explanation": "Arizona's 'Pull Aside, Stay Alive' guidance says to exit the roadway during a dust storm, stop, turn off all lights, and keep your foot off the brake so following drivers are not led into you.",
+    "difficulty": "hard",
+    "references": [{ "label": "Dust storms", "citation": "Arizona Driver License Manual, Special Driving Conditions", "url": "https://azdot.gov/resources/arizona-driver-license-manual" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "az-row-001",
+    "category": "right-of-way",
+    "stateScope": ["AZ"],
+    "prompt": "In Arizona, when you approach a school bus stopped with its red lights flashing on an undivided two-lane road, you must:",
+    "options": [
+      "Slow to 15 mph and pass carefully",
+      "Stop, from either direction, until the lights stop flashing",
+      "Continue if no children are visible",
+      "Stop only if you are behind the bus"
+    ],
+    "correctIndex": 1,
+    "explanation": "On an undivided roadway, traffic in both directions must stop when a school bus shows flashing red lights, and remain stopped until the lights are turned off.",
+    "difficulty": "medium",
+    "references": [{ "label": "School buses", "citation": "Arizona Driver License Manual, Sharing the Road", "url": "https://azdot.gov/resources/arizona-driver-license-manual" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "az-safe-001",
+    "category": "safe-driving",
+    "stateScope": ["AZ"],
+    "prompt": "An Arizona instruction permit generally remains valid for:",
+    "options": ["6 months", "12 months", "24 months", "3 years"],
+    "correctIndex": 1,
+    "explanation": "An Arizona instruction permit is valid for 12 months from the date it is issued.",
+    "difficulty": "easy",
+    "references": [{ "label": "Permit validity", "citation": "ADOT Permit Test page", "url": "https://azdot.gov/mvd/services/driver-license-ID/permit-test" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  }
+]

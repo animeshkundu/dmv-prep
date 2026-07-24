@@ -1,0 +1,94 @@
+{
+  "code": "NV",
+  "name": "Nevada",
+  "agencyName": "Nevada Department of Motor Vehicles",
+  "agencyShort": "DMV",
+  "officialSiteUrl": "https://dmv.nv.gov/",
+  "handbookLandingUrl": "https://dmv.nv.gov/dlhandbook.htm",
+  "handbookPdfUrl": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+  "handbookFormat": "pdf",
+  "handbookEditionYear": 2024,
+  "handbookCopyrightStatus": "unknown",
+  "applicantVariants": [
+    { "id": "under-18", "label": "Under 18 (instruction permit / GDL)" },
+    { "id": "adult", "label": "Adult (18+)" }
+  ],
+  "examVariants": [
+    {
+      "variantId": "class-c",
+      "label": "Class C knowledge test (all applicants)",
+      "numQuestions": 25,
+      "numToPass": 20,
+      "languages": ["en", "es"],
+      "onlineAvailable": true
+    }
+  ],
+  "retake": {
+    "retakeFee": "$10 for each DMV retest; the online KnowToDrive exam charges $6.75 each time"
+  },
+  "gdl": {
+    "permitMinAge": "15 yrs 6 mo",
+    "provisionalMinAge": "16",
+    "fullLicenseMinAge": "18",
+    "permitHoldingPeriod": "6 months",
+    "supervisedHoursRequired": "50 hours (10 at night)",
+    "nightHoursRequired": "10 hours",
+    "nightCurfew": "Drivers under 18 may not drive 10 p.m.-5 a.m. unless driving to or from a scheduled event",
+    "passengerLimits": "For the first 6 months, no passengers under 18 except immediate family",
+    "driverEdRequired": true
+  },
+  "process": {
+    "appointmentRequired": "required",
+    "schedulingUrl": "https://dmv.nv.gov/appointments.htm",
+    "requiredDocuments": [
+      "Proof of identity (certified birth certificate or valid U.S. passport)",
+      "Proof of Social Security Number",
+      "Two documents proving Nevada residential address",
+      "Under 18: DMV-301 Certification of Attendance signed by a school official"
+    ],
+    "realIdNotes": "Nevada issues both standard and REAL ID-compliant cards. A REAL ID requires one proof of identity, proof of the SSN, and two proofs of Nevada residential address. A $5.00 surcharge applies to a REAL ID card.",
+    "permitFee": "$22.25 instruction permit plus $25 initial testing fee (under age 65)",
+    "licenseFee": "$41.25 original Class C license plus $25 initial testing fee (under age 65)",
+    "feesUrl": "https://dmv.nv.gov/dlfees.htm",
+    "visionTestRequired": true,
+    "visionStandard": "20/40 in at least one eye, with or without corrective lenses"
+  },
+  "facts": {
+    "bacLimitAdult": "0.08%",
+    "bacLimitCommercial": "0.04%",
+    "bacLimitUnder21": "0.02% (zero tolerance)",
+    "pointSystem": true,
+    "pointSuspensionThreshold": "12 points in 12 months results in a 6-month suspension",
+    "moveOverRule": "Move over or slow down for stopped emergency, tow, and highway maintenance vehicles displaying flashing lights",
+    "interstateMaxSpeed": "80 mph (posted segments of rural interstate)",
+    "schoolZoneSpeed": "15 or 25 mph as posted; generally effective on school days from 30 minutes before school begins until 30 minutes after school ends, unless otherwise posted",
+    "namedLaws": ["Move Over Law", "Zero Tolerance Law", "Hands-Free Law"]
+  },
+  "references": [
+    {
+      "label": "Nevada Driver's Handbook",
+      "citation": "Nevada DMV Driver's Handbook (DMV 700, 2024)",
+      "url": "https://dmv.nv.gov/dlhandbook.htm"
+    },
+    {
+      "label": "Nevada DMV demerit point system",
+      "citation": "Nevada DMV Demerit Point System",
+      "url": "https://dmv.nv.gov/dlpoints.htm"
+    },
+    {
+      "label": "Nevada DMV driver license fees",
+      "citation": "Nevada DMV Driver License Fees",
+      "url": "https://dmv.nv.gov/dlfees.htm"
+    },
+    {
+      "label": "Nevada DMV testing",
+      "citation": "Nevada DMV Knowledge and Skills Tests",
+      "url": "https://dmv.nv.gov/dltesting.htm"
+    }
+  ],
+  "effectiveDate": "2026-07-24",
+  "sourceSnapshotHash": "seed-pending-verification",
+  "reviewStatus": "adversarially-verified",
+  "lastVerified": "2026-07-24",
+  "contentVersion": 1
+}

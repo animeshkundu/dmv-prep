@@ -1,0 +1,244 @@
+[
+  {
+    "id": "wy-speed-001",
+    "category": "speed-limits",
+    "stateScope": ["WY"],
+    "prompt": "On some posted Wyoming Interstate segments, the maximum speed limit may be as high as:",
+    "options": ["65 mph", "70 mph", "75 mph", "80 mph"],
+    "correctIndex": 3,
+    "explanation": "Wyoming allows a maximum of 80 mph on certain posted Interstate segments; where not posted for 80, the Interstate limit is 75 mph. Always drive at a safe speed for conditions.",
+    "difficulty": "medium",
+    "references": [{ "label": "Maximum speed limits", "citation": "Wyo. Stat. § 31-5-301", "url": "https://law.justia.com/codes/wyoming/title-31/chapter-5/article-3/section-31-5-301/" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "wy-speed-002",
+    "category": "speed-limits",
+    "stateScope": ["WY"],
+    "prompt": "The speed limit in a posted Wyoming school zone is generally:",
+    "options": ["15 mph", "20 mph", "25 mph", "35 mph"],
+    "correctIndex": 1,
+    "explanation": "Wyoming's posted school-zone speed limit is 20 mph. Slow to that limit whenever the zone is in effect and watch carefully for children.",
+    "difficulty": "easy",
+    "references": [{ "label": "School zones", "citation": "Wyoming Rules of the Road — Speed Limits", "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "wy-alcohol-drugs-001",
+    "category": "alcohol-drugs",
+    "stateScope": ["WY"],
+    "prompt": "In Wyoming, a driver age 21 or older is considered legally under the influence at a BAC of:",
+    "options": ["0.02%", "0.04%", "0.08%", "0.10%"],
+    "correctIndex": 2,
+    "explanation": "Wyoming's legal BAC limit for drivers 21 and older is 0.08%. Commercial drivers are limited to 0.04%, and drivers under 21 face a 0.02% zero-tolerance standard.",
+    "difficulty": "easy",
+    "references": [{ "label": "DUI limits", "citation": "Wyoming Rules of the Road — Alcohol and Driving", "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "wy-alcohol-drugs-002",
+    "category": "alcohol-drugs",
+    "stateScope": ["WY"],
+    "prompt": "By driving on Wyoming roads, you agree under the implied-consent law to:",
+    "options": [
+      "Waive the right to a lawyer",
+      "Submit to chemical testing for alcohol or drugs if lawfully arrested",
+      "Pay any fine without a hearing",
+      "Allow a search of your home"
+    ],
+    "correctIndex": 1,
+    "explanation": "Under Wyoming's implied-consent law, operating a vehicle means you have consented to chemical testing (breath, blood, or urine) when lawfully arrested for impaired driving. Refusing leads to license suspension.",
+    "difficulty": "medium",
+    "references": [{ "label": "Implied consent", "citation": "Wyoming Rules of the Road — Implied Consent", "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "wy-gdl-teen-001",
+    "category": "gdl-teen",
+    "stateScope": ["WY"],
+    "prompt": "A Wyoming intermediate (restricted) permit holder generally may not drive between:",
+    "options": [
+      "9 p.m. and 6 a.m.",
+      "10 p.m. and 4 a.m.",
+      "11 p.m. and 5 a.m.",
+      "Midnight and 6 a.m."
+    ],
+    "correctIndex": 2,
+    "explanation": "Wyoming's intermediate permit restricts driving between 11 p.m. and 5 a.m., with limited exceptions such as work or emergencies. This helps new drivers avoid high-risk late-night driving.",
+    "difficulty": "medium",
+    "references": [{ "label": "Graduated licensing", "citation": "Wyoming Rules of the Road — Graduated Driver License", "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "wy-gdl-teen-002",
+    "category": "gdl-teen",
+    "stateScope": ["WY"],
+    "prompt": "How long must a Wyoming learner permit be held before a teen can move to the intermediate stage?",
+    "options": ["10 days", "30 days", "6 months", "12 months"],
+    "correctIndex": 0,
+    "explanation": "Wyoming requires a learner permit to be held for a minimum of 10 days before advancing, along with completing required supervised practice driving.",
+    "difficulty": "hard",
+    "references": [{ "label": "Learner stage", "citation": "Wyoming Rules of the Road — Graduated Driver License", "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "wy-gdl-teen-003",
+    "category": "gdl-teen",
+    "stateScope": ["WY"],
+    "prompt": "While holding a Wyoming intermediate permit, you may carry at most:",
+    "options": [
+      "No passengers at all",
+      "One passenger under 18 who is not immediate family",
+      "Three passengers under 18",
+      "Any number of passengers"
+    ],
+    "correctIndex": 1,
+    "explanation": "During the intermediate stage, no more than one passenger under 18 who is not a member of your immediate family may ride with you, reducing distractions for new drivers.",
+    "difficulty": "medium",
+    "references": [{ "label": "Passenger limits", "citation": "Wyoming Rules of the Road — Graduated Driver License", "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "wy-safe-driving-001",
+    "category": "safe-driving",
+    "stateScope": ["WY"],
+    "prompt": "Wyoming Interstates are frequently closed or restricted in winter mainly because of:",
+    "options": [
+      "Routine repaving",
+      "High winds and blowing snow that cause whiteouts and ground blizzards",
+      "Wildlife migration only",
+      "Fuel shortages"
+    ],
+    "correctIndex": 1,
+    "explanation": "High winds and blowing snow can create whiteout conditions and ground blizzards on Wyoming's open highways. Check road conditions, obey closures, and slow down or wait out severe weather.",
+    "difficulty": "medium",
+    "references": [{ "label": "Winter driving", "citation": "Wyoming Rules of the Road — Adverse Conditions", "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "wy-safe-driving-002",
+    "category": "safe-driving",
+    "stateScope": ["WY"],
+    "prompt": "Wyoming's Move Over law requires that, when approaching a stopped emergency or service vehicle with flashing lights, you:",
+    "options": [
+      "Keep your speed and stay in your lane",
+      "Move over a lane when safe, or slow down if you cannot",
+      "Come to a complete stop in the roadway",
+      "Turn on your hazard lights and continue at full speed"
+    ],
+    "correctIndex": 1,
+    "explanation": "Wyoming law requires drivers to move over one lane away from a stopped emergency or service vehicle displaying flashing lights when it is safe, and otherwise to slow down and pass with caution.",
+    "difficulty": "easy",
+    "references": [{ "label": "Move Over law", "citation": "Wyoming Rules of the Road — Sharing the Road", "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "wy-road-signs-001",
+    "category": "road-signs",
+    "stateScope": ["WY"],
+    "prompt": "An eight-sided (octagon) red sign always means:",
+    "options": ["Yield", "Stop", "Do not enter", "Slow down"],
+    "correctIndex": 1,
+    "explanation": "The octagon shape is used only for STOP signs. You must come to a complete stop, yield to pedestrians and cross traffic, and proceed only when it is safe.",
+    "difficulty": "easy",
+    "references": [{ "label": "Sign shapes", "citation": "Wyoming Rules of the Road — Traffic Signs", "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "wy-right-of-way-001",
+    "category": "right-of-way",
+    "stateScope": ["WY"],
+    "prompt": "When you approach an uncontrolled intersection at about the same time as a vehicle on your right, you should:",
+    "options": [
+      "Proceed first because you are on the left",
+      "Yield to the vehicle on your right",
+      "Speed up to clear the intersection",
+      "Stop and wait for the other driver to wave you through"
+    ],
+    "correctIndex": 1,
+    "explanation": "At an intersection without signs or signals, the driver on the left must yield to the driver on the right when both arrive at about the same time.",
+    "difficulty": "medium",
+    "references": [{ "label": "Right-of-way", "citation": "Wyoming Rules of the Road — Right-of-Way", "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "wy-pavement-markings-001",
+    "category": "pavement-markings",
+    "stateScope": ["WY"],
+    "prompt": "A broken (dashed) yellow center line means:",
+    "options": [
+      "Passing is never allowed",
+      "You may pass when it is safe to do so",
+      "The lane is for turning only",
+      "Traffic flows one way"
+    ],
+    "correctIndex": 1,
+    "explanation": "A broken yellow center line indicates that passing is permitted from your side when the way ahead is clear and it is safe. A solid yellow line on your side would prohibit passing.",
+    "difficulty": "medium",
+    "references": [{ "label": "Pavement markings", "citation": "Wyoming Rules of the Road — Pavement Markings", "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "wy-sharing-the-road-001",
+    "category": "sharing-the-road",
+    "stateScope": ["WY"],
+    "prompt": "When you meet livestock being driven or herded on or along a Wyoming road, you should:",
+    "options": [
+      "Sound your horn to move them faster",
+      "Slow down or stop and follow any directions from the person handling the animals",
+      "Drive through the herd at normal speed",
+      "Flash your high beams repeatedly"
+    ],
+    "correctIndex": 1,
+    "explanation": "On Wyoming's rural roads you may meet cattle or other livestock. Slow down or stop, avoid startling the animals with your horn, and follow any signals from the person herding them.",
+    "difficulty": "medium",
+    "references": [{ "label": "Rural hazards", "citation": "Wyoming Rules of the Road — Sharing the Road", "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "adversarially-verified",
+    "lastVerified": "2026-07-24"
+  },
+  {
+    "id": "wy-penalties-points-001",
+    "category": "penalties-points",
+    "stateScope": ["WY"],
+    "prompt": "Unlike many states, Wyoming does not use a demerit-point system. Instead, your license can be suspended for:",
+    "options": [
+      "Any single speeding ticket",
+      "Four moving-violation convictions within a 12-month period",
+      "Parking violations",
+      "Driving an out-of-state vehicle"
+    ],
+    "correctIndex": 1,
+    "explanation": "Wyoming does not assign points to violations. Instead, four moving-violation convictions within a 12-month period lead to a license suspension, and serious offenses can bring immediate action.",
+    "difficulty": "hard",
+    "references": [{ "label": "Suspension for violations", "citation": "Wyoming Rules of the Road — Driver Improvement", "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html" }],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "draft",
+    "verifyNote": "An accessible official WYDOT passage confirming both the absence of a demerit-point system and the four-moving-violations-in-12-months suspension rule was not located.",
+    "lastVerified": "2026-07-24"
+  }
+]

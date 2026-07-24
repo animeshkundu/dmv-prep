@@ -1,0 +1,90 @@
+{
+  "code": "IA",
+  "name": "Iowa",
+  "agencyName": "Iowa Department of Transportation (Motor Vehicle Division)",
+  "agencyShort": "DOT",
+  "officialSiteUrl": "https://iowadot.gov/",
+  "handbookLandingUrl": "https://iowadot.gov/drivers-licenses-ids/driver-education/manuals-practice-tests/drivers-manual",
+  "handbookPdfUrl": "https://iowadot.gov/media/7308/download",
+  "handbookFormat": "pdf",
+  "handbookEditionYear": 2024,
+  "handbookCopyrightStatus": "unknown",
+  "applicantVariants": [
+    { "id": "under-18", "label": "Under 18 (instruction permit / intermediate license)" },
+    { "id": "adult", "label": "Adult (18+)" }
+  ],
+  "examVariants": [
+    {
+      "variantId": "class-c",
+      "label": "Knowledge test (all applicants)",
+      "numQuestions": 35,
+      "numToPass": 28,
+      "languages": ["en", "es"],
+      "onlineAvailable": false
+    }
+  ],
+  "retake": {
+    "waitBetweenAttempts": "May retest on a later day if failed (verify locally)",
+    "retakeFee": "No separate knowledge-test fee (verify locally)"
+  },
+  "gdl": {
+    "permitMinAge": "14",
+    "provisionalMinAge": "16 (intermediate license)",
+    "fullLicenseMinAge": "17 (full license)",
+    "permitHoldingPeriod": "12 months",
+    "supervisedHoursRequired": "20 hours at the permit stage (2 at night), plus 10 additional hours (2 at night) at the intermediate stage",
+    "nightHoursRequired": "2 hours (permit) plus 2 hours (intermediate)",
+    "nightCurfew": "Intermediate license: no driving 12:30 a.m.-5 a.m. unless accompanied by a parent/guardian or driving to or from work or a school activity",
+    "passengerLimits": "Discretionary; parents may limit passengers, and an intermediate driver may not transport more passengers than there are safety belts",
+    "driverEdRequired": true
+  },
+  "process": {
+    "appointmentRequired": "varies",
+    "requiredDocuments": [
+      "Proof of identity and date of birth (certified birth certificate or valid U.S. passport)",
+      "Proof of Social Security Number",
+      "Proof of Iowa residency",
+      "Under 18: parent or guardian signature/consent"
+    ],
+    "realIdNotes": "Iowa issues both standard and REAL ID-compliant cards. A REAL ID requires one proof of identity/date of birth, proof of the SSN, and proof of Iowa residency. Documents must be originals or certified copies.",
+    "permitFee": "$6.00 (instruction permit)",
+    "licenseFee": "$4.00 per year (a full-term license is typically issued for 8 years, about $32.00)",
+    "feesUrl": "https://iowadot.gov/mvd/driverslicense/fees",
+    "visionTestRequired": true,
+    "visionStandard": "20/40 in at least one eye, with or without corrective lenses"
+  },
+  "facts": {
+    "bacLimitAdult": "0.08%",
+    "bacLimitCommercial": "0.04%",
+    "bacLimitUnder21": "0.02% (zero tolerance)",
+    "pointSystem": false,
+    "pointSuspensionThreshold": "Iowa does not use a numeric demerit-point system; license sanctions come from habitual-violator and other administrative provisions",
+    "moveOverRule": "Move over or slow down for stopped emergency, tow, maintenance, and utility vehicles displaying flashing lights (Iowa Code § 321.323A)",
+    "interstateMaxSpeed": "70 mph (rural interstate)",
+    "schoolZoneSpeed": "25 mph unless a different limit is posted",
+    "namedLaws": ["Move Over Law", "Zero Tolerance Law", "Hands-Free Law (effective July 1, 2025)"]
+  },
+  "references": [
+    {
+      "label": "Iowa Driver's Manual",
+      "citation": "Iowa DOT Iowa Driver's Manual",
+      "url": "https://iowadot.gov/drivers-licenses-ids/driver-education/manuals-practice-tests/drivers-manual"
+    },
+    {
+      "label": "Iowa hands-free driving law",
+      "citation": "Iowa Code § 321.276 (hands-free, effective July 1, 2025)",
+      "url": "https://dps.iowa.gov/press-release/2025-06-25/hands-free-its-law"
+    },
+    {
+      "label": "Iowa Move Over law",
+      "citation": "Iowa Code § 321.323A",
+      "url": "https://www.legis.iowa.gov/docs/code/321.323A.pdf"
+    }
+  ],
+  "effectiveDate": "2026-07-24",
+  "sourceSnapshotHash": "seed-pending-verification",
+  "reviewStatus": "draft",
+  "verifyNote": "The current official Iowa Driver's Manual and DOT practice-test page do not publish the live knowledge-test question count or passing mark; 35 questions / 28 correct remains unconfirmed. Retest timing and fee also remain unconfirmed.",
+  "lastVerified": "2026-07-24",
+  "contentVersion": 1
+}

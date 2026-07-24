@@ -1,0 +1,4 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro'; import { href } from '../lib/site'; import '../styles/pages.css';
+---
+<BaseLayout title="About"><section class="container container-narrow page-shell"><h1>About DMV Prep</h1><article class="card study-card"><p>DMV Prep is a free, private study tool for US learner's permit knowledge tests. Questions are original and cite the public handbook or standard they use.</p><p>DMV Prep is not affiliated with any DMV or government agency. Rules change, so confirm legal and application requirements on your state's official site.</p><p><a href={href('/privacy')}>Read the privacy summary</a></p></article></section></BaseLayout>

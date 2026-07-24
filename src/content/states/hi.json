@@ -1,0 +1,85 @@
+{
+  "code": "HI",
+  "name": "Hawaii",
+  "agencyName": "Hawaii (county-administered driver licensing; state common driver manual)",
+  "agencyShort": "DMV",
+  "officialSiteUrl": "https://hidot.hawaii.gov/highways/",
+  "handbookLandingUrl": "https://hidot.hawaii.gov/highways/library/motor-vehicle-safety-office/english-original-hawaii-drivers-manual/",
+  "handbookPdfUrl": "https://hidot.hawaii.gov/highways/files/2019/01/Hawaii-Drivers-Manual.pdf",
+  "handbookFormat": "pdf",
+  "handbookEditionYear": 2019,
+  "handbookCopyrightStatus": "terms-of-use",
+  "applicantVariants": [
+    { "id": "under-18", "label": "Under 18 (provisional license applicant)" },
+    { "id": "adult", "label": "Adult (18+)" }
+  ],
+  "examVariants": [
+    {
+      "variantId": "adult",
+      "label": "Class 3 (car) knowledge test",
+      "numQuestions": 30,
+      "numToPass": 24,
+      "timeLimitMinutes": 60,
+      "languages": ["en", "es"],
+      "onlineAvailable": true
+    }
+  ],
+  "retake": {
+    "waitBetweenAttempts": "7 days after an online knowledge-test failure for lack of knowledge; county procedures may vary",
+    "retakeFee": "Full county online test fee applies again"
+  },
+  "gdl": {
+    "permitMinAge": "15 yrs 6 mo",
+    "provisionalMinAge": "16",
+    "fullLicenseMinAge": "17",
+    "permitHoldingPeriod": "6 months (instruction permit before provisional license)",
+    "supervisedHoursRequired": "50 hours (10 at night)",
+    "nightHoursRequired": "10 hours",
+    "nightCurfew": "No driving 11 p.m.-5 a.m. (provisional), with exceptions",
+    "passengerLimits": "No more than one passenger under 18 (household members excepted) for provisional holders",
+    "driverEdRequired": true
+  },
+  "process": {
+    "appointmentRequired": "varies",
+    "requiredDocuments": [
+      "Proof of legal name and date of birth (e.g. certified birth certificate or U.S. passport)",
+      "Proof of Social Security Number",
+      "Two documents proving Hawaii residency (for a REAL ID / gold star license)",
+      "Proof of legal presence if not a U.S. citizen"
+    ],
+    "realIdNotes": "Hawaii issues REAL ID-compliant (gold star) licenses. Bring proof of identity/legal presence, one proof of Social Security Number, and two proofs of Hawaii residential address. Applications are handled by your county licensing office (Honolulu, Hawaii, Maui, or Kauai).",
+    "permitFee": "County-administered: Honolulu in-person written test $2 and instruction permit $5; online knowledge test $12 Honolulu, $11 Hawaii, $20 Kauai, or $25 Maui",
+    "licenseFee": "Set by county and credential term",
+    "feesUrl": "https://www.honolulu.gov/csd/online-permit-test/",
+    "visionTestRequired": true,
+    "visionStandard": "20/40 with or without corrective lenses (screened at the licensing office)"
+  },
+  "facts": {
+    "bacLimitAdult": "0.08%",
+    "bacLimitCommercial": "0.04%",
+    "bacLimitUnder21": "0.02% (zero tolerance)",
+    "pointSystem": false,
+    "pointSuspensionThreshold": "Hawaii does not use a numeric demerit-point system; abstract of convictions and serious/repeat offenses drive suspension or revocation",
+    "moveOverRule": "Move over a lane, or slow to a safe speed if you cannot, for stopped emergency, tow, and highway vehicles displaying flashing lights",
+    "interstateMaxSpeed": "60 mph (highest posted freeway limit; obey posted signs)",
+    "schoolZoneSpeed": "25 mph in a marked school zone unless otherwise posted",
+    "namedLaws": ["Move Over Law", "Zero Tolerance Law (under 21)", "Hands-Free (mobile electronic device) Law"]
+  },
+  "references": [
+    {
+      "label": "Hawaii Driver's Manual",
+      "citation": "State of Hawaii Department of Transportation, Hawaii Driver's Manual",
+      "url": "https://hidot.hawaii.gov/highways/library/motor-vehicle-safety-office/english-original-hawaii-drivers-manual/"
+    },
+    {
+      "label": "IIHS Graduated Licensing Laws Table",
+      "citation": "IIHS graduated licensing laws by state (Hawaii)",
+      "url": "https://www.iihs.org/topics/teenagers/graduated-licensing-laws-table"
+    }
+  ],
+  "effectiveDate": "2026-07-24",
+  "sourceSnapshotHash": "seed-pending-verification",
+  "reviewStatus": "adversarially-verified",
+  "lastVerified": "2026-07-24",
+  "contentVersion": 1
+}

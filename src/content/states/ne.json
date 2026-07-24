@@ -1,0 +1,93 @@
+{
+  "code": "NE",
+  "name": "Nebraska",
+  "agencyName": "Nebraska Department of Motor Vehicles",
+  "agencyShort": "DMV",
+  "officialSiteUrl": "https://dmv.nebraska.gov/",
+  "handbookLandingUrl": "https://dmv.nebraska.gov/dl/manuals",
+  "handbookPdfUrl": "https://dmv.nebraska.gov/file/class-o-drivers-manual-english-1-2025pdf-0",
+  "handbookFormat": "pdf",
+  "handbookEditionYear": 2025,
+  "handbookCopyrightStatus": "unknown",
+  "applicantVariants": [
+    { "id": "under-18", "label": "Under 18 (LPE/POP graduated licensing)" },
+    { "id": "adult", "label": "Adult (Class O operator) knowledge test" }
+  ],
+  "examVariants": [
+    {
+      "variantId": "under-18",
+      "label": "Under-18 knowledge test (Class O)",
+      "numQuestions": 25,
+      "numToPass": 20,
+      "languages": ["en"],
+      "onlineAvailable": false
+    },
+    {
+      "variantId": "adult",
+      "label": "Adult knowledge test (Class O operator)",
+      "numQuestions": 25,
+      "numToPass": 20,
+      "languages": ["en"],
+      "onlineAvailable": false
+    }
+  ],
+  "retake": {
+    "waitBetweenAttempts": "You may retest; confirm any same-day/next-day rule with your DMV office",
+    "retakeFee": "A knowledge test fee applies on retakes"
+  },
+  "gdl": {
+    "permitMinAge": "15 (School Learner's Permit LPE); a rural School Permit is available at 14 yrs 2 mo",
+    "provisionalMinAge": "16 (Provisional Operator's Permit, POP)",
+    "fullLicenseMinAge": "17 (full Class O operator license restrictions lift)",
+    "permitHoldingPeriod": "School Permit pathway: hold the LPE at least 2 months before applying for an SCP; under-18 Class O pathway: hold the POP at least 12 months with fewer than 3 points in the preceding 12 months for test waivers",
+    "supervisedHoursRequired": "50 hours (10 at night); may be waived by completing an approved driver education course",
+    "nightHoursRequired": "10 hours",
+    "nightCurfew": "No driving midnight-6 a.m. on a Provisional Operator's Permit (secondary enforcement)",
+    "passengerLimits": "No more than one passenger under 19 for the first 6 months on a POP (secondary enforcement)",
+    "driverEdRequired": false
+  },
+  "process": {
+    "appointmentRequired": "varies",
+    "requiredDocuments": [
+      "Proof of identity (e.g. certified birth certificate or U.S. passport)",
+      "Proof of Social Security number",
+      "Two proofs of Nebraska address (for a REAL ID)",
+      "Parent/guardian signature (applicants under 18)"
+    ],
+    "realIdNotes": "A Nebraska REAL ID requires one proof of identity, one proof of Social Security number, and two proofs of Nebraska address. A standard (non-REAL ID) credential is also available.",
+    "permitFee": "$10.50 (School Learner's Permit, LPE)",
+    "licenseFee": "Approximately $28.75 for a 5-year Class O operator license; verify current fee with DMV",
+    "feesUrl": "https://dmv.nebraska.gov/dl/licenses-and-permits",
+    "visionTestRequired": true,
+    "visionStandard": "At least 20/40 in one or both eyes, with or without corrective lenses"
+  },
+  "facts": {
+    "bacLimitAdult": "0.08%",
+    "bacLimitCommercial": "0.04%",
+    "bacLimitUnder21": "0.02% (zero tolerance)",
+    "pointSystem": true,
+    "pointSuspensionThreshold": "12 points in any 2-year period leads to license revocation",
+    "moveOverRule": "Move over a lane or slow down for stopped emergency, tow, and utility vehicles displaying flashing or warning lights",
+    "interstateMaxSpeed": "75 mph on rural interstates",
+    "schoolZoneSpeed": "25 mph in a school zone (unless otherwise posted); fines are doubled",
+    "namedLaws": ["Statewide texting ban (primary enforcement)", "Move Over Law", "Under-18 cell phone ban"]
+  },
+  "references": [
+    {
+      "label": "Nebraska Driver's Manual (Class O)",
+      "citation": "NE DMV Class O Driver's Manual (2025 ed.)",
+      "url": "https://dmv.nebraska.gov/dl/manuals"
+    },
+    {
+      "label": "Nebraska Point System",
+      "citation": "NE DMV Nebraska Point System",
+      "url": "https://dmv.nebraska.gov/fr/nebraska-point-system"
+    }
+  ],
+  "effectiveDate": "2026-07-24",
+  "sourceSnapshotHash": "seed-pending-verification",
+  "reviewStatus": "draft",
+  "verifyNote": "Official DMV sources confirm the 25-question/20-correct exam and the corrected GDL holding-period distinctions. The current Class O license fee could not be confirmed from the official fee schedule, so the state remains draft.",
+  "lastVerified": "2026-07-24",
+  "contentVersion": 1
+}

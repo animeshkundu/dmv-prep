@@ -1,0 +1,95 @@
+{
+  "code": "AK",
+  "name": "Alaska",
+  "agencyName": "Alaska Division of Motor Vehicles",
+  "agencyShort": "DMV",
+  "officialSiteUrl": "https://dmv.alaska.gov/",
+  "handbookLandingUrl": "https://dmv.alaska.gov/credential-services/drivermanual/",
+  "handbookPdfUrl": "https://dmv.alaska.gov/media/t5ef5vi2/dlman.pdf",
+  "handbookFormat": "pdf",
+  "handbookEditionYear": 2023,
+  "handbookCopyrightStatus": "unknown",
+  "applicantVariants": [
+    { "id": "under-18", "label": "Under 18 (graduated licensing / provisional)" },
+    { "id": "adult", "label": "Adult (18 and older)" }
+  ],
+  "examVariants": [
+    {
+      "variantId": "standard",
+      "label": "Class D knowledge test (all ages)",
+      "numQuestions": 20,
+      "numToPass": 16,
+      "languages": ["en"],
+      "onlineAvailable": false
+    }
+  ],
+  "retake": {
+    "waitBetweenAttempts": "May retake after 1 day",
+    "retakeFee": "Confirm any additional test fee with the DMV"
+  },
+  "gdl": {
+    "permitMinAge": "14",
+    "provisionalMinAge": "16",
+    "fullLicenseMinAge": "18",
+    "permitHoldingPeriod": "6 months (instruction permit before provisional license)",
+    "supervisedHoursRequired": "40 hours (10 at night or in inclement/hazardous conditions)",
+    "nightCurfew": "Provisional drivers may not drive 1 a.m.-5 a.m. unless accompanied by a qualified licensed adult 21+ or traveling directly to or from employment",
+    "passengerLimits": "No passengers under 21 except siblings, unless accompanied by a qualified licensed adult 21+ or traveling directly to or from employment",
+    "driverEdRequired": false
+  },
+  "process": {
+    "appointmentRequired": "varies",
+    "schedulingUrl": "https://dmv.alaska.gov/online-services/",
+    "requiredDocuments": [
+      "Proof of legal name, date of birth and lawful presence (certified birth certificate or valid U.S. passport)",
+      "Proof of Social Security number",
+      "Proof of Alaska residency",
+      "Parental/guardian consent for applicants under 18"
+    ],
+    "realIdNotes": "A REAL ID requires one document proving identity/date of birth/lawful presence, proof of Social Security number, and two proofs of Alaska residency. The REAL ID version of a license costs more than the standard credential.",
+    "permitFee": "$15",
+    "licenseFee": "$20 (standard) / $40 (REAL ID)",
+    "feesUrl": "https://dmv.alaska.gov/credential-services/license-fees/",
+    "visionTestRequired": true,
+    "visionStandard": "At least 20/40 in one eye, with or without corrective lenses"
+  },
+  "facts": {
+    "bacLimitAdult": "0.08%",
+    "bacLimitCommercial": "0.04%",
+    "bacLimitUnder21": "0.00% (zero tolerance, any measurable alcohol)",
+    "pointSystem": true,
+    "pointSuspensionThreshold": "12 points in 12 months or 18 points in 24 months",
+    "moveOverRule": "Move over a lane or slow down for stopped emergency, law-enforcement and other authorized vehicles displaying flashing lights",
+    "interstateMaxSpeed": "55 mph unless otherwise posted",
+    "schoolZoneSpeed": "Obey the posted school-zone limit when children are present",
+    "namedLaws": ["Move Over Law", "Zero Tolerance Law (under 21)", "Texting/electronic device ban"]
+  },
+  "references": [
+    {
+      "label": "Alaska Driver Manual",
+      "citation": "Alaska DMV Driver Manual",
+      "url": "https://dmv.alaska.gov/credential-services/drivermanual/"
+    },
+    {
+      "label": "Alaska DMV license fees",
+      "citation": "Alaska DMV License Fees",
+      "url": "https://dmv.alaska.gov/credential-services/license-fees/"
+    },
+    {
+      "label": "Alaska DMV instruction permit",
+      "citation": "Alaska DMV Instruction Permit (GDL)",
+      "url": "https://dmv.alaska.gov/credential-services/instruction-permit/"
+    },
+    {
+      "label": "IIHS graduated licensing laws table",
+      "citation": "IIHS GDL laws by state (Alaska)",
+      "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table"
+    }
+  ],
+  "effectiveDate": "2026-07-24",
+  "sourceSnapshotHash": "seed-pending-verification",
+  "reviewStatus": "draft",
+  "verifyNote": "Official Alaska sources confirm the 20-question/16-correct exam, permit age 14, permit and license fees, BAC limits, and 12-points-in-12-months/18-points-in-24-months suspension thresholds. The manual does not print an edition year, so 2023 remains a placeholder; provisional restrictions and the full-license age still need direct official confirmation.",
+  "lastVerified": "2026-07-24",
+  "contentVersion": 1
+}

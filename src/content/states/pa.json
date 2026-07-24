@@ -1,0 +1,85 @@
+{
+  "code": "PA",
+  "name": "Pennsylvania",
+  "agencyName": "Pennsylvania Department of Transportation (PennDOT)",
+  "agencyShort": "PennDOT",
+  "officialSiteUrl": "https://www.dmv.pa.gov/",
+  "handbookLandingUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual",
+  "handbookPdfUrl": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+  "handbookFormat": "mixed",
+  "handbookEditionYear": 2024,
+  "handbookCopyrightStatus": "terms-of-use",
+  "handbookTermsUrl": "https://www.pa.gov/en/agencies/dmv.html",
+  "applicantVariants": [
+    { "id": "standard", "label": "All applicants (Class C non-commercial)" }
+  ],
+  "examVariants": [
+    {
+      "variantId": "standard",
+      "label": "Knowledge test (Class C non-commercial)",
+      "numQuestions": 18,
+      "numToPass": 15,
+      "languages": ["en", "es"],
+      "onlineAvailable": false
+    }
+  ],
+  "retake": {
+    "waitBetweenAttempts": "Next business day",
+    "retakeFee": "No additional fee (covered by the permit application fee)"
+  },
+  "gdl": {
+    "permitMinAge": "16",
+    "provisionalMinAge": "16 yrs 6 mo",
+    "fullLicenseMinAge": "17 (with driver education) or 18",
+    "permitHoldingPeriod": "6 months",
+    "supervisedHoursRequired": "65 hours (10 at night, 5 in inclement weather)",
+    "nightHoursRequired": "10 hours",
+    "nightCurfew": "No driving 11 p.m.-5 a.m. for junior drivers (with exceptions)",
+    "passengerLimits": "First 6 months: no more than 1 passenger under 18 who is not immediate family; after that, up to 3 passengers under 18 (unless a parent/guardian is present)",
+    "driverEdRequired": false
+  },
+  "process": {
+    "appointmentRequired": "varies",
+    "requiredDocuments": [
+      "Completed Form DL-180 (non-commercial learner's permit application); DL-180TD for applicants under 18",
+      "Proof of identity (e.g. birth certificate or valid U.S. passport)",
+      "Social Security card",
+      "Two proofs of Pennsylvania residency (for REAL ID / adults)",
+      "Completed DL-180C physical exam form (from a medical provider)"
+    ],
+    "realIdNotes": "REAL ID is optional in Pennsylvania. It requires proof of identity, proof of Social Security number, and two proofs of current PA residency. A U.S. passport can be used for federal purposes instead.",
+    "permitFee": "$45.50 total for an initial non-commercial learner's permit and four-year Class C driver's license ($6 permit fee plus $39.50 license fee)",
+    "licenseFee": "Included in the $45.50 initial permit-and-license fee",
+    "feesUrl": "https://www.pa.gov/agencies/dmv/resources/fees-and-taxes.html",
+    "visionTestRequired": true,
+    "visionStandard": "20/40 in at least one eye, with or without corrective lenses"
+  },
+  "facts": {
+    "bacLimitAdult": "0.08%",
+    "bacLimitCommercial": "0.04%",
+    "bacLimitUnder21": "0.02% (zero tolerance)",
+    "pointSystem": true,
+    "pointSuspensionThreshold": "Reaching 6 points triggers PennDOT action; first time requires a written point exam. Points are not an automatic suspension until repeated accumulations or a hearing.",
+    "moveOverRule": "Steer Clear / Move Over Law: move over one lane, or slow to a safe and reasonable speed if unable to move over, when approaching an emergency response area with flashing lights",
+    "interstateMaxSpeed": "70 mph where posted (many segments are posted lower)",
+    "schoolZoneSpeed": "15 mph in posted school zones when the warning lights are flashing or during posted hours",
+    "namedLaws": ["Steer Clear / Move Over Law"]
+  },
+  "references": [
+    {
+      "label": "Pennsylvania Driver's Manual (PUB 95)",
+      "citation": "PennDOT PUB 95, PA Driver's Manual",
+      "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual"
+    },
+    {
+      "label": "PennDOT Testing information",
+      "citation": "PA Driver's Manual, Chapter 1: Testing",
+      "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/testing"
+    }
+  ],
+  "effectiveDate": "2026-07-24",
+  "sourceSnapshotHash": "seed-pending-verification",
+  "reviewStatus": "adversarially-verified",
+  "lastVerified": "2026-07-24",
+  "contentVersion": 1
+}

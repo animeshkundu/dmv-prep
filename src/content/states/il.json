@@ -1,0 +1,85 @@
+{
+  "code": "IL",
+  "name": "Illinois",
+  "agencyName": "Illinois Secretary of State",
+  "agencyShort": "SOS",
+  "officialSiteUrl": "https://www.ilsos.gov/",
+  "handbookLandingUrl": "https://www.ilsos.gov/departments/drivers/drivers_license/home.html",
+  "handbookPdfUrl": "https://www.ilsos.gov/publications/pdf_publications/dsd_a112.pdf",
+  "handbookFormat": "pdf",
+  "handbookEditionYear": 2025,
+  "handbookCopyrightStatus": "terms-of-use",
+  "handbookTermsUrl": "https://www.ilsos.gov/about/privacyagreement.html",
+  "applicantVariants": [
+    { "id": "standard", "label": "All applicants (Class D non-commercial)" }
+  ],
+  "examVariants": [
+    {
+      "variantId": "standard",
+      "label": "Written knowledge exam (Rules of the Road)",
+      "numQuestions": 35,
+      "numToPass": 28,
+      "languages": ["en", "es", "pl"],
+      "onlineAvailable": false
+    }
+  ],
+  "retake": {
+    "waitBetweenAttempts": "Generally next day (24 hours)",
+    "attemptCapPeriod": "3 attempts per application/visit period"
+  },
+  "gdl": {
+    "permitMinAge": "15 (must be enrolled in an approved driver education course)",
+    "provisionalMinAge": "16",
+    "fullLicenseMinAge": "18, or 17 after 12 months of intermediate licensing",
+    "permitHoldingPeriod": "9 months",
+    "supervisedHoursRequired": "50 hours (10 at night)",
+    "nightHoursRequired": "10 hours",
+    "nightCurfew": "No driving 10 p.m.-6 a.m. Sun.-Thu. and 11 p.m.-6 a.m. Fri.-Sat. for drivers under 18 (with exceptions)",
+    "passengerLimits": "First 12 months (or until age 18): no more than 1 passenger under age 20, unless the additional passengers are siblings",
+    "driverEdRequired": true
+  },
+  "process": {
+    "appointmentRequired": "encouraged",
+    "requiredDocuments": [
+      "Proof of identity and date of birth (e.g. birth certificate or valid U.S. passport)",
+      "Proof of Social Security number (or ineligibility)",
+      "Proof of Illinois residency",
+      "Proof of written signature",
+      "For applicants under 18: proof of school enrollment and driver education completion (or enrollment)"
+    ],
+    "realIdNotes": "REAL ID is optional in Illinois. It requires one document proving identity, one proving full SSN, two proving current residency, and proof of signature. A U.S. passport can be used for federal purposes instead.",
+    "permitFee": "$20 instruction permit (verify current amount on the Illinois SOS fee schedule)",
+    "licenseFee": "$5 for ages 18-20; $30 for ages 21-68; age-based fees apply thereafter",
+    "feesUrl": "https://www.ilsos.gov/departments/vehicles/fees.html",
+    "visionTestRequired": true,
+    "visionStandard": "20/40 in at least one eye, with or without corrective lenses"
+  },
+  "facts": {
+    "bacLimitAdult": "0.08%",
+    "bacLimitCommercial": "0.04%",
+    "bacLimitUnder21": "0.00% (zero tolerance — any trace of alcohol)",
+    "pointSystem": true,
+    "pointSuspensionThreshold": "Suspension length is based on total points from convictions in a 12-month period (e.g. roughly 15-44 points can lead to a 2-month suspension, scaling up with more points). Three moving-violation convictions within 12 months can also lead to suspension.",
+    "moveOverRule": "Scott's Law (Move Over Law): change lanes away from a stopped emergency or maintenance vehicle displaying flashing lights, or reduce speed and proceed with caution if changing lanes is unsafe",
+    "interstateMaxSpeed": "70 mph on rural interstates (55 mph on many urban expressways, where posted)",
+    "schoolZoneSpeed": "20 mph on school days when children are present, from 7 a.m. to 4 p.m.",
+    "namedLaws": ["Scott's Law", "Use It & Lose It (zero tolerance)"]
+  },
+  "references": [
+    {
+      "label": "Illinois Rules of the Road",
+      "citation": "Illinois Secretary of State, Rules of the Road (DSD A112)",
+      "url": "https://www.ilsos.gov/publications/pdf_publications/dsd_a112.pdf"
+    },
+    {
+      "label": "Illinois Driver Services",
+      "citation": "Illinois Secretary of State, Driver's License information",
+      "url": "https://www.ilsos.gov/departments/drivers/drivers_license/home.html"
+    }
+  ],
+  "effectiveDate": "2026-07-24",
+  "sourceSnapshotHash": "seed-pending-verification",
+  "reviewStatus": "adversarially-verified",
+  "lastVerified": "2026-07-24",
+  "contentVersion": 1
+}
