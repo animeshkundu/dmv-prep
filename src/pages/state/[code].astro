@@ -1,11 +1,163 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import StateProgress from '../../islands/StateProgress';
 import { STATES, byCode, stateSlug } from '../../lib/states-directory';
 import { studyContent } from '../../lib/content';
 import { href } from '../../lib/site';
 import '../../styles/pages.css';
-export function getStaticPaths(){return STATES.map((state)=>({params:{code:stateSlug(state.code)}}));}
-const code=Astro.params.code!.toUpperCase(); const directory=byCode(code)!; const {state}=await studyContent(code);
-const links=[['Practice questions','practice'],['Mock exam','mock'],['Flashcards','flashcards'],['Permit guide','guide']];
+
+export function getStaticPaths() {
+  return STATES.map((state) => ({ params: { code: stateSlug(state.code) } }));
+}
+
+const code = Astro.params.code!.toUpperCase();
+const directory = byCode(code)!;
+const { state } = await studyContent(code);
+const statePath = `/state/${stateSlug(code)}`;
+const links = [
+  { marker: '10', title: 'Practice questions', copy: 'Learn with instant explanations and citations.', path: 'practice' },
+  { marker: '✓', title: 'Mock exam', copy: 'Rehearse the format and score target without hints.', path: 'mock' },
+  { marker: '↻', title: 'Smart flashcards', copy: 'Review the right rule just before you forget it.', path: 'flashcards' },
+  { marker: '→', title: 'Permit guide', copy: 'Know the documents, age rules, fees, and official links.', path: 'guide' },
+];
+const description = `Free ${directory.name} DMV permit practice tests, mock exams, flashcards, handbook citations, and a step-by-step learner's permit guide.`;
+const courseSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Course',
+  name: `${directory.name} learner's permit test prep`,
+  description,
+  provider: { '@type': 'Organization', name: 'DMV Prep' },
+  isAccessibleForFree: true,
+  inLanguage: 'en-US',
+};
 ---
-<BaseLayout title={`${directory.name} permit test`}><section class="container page-shell"><div><p class="badge">{code} · {state?.agencyShort ?? directory.agencyShort}</p><h1>{directory.name} permit test prep</h1><p class="muted">{state ? `Current exam facts and permit steps from the ${state.agencyName}.` : 'State-specific details are coming soon. You can start with national practice now.'}</p></div>{state ? <div class="reference-grid">{state.examVariants.map((variant)=><article class="card study-card"><h2>{variant.label}</h2><p>{variant.numQuestions} questions · {variant.numToPass} to pass</p></article>)}</div> : <aside class="card study-card"><h2>Content coming soon</h2><p>Official handbook links will be added after verification. National practice remains available.</p></aside>}<div class="link-grid">{links.map(([label,path])=><a class="card link-card" href={href(`/state/${stateSlug(code)}/${path}`)}><strong>{label}</strong></a>)}<a class="card link-card" href={href('/signs')}><strong>Road signs</strong></a></div>{state && <article class="card study-card"><h2>Quick process summary</h2><p>Minimum permit age: {state.gdl.permitMinAge}</p><p>Appointments: {state.process.appointmentRequired}</p><p>Vision test: {state.process.visionTestRequired ? 'Required' : 'Not listed as required'}</p></article>}</section></BaseLayout>
+
+<BaseLayout title={`${directory.name} DMV Permit Test Prep`} description={description} structuredData={courseSchema}>
+  <section class="container page-shell">
+    <Breadcrumbs items={[{ label: 'Home', path: '/' }, { label: 'States', path: '/states' }, { label: directory.name }]} />
+    <header class="page-hero state-hero">
+      <p class="eyebrow">{code} learner's permit</p>
+      <h1>Pass the {directory.name} permit test with a plan.</h1>
+      <p class="lede">
+        {state
+          ? `Study current exam facts and permit steps grounded in the ${state.agencyName} handbook and public guidance.`
+          : `Start with national practice while we verify more ${directory.agencyShort} details.`}
+      </p>
+      <div class="actions">
+        <a class="btn btn-primary" href={href(`${statePath}/practice`)}>Start free practice</a>
+        <a class="btn btn-ghost" href={href(`${statePath}/guide`)}>See permit steps</a>
+      </div>
+    </header>
+
+    <StateProgress
+      client:load
+      stateName={directory.name}
+      stateCode={code}
+      practiceHref={href(`${statePath}/practice`)}
+      mockHref={href(`${statePath}/mock`)}
+      progressHref={href('/progress')}
+    />
+
+    {state ? (
+      <section aria-labelledby="exam-facts">
+        <div class="section-heading">
+          <p class="eyebrow">Know the target</p>
+          <h2 id="exam-facts">{directory.name} test facts</h2>
+          <p class="lede">Choose the applicant version that applies to you.</p>
+        </div>
+        <div class="reference-grid">
+          {state.examVariants.map((variant) => (
+            <article class="card study-card">
+              <span class="badge">{variant.label}</span>
+              <div class="exam-score">
+                <strong>{variant.numToPass}</strong>
+                <span>correct out of {variant.numQuestions}</span>
+              </div>
+              <p class="muted">
+                {Math.ceil((variant.numToPass / variant.numQuestions) * 100)}% passing score
+                {variant.timeLimitMinutes ? ` · ${variant.timeLimitMinutes} minute limit` : ''}
+              </p>
+            </article>
+          ))}
+        </div>
+      </section>
+    ) : (
+      <aside class="card study-card">
+        <p class="eyebrow">Verification in progress</p>
+        <h2>More {directory.name} details are coming</h2>
+        <p>National practice is ready now. We only publish state facts after checking an official source.</p>
+      </aside>
+    )}
+
+    <section aria-labelledby="study-tools">
+      <div class="section-heading">
+        <p class="eyebrow">Your study toolkit</p>
+        <h2 id="study-tools">Learn it. Rehearse it. Pass it.</h2>
+      </div>
+      <div class="link-grid">
+        {links.map((link) => (
+          <a class="card link-card" href={href(`${statePath}/${link.path}`)}>
+            <span class="icon-tile" aria-hidden="true">{link.marker}</span>
+            <strong>{link.title}</strong>
+            <p class="muted">{link.copy}</p>
+          </a>
+        ))}
+        <a class="card link-card" href={href('/signs')}>
+          <span class="icon-tile" aria-hidden="true">◇</span>
+          <strong>Road-sign trainer</strong>
+          <p class="muted">Build fast visual recognition for common US signs.</p>
+        </a>
+      </div>
+    </section>
+
+    {state && (
+      <section class="content-split" aria-labelledby="quick-plan">
+        <article class="card article-card">
+          <p class="eyebrow">At a glance</p>
+          <h2 id="quick-plan">Your {directory.name} permit plan</h2>
+          <ol class="process-list">
+            <li><div><h3>Check eligibility</h3><p>Minimum permit age: {state.gdl.permitMinAge}.</p></div></li>
+            <li><div><h3>Gather documents</h3><p>Prepare identity, residency, and other required records before your visit.</p></div></li>
+            <li><div><h3>Plan the visit</h3><p>Appointments are listed as {state.process.appointmentRequired}. A vision test is {state.process.visionTestRequired ? 'required' : 'not listed as required'}.</p></div></li>
+            <li><div><h3>Pass the knowledge test</h3><p>Use practice first, then complete a mock exam without hints.</p></div></li>
+          </ol>
+        </article>
+        <aside class="callout">
+          <p class="eyebrow">Source check</p>
+          <h2>Verified {state.lastVerified}</h2>
+          <p>Requirements can change. Confirm your final checklist with {state.agencyShort} before applying.</p>
+          <p><a href={state.officialSiteUrl}>Visit the official {state.agencyShort} site →</a></p>
+        </aside>
+      </section>
+    )}
+  </section>
+</BaseLayout>
+
+<style>
+  .state-hero {
+    padding-right: min(35%, var(--sp-14));
+  }
+
+  .exam-score {
+    display: flex;
+    gap: var(--sp-3);
+    align-items: end;
+  }
+
+  .exam-score strong {
+    font-size: var(--fs-3xl);
+    line-height: 0.9;
+  }
+
+  .exam-score span {
+    color: var(--c-text-muted);
+    font-weight: 700;
+  }
+
+  @media (max-width: 40rem) {
+    .state-hero {
+      padding-right: var(--sp-5);
+    }
+  }
+</style>

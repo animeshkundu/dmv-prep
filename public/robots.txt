@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /dmv-prep/
+
+Sitemap: https://animesh.kundus.in/dmv-prep/sitemap-index.xml

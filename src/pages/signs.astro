@@ -1,4 +1,65 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro'; import SignTrainer from '../islands/SignTrainer'; import { getCollection } from 'astro:content'; import { asset } from '../lib/site'; import '../styles/pages.css'; const signs=(await getCollection('signs')).map((entry)=>entry.data);
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import SignTrainer from '../islands/SignTrainer';
+import { getCollection } from 'astro:content';
+import { asset } from '../lib/site';
+import '../styles/pages.css';
+
+const signs = (await getCollection('signs')).map((entry) => entry.data);
 ---
-<BaseLayout title="Road sign trainer"><section class="container page-shell"><div><h1>Road sign trainer</h1><p class="muted">Build fast recognition of common US road signs.</p></div><div class="study-shell"><SignTrainer client:load signs={signs} base={import.meta.env.BASE_URL}/></div><h2>Sign reference</h2><div class="reference-grid">{signs.map((sign)=><article class="card study-card"><img src={asset(sign.asset)} alt={`${sign.name} road sign`} width="120" height="120"/><h3>{sign.name}</h3><p>{sign.meaning}</p><span class="badge">{sign.category}</span></article>)}</div></section></BaseLayout>
+
+<BaseLayout
+  title="US Road Signs Practice Test and Guide"
+  description="Learn common US road signs with a free visual practice test, immediate answer feedback, and a clear sign reference."
+>
+  <section class="container page-shell">
+    <Breadcrumbs items={[{ label: 'Home', path: '/' }, { label: 'Road signs' }]} />
+    <header class="page-hero">
+      <p class="eyebrow">See it. Know it. React.</p>
+      <h1>Road signs, recognized in a heartbeat.</h1>
+      <p class="lede">
+        Build fast visual recall with a focused trainer, then use the reference below to connect
+        each shape and symbol to the action it requires.
+      </p>
+      <span class="badge">{signs.length} verified signs available</span>
+    </header>
+
+    <section aria-labelledby="sign-quiz">
+      <div class="section-heading">
+        <p class="eyebrow">Quick visual drill</p>
+        <h2 id="sign-quiz">Name the meaning, not just the shape.</h2>
+      </div>
+      <div class="study-shell sign-trainer-shell">
+        <SignTrainer client:load signs={signs} base={import.meta.env.BASE_URL} />
+      </div>
+    </section>
+
+    <section aria-labelledby="sign-reference">
+      <div class="section-heading">
+        <p class="eyebrow">Study reference</p>
+        <h2 id="sign-reference">Review every available sign.</h2>
+      </div>
+      <div class="reference-grid">
+        {
+          signs.map((sign) => (
+            <article class="card study-card sign-card">
+              <img src={asset(sign.asset)} alt={`${sign.name} road sign`} width="120" height="120" />
+              <div class="stack">
+                <span class="badge">{sign.category}</span>
+                <h3>{sign.name}</h3>
+                <p class="muted">{sign.meaning}</p>
+              </div>
+            </article>
+          ))
+        }
+      </div>
+    </section>
+  </section>
+</BaseLayout>
+
+<style>
+  .sign-trainer-shell {
+    padding: 0;
+  }
+</style>

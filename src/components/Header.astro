@@ -1,35 +1,75 @@
 ---
 import { href, SITE_NAME } from '../lib/site';
+
+const path = Astro.url.pathname.replace(import.meta.env.BASE_URL.replace(/\/$/, ''), '') || '/';
+const links = [
+  { label: 'Practice by state', path: '/states' },
+  { label: 'Road signs', path: '/signs' },
+  { label: 'Permit guide', path: '/guide' },
+  { label: 'My progress', path: '/progress' },
+];
+const isActive = (target: string) =>
+  target === '/states' ? path === '/states' || path.startsWith('/state/') : path.startsWith(target);
 ---
 
 <header class="site-header">
-  <div class="container header-inner">
-    <a class="brand" href={href('/')}>
-      <span class="brand-mark" aria-hidden="true">🚗</span>
-      <span class="brand-name">{SITE_NAME}</span>
+  <div class="container container-wide header-inner">
+    <a class="brand" href={href('/')} aria-label={`${SITE_NAME} home`}>
+      <span class="brand-mark" aria-hidden="true"><span>DP</span></span>
+      <span class="brand-copy">
+        <span class="brand-name">{SITE_NAME}</span>
+        <span class="brand-tagline">Road test ready</span>
+      </span>
     </a>
-    <nav aria-label="Primary">
-      <a href={href('/states')}>States</a>
-      <a href={href('/signs')}>Road signs</a>
-      <a href={href('/guide')}>Permit guide</a>
-      <a href={href('/progress')}>My progress</a>
+    <nav id="primary-nav" class="primary-nav" aria-label="Primary">
+      {
+        links.map((link) => (
+          <a href={href(link.path)} aria-current={isActive(link.path) ? 'page' : undefined}>
+            {link.label}
+          </a>
+        ))
+      }
     </nav>
-    <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode">
-      <span aria-hidden="true">◐</span>
-    </button>
+    <div class="header-actions">
+      <a class="header-cta" href={href('/states')}>Start free</a>
+      <button id="theme-toggle" class="icon-button" type="button" aria-label="Toggle color theme">
+        <span aria-hidden="true">◐</span>
+      </button>
+      <button
+        id="menu-toggle"
+        class="icon-button menu-toggle"
+        type="button"
+        aria-label="Open menu"
+        aria-controls="primary-nav"
+        aria-expanded="false"
+      >
+        <span class="menu-lines" aria-hidden="true"><span></span><span></span><span></span></span>
+      </button>
+    </div>
   </div>
 </header>
 
 <script is:inline define:vars={{ key: 'dmvp:theme' }}>
-  const btn = document.getElementById('theme-toggle');
-  btn?.addEventListener('click', () => {
-    const cur = document.documentElement.getAttribute('data-theme');
+  const themeButton = document.getElementById('theme-toggle');
+  themeButton?.addEventListener('click', () => {
+    const current = document.documentElement.getAttribute('data-theme');
     const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const next = cur ? (cur === 'dark' ? 'light' : 'dark') : prefersDark ? 'light' : 'dark';
+    const next = current ? (current === 'dark' ? 'light' : 'dark') : prefersDark ? 'light' : 'dark';
     document.documentElement.setAttribute('data-theme', next);
     try {
       localStorage.setItem(key, next);
-    } catch (e) {}
+    } catch (error) {
+      console.warn('Theme preference could not be saved.', error);
+    }
+  });
+
+  const menuButton = document.getElementById('menu-toggle');
+  const navigation = document.getElementById('primary-nav');
+  menuButton?.addEventListener('click', () => {
+    const open = menuButton.getAttribute('aria-expanded') === 'true';
+    menuButton.setAttribute('aria-expanded', String(!open));
+    menuButton.setAttribute('aria-label', open ? 'Open menu' : 'Close menu');
+    navigation?.classList.toggle('is-open', !open);
   });
 </script>
 
@@ -38,60 +78,179 @@ import { href, SITE_NAME } from '../lib/site';
     position: sticky;
     top: 0;
     z-index: 50;
-    background: color-mix(in srgb, var(--c-surface) 92%, transparent);
-    backdrop-filter: blur(8px);
-    border-bottom: 1px solid var(--c-border);
+    background: color-mix(in srgb, var(--c-bg) 88%, transparent);
+    border-bottom: var(--border-width) solid color-mix(in srgb, var(--c-border) 72%, transparent);
+    backdrop-filter: blur(var(--sp-4));
   }
+
   .header-inner {
+    position: relative;
     display: flex;
     align-items: center;
-    gap: var(--sp-4);
-    min-height: 60px;
+    gap: var(--sp-5);
+    min-height: var(--header-height);
   }
+
   .brand {
     display: inline-flex;
     align-items: center;
-    gap: var(--sp-2);
-    font-weight: 800;
-    font-size: var(--fs-lg);
+    gap: var(--sp-3);
     color: var(--c-text);
     text-decoration: none;
-    letter-spacing: -0.02em;
   }
+
+  .brand:hover {
+    color: var(--c-text);
+  }
+
   .brand-mark {
-    font-size: 1.35rem;
+    display: grid;
+    place-items: center;
+    width: var(--control);
+    height: var(--control);
+    color: var(--c-accent-contrast);
+    background: var(--c-accent);
+    border-radius: var(--r-md) var(--r-md) var(--r-full) var(--r-full);
+    box-shadow: inset 0 calc(var(--border-width-strong) * -1) 0 color-mix(in srgb, var(--c-text) 18%, transparent);
+    font-size: var(--fs-xs);
+    font-weight: 950;
+    letter-spacing: -0.05em;
+    transform: rotate(-3deg);
   }
-  nav {
-    display: none;
-    gap: var(--sp-5);
-    margin-inline-start: auto;
+
+  .brand-copy {
+    display: grid;
+    line-height: 1.05;
   }
-  nav a {
+
+  .brand-name {
+    font-size: var(--fs-lg);
+    font-weight: 900;
+    letter-spacing: -0.04em;
+  }
+
+  .brand-tagline {
     color: var(--c-text-muted);
-    text-decoration: none;
-    font-weight: 500;
-    font-size: var(--fs-sm);
+    font-size: var(--fs-xs);
+    font-weight: 650;
   }
-  nav a:hover {
-    color: var(--c-text);
-  }
-  .theme-toggle {
+
+  .primary-nav {
+    display: flex;
+    gap: var(--sp-1);
     margin-inline-start: auto;
-    background: transparent;
-    border: 1px solid var(--c-border);
-    border-radius: var(--r-md);
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-    color: var(--c-text);
-    font-size: 1.1rem;
   }
-  @media (min-width: 720px) {
-    nav {
-      display: flex;
+
+  .primary-nav a {
+    min-height: var(--control);
+    padding: var(--sp-3);
+    color: var(--c-text-muted);
+    border-radius: var(--r-full);
+    font-size: var(--fs-sm);
+    font-weight: 750;
+    text-decoration: none;
+  }
+
+  .primary-nav a:hover,
+  .primary-nav a[aria-current='page'] {
+    color: var(--c-accent-strong);
+    background: var(--c-accent-soft);
+  }
+
+  .header-actions {
+    display: flex;
+    gap: var(--sp-2);
+    align-items: center;
+  }
+
+  .header-cta {
+    display: inline-flex;
+    align-items: center;
+    min-height: var(--control);
+    padding-inline: var(--sp-4);
+    color: var(--c-accent-contrast);
+    background: var(--c-accent);
+    border-radius: var(--r-full);
+    font-size: var(--fs-sm);
+    font-weight: 850;
+    text-decoration: none;
+  }
+
+  .header-cta:hover {
+    color: var(--c-accent-contrast);
+    background: var(--c-accent-hover);
+  }
+
+  .icon-button {
+    display: grid;
+    place-items: center;
+    width: var(--control);
+    height: var(--control);
+    color: var(--c-text);
+    background: var(--c-surface);
+    border: var(--border-width) solid var(--c-border);
+    border-radius: var(--r-full);
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+
+  .menu-lines {
+    display: grid;
+    gap: var(--sp-1);
+    width: var(--sp-5);
+  }
+
+  .menu-lines span {
+    height: var(--border-width-strong);
+    background: currentColor;
+    border-radius: var(--r-full);
+  }
+
+  @media (max-width: 60rem) {
+    .header-cta {
+      display: none;
     }
-    .theme-toggle {
-      margin-inline-start: 0;
+  }
+
+  @media (max-width: 48rem) {
+    .menu-toggle {
+      display: grid;
+    }
+
+    .primary-nav {
+      position: absolute;
+      top: calc(100% + var(--sp-2));
+      right: var(--sp-4);
+      left: var(--sp-4);
+      display: none;
+      gap: var(--sp-2);
+      padding: var(--sp-3);
+      background: var(--c-surface);
+      border: var(--border-width) solid var(--c-border);
+      border-radius: var(--r-lg);
+      box-shadow: var(--shadow-lg);
+    }
+
+    .primary-nav.is-open {
+      display: grid;
+    }
+
+    .primary-nav a {
+      display: flex;
+      align-items: center;
+      padding-inline: var(--sp-4);
+    }
+
+    .header-actions {
+      margin-inline-start: auto;
+    }
+  }
+
+  @media (max-width: 25rem) {
+    .brand-tagline {
+      display: none;
     }
   }
 </style>

@@ -1,128 +1,141 @@
-/*
- * DMV Prep, design tokens.
- * A calm, trustworthy, confidence-building system (anti-clutter). Light + dark.
- * See docs/DESIGN_SYSTEM.md. All colors meet WCAG 2.1 AA against their paired surfaces.
- */
-
 :root {
-  /* Brand + accent */
-  --c-accent: #1f6feb;
-  --c-accent-hover: #1a5fd0;
+  --c-accent: #2149d8;
+  --c-accent-hover: #1738ab;
   --c-accent-contrast: #ffffff;
-  --c-accent-soft: #e7f0ff;
-  /* Darker accent for small text on light/soft backgrounds (meets WCAG AA 4.5:1). */
-  --c-accent-strong: #0b4aa2;
-
-  /* Semantic (quiz feedback) */
-  --c-pass: #1a7f4b;
-  --c-pass-soft: #e3f6ec;
-  --c-fail: #c8332b;
-  --c-fail-soft: #fdecea;
-  --c-warn: #9a6700;
-  --c-warn-soft: #fff8e1;
-
-  /* Neutral surfaces + text (light) */
-  --c-bg: #f7f8fa;
+  --c-accent-soft: #e8edff;
+  --c-accent-strong: #1536a1;
+  --c-pop: #c33c18;
+  --c-pop-soft: #fff0ea;
+  --c-pop-contrast: #ffffff;
+  --c-pop-on-strong: #ff9f82;
+  --c-pass: #08783f;
+  --c-pass-soft: #e4f7ed;
+  --c-fail: #b42318;
+  --c-fail-soft: #ffebe9;
+  --c-warn: #815600;
+  --c-warn-soft: #fff5d6;
+  --c-bg: #f5f7ff;
   --c-surface: #ffffff;
-  --c-surface-2: #f0f2f5;
-  --c-border: #d9dee5;
-  --c-text: #1a1f26;
-  --c-text-muted: #5a6472;
-  --c-text-faint: #8a94a3;
+  --c-surface-2: #edf1fb;
+  --c-surface-strong: #0b1740;
+  --c-border: #ccd4e7;
+  --c-border-strong: #9ba9c8;
+  --c-text: #111a35;
+  --c-text-muted: #4e5b78;
+  --c-text-faint: #71809e;
+  --c-on-strong: #ffffff;
+  --c-on-strong-muted: #cbd5f3;
 
-  /* Type scale (fluid) */
-  --font-sans: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --font-sans: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
   --fs-xs: 0.78rem;
-  --fs-sm: 0.875rem;
+  --fs-sm: 0.9rem;
   --fs-base: 1rem;
-  --fs-lg: 1.125rem;
-  --fs-xl: clamp(1.25rem, 1.1rem + 0.7vw, 1.5rem);
-  --fs-2xl: clamp(1.6rem, 1.3rem + 1.5vw, 2.25rem);
-  --fs-3xl: clamp(2rem, 1.5rem + 2.6vw, 3rem);
-  --lh-tight: 1.2;
-  --lh-normal: 1.55;
+  --fs-lg: clamp(1.08rem, 1rem + 0.3vw, 1.22rem);
+  --fs-xl: clamp(1.28rem, 1.1rem + 0.7vw, 1.65rem);
+  --fs-2xl: clamp(1.7rem, 1.35rem + 1.4vw, 2.45rem);
+  --fs-3xl: clamp(2.4rem, 1.65rem + 3.2vw, 4.3rem);
+  --fs-4xl: clamp(3rem, 1.8rem + 5.5vw, 6.4rem);
+  --lh-tight: 1.05;
+  --lh-normal: 1.58;
 
-  /* Spacing (4px base) */
   --sp-1: 0.25rem;
   --sp-2: 0.5rem;
   --sp-3: 0.75rem;
   --sp-4: 1rem;
   --sp-5: 1.5rem;
   --sp-6: 2rem;
+  --sp-7: 2.5rem;
   --sp-8: 3rem;
+  --sp-9: 3.5rem;
   --sp-10: 4rem;
+  --sp-12: 6rem;
+  --sp-14: 8rem;
 
-  /* Radius + elevation */
-  --r-sm: 6px;
-  --r-md: 10px;
-  --r-lg: 16px;
-  --r-full: 999px;
-  --shadow-sm: 0 1px 2px rgba(16, 24, 40, 0.06), 0 1px 3px rgba(16, 24, 40, 0.1);
-  --shadow-md: 0 4px 12px rgba(16, 24, 40, 0.08), 0 2px 4px rgba(16, 24, 40, 0.06);
-  --shadow-lg: 0 12px 32px rgba(16, 24, 40, 0.12);
+  --r-sm: 0.5rem;
+  --r-md: 0.85rem;
+  --r-lg: 1.25rem;
+  --r-xl: 2rem;
+  --r-full: 999rem;
+  --shadow-sm: 0 0.08rem 0.18rem rgb(15 31 75 / 8%), 0 0.2rem 0.7rem rgb(15 31 75 / 6%);
+  --shadow-md: 0 0.7rem 2rem rgb(15 31 75 / 11%);
+  --shadow-lg: 0 1.7rem 4rem rgb(15 31 75 / 16%);
 
-  --container: 72rem;
-  --container-narrow: 48rem;
-  --focus-ring: 0 0 0 3px var(--c-accent-soft), 0 0 0 1px var(--c-accent);
-  --transition: 160ms cubic-bezier(0.4, 0, 0.2, 1);
+  --container: 76rem;
+  --container-wide: 88rem;
+  --container-narrow: 50rem;
+  --control: 3rem;
+  --header-height: 4.75rem;
+  --border-width: 0.0625rem;
+  --border-width-strong: 0.125rem;
+  --focus-ring: 0 0 0 0.2rem var(--c-bg), 0 0 0 0.4rem var(--c-accent);
+  --transition: 180ms cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 :root[data-theme='dark'] {
-  --c-accent: #4a90ff;
-  --c-accent-hover: #6aa5ff;
-  --c-accent-contrast: #0b1220;
-  --c-accent-soft: #16233d;  --c-accent-strong: #6aa5ff;
-
-  --c-pass: #3fb27a;
-  --c-pass-soft: #10241a;
-  --c-fail: #f0665e;
-  --c-fail-soft: #2a1513;
-  --c-warn: #e0a83a;
-  --c-warn-soft: #241d0a;
-
-  --c-bg: #0d1117;
-  --c-surface: #161b22;
-  --c-surface-2: #1c232d;
-  --c-border: #2c333d;
-  --c-text: #e6edf3;
-  --c-text-muted: #9aa5b1;
-  --c-text-faint: #6e7681;
-
-  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
-  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.45);
-  --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.55);
-  --focus-ring: 0 0 0 3px var(--c-accent-soft), 0 0 0 1px var(--c-accent);
+  --c-accent: #91a8ff;
+  --c-accent-hover: #b3c1ff;
+  --c-accent-contrast: #07102d;
+  --c-accent-soft: #1c2b63;
+  --c-accent-strong: #b3c1ff;
+  --c-pop: #ff987a;
+  --c-pop-soft: #492218;
+  --c-pop-contrast: #1b0904;
+  --c-pop-on-strong: #ffb29c;
+  --c-pass: #6ee7a5;
+  --c-pass-soft: #123624;
+  --c-fail: #ff9b93;
+  --c-fail-soft: #471d1a;
+  --c-warn: #f4c75f;
+  --c-warn-soft: #3c2d09;
+  --c-bg: #080e20;
+  --c-surface: #111a32;
+  --c-surface-2: #192443;
+  --c-surface-strong: #050a18;
+  --c-border: #334162;
+  --c-border-strong: #526287;
+  --c-text: #f7f8ff;
+  --c-text-muted: #b8c1d9;
+  --c-text-faint: #8996b4;
+  --c-on-strong: #ffffff;
+  --c-on-strong-muted: #cbd5f3;
+  --shadow-sm: 0 0.15rem 0.7rem rgb(0 0 0 / 25%);
+  --shadow-md: 0 0.8rem 2rem rgb(0 0 0 / 32%);
+  --shadow-lg: 0 1.8rem 4rem rgb(0 0 0 / 42%);
   color-scheme: dark;
 }
 
-/* Honor the OS preference by default, unless the user explicitly chose light. */
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme='light']) {
-    --c-accent: #4a90ff;
-    --c-accent-hover: #6aa5ff;
-    --c-accent-contrast: #0b1220;
-    --c-accent-soft: #16233d;    --c-accent-strong: #6aa5ff;
-
-    --c-pass: #3fb27a;
-    --c-pass-soft: #10241a;
-    --c-fail: #f0665e;
-    --c-fail-soft: #2a1513;
-    --c-warn: #e0a83a;
-    --c-warn-soft: #241d0a;
-
-    --c-bg: #0d1117;
-    --c-surface: #161b22;
-    --c-surface-2: #1c232d;
-    --c-border: #2c333d;
-    --c-text: #e6edf3;
-    --c-text-muted: #9aa5b1;
-    --c-text-faint: #6e7681;
-
-    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
-    --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.45);
-    --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.55);
-    --focus-ring: 0 0 0 3px var(--c-accent-soft), 0 0 0 1px var(--c-accent);
+    --c-accent: #91a8ff;
+    --c-accent-hover: #b3c1ff;
+    --c-accent-contrast: #07102d;
+    --c-accent-soft: #1c2b63;
+    --c-accent-strong: #b3c1ff;
+    --c-pop: #ff987a;
+    --c-pop-soft: #492218;
+    --c-pop-contrast: #1b0904;
+    --c-pop-on-strong: #ffb29c;
+    --c-pass: #6ee7a5;
+    --c-pass-soft: #123624;
+    --c-fail: #ff9b93;
+    --c-fail-soft: #471d1a;
+    --c-warn: #f4c75f;
+    --c-warn-soft: #3c2d09;
+    --c-bg: #080e20;
+    --c-surface: #111a32;
+    --c-surface-2: #192443;
+    --c-surface-strong: #050a18;
+    --c-border: #334162;
+    --c-border-strong: #526287;
+    --c-text: #f7f8ff;
+    --c-text-muted: #b8c1d9;
+    --c-text-faint: #8996b4;
+    --c-on-strong: #ffffff;
+    --c-on-strong-muted: #cbd5f3;
+    --shadow-sm: 0 0.15rem 0.7rem rgb(0 0 0 / 25%);
+    --shadow-md: 0 0.8rem 2rem rgb(0 0 0 / 32%);
+    --shadow-lg: 0 1.8rem 4rem rgb(0 0 0 / 42%);
     color-scheme: dark;
   }
 }

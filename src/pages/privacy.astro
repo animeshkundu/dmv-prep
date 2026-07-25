@@ -1,4 +1,71 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro'; import '../styles/pages.css';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { href } from '../lib/site';
+import '../styles/pages.css';
 ---
-<BaseLayout title="Privacy"><section class="container container-narrow page-shell"><h1>Privacy</h1><article class="card study-card"><p>Your answers, progress, mock history, and flashcard schedule stay in your browser. No account is required.</p><p>You can export a backup or import one from the progress page. Clearing browser storage removes local progress.</p><p>A fuller privacy document is being prepared. Until then, review the project repository on GitHub for current implementation details.</p></article></section></BaseLayout>
+
+<BaseLayout
+  title="Privacy"
+  description="DMV Prep stores study progress on your device, requires no account, and gives you tools to export or restore your own data."
+>
+  <section class="container page-shell">
+    <Breadcrumbs items={[{ label: 'Home', path: '/' }, { label: 'Privacy' }]} />
+    <header class="page-hero">
+      <p class="eyebrow">Privacy in plain English</p>
+      <h1>Your progress stays with you.</h1>
+      <p class="lede">
+        DMV Prep works without an account. Your answers, flashcards, and mock results are stored
+        in this browser, not in a learner profile on our servers.
+      </p>
+    </header>
+
+    <section class="metric-grid" aria-label="Privacy summary">
+      <article class="metric card"><strong>No account</strong><span>No profile or login</span></article>
+      <article class="metric card"><strong>On device</strong><span>Local study history</span></article>
+      <article class="metric card"><strong>Portable</strong><span>Export your own backup</span></article>
+      <article class="metric card"><strong>Optional</strong><span>Consent-gated analytics</span></article>
+    </section>
+
+    <section class="content-split">
+      <div class="stack">
+        <article class="card article-card">
+          <p class="eyebrow">What is saved</p>
+          <h2>Study data in your browser</h2>
+          <ul>
+            <li>Practice attempts and topic accuracy</li>
+            <li>Mock-exam results</li>
+            <li>Flashcard schedules and review history</li>
+            <li>Settings such as your color theme</li>
+          </ul>
+        </article>
+        <article class="card article-card">
+          <p class="eyebrow">Your controls</p>
+          <h2>Back it up or remove it.</h2>
+          <p>
+            Export a versioned JSON backup from the progress page and import it later on another
+            browser. Clearing this site's browser storage removes local progress from that browser.
+          </p>
+          <a class="btn btn-primary" href={href('/progress')}>Manage my progress data</a>
+        </article>
+        <article class="card article-card">
+          <p class="eyebrow">Analytics</p>
+          <h2>Off unless configured and allowed.</h2>
+          <p>
+            The project supports consent-gated analytics, but analytics identifiers are not
+            configured by default. Study answers are not used to create an account profile.
+          </p>
+        </article>
+      </div>
+      <aside class="callout">
+        <p class="eyebrow">Shared-device note</p>
+        <h2>Browser storage is visible to people using the same browser profile.</h2>
+        <p>
+          If you study on a shared device, export what you need and clear site data when finished.
+          Private browsing may remove progress when the window closes.
+        </p>
+        <p><a href="https://github.com/animeshkundu/dmv-prep">Review the public implementation →</a></p>
+      </aside>
+    </section>
+  </section>
+</BaseLayout>

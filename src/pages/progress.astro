@@ -1,4 +1,107 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro'; import ProgressDashboard from '../islands/ProgressDashboard'; import '../styles/pages.css';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import ProgressDashboard from '../islands/ProgressDashboard';
+import { href } from '../lib/site';
+import '../styles/pages.css';
 ---
-<BaseLayout title="My progress"><section class="study-shell"><h1>My progress</h1><p class="muted">Stored privately on this device.</p><ProgressDashboard client:load/></section></BaseLayout>
+
+<BaseLayout
+  title="My DMV Test Study Progress"
+  description="See topic mastery, study streaks, and DMV mock-exam history stored privately on your device. Export or restore your progress anytime."
+>
+  <section class="container page-shell">
+    <Breadcrumbs items={[{ label: 'Home', path: '/' }, { label: 'My progress' }]} />
+    <header class="page-hero">
+      <p class="eyebrow">Private progress, useful direction</p>
+      <h1>See what is sticking.</h1>
+      <p class="lede">
+        Track topic mastery, practice momentum, and mock results without creating an account.
+        Everything stays in this browser unless you export it.
+      </p>
+    </header>
+    <ProgressDashboard client:load statesHref={href('/states')} />
+  </section>
+</BaseLayout>
+
+<style>
+  :global(.progress-dashboard) {
+    display: grid;
+    gap: var(--sp-5);
+  }
+
+  :global(.empty-progress) {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: var(--sp-6);
+    align-items: center;
+    padding: var(--sp-8);
+    border-radius: var(--r-xl);
+  }
+
+  :global(.empty-progress > div) {
+    display: grid;
+    gap: var(--sp-4);
+  }
+
+  :global(.empty-progress p) {
+    color: var(--c-on-strong-muted);
+  }
+
+  :global(.empty-progress-mark) {
+    color: var(--c-pop-on-strong);
+    font-size: var(--fs-3xl);
+    font-weight: 950;
+    letter-spacing: -0.08em;
+  }
+
+  :global(.history-list) {
+    display: grid;
+    gap: var(--sp-2);
+  }
+
+  :global(.history-list article) {
+    display: grid;
+    grid-template-columns: minmax(9rem, 1fr) auto minmax(8rem, auto);
+    gap: var(--sp-3);
+    align-items: center;
+    padding: var(--sp-3);
+    background: var(--c-surface-2);
+    border-radius: var(--r-md);
+  }
+
+  :global(.history-list article > span:last-child) {
+    color: var(--c-text-muted);
+    text-align: right;
+  }
+
+  :global(.history-status) {
+    font-size: var(--fs-sm);
+    font-weight: 850;
+  }
+
+  :global(.history-status.pass) {
+    color: var(--c-pass);
+  }
+
+  :global(.history-status.fail) {
+    color: var(--c-fail);
+  }
+
+  @media (max-width: 40rem) {
+    :global(.empty-progress) {
+      grid-template-columns: 1fr;
+      padding: var(--sp-5);
+      border-radius: var(--r-lg);
+    }
+
+    :global(.history-list article) {
+      grid-template-columns: 1fr auto;
+    }
+
+    :global(.history-list article > span:last-child) {
+      grid-column: 1 / -1;
+      text-align: left;
+    }
+  }
+</style>

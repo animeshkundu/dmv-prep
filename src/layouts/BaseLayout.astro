@@ -3,22 +3,52 @@ import '../styles/global.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import Analytics from '../components/Analytics.astro';
-import { SITE_NAME } from '../lib/site';
+import { asset, SITE_NAME } from '../lib/site';
 
 interface Props {
   title?: string;
   description?: string;
+  noindex?: boolean;
+  structuredData?: Record<string, unknown> | Record<string, unknown>[];
 }
 
 const {
   title,
-  description = 'Free practice tests, mock exams, flashcards and the full permit process for every US state. No account, works offline.',
+  description = 'Free DMV permit practice tests, realistic mock exams, smart flashcards, road signs, and permit guides for all 50 states and DC.',
+  noindex = false,
+  structuredData = [],
 } = Astro.props;
 
-const fullTitle = title ? `${title} · ${SITE_NAME}` : `${SITE_NAME} · US Driving Permit Test Practice`;
+const fullTitle = title ? `${title} | ${SITE_NAME}` : `${SITE_NAME} | Free Permit Test Practice`;
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
+const shareImage = new URL(asset('/icons/icon-512.png'), Astro.site);
 const base = import.meta.env.BASE_URL;
 const themeInit = `(()=>{try{const t=localStorage.getItem('dmvp:theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}})()`;
-const swRegister = `if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('${base}sw.js',{scope:'${base}'}).catch(function(){});});}`;
+const swRegister = `if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('${base}sw.js',{scope:'${base}'}).catch(function(error){console.warn('Offline support could not start.',error);});});}`;
+const baseSchemas = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: SITE_NAME,
+    url: new URL(base, Astro.site).toString(),
+    description,
+    inLanguage: 'en-US',
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'SoftwareApplication',
+    name: SITE_NAME,
+    applicationCategory: 'EducationalApplication',
+    operatingSystem: 'Any',
+    url: new URL(base, Astro.site).toString(),
+    offers: {
+      '@type': 'Offer',
+      price: '0',
+      priceCurrency: 'USD',
+    },
+  },
+];
+const schemas = [...baseSchemas, ...(Array.isArray(structuredData) ? structuredData : [structuredData])];
 ---
 
 <!doctype html>
@@ -29,13 +59,24 @@ const swRegister = `if('serviceWorker' in navigator){window.addEventListener('lo
     <meta name="generator" content={Astro.generator} />
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalUrl} />
+    {noindex && <meta name="robots" content="noindex, follow" />}
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
-    <meta name="theme-color" content="#1f6feb" />
-    <link rel="icon" type="image/svg+xml" href={`${import.meta.env.BASE_URL}favicon.svg`} />
-    <link rel="apple-touch-icon" href={`${import.meta.env.BASE_URL}icons/apple-touch-icon.png`} />
-    <link rel="manifest" href={`${import.meta.env.BASE_URL}manifest.webmanifest`} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:site_name" content={SITE_NAME} />
+    <meta property="og:image" content={shareImage} />
+    <meta property="og:image:alt" content="DMV Prep, free US permit test practice" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={shareImage} />
+    <meta name="theme-color" content="#2149d8" />
+    <link rel="icon" type="image/svg+xml" href={asset('/favicon.svg')} />
+    <link rel="apple-touch-icon" href={asset('/icons/apple-touch-icon.png')} />
+    {import.meta.env.PROD && <link rel="manifest" href={asset('/manifest.webmanifest')} />}
+    <script is:inline type="application/ld+json" set:html={JSON.stringify(schemas)} />
     <script is:inline set:html={themeInit} />
   </head>
   <body>
@@ -46,6 +87,6 @@ const swRegister = `if('serviceWorker' in navigator){window.addEventListener('lo
     </main>
     <Footer />
     <Analytics />
-    <script is:inline set:html={swRegister} />
+    {import.meta.env.PROD && <script is:inline set:html={swRegister} />}
   </body>
 </html>

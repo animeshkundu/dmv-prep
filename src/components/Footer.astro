@@ -1,51 +1,129 @@
 ---
-import { href } from '../lib/site';
+import { href, SITE_NAME } from '../lib/site';
 ---
 
 <footer class="site-footer">
-  <div class="container footer-inner">
-    <p class="disclaimer">
-      <strong>Unofficial study aid.</strong> DMV Prep is not affiliated with any state agency. Always
-      verify requirements against your state's official driver handbook. Questions are original and
-      grounded in public handbooks.
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <span class="footer-kicker">{SITE_NAME}</span>
+      <h2>Your permit starts with confidence.</h2>
+      <p>
+        Free, private, citation-first study tools for every US state and DC. No account, no ads,
+        no paywall.
+      </p>
+      <a class="btn btn-pop" href={href('/states')}>Choose your state</a>
+    </div>
+    <div>
+      <h3>Study</h3>
+      <nav class="footer-links" aria-label="Study links">
+        <a href={href('/states')}>All states</a>
+        <a href={href('/signs')}>Road signs</a>
+        <a href={href('/guide')}>Permit guide</a>
+        <a href={href('/progress')}>My progress</a>
+      </nav>
+    </div>
+    <div>
+      <h3>Project</h3>
+      <nav class="footer-links" aria-label="Project links">
+        <a href={href('/about')}>About</a>
+        <a href={href('/privacy')}>Privacy</a>
+        <a href="https://github.com/animeshkundu/dmv-prep" rel="noopener">Source and corrections</a>
+      </nav>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>
+      <strong>Unofficial study aid.</strong> Not affiliated with any state agency. Always confirm
+      current requirements with your state's official handbook and licensing agency.
     </p>
-    <nav class="footer-links" aria-label="Footer">
-      <a href={href('/states')}>All states</a>
-      <a href={href('/guide')}>Permit guide</a>
-      <a href={href('/about')}>About</a>
-      <a href={href('/privacy')}>Privacy</a>
-      <a href="https://github.com/animeshkundu/dmv-prep" rel="noopener">Source &amp; corrections</a>
-    </nav>
+    <p>Built for learners, not advertisers.</p>
   </div>
 </footer>
 
 <style>
   .site-footer {
-    border-top: 1px solid var(--c-border);
-    margin-top: var(--sp-10);
-    background: var(--c-surface);
+    color: var(--c-on-strong);
+    background: var(--c-surface-strong);
   }
-  .footer-inner {
+
+  .footer-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) repeat(2, minmax(9rem, 0.6fr));
+    gap: var(--sp-8);
+    padding-block: var(--sp-10);
+  }
+
+  .footer-brand {
     display: grid;
     gap: var(--sp-4);
-    padding-block: var(--sp-6);
+    max-width: 38rem;
   }
-  .disclaimer {
-    color: var(--c-text-muted);
+
+  .footer-kicker {
+    color: var(--c-pop-on-strong);
     font-size: var(--fs-sm);
-    max-width: var(--container-narrow);
+    font-weight: 900;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
   }
+
+  .footer-brand p,
+  .footer-bottom {
+    color: var(--c-on-strong-muted);
+  }
+
+  .footer-grid h3 {
+    margin-bottom: var(--sp-4);
+    font-size: var(--fs-base);
+    letter-spacing: 0;
+  }
+
   .footer-links {
-    display: flex;
-    flex-wrap: wrap;
-    gap: var(--sp-4);
-    font-size: var(--fs-sm);
+    display: grid;
+    gap: var(--sp-3);
   }
+
   .footer-links a {
-    color: var(--c-text-muted);
+    width: fit-content;
+    min-height: var(--sp-6);
+    color: var(--c-on-strong-muted);
     text-decoration: none;
   }
+
   .footer-links a:hover {
-    color: var(--c-accent);
+    color: var(--c-on-strong);
+  }
+
+  .footer-bottom {
+    display: flex;
+    gap: var(--sp-5);
+    justify-content: space-between;
+    padding-block: var(--sp-5);
+    border-top: var(--border-width) solid color-mix(in srgb, var(--c-on-strong) 18%, transparent);
+    font-size: var(--fs-sm);
+  }
+
+  .footer-bottom p:first-child {
+    max-width: 50rem;
+  }
+
+  @media (max-width: 48rem) {
+    .footer-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .footer-brand {
+      grid-column: 1 / -1;
+    }
+  }
+
+  @media (max-width: 32rem) {
+    .footer-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .footer-bottom {
+      display: grid;
+    }
   }
 </style>

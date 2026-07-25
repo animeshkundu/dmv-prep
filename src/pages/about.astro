@@ -1,4 +1,73 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro'; import { href } from '../lib/site'; import '../styles/pages.css';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { href } from '../lib/site';
+import '../styles/pages.css';
 ---
-<BaseLayout title="About"><section class="container container-narrow page-shell"><h1>About DMV Prep</h1><article class="card study-card"><p>DMV Prep is a free, private study tool for US learner's permit knowledge tests. Questions are original and cite the public handbook or standard they use.</p><p>DMV Prep is not affiliated with any DMV or government agency. Rules change, so confirm legal and application requirements on your state's official site.</p><p><a href={href('/privacy')}>Read the privacy summary</a></p></article></section></BaseLayout>
+
+<BaseLayout
+  title="About DMV Prep"
+  description="Learn how DMV Prep delivers free, private, handbook-cited learner's permit study tools without ads, accounts, or government affiliation."
+>
+  <section class="container page-shell">
+    <Breadcrumbs items={[{ label: 'Home', path: '/' }, { label: 'About' }]} />
+    <header class="page-hero">
+      <p class="eyebrow">Why DMV Prep exists</p>
+      <h1>Permit prep should reduce stress, not add a paywall.</h1>
+      <p class="lede">
+        DMV Prep is a free, private study tool built around clear explanations, transparent
+        sources, and a focused path to test-day confidence.
+      </p>
+    </header>
+
+    <section class="trust-band" aria-label="Project principles">
+      <div><strong>Free</strong><span>No premium tier</span></div>
+      <div><strong>Private</strong><span>No account required</span></div>
+      <div><strong>Grounded</strong><span>Sources shown</span></div>
+      <div><strong>Independent</strong><span>No agency affiliation</span></div>
+    </section>
+
+    <section class="content-split">
+      <article class="card article-card">
+        <p class="eyebrow">Our standard</p>
+        <h2>Helpful only counts when it is honest.</h2>
+        <p>
+          Practice questions are original, not copied from real tests. Each one is grounded in a
+          public handbook or rule and carries a citation so learners can check the source.
+        </p>
+        <p>
+          State facts include a verification date. When details are not verified, we say so
+          instead of filling the gap with a guess.
+        </p>
+        <p>
+          DMV Prep is not affiliated with a DMV, licensing agency, or government office. Agency
+          names are used only to help learners reach the right official information.
+        </p>
+      </article>
+      <aside class="stack">
+        <div class="callout">
+          <p class="eyebrow">Privacy by design</p>
+          <h2>Your study history is yours.</h2>
+          <p>Answers, flashcard schedules, and mock results stay in your browser. No profile is needed.</p>
+          <p><a href={href('/privacy')}>Read the privacy summary →</a></p>
+        </div>
+        <div class="card article-card">
+          <h3>See something wrong?</h3>
+          <p>Accuracy is ongoing work. Use the public project repository to report a correction with the source.</p>
+          <p><a href="https://github.com/animeshkundu/dmv-prep">View source and report corrections →</a></p>
+        </div>
+      </aside>
+    </section>
+
+    <section>
+      <div class="section-heading center">
+        <p class="eyebrow">The promise</p>
+        <h2>No ads. No fake urgency. No locked “best” test.</h2>
+        <p class="lede">
+          Just the tools you need to learn the rules, check your readiness, and understand what
+          comes next.
+        </p>
+      </div>
+    </section>
+  </section>
+</BaseLayout>

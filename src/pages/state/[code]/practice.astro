@@ -1,5 +1,63 @@
 ---
-import BaseLayout from '../../../layouts/BaseLayout.astro'; import Quiz from '../../../islands/Quiz'; import { STATES, byCode, stateSlug } from '../../../lib/states-directory'; import { studyContent } from '../../../lib/content'; import { applicableQuestions, categoriesPresent } from '../../../lib/questions'; import '../../../styles/pages.css';
-export function getStaticPaths(){return STATES.map((state)=>({params:{code:stateSlug(state.code)}}));} const code=Astro.params.code!.toUpperCase(); const directory=byCode(code)!; const content=await studyContent(code); const questions=applicableQuestions(content.questions,code); const categories=categoriesPresent(questions);
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import Quiz from '../../../islands/Quiz';
+import { STATES, byCode, stateSlug } from '../../../lib/states-directory';
+import { studyContent } from '../../../lib/content';
+import { applicableQuestions, categoriesPresent } from '../../../lib/questions';
+import '../../../styles/pages.css';
+
+export function getStaticPaths() {
+  return STATES.map((state) => ({ params: { code: stateSlug(state.code) } }));
+}
+
+const code = Astro.params.code!.toUpperCase();
+const directory = byCode(code)!;
+const content = await studyContent(code);
+const questions = applicableQuestions(content.questions, code);
+const categories = categoriesPresent(questions);
+const description = `Free ${directory.name} DMV practice test with ${questions.length} available handbook-cited questions, instant explanations, and missed-question review.`;
+const quizSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Quiz',
+  name: `${directory.name} DMV permit practice test`,
+  description,
+  educationalLevel: 'Beginner',
+  about: `${directory.name} learner's permit knowledge test`,
+  hasPart: questions.slice(0, 10).map((question) => ({
+    '@type': 'Question',
+    name: question.prompt,
+    eduQuestionType: 'Multiple choice',
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: question.options[question.correctIndex],
+    },
+  })),
+};
 ---
-<BaseLayout title={`${directory.name} practice test`}><section class="study-shell"><h1>{directory.name} practice questions</h1><p class="muted">Study all available topics with immediate explanations and citations.</p><p>{categories.map((category)=><span class="badge">{category.replaceAll('-',' ')}</span>)}</p><Quiz client:load questions={questions}/></section></BaseLayout>
+
+<BaseLayout title={`${directory.name} DMV Practice Test`} description={description} structuredData={quizSchema}>
+  <section class="study-shell">
+    <Breadcrumbs
+      items={[
+        { label: 'Home', path: '/' },
+        { label: 'States', path: '/states' },
+        { label: directory.name, path: `/state/${stateSlug(code)}` },
+        { label: 'Practice' },
+      ]}
+    />
+    <header class="study-intro">
+      <p class="eyebrow">Learn with every answer</p>
+      <h1>{directory.name} DMV practice test</h1>
+      <p class="lede">
+        Pick a topic or mix all {categories.length} available areas. Each answer includes a clear
+        explanation and source, and missed questions return in your Challenge Bank.
+      </p>
+      <div class="actions">
+        <span class="badge">{questions.length} available questions</span>
+        <span class="badge">10 per practice set</span>
+      </div>
+    </header>
+    <Quiz client:load questions={questions} />
+  </section>
+</BaseLayout>

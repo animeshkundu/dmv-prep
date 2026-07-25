@@ -101,7 +101,7 @@ import { href } from '../lib/site';
     width: min(40rem, calc(100% - var(--sp-6)));
     z-index: 80;
     background: var(--c-surface);
-    border: 1px solid var(--c-border);
+    border: var(--border-width) solid var(--c-border);
     border-radius: var(--r-lg);
     box-shadow: var(--shadow-lg);
     padding: var(--sp-4) var(--sp-5);
@@ -122,6 +122,6 @@ import { href } from '../lib/site';
   }
   .consent .btn {
     padding: var(--sp-2) var(--sp-4);
-    min-height: 40px;
+    min-height: var(--control);
   }
 </style>
