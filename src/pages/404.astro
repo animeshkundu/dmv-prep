@@ -1,39 +1,20 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { href } from '../lib/site';
+import '../styles/pages.css';
 ---
 
-<BaseLayout title="Page not found">
+<BaseLayout title="Page Not Found" description="The requested DMV Prep page could not be found." noindex>
   <section class="container notfound">
-    <p class="code">404</p>
-    <h1>We took a wrong turn.</h1>
-    <p class="lede">That page doesn't exist. Let's get you back on the road.</p>
-    <div class="actions">
-      <a class="btn btn-primary" href={href('/')}>Go home</a>
-      <a class="btn btn-ghost" href={href('/states')}>Pick your state</a>
+    <div class="notfound-inner">
+      <p class="code">404</p>
+      <p class="eyebrow">Wrong turn</p>
+      <h1>This road does not go anywhere.</h1>
+      <p class="lede">Head back to the state directory and we will get your permit prep moving again.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href={href('/')}>Go home</a>
+        <a class="btn btn-ghost" href={href('/states')}>Choose your state</a>
+      </div>
     </div>
   </section>
 </BaseLayout>
-
-<style>
-  .notfound {
-    text-align: center;
-    padding-block: var(--sp-10);
-  }
-  .code {
-    font-size: var(--fs-3xl);
-    font-weight: 800;
-    color: var(--c-accent);
-  }
-  .lede {
-    color: var(--c-text-muted);
-    margin-top: var(--sp-3);
-  }
-  .actions {
-    margin-top: var(--sp-6);
-    display: flex;
-    gap: var(--sp-3);
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-</style>

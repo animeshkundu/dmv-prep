@@ -1,11 +1,88 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { STATES, stateSlug } from '../../lib/states-directory';
 import { href } from '../../lib/site';
 import '../../styles/pages.css';
+
 const authoredStates = new Set<string>((await getCollection('states')).map((entry) => entry.data.code));
-const questionStates = new Set<string>((await getCollection('questions')).flatMap((entry) => entry.data.stateScope === 'all' ? [] : entry.data.stateScope));
+const questionStates = new Set<string>(
+  (await getCollection('questions')).flatMap((entry) =>
+    entry.data.stateScope === 'all' ? [] : entry.data.stateScope,
+  ),
+);
 ---
-<BaseLayout title="State permit test prep"><section class="container page-shell"><div><p class="badge">50 states + DC</p><h1>Choose your state</h1><p class="muted">Find state-specific exam facts, practice questions, and permit steps.</p></div><input id="directory-search" class="form-control" type="search" placeholder="Search states" aria-controls="directory"/><div id="directory" class="link-grid">{STATES.map((state) => <a class="card link-card" data-name={`${state.name} ${state.code}`.toLowerCase()} href={href(`/state/${stateSlug(state.code)}`)}><strong>{state.name}</strong><p class="muted">{state.agencyShort}</p>{authoredStates.has(state.code) && questionStates.has(state.code as never) ? <span class="badge">State content ready</span> : <span class="badge">National practice ready</span>}</a>)}</div></section></BaseLayout>
-<script>const input=document.querySelector<HTMLInputElement>('#directory-search');input?.addEventListener('input',()=>document.querySelectorAll<HTMLElement>('#directory [data-name]').forEach((item)=>item.hidden=!(item.dataset.name??'').includes(input.value.toLowerCase())));</script>
+
+<BaseLayout
+  title="DMV Practice Tests by State"
+  description="Choose your state for free DMV permit practice tests, state-specific mock exams, smart flashcards, and current permit guides."
+>
+  <section class="container page-shell">
+    <Breadcrumbs items={[{ label: 'Home', path: '/' }, { label: 'States' }]} />
+    <header class="page-hero">
+      <p class="eyebrow">All 50 states and Washington, DC</p>
+      <h1>Your test. Your state. Your rules.</h1>
+      <p class="lede">
+        Start with the exact permit-test journey built for your licensing agency, then move from
+        practice to a realistic mock when you are ready.
+      </p>
+    </header>
+
+    <div class="trust-band" aria-label="What every state includes">
+      <div><strong>Practice</strong><span>Immediate cited feedback</span></div>
+      <div><strong>Mock exam</strong><span>State-aware score targets</span></div>
+      <div><strong>Flashcards</strong><span>Smart spaced review</span></div>
+      <div><strong>Permit guide</strong><span>Official next steps</span></div>
+    </div>
+
+    <div class="directory-search">
+      <label class="visually-hidden" for="directory-search">Search states</label>
+      <input
+        id="directory-search"
+        class="form-control"
+        type="search"
+        placeholder="Search states or agency"
+        autocomplete="off"
+        aria-controls="directory"
+      />
+    </div>
+
+    <div id="directory" class="link-grid">
+      {
+        STATES.map((state) => (
+          <a
+            class="card link-card directory-card"
+            data-name={`${state.name} ${state.code} ${state.agencyShort}`.toLowerCase()}
+            href={href(`/state/${stateSlug(state.code)}`)}
+          >
+            <span class="state-card-title">
+              <span class="state-code">{state.code}</span>
+              <strong>{state.name}</strong>
+            </span>
+            <p class="muted">{state.agencyShort} learner's permit prep</p>
+            {authoredStates.has(state.code) && questionStates.has(state.code)
+              ? <span class="badge">State details ready</span>
+              : <span class="badge">National practice ready</span>}
+          </a>
+        ))
+      }
+    </div>
+    <p id="directory-empty" class="card empty-search" hidden>No state or agency matches that search.</p>
+  </section>
+</BaseLayout>
+
+<script>
+  const input = document.querySelector<HTMLInputElement>('#directory-search');
+  const empty = document.querySelector<HTMLElement>('#directory-empty');
+  input?.addEventListener('input', () => {
+    const query = input.value.trim().toLowerCase();
+    let visible = 0;
+    document.querySelectorAll<HTMLElement>('#directory [data-name]').forEach((item) => {
+      const matches = (item.dataset.name ?? '').includes(query);
+      item.hidden = !matches;
+      if (matches) visible += 1;
+    });
+    if (empty) empty.hidden = visible !== 0;
+  });
+</script>

@@ -1,5 +1,47 @@
 ---
-import BaseLayout from '../../../layouts/BaseLayout.astro'; import Flashcards from '../../../islands/Flashcards'; import { STATES, byCode, stateSlug } from '../../../lib/states-directory'; import { studyContent } from '../../../lib/content'; import { applicableQuestions } from '../../../lib/questions'; import '../../../styles/pages.css';
-export function getStaticPaths(){return STATES.map((state)=>({params:{code:stateSlug(state.code)}}));} const code=Astro.params.code!.toUpperCase(); const directory=byCode(code)!; const content=await studyContent(code); const questions=applicableQuestions(content.questions,code);
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import Flashcards from '../../../islands/Flashcards';
+import { STATES, byCode, stateSlug } from '../../../lib/states-directory';
+import { studyContent } from '../../../lib/content';
+import { applicableQuestions } from '../../../lib/questions';
+import '../../../styles/pages.css';
+
+export function getStaticPaths() {
+  return STATES.map((state) => ({ params: { code: stateSlug(state.code) } }));
+}
+
+const code = Astro.params.code!.toUpperCase();
+const directory = byCode(code)!;
+const content = await studyContent(code);
+const questions = applicableQuestions(content.questions, code);
 ---
-<BaseLayout title={`${directory.name} flashcards`}><section class="study-shell"><h1>{directory.name} flashcards</h1><p class="muted">Smart review schedules each card for the right time.</p><Flashcards client:load questions={questions} signs={content.signs}/></section></BaseLayout>
+
+<BaseLayout
+  title={`${directory.name} DMV Flashcards`}
+  description={`Study ${directory.name} permit rules and US road signs with free smart flashcards that schedule review when you need it.`}
+>
+  <section class="study-shell">
+    <Breadcrumbs
+      items={[
+        { label: 'Home', path: '/' },
+        { label: 'States', path: '/states' },
+        { label: directory.name, path: `/state/${stateSlug(code)}` },
+        { label: 'Flashcards' },
+      ]}
+    />
+    <header class="study-intro">
+      <p class="eyebrow">Remember more with less repetition</p>
+      <h1>{directory.name} permit flashcards</h1>
+      <p class="lede">
+        Reveal the answer, rate how it felt, and let smart spacing choose when the card returns.
+        Your schedule stays private on this device.
+      </p>
+      <div class="actions">
+        <span class="badge">{questions.length + content.signs.length} cards</span>
+        <span class="badge">Smart spaced review</span>
+      </div>
+    </header>
+    <Flashcards client:load questions={questions} signs={content.signs} />
+  </section>
+</BaseLayout>

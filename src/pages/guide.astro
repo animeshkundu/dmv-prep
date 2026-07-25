@@ -1,4 +1,99 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro'; import { STATES, stateSlug } from '../lib/states-directory'; import { href } from '../lib/site'; import '../styles/pages.css';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { STATES, stateSlug } from '../lib/states-directory';
+import { href } from '../lib/site';
+import '../styles/pages.css';
 ---
-<BaseLayout title="Permit guide"><section class="container page-shell"><h1>Get your learner's permit</h1><p class="muted">Requirements differ by state. Choose yours for documents, ages, fees, testing, and official links.</p><div class="link-grid">{STATES.map((state)=><a class="card link-card" href={href(`/state/${stateSlug(state.code)}/guide`)}><strong>{state.name}</strong><p class="muted">{state.agencyShort} permit guide</p></a>)}</div></section></BaseLayout>
+
+<BaseLayout
+  title="How to Get a Learner's Permit in Any State"
+  description="A clear US learner's permit roadmap plus state-by-state guides for age rules, documents, fees, appointments, testing, and official sources."
+>
+  <section class="container page-shell">
+    <Breadcrumbs items={[{ label: 'Home', path: '/' }, { label: 'Permit guide' }]} />
+    <header class="page-hero">
+      <p class="eyebrow">The permit process, made human</p>
+      <h1>From “Where do I start?” to permit in hand.</h1>
+      <p class="lede">
+        The details change by state, but the road is familiar. Use this national overview, then
+        open your state guide for current agency links and requirements.
+      </p>
+      <a class="btn btn-primary" href="#state-guides">Find your state guide</a>
+    </header>
+
+    <section aria-labelledby="permit-roadmap">
+      <div class="section-heading">
+        <p class="eyebrow">The national roadmap</p>
+        <h2 id="permit-roadmap">Four stages, one clear goal.</h2>
+      </div>
+      <ol class="process-list roadmap">
+        <li>
+          <div><h3>Check your state’s eligibility rules</h3><p>Age, driver education, guardian consent, and residency requirements can depend on your path.</p></div>
+        </li>
+        <li>
+          <div><h3>Gather original documents</h3><p>Most agencies ask for identity, lawful status, residency, and Social Security documentation. Exact lists differ.</p></div>
+        </li>
+        <li>
+          <div><h3>Prepare for knowledge and vision checks</h3><p>Study your current handbook, practice with feedback, then rehearse without hints.</p></div>
+        </li>
+        <li>
+          <div><h3>Apply and follow permit restrictions</h3><p>Confirm appointments, fees, supervision, holding periods, and the next license step with your agency.</p></div>
+        </li>
+      </ol>
+    </section>
+
+    <aside class="callout guide-callout">
+      <div>
+        <p class="eyebrow">Before you rely on a checklist</p>
+        <h2>Rules change. Official sources get the final word.</h2>
+      </div>
+      <p>
+        Every detailed guide includes a verification date and links back to the licensing agency.
+        Recheck documents, fees, and scheduling shortly before you apply.
+      </p>
+    </aside>
+
+    <section id="state-guides" aria-labelledby="state-guide-heading">
+      <div class="section-heading">
+        <p class="eyebrow">State-by-state</p>
+        <h2 id="state-guide-heading">Open your permit guide.</h2>
+        <p class="lede">Find the agency, checklist, testing path, and official next steps where you live.</p>
+      </div>
+      <div class="link-grid">
+        {
+          STATES.map((state) => (
+            <a class="card link-card directory-card" href={href(`/state/${stateSlug(state.code)}/guide`)}>
+              <span class="state-card-title">
+                <span class="state-code">{state.code}</span>
+                <strong>{state.name}</strong>
+              </span>
+              <p class="muted">{state.agencyShort} permit checklist</p>
+            </a>
+          ))
+        }
+      </div>
+    </section>
+  </section>
+</BaseLayout>
+
+<style>
+  .roadmap {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .guide-callout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(18rem, 1fr);
+    gap: var(--sp-6);
+    align-items: end;
+    padding: var(--sp-7);
+  }
+
+  @media (max-width: 42rem) {
+    .roadmap,
+    .guide-callout {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
