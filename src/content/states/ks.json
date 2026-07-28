@@ -94,6 +94,456 @@
   "sourceSnapshotHash": "seed-pending-verification",
   "reviewStatus": "draft",
   "verifyNote": "The official handbook is revised February 2022 and confirms 25 questions with an 80% passing score (20 correct), ages, and GDL rules. The official fee chart is dated May 2023 and confirms permit, test, and age-banded adult Class C fees, but its under-21 'Class C or M' row bundles a $20 motorcycle fee and does not unambiguously state the Class C-only total. The state-level school-zone 20 mph summary also remains unconfirmed by the handbook.",
-  "lastVerified": "2026-07-24",
-  "contentVersion": 1
+  "lastVerified": "2026-07-27",
+  "contentVersion": 1,
+  "typedFacts": {
+    "bacAdult": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KS official statutory code",
+        "citation": "K.S.A. 8-1567",
+        "url": "https://www.kslegislature.gov/b2025_26/laws/008_000_0000_chapter/008_015_0000_article/008_015_0067_section/008_015_0067_k/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "bacUnder21": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KS official statutory code",
+        "citation": "K.S.A. 8-1567a",
+        "url": "https://www.kslegislature.gov/b2025_26/laws/008_000_0000_chapter/008_015_0000_article/008_015_0067a_section/008_015_0067a_k/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "bacCommercial": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KS official statutory code",
+        "citation": "K.S.A. 8-1567",
+        "url": "https://www.kslegislature.gov/b2025_26/laws/008_000_0000_chapter/008_015_0000_article/008_015_0067_section/008_015_0067_k/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "impliedConsentRefusal": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KS official statutory code",
+        "citation": "K.S.A. 8-1001",
+        "url": "https://www.kslegislature.gov/b2025_26/laws/008_000_0000_chapter/008_010_0000_article/008_010_0001_section/008_010_0001_k/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "openContainerProhibited": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KS official statutory code",
+        "citation": "K.S.A. 8-1599",
+        "url": "https://www.kslegislature.gov/b2025_26/laws/008_000_0000_chapter/008_015_0000_article/008_015_0099_section/008_015_0099_k/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "duiFirstSuspensionDays": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KS official statutory code",
+        "citation": "K.S.A. 8-1013",
+        "url": "https://www.kslegislature.gov/b2025_26/laws/008_000_0000_chapter/008_010_0000_article/008_010_0013_section/008_010_0013_k/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "ruralInterstateMaxMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KS official statutory code",
+        "citation": "K.S.A. 8-1558",
+        "url": "https://www.kslegislature.gov/b2025_26/laws/008_000_0000_chapter/008_015_0000_article/008_015_0058_section/008_015_0058_k/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "urbanInterstateMaxMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KS official statutory code",
+        "citation": "K.S.A. 8-1558",
+        "url": "https://www.kslegislature.gov/b2025_26/laws/008_000_0000_chapter/008_015_0000_article/008_015_0058_section/008_015_0058_k/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "residentialDefaultMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KS official statutory code",
+        "citation": "K.S.A. 8-1558",
+        "url": "https://www.kslegislature.gov/b2025_26/laws/008_000_0000_chapter/008_015_0000_article/008_015_0058_section/008_015_0058_k/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "schoolZoneMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KS official statutory code",
+        "citation": "K.S.A. 8-1558",
+        "url": "https://www.kslegislature.gov/b2025_26/laws/008_000_0000_chapter/008_015_0000_article/008_015_0058_section/008_015_0058_k/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "basicSpeedLaw": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KS official statutory code",
+        "citation": "K.S.A. 8-1557",
+        "url": "https://www.kslegislature.gov/b2025_26/laws/008_000_0000_chapter/008_015_0000_article/008_015_0057_section/008_015_0057_k/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "rightTurnOnRed": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KS official statutory code",
+        "citation": "K.S.A. 8-1553",
+        "url": "https://www.kslegislature.gov/b2025_26/laws/008_000_0000_chapter/008_015_0000_article/008_015_0053_section/008_015_0053_k/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "leftTurnOnRedFromOneWay": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KS official statutory code",
+        "citation": "K.S.A. 8-1553",
+        "url": "https://www.kslegislature.gov/b2025_26/laws/008_000_0000_chapter/008_015_0000_article/008_015_0053_section/008_015_0053_k/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "seatBeltEnforcement": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KS official statutory code",
+        "citation": "K.S.A. 8-2503",
+        "url": "https://www.kslegislature.gov/b2025_26/laws/008_000_0000_chapter/008_025_0000_article/008_025_0003_section/008_025_0003_k/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "handheldPhone": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KS official statutory code",
+        "citation": "K.S.A. 8-1562",
+        "url": "https://www.kslegislature.gov/b2025_26/laws/008_000_0000_chapter/008_015_0000_article/008_015_0062_section/008_015_0062_k/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "texting": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KS official statutory code",
+        "citation": "K.S.A. 8-1562a",
+        "url": "https://www.kslegislature.gov/b2025_26/laws/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "moveOver": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KS official statutory code",
+        "citation": "K.S.A. 8-1530",
+        "url": "https://www.kslegislature.gov/b2025_26/laws/008_000_0000_chapter/008_015_0000_article/008_015_0030_section/008_015_0030_k/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "headlightsRequired": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KS official statutory code",
+        "citation": "K.S.A. 8-1703",
+        "url": "https://www.kslegislature.gov/b2025_26/laws/008_000_0000_chapter/008_017_0000_article/008_017_0003_section/008_017_0003_k/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromHydrant": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KS official statutory code",
+        "citation": "K.S.A. 8-1571",
+        "url": "https://www.kslegislature.gov/b2025_26/laws/008_000_0000_chapter/008_015_0000_article/008_015_0071_section/008_015_0071_k/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromCrosswalk": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KS official statutory code",
+        "citation": "K.S.A. 8-1571",
+        "url": "https://www.kslegislature.gov/b2025_26/laws/008_000_0000_chapter/008_015_0000_article/008_015_0071_section/008_015_0071_k/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromStopSign": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KS official statutory code",
+        "citation": "K.S.A. 8-1571",
+        "url": "https://www.kslegislature.gov/b2025_26/laws/008_000_0000_chapter/008_015_0000_article/008_015_0071_section/008_015_0071_k/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromRailroad": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KS official statutory code",
+        "citation": "K.S.A. 8-1571",
+        "url": "https://www.kslegislature.gov/b2025_26/laws/008_000_0000_chapter/008_015_0000_article/008_015_0071_section/008_015_0071_k/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "pointSystem": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KS official statutory code",
+        "citation": "K.S.A. 8-255",
+        "url": "https://www.kslegislature.gov/b2025_26/laws/008_000_0000_chapter/008_002_0000_article/008_002_0055_section/008_002_0055_k/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "pointSuspension": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KS official statutory code",
+        "citation": "K.S.A. 8-255",
+        "url": "https://www.kslegislature.gov/b2025_26/laws/008_000_0000_chapter/008_002_0000_article/008_002_0055_section/008_002_0055_k/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "permitMinAgeMonths": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KS official statutory code",
+        "citation": "K.S.A. 8-237",
+        "url": "https://www.kslegislature.gov/b2025_26/laws/008_000_0000_chapter/008_002_0000_article/008_002_0037_section/008_002_0037_k/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "permitHoldingMonths": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KS official statutory code",
+        "citation": "K.S.A. 8-237",
+        "url": "https://www.kslegislature.gov/b2025_26/laws/008_000_0000_chapter/008_002_0000_article/008_002_0037_section/008_002_0037_k/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "supervisedHoursTotal": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KS official statutory code",
+        "citation": "K.S.A. 8-239",
+        "url": "https://www.kslegislature.gov/b2025_26/laws/008_000_0000_chapter/008_002_0000_article/008_002_0039_section/008_002_0039_k/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "supervisedHoursNight": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KS official statutory code",
+        "citation": "K.S.A. 8-239",
+        "url": "https://www.kslegislature.gov/b2025_26/laws/008_000_0000_chapter/008_002_0000_article/008_002_0039_section/008_002_0039_k/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "gdlNightCurfew": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KS official statutory code",
+        "citation": "K.S.A. 8-239",
+        "url": "https://www.kslegislature.gov/b2025_26/laws/008_000_0000_chapter/008_002_0000_article/008_002_0039_section/008_002_0039_k/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "gdlPassengerPhase1": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KS official statutory code",
+        "citation": "K.S.A. 8-239",
+        "url": "https://www.kslegislature.gov/b2025_26/laws/008_000_0000_chapter/008_002_0000_article/008_002_0039_section/008_002_0039_k/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "minLiability": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KS official statutory code",
+        "citation": "K.S.A. 40-3107",
+        "url": "https://www.kslegislature.gov/b2025_26/laws/040_000_0000_chapter/040_031_0000_article/040_031_0007_section/040_031_0007_k/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "crashReportThresholdUsd": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KS official statutory code",
+        "citation": "K.S.A. 8-1604",
+        "url": "https://www.kslegislature.gov/b2025_26/laws/008_000_0000_chapter/008_016_0000_article/008_016_0004_section/008_016_0004_k/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    }
+  }
 }

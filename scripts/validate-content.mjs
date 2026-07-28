@@ -68,6 +68,19 @@ for (const file of await jsonFiles(S_DIR)) {
   if (!data.officialSiteUrl) errors.push(`${file}: missing officialSiteUrl`);
   if (!Array.isArray(data.examVariants) || data.examVariants.length === 0)
     errors.push(`${file}: missing examVariants`);
+  else {
+    const seenVariantIds = new Set();
+    for (const variant of data.examVariants) {
+      const variantId = variant?.variantId;
+      if (!variantId) {
+        errors.push(`${file}: exam variant missing variantId`);
+      } else if (seenVariantIds.has(variantId)) {
+        errors.push(`${file}: duplicate exam variantId "${variantId}"`);
+      } else {
+        seenVariantIds.add(variantId);
+      }
+    }
+  }
   if (!hasCitations(data.references)) errors.push(`${file}: missing citation(s)`);
   if (!data.lastVerified) errors.push(`${file}: missing lastVerified`);
 }

@@ -9,8 +9,11 @@
  */
 import { readdir, readFile, writeFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
-import { createHash } from 'node:crypto';
 import { join } from 'node:path';
+import {
+  SourceExtractionUnsupportedError,
+  hashResponseSource,
+} from './content/lib/source-normalizer.mjs';
 
 const ROOT = new URL('..', import.meta.url).pathname;
 const S_DIR = join(ROOT, 'src/content/states');
@@ -30,10 +33,6 @@ async function head(url) {
   } catch (e) {
     return { ok: false, status: 0, error: String(e) };
   }
-}
-
-function normalizeHash(text) {
-  return createHash('sha256').update(text.replace(/\s+/g, ' ').trim()).digest('hex');
 }
 
 async function stateFiles() {
@@ -61,18 +60,30 @@ for (const file of await stateFiles()) {
   }
 
   // Source-change detection where we recorded a snapshot hash.
-  if (data.sourceSnapshotHash && data.handbookPdfUrl && data.handbookFormat !== 'pdf') {
+  if (data.sourceSnapshotHash && data.sourceSnapshotHash !== 'seed-pending-verification') {
+    const handbookUrl = data.handbookPdfUrl || data.handbookLandingUrl;
     try {
-      const res = await fetch(data.handbookLandingUrl, { redirect: 'follow', signal: AbortSignal.timeout(20000) });
-      if (res.ok) {
-        const cur = normalizeHash(await res.text());
+      const res = await fetch(handbookUrl, { redirect: 'follow', signal: AbortSignal.timeout(20000) });
+      if (!res.ok) {
+        failures++;
+        results.push({ state: data.code, field: 'handbook', url: handbookUrl, status: res.status, issue: 'unreachable' });
+      } else {
+        const cur = await hashResponseSource(res, handbookUrl);
         if (cur !== data.sourceSnapshotHash) {
           failures++;
-          results.push({ state: data.code, field: 'handbook', url: data.handbookLandingUrl, issue: 'source-changed' });
+          results.push({ state: data.code, field: 'handbook', url: handbookUrl, issue: 'source-changed' });
         }
       }
-    } catch {
-      /* reachability already covered above */
+    } catch (error) {
+      failures++;
+      const issue = error instanceof SourceExtractionUnsupportedError ? 'source-unsupported' : 'source-extraction-failed';
+      results.push({
+        state: data.code,
+        field: 'handbook',
+        url: handbookUrl,
+        issue,
+        error: error instanceof Error ? error.message : String(error),
+      });
     }
   }
 }

@@ -52,6 +52,11 @@ const provenance = {
   reviewStatus: reviewStatus.default('draft'),
   /** Why an item remains draft after review, including the exact unresolved fact. */
   verifyNote: z.string().min(1).optional(),
+  /** Model or reviewer identity recorded in the verification audit. */
+  verifiedBy: z.string().min(1).optional(),
+  verifiedAt: isoDate.optional(),
+  /** Identifier of the immutable verification-audit artifact. */
+  verificationAuditId: z.string().min(1).optional(),
   lastVerified: isoDate,
   contentVersion: z.number().int().nonnegative().default(1),
 };
@@ -71,6 +76,165 @@ export const QUESTION_CATEGORIES = [
   'gdl-teen',
 ] as const;
 export const questionCategory = z.enum(QUESTION_CATEGORIES);
+
+export const TYPED_FACT_KEYS = [
+  'bacAdult',
+  'bacUnder21',
+  'bacCommercial',
+  'impliedConsentRefusal',
+  'openContainerProhibited',
+  'duiFirstSuspensionDays',
+  'ruralInterstateMaxMph',
+  'urbanInterstateMaxMph',
+  'residentialDefaultMph',
+  'schoolZoneMph',
+  'basicSpeedLaw',
+  'rightTurnOnRed',
+  'leftTurnOnRedFromOneWay',
+  'seatBeltEnforcement',
+  'handheldPhone',
+  'texting',
+  'moveOver',
+  'headlightsRequired',
+  'parkFtFromHydrant',
+  'parkFtFromCrosswalk',
+  'parkFtFromStopSign',
+  'parkFtFromRailroad',
+  'pointSystem',
+  'pointSuspension',
+  'permitMinAgeMonths',
+  'permitHoldingMonths',
+  'supervisedHoursTotal',
+  'supervisedHoursNight',
+  'gdlNightCurfew',
+  'gdlPassengerPhase1',
+  'minLiability',
+  'crashReportThresholdUsd',
+] as const;
+export const typedFactKey = z.enum(TYPED_FACT_KEYS);
+export type TypedFactKey = z.infer<typeof typedFactKey>;
+
+const condition = z.object({
+  kind: z.enum([
+    'road-class',
+    'driver-age',
+    'gdl-phase',
+    'vehicle-class',
+    'time-of-day',
+    'posting',
+    'locality',
+    'occupancy',
+  ]),
+  detail: z.string().min(1),
+});
+
+const factStateSchema = <T extends z.ZodTypeAny>(value: T) =>
+  z.discriminatedUnion('status', [
+    z.object({
+      status: z.literal('value'),
+      value,
+      conditions: z.array(condition).min(1).optional(),
+    }),
+    z.object({
+      status: z.literal('varies'),
+      variants: z
+        .array(z.object({ value, conditions: z.array(condition).min(1) }))
+        .min(1),
+    }),
+    z.object({ status: z.literal('not-applicable'), reason: z.string().min(1) }),
+    z.object({ status: z.literal('unknown'), reason: z.string().min(1) }),
+  ]);
+
+const factValue = <T extends z.ZodTypeAny>(value: T) =>
+  z.object({
+    state: factStateSchema(value),
+    display: z.string().min(1),
+    citation: reference,
+    effectiveDate: isoDate.optional(),
+    lastVerified: isoDate,
+    confidence: z.enum(['verified', 'inferred', 'unknown']).default('unknown'),
+  }).superRefine((fact, ctx) => {
+    if (fact.confidence === 'verified' && !fact.effectiveDate) {
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        path: ['effectiveDate'],
+        message: 'Verified facts require the cited rule effectiveDate',
+      });
+    }
+  });
+
+const mph = z.number().int().min(5).max(90);
+const bac = z.number().min(0).max(0.2);
+
+export const typedFacts = z.object({
+  bacAdult: factValue(bac),
+  bacUnder21: factValue(bac),
+  bacCommercial: factValue(bac),
+  impliedConsentRefusal: factValue(
+    z.object({ suspensionMonths: z.number().int(), criminalOffense: z.boolean() }),
+  ),
+  openContainerProhibited: factValue(z.boolean()),
+  duiFirstSuspensionDays: factValue(z.number().int()).optional(),
+
+  ruralInterstateMaxMph: factValue(mph),
+  urbanInterstateMaxMph: factValue(mph).optional(),
+  residentialDefaultMph: factValue(mph),
+  schoolZoneMph: factValue(mph),
+  basicSpeedLaw: factValue(z.boolean()),
+
+  rightTurnOnRed: factValue(z.enum(['allowed-after-stop', 'prohibited-unless-posted'])),
+  leftTurnOnRedFromOneWay: factValue(z.enum(['allowed', 'prohibited'])),
+
+  seatBeltEnforcement: factValue(z.enum(['primary', 'secondary'])),
+  handheldPhone: factValue(z.enum(['banned-all', 'banned-novice', 'no-ban'])),
+  texting: factValue(z.enum(['banned-all', 'banned-novice', 'no-ban'])),
+  moveOver: factValue(
+    z.object({
+      requirement: z.enum(['lane-change-or-slow', 'lane-change-required', 'slow-only']),
+      coveredVehicles: z.array(
+        z.enum(['emergency', 'tow', 'roadside-assist', 'utility', 'any-flashing']),
+      ),
+      slowToMph: z.union([mph, z.literal('20-below-posted')]).optional(),
+    }),
+  ),
+  headlightsRequired: factValue(
+    z.object({ whenWipersOn: z.boolean(), minutesAfterSunset: z.number().int() }),
+  ),
+
+  parkFtFromHydrant: factValue(z.number().int()),
+  parkFtFromCrosswalk: factValue(z.number().int()),
+  parkFtFromStopSign: factValue(z.number().int()),
+  parkFtFromRailroad: factValue(z.number().int()),
+
+  pointSystem: factValue(z.boolean()),
+  pointSuspension: factValue(
+    z.object({ points: z.number().int(), windowMonths: z.number().int() }),
+  ).optional(),
+
+  permitMinAgeMonths: factValue(z.number().int()),
+  permitHoldingMonths: factValue(z.number().int()),
+  supervisedHoursTotal: factValue(z.number().int()),
+  supervisedHoursNight: factValue(z.number().int()).optional(),
+  gdlNightCurfew: factValue(
+    z.object({ startHour24: z.number().int(), endHour24: z.number().int() }),
+  ).optional(),
+  gdlPassengerPhase1: factValue(
+    z.object({
+      cap: z.number().int(),
+      underAge: z.number().int(),
+      familyExempt: z.boolean(),
+    }),
+  ).optional(),
+
+  minLiability: factValue(
+    z.object({
+      bodilyPerPerson: z.number().int(),
+      bodilyPerCrash: z.number().int(),
+      property: z.number().int(),
+    }),
+  ),
+  crashReportThresholdUsd: factValue(z.number().int()).optional(),
+});
 
 /** Which applicant a question/exam variant applies to. */
 const applicantVariant = z.object({
@@ -101,11 +265,16 @@ const examVariant = z.object({
     .optional(),
   languages: z.array(z.string()).default(['en']),
   onlineAvailable: z.boolean().default(false),
+  /** Separate exam variants that must all be passed for this credential. */
+  testGroup: z.string().min(1).optional(),
+  /** Categories from which this exam variant may draw questions. */
+  categoryScope: z.array(questionCategory).min(1).optional(),
 });
 
 const states = defineCollection({
   loader: glob({ base: './src/content/states', pattern: '**/*.json' }),
-  schema: z.object({
+  schema: z
+    .object({
     code: stateCode,
     name: z.string().min(1),
     /** Real agency name + type: DMV / DPS / SOS / PennDOT / MVA / BMV / DDS / DHSMV / DOL. */
@@ -162,7 +331,7 @@ const states = defineCollection({
       visionStandard: z.string().optional(),
     }),
 
-    // State-variable facts used to author state-specific questions.
+    // Deprecated free-text facts remain during the typed-fact migration.
     facts: z
       .object({
         bacLimitAdult: z.string().optional(),
@@ -176,9 +345,23 @@ const states = defineCollection({
         namedLaws: z.array(z.string()).optional(),
       })
       .optional(),
+    typedFacts: typedFacts.optional(),
 
     ...provenance,
-  }),
+    })
+    .superRefine((state, ctx) => {
+      const seen = new Set<string>();
+      state.examVariants.forEach((variant, index) => {
+        if (seen.has(variant.variantId)) {
+          ctx.addIssue({
+            code: z.ZodIssueCode.custom,
+            path: ['examVariants', index, 'variantId'],
+            message: 'variantId values must be unique within a state',
+          });
+        }
+        seen.add(variant.variantId);
+      });
+    }),
 });
 
 // ---------------------------------------------------------------------------
@@ -196,6 +379,34 @@ const questions = defineCollection({
       /** States that override/exclude a shared item (exceptions to a template). */
       stateExceptions: z.array(stateCode).optional(),
       applicantVariants: z.array(z.string()).optional(),
+      tags: z.array(z.string().min(1)).default([]),
+      tier: z.enum(['T1', 'T2', 'T3']).optional(),
+      claims: z
+        .array(
+          z.object({
+            factKey: typedFactKey,
+            usage: z.enum(['correct-answer', 'prompt-context']),
+          }),
+        )
+        .optional(),
+      /** Sign ids covered by this item, including nonvisual sign-rule counterparts. */
+      coversSigns: z.array(z.string().min(1)).min(1).optional(),
+      replacesQuestionId: z.string().min(1).optional(),
+      templateId: z.string().min(1).optional(),
+      templateVersion: z.number().int().positive().optional(),
+      universality: z
+        .object({
+          basis: z.enum([
+            'mutcd-federal',
+            'federal-statute',
+            'concept-only',
+            'fact-sweep',
+            'manual-audit',
+          ]),
+          sweepId: z.string().min(1).optional(),
+          factKeys: z.array(typedFactKey).min(1).optional(),
+        })
+        .optional(),
 
       prompt: z.string().min(1),
       imageAsset: z.string().optional(), // e.g. a sign svg id for road-sign questions
@@ -210,6 +421,88 @@ const questions = defineCollection({
     .refine((q) => q.correctIndex < q.options.length, {
       message: 'correctIndex must be a valid index into options',
       path: ['correctIndex'],
+    })
+    .superRefine((q, ctx) => {
+      if (q.tier === 'T1' && q.stateScope !== 'all') {
+        ctx.addIssue({
+          code: z.ZodIssueCode.custom,
+          path: ['stateScope'],
+          message: 'T1 questions must have stateScope "all"',
+        });
+      }
+      if (q.tier === 'T1' && !q.universality) {
+        ctx.addIssue({
+          code: z.ZodIssueCode.custom,
+          path: ['universality'],
+          message: 'T1 questions require a universality basis',
+        });
+      }
+      if (q.tier === 'T2') {
+        if (q.stateScope === 'all') {
+          ctx.addIssue({
+            code: z.ZodIssueCode.custom,
+            path: ['stateScope'],
+            message: 'T2 questions must be scoped to one or more states',
+          });
+        }
+        if (!q.templateId || !q.templateVersion) {
+          ctx.addIssue({
+            code: z.ZodIssueCode.custom,
+            path: ['templateId'],
+            message: 'T2 questions require templateId and templateVersion',
+          });
+        }
+        if (!q.claims?.length) {
+          ctx.addIssue({
+            code: z.ZodIssueCode.custom,
+            path: ['claims'],
+            message: 'T2 questions require at least one typed-fact claim',
+          });
+        }
+        if (q.reviewStatus !== 'draft' && (q.verifiedBy || q.verifiedAt || q.verificationAuditId)) {
+          ctx.addIssue({
+            code: z.ZodIssueCode.custom,
+            path: ['verifiedBy'],
+            message: 'T2 verification belongs in a confirmed template ledger, not generated rows',
+          });
+        }
+      }
+      if (q.tier === 'T3' && q.stateScope === 'all') {
+        ctx.addIssue({
+          code: z.ZodIssueCode.custom,
+          path: ['stateScope'],
+          message: 'T3 questions must be scoped to one or more states',
+        });
+      }
+      if (
+        (q.tier === 'T1' || q.tier === 'T3') &&
+        q.reviewStatus !== 'draft' &&
+        (!q.verifiedBy || !q.verifiedAt || !q.verificationAuditId)
+      ) {
+        ctx.addIssue({
+          code: z.ZodIssueCode.custom,
+          path: ['verificationAuditId'],
+          message: 'Verified T1/T3 questions require reviewer, date, and audit linkage',
+        });
+      }
+      if (
+        q.universality &&
+        ['fact-sweep', 'manual-audit'].includes(q.universality.basis) &&
+        !q.universality.sweepId
+      ) {
+        ctx.addIssue({
+          code: z.ZodIssueCode.custom,
+          path: ['universality', 'sweepId'],
+          message: 'fact-sweep and manual-audit bases require a sweepId',
+        });
+      }
+      if ((q.templateId === undefined) !== (q.templateVersion === undefined)) {
+        ctx.addIssue({
+          code: z.ZodIssueCode.custom,
+          path: ['templateId'],
+          message: 'templateId and templateVersion must be provided together',
+        });
+      }
     }),
 });
 

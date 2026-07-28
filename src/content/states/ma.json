@@ -9,8 +9,14 @@
   "handbookEditionYear": 2024,
   "handbookCopyrightStatus": "unknown",
   "applicantVariants": [
-    { "id": "under-18", "label": "Under 18 (learner's permit / Junior Operator)" },
-    { "id": "adult", "label": "Adult (18+)" }
+    {
+      "id": "under-18",
+      "label": "Under 18 (learner's permit / Junior Operator)"
+    },
+    {
+      "id": "adult",
+      "label": "Adult (18+)"
+    }
   ],
   "examVariants": [
     {
@@ -19,7 +25,10 @@
       "numQuestions": 25,
       "numToPass": 18,
       "timeLimitMinutes": 25,
-      "languages": ["en", "es"],
+      "languages": [
+        "en",
+        "es"
+      ],
       "onlineAvailable": true
     },
     {
@@ -28,7 +37,10 @@
       "numQuestions": 25,
       "numToPass": 18,
       "timeLimitMinutes": 25,
-      "languages": ["en", "es"],
+      "languages": [
+        "en",
+        "es"
+      ],
       "onlineAvailable": true
     }
   ],
@@ -73,7 +85,578 @@
     "moveOverRule": "Move over one lane or slow down for stopped emergency, maintenance, and recovery vehicles displaying flashing lights",
     "interstateMaxSpeed": "65 mph where posted",
     "schoolZoneSpeed": "20 mph during posted school hours",
-    "namedLaws": ["Move Over Law", "Hands-Free Law (2020)", "Junior Operator Law"]
+    "namedLaws": [
+      "Move Over Law",
+      "Hands-Free Law (2020)",
+      "Junior Operator Law"
+    ]
+  },
+  "typedFacts": {
+    "bacAdult": {
+      "state": {
+        "status": "value",
+        "value": 0.08
+      },
+      "display": "It is unlawful (operating under the influence, per se) to operate a motor vehicle on a public way with a percentage, by weight, of alcohol in the blood of 0.08 or greater.",
+      "citation": {
+        "label": "M.G.L. c. 90, § 24(1)(a)(1)",
+        "citation": "Mass. Gen. Laws ch. 90, § 24(1)(a)(1)",
+        "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXIV/Chapter90/Section24"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "bacUnder21": {
+      "state": {
+        "status": "value",
+        "value": 0.02,
+        "conditions": [
+          {
+            "kind": "driver-age",
+            "detail": "Applies to operators under 21. A breath/blood test result of 0.02 or greater (or a test refusal) triggers an administrative license suspension under the state's zero-tolerance law, independent of any OUI conviction: 180 days for those 18-20, and 1 year for those under 18."
+          }
+        ]
+      },
+      "display": "Massachusetts sets a 0.02 zero-tolerance blood alcohol limit for drivers under 21; a result of 0.02 or greater results in a 180-day license suspension (1 year if under 18), separate from OUI charges.",
+      "citation": {
+        "label": "M.G.L. c. 90, § 24P(a)",
+        "citation": "Mass. Gen. Laws ch. 90, § 24P(a)",
+        "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXIV/Chapter90/Section24P"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "bacCommercial": {
+      "state": {
+        "status": "value",
+        "value": 0.04
+      },
+      "display": "A commercial motor vehicle operator who submits to a test disclosing an alcohol concentration of 0.04 or greater (or who refuses testing) is disqualified from driving a commercial vehicle for at least 1 year.",
+      "citation": {
+        "label": "M.G.L. c. 90F, § 11(D)-(E)",
+        "citation": "Mass. Gen. Laws ch. 90F, § 11(D)-(E)",
+        "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXIV/Chapter90F/Section11"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "impliedConsentRefusal": {
+      "state": {
+        "status": "value",
+        "value": {
+          "suspensionMonths": 6,
+          "criminalOffense": false
+        },
+        "conditions": [
+          {
+            "kind": "driver-age",
+            "detail": "First-offense refusal by a driver 21+ with no priors is a 180-day (about 6-month) administrative license suspension - a civil registry sanction, not a separate crime. The suspension lengthens sharply for repeat offenders or drivers under 21: 3 years (under 21 or 1 prior), 5 years (2 priors), or lifetime (3+ priors)."
+          }
+        ]
+      },
+      "display": "Under the implied-consent law, refusing a chemical breath/blood test carries a 180-day administrative license suspension for a first offense (longer for drivers under 21 or with prior OUI offenses - up to lifetime); the refusal itself is not a separate criminal offense.",
+      "citation": {
+        "label": "M.G.L. c. 90, § 24(1)(f)(1)",
+        "citation": "Mass. Gen. Laws ch. 90, § 24(1)(f)(1)",
+        "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXIV/Chapter90/Section24"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "openContainerProhibited": {
+      "state": {
+        "status": "value",
+        "value": true
+      },
+      "display": "No person may possess an open container of alcoholic beverage in the passenger area of a motor vehicle on a public way; the driver of any vehicle may never possess an open container. Limited exceptions apply to passengers of for-hire vehicles and the living quarters of a house coach/trailer.",
+      "citation": {
+        "label": "M.G.L. c. 90, § 24I",
+        "citation": "Mass. Gen. Laws ch. 90, § 24I",
+        "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXIV/Chapter90/Section24I"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "duiFirstSuspensionDays": {
+      "state": {
+        "status": "value",
+        "value": 365,
+        "conditions": [
+          {
+            "kind": "driver-age",
+            "detail": "A first OUI conviction results in a 1-year (365-day) license suspension; the registrar may grant a hardship ('Cinderella') license for work/education after 3 months. Separately, failing a breath test (0.08+) triggers an immediate administrative per-se suspension that lasts until case disposition but no more than 30 days under § 24(1)(f)(2)."
+          }
+        ]
+      },
+      "display": "A first-offense OUI conviction carries a 1-year license suspension (hardship license possible after 3 months); a failed breath test also triggers a separate immediate administrative suspension of up to 30 days pending disposition.",
+      "citation": {
+        "label": "M.G.L. c. 90, § 24(1)(b)",
+        "citation": "Mass. Gen. Laws ch. 90, § 24(1)(b)",
+        "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXIV/Chapter90/Section24"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "ruralInterstateMaxMph": {
+      "state": {
+        "status": "value",
+        "value": 65,
+        "conditions": [
+          {
+            "kind": "posting",
+            "detail": "Massachusetts law sets NO statutory numeric ceiling for interstates/limited-access highways; MassDOT establishes and posts limits under § 18. 65 mph is the highest limit MassDOT posts anywhere in the Commonwealth (on some rural interstate segments). Where no special limit is posted, the § 17 prima facie limits (e.g., 50 mph on a divided highway outside a thickly settled or business district) apply."
+          }
+        ]
+      },
+      "display": "Massachusetts has no statutory maximum interstate speed limit; MassDOT posts limits case-by-case, and 65 mph is the highest posted limit used in the state (on certain rural interstate segments).",
+      "citation": {
+        "label": "M.G.L. c. 90, §§ 17-18",
+        "citation": "Mass. Gen. Laws ch. 90, §§ 17, 18",
+        "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXIV/Chapter90/Section18"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "urbanInterstateMaxMph": {
+      "state": {
+        "status": "varies",
+        "variants": [
+          {
+            "value": 55,
+            "conditions": [
+              {
+                "kind": "locality",
+                "detail": "Massachusetts has no separate statutory 'urban interstate' limit; MassDOT posts case-by-case limits under § 18, with 55 mph (or lower) commonly posted on urban/metropolitan interstate segments, e.g., in and around Boston."
+              }
+            ]
+          }
+        ]
+      },
+      "display": "There is no distinct statutory urban-interstate limit; MassDOT posts limits under its speed-setting authority, with 55 mph commonly posted on metropolitan interstate segments.",
+      "citation": {
+        "label": "M.G.L. c. 90, § 18",
+        "citation": "Mass. Gen. Laws ch. 90, § 18",
+        "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXIV/Chapter90/Section18"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "residentialDefaultMph": {
+      "state": {
+        "status": "value",
+        "value": 30,
+        "conditions": [
+          {
+            "kind": "road-class",
+            "detail": "30 mph is the prima facie limit inside a thickly settled or business district (the residential default) absent other posting. Outside such districts the prima facie limits rise to 40 mph on an ordinary way and 50 mph on a divided highway."
+          }
+        ]
+      },
+      "display": "Absent other posting, the default speed limit inside a thickly settled or business district (residential areas) is 30 mph; it is prima facie evidence of unlawful speed to exceed 30 mph there.",
+      "citation": {
+        "label": "M.G.L. c. 90, § 17",
+        "citation": "Mass. Gen. Laws ch. 90, § 17",
+        "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXIV/Chapter90/Section17"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "schoolZoneMph": {
+      "state": {
+        "status": "value",
+        "value": 20,
+        "conditions": [
+          {
+            "kind": "posting",
+            "detail": "Applies within a school zone that a city or town has established and posted under M.G.L. c. 85, § 2; exceeding 20 mph in such a zone is prima facie evidence of unlawful speed."
+          }
+        ]
+      },
+      "display": "In a duly established and posted school zone, exceeding 20 mph is prima facie evidence of driving at a speed greater than is reasonable and proper.",
+      "citation": {
+        "label": "M.G.L. c. 90, § 17",
+        "citation": "Mass. Gen. Laws ch. 90, § 17",
+        "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXIV/Chapter90/Section17"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "basicSpeedLaw": {
+      "state": {
+        "status": "value",
+        "value": true
+      },
+      "display": "No person may drive faster than is reasonable and proper, having regard to traffic, use of the way, and public safety, and must slow down when a special hazard exists - regardless of any posted limit.",
+      "citation": {
+        "label": "M.G.L. c. 90, § 17",
+        "citation": "Mass. Gen. Laws ch. 90, § 17",
+        "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXIV/Chapter90/Section17"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "rightTurnOnRed": {
+      "state": {
+        "status": "value",
+        "value": "allowed-after-stop"
+      },
+      "display": "After stopping at a steady red signal, a driver may make a right turn, yielding to pedestrians and other traffic, unless a posted sign at that intersection prohibits the turn.",
+      "citation": {
+        "label": "M.G.L. c. 89, § 8",
+        "citation": "Mass. Gen. Laws ch. 89, § 8",
+        "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXIV/Chapter89/Section8"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "leftTurnOnRedFromOneWay": {
+      "state": {
+        "status": "value",
+        "value": "allowed"
+      },
+      "display": "After stopping at a steady red signal, a driver on a one-way street may turn left onto another one-way street, yielding to pedestrians and other traffic, unless a posted sign prohibits it.",
+      "citation": {
+        "label": "M.G.L. c. 89, § 8",
+        "citation": "Mass. Gen. Laws ch. 89, § 8",
+        "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXIV/Chapter89/Section8"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "seatBeltEnforcement": {
+      "state": {
+        "status": "value",
+        "value": "secondary",
+        "conditions": [
+          {
+            "kind": "posting",
+            "detail": "The seat belt requirement is enforced by police only when the driver has already been stopped for a separate motor vehicle violation or some other offense - i.e., secondary enforcement."
+          }
+        ]
+      },
+      "display": "Massachusetts enforces its adult seat belt law only as a secondary offense: police may cite a belt violation only after stopping the vehicle for another reason.",
+      "citation": {
+        "label": "M.G.L. c. 90, § 13A",
+        "citation": "Mass. Gen. Laws ch. 90, § 13A",
+        "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXIV/Chapter90/Section13A"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "handheldPhone": {
+      "state": {
+        "status": "value",
+        "value": "banned-all"
+      },
+      "display": "Under the Hands-Free Law, no operator of any age may hold a mobile electronic device; use is permitted only in hands-free mode. A single tap to activate hands-free mode is allowed, but holding the phone is prohibited for all drivers.",
+      "citation": {
+        "label": "M.G.L. c. 90, § 13B(a)",
+        "citation": "Mass. Gen. Laws ch. 90, § 13B(a)",
+        "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXIV/Chapter90/Section13B"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "texting": {
+      "state": {
+        "status": "value",
+        "value": "banned-all"
+      },
+      "display": "No operator of any age may read or view text, images, or video on a mobile electronic device while operating a motor vehicle (a mounted navigation map is permitted); manual texting is banned for all drivers.",
+      "citation": {
+        "label": "M.G.L. c. 90, § 13B(a)",
+        "citation": "Mass. Gen. Laws ch. 90, § 13B(a)",
+        "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXIV/Chapter90/Section13B"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "moveOver": {
+      "state": {
+        "status": "value",
+        "value": {
+          "requirement": "lane-change-or-slow",
+          "coveredVehicles": [
+            "emergency",
+            "tow",
+            "utility"
+          ]
+        }
+      },
+      "display": "Approaching a stationary emergency vehicle (fire/police/ambulance/disaster), highway maintenance vehicle, or recovery (tow) vehicle displaying flashing lights, a driver must slow to a reasonable and safe speed and, if practicable on a highway with at least two lanes in the same direction, change into a lane not adjacent to the stopped vehicle; no specific slow-to mph is set by statute.",
+      "citation": {
+        "label": "M.G.L. c. 89, § 7C",
+        "citation": "Mass. Gen. Laws ch. 89, § 7C",
+        "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXIV/Chapter89/Section7C"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "headlightsRequired": {
+      "state": {
+        "status": "value",
+        "value": {
+          "whenWipersOn": true,
+          "minutesAfterSunset": 30
+        },
+        "conditions": [
+          {
+            "kind": "posting",
+            "detail": "The statute requires headlights from one-half hour after sunset to one-half hour before sunrise (hence minutesAfterSunset=30), and during any other period when visibility is reduced by atmospheric conditions so as to render further operation without lights dangerous. That weather trigger is a functional low-visibility test, approximated here as whenWipersOn=true; the statute does not literally reference windshield wipers."
+          }
+        ]
+      },
+      "display": "Headlights must be displayed from a half-hour after sunset until a half-hour before sunrise, and at any other time when atmospheric conditions (e.g., rain, fog, snow) reduce visibility enough to make driving without lights dangerous - a functional low-visibility standard rather than a literal wipers-on rule.",
+      "citation": {
+        "label": "M.G.L. c. 90, § 7",
+        "citation": "Mass. Gen. Laws ch. 90, § 7",
+        "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXIV/Chapter90/Section7"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "parkFtFromHydrant": {
+      "state": {
+        "status": "unknown",
+        "reason": "Massachusetts sets no uniform statewide statutory distance for parking near a fire hydrant. Parking regulation is delegated to cities and towns by M.G.L. c. 40, § 22 (subject to c. 90, § 18 and c. 89, §§ 8-9), so the required clearance is fixed by local ordinance/by-law and varies by municipality; the RMV driver's manual gives only general guidance."
+      },
+      "display": "Not set statewide: Massachusetts leaves fire-hydrant parking clearances to municipal ordinance (M.G.L. c. 40, § 22), so no single statewide distance exists.",
+      "citation": {
+        "label": "M.G.L. c. 40, § 22",
+        "citation": "Mass. Gen. Laws ch. 40, § 22",
+        "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleVII/Chapter40/Section22"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "parkFtFromCrosswalk": {
+      "state": {
+        "status": "unknown",
+        "reason": "Massachusetts sets no uniform statewide statutory distance for parking near a crosswalk. Under M.G.L. c. 40, § 22 this is governed by municipal ordinance/by-law and therefore varies by community; there is no single statewide figure."
+      },
+      "display": "Not set statewide: crosswalk parking clearances are established by municipal ordinance under M.G.L. c. 40, § 22, so no single statewide distance exists.",
+      "citation": {
+        "label": "M.G.L. c. 40, § 22",
+        "citation": "Mass. Gen. Laws ch. 40, § 22",
+        "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleVII/Chapter40/Section22"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "parkFtFromStopSign": {
+      "state": {
+        "status": "unknown",
+        "reason": "Massachusetts sets no uniform statewide statutory distance for parking near a stop sign. Under M.G.L. c. 40, § 22 this is governed by municipal ordinance/by-law and varies by community; there is no single statewide figure."
+      },
+      "display": "Not set statewide: stop-sign parking clearances are established by municipal ordinance under M.G.L. c. 40, § 22, so no single statewide distance exists.",
+      "citation": {
+        "label": "M.G.L. c. 40, § 22",
+        "citation": "Mass. Gen. Laws ch. 40, § 22",
+        "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleVII/Chapter40/Section22"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "parkFtFromRailroad": {
+      "state": {
+        "status": "unknown",
+        "reason": "Massachusetts sets no uniform statewide statutory distance for parking near a railroad crossing. Under M.G.L. c. 40, § 22 this is governed by municipal ordinance/by-law and varies by community; there is no single statewide figure."
+      },
+      "display": "Not set statewide: railroad-crossing parking clearances are established by municipal ordinance under M.G.L. c. 40, § 22, so no single statewide distance exists.",
+      "citation": {
+        "label": "M.G.L. c. 40, § 22",
+        "citation": "Mass. Gen. Laws ch. 40, § 22",
+        "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleVII/Chapter40/Section22"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "pointSystem": {
+      "state": {
+        "status": "value",
+        "value": false
+      },
+      "display": "Massachusetts does not use a driver-violation point system. Instead it uses a Safe Driver Insurance Plan of surchargeable incidents affecting insurance premiums, plus specific administrative suspensions (e.g., for repeated speeding).",
+      "citation": {
+        "label": "M.G.L. c. 175, § 113B",
+        "citation": "Mass. Gen. Laws ch. 175, § 113B (Safe Driver Insurance Plan)",
+        "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXXII/Chapter175/Section113B"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "pointSuspension": {
+      "state": {
+        "status": "not-applicable",
+        "reason": "Massachusetts has no driver point total, so there is no points-to-suspension threshold. License actions are instead tied to surchargeable events under the Safe Driver Insurance Plan (M.G.L. c. 175, § 113B) and specific offense-based suspensions (for example, three speeding convictions within 12 months lead to a 30-day suspension), not to an accumulated point count."
+      },
+      "display": "Not applicable: Massachusetts assesses surchargeable insurance events rather than driver points, so no points-based suspension threshold exists.",
+      "citation": {
+        "label": "M.G.L. c. 175, § 113B",
+        "citation": "Mass. Gen. Laws ch. 175, § 113B (Safe Driver Insurance Plan)",
+        "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXXII/Chapter175/Section113B"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "permitMinAgeMonths": {
+      "state": {
+        "status": "value",
+        "value": 192
+      },
+      "display": "A learner's permit may be issued to any person who is at least 16 years old (192 months).",
+      "citation": {
+        "label": "M.G.L. c. 90, § 8B",
+        "citation": "Mass. Gen. Laws ch. 90, § 8B",
+        "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXIV/Chapter90/Section8B"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "permitHoldingMonths": {
+      "state": {
+        "status": "value",
+        "value": 6,
+        "conditions": [
+          {
+            "kind": "driver-age",
+            "detail": "Applies to applicants under 18: a junior operator's license requires holding a valid learner's permit for at least 6 months immediately preceding application, with a clean (surcharge-free) driving record during that period."
+          }
+        ]
+      },
+      "display": "An applicant under 18 must hold a learner's permit for at least 6 months (with a clean driving record) before qualifying for a junior operator's license.",
+      "citation": {
+        "label": "M.G.L. c. 90, § 8(a)",
+        "citation": "Mass. Gen. Laws ch. 90, § 8(a)",
+        "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXIV/Chapter90/Section8"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "supervisedHoursTotal": {
+      "state": {
+        "status": "value",
+        "value": 40,
+        "conditions": [
+          {
+            "kind": "gdl-phase",
+            "detail": "A junior operator applicant must complete at least 40 hours of supervised driving, reduced to 30 hours if the applicant completes an approved driver skills development program on a closed, off-road course. This is separate from the driver-education on-road instruction (at least 12 hours driving plus 6 hours observation)."
+          }
+        ]
+      },
+      "display": "A junior operator applicant must complete at least 40 hours of supervised driving (30 hours if an approved skills-development program is completed), certified by a parent or guardian.",
+      "citation": {
+        "label": "M.G.L. c. 90, § 8(c)",
+        "citation": "Mass. Gen. Laws ch. 90, § 8(c)",
+        "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXIV/Chapter90/Section8"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "supervisedHoursNight": {
+      "state": {
+        "status": "not-applicable",
+        "reason": "The junior operator licensing statute (M.G.L. c. 90, § 8) requires 40 total hours of supervised driving (30 with an approved skills-development program) but does not carve out a separate statutory minimum number of nighttime supervised hours."
+      },
+      "display": "Not applicable: Massachusetts's 40-hour supervised-driving requirement does not include a separate statutory nighttime-hours minimum.",
+      "citation": {
+        "label": "M.G.L. c. 90, § 8(c)",
+        "citation": "Mass. Gen. Laws ch. 90, § 8(c)",
+        "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXIV/Chapter90/Section8"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "gdlNightCurfew": {
+      "state": {
+        "status": "value",
+        "value": {
+          "startHour24": 0,
+          "endHour24": 5
+        },
+        "conditions": [
+          {
+            "kind": "gdl-phase",
+            "detail": "Junior operator (under 18): the statutory curfew is 12:30 a.m. to 5:00 a.m. unless accompanied by a parent or legal guardian. startHour24 is rounded from 12:30 a.m. to 0 (midnight) because the schema requires a whole hour - see display for the exact time. Operation between 12:30-1:00 a.m. and 4:00-5:00 a.m. is enforced only secondarily (after a lawful stop)."
+          },
+          {
+            "kind": "gdl-phase",
+            "detail": "Learner's permit holder under 18: a stricter permit-phase curfew of 12:00 a.m. to 5:00 a.m. applies unless accompanied by a parent/legal guardian (or, for an emancipated minor, a licensed driver 21+ with 1+ year experience), per M.G.L. c. 90, § 8B."
+          }
+        ]
+      },
+      "display": "A junior operator under 18 may not drive between 12:30 a.m. and 5:00 a.m. unless accompanied by a parent or legal guardian (the 12:30-1:00 a.m. and 4:00-5:00 a.m. windows are secondary-enforcement only). Learner's-permit holders under 18 face a stricter midnight-to-5:00 a.m. curfew. The startHour value is rounded to midnight because the schema stores whole hours.",
+      "citation": {
+        "label": "M.G.L. c. 90, § 8",
+        "citation": "Mass. Gen. Laws ch. 90, § 8",
+        "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXIV/Chapter90/Section8"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "gdlPassengerPhase1": {
+      "state": {
+        "status": "value",
+        "value": {
+          "cap": 0,
+          "underAge": 18,
+          "familyExempt": true
+        },
+        "conditions": [
+          {
+            "kind": "gdl-phase",
+            "detail": "During the first 6 months of junior operator licensure, no passenger under 18 may be carried other than an immediate family member, unless a licensed driver at least 21 years old with at least 1 year of driving experience occupies the seat beside the operator."
+          }
+        ]
+      },
+      "display": "For the first 6 months of a junior operator's license, the holder may not carry passengers under 18 - except immediate family members - unless a licensed driver 21 or older (with 1+ year of experience) is seated beside them.",
+      "citation": {
+        "label": "M.G.L. c. 90, § 8",
+        "citation": "Mass. Gen. Laws ch. 90, § 8",
+        "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXIV/Chapter90/Section8"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "minLiability": {
+      "state": {
+        "status": "value",
+        "value": {
+          "bodilyPerPerson": 25000,
+          "bodilyPerCrash": 50000,
+          "property": 30000
+        }
+      },
+      "display": "For policies issued or renewed on or after July 1, 2025, the compulsory minimum limits are $25,000 bodily injury per person, $50,000 bodily injury per accident, and $30,000 property damage (raised from the prior 20/40/5 limits by St. 2024, c. 275).",
+      "citation": {
+        "label": "M.G.L. c. 90, §§ 34A, 34O",
+        "citation": "Mass. Gen. Laws ch. 90, §§ 34A, 34O (as amended by St. 2024, c. 275, § 4)",
+        "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXIV/Chapter90/Section34O"
+      },
+      "effectiveDate": "2025-07-01",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "crashReportThresholdUsd": {
+      "state": {
+        "status": "value",
+        "value": 1000,
+        "conditions": [
+          {
+            "kind": "posting",
+            "detail": "A written crash report to the registrar (and copy to the local police) is required within 5 days whenever a crash results in death, personal injury, or property damage in excess of $1,000 to any one vehicle or other property."
+          }
+        ]
+      },
+      "display": "A driver must file a written crash report within 5 days if anyone is killed or injured, or if any one vehicle or other property sustains more than $1,000 in damage.",
+      "citation": {
+        "label": "M.G.L. c. 90, § 26",
+        "citation": "Mass. Gen. Laws ch. 90, § 26",
+        "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXIV/Chapter90/Section26"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    }
   },
   "references": [
     {

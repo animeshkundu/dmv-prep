@@ -74,6 +74,601 @@
     "schoolZoneSpeed": "25 mph (unless otherwise posted)",
     "namedLaws": ["Kyleigh's Law (GDL red decal)", "Move Over Law", "Hands-Free / Wireless Device Law"]
   },
+  "typedFacts": {
+    "bacAdult": {
+      "state": {
+        "status": "value",
+        "value": 0.08
+      },
+      "display": "A person may not operate a motor vehicle with a blood alcohol concentration of 0.08% or more, or while under the influence of intoxicating liquor or drugs.",
+      "citation": {
+        "label": "“Florence's Law”, lowering the per se limit to 0.08%, approved and effective January 20, 2004",
+        "citation": "N.J.S.A. 39:4-50 (P.L.2003, c.314, s.2)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2002/AL03/314_.PDF"
+      },
+      "effectiveDate": "2004-01-20",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "bacUnder21": {
+      "state": {
+        "status": "value",
+        "value": 0.01,
+        "conditions": [
+          {
+            "kind": "driver-age",
+            "detail": "drivers under the legal drinking age of 21"
+          }
+        ]
+      },
+      "display": "A person under 21 who drives with a blood alcohol concentration of 0.01% or more but less than 0.08% forfeits driving privileges for 30 to 90 days plus community service and an alcohol program.",
+      "citation": {
+        "label": "Underage drinking and driving (P.L.1992, c.189), as amended by P.L.2003, c.314, approved and effective January 20, 2004",
+        "citation": "N.J.S.A. 39:4-50.14 (P.L.2003, c.314, s.3)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2002/AL03/314_.PDF"
+      },
+      "effectiveDate": "2004-01-20",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "bacCommercial": {
+      "state": {
+        "status": "value",
+        "value": 0.04,
+        "conditions": [
+          {
+            "kind": "vehicle-class",
+            "detail": "commercial motor vehicles"
+          }
+        ]
+      },
+      "display": "A person may not operate a commercial motor vehicle with an alcohol concentration of 0.04% or more, or while under the influence of a controlled substance.",
+      "citation": {
+        "label": "Alcohol, controlled substance use prohibited (commercial drivers); L.1990, c.103, s.5",
+        "citation": "N.J.S.A. 39:3-10.13",
+        "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1/32635"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "impliedConsentRefusal": {
+      "state": {
+        "status": "not-applicable",
+        "reason": "New Jersey does not impose a fixed-length license suspension for a first chemical test refusal. Under N.J.S.A. 39:4-50.4a(a)(1), as amended by P.L.2019, c.248, a first refusal forfeits driving privileges only until the person installs an ignition interlock device; a second refusal adds one to two years after installation and a third adds eight years. Refusal is a motor vehicle offense, not a crime."
+      },
+      "display": "First refusal: loss of driving privileges until an ignition interlock device is installed (interlock then required); second refusal: one to two years after installation; third: eight years. Refusal is a motor vehicle offense, not a criminal offense.",
+      "citation": {
+        "label": "Refusal to submit to test; penalties, as amended by P.L.2019, c.248 (effective the first day of the fourth month after the August 23, 2019 approval)",
+        "citation": "N.J.S.A. 39:4-50.4a (P.L.2019, c.248, s.3)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2018/AL19/248_.PDF"
+      },
+      "effectiveDate": "2019-12-01",
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "openContainerProhibited": {
+      "state": {
+        "status": "value",
+        "value": true
+      },
+      "display": "It is unlawful to have an open or unsealed container of an alcoholic beverage in the passenger compartment of a motor vehicle on a public highway or right-of-way, or to consume alcohol while operating one.",
+      "citation": {
+        "label": "Consumption of alcoholic beverage in motor vehicle; possession of open container, enacted by P.L.2000, c.83 (approved and, as to this section, effective August 14, 2000)",
+        "citation": "N.J.S.A. 39:4-51b (L.2000, c.83, s.6)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2000/AL00/83_.PDF"
+      },
+      "effectiveDate": "2000-08-14",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "duiFirstSuspensionDays": {
+      "state": {
+        "status": "not-applicable",
+        "reason": "New Jersey no longer sets a fixed first-offense suspension in days. Under N.J.S.A. 39:4-50(a)(1), as amended by P.L.2019, c.248, a first offender with a BAC of 0.08% to under 0.15% forfeits driving privileges only until an ignition interlock device is installed (interlock required three months for BAC under 0.10%, seven months to one year for 0.10% to under 0.15%); a BAC of 0.15% or more brings a four-to-six month forfeiture followed by interlock, and a drug-related first offense brings a seven-month to one-year forfeiture."
+      },
+      "display": "No fixed first-offense suspension: for a BAC of 0.08% to under 0.15% the driver loses driving privileges only until an ignition interlock device is installed, with the interlock required for three months to one year depending on BAC; a BAC of 0.15% or more adds a four-to-six month forfeiture.",
+      "citation": {
+        "label": "Driving while intoxicated; penalties, as amended by P.L.2019, c.248 (effective the first day of the fourth month after the August 23, 2019 approval)",
+        "citation": "N.J.S.A. 39:4-50 (P.L.2019, c.248, s.2)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2018/AL19/248_.PDF"
+      },
+      "effectiveDate": "2019-12-01",
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "ruralInterstateMaxMph": {
+      "state": {
+        "status": "value",
+        "value": 65,
+        "conditions": [
+          {
+            "kind": "road-class",
+            "detail": "interstate and other highways designated under the Sixty-Five MPH Speed Limit Implementation Act and posted at 65 mph"
+          }
+        ]
+      },
+      "display": "The statutory maximum is 50 mph except where the Commissioner of Transportation designates a 65 mph limit under the Sixty-Five MPH Speed Limit Implementation Act; 65 mph is the highest posted limit on New Jersey interstates.",
+      "citation": {
+        "label": "Sixty-Five MPH Speed Limit Implementation Act (L.1997, c.415, s.4)",
+        "citation": "N.J.S.A. 39:4-98.5",
+        "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1/32635"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "urbanInterstateMaxMph": {
+      "state": {
+        "status": "value",
+        "value": 55,
+        "conditions": [
+          {
+            "kind": "road-class",
+            "detail": "urban interstate segments, which are posted no higher than 55 mph"
+          }
+        ]
+      },
+      "display": "Maximum posted speed limit on urban interstates is 55 mph (65 mph designations apply to rural and limited-access segments).",
+      "citation": {
+        "label": "IIHS maximum posted speed limits by state (July 2026)",
+        "citation": "IIHS, Maximum posted speed limits (New Jersey: 65 mph rural interstates, 55 mph urban interstates)",
+        "url": "https://www.iihs.org/topics/speed/speed-limit-laws"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "residentialDefaultMph": {
+      "state": {
+        "status": "varies",
+        "variants": [
+          {
+            "value": 25,
+            "conditions": [
+              {
+                "kind": "locality",
+                "detail": "any business or residential district"
+              }
+            ]
+          },
+          {
+            "value": 35,
+            "conditions": [
+              {
+                "kind": "locality",
+                "detail": "any suburban business or residential district"
+              }
+            ]
+          }
+        ]
+      },
+      "display": "Prima facie lawful speeds: 25 mph in a business or residential district, 35 mph in a suburban business or residential district, and 50 mph elsewhere unless posted otherwise.",
+      "citation": {
+        "label": "Rates of speed, as amended by P.L.2019, c.5 (approved and effective January 31, 2019)",
+        "citation": "N.J.S.A. 39:4-98 (P.L.2019, c.5, s.4)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2018/AL19/5_.PDF"
+      },
+      "effectiveDate": "2019-01-31",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "schoolZoneMph": {
+      "state": {
+        "status": "value",
+        "value": 25,
+        "conditions": [
+          {
+            "kind": "time-of-day",
+            "detail": "during recess, while children are going to or leaving school at opening or closing hours"
+          },
+          {
+            "kind": "posting",
+            "detail": "when the presence of children is clearly visible from the roadway"
+          }
+        ]
+      },
+      "display": "25 mph when passing through a school zone during recess, when children are clearly visible from the roadway, or while children are going to or leaving school during opening or closing hours.",
+      "citation": {
+        "label": "Rates of speed, as amended by P.L.2019, c.5 (approved and effective January 31, 2019)",
+        "citation": "N.J.S.A. 39:4-98 (P.L.2019, c.5, s.4)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2018/AL19/5_.PDF"
+      },
+      "effectiveDate": "2019-01-31",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "basicSpeedLaw": {
+      "state": {
+        "status": "value",
+        "value": true
+      },
+      "display": "Posted and statutory limits are only prima facie lawful and are subject to the careless- and reckless-driving statutes, so a driver must always reduce speed to what is reasonable and safe for conditions.",
+      "citation": {
+        "label": "Rates of speed, as amended by P.L.2019, c.5 (approved and effective January 31, 2019)",
+        "citation": "N.J.S.A. 39:4-98 (P.L.2019, c.5, s.4)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2018/AL19/5_.PDF"
+      },
+      "effectiveDate": "2019-01-31",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "rightTurnOnRed": {
+      "state": {
+        "status": "value",
+        "value": "allowed-after-stop"
+      },
+      "display": "After stopping at a steady red signal, a driver may turn right unless a sign prohibits the turn, and must yield to pedestrians in the crosswalk.",
+      "citation": {
+        "label": "Turns at intersections; right turn on red, as amended by P.L.2009, c.319 (effective the first day of the third month after the January 18, 2010 approval)",
+        "citation": "N.J.S.A. 39:4-115 (P.L.2009, c.319, s.3)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2008/AL09/319_.PDF"
+      },
+      "effectiveDate": "2010-04-01",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "leftTurnOnRedFromOneWay": {
+      "state": {
+        "status": "value",
+        "value": "prohibited"
+      },
+      "display": "New Jersey authorizes only a right turn on red; left turns on a steady red signal, including from a one-way street, are not permitted.",
+      "citation": {
+        "label": "Turns at intersections; right turn on red, as amended by P.L.2009, c.319 (effective the first day of the third month after the January 18, 2010 approval)",
+        "citation": "N.J.S.A. 39:4-115 (P.L.2009, c.319, s.3)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2008/AL09/319_.PDF"
+      },
+      "effectiveDate": "2010-04-01",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "seatBeltEnforcement": {
+      "state": {
+        "status": "varies",
+        "variants": [
+          {
+            "value": "primary",
+            "conditions": [
+              {
+                "kind": "occupancy",
+                "detail": "front-seat occupants and all occupants under 18"
+              }
+            ]
+          },
+          {
+            "value": "secondary",
+            "conditions": [
+              {
+                "kind": "occupancy",
+                "detail": "rear-seat occupants 18 and older"
+              }
+            ]
+          }
+        ]
+      },
+      "display": "Primary enforcement for the driver, front-seat passengers and every occupant under 18; for rear-seat occupants 18 and older the belt violation is secondary (enforced only after another stop).",
+      "citation": {
+        "label": "Passenger Automobile Seat Belt Usage Act, as amended by P.L.2015, c.50 (effective the first day of the fourth month next following the May 7, 2015 approval)",
+        "citation": "N.J.S.A. 39:3-76.2f (P.L.2015, c.50, s.4)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2014/AL15/50_.PDF"
+      },
+      "effectiveDate": "2015-09-01",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "handheldPhone": {
+      "state": {
+        "status": "value",
+        "value": "banned-all"
+      },
+      "display": "Use of a hand-held wireless telephone while driving is prohibited for all drivers; only hands-free use is allowed, and drivers holding a permit or probationary license may not use any device.",
+      "citation": {
+        "label": "Use of wireless telephones and electronic communication devices, as amended by P.L.2013, c.70 (effective the first day of the 13th month following the June 27, 2013 approval)",
+        "citation": "N.J.S.A. 39:4-97.3 (P.L.2013, c.70)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2012/AL13/70_.PDF"
+      },
+      "effectiveDate": "2014-07-01",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "texting": {
+      "state": {
+        "status": "value",
+        "value": "banned-all"
+      },
+      "display": "No driver may use a hand-held wireless electronic communication device to send or receive text or other electronic messages while driving.",
+      "citation": {
+        "label": "Use of wireless telephones and electronic communication devices, as amended by P.L.2013, c.70 (effective the first day of the 13th month following the June 27, 2013 approval)",
+        "citation": "N.J.S.A. 39:4-97.3 (P.L.2013, c.70)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2012/AL13/70_.PDF"
+      },
+      "effectiveDate": "2014-07-01",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "moveOver": {
+      "state": {
+        "status": "value",
+        "value": {
+          "requirement": "lane-change-or-slow",
+          "coveredVehicles": [
+            "emergency",
+            "tow",
+            "roadside-assist",
+            "utility",
+            "any-flashing"
+          ]
+        }
+      },
+      "display": "Approaching a stationary emergency, tow, highway maintenance, utility or other vehicle displaying flashing lights, a driver must change lanes into an available lane away from it or, if a lane change is unsafe, slow below the posted limit and be prepared to stop.",
+      "citation": {
+        "label": "Approaching stationary vehicles; move over, as amended by P.L.2025, c.248 (approved and effective January 12, 2026)",
+        "citation": "N.J.S.A. 39:4-92.2 (P.L.2025, c.248, s.1)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2024/AL25/248_.PDF"
+      },
+      "effectiveDate": "2026-01-12",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "headlightsRequired": {
+      "state": {
+        "status": "value",
+        "value": {
+          "whenWipersOn": true,
+          "minutesAfterSunset": 30
+        }
+      },
+      "display": "Lighted lamps are required from a half hour after sunset to a half hour before sunrise, whenever precipitation requires the use of windshield wipers, and whenever fog, smoke or other conditions limit visibility to under 500 feet.",
+      "citation": {
+        "label": "Definitions relative to illuminating devices — \"when lighted lamps are required\" (as amended by P.L.1995, c.305)",
+        "citation": "N.J.S.A. 39:3-46",
+        "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1/32635"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "parkFtFromHydrant": {
+      "state": {
+        "status": "value",
+        "value": 10
+      },
+      "display": "No standing or parking within 10 feet of a fire hydrant.",
+      "citation": {
+        "label": "Places where parking prohibited, as amended by P.L.2025, c.155 (approved and effective November 13, 2025)",
+        "citation": "N.J.S.A. 39:4-138 (P.L.2025, c.155, s.2)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2024/AL25/155_.PDF"
+      },
+      "effectiveDate": "2025-11-13",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "parkFtFromCrosswalk": {
+      "state": {
+        "status": "varies",
+        "variants": [
+          {
+            "value": 25,
+            "conditions": [
+              {
+                "kind": "locality",
+                "detail": "ordinary crosswalks and intersecting street side lines"
+              }
+            ]
+          },
+          {
+            "value": 10,
+            "conditions": [
+              {
+                "kind": "locality",
+                "detail": "crosswalks where a curb extension or bulbout has been constructed"
+              }
+            ]
+          }
+        ]
+      },
+      "display": "No parking within 25 feet of the nearest crosswalk or side line of an intersecting street, reduced to 10 feet where a curb extension or bulbout has been built at that crosswalk; parking on a crosswalk is prohibited outright.",
+      "citation": {
+        "label": "Places where parking prohibited, as amended by P.L.2025, c.155 (approved and effective November 13, 2025)",
+        "citation": "N.J.S.A. 39:4-138 (P.L.2025, c.155, s.2)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2024/AL25/155_.PDF"
+      },
+      "effectiveDate": "2025-11-13",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "parkFtFromStopSign": {
+      "state": {
+        "status": "value",
+        "value": 50
+      },
+      "display": "No parking within 50 feet of a stop sign.",
+      "citation": {
+        "label": "Places where parking prohibited, as amended by P.L.2025, c.155 (approved and effective November 13, 2025)",
+        "citation": "N.J.S.A. 39:4-138 (P.L.2025, c.155, s.2)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2024/AL25/155_.PDF"
+      },
+      "effectiveDate": "2025-11-13",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "parkFtFromRailroad": {
+      "state": {
+        "status": "value",
+        "value": 50
+      },
+      "display": "No parking within 50 feet of the nearest rail of a railroad crossing.",
+      "citation": {
+        "label": "Places where parking prohibited, as amended by P.L.2025, c.155 (approved and effective November 13, 2025)",
+        "citation": "N.J.S.A. 39:4-138 (P.L.2025, c.155, s.2)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2024/AL25/155_.PDF"
+      },
+      "effectiveDate": "2025-11-13",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "pointSystem": {
+      "state": {
+        "status": "value",
+        "value": true
+      },
+      "display": "The Motor Vehicle Commission assigns points for moving violations, imposes surcharges and suspends driving privileges on point accumulation.",
+      "citation": {
+        "label": "New Jersey MVC, Driving Privilege and Penalties — point system and suspensions",
+        "citation": "NJ MVC suspension and point system guidance (N.J.S.A. 39:5-30.5; N.J.A.C. 13:19-10.1)",
+        "url": "https://www.nj.gov/mvc/license/suspension.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "pointSuspension": {
+      "state": {
+        "status": "value",
+        "value": {
+          "points": 12,
+          "windowMonths": 0
+        }
+      },
+      "display": "A driver whose current record reaches 12 or more points has driving privileges suspended; there is no look-back window for the suspension threshold (the separate surcharge is triggered by six or more points within three years).",
+      "citation": {
+        "label": "New Jersey MVC, Driving Privilege and Penalties — point system and suspensions",
+        "citation": "NJ MVC suspension and point system guidance (N.J.S.A. 39:5-30.5; N.J.A.C. 13:19-10.1)",
+        "url": "https://www.nj.gov/mvc/license/suspension.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "permitMinAgeMonths": {
+      "state": {
+        "status": "value",
+        "value": 192
+      },
+      "display": "A special learner’s permit may be issued at 16 to a student enrolled in an approved behind-the-wheel driver education course; an examination permit requires age 17.",
+      "citation": {
+        "label": "Special learner's permit, as amended by P.L.2021, c.139 (approved and effective June 30, 2021)",
+        "citation": "N.J.S.A. 39:3-13.1 (P.L.2021, c.139, s.6)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2020/AL21/139_.PDF"
+      },
+      "effectiveDate": "2021-06-30",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "permitHoldingMonths": {
+      "state": {
+        "status": "value",
+        "value": 6
+      },
+      "display": "The permit must be held and validated for six months of supervised driving before the road test and probationary license.",
+      "citation": {
+        "label": "Examination permits and special learner's permits, as amended by P.L.2023, c.216 (effective the first day of the 13th month after the January 8, 2024 approval)",
+        "citation": "N.J.S.A. 39:3-13.4 (P.L.2023, c.216, s.2)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2022/AL23/216_.PDF"
+      },
+      "effectiveDate": "2025-02-01",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "supervisedHoursTotal": {
+      "state": {
+        "status": "value",
+        "value": 50
+      },
+      "display": "A permit holder under 21 must complete a minimum of 50 hours of practice driving, certified by the supervising parent, guardian or accompanying driver, before a probationary license is issued.",
+      "citation": {
+        "label": "Examination permits and special learner's permits, as amended by P.L.2023, c.216 (effective the first day of the 13th month after the January 8, 2024 approval)",
+        "citation": "N.J.S.A. 39:3-13.4 (P.L.2023, c.216, s.2)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2022/AL23/216_.PDF"
+      },
+      "effectiveDate": "2025-02-01",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "supervisedHoursNight": {
+      "state": {
+        "status": "value",
+        "value": 10
+      },
+      "display": "At least 10 of the 50 required practice-driving hours must be completed during hours of darkness.",
+      "citation": {
+        "label": "Examination permits and special learner's permits, as amended by P.L.2023, c.216 (effective the first day of the 13th month after the January 8, 2024 approval)",
+        "citation": "N.J.S.A. 39:3-13.4 (P.L.2023, c.216, s.2)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2022/AL23/216_.PDF"
+      },
+      "effectiveDate": "2025-02-01",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "gdlNightCurfew": {
+      "state": {
+        "status": "value",
+        "value": {
+          "startHour24": 23,
+          "endHour24": 5
+        },
+        "conditions": [
+          {
+            "kind": "driver-age",
+            "detail": "permit and probationary licence holders under 21"
+          }
+        ]
+      },
+      "display": "Permit and probationary license holders under 21 may not drive between 11:01 p.m. and 5:00 a.m., except for a documented emergency or bona fide employment or religious activity.",
+      "citation": {
+        "label": "Examination permits and special learner's permits, as amended by P.L.2023, c.216 (effective the first day of the 13th month after the January 8, 2024 approval)",
+        "citation": "N.J.S.A. 39:3-13.4 (P.L.2023, c.216, s.2)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2022/AL23/216_.PDF"
+      },
+      "effectiveDate": "2025-02-01",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "gdlPassengerPhase1": {
+      "state": {
+        "status": "not-applicable",
+        "reason": "New Jersey's graduated licence passenger limit is not defined by passenger age: a permit or probationary licence holder under 21 may carry no more than one passenger of any age, excluding the driver’s dependents, and the limit does not apply when a parent or guardian is in the vehicle."
+      },
+      "display": "No more than one passenger of any age (dependents of the driver excepted) unless a parent or guardian is in the vehicle; the restriction ends at 21.",
+      "citation": {
+        "label": "Examination permits and special learner's permits, as amended by P.L.2023, c.216 (effective the first day of the 13th month after the January 8, 2024 approval)",
+        "citation": "N.J.S.A. 39:3-13.4 (P.L.2023, c.216, s.2)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2022/AL23/216_.PDF"
+      },
+      "effectiveDate": "2025-02-01",
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "minLiability": {
+      "state": {
+        "status": "value",
+        "value": {
+          "bodilyPerPerson": 35000,
+          "bodilyPerCrash": 70000,
+          "property": 25000
+        }
+      },
+      "display": "For policies issued or renewed on or after January 1, 2026, minimum liability coverage is $35,000 per person / $70,000 per accident for bodily injury and $25,000 for property damage.",
+      "citation": {
+        "label": "Maintenance of motor vehicle liability insurance coverage",
+        "citation": "N.J.S.A. 39:6B-1(a)",
+        "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1/32635"
+      },
+      "effectiveDate": "2026-01-01",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "crashReportThresholdUsd": {
+      "state": {
+        "status": "value",
+        "value": 500
+      },
+      "display": "A written crash report must be filed when a crash causes injury, death, or property damage of $500 or more.",
+      "citation": {
+        "label": "Immediate notice and written report of accidents, as amended by P.L.2007, c.266 (approved and effective January 13, 2008)",
+        "citation": "N.J.S.A. 39:4-130 (P.L.2007, c.266, s.2)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2006/AL07/266_.PDF"
+      },
+      "effectiveDate": "2008-01-13",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    }
+  },
   "references": [
     {
       "label": "New Jersey Driver Manual",

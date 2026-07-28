@@ -9,8 +9,14 @@
   "handbookEditionYear": 2024,
   "handbookCopyrightStatus": "terms-of-use",
   "applicantVariants": [
-    { "id": "under-18", "label": "Under 18 (provisional / instruction permit)" },
-    { "id": "adult", "label": "Adult (18+)" }
+    {
+      "id": "under-18",
+      "label": "Under 18 (provisional / instruction permit)"
+    },
+    {
+      "id": "adult",
+      "label": "Adult (18+)"
+    }
   ],
   "examVariants": [
     {
@@ -18,7 +24,10 @@
       "label": "Under-18 knowledge test (Class C)",
       "numQuestions": 35,
       "numToPass": 28,
-      "languages": ["en", "es"],
+      "languages": [
+        "en",
+        "es"
+      ],
       "onlineAvailable": true
     },
     {
@@ -26,7 +35,10 @@
       "label": "Adult knowledge test (Class C)",
       "numQuestions": 35,
       "numToPass": 28,
-      "languages": ["en", "es"],
+      "languages": [
+        "en",
+        "es"
+      ],
       "onlineAvailable": true
     }
   ],
@@ -70,7 +82,11 @@
     "moveOverRule": "Move over one lane, or slow down if you cannot move over safely, for stopped emergency, tow, and roadside-assistance vehicles displaying warning lights",
     "interstateMaxSpeed": "65 mph (70 mph on some rural eastern Oregon segments)",
     "schoolZoneSpeed": "20 mph when children are present or during posted hours",
-    "namedLaws": ["Basic Rule (speed)", "Move Over Law", "Hands-Free Distracted Driving Law"]
+    "namedLaws": [
+      "Basic Rule (speed)",
+      "Move Over Law",
+      "Hands-Free Distracted Driving Law"
+    ]
   },
   "references": [
     {
@@ -88,5 +104,455 @@
   "sourceSnapshotHash": "seed-pending-verification",
   "reviewStatus": "adversarially-verified",
   "lastVerified": "2026-07-24",
-  "contentVersion": 1
+  "contentVersion": 1,
+  "typedFacts": {
+    "bacAdult": {
+      "state": {
+        "status": "value",
+        "value": 0.08
+      },
+      "display": "0.08%",
+      "citation": {
+        "label": "Oregon Driver Manual",
+        "citation": "Oregon Driver Manual (2024)",
+        "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "bacCommercial": {
+      "state": {
+        "status": "value",
+        "value": 0.04
+      },
+      "display": "0.04%",
+      "citation": {
+        "label": "Oregon Driver Manual",
+        "citation": "Oregon Driver Manual (2024)",
+        "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "bacUnder21": {
+      "state": {
+        "status": "value",
+        "value": 0
+      },
+      "display": "Any measurable amount",
+      "citation": {
+        "label": "Oregon Driver Manual",
+        "citation": "Oregon Driver Manual (2024)",
+        "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "impliedConsentRefusal": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Oregon Driver Manual",
+        "citation": "Oregon Driver Manual (2024)",
+        "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "openContainerProhibited": {
+      "state": {
+        "status": "value",
+        "value": true
+      },
+      "display": "Yes",
+      "citation": {
+        "label": "Oregon Driver Manual",
+        "citation": "Oregon Driver Manual (2024)",
+        "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "duiFirstSuspensionDays": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Oregon Driver Manual",
+        "citation": "Oregon Driver Manual (2024)",
+        "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "ruralInterstateMaxMph": {
+      "state": {
+        "status": "value",
+        "value": 65
+      },
+      "display": "65 mph",
+      "citation": {
+        "label": "Oregon Driver Manual",
+        "citation": "Oregon Driver Manual (2024)",
+        "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "urbanInterstateMaxMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Oregon Driver Manual",
+        "citation": "Oregon Driver Manual (2024)",
+        "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "residentialDefaultMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Oregon Driver Manual",
+        "citation": "Oregon Driver Manual (2024)",
+        "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "schoolZoneMph": {
+      "state": {
+        "status": "value",
+        "value": 20
+      },
+      "display": "20 mph",
+      "citation": {
+        "label": "Oregon Driver Manual",
+        "citation": "Oregon Driver Manual (2024)",
+        "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "basicSpeedLaw": {
+      "state": {
+        "status": "value",
+        "value": true
+      },
+      "display": "Yes",
+      "citation": {
+        "label": "Oregon Driver Manual",
+        "citation": "Oregon Driver Manual (2024)",
+        "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "rightTurnOnRed": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Oregon Driver Manual",
+        "citation": "Oregon Driver Manual (2024)",
+        "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "leftTurnOnRedFromOneWay": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Oregon Driver Manual",
+        "citation": "Oregon Driver Manual (2024)",
+        "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "seatBeltEnforcement": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Oregon Driver Manual",
+        "citation": "Oregon Driver Manual (2024)",
+        "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "handheldPhone": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Oregon Driver Manual",
+        "citation": "Oregon Driver Manual (2024)",
+        "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "texting": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Oregon Driver Manual",
+        "citation": "Oregon Driver Manual (2024)",
+        "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "moveOver": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Oregon Driver Manual",
+        "citation": "Oregon Driver Manual (2024)",
+        "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "headlightsRequired": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Oregon Driver Manual",
+        "citation": "Oregon Driver Manual (2024)",
+        "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromHydrant": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Oregon Driver Manual",
+        "citation": "Oregon Driver Manual (2024)",
+        "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromCrosswalk": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Oregon Driver Manual",
+        "citation": "Oregon Driver Manual (2024)",
+        "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromStopSign": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Oregon Driver Manual",
+        "citation": "Oregon Driver Manual (2024)",
+        "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromRailroad": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Oregon Driver Manual",
+        "citation": "Oregon Driver Manual (2024)",
+        "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "pointSystem": {
+      "state": {
+        "status": "value",
+        "value": false
+      },
+      "display": "No",
+      "citation": {
+        "label": "Oregon Driver Manual",
+        "citation": "Oregon Driver Manual (2024)",
+        "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "pointSuspension": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Oregon Driver Manual",
+        "citation": "Oregon Driver Manual (2024)",
+        "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "permitMinAgeMonths": {
+      "state": {
+        "status": "value",
+        "value": 180
+      },
+      "display": "15",
+      "citation": {
+        "label": "Oregon Driver Manual",
+        "citation": "Oregon Driver Manual (2024)",
+        "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "permitHoldingMonths": {
+      "state": {
+        "status": "value",
+        "value": 6
+      },
+      "display": "6 months",
+      "citation": {
+        "label": "Oregon Driver Manual",
+        "citation": "Oregon Driver Manual (2024)",
+        "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "supervisedHoursTotal": {
+      "state": {
+        "status": "value",
+        "value": 50
+      },
+      "display": "50 hours",
+      "citation": {
+        "label": "Oregon Driver Manual",
+        "citation": "Oregon Driver Manual (2024)",
+        "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "supervisedHoursNight": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Oregon Driver Manual",
+        "citation": "Oregon Driver Manual (2024)",
+        "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "gdlNightCurfew": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Oregon Driver Manual",
+        "citation": "Oregon Driver Manual (2024)",
+        "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "gdlPassengerPhase1": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Oregon Driver Manual",
+        "citation": "Oregon Driver Manual (2024)",
+        "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "minLiability": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Oregon Driver Manual",
+        "citation": "Oregon Driver Manual (2024)",
+        "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "crashReportThresholdUsd": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Oregon Driver Manual",
+        "citation": "Oregon Driver Manual (2024)",
+        "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    }
+  }
 }

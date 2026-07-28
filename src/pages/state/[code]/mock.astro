@@ -1,10 +1,13 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../../components/Breadcrumbs.astro';
-import MockExam from '../../../islands/MockExam';
+import TestRunner from '../../../islands/TestRunner';
+import type { TestDefinition } from '../../../islands/TestRunner';
 import { STATES, byCode, stateSlug } from '../../../lib/states-directory';
 import { studyContent } from '../../../lib/content';
-import { applicableQuestions } from '../../../lib/questions';
+import { applicableQuestions, seedQuestions } from '../../../lib/questions';
+import { assetUrl } from '../../../lib/site';
+import { getBankBuildData } from '../../../lib/bank-build';
 import '../../../styles/pages.css';
 
 export function getStaticPaths() {
@@ -25,6 +28,17 @@ const variants = content.state?.examVariants ?? [
     onlineAvailable: false,
   },
 ];
+// Enough to rehearse offline; the full exam is built from the fetched bank.
+const seed = seedQuestions(questions, 10);
+const bankUrl = assetUrl(`/bank/${stateSlug(code)}.json`);
+const signUrl = assetUrl('/bank/signs.json');
+const { bankVersion } = await getBankBuildData();
+const definition: TestDefinition = {
+  mode: 'mock',
+  feedback: 'deferred',
+  navigation: 'free',
+  timer: true,
+};
 const description = `Take a free ${directory.name} DMV mock exam with state-aware question counts, passing targets, and a complete results review.`;
 ---
 
@@ -46,6 +60,15 @@ const description = `Take a free ${directory.name} DMV mock exam with state-awar
         score target, then review every miss.
       </p>
     </header>
-    <MockExam client:load state={code} variants={variants} questions={questions} />
+    <TestRunner
+      client:load
+      state={code}
+      definition={definition}
+      seedQuestions={seed}
+      bankUrl={bankUrl}
+      bankVersion={bankVersion}
+      signUrl={signUrl}
+      variants={variants}
+    />
   </section>
 </BaseLayout>

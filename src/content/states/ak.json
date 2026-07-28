@@ -64,6 +64,456 @@
     "schoolZoneSpeed": "Obey the posted school-zone limit when children are present",
     "namedLaws": ["Move Over Law", "Zero Tolerance Law (under 21)", "Texting/electronic device ban"]
   },
+  "typedFacts": {
+    "bacAdult": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alaska statutes portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Alaska Statutes",
+        "citation": "AS \u00a7 28.35.030(a)(2)",
+        "url": "https://www.akleg.gov/basis/statutes.asp"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "bacUnder21": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alaska statutes portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Alaska Statutes",
+        "citation": "AS \u00a7 28.35.280",
+        "url": "https://www.akleg.gov/basis/statutes.asp"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "bacCommercial": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alaska statutes portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Alaska Statutes",
+        "citation": "AS \u00a7 28.33.030",
+        "url": "https://www.akleg.gov/basis/statutes.asp"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "impliedConsentRefusal": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alaska statutes portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Alaska Statutes",
+        "citation": "AS \u00a7 28.35.032",
+        "url": "https://www.akleg.gov/basis/statutes.asp"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "openContainerProhibited": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alaska statutes portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Alaska Statutes",
+        "citation": "AS \u00a7 28.35.029",
+        "url": "https://www.akleg.gov/basis/statutes.asp"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "duiFirstSuspensionDays": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alaska statutes portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Alaska Statutes",
+        "citation": "AS \u00a7 28.15.181",
+        "url": "https://www.akleg.gov/basis/statutes.asp"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "ruralInterstateMaxMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alaska statutes portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Alaska Administrative Code",
+        "citation": "13 AAC 02.275",
+        "url": "https://www.akleg.gov/basis/aac.asp"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "urbanInterstateMaxMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alaska statutes portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Alaska Administrative Code",
+        "citation": "13 AAC 02.275",
+        "url": "https://www.akleg.gov/basis/aac.asp"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "residentialDefaultMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alaska statutes portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Alaska Administrative Code",
+        "citation": "13 AAC 02.275",
+        "url": "https://www.akleg.gov/basis/aac.asp"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "schoolZoneMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alaska statutes portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Alaska Administrative Code",
+        "citation": "13 AAC 02.275",
+        "url": "https://www.akleg.gov/basis/aac.asp"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "basicSpeedLaw": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alaska statutes portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Alaska Statutes",
+        "citation": "AS \u00a7 28.35.140",
+        "url": "https://www.akleg.gov/basis/statutes.asp"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "rightTurnOnRed": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alaska statutes portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Alaska Administrative Code",
+        "citation": "13 AAC 02.130",
+        "url": "https://www.akleg.gov/basis/aac.asp"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "leftTurnOnRedFromOneWay": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alaska statutes portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Alaska Administrative Code",
+        "citation": "13 AAC 02.130",
+        "url": "https://www.akleg.gov/basis/aac.asp"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "seatBeltEnforcement": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alaska statutes portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Alaska Statutes",
+        "citation": "AS \u00a7 28.05.095",
+        "url": "https://www.akleg.gov/basis/statutes.asp"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "handheldPhone": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alaska statutes portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Alaska Statutes",
+        "citation": "AS \u00a7 28.15.057",
+        "url": "https://www.akleg.gov/basis/statutes.asp"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "texting": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alaska statutes portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Alaska Statutes",
+        "citation": "AS \u00a7 28.35.161",
+        "url": "https://www.akleg.gov/basis/statutes.asp"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "moveOver": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alaska statutes portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Alaska Statutes",
+        "citation": "AS \u00a7 28.35.185",
+        "url": "https://www.akleg.gov/basis/statutes.asp"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "headlightsRequired": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alaska statutes portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Alaska Administrative Code",
+        "citation": "13 AAC 04.010",
+        "url": "https://www.akleg.gov/basis/aac.asp"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromHydrant": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alaska statutes portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Alaska Administrative Code",
+        "citation": "13 AAC 02.340",
+        "url": "https://www.akleg.gov/basis/aac.asp"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromCrosswalk": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alaska statutes portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Alaska Administrative Code",
+        "citation": "13 AAC 02.340",
+        "url": "https://www.akleg.gov/basis/aac.asp"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromStopSign": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alaska statutes portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Alaska Administrative Code",
+        "citation": "13 AAC 02.340",
+        "url": "https://www.akleg.gov/basis/aac.asp"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromRailroad": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alaska statutes portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Alaska Administrative Code",
+        "citation": "13 AAC 02.340",
+        "url": "https://www.akleg.gov/basis/aac.asp"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "pointSystem": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alaska statutes portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Alaska Administrative Code",
+        "citation": "2 AAC 90.040",
+        "url": "https://www.akleg.gov/basis/aac.asp"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "pointSuspension": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alaska statutes portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Alaska Administrative Code",
+        "citation": "2 AAC 90.040",
+        "url": "https://www.akleg.gov/basis/aac.asp"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "permitMinAgeMonths": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alaska statutes portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Alaska Statutes",
+        "citation": "AS \u00a7 28.15.051",
+        "url": "https://www.akleg.gov/basis/statutes.asp"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "permitHoldingMonths": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alaska statutes portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Alaska Statutes",
+        "citation": "AS \u00a7 28.15.055",
+        "url": "https://www.akleg.gov/basis/statutes.asp"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "supervisedHoursTotal": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alaska statutes portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Alaska Statutes",
+        "citation": "AS \u00a7 28.15.055",
+        "url": "https://www.akleg.gov/basis/statutes.asp"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "supervisedHoursNight": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alaska statutes portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Alaska Statutes",
+        "citation": "AS \u00a7 28.15.055",
+        "url": "https://www.akleg.gov/basis/statutes.asp"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "gdlNightCurfew": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alaska statutes portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Alaska Statutes",
+        "citation": "AS \u00a7 28.15.055",
+        "url": "https://www.akleg.gov/basis/statutes.asp"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "gdlPassengerPhase1": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alaska statutes portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Alaska Statutes",
+        "citation": "AS \u00a7 28.15.055",
+        "url": "https://www.akleg.gov/basis/statutes.asp"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "minLiability": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alaska statutes portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Alaska Statutes",
+        "citation": "AS \u00a7 28.22.101",
+        "url": "https://www.akleg.gov/basis/statutes.asp"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "crashReportThresholdUsd": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alaska statutes portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Alaska Statutes",
+        "citation": "AS \u00a7 28.35.080",
+        "url": "https://www.akleg.gov/basis/statutes.asp"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    }
+  },
   "references": [
     {
       "label": "Alaska Driver Manual",

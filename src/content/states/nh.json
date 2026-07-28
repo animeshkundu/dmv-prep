@@ -65,6 +65,464 @@
     "schoolZoneSpeed": "Reduced when posted and children are present (commonly 10-25 mph); obey posted school-zone signs",
     "namedLaws": ["Move Over Law", "Youth Operator Law", "Hands-Free Electronic Devices Law", "Zero Tolerance Law (under 21)"]
   },
+  "typedFacts": {
+    "bacAdult": {
+      "state": {
+        "status": "value",
+        "value": 0.08
+      },
+      "display": "0.08%",
+      "citation": {
+        "label": "New Hampshire Revised Statutes Online",
+        "citation": "N.H. Rev. Stat. Ann. § 265-A:2",
+        "url": "https://gc.nh.gov/rsa/html/XXI/265-A/265-A-2.htm"
+      },
+      "effectiveDate": "2013-01-01",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "bacUnder21": {
+      "state": {
+        "status": "value",
+        "value": 0.02,
+        "conditions": [
+          {
+            "kind": "driver-age",
+            "detail": "drivers under age 21"
+          }
+        ]
+      },
+      "display": "0.02% (under age 21)",
+      "citation": {
+        "label": "New Hampshire Revised Statutes Online",
+        "citation": "N.H. Rev. Stat. Ann. § 265-A:2",
+        "url": "https://gc.nh.gov/rsa/html/XXI/265-A/265-A-2.htm"
+      },
+      "effectiveDate": "2013-01-01",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "bacCommercial": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "New Hampshire Revised Statutes Online",
+        "citation": "N.H. Rev. Stat. Ann. § 265-A:2",
+        "url": "https://gc.nh.gov/rsa/html/XXI/265-A/265-A-2.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "impliedConsentRefusal": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "New Hampshire Revised Statutes Online",
+        "citation": "N.H. Rev. Stat. Ann. § 265-A:2",
+        "url": "https://gc.nh.gov/rsa/html/XXI/265-A/265-A-2.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "openContainerProhibited": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "New Hampshire Revised Statutes Online",
+        "citation": "N.H. Rev. Stat. Ann. § 265-A:2",
+        "url": "https://gc.nh.gov/rsa/html/XXI/265-A/265-A-2.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "duiFirstSuspensionDays": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "New Hampshire Revised Statutes Online",
+        "citation": "N.H. Rev. Stat. Ann. § 265-A:2",
+        "url": "https://gc.nh.gov/rsa/html/XXI/265-A/265-A-2.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "ruralInterstateMaxMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "New Hampshire Revised Statutes Online",
+        "citation": "N.H. Rev. Stat. Ann. § 265:60",
+        "url": "https://gc.nh.gov/rsa/html/XXI/265/265-60.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "urbanInterstateMaxMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "New Hampshire Revised Statutes Online",
+        "citation": "N.H. Rev. Stat. Ann. § 265:60",
+        "url": "https://gc.nh.gov/rsa/html/XXI/265/265-60.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "residentialDefaultMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "New Hampshire Revised Statutes Online",
+        "citation": "N.H. Rev. Stat. Ann. § 265:60",
+        "url": "https://gc.nh.gov/rsa/html/XXI/265/265-60.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "schoolZoneMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "New Hampshire Revised Statutes Online",
+        "citation": "N.H. Rev. Stat. Ann. § 265:60",
+        "url": "https://gc.nh.gov/rsa/html/XXI/265/265-60.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "basicSpeedLaw": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "New Hampshire Revised Statutes Online",
+        "citation": "N.H. Rev. Stat. Ann. § 265:60",
+        "url": "https://gc.nh.gov/rsa/html/XXI/265/265-60.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "rightTurnOnRed": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "New Hampshire Revised Statutes Online",
+        "citation": "N.H. Rev. Stat. Ann. §§ 265:37-a, 265:43, 265:79-c, 265:107-a, 266:31",
+        "url": "https://gc.nh.gov/rsa/html/XXI/265/265-107-a.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "leftTurnOnRedFromOneWay": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "New Hampshire Revised Statutes Online",
+        "citation": "N.H. Rev. Stat. Ann. §§ 265:37-a, 265:43, 265:79-c, 265:107-a, 266:31",
+        "url": "https://gc.nh.gov/rsa/html/XXI/265/265-107-a.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "seatBeltEnforcement": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "New Hampshire Revised Statutes Online",
+        "citation": "N.H. Rev. Stat. Ann. §§ 265:37-a, 265:43, 265:79-c, 265:107-a, 266:31",
+        "url": "https://gc.nh.gov/rsa/html/XXI/265/265-107-a.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "handheldPhone": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "New Hampshire Revised Statutes Online",
+        "citation": "N.H. Rev. Stat. Ann. §§ 265:37-a, 265:43, 265:79-c, 265:107-a, 266:31",
+        "url": "https://gc.nh.gov/rsa/html/XXI/265/265-107-a.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "texting": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "New Hampshire Revised Statutes Online",
+        "citation": "N.H. Rev. Stat. Ann. §§ 265:37-a, 265:43, 265:79-c, 265:107-a, 266:31",
+        "url": "https://gc.nh.gov/rsa/html/XXI/265/265-107-a.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "moveOver": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "New Hampshire Revised Statutes Online",
+        "citation": "N.H. Rev. Stat. Ann. §§ 265:37-a, 265:43, 265:79-c, 265:107-a, 266:31",
+        "url": "https://gc.nh.gov/rsa/html/XXI/265/265-107-a.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "headlightsRequired": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "New Hampshire Revised Statutes Online",
+        "citation": "N.H. Rev. Stat. Ann. §§ 265:37-a, 265:43, 265:79-c, 265:107-a, 266:31",
+        "url": "https://gc.nh.gov/rsa/html/XXI/265/265-107-a.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromHydrant": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "New Hampshire Revised Statutes Online",
+        "citation": "N.H. Rev. Stat. Ann. § 265:73",
+        "url": "https://gc.nh.gov/rsa/html/XXI/265/265-73.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromCrosswalk": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "New Hampshire Revised Statutes Online",
+        "citation": "N.H. Rev. Stat. Ann. § 265:73",
+        "url": "https://gc.nh.gov/rsa/html/XXI/265/265-73.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromStopSign": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "New Hampshire Revised Statutes Online",
+        "citation": "N.H. Rev. Stat. Ann. § 265:73",
+        "url": "https://gc.nh.gov/rsa/html/XXI/265/265-73.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromRailroad": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "New Hampshire Revised Statutes Online",
+        "citation": "N.H. Rev. Stat. Ann. § 265:73",
+        "url": "https://gc.nh.gov/rsa/html/XXI/265/265-73.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "pointSystem": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "New Hampshire Revised Statutes Online",
+        "citation": "N.H. Rev. Stat. Ann. § 263:56",
+        "url": "https://gc.nh.gov/rsa/html/XXI/263/263-56.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "pointSuspension": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "New Hampshire Revised Statutes Online",
+        "citation": "N.H. Rev. Stat. Ann. § 263:56",
+        "url": "https://gc.nh.gov/rsa/html/XXI/263/263-56.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "permitMinAgeMonths": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "New Hampshire Revised Statutes Online",
+        "citation": "N.H. Rev. Stat. Ann. § 263:14",
+        "url": "https://gc.nh.gov/rsa/html/XXI/263/263-14.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "permitHoldingMonths": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "New Hampshire Revised Statutes Online",
+        "citation": "N.H. Rev. Stat. Ann. § 263:14",
+        "url": "https://gc.nh.gov/rsa/html/XXI/263/263-14.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "supervisedHoursTotal": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "New Hampshire Revised Statutes Online",
+        "citation": "N.H. Rev. Stat. Ann. § 263:14",
+        "url": "https://gc.nh.gov/rsa/html/XXI/263/263-14.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "supervisedHoursNight": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "New Hampshire Revised Statutes Online",
+        "citation": "N.H. Rev. Stat. Ann. § 263:14",
+        "url": "https://gc.nh.gov/rsa/html/XXI/263/263-14.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "gdlNightCurfew": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "New Hampshire Revised Statutes Online",
+        "citation": "N.H. Rev. Stat. Ann. § 263:14",
+        "url": "https://gc.nh.gov/rsa/html/XXI/263/263-14.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "gdlPassengerPhase1": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "New Hampshire Revised Statutes Online",
+        "citation": "N.H. Rev. Stat. Ann. § 263:14",
+        "url": "https://gc.nh.gov/rsa/html/XXI/263/263-14.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "minLiability": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "New Hampshire Revised Statutes Online",
+        "citation": "N.H. Rev. Stat. Ann. §§ 264:15, 264:25",
+        "url": "https://gc.nh.gov/rsa/html/XXI/264/264-15.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "crashReportThresholdUsd": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "New Hampshire Revised Statutes Online",
+        "citation": "N.H. Rev. Stat. Ann. §§ 264:15, 264:25",
+        "url": "https://gc.nh.gov/rsa/html/XXI/264/264-15.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    }
+  },
   "references": [
     {
       "label": "New Hampshire Driver's Manual",

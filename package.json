@@ -14,6 +14,12 @@
     "check": "astro check",
     "typecheck": "tsc --noEmit",
     "validate:content": "node scripts/validate-content.mjs",
+    "content:generate": "node scripts/content/generate-templated.mjs --write",
+    "content:generate:check": "node scripts/content/generate-templated.mjs --check",
+    "content:dedupe": "node scripts/content/dedupe-report.mjs",
+    "content:report": "node scripts/content/content-report.mjs",
+    "content:sources": "node scripts/content/fetch-sources.mjs",
+    "signs:fetch": "node scripts/signs/fetch-signs.mjs --write",
     "test": "vitest run --passWithNoTests",
     "test:watch": "vitest",
     "test:e2e": "playwright test"

@@ -1,5 +1,9 @@
 import type { ExamVariant, Progress, Question } from './types';
 
+/** Selection only needs identity and category, so the reduced client bank works too. */
+type SelectableQuestion = Pick<Question, 'id' | 'category'>;
+type ScorableQuestion = Pick<Question, 'id' | 'category' | 'correctIndex'>;
+
 function hashSeed(seed: string | number): number {
   if (typeof seed === 'number') return seed >>> 0;
   let hash = 2166136261;
@@ -27,27 +31,32 @@ export function shuffle<T>(items: readonly T[], seed: string | number): T[] {
   return result;
 }
 
-export function buildPracticeSet(
-  questions: Question[],
+export function buildPracticeSet<T extends SelectableQuestion>(
+  questions: T[],
   options: { category?: Question['category']; count: number; seed: string | number },
-): Question[] {
+): T[] {
   const bank = options.category
     ? questions.filter((question) => question.category === options.category)
     : questions;
   return shuffle(bank, options.seed).slice(0, Math.max(0, options.count));
 }
 
-export function buildMockExam(
+export function buildMockExam<T extends SelectableQuestion>(
   _state: string,
   variant: ExamVariant,
-  applicable: Question[],
+  applicable: T[],
   seed: string | number,
-): Question[] {
-  const selected: Question[] = [];
+): T[] {
+  const scope = variant.categoryScope;
+  // A scoped variant is its own exam (GA/NC signs test): it may only draw from those categories.
+  const pool = scope
+    ? applicable.filter((question) => (scope as readonly string[]).includes(question.category))
+    : applicable;
+  const selected: T[] = [];
   const used = new Set<string>();
   for (const requirement of variant.subRequirements ?? []) {
     const candidates = shuffle(
-      applicable.filter((question) => question.category === requirement.category),
+      pool.filter((question) => question.category === requirement.category),
       `${seed}:${requirement.category}`,
     );
     // Best effort: include up to outOf when the category bank or total exam size is smaller.
@@ -58,7 +67,7 @@ export function buildMockExam(
       }
     }
   }
-  for (const question of shuffle(applicable, seed)) {
+  for (const question of shuffle(pool, seed)) {
     if (selected.length >= variant.numQuestions) break;
     if (!used.has(question.id)) {
       selected.push(question);
@@ -83,8 +92,8 @@ export interface ScoreResult {
   }>;
 }
 
-export function scoreExam(
-  questions: Question[],
+export function scoreExam<T extends ScorableQuestion>(
+  questions: T[],
   answers: Record<string, number | undefined>,
   variant: ExamVariant,
 ): ScoreResult {

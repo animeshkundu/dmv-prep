@@ -74,6 +74,456 @@
     "schoolZoneSpeed": "Reduced posted limit near schools when children are present (commonly 15 mph)",
     "namedLaws": ["Move Over Law", "Absolute Sobriety Law (Not a Drop)", "Graduated Driver Licensing (GDL) Law"]
   },
+  "typedFacts": {
+    "bacAdult": {
+      "state": {
+        "status": "unknown",
+        "reason": "adult BAC threshold: The official WisDOT handbook was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wisconsin Motorists' Handbook",
+        "citation": "WisDOT DMV Motorists' Handbook (BDS126)",
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "bacUnder21": {
+      "state": {
+        "status": "unknown",
+        "reason": "under-21 BAC threshold: The official WisDOT handbook was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wisconsin Motorists' Handbook",
+        "citation": "WisDOT DMV Motorists' Handbook (BDS126)",
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "bacCommercial": {
+      "state": {
+        "status": "unknown",
+        "reason": "commercial-driver BAC threshold: The official WisDOT handbook was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wisconsin Motorists' Handbook",
+        "citation": "WisDOT DMV Motorists' Handbook (BDS126)",
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "impliedConsentRefusal": {
+      "state": {
+        "status": "unknown",
+        "reason": "implied-consent refusal consequence: The official WisDOT handbook was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wisconsin Motorists' Handbook",
+        "citation": "WisDOT DMV Motorists' Handbook (BDS126)",
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "openContainerProhibited": {
+      "state": {
+        "status": "unknown",
+        "reason": "open-container prohibition: The official WisDOT handbook was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wisconsin Motorists' Handbook",
+        "citation": "WisDOT DMV Motorists' Handbook (BDS126)",
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "duiFirstSuspensionDays": {
+      "state": {
+        "status": "unknown",
+        "reason": "first-DUI suspension duration: The official WisDOT handbook was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wisconsin Motorists' Handbook",
+        "citation": "WisDOT DMV Motorists' Handbook (BDS126)",
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "ruralInterstateMaxMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "rural-interstate maximum speed: The official WisDOT handbook was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wisconsin Motorists' Handbook",
+        "citation": "WisDOT DMV Motorists' Handbook (BDS126)",
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "urbanInterstateMaxMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "urban-interstate maximum speed: The official WisDOT handbook was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wisconsin Motorists' Handbook",
+        "citation": "WisDOT DMV Motorists' Handbook (BDS126)",
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "residentialDefaultMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "residential default speed: The official WisDOT handbook was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wisconsin Motorists' Handbook",
+        "citation": "WisDOT DMV Motorists' Handbook (BDS126)",
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "schoolZoneMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "school-zone speed: The official WisDOT handbook was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wisconsin Motorists' Handbook",
+        "citation": "WisDOT DMV Motorists' Handbook (BDS126)",
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "basicSpeedLaw": {
+      "state": {
+        "status": "unknown",
+        "reason": "basic-speed-law applicability: The official WisDOT handbook was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wisconsin Motorists' Handbook",
+        "citation": "WisDOT DMV Motorists' Handbook (BDS126)",
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "rightTurnOnRed": {
+      "state": {
+        "status": "unknown",
+        "reason": "right-turn-on-red rule: The official WisDOT handbook was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wisconsin Motorists' Handbook",
+        "citation": "WisDOT DMV Motorists' Handbook (BDS126)",
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "leftTurnOnRedFromOneWay": {
+      "state": {
+        "status": "unknown",
+        "reason": "one-way-to-one-way left-turn-on-red rule: The official WisDOT handbook was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wisconsin Motorists' Handbook",
+        "citation": "WisDOT DMV Motorists' Handbook (BDS126)",
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "seatBeltEnforcement": {
+      "state": {
+        "status": "unknown",
+        "reason": "seat-belt enforcement classification: The official WisDOT handbook was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wisconsin Motorists' Handbook",
+        "citation": "WisDOT DMV Motorists' Handbook (BDS126)",
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "handheldPhone": {
+      "state": {
+        "status": "unknown",
+        "reason": "handheld-phone rule: The official WisDOT handbook was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wisconsin Motorists' Handbook",
+        "citation": "WisDOT DMV Motorists' Handbook (BDS126)",
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "texting": {
+      "state": {
+        "status": "unknown",
+        "reason": "texting rule: The official WisDOT handbook was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wisconsin Motorists' Handbook",
+        "citation": "WisDOT DMV Motorists' Handbook (BDS126)",
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "moveOver": {
+      "state": {
+        "status": "unknown",
+        "reason": "move-over requirement and covered vehicles: The official WisDOT handbook was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wisconsin Motorists' Handbook",
+        "citation": "WisDOT DMV Motorists' Handbook (BDS126)",
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "headlightsRequired": {
+      "state": {
+        "status": "unknown",
+        "reason": "headlight-use conditions: The official WisDOT handbook was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wisconsin Motorists' Handbook",
+        "citation": "WisDOT DMV Motorists' Handbook (BDS126)",
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromHydrant": {
+      "state": {
+        "status": "unknown",
+        "reason": "fire-hydrant parking distance: The official WisDOT handbook was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wisconsin Motorists' Handbook",
+        "citation": "WisDOT DMV Motorists' Handbook (BDS126)",
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromCrosswalk": {
+      "state": {
+        "status": "unknown",
+        "reason": "crosswalk parking distance: The official WisDOT handbook was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wisconsin Motorists' Handbook",
+        "citation": "WisDOT DMV Motorists' Handbook (BDS126)",
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromStopSign": {
+      "state": {
+        "status": "unknown",
+        "reason": "stop-sign parking distance: The official WisDOT handbook was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wisconsin Motorists' Handbook",
+        "citation": "WisDOT DMV Motorists' Handbook (BDS126)",
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromRailroad": {
+      "state": {
+        "status": "unknown",
+        "reason": "railroad-crossing parking distance: The official WisDOT handbook was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wisconsin Motorists' Handbook",
+        "citation": "WisDOT DMV Motorists' Handbook (BDS126)",
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "pointSystem": {
+      "state": {
+        "status": "unknown",
+        "reason": "driver point-system status: The official WisDOT handbook was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wisconsin Motorists' Handbook",
+        "citation": "WisDOT DMV Motorists' Handbook (BDS126)",
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "pointSuspension": {
+      "state": {
+        "status": "unknown",
+        "reason": "point-suspension threshold: The official WisDOT handbook was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wisconsin Motorists' Handbook",
+        "citation": "WisDOT DMV Motorists' Handbook (BDS126)",
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "permitMinAgeMonths": {
+      "state": {
+        "status": "unknown",
+        "reason": "permit minimum age: The official WisDOT handbook was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wisconsin Motorists' Handbook",
+        "citation": "WisDOT DMV Motorists' Handbook (BDS126)",
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "permitHoldingMonths": {
+      "state": {
+        "status": "unknown",
+        "reason": "permit holding period: The official WisDOT handbook was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wisconsin Motorists' Handbook",
+        "citation": "WisDOT DMV Motorists' Handbook (BDS126)",
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "supervisedHoursTotal": {
+      "state": {
+        "status": "unknown",
+        "reason": "total supervised-driving hours: The official WisDOT handbook was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wisconsin Motorists' Handbook",
+        "citation": "WisDOT DMV Motorists' Handbook (BDS126)",
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "supervisedHoursNight": {
+      "state": {
+        "status": "unknown",
+        "reason": "night supervised-driving hours: The official WisDOT handbook was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wisconsin Motorists' Handbook",
+        "citation": "WisDOT DMV Motorists' Handbook (BDS126)",
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "gdlNightCurfew": {
+      "state": {
+        "status": "unknown",
+        "reason": "GDL night-curfew hours: The official WisDOT handbook was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wisconsin Motorists' Handbook",
+        "citation": "WisDOT DMV Motorists' Handbook (BDS126)",
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "gdlPassengerPhase1": {
+      "state": {
+        "status": "unknown",
+        "reason": "first-phase GDL passenger limit: The official WisDOT handbook was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wisconsin Motorists' Handbook",
+        "citation": "WisDOT DMV Motorists' Handbook (BDS126)",
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "minLiability": {
+      "state": {
+        "status": "unknown",
+        "reason": "minimum liability limits: The official WisDOT handbook was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wisconsin Motorists' Handbook",
+        "citation": "WisDOT DMV Motorists' Handbook (BDS126)",
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "crashReportThresholdUsd": {
+      "state": {
+        "status": "unknown",
+        "reason": "property-damage crash-report threshold: The official WisDOT handbook was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wisconsin Motorists' Handbook",
+        "citation": "WisDOT DMV Motorists' Handbook (BDS126)",
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    }
+  },
   "references": [
     {
       "label": "Wisconsin Motorists' Handbook",
@@ -95,6 +545,6 @@
   "sourceSnapshotHash": "seed-pending-verification",
   "reviewStatus": "adversarially-verified",
   "verifyNote": "The current official WisDOT BDS126 handbook and current knowledge-test page confirm the requirements, but WisDOT does not identify an edition year for the live handbook PDF; handbookEditionYear remains 2025 pending an edition-dated official source.",
-  "lastVerified": "2026-07-24",
+  "lastVerified": "2026-07-27",
   "contentVersion": 1
 }

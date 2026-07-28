@@ -9,25 +9,55 @@
   "handbookEditionYear": 2024,
   "handbookCopyrightStatus": "unknown",
   "applicantVariants": [
-    { "id": "under-18", "label": "Under 18 (Graduated Licensing Levels 1-3)" },
-    { "id": "adult", "label": "Adult (18+, Class C)" }
+    {
+      "id": "under-18",
+      "label": "Under 18 (Graduated Licensing Levels 1-3)"
+    },
+    {
+      "id": "adult",
+      "label": "Adult (18+, Class C)"
+    }
   ],
   "examVariants": [
     {
-      "variantId": "all",
+      "variantId": "rules",
       "label": "Written knowledge (road rules) test",
       "numQuestions": 25,
       "numToPass": 20,
-      "languages": ["en", "es"],
-      "onlineAvailable": false
+      "languages": [
+        "en",
+        "es"
+      ],
+      "onlineAvailable": false,
+      "testGroup": "permit-knowledge-tests",
+      "categoryScope": [
+        "right-of-way",
+        "parking",
+        "speed-limits",
+        "alcohol-drugs",
+        "sharing-the-road",
+        "safe-driving",
+        "traffic-laws",
+        "penalties-points",
+        "gdl-teen"
+      ]
     },
     {
-      "variantId": "all",
+      "variantId": "signs",
       "label": "Road sign identification test",
       "numQuestions": 8,
       "numToPass": 6,
-      "languages": ["en", "es"],
-      "onlineAvailable": false
+      "languages": [
+        "en",
+        "es"
+      ],
+      "onlineAvailable": false,
+      "testGroup": "permit-knowledge-tests",
+      "categoryScope": [
+        "road-signs",
+        "traffic-signals",
+        "pavement-markings"
+      ]
     }
   ],
   "retake": {
@@ -69,7 +99,546 @@
     "moveOverRule": "Move over one lane, or slow down if unable, for stopped emergency and law-enforcement vehicles displaying flashing lights",
     "interstateMaxSpeed": "70 mph",
     "schoolZoneSpeed": "As posted (commonly 20-35 mph when children are present)",
-    "namedLaws": ["Move Over Law", "Graduated Driver License (Levels 1-3)", "Under-18 cell phone and texting ban"]
+    "namedLaws": [
+      "Move Over Law",
+      "Graduated Driver License (Levels 1-3)",
+      "Under-18 cell phone and texting ban"
+    ]
+  },
+  "typedFacts": {
+    "bacAdult": {
+      "state": {
+        "status": "value",
+        "value": 0.08
+      },
+      "display": "Impaired driving at an alcohol concentration of 0.08 or more (or while under the influence of an impairing substance).",
+      "citation": {
+        "label": "Impaired driving",
+        "citation": "N.C. Gen. Stat. § 20-138.1",
+        "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-138.1.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "bacUnder21": {
+      "state": {
+        "status": "value",
+        "value": 0,
+        "conditions": [
+          {
+            "kind": "driver-age",
+            "detail": "drivers under 21"
+          }
+        ]
+      },
+      "display": "Zero tolerance: a driver under 21 may not drive after consuming any alcohol or controlled substance; any alcohol concentration detected violates the statute.",
+      "citation": {
+        "label": "Driving by provisional licensee after consuming alcohol or drugs",
+        "citation": "N.C. Gen. Stat. § 20-138.3",
+        "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-138.3.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "bacCommercial": {
+      "state": {
+        "status": "value",
+        "value": 0.04,
+        "conditions": [
+          {
+            "kind": "vehicle-class",
+            "detail": "commercial motor vehicles"
+          }
+        ]
+      },
+      "display": "Commercial vehicle drivers commit impaired driving at an alcohol concentration of 0.04 or more.",
+      "citation": {
+        "label": "Impaired driving in commercial vehicle",
+        "citation": "N.C. Gen. Stat. § 20-138.2",
+        "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-138.2.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "impliedConsentRefusal": {
+      "state": {
+        "status": "value",
+        "value": {
+          "suspensionMonths": 12,
+          "criminalOffense": false
+        }
+      },
+      "display": "Willful refusal of a chemical test triggers a 12-month civil revocation by the Division of Motor Vehicles; refusal is not itself a separate crime.",
+      "citation": {
+        "label": "Implied consent to chemical analysis; revocation for refusal",
+        "citation": "N.C. Gen. Stat. § 20-16.2",
+        "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-16.2.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "openContainerProhibited": {
+      "state": {
+        "status": "value",
+        "value": true
+      },
+      "display": "It is unlawful under G.S. 20-138.7(a1) for any person to possess an open or unsealed alcoholic beverage container, or to consume alcohol, in the passenger area of a motor vehicle on a highway or its right-of-way; subsection (a) separately punishes a driver who does so while consuming alcohol or with alcohol remaining in the body.",
+      "citation": {
+        "label": "Transporting an open container of alcoholic beverage",
+        "citation": "N.C. Gen. Stat. § 20-138.7",
+        "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-138.7.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "duiFirstSuspensionDays": {
+      "state": {
+        "status": "value",
+        "value": 365
+      },
+      "display": "A first impaired-driving conviction requires mandatory revocation for one year (limited driving privilege possible).",
+      "citation": {
+        "label": "Mandatory revocation of license by Division",
+        "citation": "N.C. Gen. Stat. § 20-17",
+        "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-17.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "ruralInterstateMaxMph": {
+      "state": {
+        "status": "value",
+        "value": 70,
+        "conditions": [
+          {
+            "kind": "road-class",
+            "detail": "rural interstate highways where 70 mph is posted"
+          }
+        ]
+      },
+      "display": "55 mph statewide outside municipalities; the Department of Transportation may raise limits to a maximum of 70 mph where posted, and 70 mph is posted on rural interstates.",
+      "citation": {
+        "label": "Speed restrictions",
+        "citation": "N.C. Gen. Stat. § 20-141",
+        "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-141.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "urbanInterstateMaxMph": {
+      "state": {
+        "status": "value",
+        "value": 70,
+        "conditions": [
+          {
+            "kind": "road-class",
+            "detail": "urban interstate highways where 70 mph is posted"
+          }
+        ]
+      },
+      "display": "Maximum posted speed limit on urban interstates is 70 mph (statutory ceiling of 70 mph under G.S. 20-141(d)(2)).",
+      "citation": {
+        "label": "IIHS maximum posted speed limits by state (July 2026)",
+        "citation": "IIHS, Maximum posted speed limits (North Carolina: 70 mph rural and urban interstates)",
+        "url": "https://www.iihs.org/topics/speed/speed-limit-laws"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "residentialDefaultMph": {
+      "state": {
+        "status": "value",
+        "value": 35,
+        "conditions": [
+          {
+            "kind": "locality",
+            "detail": "inside municipal corporate limits, unless a different limit is posted"
+          }
+        ]
+      },
+      "display": "Unless otherwise posted, 35 mph inside municipal corporate limits and 55 mph outside municipal corporate limits.",
+      "citation": {
+        "label": "Speed restrictions",
+        "citation": "N.C. Gen. Stat. § 20-141",
+        "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-141.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "schoolZoneMph": {
+      "state": {
+        "status": "not-applicable",
+        "reason": "North Carolina sets no statewide school-zone speed limit. Under G.S. 20-141.1 local authorities and the Department of Transportation may set school-zone limits, which may not be below 20 mph, and they are enforceable only while posted and while children are going to or leaving school during opening or closing hours."
+      },
+      "display": "No single statewide school-zone speed limit: locally established limits (never below 20 mph) apply only when posted and when school is opening or closing.",
+      "citation": {
+        "label": "Speed limits in school zones",
+        "citation": "N.C. Gen. Stat. § 20-141.1",
+        "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-141.1.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "basicSpeedLaw": {
+      "state": {
+        "status": "value",
+        "value": true
+      },
+      "display": "No person shall drive at a speed greater than is reasonable and prudent under the conditions then existing.",
+      "citation": {
+        "label": "Speed restrictions",
+        "citation": "N.C. Gen. Stat. § 20-141",
+        "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-141.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "rightTurnOnRed": {
+      "state": {
+        "status": "value",
+        "value": "allowed-after-stop"
+      },
+      "display": "After coming to a complete stop at a steady red circular light, a driver may turn right unless prohibited by an appropriate sign.",
+      "citation": {
+        "label": "Vehicle control signs and signals",
+        "citation": "N.C. Gen. Stat. § 20-158",
+        "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-158.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "leftTurnOnRedFromOneWay": {
+      "state": {
+        "status": "value",
+        "value": "prohibited"
+      },
+      "display": "G.S. 20-158(b)(2)a authorizes only a right turn after stopping at a steady red light; no left turn on red from a one-way street is authorized.",
+      "citation": {
+        "label": "Vehicle control signs and signals",
+        "citation": "N.C. Gen. Stat. § 20-158",
+        "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-158.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "seatBeltEnforcement": {
+      "state": {
+        "status": "varies",
+        "variants": [
+          {
+            "value": "primary",
+            "conditions": [
+              {
+                "kind": "occupancy",
+                "detail": "driver and front-seat occupants, and all occupants under 16"
+              }
+            ]
+          },
+          {
+            "value": "secondary",
+            "conditions": [
+              {
+                "kind": "occupancy",
+                "detail": "rear-seat occupants 16 and older"
+              }
+            ]
+          }
+        ]
+      },
+      "display": "Primary enforcement for the driver, front-seat occupants and occupants under 16; a rear-seat belt violation by an occupant 16 or older may not be the sole basis for a stop.",
+      "citation": {
+        "label": "Seat belt use required",
+        "citation": "N.C. Gen. Stat. § 20-135.2A",
+        "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-135.2A.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "handheldPhone": {
+      "state": {
+        "status": "value",
+        "value": "banned-novice",
+        "conditions": [
+          {
+            "kind": "driver-age",
+            "detail": "drivers under 18"
+          }
+        ]
+      },
+      "display": "No general handheld ban: drivers under 18 may not use a mobile telephone while driving (limited emergency and parent-call exceptions).",
+      "citation": {
+        "label": "Unlawful use of mobile telephone by persons under 18",
+        "citation": "N.C. Gen. Stat. § 20-137.3",
+        "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-137.3.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "texting": {
+      "state": {
+        "status": "value",
+        "value": "banned-all"
+      },
+      "display": "No driver may manually enter or read text-based communication (texts, e-mail) while operating a vehicle on a public street or highway.",
+      "citation": {
+        "label": "Unlawful use of mobile telephone for text messaging or electronic mail",
+        "citation": "N.C. Gen. Stat. § 20-137.4A",
+        "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-137.4A.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "moveOver": {
+      "state": {
+        "status": "value",
+        "value": {
+          "requirement": "lane-change-or-slow",
+          "coveredVehicles": [
+            "emergency",
+            "tow",
+            "utility",
+            "any-flashing"
+          ]
+        }
+      },
+      "display": "Approaching a stopped emergency or public service vehicle displaying flashing lights, a driver must move into a lane not adjacent when possible on a multi-lane road, otherwise slow down and proceed with caution.",
+      "citation": {
+        "label": "N.C. Gen. Stat. § 20-157(f) as rewritten by S.L. 2022-68, s. 6.(a) (s. 6.(b): effective August 1, 2022)",
+        "citation": "N.C. Gen. Stat. § 20-157(f); 2022 N.C. Sess. Laws 68, s. 6",
+        "url": "https://www.ncleg.gov/EnactedLegislation/SessionLaws/HTML/2021-2022/SL2022-68.html"
+      },
+      "effectiveDate": "2022-08-01",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "headlightsRequired": {
+      "state": {
+        "status": "value",
+        "value": {
+          "whenWipersOn": true,
+          "minutesAfterSunset": 0
+        }
+      },
+      "display": "Headlights are required from sunset to sunrise, whenever windshield wipers are in continuous use because of precipitation, and whenever visibility is under 500 feet.",
+      "citation": {
+        "label": "Required lighting equipment of vehicles",
+        "citation": "N.C. Gen. Stat. § 20-129",
+        "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-129.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "parkFtFromHydrant": {
+      "state": {
+        "status": "value",
+        "value": 15
+      },
+      "display": "No parking within 15 feet of a fire hydrant.",
+      "citation": {
+        "label": "Parking in front of private driveway, fire hydrant, private road or alley",
+        "citation": "N.C. Gen. Stat. § 20-162",
+        "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-162.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "parkFtFromCrosswalk": {
+      "state": {
+        "status": "not-applicable",
+        "reason": "North Carolina has no statewide statutory parking setback from a crosswalk; G.S. 20-162 lists only driveways, hydrants, private roads and alleys, and G.S. 20-169 leaves parking regulation on non-State-maintained streets to local ordinance."
+      },
+      "display": "No statewide crosswalk parking setback; crosswalk parking restrictions are set by local ordinance or posted signs.",
+      "citation": {
+        "label": "Parking in front of private driveway, fire hydrant, private road or alley",
+        "citation": "N.C. Gen. Stat. § 20-162",
+        "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-162.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "parkFtFromStopSign": {
+      "state": {
+        "status": "not-applicable",
+        "reason": "North Carolina has no statewide statutory parking setback from a stop sign; G.S. 20-162 does not address stop signs and local authorities regulate parking under G.S. 20-169."
+      },
+      "display": "No statewide stop-sign parking setback; such restrictions come from local ordinance or posted signs.",
+      "citation": {
+        "label": "Parking in front of private driveway, fire hydrant, private road or alley",
+        "citation": "N.C. Gen. Stat. § 20-162",
+        "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-162.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "parkFtFromRailroad": {
+      "state": {
+        "status": "not-applicable",
+        "reason": "North Carolina has no statewide statutory parking setback from a railroad crossing; G.S. 20-162 does not address railroad crossings and local authorities regulate parking under G.S. 20-169."
+      },
+      "display": "No statewide railroad-crossing parking setback; such restrictions come from local ordinance or posted signs.",
+      "citation": {
+        "label": "Parking in front of private driveway, fire hydrant, private road or alley",
+        "citation": "N.C. Gen. Stat. § 20-162",
+        "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-162.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "pointSystem": {
+      "state": {
+        "status": "value",
+        "value": true
+      },
+      "display": "The Division of Motor Vehicles assigns driver license points for moving violations and may suspend a license on point accumulation.",
+      "citation": {
+        "label": "Authority of Division to suspend license",
+        "citation": "N.C. Gen. Stat. § 20-16",
+        "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-16.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "pointSuspension": {
+      "state": {
+        "status": "value",
+        "value": {
+          "points": 12,
+          "windowMonths": 36
+        }
+      },
+      "display": "The Division may suspend a license when a driver accumulates 12 points within any three-year period (8 points within three years after reinstatement).",
+      "citation": {
+        "label": "Authority of Division to suspend license",
+        "citation": "N.C. Gen. Stat. § 20-16",
+        "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-16.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "permitMinAgeMonths": {
+      "state": {
+        "status": "value",
+        "value": 180
+      },
+      "display": "A limited learner permit (Level 1) may be issued at 15 years of age after driver education and a written test.",
+      "citation": {
+        "label": "Issuance of limited learner's permit and provisional drivers license to person who is less than 18 years old",
+        "citation": "N.C. Gen. Stat. § 20-11",
+        "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-11.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "permitHoldingMonths": {
+      "state": {
+        "status": "value",
+        "value": 9
+      },
+      "display": "The limited learner permit must be held at least nine months before a limited provisional license (Level 2) may be issued at 16.",
+      "citation": {
+        "label": "Issuance of limited learner's permit and provisional drivers license to person who is less than 18 years old",
+        "citation": "N.C. Gen. Stat. § 20-11",
+        "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-11.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "supervisedHoursTotal": {
+      "state": {
+        "status": "value",
+        "value": 60
+      },
+      "display": "A driving log showing a minimum of 60 hours of supervised driving is required for the limited provisional license; no more than 10 hours per week may be counted.",
+      "citation": {
+        "label": "Issuance of limited learner's permit and provisional drivers license to person who is less than 18 years old",
+        "citation": "N.C. Gen. Stat. § 20-11",
+        "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-11.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "supervisedHoursNight": {
+      "state": {
+        "status": "value",
+        "value": 10
+      },
+      "display": "At least 10 of the 60 logged supervised hours must be during nighttime hours.",
+      "citation": {
+        "label": "Issuance of limited learner's permit and provisional drivers license to person who is less than 18 years old",
+        "citation": "N.C. Gen. Stat. § 20-11",
+        "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-11.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "gdlNightCurfew": {
+      "state": {
+        "status": "value",
+        "value": {
+          "startHour24": 21,
+          "endHour24": 5
+        }
+      },
+      "display": "A limited provisional (Level 2) licensee may drive unsupervised only from 5:00 a.m. to 9:00 p.m., with exceptions for driving directly to or from work or volunteer emergency service.",
+      "citation": {
+        "label": "Issuance of limited learner's permit and provisional drivers license to person who is less than 18 years old",
+        "citation": "N.C. Gen. Stat. § 20-11",
+        "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-11.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "gdlPassengerPhase1": {
+      "state": {
+        "status": "value",
+        "value": {
+          "cap": 1,
+          "underAge": 21,
+          "familyExempt": true
+        }
+      },
+      "display": "When driving unsupervised, a limited provisional licensee may carry no more than one passenger under 21; immediate family and household members are exempt (but if such a family passenger under 21 is aboard, no other passengers under 21 are allowed).",
+      "citation": {
+        "label": "Issuance of limited learner's permit and provisional drivers license to person who is less than 18 years old",
+        "citation": "N.C. Gen. Stat. § 20-11",
+        "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-11.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "minLiability": {
+      "state": {
+        "status": "value",
+        "value": {
+          "bodilyPerPerson": 50000,
+          "bodilyPerCrash": 100000,
+          "property": 50000
+        }
+      },
+      "display": "Minimum motor vehicle liability limits are $50,000 per person / $100,000 per accident for bodily injury and $50,000 for property damage (raised by S.L. 2023-133 for policies issued or renewed on or after January 1, 2025).",
+      "citation": {
+        "label": "S.L. 2023-133, Part XII, s. 12.(i) (raising G.S. 20-279.21(b)(2) limits)",
+        "citation": "N.C. Gen. Stat. § 20-279.21(b)(2); 2023 N.C. Sess. Laws 133, s. 12",
+        "url": "https://www.ncleg.gov/EnactedLegislation/SessionLaws/HTML/2023-2024/SL2023-133.html"
+      },
+      "effectiveDate": "2025-01-01",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "crashReportThresholdUsd": {
+      "state": {
+        "status": "value",
+        "value": 1000
+      },
+      "display": "A crash must be reported when it results in death or injury, or apparent property damage of at least $1,000.",
+      "citation": {
+        "label": "Duty to report accidents",
+        "citation": "N.C. Gen. Stat. § 20-166.1",
+        "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-166.1.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    }
   },
   "references": [
     {

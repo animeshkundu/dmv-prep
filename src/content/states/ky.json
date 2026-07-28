@@ -84,6 +84,456 @@
   "effectiveDate": "2026-07-24",
   "sourceSnapshotHash": "seed-pending-verification",
   "reviewStatus": "adversarially-verified",
-  "lastVerified": "2026-07-24",
-  "contentVersion": 1
+  "lastVerified": "2026-07-27",
+  "contentVersion": 1,
+  "typedFacts": {
+    "bacAdult": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KY official statutory code",
+        "citation": "KRS 189A.010",
+        "url": "https://apps.legislature.ky.gov/law/statutes/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "bacUnder21": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KY official statutory code",
+        "citation": "KRS 189A.010",
+        "url": "https://apps.legislature.ky.gov/law/statutes/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "bacCommercial": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KY official statutory code",
+        "citation": "KRS 189A.010",
+        "url": "https://apps.legislature.ky.gov/law/statutes/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "impliedConsentRefusal": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KY official statutory code",
+        "citation": "KRS 189A.105",
+        "url": "https://apps.legislature.ky.gov/law/statutes/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "openContainerProhibited": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KY official statutory code",
+        "citation": "KRS 189.530",
+        "url": "https://apps.legislature.ky.gov/law/statutes/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "duiFirstSuspensionDays": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KY official statutory code",
+        "citation": "KRS 189A.070",
+        "url": "https://apps.legislature.ky.gov/law/statutes/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "ruralInterstateMaxMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KY official statutory code",
+        "citation": "KRS 189.390",
+        "url": "https://apps.legislature.ky.gov/law/statutes/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "urbanInterstateMaxMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KY official statutory code",
+        "citation": "KRS 189.390",
+        "url": "https://apps.legislature.ky.gov/law/statutes/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "residentialDefaultMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KY official statutory code",
+        "citation": "KRS 189.390",
+        "url": "https://apps.legislature.ky.gov/law/statutes/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "schoolZoneMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KY official statutory code",
+        "citation": "KRS 189.390",
+        "url": "https://apps.legislature.ky.gov/law/statutes/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "basicSpeedLaw": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KY official statutory code",
+        "citation": "KRS 189.390",
+        "url": "https://apps.legislature.ky.gov/law/statutes/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "rightTurnOnRed": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KY official statutory code",
+        "citation": "KRS 189.340",
+        "url": "https://apps.legislature.ky.gov/law/statutes/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "leftTurnOnRedFromOneWay": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KY official statutory code",
+        "citation": "KRS 189.340",
+        "url": "https://apps.legislature.ky.gov/law/statutes/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "seatBeltEnforcement": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KY official statutory code",
+        "citation": "KRS 189.125",
+        "url": "https://apps.legislature.ky.gov/law/statutes/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "handheldPhone": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KY official statutory code",
+        "citation": "KRS 189.292",
+        "url": "https://apps.legislature.ky.gov/law/statutes/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "texting": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KY official statutory code",
+        "citation": "KRS 189.292",
+        "url": "https://apps.legislature.ky.gov/law/statutes/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "moveOver": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KY official statutory code",
+        "citation": "KRS 189.930",
+        "url": "https://apps.legislature.ky.gov/law/statutes/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "headlightsRequired": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KY official statutory code",
+        "citation": "KRS 189.040",
+        "url": "https://apps.legislature.ky.gov/law/statutes/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromHydrant": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KY official statutory code",
+        "citation": "KRS 189.450",
+        "url": "https://apps.legislature.ky.gov/law/statutes/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromCrosswalk": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KY official statutory code",
+        "citation": "KRS 189.450",
+        "url": "https://apps.legislature.ky.gov/law/statutes/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromStopSign": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KY official statutory code",
+        "citation": "KRS 189.450",
+        "url": "https://apps.legislature.ky.gov/law/statutes/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromRailroad": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KY official statutory code",
+        "citation": "KRS 189.450",
+        "url": "https://apps.legislature.ky.gov/law/statutes/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "pointSystem": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KY official statutory code",
+        "citation": "KRS 186.560",
+        "url": "https://apps.legislature.ky.gov/law/statutes/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "pointSuspension": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KY official statutory code",
+        "citation": "KRS 186.560",
+        "url": "https://apps.legislature.ky.gov/law/statutes/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "permitMinAgeMonths": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KY official statutory code",
+        "citation": "KRS 186.450",
+        "url": "https://apps.legislature.ky.gov/law/statutes/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "permitHoldingMonths": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KY official statutory code",
+        "citation": "KRS 186.450",
+        "url": "https://apps.legislature.ky.gov/law/statutes/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "supervisedHoursTotal": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KY official statutory code",
+        "citation": "KRS 186.450",
+        "url": "https://apps.legislature.ky.gov/law/statutes/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "supervisedHoursNight": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KY official statutory code",
+        "citation": "KRS 186.450",
+        "url": "https://apps.legislature.ky.gov/law/statutes/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "gdlNightCurfew": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KY official statutory code",
+        "citation": "KRS 186.450",
+        "url": "https://apps.legislature.ky.gov/law/statutes/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "gdlPassengerPhase1": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KY official statutory code",
+        "citation": "KRS 186.450",
+        "url": "https://apps.legislature.ky.gov/law/statutes/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "minLiability": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KY official statutory code",
+        "citation": "KRS 304.39-110",
+        "url": "https://apps.legislature.ky.gov/law/statutes/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "crashReportThresholdUsd": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "KY official statutory code",
+        "citation": "KRS 189.635",
+        "url": "https://apps.legislature.ky.gov/law/statutes/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    }
+  }
 }

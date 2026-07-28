@@ -72,6 +72,555 @@
     "schoolZoneSpeed": "15 mph in a marked school zone during posted hours (unless otherwise posted)",
     "namedLaws": ["Statewide texting ban", "Move Over Law", "Zero Tolerance Law"]
   },
+  "typedFacts": {
+    "bacAdult": {
+      "state": {
+        "status": "value",
+        "value": 0.08
+      },
+      "display": "It is unlawful to drive with an alcohol concentration of 0.08 or more (or while under the influence of intoxicating liquor).",
+      "citation": {
+        "label": "Driving under the influence of intoxicating liquor or drugs",
+        "citation": "NMSA 1978, § 66-8-102",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "bacUnder21": {
+      "state": {
+        "status": "value",
+        "value": 0.02,
+        "conditions": [
+          {
+            "kind": "driver-age",
+            "detail": "drivers under 21"
+          }
+        ]
+      },
+      "display": "A driver under 21 with an alcohol concentration of 0.02 or more loses driving privileges under the implied consent act.",
+      "citation": {
+        "label": "Grounds for revocation of license; alcohol concentration thresholds",
+        "citation": "NMSA 1978, § 66-8-111(C)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      },
+      "effectiveDate": "2025-06-20",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "bacCommercial": {
+      "state": {
+        "status": "value",
+        "value": 0.04,
+        "conditions": [
+          {
+            "kind": "vehicle-class",
+            "detail": "commercial motor vehicles"
+          }
+        ]
+      },
+      "display": "A commercial vehicle driver with an alcohol concentration of 0.04 or more commits driving under the influence.",
+      "citation": {
+        "label": "Driving under the influence; commercial motor vehicles",
+        "citation": "NMSA 1978, § 66-8-102(C)(2)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "impliedConsentRefusal": {
+      "state": {
+        "status": "value",
+        "value": {
+          "suspensionMonths": 12,
+          "criminalOffense": false
+        }
+      },
+      "display": "Refusal to submit to chemical testing revokes the license for one year (or until reinstatement conditions are met). Refusal is not a separate crime, but refusing after a DWI arrest supports an aggravated DWI charge.",
+      "citation": {
+        "label": "Refusal to submit to chemical tests; revocation",
+        "citation": "NMSA 1978, § 66-8-111(B)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      },
+      "effectiveDate": "2025-06-20",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "openContainerProhibited": {
+      "state": {
+        "status": "value",
+        "value": true
+      },
+      "display": "It is unlawful to drink or possess an open container of alcoholic beverage in the passenger area of a motor vehicle on a public highway.",
+      "citation": {
+        "label": "Consumption or possession of alcoholic beverages in open containers in a motor vehicle prohibited",
+        "citation": "NMSA 1978, § 66-8-138",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "duiFirstSuspensionDays": {
+      "state": {
+        "status": "value",
+        "value": 365
+      },
+      "display": "On a first DWI conviction the division must revoke the driving privilege for one year.",
+      "citation": {
+        "label": "Mandatory revocation of license by division",
+        "citation": "NMSA 1978, § 66-5-29(C)(1)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      },
+      "effectiveDate": "2007-06-15",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "ruralInterstateMaxMph": {
+      "state": {
+        "status": "value",
+        "value": 75,
+        "conditions": [
+          {
+            "kind": "road-class",
+            "detail": "rural interstate highways posted at 75 mph"
+          }
+        ]
+      },
+      "display": "The statutory maximum speed is 75 mph, and 75 mph is the highest posted limit on rural interstates.",
+      "citation": {
+        "label": "Speed regulation",
+        "citation": "NMSA 1978, § 66-7-301(A)(4)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      },
+      "effectiveDate": "2016-01-01",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "urbanInterstateMaxMph": {
+      "state": {
+        "status": "value",
+        "value": 75,
+        "conditions": [
+          {
+            "kind": "road-class",
+            "detail": "urban interstate highways posted at 75 mph"
+          }
+        ]
+      },
+      "display": "Maximum posted speed limit on urban interstates is 75 mph, the statutory ceiling under NMSA 1978, § 66-7-301(A)(4).",
+      "citation": {
+        "label": "IIHS maximum posted speed limits by state (July 2026)",
+        "citation": "IIHS, Maximum posted speed limits (New Mexico: 75 mph rural and urban interstates)",
+        "url": "https://www.iihs.org/topics/speed/speed-limit-laws"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "residentialDefaultMph": {
+      "state": {
+        "status": "value",
+        "value": 30,
+        "conditions": [
+          {
+            "kind": "locality",
+            "detail": "business or residence district, absent a different posted limit"
+          }
+        ]
+      },
+      "display": "30 mph in a business or residence district (55 mph on an unposted county road).",
+      "citation": {
+        "label": "Speed regulation",
+        "citation": "NMSA 1978, § 66-7-301(A)(2)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      },
+      "effectiveDate": "2016-01-01",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "schoolZoneMph": {
+      "state": {
+        "status": "value",
+        "value": 15,
+        "conditions": [
+          {
+            "kind": "posting",
+            "detail": "only where the school zone is properly posted"
+          },
+          {
+            "kind": "time-of-day",
+            "detail": "while children are going to or leaving school"
+          }
+        ]
+      },
+      "display": "15 mph when passing a school while children are going to or leaving school and the school zone is properly posted.",
+      "citation": {
+        "label": "Speed regulation",
+        "citation": "NMSA 1978, § 66-7-301(A)(1)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      },
+      "effectiveDate": "2016-01-01",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "basicSpeedLaw": {
+      "state": {
+        "status": "value",
+        "value": true
+      },
+      "display": "Speed must be controlled as necessary to avoid collisions and to account for conditions, and no person may drive at a speed greater than is reasonable and prudent.",
+      "citation": {
+        "label": "Speed regulation",
+        "citation": "NMSA 1978, § 66-7-301(B)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      },
+      "effectiveDate": "2016-01-01",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "rightTurnOnRed": {
+      "state": {
+        "status": "value",
+        "value": "allowed-after-stop"
+      },
+      "display": "After stopping at a steady red signal a driver may turn right unless a sign prohibits the turn.",
+      "citation": {
+        "label": "Traffic-control signal legend",
+        "citation": "NMSA 1978, § 66-7-105",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "leftTurnOnRedFromOneWay": {
+      "state": {
+        "status": "value",
+        "value": "allowed"
+      },
+      "display": "A left turn on a steady red signal from a one-way street into a one-way street is permitted after stopping, unless prohibited by sign.",
+      "citation": {
+        "label": "Traffic-control signal legend",
+        "citation": "NMSA 1978, § 66-7-105",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "seatBeltEnforcement": {
+      "state": {
+        "status": "value",
+        "value": "primary"
+      },
+      "display": "Safety belt use is enforced as a primary offense: the safety belt and child restraint requirements are enforced whether or not another statute is being enforced.",
+      "citation": {
+        "label": "Enforcement programs (safety belt and child restraint enforcement)",
+        "citation": "NMSA 1978, § 66-7-373(D)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      },
+      "effectiveDate": "2001-06-15",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "handheldPhone": {
+      "state": {
+        "status": "value",
+        "value": "no-ban",
+        "conditions": [
+          {
+            "kind": "vehicle-class",
+            "detail": "commercial motor vehicle drivers are separately banned from handheld use under NMSA 1978, § 66-7-375"
+          }
+        ]
+      },
+      "display": "New Mexico has no statewide handheld phone ban for ordinary drivers; only commercial motor vehicle drivers are barred from handheld use (several municipalities impose local bans).",
+      "citation": {
+        "label": "Use of a handheld mobile communication device while driving a commercial motor vehicle",
+        "citation": "NMSA 1978, § 66-7-375",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "texting": {
+      "state": {
+        "status": "value",
+        "value": "banned-all"
+      },
+      "display": "No driver may read, view or manually type a text message on a handheld mobile communication device while driving.",
+      "citation": {
+        "label": "Texting while driving",
+        "citation": "NMSA 1978, § 66-7-374",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      },
+      "effectiveDate": "2014-07-01",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "moveOver": {
+      "state": {
+        "status": "value",
+        "value": {
+          "requirement": "lane-change-or-slow",
+          "coveredVehicles": [
+            "emergency",
+            "tow",
+            "roadside-assist",
+            "utility"
+          ]
+        }
+      },
+      "display": "Approaching a stationary emergency, recovery, repair or maintenance vehicle displaying flashing lights, a driver must change to a non-adjacent lane if possible, or otherwise slow to a safe speed.",
+      "citation": {
+        "label": "Operation of vehicles on approach of authorized emergency vehicles; stationary vehicles",
+        "citation": "NMSA 1978, § 66-7-332(B)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      },
+      "effectiveDate": "2017-06-16",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "headlightsRequired": {
+      "state": {
+        "status": "value",
+        "value": {
+          "whenWipersOn": false,
+          "minutesAfterSunset": 30
+        }
+      },
+      "display": "Lighted lamps are required from a half hour after sunset to a half hour before sunrise and whenever visibility is insufficient; New Mexico has no statutory wipers-on headlight rule.",
+      "citation": {
+        "label": "When lighted lamps are required",
+        "citation": "NMSA 1978, § 66-3-802",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      },
+      "effectiveDate": "2018-07-01",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "parkFtFromHydrant": {
+      "state": {
+        "status": "value",
+        "value": 15
+      },
+      "display": "No stopping, standing or parking within 15 feet of a fire hydrant.",
+      "citation": {
+        "label": "Stopping, standing or parking prohibited in specified places",
+        "citation": "NMSA 1978, § 66-7-351(A)(4)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "parkFtFromCrosswalk": {
+      "state": {
+        "status": "value",
+        "value": 20,
+        "conditions": [
+          {
+            "kind": "locality",
+            "detail": "crosswalk at an intersection; parking on a crosswalk is prohibited entirely"
+          }
+        ]
+      },
+      "display": "No parking on a crosswalk, or within 20 feet of a crosswalk at an intersection.",
+      "citation": {
+        "label": "Stopping, standing or parking prohibited in specified places",
+        "citation": "NMSA 1978, § 66-7-351(A)(5)-(6)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "parkFtFromStopSign": {
+      "state": {
+        "status": "value",
+        "value": 30
+      },
+      "display": "No parking within 30 feet upon the approach to a flashing beacon, stop sign or traffic-control signal at the side of a roadway.",
+      "citation": {
+        "label": "Stopping, standing or parking prohibited in specified places",
+        "citation": "NMSA 1978, § 66-7-351(A)(7)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "parkFtFromRailroad": {
+      "state": {
+        "status": "value",
+        "value": 50
+      },
+      "display": "No parking within 50 feet of the nearest rail of a railroad crossing.",
+      "citation": {
+        "label": "Stopping, standing or parking prohibited in specified places",
+        "citation": "NMSA 1978, § 66-7-351(A)(9)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "pointSystem": {
+      "state": {
+        "status": "value",
+        "value": true
+      },
+      "display": "The Motor Vehicle Division maintains a point system and suspends licenses on point accumulation.",
+      "citation": {
+        "label": "18.19.5.55 NMAC, Point system",
+        "citation": "18.19.5.55 NMAC",
+        "url": "https://www.srca.nm.gov/parts/title18/18.019.0005.html"
+      },
+      "effectiveDate": "2023-03-14",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "pointSuspension": {
+      "state": {
+        "status": "value",
+        "value": {
+          "points": 12,
+          "windowMonths": 12
+        }
+      },
+      "display": "Accumulating 12 or more points within a 12-month period results in license suspension (12 points: up to a 12-month suspension; 7 to 10 points draws a warning letter).",
+      "citation": {
+        "label": "18.19.5.55 NMAC, Point system",
+        "citation": "18.19.5.55 NMAC",
+        "url": "https://www.srca.nm.gov/parts/title18/18.019.0005.html"
+      },
+      "effectiveDate": "2023-03-14",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "permitMinAgeMonths": {
+      "state": {
+        "status": "value",
+        "value": 180
+      },
+      "display": "An instruction permit may be issued at 15 years of age to a student enrolled in or who has completed an approved driver education course.",
+      "citation": {
+        "label": "Provisional licenses; instruction permits",
+        "citation": "NMSA 1978, § 66-5-8(E)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      },
+      "effectiveDate": "2011-06-17",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "permitHoldingMonths": {
+      "state": {
+        "status": "value",
+        "value": 6
+      },
+      "display": "The instruction permit must be held at least six months before a provisional license is issued at 15 years 6 months (30 days is added for each traffic violation committed while on the permit).",
+      "citation": {
+        "label": "Provisional licenses; instruction permits",
+        "citation": "NMSA 1978, § 66-5-8(A)(2)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      },
+      "effectiveDate": "2011-06-17",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "supervisedHoursTotal": {
+      "state": {
+        "status": "value",
+        "value": 50
+      },
+      "display": "The practice driving component requires at least 50 hours of actual driving by the applicant.",
+      "citation": {
+        "label": "Provisional licenses; instruction permits",
+        "citation": "NMSA 1978, § 66-5-8(B)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      },
+      "effectiveDate": "2011-06-17",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "supervisedHoursNight": {
+      "state": {
+        "status": "value",
+        "value": 10
+      },
+      "display": "At least 10 of the 50 practice driving hours must be night driving (waivable for documented low night vision).",
+      "citation": {
+        "label": "Provisional licenses; instruction permits",
+        "citation": "NMSA 1978, § 66-5-8(B)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      },
+      "effectiveDate": "2011-06-17",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "gdlNightCurfew": {
+      "state": {
+        "status": "value",
+        "value": {
+          "startHour24": 0,
+          "endHour24": 5
+        }
+      },
+      "display": "A provisional licensee may drive only between 5:00 a.m. and midnight unless accompanied by a licensed driver 21 or older or covered by a work, school, family, medical or emergency exception.",
+      "citation": {
+        "label": "Provisional licenses; instruction permits",
+        "citation": "NMSA 1978, § 66-5-8(C)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      },
+      "effectiveDate": "2011-06-17",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "gdlPassengerPhase1": {
+      "state": {
+        "status": "value",
+        "value": {
+          "cap": 1,
+          "underAge": 21,
+          "familyExempt": true
+        }
+      },
+      "display": "A provisional licensee may carry no more than one passenger under 21 who is not an immediate family member.",
+      "citation": {
+        "label": "Provisional licenses; instruction permits",
+        "citation": "NMSA 1978, § 66-5-8(C)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      },
+      "effectiveDate": "2011-06-17",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "minLiability": {
+      "state": {
+        "status": "value",
+        "value": {
+          "bodilyPerPerson": 25000,
+          "bodilyPerCrash": 50000,
+          "property": 10000
+        }
+      },
+      "display": "Evidence of financial responsibility requires at least $25,000 per person / $50,000 per accident for bodily injury and $10,000 for property damage.",
+      "citation": {
+        "label": "Evidence of financial responsibility; amounts and conditions",
+        "citation": "NMSA 1978, § 66-5-208",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "crashReportThresholdUsd": {
+      "state": {
+        "status": "value",
+        "value": 500
+      },
+      "display": "A written accident report is required for a crash causing bodily injury, death, or apparent property damage of $500 or more.",
+      "citation": {
+        "label": "Written reports of accidents",
+        "citation": "NMSA 1978, § 66-7-207(A)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    }
+  },
   "references": [
     {
       "label": "New Mexico Driver Manual",

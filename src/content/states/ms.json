@@ -10,8 +10,14 @@
   "handbookEditionYear": 2025,
   "handbookCopyrightStatus": "unknown",
   "applicantVariants": [
-    { "id": "under-18", "label": "Under 18 (learner then intermediate license)" },
-    { "id": "adult", "label": "Adult (18+)" }
+    {
+      "id": "under-18",
+      "label": "Under 18 (learner then intermediate license)"
+    },
+    {
+      "id": "adult",
+      "label": "Adult (18+)"
+    }
   ],
   "examVariants": [
     {
@@ -19,7 +25,9 @@
       "label": "Class R knowledge (written) test",
       "numQuestions": 30,
       "numToPass": 24,
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "onlineAvailable": false
     },
     {
@@ -27,7 +35,9 @@
       "label": "Under-18 Class R knowledge (written) test",
       "numQuestions": 30,
       "numToPass": 24,
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "onlineAvailable": false
     }
   ],
@@ -66,7 +76,587 @@
     "moveOverRule": "Move to a non-adjacent lane when safe, or slow down and proceed with caution, for stopped emergency and authorized vehicles with flashing lights",
     "interstateMaxSpeed": "70 mph (interstates, where posted)",
     "schoolZoneSpeed": "15 mph when posted/flashing (varies by posted sign)",
-    "namedLaws": ["Move Over Law", "Zero Tolerance Law"]
+    "namedLaws": [
+      "Move Over Law",
+      "Zero Tolerance Law"
+    ]
+  },
+  "typedFacts": {
+    "bacAdult": {
+      "state": {
+        "status": "value",
+        "value": 0.08
+      },
+      "display": "It is unlawful to drive with a blood/breath alcohol concentration of 0.08% or more (0.08 grams of alcohol per 100 mL of blood or per 210 L of breath) for a person above the legal drinking age.",
+      "citation": {
+        "label": "Miss. Code Ann. § 63-11-30(1)(d)(i)",
+        "citation": "Miss. Code Ann. § 63-11-30(1)(d)(i)",
+        "url": "https://codes.findlaw.com/ms/title-63-motor-vehicles-and-traffic-regulations/ms-code-sect-63-11-30/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "bacUnder21": {
+      "state": {
+        "status": "value",
+        "value": 0.02,
+        "conditions": [
+          {
+            "kind": "driver-age",
+            "detail": "Applies to a person below the legal age to purchase alcohol; Mississippi sets an explicit 0.02% numeric 'zero tolerance' limit (not an any-detectable-amount rule)."
+          }
+        ]
+      },
+      "display": "For drivers under the legal drinking age, Mississippi's zero-tolerance rule makes it unlawful to drive with a BAC of 0.02% or more.",
+      "citation": {
+        "label": "Miss. Code Ann. § 63-11-30(1)(d)(ii)",
+        "citation": "Miss. Code Ann. § 63-11-30(1)(d)(ii)",
+        "url": "https://codes.findlaw.com/ms/title-63-motor-vehicles-and-traffic-regulations/ms-code-sect-63-11-30/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "bacCommercial": {
+      "state": {
+        "status": "value",
+        "value": 0.04,
+        "conditions": [
+          {
+            "kind": "vehicle-class",
+            "detail": "Applies to a person operating a commercial motor vehicle."
+          }
+        ]
+      },
+      "display": "A person operating a commercial motor vehicle may not drive with a BAC of 0.04% or more.",
+      "citation": {
+        "label": "Miss. Code Ann. § 63-11-30(1)(d)(iii)",
+        "citation": "Miss. Code Ann. § 63-11-30(1)(d)(iii)",
+        "url": "https://codes.findlaw.com/ms/title-63-motor-vehicles-and-traffic-regulations/ms-code-sect-63-11-30/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "impliedConsentRefusal": {
+      "state": {
+        "status": "value",
+        "value": {
+          "suspensionMonths": 3,
+          "criminalOffense": false
+        },
+        "conditions": [
+          {
+            "kind": "driver-age",
+            "detail": "Refusing the chemical test triggers a 90-day administrative license suspension (recorded here as 3 months) for a first occurrence with no prior DUI conviction/nonadjudication; it increases to 1 year for a person previously convicted or nonadjudicated under § 63-11-30. The suspension is a civil administrative sanction, not a separate crime."
+          }
+        ]
+      },
+      "display": "Under Mississippi's implied-consent law, refusing a breath/blood/urine test results in a 90-day administrative driver's-license suspension for a first occurrence (1 year if previously convicted/nonadjudicated for DUI); the refusal itself is not a separate criminal offense.",
+      "citation": {
+        "label": "Miss. Code Ann. § 63-11-23(1)(a)",
+        "citation": "Miss. Code Ann. § 63-11-23(1)(a)",
+        "url": "https://codes.findlaw.com/ms/title-63-motor-vehicles-and-traffic-regulations/ms-code-sect-63-11-23/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "openContainerProhibited": {
+      "state": {
+        "status": "value",
+        "value": false,
+        "conditions": [
+          {
+            "kind": "locality",
+            "detail": "Mississippi has no statewide statute prohibiting a driver or passenger from possessing or consuming an open alcoholic beverage in a moving vehicle (only driving while impaired/over the BAC limit is barred under § 63-11-30); Mississippi is not in compliance with the federal open-container standard of 23 U.S.C. § 154. Some municipalities/counties impose their own local open-container ordinances."
+          }
+        ]
+      },
+      "display": "Mississippi does not have a general statewide open-container law: it is not itself illegal for a driver or passenger to have or drink from an open container in a moving vehicle, though driving over the BAC limit or while impaired remains illegal, and local ordinances may prohibit open containers.",
+      "citation": {
+        "label": "Miss. Code Ann. § 63-11-30",
+        "citation": "Miss. Code Ann. § 63-11-30 (DUI is the only statewide alcohol-and-driving prohibition; no separate open-container statute)",
+        "url": "https://codes.findlaw.com/ms/title-63-motor-vehicles-and-traffic-regulations/ms-code-sect-63-11-30/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "duiFirstSuspensionDays": {
+      "state": {
+        "status": "value",
+        "value": 90,
+        "conditions": [
+          {
+            "kind": "driver-age",
+            "detail": "Suspension of regular driving privileges for a first DUI is governed by the § 63-11-23 framework (a 90-day suspension); a first offender may instead qualify for an interlock-restricted license under § 63-11-31 for the applicable period."
+          }
+        ]
+      },
+      "display": "A first DUI offense carries a 90-day driver's-license suspension under Mississippi's implied-consent/administrative framework; a first offender may alternatively obtain an ignition-interlock-restricted license.",
+      "citation": {
+        "label": "Miss. Code Ann. §§ 63-11-30(2)(a), 63-11-23",
+        "citation": "Miss. Code Ann. § 63-11-30(2)(a) (suspension governed by § 63-11-23)",
+        "url": "https://codes.findlaw.com/ms/title-63-motor-vehicles-and-traffic-regulations/ms-code-sect-63-11-30/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "ruralInterstateMaxMph": {
+      "state": {
+        "status": "value",
+        "value": 70,
+        "conditions": [
+          {
+            "kind": "posting",
+            "detail": "The statewide default maximum is 65 mph; the Mississippi Transportation Commission may raise the limit up to 70 mph on the Interstate Highway System and on controlled-access highways with four or more lanes, effective where posted."
+          }
+        ]
+      },
+      "display": "Mississippi's default statewide maximum is 65 mph, but the Transportation Commission may post up to 70 mph on interstates and four-or-more-lane controlled-access highways.",
+      "citation": {
+        "label": "Miss. Code Ann. § 63-3-501",
+        "citation": "Miss. Code Ann. § 63-3-501",
+        "url": "https://codes.findlaw.com/ms/title-63-motor-vehicles-and-traffic-regulations/ms-code-sect-63-3-501/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "urbanInterstateMaxMph": {
+      "state": {
+        "status": "value",
+        "value": 70,
+        "conditions": [
+          {
+            "kind": "road-class",
+            "detail": "Mississippi's speed statute sets no separate 'urban interstate' limit; the same 70 mph interstate ceiling applies where posted, and MDOT may post lower limits on individual (including urban) segments after an engineering study."
+          }
+        ]
+      },
+      "display": "Mississippi does not set a distinct urban-interstate speed limit; the 70 mph interstate ceiling applies where posted, with MDOT authorized to post lower limits on specific urban segments.",
+      "citation": {
+        "label": "Miss. Code Ann. § 63-3-501",
+        "citation": "Miss. Code Ann. § 63-3-501 (with § 63-3-503 engineering-study authority)",
+        "url": "https://codes.findlaw.com/ms/title-63-motor-vehicles-and-traffic-regulations/ms-code-sect-63-3-501/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "residentialDefaultMph": {
+      "state": {
+        "status": "not-applicable",
+        "reason": "Mississippi's speed statutes do not define a residential-district default speed. A single statewide default of 65 mph applies absent other posting (§ 63-3-501), and local authorities (counties/municipalities) may lower the limit on their streets and roads by ordinance after an engineering study, but no such local limit may be set below 15 mph (§ 63-3-511). There is no statutory residential-district figure comparable to states that set a 25/30 mph default."
+      },
+      "display": "Not applicable: Mississippi has no statutory residential-district default speed; the statewide default (65 mph) applies absent posting, and local authorities set lower residential limits by ordinance (never below 15 mph).",
+      "citation": {
+        "label": "Miss. Code Ann. §§ 63-3-501, 63-3-511",
+        "citation": "Miss. Code Ann. §§ 63-3-501, 63-3-511",
+        "url": "https://codes.findlaw.com/ms/title-63-motor-vehicles-and-traffic-regulations/ms-code-sect-63-3-511/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "schoolZoneMph": {
+      "state": {
+        "status": "value",
+        "value": 15,
+        "conditions": [
+          {
+            "kind": "posting",
+            "detail": "Mississippi sets no single statewide school-zone speed number: county boards and municipal governing authorities set school-zone limits by order/resolution (based on an engineering study) that take effect when posted and may apply only during specified times (§ 63-3-515). The 15 mph value used here is the statutory floor for any local speed limit (§ 63-3-511) and the commonly posted school-zone figure; actual posted limits vary by location."
+          }
+        ]
+      },
+      "display": "School-zone speed limits in Mississippi are set locally by county/municipal authorities and posted (often 15 mph, which is the statutory minimum for any local limit); no single statewide school-zone number is fixed by statute.",
+      "citation": {
+        "label": "Miss. Code Ann. §§ 63-3-515, 63-3-511",
+        "citation": "Miss. Code Ann. §§ 63-3-515, 63-3-511",
+        "url": "https://codes.findlaw.com/ms/title-63-motor-vehicles-and-traffic-regulations/ms-code-sect-63-3-515/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "basicSpeedLaw": {
+      "state": {
+        "status": "value",
+        "value": true,
+        "conditions": [
+          {
+            "kind": "posting",
+            "detail": "Mississippi expresses its basic-speed rule as a duty to decrease speed when approaching/crossing intersections, curves, or hill crests, on narrow/winding roadways, or when a special hazard exists as to pedestrians or other traffic — rather than a single 'reasonable and prudent' clause."
+          }
+        ]
+      },
+      "display": "Mississippi requires a driver to reduce speed when conditions or hazards warrant (intersections, curves, hill crests, narrow/winding roads, or pedestrian/traffic hazards), regardless of the posted maximum.",
+      "citation": {
+        "label": "Miss. Code Ann. § 63-3-505",
+        "citation": "Miss. Code Ann. § 63-3-505",
+        "url": "https://codes.findlaw.com/ms/title-63-motor-vehicles-and-traffic-regulations/ms-code-sect-63-3-505/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "rightTurnOnRed": {
+      "state": {
+        "status": "value",
+        "value": "allowed-after-stop"
+      },
+      "display": "After stopping, a driver facing a steady red signal may cautiously turn right unless a posted 'No Turn On Red' sign prohibits it, yielding to pedestrians and other traffic.",
+      "citation": {
+        "label": "Miss. Code Ann. § 63-3-309(3)(b)",
+        "citation": "Miss. Code Ann. § 63-3-309(3)(b)",
+        "url": "https://codes.findlaw.com/ms/title-63-motor-vehicles-and-traffic-regulations/ms-code-sect-63-3-309/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "leftTurnOnRedFromOneWay": {
+      "state": {
+        "status": "value",
+        "value": "allowed"
+      },
+      "display": "At the intersection of two one-way streets, a driver facing a steady red signal may cautiously turn left in the direction of one-way traffic after stopping, unless a posted 'No Turn On Red' sign prohibits it.",
+      "citation": {
+        "label": "Miss. Code Ann. § 63-3-309(3)(c)",
+        "citation": "Miss. Code Ann. § 63-3-309(3)(c)",
+        "url": "https://codes.findlaw.com/ms/title-63-motor-vehicles-and-traffic-regulations/ms-code-sect-63-3-309/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "seatBeltEnforcement": {
+      "state": {
+        "status": "value",
+        "value": "primary",
+        "conditions": [
+          {
+            "kind": "occupancy",
+            "detail": "Every operator and passenger of a passenger motor vehicle (one designed to carry 15 or fewer people) must wear a properly fastened safety belt while the vehicle is in forward motion; the chapter contains no secondary-enforcement limitation, so officers may stop and cite solely for a belt violation. Only the operator is fined ($25 aggregate) and the violation is not entered on the driving record."
+          }
+        ]
+      },
+      "display": "Mississippi requires all occupants of a passenger vehicle to buckle up and enforces the belt law as a primary offense (an officer may stop a vehicle solely for a seat-belt violation); the $25 fine falls on the driver and is not recorded on the driving record.",
+      "citation": {
+        "label": "Miss. Code Ann. §§ 63-2-1, 63-2-7",
+        "citation": "Miss. Code Ann. §§ 63-2-1, 63-2-7",
+        "url": "https://codes.findlaw.com/ms/title-63-motor-vehicles-and-traffic-regulations/ms-code-sect-63-2-1/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "handheldPhone": {
+      "state": {
+        "status": "value",
+        "value": "no-ban",
+        "conditions": [
+          {
+            "kind": "posting",
+            "detail": "Mississippi bans texting and accessing/posting to social-networking sites on a hand-held phone while driving (§ 63-33-1), but does NOT generally prohibit holding a phone to make or take a voice call; there is no broad handheld-device ban for adult drivers."
+          }
+        ]
+      },
+      "display": "Mississippi has no general handheld-phone ban — talking on a hand-held phone is not prohibited statewide — although writing/reading texts and using social media on a handheld device while driving is illegal.",
+      "citation": {
+        "label": "Miss. Code Ann. § 63-33-1",
+        "citation": "Miss. Code Ann. § 63-33-1",
+        "url": "https://codes.findlaw.com/ms/title-63-motor-vehicles-and-traffic-regulations/ms-code-sect-63-33-1/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "texting": {
+      "state": {
+        "status": "value",
+        "value": "banned-all"
+      },
+      "display": "Any operator of a moving motor vehicle is prohibited from writing, sending, or reading a text message and from accessing, reading, or posting to a social-networking site using a hand-held mobile phone (a $100 civil penalty); the ban applies to all drivers.",
+      "citation": {
+        "label": "Miss. Code Ann. § 63-33-1(2)",
+        "citation": "Miss. Code Ann. § 63-33-1(2)",
+        "url": "https://codes.findlaw.com/ms/title-63-motor-vehicles-and-traffic-regulations/ms-code-sect-63-33-1/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "moveOver": {
+      "state": {
+        "status": "value",
+        "value": {
+          "requirement": "lane-change-or-slow",
+          "coveredVehicles": [
+            "emergency",
+            "tow",
+            "utility",
+            "roadside-assist"
+          ]
+        }
+      },
+      "display": "Approaching a stationary emergency vehicle, recovery/tow vehicle, utility-service vehicle, sanitation vehicle, or highway-maintenance vehicle displaying flashing lights, a driver must move into a non-adjacent lane when on a road with two or more lanes in that direction (if safe), or otherwise slow down and be prepared to stop; no fixed reduced mph is specified.",
+      "citation": {
+        "label": "Miss. Code Ann. § 63-3-809",
+        "citation": "Miss. Code Ann. § 63-3-809(2)-(3)",
+        "url": "https://codes.findlaw.com/ms/title-63-motor-vehicles-and-traffic-regulations/ms-code-sect-63-3-809/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "headlightsRequired": {
+      "state": {
+        "status": "value",
+        "value": {
+          "whenWipersOn": false,
+          "minutesAfterSunset": 0
+        },
+        "conditions": [
+          {
+            "kind": "time-of-day",
+            "detail": "Mississippi's statute does not use a 'wipers in use' trigger or a minutes-after-sunset offset. It requires lighted lamps during the period from sunset to sunrise, and at any other time when there is not enough light to render a person clearly discernible at 500 feet ahead. whenWipersOn=false and minutesAfterSunset=0 (lights required starting at sunset) are the closest schema-compatible approximation of that rule; see display for the exact standard."
+          }
+        ]
+      },
+      "display": "Mississippi requires lighted front and rear lamps from sunset to sunrise, and at any other time when there is insufficient light to clearly see a person 500 feet ahead — a sunset-to-sunrise plus visibility standard, not a wipers-in-use or fixed sunset-offset rule.",
+      "citation": {
+        "label": "Miss. Code Ann. § 63-7-11",
+        "citation": "Miss. Code Ann. § 63-7-11",
+        "url": "https://codes.findlaw.com/ms/title-63-motor-vehicles-and-traffic-regulations/ms-code-sect-63-7-11/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "parkFtFromHydrant": {
+      "state": {
+        "status": "value",
+        "value": 10
+      },
+      "display": "No vehicle may stop, stand, or park within 10 feet of a fire hydrant.",
+      "citation": {
+        "label": "Miss. Code Ann. § 63-3-901(1)(d)",
+        "citation": "Miss. Code Ann. § 63-3-901(1)(d)",
+        "url": "https://codes.findlaw.com/ms/title-63-motor-vehicles-and-traffic-regulations/ms-code-sect-63-3-901/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "parkFtFromCrosswalk": {
+      "state": {
+        "status": "value",
+        "value": 20
+      },
+      "display": "No vehicle may stop, stand, or park within 20 feet of a crosswalk at an intersection.",
+      "citation": {
+        "label": "Miss. Code Ann. § 63-3-901(1)(f)",
+        "citation": "Miss. Code Ann. § 63-3-901(1)(f)",
+        "url": "https://codes.findlaw.com/ms/title-63-motor-vehicles-and-traffic-regulations/ms-code-sect-63-3-901/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "parkFtFromStopSign": {
+      "state": {
+        "status": "value",
+        "value": 30
+      },
+      "display": "No vehicle may stop, stand, or park within 30 feet upon the approach to any flashing beacon, stop sign, or traffic-control signal located at the side of a roadway.",
+      "citation": {
+        "label": "Miss. Code Ann. § 63-3-901(1)(g)",
+        "citation": "Miss. Code Ann. § 63-3-901(1)(g)",
+        "url": "https://codes.findlaw.com/ms/title-63-motor-vehicles-and-traffic-regulations/ms-code-sect-63-3-901/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "parkFtFromRailroad": {
+      "state": {
+        "status": "value",
+        "value": 15
+      },
+      "display": "No vehicle may stop, stand, or park within 15 feet of the nearest rail of a railroad crossing.",
+      "citation": {
+        "label": "Miss. Code Ann. § 63-3-901(1)(i)",
+        "citation": "Miss. Code Ann. § 63-3-901(1)(i)",
+        "url": "https://codes.findlaw.com/ms/title-63-motor-vehicles-and-traffic-regulations/ms-code-sect-63-3-901/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "pointSystem": {
+      "state": {
+        "status": "value",
+        "value": false,
+        "conditions": [
+          {
+            "kind": "driver-age",
+            "detail": "Mississippi does not use a numeric driver's-license demerit-point system. License suspensions and revocations are tied to specific convictions (e.g., DUI under § 63-11-30) and statutory grounds, not to accumulated points."
+          }
+        ]
+      },
+      "display": "Mississippi does not operate a driver's-license point (demerit) system; license actions are based on specific convictions rather than accumulated points.",
+      "citation": {
+        "label": "MS DPS Driver Service Bureau",
+        "citation": "Mississippi Department of Public Safety, Driver Service Bureau (no demerit-point system; suspensions follow specific convictions)",
+        "url": "https://www.driverservicebureau.dps.ms.gov/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "pointSuspension": {
+      "state": {
+        "status": "not-applicable",
+        "reason": "Mississippi has no numeric point system, so there is no points-in-a-window threshold that triggers suspension. License suspensions/revocations instead follow specific convictions and statutory grounds (e.g., DUI under § 63-11-30, refusal under § 63-11-23)."
+      },
+      "display": "Not applicable: Mississippi does not assess points, so no point total triggers suspension; suspensions follow specific convictions instead.",
+      "citation": {
+        "label": "MS DPS Driver Service Bureau",
+        "citation": "Mississippi Department of Public Safety, Driver Service Bureau (conviction-based suspensions; no point threshold)",
+        "url": "https://www.driverservicebureau.dps.ms.gov/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "permitMinAgeMonths": {
+      "state": {
+        "status": "value",
+        "value": 180
+      },
+      "display": "A learner's permit may be issued to an applicant who is at least 15 years old (180 months).",
+      "citation": {
+        "label": "Miss. Code Ann. §§ 63-1-21(2), 63-1-9(2)(a)",
+        "citation": "Miss. Code Ann. §§ 63-1-21(2), 63-1-9(2)(a)",
+        "url": "https://codes.findlaw.com/ms/title-63-motor-vehicles-and-traffic-regulations/ms-code-sect-63-1-21/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "permitHoldingMonths": {
+      "state": {
+        "status": "value",
+        "value": 12,
+        "conditions": [
+          {
+            "kind": "driver-age",
+            "detail": "Applies to applicants under 18: a driver's license may be issued to a person at least 16 who has held a learner's permit for at least one (1) year without a DUI or moving-violation conviction; any such conviction restarts the one-year requirement."
+          }
+        ]
+      },
+      "display": "An applicant under 18 must hold a learner's permit for at least 12 months (without a DUI or moving-violation conviction) before qualifying for a driver's license at age 16 or older.",
+      "citation": {
+        "label": "Miss. Code Ann. § 63-1-9(2)(b)",
+        "citation": "Miss. Code Ann. § 63-1-9(2)(b)",
+        "url": "https://codes.findlaw.com/ms/title-63-motor-vehicles-and-traffic-regulations/ms-code-sect-63-1-9/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "supervisedHoursTotal": {
+      "state": {
+        "status": "not-applicable",
+        "reason": "Mississippi's graduated-licensing statutes (§§ 63-1-9, 63-1-21) do not mandate a specific number of supervised behind-the-wheel practice hours as a condition of licensure; the learner's-permit holding period and supervision-while-driving requirements are set instead."
+      },
+      "display": "Not applicable: Mississippi statute does not require a set number of supervised practice-driving hours for licensure.",
+      "citation": {
+        "label": "Miss. Code Ann. §§ 63-1-9, 63-1-21",
+        "citation": "Miss. Code Ann. §§ 63-1-9, 63-1-21",
+        "url": "https://codes.findlaw.com/ms/title-63-motor-vehicles-and-traffic-regulations/ms-code-sect-63-1-21/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "supervisedHoursNight": {
+      "state": {
+        "status": "not-applicable",
+        "reason": "Because Mississippi does not require a total number of supervised practice hours (§§ 63-1-9, 63-1-21), there is likewise no statutory nighttime-hours subset."
+      },
+      "display": "Not applicable: Mississippi statute sets no required supervised nighttime practice-driving hours.",
+      "citation": {
+        "label": "Miss. Code Ann. §§ 63-1-9, 63-1-21",
+        "citation": "Miss. Code Ann. §§ 63-1-9, 63-1-21",
+        "url": "https://codes.findlaw.com/ms/title-63-motor-vehicles-and-traffic-regulations/ms-code-sect-63-1-21/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "gdlNightCurfew": {
+      "state": {
+        "status": "varies",
+        "variants": [
+          {
+            "value": {
+              "startHour24": 22,
+              "endHour24": 6
+            },
+            "conditions": [
+              {
+                "kind": "time-of-day",
+                "detail": "Sunday through Thursday: an under-18 regular (intermediate) license holder may drive unsupervised only 6:00 a.m.-10:00 p.m.; unsupervised driving is therefore restricted from 10:00 p.m. (start 22) to 6:00 a.m. (end 6)."
+              }
+            ]
+          },
+          {
+            "value": {
+              "startHour24": 24,
+              "endHour24": 6
+            },
+            "conditions": [
+              {
+                "kind": "time-of-day",
+                "detail": "Friday and Saturday: the statute sets an 11:30 p.m. (23:30) start for the restriction; rounded here to 24 for schema compatibility (startHour24 is an integer) — see display for the exact 11:30 p.m. time. Restriction ends 6:00 a.m. (end 6). Exceptions apply for travel directly to/from work or an educational or extracurricular activity, and the supervision requirement applies during the first six months as a regular license holder."
+              }
+            ]
+          }
+        ]
+      },
+      "display": "An under-18 regular (intermediate) license holder may drive unsupervised only 6:00 a.m.-10:00 p.m. Sunday-Thursday and 6:00 a.m.-11:30 p.m. Friday-Saturday during the first six months of holding the license; outside those hours a licensed parent/guardian or other person 21+ must occupy the front seat, except when driving directly to/from work, school, or an extracurricular activity.",
+      "citation": {
+        "label": "Miss. Code Ann. § 63-1-21(3)",
+        "citation": "Miss. Code Ann. § 63-1-21(3)",
+        "url": "https://codes.findlaw.com/ms/title-63-motor-vehicles-and-traffic-regulations/ms-code-sect-63-1-21/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "gdlPassengerPhase1": {
+      "state": {
+        "status": "not-applicable",
+        "reason": "Mississippi's graduated-licensing law (§ 63-1-21) imposes a nighttime supervision requirement on under-18 regular (intermediate) license holders but does not cap the number of passengers or restrict young-passenger occupancy for novice/young drivers, so there is no phase-1 passenger limit."
+      },
+      "display": "Not applicable: Mississippi does not impose a passenger-number limit on young/novice drivers during any graduated-licensing phase.",
+      "citation": {
+        "label": "Miss. Code Ann. § 63-1-21",
+        "citation": "Miss. Code Ann. § 63-1-21",
+        "url": "https://codes.findlaw.com/ms/title-63-motor-vehicles-and-traffic-regulations/ms-code-sect-63-1-21/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "minLiability": {
+      "state": {
+        "status": "value",
+        "value": {
+          "bodilyPerPerson": 25000,
+          "bodilyPerCrash": 50000,
+          "property": 25000
+        }
+      },
+      "display": "Mississippi's minimum motor-vehicle liability limits are $25,000 for bodily injury/death of one person, $50,000 for bodily injury/death of two or more persons in one accident, and $25,000 for property damage.",
+      "citation": {
+        "label": "Miss. Code Ann. § 63-15-3(j)",
+        "citation": "Miss. Code Ann. § 63-15-3(j)",
+        "url": "https://codes.findlaw.com/ms/title-63-motor-vehicles-and-traffic-regulations/ms-code-sect-63-15-3/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "crashReportThresholdUsd": {
+      "state": {
+        "status": "value",
+        "value": 500
+      },
+      "display": "A driver involved in a crash that causes injury or death, or total apparent property damage of $500 or more, must immediately notify law enforcement (local police within a municipality, otherwise the nearest sheriff's office or highway patrol station).",
+      "citation": {
+        "label": "Miss. Code Ann. § 63-3-411(1)",
+        "citation": "Miss. Code Ann. § 63-3-411(1)",
+        "url": "https://codes.findlaw.com/ms/title-63-motor-vehicles-and-traffic-regulations/ms-code-sect-63-3-411/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    }
   },
   "references": [
     {

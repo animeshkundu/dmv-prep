@@ -85,6 +85,470 @@
   "sourceSnapshotHash": "seed-pending-verification",
   "reviewStatus": "draft",
   "verifyNote": "The current official Iowa Driver's Manual and DOT practice-test page do not publish the live knowledge-test question count or passing mark; 35 questions / 28 correct remains unconfirmed. Retest timing and fee also remain unconfirmed.",
-  "lastVerified": "2026-07-24",
-  "contentVersion": 1
+  "lastVerified": "2026-07-27",
+  "contentVersion": 1,
+  "typedFacts": {
+    "bacAdult": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "IA primary law",
+        "citation": "Iowa Code §321J.2",
+        "url": "https://www.legis.iowa.gov/docs/code/321J.2.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "bacUnder21": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "IA primary law",
+        "citation": "Iowa Code §321J.2A",
+        "url": "https://www.legis.iowa.gov/docs/code/321J.2A.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "bacCommercial": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "IA primary law",
+        "citation": "Iowa Code §321J.6",
+        "url": "https://www.legis.iowa.gov/docs/code/321J.6.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "impliedConsentRefusal": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "IA primary law",
+        "citation": "Iowa Code §321J.9",
+        "url": "https://www.legis.iowa.gov/docs/code/321J.9.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "openContainerProhibited": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "IA primary law",
+        "citation": "Iowa Code §321.284",
+        "url": "https://www.legis.iowa.gov/docs/code/321.284.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "duiFirstSuspensionDays": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "IA primary law",
+        "citation": "Iowa Code §321J.9",
+        "url": "https://www.legis.iowa.gov/docs/code/321J.9.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "ruralInterstateMaxMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "IA primary law",
+        "citation": "Iowa Code §321.285",
+        "url": "https://www.legis.iowa.gov/docs/code/321.285.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "urbanInterstateMaxMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "IA primary law",
+        "citation": "Iowa Code §321.285",
+        "url": "https://www.legis.iowa.gov/docs/code/321.285.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "residentialDefaultMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "IA primary law",
+        "citation": "Iowa Code §321.285",
+        "url": "https://www.legis.iowa.gov/docs/code/321.285.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "schoolZoneMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "IA primary law",
+        "citation": "Iowa Code §321.285",
+        "url": "https://www.legis.iowa.gov/docs/code/321.285.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "basicSpeedLaw": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "IA primary law",
+        "citation": "Iowa Code §321.285",
+        "url": "https://www.legis.iowa.gov/docs/code/321.285.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "rightTurnOnRed": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "IA primary law",
+        "citation": "Iowa Code §321.257",
+        "url": "https://www.legis.iowa.gov/docs/code/321.257.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "leftTurnOnRedFromOneWay": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "IA primary law",
+        "citation": "Iowa Code §321.257",
+        "url": "https://www.legis.iowa.gov/docs/code/321.257.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "seatBeltEnforcement": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "IA primary law",
+        "citation": "Iowa Code §321.445",
+        "url": "https://www.legis.iowa.gov/docs/code/321.445.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "handheldPhone": {
+      "state": {
+        "status": "value",
+        "value": "banned-all",
+        "conditions": [
+          {
+            "kind": "vehicle-class",
+            "detail": "Motor-vehicle driver while the vehicle is in motion; statutory exceptions apply."
+          }
+        ]
+      },
+      "display": "Hands-free required; handheld electronic-device use prohibited while driving",
+      "citation": {
+        "label": "Iowa Code §321.276 and Iowa DPS implementation notice",
+        "citation": "Iowa Code §321.276; SF 22 (2025 Acts ch. 14), effective July 1, 2025",
+        "url": "https://dps.iowa.gov/press-release/2025-06-25/hands-free-its-law"
+      },
+      "effectiveDate": "2025-07-01",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "texting": {
+      "state": {
+        "status": "value",
+        "value": "banned-all",
+        "conditions": [
+          {
+            "kind": "vehicle-class",
+            "detail": "Motor-vehicle driver while the vehicle is in motion; statutory exceptions apply."
+          }
+        ]
+      },
+      "display": "Hands-free required; composing, typing, scrolling, or viewing electronic content while driving is prohibited",
+      "citation": {
+        "label": "Iowa Code §321.276 and Iowa DPS implementation notice",
+        "citation": "Iowa Code §321.276; SF 22 (2025 Acts ch. 14), effective July 1, 2025",
+        "url": "https://dps.iowa.gov/press-release/2025-06-25/hands-free-its-law"
+      },
+      "effectiveDate": "2025-07-01",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "moveOver": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "IA primary law",
+        "citation": "Iowa Code §321.323A",
+        "url": "https://www.legis.iowa.gov/docs/code/321.323A.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "headlightsRequired": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "IA primary law",
+        "citation": "Iowa Code §321.409",
+        "url": "https://www.legis.iowa.gov/docs/code/321.409.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromHydrant": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "IA primary law",
+        "citation": "Iowa Code §321.358",
+        "url": "https://www.legis.iowa.gov/docs/code/321.358.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromCrosswalk": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "IA primary law",
+        "citation": "Iowa Code §321.358",
+        "url": "https://www.legis.iowa.gov/docs/code/321.358.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromStopSign": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "IA primary law",
+        "citation": "Iowa Code §321.358",
+        "url": "https://www.legis.iowa.gov/docs/code/321.358.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromRailroad": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "IA primary law",
+        "citation": "Iowa Code §321.358",
+        "url": "https://www.legis.iowa.gov/docs/code/321.358.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "pointSystem": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "IA primary law",
+        "citation": "Iowa Code ch. 321",
+        "url": "https://www.legis.iowa.gov/docs/code/321.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "pointSuspension": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "IA primary law",
+        "citation": "Iowa Code ch. 321",
+        "url": "https://www.legis.iowa.gov/docs/code/321.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "permitMinAgeMonths": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "IA primary law",
+        "citation": "Iowa Code §321.180B",
+        "url": "https://www.legis.iowa.gov/docs/code/321.180B.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "permitHoldingMonths": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "IA primary law",
+        "citation": "Iowa Code §321.180B",
+        "url": "https://www.legis.iowa.gov/docs/code/321.180B.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "supervisedHoursTotal": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "IA primary law",
+        "citation": "Iowa Code §321.180B",
+        "url": "https://www.legis.iowa.gov/docs/code/321.180B.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "supervisedHoursNight": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "IA primary law",
+        "citation": "Iowa Code §321.180B",
+        "url": "https://www.legis.iowa.gov/docs/code/321.180B.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "gdlNightCurfew": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "IA primary law",
+        "citation": "Iowa Code §321.180B",
+        "url": "https://www.legis.iowa.gov/docs/code/321.180B.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "gdlPassengerPhase1": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "IA primary law",
+        "citation": "Iowa Code §321.180B",
+        "url": "https://www.legis.iowa.gov/docs/code/321.180B.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "minLiability": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "IA primary law",
+        "citation": "Iowa Code §321A.21",
+        "url": "https://www.legis.iowa.gov/docs/code/321A.21.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "crashReportThresholdUsd": {
+      "state": {
+        "status": "unknown",
+        "reason": "Exact value, applicable conditions, and the cited rule's effective date were not verified from the reachable primary source as of 2026-07-27."
+      },
+      "display": "Unknown — verify current rule and effective date",
+      "citation": {
+        "label": "IA primary law",
+        "citation": "Iowa Code §321.266",
+        "url": "https://www.legis.iowa.gov/docs/code/321.266.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    }
+  }
 }

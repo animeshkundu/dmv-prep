@@ -94,6 +94,463 @@
   "sourceSnapshotHash": "seed-pending-verification",
   "reviewStatus": "draft",
   "verifyNote": "Official DLD confirms the 50-question closed-book test for never-licensed applicants and the 25-question open-book test for previously licensed applicants, but its current written-test page does not publish the passing threshold for the 25-question variant; 20 correct is retained pending direct official confirmation.",
-  "lastVerified": "2026-07-24",
-  "contentVersion": 1
+  "lastVerified": "2026-07-27",
+  "contentVersion": 1,
+  "typedFacts": {
+    "bacAdult": {
+      "state": {
+        "status": "value",
+        "value": 0.05,
+        "conditions": [
+          {
+            "kind": "driver-age",
+            "detail": "Driver age 21 or older"
+          }
+        ]
+      },
+      "display": "0.05%",
+      "effectiveDate": "2018-12-30",
+      "confidence": "verified",
+      "citation": {
+        "label": "Utah Code",
+        "citation": "Utah Code §41-6a-502",
+        "url": "https://le.utah.gov/xcode/Title41/Chapter6A/41-6a-S502.html"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "bacUnder21": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Utah Code",
+        "citation": "Utah Code §41-6a-502",
+        "url": "https://le.utah.gov/xcode/Title41/Chapter6A/41-6a-S502.html"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "bacCommercial": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Utah Code",
+        "citation": "Utah Code §41-6a-502",
+        "url": "https://le.utah.gov/xcode/Title41/Chapter6A/41-6a-S502.html"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "impliedConsentRefusal": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Utah Code",
+        "citation": "Utah Code §41-6a-520",
+        "url": "https://le.utah.gov/xcode/Title41/Chapter6A/41-6a-S520.html"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "openContainerProhibited": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Utah Code",
+        "citation": "Utah Code §41-6a-526",
+        "url": "https://le.utah.gov/xcode/Title41/Chapter6A/41-6a-S526.html"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "duiFirstSuspensionDays": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Utah Code",
+        "citation": "Utah Code §53-3-223",
+        "url": "https://le.utah.gov/xcode/Title53/Chapter3/53-3-S223.html"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "ruralInterstateMaxMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Utah Code",
+        "citation": "Utah Code §41-6a-601",
+        "url": "https://le.utah.gov/xcode/Title41/Chapter6A/41-6a-S601.html"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "urbanInterstateMaxMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Utah Code",
+        "citation": "Utah Code §41-6a-601",
+        "url": "https://le.utah.gov/xcode/Title41/Chapter6A/41-6a-S601.html"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "residentialDefaultMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Utah Code",
+        "citation": "Utah Code §41-6a-601",
+        "url": "https://le.utah.gov/xcode/Title41/Chapter6A/41-6a-S601.html"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "schoolZoneMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Utah Code",
+        "citation": "Utah Code §41-6a-604",
+        "url": "https://le.utah.gov/xcode/Title41/Chapter6A/41-6a-S604.html"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "basicSpeedLaw": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Utah Code",
+        "citation": "Utah Code §41-6a-601",
+        "url": "https://le.utah.gov/xcode/Title41/Chapter6A/41-6a-S601.html"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "rightTurnOnRed": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Utah Code",
+        "citation": "Utah Code §41-6a-305",
+        "url": "https://le.utah.gov/xcode/Title41/Chapter6A/41-6a-S305.html"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "leftTurnOnRedFromOneWay": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Utah Code",
+        "citation": "Utah Code §41-6a-305",
+        "url": "https://le.utah.gov/xcode/Title41/Chapter6A/41-6a-S305.html"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "seatBeltEnforcement": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Utah Code",
+        "citation": "Utah Code §41-6a-1803",
+        "url": "https://le.utah.gov/xcode/Title41/Chapter6A/41-6a-S1803.html"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "handheldPhone": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Utah Code",
+        "citation": "Utah Code §41-6a-1716",
+        "url": "https://le.utah.gov/xcode/Title41/Chapter6A/41-6a-S1716.html"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "texting": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Utah Code",
+        "citation": "Utah Code §41-6a-1716",
+        "url": "https://le.utah.gov/xcode/Title41/Chapter6A/41-6a-S1716.html"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "moveOver": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Utah Code",
+        "citation": "Utah Code §41-6a-904",
+        "url": "https://le.utah.gov/xcode/Title41/Chapter6A/41-6a-S904.html"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "headlightsRequired": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Utah DLD",
+        "citation": "Utah DLD Driver Handbook (REV 3.2026), Headlights",
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-REV-3.2026.pdf"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "parkFtFromHydrant": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Utah DLD",
+        "citation": "Utah DLD Driver Handbook (REV 3.2026), Parking",
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-REV-3.2026.pdf"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "parkFtFromCrosswalk": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Utah DLD",
+        "citation": "Utah DLD Driver Handbook (REV 3.2026), Parking",
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-REV-3.2026.pdf"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "parkFtFromStopSign": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Utah DLD",
+        "citation": "Utah DLD Driver Handbook (REV 3.2026), Parking",
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-REV-3.2026.pdf"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "parkFtFromRailroad": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Utah DLD",
+        "citation": "Utah DLD Driver Handbook (REV 3.2026), Parking",
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-REV-3.2026.pdf"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "pointSystem": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Utah Code",
+        "citation": "Utah Code §53-3-221",
+        "url": "https://le.utah.gov/xcode/Title53/Chapter3/53-3-S221.html"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "pointSuspension": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Utah Code",
+        "citation": "Utah Code §53-3-221",
+        "url": "https://le.utah.gov/xcode/Title53/Chapter3/53-3-S221.html"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "permitMinAgeMonths": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Utah DLD Driver Handbook (REV 3.2026)",
+        "citation": "Utah DLD Driver Handbook (REV 3.2026)",
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-REV-3.2026.pdf"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "permitHoldingMonths": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Utah DLD Driver Handbook (REV 3.2026)",
+        "citation": "Utah DLD Driver Handbook (REV 3.2026)",
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-REV-3.2026.pdf"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "supervisedHoursTotal": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Utah DLD Driver Handbook (REV 3.2026)",
+        "citation": "Utah DLD Driver Handbook (REV 3.2026)",
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-REV-3.2026.pdf"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "supervisedHoursNight": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Utah DLD Driver Handbook (REV 3.2026)",
+        "citation": "Utah DLD Driver Handbook (REV 3.2026)",
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-REV-3.2026.pdf"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "gdlNightCurfew": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Utah DLD Driver Handbook (REV 3.2026)",
+        "citation": "Utah DLD Driver Handbook (REV 3.2026)",
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-REV-3.2026.pdf"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "gdlPassengerPhase1": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Utah DLD Driver Handbook (REV 3.2026)",
+        "citation": "Utah DLD Driver Handbook (REV 3.2026)",
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-REV-3.2026.pdf"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "minLiability": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Utah Code",
+        "citation": "Utah Code §31A-22-304",
+        "url": "https://le.utah.gov/xcode/Title31A/Chapter22/31A-22-S304.html"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "crashReportThresholdUsd": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Utah Code",
+        "citation": "Utah Code §41-6a-401",
+        "url": "https://le.utah.gov/xcode/Title41/Chapter6A/41-6a-S401.html"
+      },
+      "lastVerified": "2026-07-27"
+    }
+  }
 }

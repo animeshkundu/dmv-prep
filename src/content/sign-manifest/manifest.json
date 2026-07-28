@@ -1,0 +1,31 @@
+[
+  {
+    "id": "w1-1-turn-right",
+    "status": "downloaded",
+    "mutcdCode": "W1-1",
+    "mutcdEdition": "11th-ed-rev-1",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:MUTCD_W1-1R.svg",
+    "sourceLabel": "Wikimedia Commons — PD MUTCD",
+    "license": "public-domain-mutcd",
+    "licenseEvidence": "MUTCD p. I-1: shall not be protected by a patent, trademark, or copyright",
+    "assetSha256": "9b845719182afbd290cd641972e924a4529ecbbdaf676254b102f3254c08eddf",
+    "retrieved": "2026-07-27"
+  },
+  {
+    "id": "m1-1-interstate-shield",
+    "status": "excluded",
+    "mutcdCode": "M1-1",
+    "mutcdEdition": "11th-ed-rev-1",
+    "exclusionReason": "Excluded by policy: FHWA-owned mark / Interstate Shield is not public domain."
+  },
+  {
+    "id": "state-route-shield-generic",
+    "status": "excluded",
+    "exclusionReason": "Excluded by policy: State route shields are excluded from public domain."
+  },
+  {
+    "id": "agency-seal-generic",
+    "status": "excluded",
+    "exclusionReason": "Excluded by policy: All agency seals and wordmarks are excluded."
+  }
+]

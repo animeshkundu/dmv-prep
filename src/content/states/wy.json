@@ -65,6 +65,456 @@
     "schoolZoneSpeed": "20 mph in a posted school zone",
     "namedLaws": ["Move Over Law", "Implied Consent Law", "Texting-While-Driving Ban"]
   },
+  "typedFacts": {
+    "bacAdult": {
+      "state": {
+        "status": "unknown",
+        "reason": "adult BAC threshold: The cited WYDOT manual endpoint returned HTTP 404; the manual landing page did not establish the exact value/conditions or the cited rule's effective date."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wyoming Rules of the Road Driver License Manual",
+        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "bacUnder21": {
+      "state": {
+        "status": "unknown",
+        "reason": "under-21 BAC threshold: The cited WYDOT manual endpoint returned HTTP 404; the manual landing page did not establish the exact value/conditions or the cited rule's effective date."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wyoming Rules of the Road Driver License Manual",
+        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "bacCommercial": {
+      "state": {
+        "status": "unknown",
+        "reason": "commercial-driver BAC threshold: The cited WYDOT manual endpoint returned HTTP 404; the manual landing page did not establish the exact value/conditions or the cited rule's effective date."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wyoming Rules of the Road Driver License Manual",
+        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "impliedConsentRefusal": {
+      "state": {
+        "status": "unknown",
+        "reason": "implied-consent refusal consequence: The cited WYDOT manual endpoint returned HTTP 404; the manual landing page did not establish the exact value/conditions or the cited rule's effective date."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wyoming Rules of the Road Driver License Manual",
+        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "openContainerProhibited": {
+      "state": {
+        "status": "unknown",
+        "reason": "open-container prohibition: The cited WYDOT manual endpoint returned HTTP 404; the manual landing page did not establish the exact value/conditions or the cited rule's effective date."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wyoming Rules of the Road Driver License Manual",
+        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "duiFirstSuspensionDays": {
+      "state": {
+        "status": "unknown",
+        "reason": "first-DUI suspension duration: The cited WYDOT manual endpoint returned HTTP 404; the manual landing page did not establish the exact value/conditions or the cited rule's effective date."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wyoming Rules of the Road Driver License Manual",
+        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "ruralInterstateMaxMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "rural-interstate maximum speed: The cited WYDOT manual endpoint returned HTTP 404; the manual landing page did not establish the exact value/conditions or the cited rule's effective date."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wyoming Rules of the Road Driver License Manual",
+        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "urbanInterstateMaxMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "urban-interstate maximum speed: The cited WYDOT manual endpoint returned HTTP 404; the manual landing page did not establish the exact value/conditions or the cited rule's effective date."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wyoming Rules of the Road Driver License Manual",
+        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "residentialDefaultMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "residential default speed: The cited WYDOT manual endpoint returned HTTP 404; the manual landing page did not establish the exact value/conditions or the cited rule's effective date."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wyoming Rules of the Road Driver License Manual",
+        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "schoolZoneMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "school-zone speed: The cited WYDOT manual endpoint returned HTTP 404; the manual landing page did not establish the exact value/conditions or the cited rule's effective date."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wyoming Rules of the Road Driver License Manual",
+        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "basicSpeedLaw": {
+      "state": {
+        "status": "unknown",
+        "reason": "basic-speed-law applicability: The cited WYDOT manual endpoint returned HTTP 404; the manual landing page did not establish the exact value/conditions or the cited rule's effective date."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wyoming Rules of the Road Driver License Manual",
+        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "rightTurnOnRed": {
+      "state": {
+        "status": "unknown",
+        "reason": "right-turn-on-red rule: The cited WYDOT manual endpoint returned HTTP 404; the manual landing page did not establish the exact value/conditions or the cited rule's effective date."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wyoming Rules of the Road Driver License Manual",
+        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "leftTurnOnRedFromOneWay": {
+      "state": {
+        "status": "unknown",
+        "reason": "one-way-to-one-way left-turn-on-red rule: The cited WYDOT manual endpoint returned HTTP 404; the manual landing page did not establish the exact value/conditions or the cited rule's effective date."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wyoming Rules of the Road Driver License Manual",
+        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "seatBeltEnforcement": {
+      "state": {
+        "status": "unknown",
+        "reason": "seat-belt enforcement classification: The cited WYDOT manual endpoint returned HTTP 404; the manual landing page did not establish the exact value/conditions or the cited rule's effective date."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wyoming Rules of the Road Driver License Manual",
+        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "handheldPhone": {
+      "state": {
+        "status": "unknown",
+        "reason": "handheld-phone rule: The cited WYDOT manual endpoint returned HTTP 404; the manual landing page did not establish the exact value/conditions or the cited rule's effective date."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wyoming Rules of the Road Driver License Manual",
+        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "texting": {
+      "state": {
+        "status": "unknown",
+        "reason": "texting rule: The cited WYDOT manual endpoint returned HTTP 404; the manual landing page did not establish the exact value/conditions or the cited rule's effective date."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wyoming Rules of the Road Driver License Manual",
+        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "moveOver": {
+      "state": {
+        "status": "unknown",
+        "reason": "move-over requirement and covered vehicles: The cited WYDOT manual endpoint returned HTTP 404; the manual landing page did not establish the exact value/conditions or the cited rule's effective date."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wyoming Rules of the Road Driver License Manual",
+        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "headlightsRequired": {
+      "state": {
+        "status": "unknown",
+        "reason": "headlight-use conditions: The cited WYDOT manual endpoint returned HTTP 404; the manual landing page did not establish the exact value/conditions or the cited rule's effective date."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wyoming Rules of the Road Driver License Manual",
+        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromHydrant": {
+      "state": {
+        "status": "unknown",
+        "reason": "fire-hydrant parking distance: The cited WYDOT manual endpoint returned HTTP 404; the manual landing page did not establish the exact value/conditions or the cited rule's effective date."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wyoming Rules of the Road Driver License Manual",
+        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromCrosswalk": {
+      "state": {
+        "status": "unknown",
+        "reason": "crosswalk parking distance: The cited WYDOT manual endpoint returned HTTP 404; the manual landing page did not establish the exact value/conditions or the cited rule's effective date."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wyoming Rules of the Road Driver License Manual",
+        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromStopSign": {
+      "state": {
+        "status": "unknown",
+        "reason": "stop-sign parking distance: The cited WYDOT manual endpoint returned HTTP 404; the manual landing page did not establish the exact value/conditions or the cited rule's effective date."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wyoming Rules of the Road Driver License Manual",
+        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromRailroad": {
+      "state": {
+        "status": "unknown",
+        "reason": "railroad-crossing parking distance: The cited WYDOT manual endpoint returned HTTP 404; the manual landing page did not establish the exact value/conditions or the cited rule's effective date."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wyoming Rules of the Road Driver License Manual",
+        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "pointSystem": {
+      "state": {
+        "status": "unknown",
+        "reason": "driver point-system status: The cited WYDOT manual endpoint returned HTTP 404; the manual landing page did not establish the exact value/conditions or the cited rule's effective date."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wyoming Rules of the Road Driver License Manual",
+        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "pointSuspension": {
+      "state": {
+        "status": "unknown",
+        "reason": "point-suspension threshold: The cited WYDOT manual endpoint returned HTTP 404; the manual landing page did not establish the exact value/conditions or the cited rule's effective date."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wyoming Rules of the Road Driver License Manual",
+        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "permitMinAgeMonths": {
+      "state": {
+        "status": "unknown",
+        "reason": "permit minimum age: The cited WYDOT manual endpoint returned HTTP 404; the manual landing page did not establish the exact value/conditions or the cited rule's effective date."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wyoming Rules of the Road Driver License Manual",
+        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "permitHoldingMonths": {
+      "state": {
+        "status": "unknown",
+        "reason": "permit holding period: The cited WYDOT manual endpoint returned HTTP 404; the manual landing page did not establish the exact value/conditions or the cited rule's effective date."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wyoming Rules of the Road Driver License Manual",
+        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "supervisedHoursTotal": {
+      "state": {
+        "status": "unknown",
+        "reason": "total supervised-driving hours: The cited WYDOT manual endpoint returned HTTP 404; the manual landing page did not establish the exact value/conditions or the cited rule's effective date."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wyoming Rules of the Road Driver License Manual",
+        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "supervisedHoursNight": {
+      "state": {
+        "status": "unknown",
+        "reason": "night supervised-driving hours: The cited WYDOT manual endpoint returned HTTP 404; the manual landing page did not establish the exact value/conditions or the cited rule's effective date."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wyoming Rules of the Road Driver License Manual",
+        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "gdlNightCurfew": {
+      "state": {
+        "status": "unknown",
+        "reason": "GDL night-curfew hours: The cited WYDOT manual endpoint returned HTTP 404; the manual landing page did not establish the exact value/conditions or the cited rule's effective date."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wyoming Rules of the Road Driver License Manual",
+        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "gdlPassengerPhase1": {
+      "state": {
+        "status": "unknown",
+        "reason": "first-phase GDL passenger limit: The cited WYDOT manual endpoint returned HTTP 404; the manual landing page did not establish the exact value/conditions or the cited rule's effective date."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wyoming Rules of the Road Driver License Manual",
+        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "minLiability": {
+      "state": {
+        "status": "unknown",
+        "reason": "minimum liability limits: The cited WYDOT manual endpoint returned HTTP 404; the manual landing page did not establish the exact value/conditions or the cited rule's effective date."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wyoming Rules of the Road Driver License Manual",
+        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "crashReportThresholdUsd": {
+      "state": {
+        "status": "unknown",
+        "reason": "property-damage crash-report threshold: The cited WYDOT manual endpoint returned HTTP 404; the manual landing page did not establish the exact value/conditions or the cited rule's effective date."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Wyoming Rules of the Road Driver License Manual",
+        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    }
+  },
   "references": [
     {
       "label": "Wyoming Rules of the Road Driver License Manual",
@@ -86,6 +536,6 @@
   "sourceSnapshotHash": "seed-pending-verification",
   "reviewStatus": "draft",
   "verifyNote": "Official WYDOT sources resolve the current 2024 Class C manual and confirm $45 regular learner-permit and Class C license fees. The 25-question/20-correct test is consistently reported but was not located in an official page excerpt; Wyoming's lack of a demerit-point system and the four-moving-violations suspension rule also remain unconfirmed from an accessible official passage.",
-  "lastVerified": "2026-07-24",
+  "lastVerified": "2026-07-27",
   "contentVersion": 1
 }

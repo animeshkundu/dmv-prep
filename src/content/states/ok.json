@@ -10,8 +10,14 @@
   "handbookEditionYear": 2023,
   "handbookCopyrightStatus": "terms-of-use",
   "applicantVariants": [
-    { "id": "under-18", "label": "Under 18 (learner permit / intermediate)" },
-    { "id": "adult", "label": "Adult (18+)" }
+    {
+      "id": "under-18",
+      "label": "Under 18 (learner permit / intermediate)"
+    },
+    {
+      "id": "adult",
+      "label": "Adult (18+)"
+    }
   ],
   "examVariants": [
     {
@@ -20,7 +26,10 @@
       "numQuestions": 20,
       "numToPass": 15,
       "timeLimitMinutes": 60,
-      "languages": ["en", "es"],
+      "languages": [
+        "en",
+        "es"
+      ],
       "onlineAvailable": true
     },
     {
@@ -29,7 +38,10 @@
       "numQuestions": 20,
       "numToPass": 15,
       "timeLimitMinutes": 60,
-      "languages": ["en", "es"],
+      "languages": [
+        "en",
+        "es"
+      ],
       "onlineAvailable": true
     }
   ],
@@ -72,7 +84,11 @@
     "moveOverRule": "Change lanes away from, or slow down for, stopped emergency, tow, and highway maintenance vehicles displaying flashing lights on highways and turnpikes",
     "interstateMaxSpeed": "75 mph on rural interstates and turnpikes (unless posted lower)",
     "schoolZoneSpeed": "25 mph or as posted during school hours when children are present",
-    "namedLaws": ["Move Over Law", "Zero Tolerance Law (under 21)", "Aggravated DUI (BAC 0.15% or higher)"]
+    "namedLaws": [
+      "Move Over Law",
+      "Zero Tolerance Law (under 21)",
+      "Aggravated DUI (BAC 0.15% or higher)"
+    ]
   },
   "references": [
     {
@@ -91,5 +107,455 @@
   "reviewStatus": "draft",
   "verifyNote": "Official Service Oklahoma pages confirmed the exam, ages, and 4-year permit/license fees, but the cited official pages did not conclusively confirm an 8-year credential fee; only the confirmed 4-year fees are retained.",
   "lastVerified": "2026-07-24",
-  "contentVersion": 1
+  "contentVersion": 1,
+  "typedFacts": {
+    "bacAdult": {
+      "state": {
+        "status": "value",
+        "value": 0.08
+      },
+      "display": "0.08%",
+      "citation": {
+        "label": "Oklahoma Driver Manual",
+        "citation": "Service Oklahoma Driver Manual",
+        "url": "https://oklahoma.gov/service/all-pages/driver-education.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "bacCommercial": {
+      "state": {
+        "status": "value",
+        "value": 0.04
+      },
+      "display": "0.04%",
+      "citation": {
+        "label": "Oklahoma Driver Manual",
+        "citation": "Service Oklahoma Driver Manual",
+        "url": "https://oklahoma.gov/service/all-pages/driver-education.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "bacUnder21": {
+      "state": {
+        "status": "value",
+        "value": 0.02
+      },
+      "display": "0.02%",
+      "citation": {
+        "label": "Oklahoma Driver Manual",
+        "citation": "Service Oklahoma Driver Manual",
+        "url": "https://oklahoma.gov/service/all-pages/driver-education.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "impliedConsentRefusal": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Oklahoma Driver Manual",
+        "citation": "Service Oklahoma Driver Manual",
+        "url": "https://oklahoma.gov/service/all-pages/driver-education.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "openContainerProhibited": {
+      "state": {
+        "status": "value",
+        "value": true
+      },
+      "display": "Yes",
+      "citation": {
+        "label": "Oklahoma Driver Manual",
+        "citation": "Service Oklahoma Driver Manual",
+        "url": "https://oklahoma.gov/service/all-pages/driver-education.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "duiFirstSuspensionDays": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Oklahoma Driver Manual",
+        "citation": "Service Oklahoma Driver Manual",
+        "url": "https://oklahoma.gov/service/all-pages/driver-education.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "ruralInterstateMaxMph": {
+      "state": {
+        "status": "value",
+        "value": 75
+      },
+      "display": "75 mph",
+      "citation": {
+        "label": "Oklahoma Driver Manual",
+        "citation": "Service Oklahoma Driver Manual",
+        "url": "https://oklahoma.gov/service/all-pages/driver-education.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "urbanInterstateMaxMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Oklahoma Driver Manual",
+        "citation": "Service Oklahoma Driver Manual",
+        "url": "https://oklahoma.gov/service/all-pages/driver-education.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "residentialDefaultMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Oklahoma Driver Manual",
+        "citation": "Service Oklahoma Driver Manual",
+        "url": "https://oklahoma.gov/service/all-pages/driver-education.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "schoolZoneMph": {
+      "state": {
+        "status": "value",
+        "value": 25
+      },
+      "display": "25 mph",
+      "citation": {
+        "label": "Oklahoma Driver Manual",
+        "citation": "Service Oklahoma Driver Manual",
+        "url": "https://oklahoma.gov/service/all-pages/driver-education.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "basicSpeedLaw": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Oklahoma Driver Manual",
+        "citation": "Service Oklahoma Driver Manual",
+        "url": "https://oklahoma.gov/service/all-pages/driver-education.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "rightTurnOnRed": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Oklahoma Driver Manual",
+        "citation": "Service Oklahoma Driver Manual",
+        "url": "https://oklahoma.gov/service/all-pages/driver-education.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "leftTurnOnRedFromOneWay": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Oklahoma Driver Manual",
+        "citation": "Service Oklahoma Driver Manual",
+        "url": "https://oklahoma.gov/service/all-pages/driver-education.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "seatBeltEnforcement": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Oklahoma Driver Manual",
+        "citation": "Service Oklahoma Driver Manual",
+        "url": "https://oklahoma.gov/service/all-pages/driver-education.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "handheldPhone": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Oklahoma Driver Manual",
+        "citation": "Service Oklahoma Driver Manual",
+        "url": "https://oklahoma.gov/service/all-pages/driver-education.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "texting": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Oklahoma Driver Manual",
+        "citation": "Service Oklahoma Driver Manual",
+        "url": "https://oklahoma.gov/service/all-pages/driver-education.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "moveOver": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Oklahoma Driver Manual",
+        "citation": "Service Oklahoma Driver Manual",
+        "url": "https://oklahoma.gov/service/all-pages/driver-education.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "headlightsRequired": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Oklahoma Driver Manual",
+        "citation": "Service Oklahoma Driver Manual",
+        "url": "https://oklahoma.gov/service/all-pages/driver-education.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromHydrant": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Oklahoma Driver Manual",
+        "citation": "Service Oklahoma Driver Manual",
+        "url": "https://oklahoma.gov/service/all-pages/driver-education.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromCrosswalk": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Oklahoma Driver Manual",
+        "citation": "Service Oklahoma Driver Manual",
+        "url": "https://oklahoma.gov/service/all-pages/driver-education.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromStopSign": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Oklahoma Driver Manual",
+        "citation": "Service Oklahoma Driver Manual",
+        "url": "https://oklahoma.gov/service/all-pages/driver-education.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromRailroad": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Oklahoma Driver Manual",
+        "citation": "Service Oklahoma Driver Manual",
+        "url": "https://oklahoma.gov/service/all-pages/driver-education.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "pointSystem": {
+      "state": {
+        "status": "value",
+        "value": true
+      },
+      "display": "Yes",
+      "citation": {
+        "label": "Oklahoma Driver Manual",
+        "citation": "Service Oklahoma Driver Manual",
+        "url": "https://oklahoma.gov/service/all-pages/driver-education.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "pointSuspension": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Oklahoma Driver Manual",
+        "citation": "Service Oklahoma Driver Manual",
+        "url": "https://oklahoma.gov/service/all-pages/driver-education.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "permitMinAgeMonths": {
+      "state": {
+        "status": "value",
+        "value": 186
+      },
+      "display": "15 yrs 6 mo (with driver education) or 16",
+      "citation": {
+        "label": "Oklahoma Driver Manual",
+        "citation": "Service Oklahoma Driver Manual",
+        "url": "https://oklahoma.gov/service/all-pages/driver-education.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "permitHoldingMonths": {
+      "state": {
+        "status": "value",
+        "value": 6
+      },
+      "display": "6 months",
+      "citation": {
+        "label": "Oklahoma Driver Manual",
+        "citation": "Service Oklahoma Driver Manual",
+        "url": "https://oklahoma.gov/service/all-pages/driver-education.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "supervisedHoursTotal": {
+      "state": {
+        "status": "value",
+        "value": 50
+      },
+      "display": "50 hours",
+      "citation": {
+        "label": "Oklahoma Driver Manual",
+        "citation": "Service Oklahoma Driver Manual",
+        "url": "https://oklahoma.gov/service/all-pages/driver-education.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "supervisedHoursNight": {
+      "state": {
+        "status": "value",
+        "value": 10
+      },
+      "display": "10 hours",
+      "citation": {
+        "label": "Oklahoma Driver Manual",
+        "citation": "Service Oklahoma Driver Manual",
+        "url": "https://oklahoma.gov/service/all-pages/driver-education.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "gdlNightCurfew": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Oklahoma Driver Manual",
+        "citation": "Service Oklahoma Driver Manual",
+        "url": "https://oklahoma.gov/service/all-pages/driver-education.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "gdlPassengerPhase1": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Oklahoma Driver Manual",
+        "citation": "Service Oklahoma Driver Manual",
+        "url": "https://oklahoma.gov/service/all-pages/driver-education.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "minLiability": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Oklahoma Driver Manual",
+        "citation": "Service Oklahoma Driver Manual",
+        "url": "https://oklahoma.gov/service/all-pages/driver-education.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "crashReportThresholdUsd": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Oklahoma Driver Manual",
+        "citation": "Service Oklahoma Driver Manual",
+        "url": "https://oklahoma.gov/service/all-pages/driver-education.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    }
+  }
 }

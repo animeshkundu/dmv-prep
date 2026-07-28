@@ -72,6 +72,456 @@
     "schoolZoneSpeed": "25 mph in a school zone (unless otherwise posted); fines are doubled",
     "namedLaws": ["Statewide texting ban (primary enforcement)", "Move Over Law", "Under-18 cell phone ban"]
   },
+  "typedFacts": {
+    "bacAdult": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nebraska Revised Statutes",
+        "citation": "Neb. Rev. Stat. §§ 60-6,196 to 60-6,197.03",
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-6,196"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "bacUnder21": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nebraska Revised Statutes",
+        "citation": "Neb. Rev. Stat. §§ 60-6,196 to 60-6,197.03",
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-6,196"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "bacCommercial": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nebraska Revised Statutes",
+        "citation": "Neb. Rev. Stat. §§ 60-6,196 to 60-6,197.03",
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-6,196"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "impliedConsentRefusal": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nebraska Revised Statutes",
+        "citation": "Neb. Rev. Stat. §§ 60-6,196 to 60-6,197.03",
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-6,196"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "openContainerProhibited": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nebraska Revised Statutes",
+        "citation": "Neb. Rev. Stat. §§ 60-6,196 to 60-6,197.03",
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-6,196"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "duiFirstSuspensionDays": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nebraska Revised Statutes",
+        "citation": "Neb. Rev. Stat. §§ 60-6,196 to 60-6,197.03",
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-6,196"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "ruralInterstateMaxMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nebraska Revised Statutes",
+        "citation": "Neb. Rev. Stat. §§ 60-6,186 to 60-6,190",
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-6,186"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "urbanInterstateMaxMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nebraska Revised Statutes",
+        "citation": "Neb. Rev. Stat. §§ 60-6,186 to 60-6,190",
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-6,186"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "residentialDefaultMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nebraska Revised Statutes",
+        "citation": "Neb. Rev. Stat. §§ 60-6,186 to 60-6,190",
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-6,186"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "schoolZoneMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nebraska Revised Statutes",
+        "citation": "Neb. Rev. Stat. §§ 60-6,186 to 60-6,190",
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-6,186"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "basicSpeedLaw": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nebraska Revised Statutes",
+        "citation": "Neb. Rev. Stat. §§ 60-6,186 to 60-6,190",
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-6,186"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "rightTurnOnRed": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nebraska Revised Statutes",
+        "citation": "Neb. Rev. Stat. §§ 60-6,214, 60-6,166, 60-6,179.01",
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-6,214"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "leftTurnOnRedFromOneWay": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nebraska Revised Statutes",
+        "citation": "Neb. Rev. Stat. §§ 60-6,214, 60-6,166, 60-6,179.01",
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-6,214"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "seatBeltEnforcement": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nebraska Revised Statutes",
+        "citation": "Neb. Rev. Stat. §§ 60-6,214, 60-6,166, 60-6,179.01",
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-6,214"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "handheldPhone": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nebraska Revised Statutes",
+        "citation": "Neb. Rev. Stat. §§ 60-6,214, 60-6,166, 60-6,179.01",
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-6,214"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "texting": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nebraska Revised Statutes",
+        "citation": "Neb. Rev. Stat. §§ 60-6,214, 60-6,166, 60-6,179.01",
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-6,214"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "moveOver": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nebraska Revised Statutes",
+        "citation": "Neb. Rev. Stat. §§ 60-6,214, 60-6,166, 60-6,179.01",
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-6,214"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "headlightsRequired": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nebraska Revised Statutes",
+        "citation": "Neb. Rev. Stat. §§ 60-6,214, 60-6,166, 60-6,179.01",
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-6,214"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromHydrant": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nebraska Revised Statutes",
+        "citation": "Neb. Rev. Stat. § 60-6,167",
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-6,166"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromCrosswalk": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nebraska Revised Statutes",
+        "citation": "Neb. Rev. Stat. § 60-6,167",
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-6,166"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromStopSign": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nebraska Revised Statutes",
+        "citation": "Neb. Rev. Stat. § 60-6,167",
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-6,166"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromRailroad": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nebraska Revised Statutes",
+        "citation": "Neb. Rev. Stat. § 60-6,167",
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-6,166"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "pointSystem": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nebraska Revised Statutes",
+        "citation": "Neb. Rev. Stat. § 60-4,182",
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-4,182"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "pointSuspension": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nebraska Revised Statutes",
+        "citation": "Neb. Rev. Stat. § 60-4,182",
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-4,182"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "permitMinAgeMonths": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nebraska Revised Statutes",
+        "citation": "Neb. Rev. Stat. §§ 60-4,120 to 60-4,126",
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-4,120"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "permitHoldingMonths": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nebraska Revised Statutes",
+        "citation": "Neb. Rev. Stat. §§ 60-4,120 to 60-4,126",
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-4,120"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "supervisedHoursTotal": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nebraska Revised Statutes",
+        "citation": "Neb. Rev. Stat. §§ 60-4,120 to 60-4,126",
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-4,120"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "supervisedHoursNight": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nebraska Revised Statutes",
+        "citation": "Neb. Rev. Stat. §§ 60-4,120 to 60-4,126",
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-4,120"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "gdlNightCurfew": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nebraska Revised Statutes",
+        "citation": "Neb. Rev. Stat. §§ 60-4,120 to 60-4,126",
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-4,120"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "gdlPassengerPhase1": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nebraska Revised Statutes",
+        "citation": "Neb. Rev. Stat. §§ 60-4,120 to 60-4,126",
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-4,120"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "minLiability": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nebraska Revised Statutes",
+        "citation": "Neb. Rev. Stat. §§ 60-509, 60-699",
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-509"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "crashReportThresholdUsd": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nebraska Revised Statutes",
+        "citation": "Neb. Rev. Stat. §§ 60-509, 60-699",
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-509"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    }
+  },
   "references": [
     {
       "label": "Nebraska Driver's Manual (Class O)",
