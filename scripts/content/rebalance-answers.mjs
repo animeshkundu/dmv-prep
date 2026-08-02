@@ -1,16 +1,34 @@
-import { readFileSync, writeFileSync } from 'node:fs';
+import { existsSync, readFileSync, statSync, writeFileSync } from 'node:fs';
 import { loadAllQuestions, ROOT } from './lib/content-io.mjs';
 import { shuffle } from './lib/shuffle.mjs';
-import { join } from 'node:path';
+import { join, resolve } from 'node:path';
 
 const args = process.argv.slice(2);
 const write = args.includes('--write');
 const reverify = args.includes('--reverify');
+const questionsDirArg = args.find((arg) => arg.startsWith('--questions-dir='));
+const questionsDirIndex = args.indexOf('--questions-dir');
+const questionsDir = questionsDirArg !== undefined
+  ? questionsDirArg.slice('--questions-dir='.length)
+  : questionsDirIndex === -1
+    ? undefined
+    : args[questionsDirIndex + 1];
+
+if (questionsDir !== undefined && (!questionsDir || questionsDir.startsWith('--'))) {
+  console.error('ERROR: --questions-dir requires a directory path.');
+  process.exit(2);
+}
+
+const resolvedQuestionsDir = questionsDir ? resolve(questionsDir) : undefined;
+if (resolvedQuestionsDir && (!existsSync(resolvedQuestionsDir) || !statSync(resolvedQuestionsDir).isDirectory())) {
+  console.error(`ERROR: --questions-dir must name an existing directory: ${questionsDir}`);
+  process.exit(2);
+}
 
 const POSITIONAL_RE_1 = /\b(option|answer|choice)\s+[A-D]\b/i;
 const POSITIONAL_RE_2 = /\b(first|second|third|last)\s+(option|answer|choice)\b/i;
 
-const allQuestions = loadAllQuestions();
+const allQuestions = loadAllQuestions(resolvedQuestionsDir);
 let failures = 0;
 let modifiedCount = 0;
 
@@ -27,6 +45,12 @@ for (const q of allQuestions) {
 for (const [filePath, items] of fileGroups.entries()) {
   let fileChanged = false;
   const newItems = items.map(item => {
+    if (item.reviewStatus && item.reviewStatus !== 'draft' && !reverify) {
+      console.error(`ERROR: ${item.id} is verified. Use explicit re-verification workflow.`);
+      failures++;
+      return item;
+    }
+
     // Check positional references
     if (POSITIONAL_RE_1.test(item.explanation) || POSITIONAL_RE_2.test(item.explanation)) {
       console.error(`ERROR: ${item.id} has a positional explanation.`);
@@ -48,18 +72,12 @@ for (const [filePath, items] of fileGroups.entries()) {
 
     if (!isSame) {
       if (item.reviewStatus && item.reviewStatus !== 'draft') {
-        if (!reverify) {
-          console.error(`ERROR: ${item.id} is verified. Use explicit re-verification workflow.`);
-          failures++;
-          return item;
-        } else {
-          // The changed bytes are no longer verified; the separate verification
-          // harness must confirm their new canonical hash before they can ship.
-          item.reviewStatus = 'draft';
-          delete item.verifiedBy;
-          delete item.verifiedAt;
-          delete item.verificationAuditId;
-        }
+        // The changed bytes are no longer verified; the separate verification
+        // harness must confirm their new canonical hash before they can ship.
+        item.reviewStatus = 'draft';
+        delete item.verifiedBy;
+        delete item.verifiedAt;
+        delete item.verificationAuditId;
       }
 
       item.options = newOptions;

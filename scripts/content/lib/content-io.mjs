@@ -10,7 +10,7 @@
  * Nothing here writes to disk or mutates content; every export is a pure read.
  */
 import { existsSync, readFileSync, readdirSync, statSync } from 'node:fs';
-import { dirname, join, relative } from 'node:path';
+import { dirname, isAbsolute, join, relative } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -24,7 +24,7 @@ export function repoPath(...segments) {
 
 /** Recursively list files under `dir` (absolute or repo-relative), or [] if it doesn't exist. */
 export function walkFiles(dir) {
-  const abs = dir.startsWith(ROOT) ? dir : repoPath(dir);
+  const abs = isAbsolute(dir) ? dir : repoPath(dir);
   if (!existsSync(abs)) return [];
   const out = [];
   const stack = [abs];
@@ -40,7 +40,7 @@ export function walkFiles(dir) {
 }
 
 export function readJson(absOrRelPath) {
-  const abs = absOrRelPath.startsWith(ROOT) ? absOrRelPath : repoPath(absOrRelPath);
+  const abs = isAbsolute(absOrRelPath) ? absOrRelPath : repoPath(absOrRelPath);
   const raw = readFileSync(abs, 'utf8');
   try {
     return JSON.parse(raw);
@@ -54,8 +54,7 @@ export function readJson(absOrRelPath) {
  * `arrayJsonLoader`'s own walk), tagging each record with the file it came from
  * so failures can be reported precisely.
  */
-export function loadAllQuestions() {
-  const dir = repoPath('src/content/questions');
+export function loadAllQuestions(dir = repoPath('src/content/questions')) {
   const files = walkFiles(dir).filter((f) => f.endsWith('.json'));
   const records = [];
   for (const file of files) {
