@@ -10,7 +10,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Traffic signs", "citation": "MUTCD Ch. 2B (regulatory signs)", "url": "https://mutcd.fhwa.dot.gov/" }],
     "effectiveDate": "2026-07-23",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-23"
   },
   {
@@ -24,7 +25,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Warning signs", "citation": "MUTCD Ch. 2C (warning signs)", "url": "https://mutcd.fhwa.dot.gov/" }],
     "effectiveDate": "2026-07-23",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-23"
   },
   {
@@ -38,7 +40,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Traffic signals", "citation": "MUTCD Ch. 4 (traffic signals)", "url": "https://mutcd.fhwa.dot.gov/" }],
     "effectiveDate": "2026-07-23",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-23"
   },
   {
@@ -52,7 +55,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Right of way", "citation": "State driver handbook, right-of-way rules" }],
     "effectiveDate": "2026-07-23",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-23"
   },
   {
@@ -66,7 +70,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Pedestrians", "citation": "State driver handbook, pedestrian right-of-way" }],
     "effectiveDate": "2026-07-23",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-23"
   },
   {
@@ -80,7 +85,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Following distance", "citation": "State driver handbook, safe following distance" }],
     "effectiveDate": "2026-07-23",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-23"
   },
   {
@@ -94,7 +100,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Adverse conditions", "citation": "State driver handbook, driving in fog" }],
     "effectiveDate": "2026-07-23",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-23"
   },
   {
@@ -108,7 +115,8 @@
     "difficulty": "medium",
     "references": [{ "label": "School buses", "citation": "State driver handbook, school bus rules" }],
     "effectiveDate": "2026-07-23",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-23"
   },
   {
@@ -122,7 +130,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Parking on hills", "citation": "State driver handbook, hill parking" }],
     "effectiveDate": "2026-07-23",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-23"
   },
   {
@@ -136,7 +145,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Lane changes", "citation": "State driver handbook, changing lanes" }],
     "effectiveDate": "2026-07-23",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-23"
   },
   {
@@ -165,7 +175,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Pavement markings", "citation": "MUTCD Ch. 3 (markings)", "url": "https://mutcd.fhwa.dot.gov/" }],
     "effectiveDate": "2026-07-23",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-23"
   }
 ]

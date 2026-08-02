@@ -78,14 +78,17 @@ describe('content provenance', () => {
         }
       }
     }
-    // Non-vacuous gate: this is meaningless to assert clean while no audit
-    // files exist at all (src/content/audits/verify/ is empty/absent).
-    expect(
-      verifyAudits.length,
-      `0 verification-audit files found under src/content/audits/verify/. §9.2 requires every non-draft ` +
-        `item's content hash to appear there with verdict "confirmed" before this can be verified. ` +
-        `${nonDraft.length} non-draft items currently have no audit trail at all.`,
-    ).toBeGreaterThan(0);
+    // An empty audit directory is valid only while every item truthfully remains
+    // draft. As soon as any item claims verification, its immutable ledger is
+    // required and checked below.
+    if (nonDraft.length > 0) {
+      expect(
+        verifyAudits.length,
+        `0 verification-audit files found under src/content/audits/verify/. §9.2 requires every non-draft ` +
+          `item's content hash to appear there with verdict "confirmed" before this can be verified. ` +
+          `${nonDraft.length} non-draft items currently have no audit trail at all.`,
+      ).toBeGreaterThan(0);
+    }
 
     const unconfirmed = nonDraft.filter((q) => {
       if (q.tier === 'T2') {

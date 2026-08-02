@@ -10,7 +10,8 @@
     "difficulty": "easy",
     "references": [{ "label": "WV Driver's Licensing Handbook", "citation": "WV DMV Driver's Licensing Handbook, Speed Limits", "url": "https://transportation.wv.gov/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -29,7 +30,8 @@
     "difficulty": "medium",
     "references": [{ "label": "WV Driver's Licensing Handbook", "citation": "WV DMV Driver's Licensing Handbook, School Zones", "url": "https://transportation.wv.gov/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -43,7 +45,8 @@
     "difficulty": "medium",
     "references": [{ "label": "WV Driver's Licensing Handbook", "citation": "WV DMV Driver's Licensing Handbook, Alcohol and Driving", "url": "https://transportation.wv.gov/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -57,7 +60,8 @@
     "difficulty": "easy",
     "references": [{ "label": "WV Driver's Licensing Handbook", "citation": "WV DMV Driver's Licensing Handbook, Alcohol and Driving", "url": "https://transportation.wv.gov/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -76,7 +80,8 @@
     "difficulty": "hard",
     "references": [{ "label": "WV Driver's Licensing Handbook", "citation": "WV DMV Driver's Licensing Handbook, Graduated Driver License", "url": "https://transportation.wv.gov/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -90,7 +95,8 @@
     "difficulty": "medium",
     "references": [{ "label": "WV Driver's Licensing Handbook", "citation": "WV DMV Driver's Licensing Handbook, Graduated Driver License", "url": "https://transportation.wv.gov/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -109,7 +115,8 @@
     "difficulty": "hard",
     "references": [{ "label": "WV Driver's Licensing Handbook", "citation": "WV DMV Driver's Licensing Handbook, Graduated Driver License", "url": "https://transportation.wv.gov/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -128,7 +135,8 @@
     "difficulty": "medium",
     "references": [{ "label": "WV Point System", "citation": "WV DMV Point System", "url": "https://transportation.wv.gov/DMV/Drivers/Pages/Point-System.aspx" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -147,7 +155,8 @@
     "difficulty": "medium",
     "references": [{ "label": "WV Driver's Licensing Handbook", "citation": "WV DMV Driver's Licensing Handbook, Distracted Driving", "url": "https://transportation.wv.gov/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -166,7 +175,8 @@
     "difficulty": "easy",
     "references": [{ "label": "WV Driver's Licensing Handbook", "citation": "WV DMV Driver's Licensing Handbook, Move Over Law", "url": "https://transportation.wv.gov/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -185,7 +195,8 @@
     "difficulty": "medium",
     "references": [{ "label": "WV Driver's Licensing Handbook", "citation": "WV DMV Driver's Licensing Handbook, Warning Signs", "url": "https://transportation.wv.gov/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -204,7 +215,8 @@
     "difficulty": "medium",
     "references": [{ "label": "WV Driver's Licensing Handbook", "citation": "WV DMV Driver's Licensing Handbook, Roundabouts", "url": "https://transportation.wv.gov/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -223,7 +235,8 @@
     "difficulty": "easy",
     "references": [{ "label": "WV Driver's Licensing Handbook", "citation": "WV DMV Driver's Licensing Handbook, Safe Driving", "url": "https://transportation.wv.gov/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -242,7 +255,8 @@
     "difficulty": "easy",
     "references": [{ "label": "WV Driver's Licensing Handbook", "citation": "WV DMV Driver's Licensing Handbook, Sharing the Road", "url": "https://transportation.wv.gov/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   }
 ]

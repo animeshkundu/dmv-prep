@@ -10,7 +10,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Virginia Driver's Manual", "citation": "VA DMV Driver's Manual (DMV 39), Alcohol and the Law", "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -24,7 +25,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Virginia Driver's Manual", "citation": "VA DMV Driver's Manual (DMV 39), Alcohol and the Law", "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -38,7 +40,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Virginia Driver's Manual", "citation": "VA DMV Driver's Manual (DMV 39), Speed Limits", "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -52,7 +55,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Virginia Driver's Manual", "citation": "VA DMV Driver's Manual (DMV 39), Speed Limits", "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -66,7 +70,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Virginia Driver's Manual", "citation": "VA DMV Driver's Manual (DMV 39), Getting Your License", "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -85,7 +90,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Virginia Driver's Manual", "citation": "VA DMV Driver's Manual (DMV 39), Juvenile Licensing", "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -104,7 +110,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Virginia Driver's Manual", "citation": "VA DMV Driver's Manual (DMV 39), Juvenile Licensing", "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -123,7 +130,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Virginia Driver's Manual", "citation": "VA DMV Driver's Manual (DMV 39), Juvenile Licensing", "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -142,7 +150,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Virginia Driver's Manual", "citation": "VA DMV Driver's Manual (DMV 39), Knowledge Exam", "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -161,7 +170,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Virginia Driver's Manual", "citation": "VA DMV Driver's Manual (DMV 39), Distracted Driving", "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -180,7 +190,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Virginia Driver's Manual", "citation": "VA DMV Driver's Manual (DMV 39), Move Over Law", "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -199,7 +210,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Demerit points", "citation": "VA DMV - Demerit points (drivers 18 and over)", "url": "https://www.dmv.virginia.gov/licenses-ids/improvement/points/over-18" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -218,7 +230,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Virginia Driver's Manual", "citation": "VA DMV Driver's Manual (DMV 39), Juvenile Licensing", "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -237,7 +250,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Virginia Driver's Manual", "citation": "VA DMV Driver's Manual (DMV 39), Vision Requirements", "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -251,7 +265,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Virginia Driver's Manual", "citation": "VA DMV Driver's Manual (DMV 39), Knowledge Exam", "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   }
 ]

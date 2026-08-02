@@ -10,7 +10,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Georgia Driver's Manual", "citation": "GA DDS Driver's Manual, Speed Limits", "url": "https://dds.georgia.gov/dds-forms-and-manuals/manuals" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -29,7 +30,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Super Speeder", "citation": "GA DDS Points Schedule; O.C.G.A. § 40-6-189", "url": "https://dds.georgia.gov/georgia-licenseid/violations-suspensions-revocations/points-and-points-reduction" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -43,7 +45,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Alcohol and the Law", "citation": "GA DDS Driver's Manual, Alcohol/Drugs; O.C.G.A. § 40-6-391", "url": "https://dds.georgia.gov/dds-forms-and-manuals/manuals" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -57,7 +60,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Commercial BAC", "citation": "GA DDS Driver's Manual, Alcohol/Drugs", "url": "https://dds.georgia.gov/dds-forms-and-manuals/manuals" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -76,7 +80,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Class D restrictions", "citation": "GA DDS Teen Driving Laws; O.C.G.A. § 40-5-24", "url": "https://dds.georgia.gov/teen-driving-laws-faqs" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -95,7 +100,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Passenger limits", "citation": "GA DDS Teen Driving Laws; O.C.G.A. § 40-5-24", "url": "https://dds.georgia.gov/teen-driving-laws-faqs" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -114,7 +120,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Joshua's Law", "citation": "GA DDS Teen Driving Laws (Joshua's Law)", "url": "https://dds.georgia.gov/teen-driving-laws-faqs" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -128,7 +135,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Permit holding period", "citation": "GA DDS Teen Driving Laws; O.C.G.A. § 40-5-24", "url": "https://dds.georgia.gov/teen-driving-laws-faqs" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -147,7 +155,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Points system", "citation": "GA DDS Points and Points Reduction", "url": "https://dds.georgia.gov/georgia-licenseid/violations-suspensions-revocations/points-and-points-reduction" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -166,7 +175,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Points reduction", "citation": "GA DDS Points and Points Reduction", "url": "https://dds.georgia.gov/georgia-licenseid/violations-suspensions-revocations/points-and-points-reduction" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -185,7 +195,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Hands-Free Georgia Act", "citation": "GA DDS Driver's Manual; O.C.G.A. § 40-6-241", "url": "https://dds.georgia.gov/dds-forms-and-manuals/manuals" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -204,7 +215,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Move Over Law", "citation": "GA DDS Driver's Manual; O.C.G.A. § 40-6-16", "url": "https://dds.georgia.gov/dds-forms-and-manuals/manuals" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -218,7 +230,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Sharing the road", "citation": "GA DDS Driver's Manual; O.C.G.A. § 40-6-56", "url": "https://dds.georgia.gov/dds-forms-and-manuals/manuals" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -237,7 +250,8 @@
     "difficulty": "medium",
     "references": [{ "label": "School buses", "citation": "GA DDS Driver's Manual; O.C.G.A. § 40-6-163", "url": "https://dds.georgia.gov/dds-forms-and-manuals/manuals" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -251,7 +265,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Vision screening", "citation": "GA DDS Driver's Manual, Vision Requirements", "url": "https://dds.georgia.gov/dds-forms-and-manuals/manuals" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   }
 ]

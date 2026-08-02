@@ -10,7 +10,8 @@
     "difficulty": "easy",
     "references": [{ "label": "School zones", "citation": "Hawaii Driver's Manual, speed limits", "url": "https://hidot.hawaii.gov/highways/library/motor-vehicle-safety-office/english-original-hawaii-drivers-manual/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -24,7 +25,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Under-21 alcohol law", "citation": "Hawaii Driver's Manual, alcohol and the law", "url": "https://hidot.hawaii.gov/highways/library/motor-vehicle-safety-office/english-original-hawaii-drivers-manual/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -38,7 +40,8 @@
     "difficulty": "easy",
     "references": [{ "label": "OVUII / adult BAC", "citation": "Hawaii Driver's Manual, alcohol and the law", "url": "https://hidot.hawaii.gov/highways/library/motor-vehicle-safety-office/english-original-hawaii-drivers-manual/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -57,7 +60,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Provisional license", "citation": "Hawaii Driver's Manual, graduated licensing", "url": "https://hidot.hawaii.gov/highways/library/motor-vehicle-safety-office/english-original-hawaii-drivers-manual/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -76,7 +80,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Nighttime restriction", "citation": "Hawaii Driver's Manual, graduated licensing", "url": "https://hidot.hawaii.gov/highways/library/motor-vehicle-safety-office/english-original-hawaii-drivers-manual/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -95,7 +100,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Move Over Law", "citation": "Hawaii Driver's Manual, sharing the road with emergency vehicles", "url": "https://hidot.hawaii.gov/highways/library/motor-vehicle-safety-office/english-original-hawaii-drivers-manual/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -114,7 +120,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Warning signs", "citation": "Hawaii Driver's Manual, traffic signs", "url": "https://hidot.hawaii.gov/highways/library/motor-vehicle-safety-office/english-original-hawaii-drivers-manual/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -133,7 +140,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Traffic signals", "citation": "Hawaii Driver's Manual, traffic signals", "url": "https://hidot.hawaii.gov/highways/library/motor-vehicle-safety-office/english-original-hawaii-drivers-manual/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -152,7 +160,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Right of way", "citation": "Hawaii Driver's Manual, right-of-way rules", "url": "https://hidot.hawaii.gov/highways/library/motor-vehicle-safety-office/english-original-hawaii-drivers-manual/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -171,7 +180,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Distracted driving", "citation": "Hawaii Driver's Manual, distracted driving", "url": "https://hidot.hawaii.gov/highways/library/motor-vehicle-safety-office/english-original-hawaii-drivers-manual/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -190,7 +200,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Pavement markings", "citation": "Hawaii Driver's Manual, pavement markings", "url": "https://hidot.hawaii.gov/highways/library/motor-vehicle-safety-office/english-original-hawaii-drivers-manual/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -204,7 +215,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Parking rules", "citation": "Hawaii Driver's Manual, parking", "url": "https://hidot.hawaii.gov/highways/library/motor-vehicle-safety-office/english-original-hawaii-drivers-manual/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -223,7 +235,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Sharing the road", "citation": "Hawaii Driver's Manual, sharing the road with bicyclists", "url": "https://hidot.hawaii.gov/highways/library/motor-vehicle-safety-office/english-original-hawaii-drivers-manual/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -242,7 +255,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Driving record", "citation": "Hawaii Driver's Manual, penalties and your driving record", "url": "https://hidot.hawaii.gov/highways/library/motor-vehicle-safety-office/english-original-hawaii-drivers-manual/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   }
 ]

@@ -10,7 +10,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Knowledge exam", "citation": "Indiana Driver's Manual, The Examination", "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/drivers-manual/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -24,7 +25,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Speed limits", "citation": "Indiana Driver's Manual, Speed Limits", "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/drivers-manual/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -38,7 +40,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Zero tolerance", "citation": "Indiana Driver's Manual, Alcohol, Drugs and Driving", "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/drivers-manual/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -52,7 +55,8 @@
     "difficulty": "easy",
     "references": [{ "label": "OWI limit", "citation": "Indiana Driver's Manual, Alcohol, Drugs and Driving", "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/drivers-manual/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -71,7 +75,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Permit age", "citation": "Indiana Driver's Manual / IN BMV Learner's Permit", "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -85,7 +90,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Permit holding period", "citation": "IN BMV Learner's Permit", "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -104,7 +110,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Supervised hours", "citation": "Indiana Driver's Manual, Graduated Driver Licensing", "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/drivers-manual/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -123,7 +130,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Night restriction", "citation": "Indiana Driver's Manual, Graduated Driver Licensing", "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/drivers-manual/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -142,7 +150,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Passenger limit", "citation": "Indiana Driver's Manual, Graduated Driver Licensing", "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/drivers-manual/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -161,7 +170,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Hands-free law", "citation": "Indiana Driver's Manual, Distracted Driving", "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/drivers-manual/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -180,7 +190,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Move over law", "citation": "Indiana Driver's Manual, Move Over Law", "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/drivers-manual/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -199,7 +210,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Point system", "citation": "Indiana Driver's Manual / IN BMV Driver Record Points", "url": "https://www.in.gov/bmv/licenses-permits-ids/suspension-and-reinstatement/driver-record-points/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -218,7 +230,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Driver safety program", "citation": "IN BMV Citation Points and Driver Safety Program", "url": "https://www.in.gov/bmv/licenses-permits-ids/suspension-and-reinstatement/citation-points-and-driver-safety-program/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -237,7 +250,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Retake policy", "citation": "IN BMV Knowledge Exam", "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -256,7 +270,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Vision screening", "citation": "IN BMV Learner's Permit", "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   }
 ]

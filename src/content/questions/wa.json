@@ -10,7 +10,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Washington Driver Guide", "citation": "WA DOL Washington Driver Guide, Alcohol, Drugs and Driving", "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -24,7 +25,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Washington Driver Guide", "citation": "WA DOL Washington Driver Guide, Alcohol, Drugs and Driving", "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -38,7 +40,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Washington Driver Guide", "citation": "WA DOL Washington Driver Guide, Speed Limits", "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -52,7 +55,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Washington Driver Guide", "citation": "WA DOL Washington Driver Guide, Speed Limits", "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -71,7 +75,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Washington Driver Guide", "citation": "WA DOL Washington Driver Guide, Your Driving Record", "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -90,7 +95,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Washington Driver Guide", "citation": "WA DOL Washington Driver Guide, Teens and Driving", "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -109,7 +115,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Washington Driver Guide", "citation": "WA DOL Washington Driver Guide, Intermediate License", "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -128,7 +135,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Washington Driver Guide", "citation": "WA DOL Washington Driver Guide, Intermediate License", "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -147,7 +155,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Washington Driver Guide", "citation": "WA DOL Washington Driver Guide, Teens and Driving", "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -166,7 +175,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Washington Driver Guide", "citation": "WA DOL Washington Driver Guide, Distracted Driving (E-DUI)", "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -185,7 +195,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Washington Driver Guide", "citation": "WA DOL Washington Driver Guide, Emergency Vehicles", "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -199,7 +210,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Washington Driver Guide", "citation": "WA DOL Washington Driver Guide, Knowledge Test", "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -218,7 +230,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Washington Driver Guide", "citation": "WA DOL Washington Driver Guide, Types of Licenses", "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -232,7 +245,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Washington Driver Guide", "citation": "WA DOL Washington Driver Guide, Intermediate License", "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -246,7 +260,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Washington Driver Guide", "citation": "WA DOL Washington Driver Guide, Teens and Driving", "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   }
 ]

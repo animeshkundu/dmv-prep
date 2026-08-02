@@ -11,7 +11,8 @@
     "references": [{ "label": "DUI limit", "citation": "Nevada Driver's Handbook, Alcohol and Driving", "url": "https://dmv.nv.gov/dlhandbook.htm" }],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
     "contentVersion": 1
   },
@@ -27,7 +28,8 @@
     "references": [{ "label": "Zero tolerance", "citation": "Nevada Driver's Handbook, Alcohol and Driving", "url": "https://dmv.nv.gov/dlhandbook.htm" }],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
     "contentVersion": 1
   },
@@ -43,7 +45,8 @@
     "references": [{ "label": "Speed limits", "citation": "Nevada Driver's Handbook, Speed Limits", "url": "https://dmv.nv.gov/dlhandbook.htm" }],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
     "contentVersion": 1
   },
@@ -59,7 +62,8 @@
     "references": [{ "label": "School zones", "citation": "NRS 484B.363; Nevada Driver's Handbook", "url": "https://dmv.nv.gov/dlhandbook.htm" }],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
     "contentVersion": 1
   },
@@ -75,7 +79,8 @@
     "references": [{ "label": "Teen licensing", "citation": "Nevada Driver's Handbook, Graduated Licensing", "url": "https://dmv.nv.gov/dlhandbook.htm" }],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
     "contentVersion": 1
   },
@@ -91,7 +96,8 @@
     "references": [{ "label": "Supervised hours", "citation": "Nevada Driver's Handbook, Graduated Licensing", "url": "https://dmv.nv.gov/dlhandbook.htm" }],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
     "contentVersion": 1
   },
@@ -107,7 +113,8 @@
     "references": [{ "label": "Passenger restriction", "citation": "Nevada Driver's Handbook, Graduated Licensing", "url": "https://dmv.nv.gov/dlhandbook.htm" }],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
     "contentVersion": 1
   },
@@ -123,7 +130,8 @@
     "references": [{ "label": "Night restriction", "citation": "Nevada Driver's Handbook, Graduated Licensing", "url": "https://dmv.nv.gov/dlhandbook.htm" }],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
     "contentVersion": 1
   },
@@ -139,7 +147,8 @@
     "references": [{ "label": "Demerit points", "citation": "Nevada DMV Demerit Point System", "url": "https://dmv.nv.gov/dlpoints.htm" }],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
     "contentVersion": 1
   },
@@ -155,7 +164,8 @@
     "references": [{ "label": "Move Over law", "citation": "Nevada Driver's Handbook, Sharing the Road", "url": "https://dmv.nv.gov/dlhandbook.htm" }],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
     "contentVersion": 1
   },
@@ -171,7 +181,8 @@
     "references": [{ "label": "Cell phone law", "citation": "NRS 484B.165; Nevada Driver's Handbook", "url": "https://dmv.nv.gov/dlhandbook.htm" }],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
     "contentVersion": 1
   },
@@ -187,7 +198,8 @@
     "references": [{ "label": "Warning signs", "citation": "Nevada Driver's Handbook, Traffic Signs", "url": "https://dmv.nv.gov/dlhandbook.htm" }],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
     "contentVersion": 1
   },
@@ -203,7 +215,8 @@
     "references": [{ "label": "Right-of-way", "citation": "Nevada Driver's Handbook, Right-of-Way", "url": "https://dmv.nv.gov/dlhandbook.htm" }],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
     "contentVersion": 1
   },
@@ -219,7 +232,8 @@
     "references": [{ "label": "Desert driving", "citation": "Nevada Driver's Handbook, Safe Driving", "url": "https://dmv.nv.gov/dlhandbook.htm" }],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
     "contentVersion": 1
   },
@@ -235,7 +249,8 @@
     "references": [{ "label": "Traffic signals", "citation": "Nevada Driver's Handbook, Traffic Signals", "url": "https://dmv.nv.gov/dlhandbook.htm" }],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
     "contentVersion": 1
   }

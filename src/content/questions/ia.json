@@ -11,7 +11,8 @@
     "references": [{ "label": "Instruction permit", "citation": "Iowa Driver's Manual, Graduated Licensing", "url": "https://iowadot.gov/drivers-licenses-ids/driver-education/manuals-practice-tests/drivers-manual" }],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
     "contentVersion": 1
   },
@@ -27,7 +28,8 @@
     "references": [{ "label": "Intermediate license", "citation": "Iowa Driver's Manual, Graduated Licensing", "url": "https://iowadot.gov/drivers-licenses-ids/driver-education/manuals-practice-tests/drivers-manual" }],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
     "contentVersion": 1
   },
@@ -43,7 +45,8 @@
     "references": [{ "label": "Supervised driving", "citation": "Iowa Driver's Manual, Graduated Licensing", "url": "https://iowadot.gov/drivers-licenses-ids/driver-education/manuals-practice-tests/drivers-manual" }],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
     "contentVersion": 1
   },
@@ -59,7 +62,8 @@
     "references": [{ "label": "Permit holding period", "citation": "Iowa Driver's Manual, Graduated Licensing", "url": "https://iowadot.gov/drivers-licenses-ids/driver-education/manuals-practice-tests/drivers-manual" }],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
     "contentVersion": 1
   },
@@ -75,7 +79,8 @@
     "references": [{ "label": "OWI limit", "citation": "Iowa Code § 321J.2; Iowa Driver's Manual", "url": "https://iowadot.gov/drivers-licenses-ids/driver-education/manuals-practice-tests/drivers-manual" }],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
     "contentVersion": 1
   },
@@ -91,7 +96,8 @@
     "references": [{ "label": "Zero tolerance", "citation": "Iowa Code § 321J.2A; Iowa Driver's Manual", "url": "https://iowadot.gov/drivers-licenses-ids/driver-education/manuals-practice-tests/drivers-manual" }],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
     "contentVersion": 1
   },
@@ -107,7 +113,8 @@
     "references": [{ "label": "Speed limits", "citation": "Iowa Code § 321.285; Iowa Driver's Manual", "url": "https://iowadot.gov/drivers-licenses-ids/driver-education/manuals-practice-tests/drivers-manual" }],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
     "contentVersion": 1
   },
@@ -123,7 +130,8 @@
     "references": [{ "label": "District speed limits", "citation": "Iowa Code § 321.285; Iowa Driver's Manual", "url": "https://iowadot.gov/drivers-licenses-ids/driver-education/manuals-practice-tests/drivers-manual" }],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
     "contentVersion": 1
   },
@@ -139,7 +147,8 @@
     "references": [{ "label": "Move Over law", "citation": "Iowa Code § 321.323A", "url": "https://www.legis.iowa.gov/docs/code/321.323A.pdf" }],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
     "contentVersion": 1
   },
@@ -155,7 +164,8 @@
     "references": [{ "label": "Hands-free law", "citation": "Iowa Code § 321.276 (effective July 1, 2025)", "url": "https://dps.iowa.gov/press-release/2025-06-25/hands-free-its-law" }],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
     "contentVersion": 1
   },
@@ -171,7 +181,8 @@
     "references": [{ "label": "Warning signs", "citation": "Iowa Driver's Manual, Traffic Signs", "url": "https://iowadot.gov/drivers-licenses-ids/driver-education/manuals-practice-tests/drivers-manual" }],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
     "contentVersion": 1
   },
@@ -187,7 +198,8 @@
     "references": [{ "label": "School bus stops", "citation": "Iowa Driver's Manual, Sharing the Road", "url": "https://iowadot.gov/drivers-licenses-ids/driver-education/manuals-practice-tests/drivers-manual" }],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
     "contentVersion": 1
   },
@@ -203,7 +215,8 @@
     "references": [{ "label": "Winter driving", "citation": "Iowa Driver's Manual, Adverse Conditions", "url": "https://iowadot.gov/drivers-licenses-ids/driver-education/manuals-practice-tests/drivers-manual" }],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
     "contentVersion": 1
   },
@@ -219,7 +232,8 @@
     "references": [{ "label": "Pavement markings", "citation": "Iowa Driver's Manual, Pavement Markings", "url": "https://iowadot.gov/drivers-licenses-ids/driver-education/manuals-practice-tests/drivers-manual" }],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
     "contentVersion": 1
   },
@@ -235,7 +249,8 @@
     "references": [{ "label": "Sharing the road", "citation": "Iowa Driver's Manual, Sharing the Road", "url": "https://iowadot.gov/drivers-licenses-ids/driver-education/manuals-practice-tests/drivers-manual" }],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
     "contentVersion": 1
   }

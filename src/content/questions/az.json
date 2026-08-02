@@ -10,7 +10,8 @@
     "difficulty": "medium",
     "references": [{ "label": "School zones", "citation": "Arizona Driver License Manual, Speed Limits", "url": "https://azdot.gov/resources/arizona-driver-license-manual" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -24,7 +25,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Speed limits", "citation": "Arizona Driver License Manual, Speed Limits", "url": "https://azdot.gov/resources/arizona-driver-license-manual" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -43,7 +45,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Under-21 alcohol", "citation": "Arizona Driver License Manual, Alcohol and Driving", "url": "https://azdot.gov/resources/arizona-driver-license-manual" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -57,7 +60,8 @@
     "difficulty": "easy",
     "references": [{ "label": "DUI limits", "citation": "Arizona Driver License Manual, Alcohol and Driving", "url": "https://azdot.gov/resources/arizona-driver-license-manual" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -71,7 +75,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Teen permit", "citation": "ADOT Teen Driver Requirements", "url": "https://azdot.gov/mvd/services/driver-services/teen-drivers/permit-and-license-requirements" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -90,7 +95,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Teen restrictions", "citation": "ADOT Teen Driver Requirements", "url": "https://azdot.gov/mvd/services/driver-services/teen-drivers/permit-and-license-requirements" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -109,7 +115,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Passenger limits", "citation": "ADOT Teen Driver Requirements", "url": "https://azdot.gov/mvd/services/driver-services/teen-drivers/permit-and-license-requirements" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -128,7 +135,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Practice hours", "citation": "ADOT Teen Driver Requirements", "url": "https://azdot.gov/mvd/services/driver-services/teen-drivers/permit-and-license-requirements" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -147,7 +155,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Points", "citation": "Arizona Driver License Manual, Point System", "url": "https://azdot.gov/resources/arizona-driver-license-manual" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -166,7 +175,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Hands-free", "citation": "Arizona Driver License Manual, Distracted Driving (A.R.S. 28-914)", "url": "https://azdot.gov/resources/arizona-driver-license-manual" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -185,7 +195,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Move Over", "citation": "Arizona Driver License Manual (A.R.S. 28-775)", "url": "https://azdot.gov/resources/arizona-driver-license-manual" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -199,7 +210,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Permit age", "citation": "ADOT Permit Test page", "url": "https://azdot.gov/mvd/services/driver-license-ID/permit-test" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -218,7 +230,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Dust storms", "citation": "Arizona Driver License Manual, Special Driving Conditions", "url": "https://azdot.gov/resources/arizona-driver-license-manual" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -237,7 +250,8 @@
     "difficulty": "medium",
     "references": [{ "label": "School buses", "citation": "Arizona Driver License Manual, Sharing the Road", "url": "https://azdot.gov/resources/arizona-driver-license-manual" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -251,7 +265,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Permit validity", "citation": "ADOT Permit Test page", "url": "https://azdot.gov/mvd/services/driver-license-ID/permit-test" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   }
 ]

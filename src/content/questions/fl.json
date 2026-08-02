@@ -10,7 +10,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Speed limits", "citation": "Official Florida Driver License Handbook, Speed Limits", "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -24,7 +25,8 @@
     "difficulty": "medium",
     "references": [{ "label": "School zones", "citation": "Official Florida Driver License Handbook, School Zones", "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -38,7 +40,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Zero tolerance", "citation": "Official Florida Driver License Handbook, Driving Under the Influence", "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -52,7 +55,8 @@
     "difficulty": "easy",
     "references": [{ "label": "BAC limit", "citation": "Official Florida Driver License Handbook, Driving Under the Influence", "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -66,7 +70,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Point suspensions", "citation": "FLHSMV Points and Point Suspensions", "url": "https://www.flhsmv.gov/driver-licenses-id-cards/driver-license-suspensions-revocations/points-point-suspensions/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -80,7 +85,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Point suspensions", "citation": "FLHSMV Points and Point Suspensions", "url": "https://www.flhsmv.gov/driver-licenses-id-cards/driver-license-suspensions-revocations/points-point-suspensions/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -99,7 +105,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Teen curfew", "citation": "Official Florida Driver License Handbook, Graduated Driver License", "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -118,7 +125,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Teen curfew", "citation": "Official Florida Driver License Handbook, Graduated Driver License", "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -137,7 +145,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Learner license", "citation": "Official Florida Driver License Handbook, Graduated Driver License", "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -151,7 +160,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Learner license", "citation": "Official Florida Driver License Handbook, Graduated Driver License", "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -170,7 +180,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Move Over Act", "citation": "Official Florida Driver License Handbook, Move Over Law", "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -189,7 +200,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Texting law", "citation": "Official Florida Driver License Handbook, Distracted Driving", "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -203,7 +215,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Knowledge exam", "citation": "FLHSMV Class E Knowledge Exam & Driving Skills Test", "url": "https://www.flhsmv.gov/driver-licenses-id-cards/licensing-requirements-teens-graduated-driver-license-laws-driving-curfews/class-e-knowledge-exam-driving-skills-test/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -222,7 +235,8 @@
     "difficulty": "hard",
     "references": [{ "label": "School buses", "citation": "Official Florida Driver License Handbook, School Buses", "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -241,7 +255,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Supervised hours", "citation": "Official Florida Driver License Handbook, Graduated Driver License", "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   }
 ]

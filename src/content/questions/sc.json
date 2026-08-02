@@ -10,7 +10,8 @@
     "difficulty": "easy",
     "references": [{ "label": "South Carolina Driver's Manual", "citation": "SCDMV Driver's Manual, Speed Limits; SC Code 56-5-1520", "url": "https://dmv.sc.gov/sites/scdmv/files/2026-01/Drivers%20Manual.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -24,7 +25,8 @@
     "difficulty": "medium",
     "references": [{ "label": "South Carolina Driver's Manual", "citation": "SCDMV Driver's Manual, Alcohol and the Law", "url": "https://dmv.sc.gov/sites/scdmv/files/2026-01/Drivers%20Manual.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -38,7 +40,8 @@
     "difficulty": "easy",
     "references": [{ "label": "South Carolina Driver's Manual", "citation": "SCDMV Driver's Manual, Alcohol and the Law", "url": "https://dmv.sc.gov/sites/scdmv/files/2026-01/Drivers%20Manual.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -52,7 +55,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Graduated Driver License", "citation": "IIHS Graduated Licensing Laws Table (South Carolina)", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -66,7 +70,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Graduated Driver License", "citation": "IIHS Graduated Licensing Laws Table (South Carolina)", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -85,7 +90,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Graduated Driver License", "citation": "IIHS Graduated Licensing Laws Table (South Carolina)", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -104,7 +110,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Graduated Driver License", "citation": "IIHS Graduated Licensing Laws Table (South Carolina)", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -118,7 +125,8 @@
     "difficulty": "medium",
     "references": [{ "label": "South Carolina Driver's Manual", "citation": "SCDMV Driver's Manual, Point System", "url": "https://dmv.sc.gov/sites/scdmv/files/2026-01/Drivers%20Manual.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -137,7 +145,8 @@
     "difficulty": "easy",
     "references": [{ "label": "SC Move Over Law", "citation": "SCDPS Move Over Law", "url": "https://scdps.sc.gov/DrivinginSC/move-over-law" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -156,7 +165,8 @@
     "difficulty": "medium",
     "references": [{ "label": "SC Code 56-5-2941", "citation": "SCDMV Driver's Manual, Alcohol and the Law; SC Code 56-5-2941", "url": "https://dmv.sc.gov/sites/scdmv/files/2026-01/Drivers%20Manual.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -175,7 +185,8 @@
     "difficulty": "easy",
     "references": [{ "label": "South Carolina Driver's Manual", "citation": "SCDMV Driver's Manual, Right of Way", "url": "https://dmv.sc.gov/sites/scdmv/files/2026-01/Drivers%20Manual.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -189,7 +200,8 @@
     "difficulty": "medium",
     "references": [{ "label": "South Carolina Driver's Manual", "citation": "SCDMV Driver's Manual, Vision Requirements", "url": "https://dmv.sc.gov/sites/scdmv/files/2026-01/Drivers%20Manual.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -203,7 +215,8 @@
     "difficulty": "easy",
     "references": [{ "label": "South Carolina Driver's Manual", "citation": "SCDMV Driver's Manual, Knowledge Test", "url": "https://dmv.sc.gov/sites/scdmv/files/2026-01/Drivers%20Manual.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -217,7 +230,8 @@
     "difficulty": "easy",
     "references": [{ "label": "South Carolina Driver's Manual", "citation": "SCDMV Driver's Manual, Knowledge Test", "url": "https://dmv.sc.gov/sites/scdmv/files/2026-01/Drivers%20Manual.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   }
 ]

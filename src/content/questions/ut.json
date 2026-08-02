@@ -11,7 +11,8 @@
     "references": [{ "label": "Utah DUI limit", "citation": "Utah Code § 41-6a-502; Utah Driver Handbook, Alcohol and Drugs", "url": "https://le.utah.gov/xcode/Title41/Chapter6A/41-6a-S502.html" }],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
     "contentVersion": 1
   },
@@ -27,7 +28,8 @@
     "references": [{ "label": "Not-a-Drop law", "citation": "Utah Driver Handbook, Alcohol and Drugs", "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-REV-3.2026.pdf" }],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
     "contentVersion": 1
   },
@@ -43,7 +45,8 @@
     "references": [{ "label": "Commercial BAC", "citation": "Utah Driver Handbook, Alcohol and Drugs", "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-REV-3.2026.pdf" }],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
     "contentVersion": 1
   },
@@ -59,7 +62,8 @@
     "references": [{ "label": "Speed limits", "citation": "Utah Driver Handbook, Speed Limits", "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-REV-3.2026.pdf" }],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
     "contentVersion": 1
   },
@@ -75,7 +79,8 @@
     "references": [{ "label": "School zone speed", "citation": "Utah Code § 41-6a-604; Utah Driver Handbook", "url": "https://le.utah.gov/xcode/Title41/Chapter6A/41-6a-S604.html" }],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
     "contentVersion": 1
   },
@@ -91,7 +96,8 @@
     "references": [{ "label": "Intermediate license restrictions", "citation": "Utah Driver Handbook, Teen Licensing", "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-REV-3.2026.pdf" }],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
     "contentVersion": 1
   },
@@ -107,7 +113,8 @@
     "references": [{ "label": "Supervised practice", "citation": "Utah Driver Handbook, Teen Licensing", "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-REV-3.2026.pdf" }],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
     "contentVersion": 1
   },
@@ -123,7 +130,8 @@
     "references": [{ "label": "Night driving restriction", "citation": "Utah Driver Handbook, Teen Licensing", "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-REV-3.2026.pdf" }],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
     "contentVersion": 1
   },
@@ -139,7 +147,8 @@
     "references": [{ "label": "Point system", "citation": "Utah DLD Point System", "url": "https://dld.utah.gov/points-system/" }],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
     "contentVersion": 1
   },
@@ -155,7 +164,8 @@
     "references": [{ "label": "Move Over law", "citation": "Utah Driver Handbook, Sharing the Road", "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-REV-3.2026.pdf" }],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
     "contentVersion": 1
   },
@@ -171,7 +181,8 @@
     "references": [{ "label": "Distracted driving", "citation": "Utah Driver Handbook, Distracted Driving", "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-REV-3.2026.pdf" }],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
     "contentVersion": 1
   },
@@ -187,7 +198,8 @@
     "references": [{ "label": "Regulatory signs", "citation": "Utah Driver Handbook, Traffic Signs", "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-REV-3.2026.pdf" }],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
     "contentVersion": 1
   },
@@ -203,7 +215,8 @@
     "references": [{ "label": "Traffic signals", "citation": "Utah Driver Handbook, Traffic Signals", "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-REV-3.2026.pdf" }],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
     "contentVersion": 1
   },
@@ -219,7 +232,8 @@
     "references": [{ "label": "Roundabouts", "citation": "Utah Driver Handbook, Right-of-Way", "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-REV-3.2026.pdf" }],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
     "contentVersion": 1
   },
@@ -235,7 +249,8 @@
     "references": [{ "label": "Pavement markings", "citation": "Utah Driver Handbook, Pavement Markings", "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-REV-3.2026.pdf" }],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
     "contentVersion": 1
   },
@@ -251,7 +266,8 @@
     "references": [{ "label": "Following distance", "citation": "Utah Driver Handbook, Safe Driving", "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-REV-3.2026.pdf" }],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
     "contentVersion": 1
   }

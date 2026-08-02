@@ -10,7 +10,8 @@
     "difficulty": "easy",
     "references": [{ "label": "DWI limits", "citation": "Minnesota Driver's Manual (Class D), Alcohol, Drugs and Driving", "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -29,7 +30,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Not a Drop", "citation": "Minnesota Driver's Manual (Class D), Alcohol, Drugs and Driving", "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -48,7 +50,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Implied consent", "citation": "Minnesota Driver's Manual (Class D), Alcohol, Drugs and Driving", "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -62,7 +65,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Supervised driving", "citation": "Minnesota Driver's Manual (Class D), Graduated Driver Licensing", "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -81,7 +85,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Passenger limits", "citation": "Minnesota Driver's Manual (Class D), Graduated Driver Licensing", "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -95,7 +100,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Nighttime restriction", "citation": "Minnesota Driver's Manual (Class D), Graduated Driver Licensing", "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -109,7 +115,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Permit holding period", "citation": "Minnesota Driver's Manual (Class D), Graduated Driver Licensing", "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -123,7 +130,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Speed limits", "citation": "Minnesota Driver's Manual (Class D), Speed Limits", "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -142,7 +150,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Keep right / Slowpoke Law", "citation": "Minnesota Driver's Manual (Class D), Rules of the Road", "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -161,7 +170,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Hands-Free Law", "citation": "Minnesota Driver's Manual (Class D), Distracted Driving", "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -180,7 +190,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Move Over Law", "citation": "Minnesota Driver's Manual (Class D), Sharing the Road", "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -199,7 +210,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Headlight use", "citation": "Minnesota Driver's Manual (Class D), Vehicle Lighting", "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -218,7 +230,8 @@
     "difficulty": "medium",
     "references": [{ "label": "School buses", "citation": "Minnesota Driver's Manual (Class D), Sharing the Road", "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -237,7 +250,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Driver record", "citation": "Minnesota Driver's Manual (Class D), Keeping Your License", "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -256,7 +270,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Occupant protection", "citation": "Minnesota Driver's Manual (Class D), Safety Belts and Restraints", "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   }
 ]

@@ -10,7 +10,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Alabama Speed Limits", "citation": "ALEA Speed Limits; Alabama Driver Manual", "url": "https://www.alea.gov/dps/highway-patrol/speed-limits" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -24,7 +25,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Alabama Driver Manual", "citation": "ALEA Alabama Driver Manual, Alcohol and Driving", "url": "https://www.alea.gov/dps/driver-license/driver-license-manuals" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -38,7 +40,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Alabama Driver Manual", "citation": "ALEA Alabama Driver Manual, Alcohol and Driving", "url": "https://www.alea.gov/dps/driver-license/driver-license-manuals" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -52,7 +55,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Graduated Driver License", "citation": "IIHS Graduated Licensing Laws Table (Alabama)", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -66,7 +70,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Graduated Driver License", "citation": "IIHS Graduated Licensing Laws Table (Alabama)", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -85,7 +90,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Graduated Driver License", "citation": "IIHS Graduated Licensing Laws Table (Alabama)", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -104,7 +110,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Graduated Driver License", "citation": "IIHS Graduated Licensing Laws Table (Alabama)", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -123,7 +130,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Graduated Driver License", "citation": "IIHS Graduated Licensing Laws Table (Alabama)", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -137,7 +145,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Alabama Point System", "citation": "ALEA Driver License Point System", "url": "https://www.alea.gov/dps/driver-license/driver-license-point-system" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -156,7 +165,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Alabama Driver Manual", "citation": "ALEA Alabama Driver Manual, Move Over Law", "url": "https://www.alea.gov/dps/driver-license/driver-license-manuals" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -175,7 +185,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Alabama Driver Manual", "citation": "ALEA Alabama Driver Manual, Distracted Driving", "url": "https://www.alea.gov/dps/driver-license/driver-license-manuals" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -194,7 +205,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Alabama Driver Manual", "citation": "ALEA Alabama Driver Manual, School Buses", "url": "https://www.alea.gov/dps/driver-license/driver-license-manuals" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -228,7 +240,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Alabama Driver Manual", "citation": "ALEA Alabama Driver Manual, STAR I.D.", "url": "https://www.alea.gov/dps/driver-license/driver-license-manuals" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   }
 ]

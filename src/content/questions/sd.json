@@ -10,7 +10,8 @@
     "difficulty": "medium",
     "references": [{ "label": "SD Driver License Manual", "citation": "SD DPS Driver License Manual, speed limits", "url": "https://www.sd.gov/dps?id=cs_kb_article_view&sysparm_article=KB0043733" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -24,7 +25,8 @@
     "difficulty": "medium",
     "references": [{ "label": "SD Driver License Manual", "citation": "SD DPS Driver License Manual, alcohol and the law", "url": "https://www.sd.gov/dps?id=cs_kb_article_view&sysparm_article=KB0043733" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -38,7 +40,8 @@
     "difficulty": "easy",
     "references": [{ "label": "SD Driver License Manual", "citation": "SD DPS Driver License Manual, alcohol and the law", "url": "https://www.sd.gov/dps?id=cs_kb_article_view&sysparm_article=KB0043733" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -52,7 +55,8 @@
     "difficulty": "medium",
     "references": [{ "label": "IIHS GDL table", "citation": "IIHS graduated licensing laws (South Dakota)", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -71,7 +75,8 @@
     "difficulty": "hard",
     "references": [{ "label": "IIHS GDL table", "citation": "IIHS graduated licensing laws (South Dakota)", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -85,7 +90,8 @@
     "difficulty": "medium",
     "references": [{ "label": "IIHS GDL table", "citation": "IIHS graduated licensing laws (South Dakota)", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -104,7 +110,8 @@
     "difficulty": "hard",
     "references": [{ "label": "IIHS GDL table", "citation": "IIHS graduated licensing laws (South Dakota)", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -123,7 +130,8 @@
     "difficulty": "hard",
     "references": [{ "label": "SD driver point system", "citation": "SD DPS Driver Point System", "url": "https://www.sd.gov/dps?id=cs_kb_article_view&sysparm_article=KB0043734" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -142,7 +150,8 @@
     "difficulty": "medium",
     "references": [{ "label": "SD Driver License Manual", "citation": "SD DPS Driver License Manual, move over law", "url": "https://www.sd.gov/dps?id=cs_kb_article_view&sysparm_article=KB0043733" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -161,7 +170,8 @@
     "difficulty": "easy",
     "references": [{ "label": "SD Driver License Manual", "citation": "SD DPS Driver License Manual, distracted driving", "url": "https://www.sd.gov/dps?id=cs_kb_article_view&sysparm_article=KB0043733" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -180,7 +190,8 @@
     "difficulty": "medium",
     "references": [{ "label": "SD Driver License Manual", "citation": "SD DPS Driver License Manual, right of way", "url": "https://www.sd.gov/dps?id=cs_kb_article_view&sysparm_article=KB0043733" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -199,7 +210,8 @@
     "difficulty": "easy",
     "references": [{ "label": "SD Driver License Manual", "citation": "SD DPS Driver License Manual, use of headlights", "url": "https://www.sd.gov/dps?id=cs_kb_article_view&sysparm_article=KB0043733" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -218,7 +230,8 @@
     "difficulty": "medium",
     "references": [{ "label": "SD Driver License Manual", "citation": "SD DPS Driver License Manual, school buses", "url": "https://www.sd.gov/dps?id=cs_kb_article_view&sysparm_article=KB0043733" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -237,7 +250,8 @@
     "difficulty": "easy",
     "references": [{ "label": "SD Driver License Manual", "citation": "SD DPS Driver License Manual, occupant protection", "url": "https://www.sd.gov/dps?id=cs_kb_article_view&sysparm_article=KB0043733" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   }
 ]

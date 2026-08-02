@@ -10,7 +10,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Speed limits", "citation": "Delaware Driver Manual, Speed Limits; 21 Del. C. 4169", "url": "https://www.dmv.de.gov/DriverServices/drivers_license/index.shtml" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -24,7 +25,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Zero tolerance", "citation": "Delaware Driver Manual, Alcohol and Driving", "url": "https://www.dmv.de.gov/DriverServices/drivers_license/index.shtml" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -43,7 +45,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Point system", "citation": "Delaware Driver Manual, Point System / Penalties", "url": "https://www.dmv.de.gov/DriverServices/drivers_license/index.shtml" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -62,7 +65,8 @@
     "difficulty": "medium",
     "references": [{ "label": "School bus violations", "citation": "Delaware Driver Manual, Point System / School Buses", "url": "https://www.dmv.de.gov/DriverServices/drivers_license/index.shtml" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -76,7 +80,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Graduated licensing", "citation": "IIHS Graduated Licensing Laws Table (Delaware); Delaware Driver Manual", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -90,7 +95,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Nighttime restriction", "citation": "IIHS Graduated Licensing Laws Table (Delaware); Delaware Driver Manual", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -109,7 +115,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Passenger limits", "citation": "IIHS Graduated Licensing Laws Table (Delaware); Delaware Driver Manual", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -128,7 +135,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Hands-free law", "citation": "Delaware Driver Manual, Distracted Driving", "url": "https://www.dmv.de.gov/DriverServices/drivers_license/index.shtml" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -147,7 +155,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Move Over Law", "citation": "Delaware Driver Manual, Emergency Vehicles", "url": "https://www.dmv.de.gov/DriverServices/drivers_license/index.shtml" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -161,7 +170,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Regulatory signs", "citation": "Delaware Driver Manual, Traffic Signs", "url": "https://www.dmv.de.gov/DriverServices/drivers_license/index.shtml" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -180,7 +190,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Emergency vehicles", "citation": "Delaware Driver Manual, Right-of-Way / Emergency Vehicles", "url": "https://www.dmv.de.gov/DriverServices/drivers_license/index.shtml" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -199,7 +210,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Traffic signals", "citation": "Delaware Driver Manual, Traffic Signals", "url": "https://www.dmv.de.gov/DriverServices/drivers_license/index.shtml" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -218,7 +230,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Sharing the road", "citation": "Delaware Driver Manual, Sharing the Road with Bicycles", "url": "https://www.dmv.de.gov/DriverServices/drivers_license/index.shtml" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -237,7 +250,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Pavement markings", "citation": "Delaware Driver Manual, Pavement Markings", "url": "https://www.dmv.de.gov/DriverServices/drivers_license/index.shtml" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   }
 ]

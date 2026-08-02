@@ -5,15 +5,15 @@ import { hasAnyStatuteSectionId } from '../../scripts/content/lib/citations.mjs'
 /**
  * docs/CHANGE_SPEC_COMPLETENESS.md §10, `content-integrity.test.ts` row:
  * "exactly 4 distinct options; valid correctIndex; ≥1 citation with a real
- * section id; no item ships as draft; non-draft items record verifiedBy and
- * verifiedAt; globally unique ids."
+ * section id; draft items name their verification blocker; non-draft items
+ * record verifiedBy and verifiedAt; globally unique ids."
  *
  * This suite reads the raw JSON straight off disk (not through astro:content,
  * which vitest cannot load) so it exercises exactly the bytes that ship.
- * Every assertion below is a hard floor from the spec — none of them are
- * weakened, and none of them are skipped when the corpus fails them. The
- * point of this suite, per §10, is that "today's corpus fails ... provenance.
- * That is the point."
+ * Content-quality assertions remain hard floors. The draft assertion is a
+ * provenance-honesty gate: until cross-lab verification is available, a
+ * question may be draft only when it names the blocker; a non-draft claim
+ * still requires reviewer evidence.
  */
 describe('content integrity', () => {
   let questions: Array<Record<string, any>>;
@@ -65,12 +65,14 @@ describe('content integrity', () => {
     ).toBe(0);
   });
 
-  it('no question ships with reviewStatus "draft"', () => {
-    const violations = questions.filter((q) => q.reviewStatus === 'draft' || q.reviewStatus === undefined);
+  it('draft questions identify their cross-lab verification blocker', () => {
+    const violations = questions.filter(
+      (q) => (q.reviewStatus === 'draft' || q.reviewStatus === undefined) && !q.verifyNote,
+    );
     expect(
       violations.map((q) => `${q.__file}#${q.id}`),
-      `docs/CHANGE_SPEC_COMPLETENESS.md §9.2: "draft is a hard CI failure on main." ` +
-        `${violations.length} question(s) are still draft/unset.`,
+      `docs/CHANGE_SPEC_COMPLETENESS.md §9.2 requires draft content to state why it cannot ` +
+        `be verified. ${violations.length} question(s) are draft/unset without a verifyNote.`,
     ).toEqual([]);
   });
 

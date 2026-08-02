@@ -15,7 +15,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Knowledge test", "citation": "Digest of Ohio Motor Vehicle Laws, Knowledge test", "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -29,7 +30,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Zero tolerance", "citation": "Digest of Ohio Motor Vehicle Laws, Alcohol and driving", "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -43,7 +45,8 @@
     "difficulty": "easy",
     "references": [{ "label": "OVI limits", "citation": "Digest of Ohio Motor Vehicle Laws, Alcohol and driving", "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -57,7 +60,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Point system", "citation": "Digest of Ohio Motor Vehicle Laws, Point system", "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -71,7 +75,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Speed limits", "citation": "Digest of Ohio Motor Vehicle Laws, Speed limits", "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -85,7 +90,8 @@
     "difficulty": "medium",
     "references": [{ "label": "School zones", "citation": "Digest of Ohio Motor Vehicle Laws, Speed limits", "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -104,7 +110,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Move Over Law", "citation": "Digest of Ohio Motor Vehicle Laws, Move Over Law", "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -118,7 +125,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Permit age", "citation": "Digest of Ohio Motor Vehicle Laws, Graduated licensing", "url": "https://www.bmv.ohio.gov/dl-gdl.aspx" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -137,7 +145,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Practice hours", "citation": "Digest of Ohio Motor Vehicle Laws, Graduated licensing", "url": "https://www.bmv.ohio.gov/dl-gdl.aspx" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -156,7 +165,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Night restriction", "citation": "Digest of Ohio Motor Vehicle Laws, Graduated licensing", "url": "https://www.bmv.ohio.gov/dl-gdl.aspx" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -175,7 +185,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Passenger limit", "citation": "Digest of Ohio Motor Vehicle Laws, Graduated licensing", "url": "https://www.bmv.ohio.gov/dl-gdl.aspx" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -194,7 +205,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Traffic signals", "citation": "Digest of Ohio Motor Vehicle Laws, Traffic signals", "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -213,7 +225,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Headlight use", "citation": "Digest of Ohio Motor Vehicle Laws, Headlights", "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -232,7 +245,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Distracted driving", "citation": "Digest of Ohio Motor Vehicle Laws, Distracted driving", "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -251,7 +265,8 @@
     "difficulty": "medium",
     "references": [{ "label": "School buses", "citation": "Digest of Ohio Motor Vehicle Laws, School buses", "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   }
 ]

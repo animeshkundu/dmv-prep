@@ -15,7 +15,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Under-21 alcohol", "citation": "Maine Motorist Handbook, OUI and zero tolerance", "url": "https://www.maine.gov/sos/bmv/driver-licenses-and-ids/car-license/driver-license-manual-and-Maine-motorist-handbook-and-study-guide" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -29,7 +30,8 @@
     "difficulty": "easy",
     "references": [{ "label": "OUI limit", "citation": "Maine Motorist Handbook, OUI law", "url": "https://www.maine.gov/sos/bmv/driver-licenses-and-ids/car-license/driver-license-manual-and-Maine-motorist-handbook-and-study-guide" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -48,7 +50,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Intermediate license curfew", "citation": "Maine Motorist Handbook, graduated licensing", "url": "https://www.maine.gov/sos/bmv/driver-licenses-and-ids/car-license/how-to-obtain-a-license" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -67,7 +70,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Passenger restriction", "citation": "Maine Motorist Handbook, intermediate license", "url": "https://www.maine.gov/sos/bmv/driver-licenses-and-ids/car-license/how-to-obtain-a-license" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -86,7 +90,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Intermediate device rule", "citation": "Maine Motorist Handbook, graduated licensing restrictions", "url": "https://www.maine.gov/sos/bmv/driver-licenses-and-ids/car-license/how-to-obtain-a-license" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -100,7 +105,8 @@
     "difficulty": "medium",
     "references": [{ "label": "School-zone speed", "citation": "29-A M.R.S. §2074, rates of speed", "url": "https://www.mainelegislature.org/legis/statutes/29-A/title29-Asec2074.html" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -114,7 +120,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Interstate speed", "citation": "29-A M.R.S. §2074, rates of speed", "url": "https://www.mainelegislature.org/legis/statutes/29-A/title29-Asec2074.html" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -133,7 +140,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Move Over Law", "citation": "Maine Motorist Handbook, emergency vehicles", "url": "https://www.maine.gov/sos/bmv/driver-licenses-and-ids/car-license/driver-license-manual-and-Maine-motorist-handbook-and-study-guide" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -147,7 +155,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Regulatory signs", "citation": "Maine Motorist Handbook, traffic signs", "url": "https://www.maine.gov/sos/bmv/driver-licenses-and-ids/car-license/driver-license-manual-and-Maine-motorist-handbook-and-study-guide" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -166,7 +175,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Traffic signals", "citation": "Maine Motorist Handbook, traffic signals", "url": "https://www.maine.gov/sos/bmv/driver-licenses-and-ids/car-license/driver-license-manual-and-Maine-motorist-handbook-and-study-guide" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -185,7 +195,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Right of way", "citation": "Maine Motorist Handbook, turning and right-of-way", "url": "https://www.maine.gov/sos/bmv/driver-licenses-and-ids/car-license/driver-license-manual-and-Maine-motorist-handbook-and-study-guide" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -204,7 +215,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Animals on the road", "citation": "Maine Motorist Handbook, hazards and safe driving", "url": "https://www.maine.gov/sos/bmv/driver-licenses-and-ids/car-license/driver-license-manual-and-Maine-motorist-handbook-and-study-guide" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -223,7 +235,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Pavement markings", "citation": "Maine Motorist Handbook, pavement markings", "url": "https://www.maine.gov/sos/bmv/driver-licenses-and-ids/car-license/driver-license-manual-and-Maine-motorist-handbook-and-study-guide" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -242,7 +255,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Point system", "citation": "Maine Motorist Handbook, demerit points", "url": "https://www.maine.gov/sos/bmv/driver-licenses-and-ids/car-license/driver-license-manual-and-Maine-motorist-handbook-and-study-guide" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   }
 ]

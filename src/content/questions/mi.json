@@ -10,7 +10,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Zero tolerance", "citation": "What Every Driver Must Know, Alcohol/Drugs; MCL 257.625", "url": "https://www.michigan.gov/sos/all-services/manuals/what-every-driver-must-know" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -29,7 +30,8 @@
     "difficulty": "medium",
     "references": [{ "label": "High BAC law", "citation": "Michigan Impaired Driving Law; MCL 257.625(1)(c)", "url": "https://www.michigan.gov/msp/divisions/ohsp/ohsp-traffic-safety-programs/impaired-driving/impaired-driving-law" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -48,7 +50,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Hands-Free Law", "citation": "Michigan Distracted Driving; MCL 257.602b", "url": "https://www.michigan.gov/msp/divisions/ohsp/traffic-safety-programs/distracted-driving" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -67,7 +70,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Kelsey's Law", "citation": "What Every Driver Must Know, Teen Drivers; MCL 257.602c", "url": "https://www.michigan.gov/sos/all-services/manuals/what-every-driver-must-know" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -86,7 +90,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Level 2 restrictions", "citation": "What Every Driver Must Know, Graduated Licensing; MCL 257.310e", "url": "https://www.michigan.gov/sos/all-services/manuals/what-every-driver-must-know" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -105,7 +110,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Passenger limits", "citation": "What Every Driver Must Know, Graduated Licensing; MCL 257.310e", "url": "https://www.michigan.gov/sos/all-services/manuals/what-every-driver-must-know" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -124,7 +130,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Supervised hours", "citation": "What Every Driver Must Know, Teen Drivers", "url": "https://www.michigan.gov/sos/all-services/manuals/what-every-driver-must-know" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -143,7 +150,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Level 1 eligibility", "citation": "What Every Driver Must Know, Graduated Licensing; MCL 257.310e", "url": "https://www.michigan.gov/sos/all-services/manuals/what-every-driver-must-know" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -157,7 +165,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Speed limits", "citation": "MDOT Michigan Speed Limits; MCL 257.627-257.628", "url": "https://www.michigan.gov/mdot/travel/michigan-speed-limits" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -176,7 +185,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Basic speed law", "citation": "What Every Driver Must Know, Speed; MCL 257.627", "url": "https://www.michigan.gov/sos/all-services/manuals/what-every-driver-must-know" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -195,7 +205,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Point system", "citation": "What Every Driver Must Know, Points and Suspensions; MCL 257.320a", "url": "https://www.michigan.gov/sos/all-services/manuals/what-every-driver-must-know" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -214,7 +225,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Move Over Law", "citation": "What Every Driver Must Know; MCL 257.653b", "url": "https://www.michigan.gov/sos/all-services/manuals/what-every-driver-must-know" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -233,7 +245,8 @@
     "difficulty": "medium",
     "references": [{ "label": "School buses", "citation": "What Every Driver Must Know; MCL 257.682", "url": "https://www.michigan.gov/sos/all-services/manuals/what-every-driver-must-know" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -252,7 +265,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Traffic signals", "citation": "What Every Driver Must Know, Traffic Signals", "url": "https://www.michigan.gov/sos/all-services/manuals/what-every-driver-must-know" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -266,7 +280,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Vision requirement", "citation": "What Every Driver Must Know, Vision Requirements", "url": "https://www.michigan.gov/sos/all-services/manuals/what-every-driver-must-know" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   }
 ]

@@ -10,7 +10,8 @@
     "difficulty": "medium",
     "references": [{ "label": "School zones", "citation": "Colorado Driver Handbook, Speed Limits", "url": "https://dmv.colorado.gov/driver-handbooks" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -24,7 +25,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Speed limits", "citation": "Colorado Driver Handbook, Speed Limits", "url": "https://dmv.colorado.gov/driver-handbooks" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -38,7 +40,8 @@
     "difficulty": "hard",
     "references": [{ "label": "DWAI/DUI", "citation": "Colorado Driver Handbook, Alcohol and Drugs", "url": "https://dmv.colorado.gov/driver-handbooks" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -52,7 +55,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Underage drinking", "citation": "Colorado Driver Handbook, Alcohol and Drugs", "url": "https://dmv.colorado.gov/driver-handbooks" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -71,7 +75,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Express consent", "citation": "Colorado Driver Handbook, Alcohol and Drugs", "url": "https://dmv.colorado.gov/driver-handbooks" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -85,7 +90,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Permit period", "citation": "Colorado DMV, First-Time Driver License", "url": "https://dmv.colorado.gov/permits-first-time-driver-license" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -104,7 +110,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Supervised hours", "citation": "Colorado DMV, First-Time Driver License", "url": "https://dmv.colorado.gov/permits-first-time-driver-license" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -123,7 +130,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Passenger limits", "citation": "Colorado DMV, First-Time Driver License", "url": "https://dmv.colorado.gov/permits-first-time-driver-license" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -142,7 +150,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Night restriction", "citation": "Colorado DMV, First-Time Driver License", "url": "https://dmv.colorado.gov/permits-first-time-driver-license" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -161,7 +170,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Points", "citation": "Colorado Driver Handbook, Point System", "url": "https://dmv.colorado.gov/driver-handbooks" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -180,7 +190,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Minor points", "citation": "Colorado Driver Handbook, Point System", "url": "https://dmv.colorado.gov/driver-handbooks" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -199,7 +210,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Move Over", "citation": "Colorado Driver Handbook, Sharing the Road", "url": "https://dmv.colorado.gov/driver-handbooks" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -218,7 +230,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Mountain driving", "citation": "Colorado Driver Handbook, Special Driving Conditions", "url": "https://dmv.colorado.gov/driver-handbooks" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -237,7 +250,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Permit eligibility", "citation": "Colorado DMV, Driver Education", "url": "https://dmv.colorado.gov/permits-first-time-driver-license" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -251,7 +265,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Bicycles", "citation": "Colorado Driver Handbook, Sharing the Road", "url": "https://dmv.colorado.gov/driver-handbooks" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   }
 ]

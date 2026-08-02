@@ -10,7 +10,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Right of way", "citation": "State driver handbook, uncontrolled intersections" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -24,7 +25,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Right of way", "citation": "State driver handbook, left turns" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -38,7 +40,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Right of way", "citation": "State driver handbook, entering a roadway" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -52,7 +55,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Right of way", "citation": "State driver handbook, T-intersections" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -66,7 +70,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Right of way", "citation": "State driver handbook, emergency vehicles" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -80,7 +85,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Right of way", "citation": "State driver handbook, roundabouts" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -94,7 +100,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Right of way", "citation": "State driver handbook, merging" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -108,7 +115,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Right of way", "citation": "State driver handbook, pedestrians with disabilities" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -122,7 +130,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Right of way", "citation": "State driver handbook, all-way stops" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -136,7 +145,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Right of way", "citation": "State driver handbook, intersections" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -150,7 +160,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Right of way", "citation": "State driver handbook, stop signs" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -164,7 +175,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Right of way", "citation": "State driver handbook, right-of-way principles" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -178,7 +190,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Right of way", "citation": "State driver handbook, sidewalks and driveways" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -192,7 +205,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Parking on hills", "citation": "State driver handbook, hill parking" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -206,7 +220,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Parking on hills", "citation": "State driver handbook, hill parking" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -220,7 +235,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Parking", "citation": "State driver handbook, securing a parked vehicle" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -234,7 +250,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Parking", "citation": "State driver handbook, no-parking zones" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -248,7 +265,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Parking", "citation": "State driver handbook, prohibited stopping" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -262,7 +280,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Parking", "citation": "State driver handbook, accessible parking" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -276,7 +295,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Parking", "citation": "State driver handbook, leaving a parking space" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -290,7 +310,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Parking", "citation": "State driver handbook, parallel parking" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -304,7 +325,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Parking", "citation": "State driver handbook, disabled vehicles" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -318,7 +340,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Parking", "citation": "State driver handbook, prohibited parking" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -332,7 +355,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Parking", "citation": "State driver handbook, unattended vehicles" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -346,7 +370,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Traffic laws", "citation": "State driver handbook, signaling" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -360,7 +385,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Traffic laws", "citation": "State driver handbook, turning on red" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -374,7 +400,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Traffic laws", "citation": "State driver handbook, use of headlights" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -388,7 +415,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Traffic laws", "citation": "State driver handbook, passing" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -402,7 +430,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Traffic laws", "citation": "State driver handbook, when not to pass" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -416,7 +445,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Traffic laws", "citation": "State driver handbook, railroad crossings" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -430,7 +460,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Traffic laws", "citation": "State driver handbook, turning" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -444,7 +475,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Traffic laws", "citation": "State driver handbook, backing up" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -458,7 +490,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Traffic laws", "citation": "State driver handbook, distracted driving" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -472,7 +505,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Traffic laws", "citation": "State driver handbook, lane use" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -486,7 +520,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Traffic laws", "citation": "State driver handbook, duties after a collision" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -515,7 +550,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Traffic laws", "citation": "State driver handbook, U-turns" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -529,7 +565,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Traffic laws", "citation": "State driver handbook, obstructed vision" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -543,7 +580,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Traffic laws", "citation": "State driver handbook, signaling" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -557,7 +595,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Traffic laws", "citation": "State driver handbook, basic speed law" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   }
 ]
