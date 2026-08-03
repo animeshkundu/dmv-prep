@@ -1,0 +1,63 @@
+{
+  "state": "GA",
+  "sources": [
+    {
+      "url": "https://dds.georgia.gov/dds-forms-and-manuals/manuals",
+      "sha256": "e853730c6402fb3a3578f25274679a217cb53f0327a72e8025263c1bc618fbc5",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://dds.georgia.gov/document/document/drivers-manual/download",
+      "handbook": true,
+      "status": 404,
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://dds.georgia.gov/georgia-licenseid/violations-suspensions-revocations/points-and-points-reduction",
+      "sha256": "5582e212d7a3dfcb3d8b68d06671bc2e22aa6ab898add80a74d4dc2e37e30dd8",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://dds.georgia.gov/teen-driving-laws-faqs",
+      "sha256": "2567bc146c62183570b4e227e5d8b2b5b6667d1c3aff769b0d4510451ebb076b",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://mutcd.fhwa.dot.gov/",
+      "sha256": "b774f3f34dfc56d807552547e81123b5b693f5080f1585239891b4b1134f3aa2",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://oci.georgia.gov/insurance-resources/auto",
+      "sha256": "9874b456b9bcc03eeed65911bac7acac4762df440418f8f6a2c328dbdce0595a",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.autoinsurance.com/states/georgia/",
+      "sha256": "e1eb506aed4a3544aa5237b6549834fa47b4c684bcbe1aeb2a276a4cf67e6dba",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.findlaw.com/state/georgia-law/georgia-dui-laws.html",
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://www.findlaw.com/state/georgia-law/georgia-traffic-laws.html",
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://www.iihs.org/research-areas/speed/speed-limit-laws",
+      "sha256": "381e82f5508e943ac29ba82b3c912cb493a4124a02c7e2ab4197e23180751b0d",
+      "contentType": "text/html",
+      "status": 200
+    }
+  ]
+}

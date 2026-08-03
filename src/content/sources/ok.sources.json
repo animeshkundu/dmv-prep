@@ -1,0 +1,29 @@
+{
+  "state": "OK",
+  "sources": [
+    {
+      "url": "https://mutcd.fhwa.dot.gov/",
+      "sha256": "b774f3f34dfc56d807552547e81123b5b693f5080f1585239891b4b1134f3aa2",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://oklahoma.gov/content/dam/ok/en/oklahoma/documents/drivers/drivermanual.pdf",
+      "handbook": true,
+      "status": 404,
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://oklahoma.gov/service/all-pages/driver-education.html",
+      "sha256": "803f6caacf32eeecbf363326470d836ac99e3aff371497ce2bb47ab1133f70d7",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://oklahoma.gov/service/popular-services/written-test.html",
+      "sha256": "4f488318471495ccd6426a828d5f4e6a083d3e3ea0029b6ce20e05a67e37e3c9",
+      "contentType": "text/html",
+      "status": 200
+    }
+  ]
+}

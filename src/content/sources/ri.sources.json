@@ -1,0 +1,29 @@
+{
+  "state": "RI",
+  "sources": [
+    {
+      "url": "https://dmv.ri.gov/licenses-permits-ids/permits-tests/new-license-permits",
+      "sha256": "fdcc518e50c1ae66870653e6e1d448a8c3dd26cde87145714d4d9dfb5b898810",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf",
+      "handbook": true,
+      "status": 404,
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://mutcd.fhwa.dot.gov/",
+      "sha256": "b774f3f34dfc56d807552547e81123b5b693f5080f1585239891b4b1134f3aa2",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table",
+      "sha256": "a4c2b59b06107a409c1a69df93e9cbf431e5b4e2e5c179d6b93528e8b768f3b5",
+      "contentType": "text/html",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "state": "MA",
+  "sources": [
+    {
+      "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleVII/Chapter40/Section22",
+      "sha256": "d52000d0a31cc6f2c2c133b6b1af5a5467eba8f0de4841b06179e77d9eab1bbb",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXIV/Chapter89/Section7C",
+      "sha256": "380b2ea5b968c0671b31deaf4f9416b0f7bb3cdc6c3ac6547b052b500f4d9984",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXIV/Chapter89/Section8",
+      "sha256": "cb3d949085d22543cfecf668e35268675bc88c81ca5ae6122ffc142b7aac610e",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXIV/Chapter90/Section13A",
+      "sha256": "af8037e7bac703946b34ad56e5b4d3c8df54651b6b5def3f40506bd59f949e68",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXIV/Chapter90/Section13B",
+      "sha256": "5d4ea52bfa962a0619cfb0ab2088de6e3c15037f0d0d61cef51765fccc6daba2",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXIV/Chapter90/Section17",
+      "sha256": "0af936671f94bad2314c9c0349681237c4de53ef3cd073cd07ff2c7ff44c8ee0",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXIV/Chapter90/Section18",
+      "sha256": "d5fbf9346024059c61706e848f30892dfde619996a11fa49fdf21202e45b5fce",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXIV/Chapter90/Section24",
+      "sha256": "67310159886a9fb21955c441a099bd36d2c67d059aa5e4fccd044f2d10fea2a3",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXIV/Chapter90/Section24I",
+      "sha256": "0a1e2118ac811adfff6dc84725011f88dae4d03a20f5258b3a8aa2935f89e222",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXIV/Chapter90/Section24P",
+      "sha256": "1c91e45d393a83dffdff8fe1f0e342e47b29c25d47e0d5885912286a264cbc02",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXIV/Chapter90/Section26",
+      "sha256": "dda20d20204a3fa3021046d78a5d1a1718132222facb06954d221737c99d97f3",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXIV/Chapter90/Section34O",
+      "sha256": "313427f1aaa6065ea45b448af428d0176efd7c3ed2c46faa7758916d70a3c069",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXIV/Chapter90/Section7",
+      "sha256": "86256db9db06efb44753d4518abcc455d1624307a260b181cabf872907f53467",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXIV/Chapter90/Section8",
+      "sha256": "f3444f9a85308c753106b32c7274650f324de6e032d45903a2d8d21965522ac0",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXIV/Chapter90/Section8B",
+      "sha256": "1ee46147f28eb70f5fb2647b50ca3eeb9724d90d3650b96082d2a493deab1ac6",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXIV/Chapter90F/Section11",
+      "sha256": "5c6e90412429e014a42b04cbdb0f601c698a59bde67053a1bd66102839ee86fc",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXXII/Chapter175/Section113B",
+      "sha256": "f952616120320a4db256acf136ebdb41f17bbb0f728307d8e001c5c778ed10bb",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://mutcd.fhwa.dot.gov/",
+      "sha256": "b774f3f34dfc56d807552547e81123b5b693f5080f1585239891b4b1134f3aa2",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.mass.gov/how-to/request-a-drivers-manual",
+      "handbook": true,
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.mass.gov/info-details/first-time-driver-start-here",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.mass.gov/info-details/surchargeable-incidents",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.mass.gov/info-details/suspensions-from-multiple-offenses",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.mass.gov/service-details/rmv-fee-schedule",
+      "error": "fetch failed: fetch failed"
+    }
+  ]
+}

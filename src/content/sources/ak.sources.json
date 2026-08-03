@@ -1,0 +1,54 @@
+{
+  "state": "AK",
+  "sources": [
+    {
+      "url": "https://dmv.alaska.gov/credential-services/drivermanual/",
+      "sha256": "e235faddc15b566043ea7774cf2ee546e2867b58f906e8ad6e08ce7729f11407",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://dmv.alaska.gov/credential-services/instruction-permit/",
+      "sha256": "20f9bdaa9c0164fbd48f0da98058a58862943694bff3278e3d540d1449ffb47e",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://dmv.alaska.gov/credential-services/license-fees/",
+      "sha256": "bade6e73e291f26658e2f90aafed4e307e803e5ca45eb286b7b034f3946b373c",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://dmv.alaska.gov/media/t5ef5vi2/dlman.pdf",
+      "handbook": true,
+      "contentType": "application/pdf",
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+    },
+    {
+      "url": "https://mutcd.fhwa.dot.gov/",
+      "sha256": "b774f3f34dfc56d807552547e81123b5b693f5080f1585239891b4b1134f3aa2",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.akleg.gov/basis/aac.asp",
+      "sha256": "152e489c5a18dd2c661d94feda4142d4b3ae69bb3658a902b5bcabaccc71c24b",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.akleg.gov/basis/statutes.asp",
+      "sha256": "6c9f8a0cab71ba0f4fcfe7aaea1a7c270f29b18dc68c56ea6982a3d60885a8d1",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table",
+      "sha256": "a4c2b59b06107a409c1a69df93e9cbf431e5b4e2e5c179d6b93528e8b768f3b5",
+      "contentType": "text/html",
+      "status": 200
+    }
+  ]
+}

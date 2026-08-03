@@ -1,0 +1,32 @@
+{
+  "state": "CT",
+  "sources": [
+    {
+      "url": "https://mutcd.fhwa.dot.gov/",
+      "sha256": "b774f3f34dfc56d807552547e81123b5b693f5080f1585239891b4b1134f3aa2",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://portal.ct.gov/-/media/DMV/20/29/R12.pdf",
+      "handbook": true,
+      "contentType": "text/html",
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+    },
+    {
+      "url": "https://portal.ct.gov/dmv/licenses-permits-ids/take-knowledge-vision-test",
+      "sha256": "f632448ff9f6ba1626c12d3ac4bb715d137ed27b86451f29eba5e22a2ba9a7a0",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.cga.ct.gov/current/pub/chap_248.htm",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.cga.ct.gov/current/pub/chap_700.htm",
+      "error": "fetch failed: fetch failed"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "state": "MS",
+  "sources": [
+    {
+      "url": "https://codes.findlaw.com/ms/title-63-motor-vehicles-and-traffic-regulations/ms-code-sect-63-1-21/",
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://codes.findlaw.com/ms/title-63-motor-vehicles-and-traffic-regulations/ms-code-sect-63-1-9/",
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://codes.findlaw.com/ms/title-63-motor-vehicles-and-traffic-regulations/ms-code-sect-63-11-23/",
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://codes.findlaw.com/ms/title-63-motor-vehicles-and-traffic-regulations/ms-code-sect-63-11-30/",
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://codes.findlaw.com/ms/title-63-motor-vehicles-and-traffic-regulations/ms-code-sect-63-15-3/",
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://codes.findlaw.com/ms/title-63-motor-vehicles-and-traffic-regulations/ms-code-sect-63-2-1/",
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://codes.findlaw.com/ms/title-63-motor-vehicles-and-traffic-regulations/ms-code-sect-63-3-309/",
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://codes.findlaw.com/ms/title-63-motor-vehicles-and-traffic-regulations/ms-code-sect-63-3-411/",
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://codes.findlaw.com/ms/title-63-motor-vehicles-and-traffic-regulations/ms-code-sect-63-3-501/",
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://codes.findlaw.com/ms/title-63-motor-vehicles-and-traffic-regulations/ms-code-sect-63-3-505/",
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://codes.findlaw.com/ms/title-63-motor-vehicles-and-traffic-regulations/ms-code-sect-63-3-511/",
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://codes.findlaw.com/ms/title-63-motor-vehicles-and-traffic-regulations/ms-code-sect-63-3-515/",
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://codes.findlaw.com/ms/title-63-motor-vehicles-and-traffic-regulations/ms-code-sect-63-3-809/",
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://codes.findlaw.com/ms/title-63-motor-vehicles-and-traffic-regulations/ms-code-sect-63-3-901/",
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://codes.findlaw.com/ms/title-63-motor-vehicles-and-traffic-regulations/ms-code-sect-63-33-1/",
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://codes.findlaw.com/ms/title-63-motor-vehicles-and-traffic-regulations/ms-code-sect-63-7-11/",
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://mutcd.fhwa.dot.gov/",
+      "sha256": "b774f3f34dfc56d807552547e81123b5b693f5080f1585239891b4b1134f3aa2",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.driverservicebureau.dps.ms.gov/",
+      "sha256": "f84c0c5fdd9fd521150fedb49e556533838617bc4e3a4cfc2287c4e5dfe0f61b",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.driverservicebureau.dps.ms.gov/Drivers/Driver_Service_Fees",
+      "sha256": "5b88dc6c570871eb4f9858733721f483ae3fd9ef968069189e64c45fcadcf38e",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf",
+      "handbook": true,
+      "contentType": "application/pdf",
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+    }
+  ]
+}

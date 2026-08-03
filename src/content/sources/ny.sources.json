@@ -1,0 +1,127 @@
+{
+  "state": "NY",
+  "sources": [
+    {
+      "url": "http://public.leginfo.state.ny.us/lawssrch.cgi?NVLWO:&hwebpage=LAWS&QLAWDATA=%24%24VAT1111%24%24%40TXVAT01111&LIST=LAW",
+      "sha256": "d5928f8e9161df7de031dd310bcbe418f8d12ea708bdb4dfae7a38c44711c44a",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "http://public.leginfo.state.ny.us/lawssrch.cgi?NVLWO:&hwebpage=LAWS&QLAWDATA=%24%24VAT1180%24%24%40TXVAT01180&LIST=LAW",
+      "sha256": "edda303d4a19e72cbdd74e5f9d5eecebcc66f1aed320adf6e3a42f05f7811c93",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "http://public.leginfo.state.ny.us/lawssrch.cgi?NVLWO:&hwebpage=LAWS&QLAWDATA=%24%24VAT1192-A%24%24%40TXVAT01192-A&LIST=LAW",
+      "sha256": "2862f795a11b4d0fd57a51cdf7d1abec745edd628fb9ab2beae83cde3b5e8de3",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "http://public.leginfo.state.ny.us/lawssrch.cgi?NVLWO:&hwebpage=LAWS&QLAWDATA=%24%24VAT1192%24%24%40TXVAT01192&LIST=LAW",
+      "sha256": "a6a22a5ca539818a5a784ebc5fc48fb9e2e49e714a84bb0a542a99c4b7fc6bba",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "http://public.leginfo.state.ny.us/lawssrch.cgi?NVLWO:&hwebpage=LAWS&QLAWDATA=%24%24VAT1202%24%24%40TXVAT01202&LIST=LAW",
+      "sha256": "3fd1a302ca80c03d8b4671bcee3ffe682c7313825d5870a4828d1492063c8d04",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "http://public.leginfo.state.ny.us/lawssrch.cgi?NVLWO:&hwebpage=LAWS&QLAWDATA=%24%24VAT1225-C%24%24%40TXVAT01225-C&LIST=LAW",
+      "sha256": "bd5097ff97ec3c1ad524519aa2843b56164e01cda107137e5dd133779034bdc6",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "http://public.leginfo.state.ny.us/lawssrch.cgi?NVLWO:&hwebpage=LAWS&QLAWDATA=%24%24VAT1225-D%24%24%40TXVAT01225-D&LIST=LAW",
+      "sha256": "1dd0b7cd976096011d019f53cd2b54aa89f3db80e2e9f1fc3b2fff19cdfc833a",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "http://public.leginfo.state.ny.us/lawssrch.cgi?NVLWO:&hwebpage=LAWS&QLAWDATA=%24%24VAT1227%24%24%40TXVAT01227&LIST=LAW",
+      "sha256": "9fdf52ee57d7878c94f4cf72f03b350e8c92a2091477959825a6f628d72cc1c8",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "http://public.leginfo.state.ny.us/lawssrch.cgi?NVLWO:&hwebpage=LAWS&QLAWDATA=%24%24VAT1229-C%24%24%40TXVAT01229-C&LIST=LAW",
+      "sha256": "e1c752f1ffc7b1560d93f7d4f54affe94cde4392e8510fe76fc4429e77b52ddf",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "http://public.leginfo.state.ny.us/lawssrch.cgi?NVLWO:&hwebpage=LAWS&QLAWDATA=%24%24VAT375%24%24%40TXVAT0375&LIST=LAW",
+      "sha256": "827a4ff5d1390bef1ff47ab0a44be06f02ae302dce8af1d3766e39c1af3ca287",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "http://public.leginfo.state.ny.us/lawssrch.cgi?NVLWO:&hwebpage=LAWS&QLAWDATA=%24%24VAT502%24%24%40TXVAT0502&LIST=LAW",
+      "sha256": "9dc94859a50c95c1f70d2c0296d99c819f49963a3ffa227e94c2ce1891b967c7",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "http://public.leginfo.state.ny.us/lawssrch.cgi?NVLWO:&hwebpage=LAWS&QLAWDATA=%24%24VAT605%24%24%40TXVAT0605&LIST=LAW",
+      "sha256": "602c3a6f4d6fb93652caa8989803fdcc7d96c4f5d179a726fc95e3f0768f5958",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+      "handbook": true,
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://dmv.ny.gov/driver-license/fees-refunds",
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://dmv.ny.gov/insurance/insurance-requirements",
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://dmv.ny.gov/points-and-penalties/the-new-york-state-driver-point-system",
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://dmv.ny.gov/tickets/about-nys-driver-point-system",
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://mutcd.fhwa.dot.gov/",
+      "sha256": "b774f3f34dfc56d807552547e81123b5b693f5080f1585239891b4b1134f3aa2",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://nyassembly.gov/leg/?default_fld=&bn=S05129&term=2023&Summary=Y&Actions=Y&Text=Y",
+      "sha256": "a3367f6079fcca2b3ee6ca1a4d087f0d9185480023427f9ed552808f75c1e8de",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://nyassembly.gov/leg/?default_fld=&bn=S08232&term=2005&Summary=Y&Actions=Y&Text=Y",
+      "sha256": "356ac393c405ec78724eb4fd4c01502bd4a0bcbe16d0fec900c900c369b755bd",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.iihs.org/topics/speed/speed-limit-laws",
+      "sha256": "381e82f5508e943ac29ba82b3c912cb493a4124a02c7e2ab4197e23180751b0d",
+      "contentType": "text/html",
+      "status": 200
+    }
+  ]
+}

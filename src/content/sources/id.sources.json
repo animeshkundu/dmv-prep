@@ -1,0 +1,120 @@
+{
+  "state": "ID",
+  "sources": [
+    {
+      "url": "https://itd.idaho.gov/dmv/young-drivers/",
+      "sha256": "d88fe14f111290e24f0c2ce55bf1cb5356e719d8f0b1118b91b0283f4a81a86c",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf",
+      "handbook": true,
+      "contentType": "application/pdf",
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+    },
+    {
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/Title18/T18CH80/SECT18-8002/",
+      "sha256": "a7c254d21dc666bff1ab6a226213ba0bdd01296779f69574a986e86c9e43c29c",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/Title18/T18CH80/SECT18-8004/",
+      "sha256": "3d6ca71f4d545b7653dd216ceeef2412a61aa2db5123aeeed5148125c57eca39",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/Title18/T18CH80/SECT18-8005/",
+      "sha256": "4201dfe1d7c734c12a061177d6e6016fc185cf4051183dbacc4eddbb51ed1d5f",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/Title23/T23CH5/SECT23-505/",
+      "sha256": "55eb89058289898e227d76e620b1bfe8e18041a4f00ad1c09dff322273769684",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/Title49/T49CH1/SECT49-117/",
+      "sha256": "47843a0e1526726b973640074368ac4a728d5cfa932206a7ea2a77dd15a2a7d5",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/Title49/T49CH13/SECT49-1305/",
+      "sha256": "73303a4760371b3e06582313edaf1ed38b9591b036b8ac63b9c8b06d8fe3d36e",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/Title49/T49CH14/SECT49-1401A/",
+      "sha256": "02faaa60ef0ee0bc8b3df02326950dc1f83626c6b975eb671e22460b35eb527a",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/Title49/T49CH3/SECT49-307/",
+      "sha256": "bd714d938391c10eaab25b67205a80406e14e657ab8f9d8188c58504e1bd1287",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/Title49/T49CH3/SECT49-326/",
+      "sha256": "be8734f988e7de48d83576975a0586fcc60e96b4844d340b3e8f222a9d93539b",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/Title49/T49CH6/SECT49-624/",
+      "sha256": "027fd44071f8a64a2581bd79fbba396493fe4c5caafddac46294cd594c7342be",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/Title49/T49CH6/SECT49-654/",
+      "sha256": "32bb42b4031c30af886404c5d964024ac935d90212f28fca22132bd685dc60dd",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/Title49/T49CH6/SECT49-658/",
+      "sha256": "cf2845796d91f995b92b52878c775224dd9995357901724fd0631689d020bdc3",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/Title49/T49CH6/SECT49-660/",
+      "sha256": "c3650b0f463460c24872f25aa746a6ace4e6c956711410fd0418ddb54e75fa83",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/Title49/T49CH6/SECT49-673/",
+      "sha256": "00836e658fa92e277439753a11077c5cb842abd9b8e708dcba00fd87016034d4",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/Title49/T49CH8/SECT49-802/",
+      "sha256": "7020cc0168431ef28958b52373cb758b7b01188a2efa8ff439341d62254d991d",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/Title49/T49CH9/SECT49-903/",
+      "sha256": "2d16edc13b4121ea80389afe88dfdf26993f1ed1864ce2891f9eb541070fb115",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://mutcd.fhwa.dot.gov/",
+      "sha256": "b774f3f34dfc56d807552547e81123b5b693f5080f1585239891b4b1134f3aa2",
+      "contentType": "text/html",
+      "status": 200
+    }
+  ]
+}

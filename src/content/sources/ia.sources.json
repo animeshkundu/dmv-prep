@@ -1,0 +1,94 @@
+{
+  "state": "IA",
+  "sources": [
+    {
+      "url": "https://dps.iowa.gov/press-release/2025-06-25/hands-free-its-law",
+      "sha256": "d982f33994f2f8b84819cdd364d8749448eaeb39f42df57be0f16377692604b4",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://iowadot.gov/drivers-licenses-ids/driver-education/manuals-practice-tests/drivers-manual",
+      "sha256": "b1ef83678f0f4551ab50197e96192cb8d105848cfc2786f3e87a5a0e60b7454e",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://iowadot.gov/media/7308/download",
+      "handbook": true,
+      "contentType": "application/pdf",
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+    },
+    {
+      "url": "https://mutcd.fhwa.dot.gov/",
+      "sha256": "b774f3f34dfc56d807552547e81123b5b693f5080f1585239891b4b1134f3aa2",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.legis.iowa.gov/docs/code/321.180B.pdf",
+      "contentType": "application/pdf",
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+    },
+    {
+      "url": "https://www.legis.iowa.gov/docs/code/321.257.pdf",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.legis.iowa.gov/docs/code/321.266.pdf",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.legis.iowa.gov/docs/code/321.284.pdf",
+      "contentType": "application/pdf",
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+    },
+    {
+      "url": "https://www.legis.iowa.gov/docs/code/321.285.pdf",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.legis.iowa.gov/docs/code/321.323A.pdf",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.legis.iowa.gov/docs/code/321.358.pdf",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.legis.iowa.gov/docs/code/321.409.pdf",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.legis.iowa.gov/docs/code/321.445.pdf",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.legis.iowa.gov/docs/code/321.pdf",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.legis.iowa.gov/docs/code/321A.21.pdf",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.legis.iowa.gov/docs/code/321J.2.pdf",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.legis.iowa.gov/docs/code/321J.2A.pdf",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.legis.iowa.gov/docs/code/321J.6.pdf",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.legis.iowa.gov/docs/code/321J.9.pdf",
+      "error": "fetch failed: fetch failed"
+    }
+  ]
+}

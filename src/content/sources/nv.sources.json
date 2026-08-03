@@ -1,0 +1,76 @@
+{
+  "state": "NV",
+  "sources": [
+    {
+      "url": "https://dmv.nv.gov/dlfees.htm",
+      "sha256": "b4eac8e44dee088fe5e9d01a60cd430cf00441df8d50190042d0af4d4419cb24",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://dmv.nv.gov/dlhandbook.htm",
+      "sha256": "1c7726a36a1b807b2f9d5c45c9b49d671de260d8f9c6cff882a3908c1e67c58c",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://dmv.nv.gov/dlpoints.htm",
+      "sha256": "5ee7c9363972638b75f27dfa22ccd3c21b943fbd6ac9a4090e386fb5310fdea9",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://dmv.nv.gov/dltesting.htm",
+      "sha256": "d3f165483627bca710b1f41047c2cc8c64f08fd2fa8bfeea6bea3657862eecce",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+      "handbook": true,
+      "contentType": "application/pdf",
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+    },
+    {
+      "url": "https://mutcd.fhwa.dot.gov/",
+      "sha256": "b774f3f34dfc56d807552547e81123b5b693f5080f1585239891b4b1134f3aa2",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.leg.state.nv.us/nrs/nrs-483.html",
+      "sha256": "ef7f44586dbd1a3da292b42eb3566669d4d5b7219aed52a2df7506f0c56e538f",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.leg.state.nv.us/nrs/nrs-483.html#NRS483Sec010",
+      "sha256": "ef7f44586dbd1a3da292b42eb3566669d4d5b7219aed52a2df7506f0c56e538f",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.leg.state.nv.us/nrs/nrs-484b.html",
+      "sha256": "f56a6c5542bceb27f5ff962753b9e1b04e0ffcaad8ffe2334d84daa36fa6152e",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.leg.state.nv.us/nrs/nrs-484b.html#NRS484BSec450",
+      "error": "fetch failed: The operation was aborted due to timeout"
+    },
+    {
+      "url": "https://www.leg.state.nv.us/nrs/nrs-484c.html",
+      "sha256": "e6da3d87d1aa78d766dbf2c0e59cf2a8042550c7d1a36b93a6cae21172bc255c",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.leg.state.nv.us/nrs/nrs-485.html",
+      "sha256": "b3b754724aa1f2fb48dd6e3f1310475fe7e48cd5e24fea9cb05c83f51e4029e1",
+      "contentType": "text/html",
+      "status": 200
+    }
+  ]
+}

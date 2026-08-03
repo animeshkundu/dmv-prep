@@ -1,0 +1,66 @@
+{
+  "state": "NH",
+  "sources": [
+    {
+      "url": "https://gc.nh.gov/rsa/html/XXI/263/263-14.htm",
+      "sha256": "7229c6b618d5e90f754f095f181cec655034ca3bfcab8600fdcc1a0e7a711a64",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://gc.nh.gov/rsa/html/XXI/263/263-56.htm",
+      "sha256": "53de8545a57d6428fa3385649a8b5c0980bc3759ab5d3c1bf1304cca736abed7",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://gc.nh.gov/rsa/html/XXI/264/264-15.htm",
+      "sha256": "ce951b19abbbb0d96b56dbccd3cb3965b0d5d155410ded6d2c5cb89effbb7a97",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://gc.nh.gov/rsa/html/XXI/265-A/265-A-2.htm",
+      "sha256": "faf91fde70d56827d32b4901aa1c308a4c922ef393ea47bb2789883883eadebf",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://gc.nh.gov/rsa/html/XXI/265/265-107-a.htm",
+      "sha256": "019775ce487f183758a6bb53b1f1ee993ebb079ea2886cd130e15fb2074be863",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://gc.nh.gov/rsa/html/XXI/265/265-60.htm",
+      "sha256": "5d152d9e6c5ce40d19d4613705fcf5ec3d712087103e71752b6a3cf487e59e08",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://gc.nh.gov/rsa/html/XXI/265/265-73.htm",
+      "sha256": "b2e43398f2f60ab751d0eda1677df0c0cfde5668488d602343ac048bee96199b",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://mutcd.fhwa.dot.gov/",
+      "sha256": "b774f3f34dfc56d807552547e81123b5b693f5080f1585239891b4b1134f3aa2",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.dmv.nh.gov/sites/g/files/ehbemt416/files/inline-documents/nhdm.pdf",
+      "handbook": true,
+      "contentType": "application/pdf",
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+    },
+    {
+      "url": "https://www.iihs.org/topics/teenagers/graduated-licensing-laws-table",
+      "sha256": "a4c2b59b06107a409c1a69df93e9cbf431e5b4e2e5c179d6b93528e8b768f3b5",
+      "contentType": "text/html",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "state": "TN",
+  "sources": [
+    {
+      "url": "https://mutcd.fhwa.dot.gov/",
+      "sha256": "b774f3f34dfc56d807552547e81123b5b693f5080f1585239891b4b1134f3aa2",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+      "handbook": true,
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.tn.gov/safety/driver-services/helpful-information/fees.html",
+      "error": "fetch failed: fetch failed"
+    }
+  ]
+}

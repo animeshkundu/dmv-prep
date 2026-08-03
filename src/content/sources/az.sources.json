@@ -1,0 +1,146 @@
+{
+  "state": "AZ",
+  "sources": [
+    {
+      "url": "https://apps.azdot.gov/files/mvd/mvd-forms-lib/99-0117.pdf",
+      "handbook": true,
+      "contentType": "application/pdf",
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+    },
+    {
+      "url": "https://azdot.gov/motor-vehicles/driver-services/driver-license-information/fees-driver-license",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://azdot.gov/mvd/services/driver-license-ID/permit-test",
+      "sha256": "d77e3a39c99abc4f1eac8ad1867f1dba6f487b174b5cda3993a15282685937e1",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://azdot.gov/mvd/services/driver-services/teen-drivers/permit-and-license-requirements",
+      "sha256": "bc919122493a872fa93e2c7a95b7b3b870c8e0b2d69987bd283a678d3df0e9b6",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://azdot.gov/resources/arizona-driver-license-manual",
+      "sha256": "add7058f4d9677aeb1bad809da76c9842d91a35124d05b43ebeed893dadefc08",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://mutcd.fhwa.dot.gov/",
+      "sha256": "b774f3f34dfc56d807552547e81123b5b693f5080f1585239891b4b1134f3aa2",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.azleg.gov/ars/04/00244.htm",
+      "status": 404,
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.azleg.gov/ars/04/00251.htm",
+      "status": 404,
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.azleg.gov/ars/28/00645.htm",
+      "sha256": "2d03e4a042c8c3a209f2e47e6c1cbbea992e4905306d4082cf3eb01a7db28e7c",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.azleg.gov/ars/28/00667.htm",
+      "sha256": "0e187fca9c6a53dbb5a01913e091f63bce394a56227456054d859168bc64db47",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.azleg.gov/ars/28/00701.htm",
+      "sha256": "f92d01fb474291674da7cccc6cabf385cd850d7f75235243e0beffc0782c2f8f",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.azleg.gov/ars/28/00702.htm",
+      "sha256": "28983adf88004ac138238ab4ece28e0a7f6c155fc788a6547ac766218bbcffd0",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.azleg.gov/ars/28/00775.htm",
+      "sha256": "c51bfe430321697c53eac6fbb220481969cfcd8533c9c928bc2d19c9964b8d2e",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.azleg.gov/ars/28/00873.htm",
+      "sha256": "523f743a125b207871aab6bd24d9cefe602e961cb319ae1d1636f2cfae8ca7d1",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.azleg.gov/ars/28/00909.htm",
+      "sha256": "6940a0d6d13a975389cfaa69ebb7cd5615b64f523602c4b9cdbb80df958839f0",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.azleg.gov/ars/28/00914.htm",
+      "sha256": "d1897faa281090c4c935167e1506ee51e06a241e7e49c6e6cdb17f546a6ff04d",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.azleg.gov/ars/28/00922.htm",
+      "sha256": "6025b4518f6ac283c2a662fc7a427d4814e6199a59b5c1a1606367cf5843d006",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.azleg.gov/ars/28/01321.htm",
+      "sha256": "cdaff45bf0020e6028d5d86c19dfb2ff44c6bd1c6e83c7e2248f7eff779509e5",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.azleg.gov/ars/28/01381.htm",
+      "sha256": "a9e9defe7c5681c8c8afaf95a065beb605136e046f44fcb5bc7bff63d365acd7",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.azleg.gov/ars/28/01385.htm",
+      "sha256": "8e6e2b3c058e74292d835aa15e86a46d887e4f9d6a7aef9b4777c5d3883401aa",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.azleg.gov/ars/28/03154.htm",
+      "sha256": "f56683e3bbe1202a500e52b4c1aca1fed2c86c694f79f8968837d5122de79790",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.azleg.gov/ars/28/03160.htm",
+      "sha256": "0be6e1a11d2b6e1487fd6f5c5c4d6dabe0228778288746e061448884106dbe8d",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.azleg.gov/ars/28/03306.htm",
+      "sha256": "c732d00da2825f29656485ec4efcfa97db423c5a9ab5880a30855f20012f3e37",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.azleg.gov/ars/28/04009.htm",
+      "sha256": "59f528b8a96436910c84bceb92d55ee875e96b8cd7a0355ffd1cd9f20351e950",
+      "contentType": "text/html",
+      "status": 200
+    }
+  ]
+}

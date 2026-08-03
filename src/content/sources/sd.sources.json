@@ -1,0 +1,126 @@
+{
+  "state": "SD",
+  "sources": [
+    {
+      "url": "https://dps.sd.gov/driver-licensing",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://mutcd.fhwa.dot.gov/",
+      "sha256": "b774f3f34dfc56d807552547e81123b5b693f5080f1585239891b4b1134f3aa2",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://sdlegislature.gov/Statutes/Codified_Laws/DisplayStatute.aspx?Type=Statute&Statute=32-12-49",
+      "sha256": "b4d2049c03b204db0808c69538ae85120a2764d61f1409175fb293a96fdb12a6",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://sdlegislature.gov/Statutes/Codified_Laws/DisplayStatute.aspx?Type=Statute&Statute=32-12A-1",
+      "sha256": "b4d2049c03b204db0808c69538ae85120a2764d61f1409175fb293a96fdb12a6",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://sdlegislature.gov/Statutes/Codified_Laws/DisplayStatute.aspx?Type=Statute&Statute=32-17-4",
+      "sha256": "b4d2049c03b204db0808c69538ae85120a2764d61f1409175fb293a96fdb12a6",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://sdlegislature.gov/Statutes/Codified_Laws/DisplayStatute.aspx?Type=Statute&Statute=32-23",
+      "sha256": "b4d2049c03b204db0808c69538ae85120a2764d61f1409175fb293a96fdb12a6",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://sdlegislature.gov/Statutes/Codified_Laws/DisplayStatute.aspx?Type=Statute&Statute=32-23-21",
+      "sha256": "b4d2049c03b204db0808c69538ae85120a2764d61f1409175fb293a96fdb12a6",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://sdlegislature.gov/Statutes/Codified_Laws/DisplayStatute.aspx?Type=Statute&Statute=32-23-7",
+      "sha256": "b4d2049c03b204db0808c69538ae85120a2764d61f1409175fb293a96fdb12a6",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://sdlegislature.gov/Statutes/Codified_Laws/DisplayStatute.aspx?Type=Statute&Statute=32-25-14",
+      "sha256": "b4d2049c03b204db0808c69538ae85120a2764d61f1409175fb293a96fdb12a6",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://sdlegislature.gov/Statutes/Codified_Laws/DisplayStatute.aspx?Type=Statute&Statute=32-25-3",
+      "sha256": "b4d2049c03b204db0808c69538ae85120a2764d61f1409175fb293a96fdb12a6",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://sdlegislature.gov/Statutes/Codified_Laws/DisplayStatute.aspx?Type=Statute&Statute=32-25-7",
+      "sha256": "b4d2049c03b204db0808c69538ae85120a2764d61f1409175fb293a96fdb12a6",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://sdlegislature.gov/Statutes/Codified_Laws/DisplayStatute.aspx?Type=Statute&Statute=32-26-18",
+      "sha256": "b4d2049c03b204db0808c69538ae85120a2764d61f1409175fb293a96fdb12a6",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://sdlegislature.gov/Statutes/Codified_Laws/DisplayStatute.aspx?Type=Statute&Statute=32-26-47",
+      "sha256": "b4d2049c03b204db0808c69538ae85120a2764d61f1409175fb293a96fdb12a6",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://sdlegislature.gov/Statutes/Codified_Laws/DisplayStatute.aspx?Type=Statute&Statute=32-30-2",
+      "sha256": "b4d2049c03b204db0808c69538ae85120a2764d61f1409175fb293a96fdb12a6",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://sdlegislature.gov/Statutes/Codified_Laws/DisplayStatute.aspx?Type=Statute&Statute=32-31-6",
+      "sha256": "b4d2049c03b204db0808c69538ae85120a2764d61f1409175fb293a96fdb12a6",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://sdlegislature.gov/Statutes/Codified_Laws/DisplayStatute.aspx?Type=Statute&Statute=32-34-1",
+      "sha256": "b4d2049c03b204db0808c69538ae85120a2764d61f1409175fb293a96fdb12a6",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://sdlegislature.gov/Statutes/Codified_Laws/DisplayStatute.aspx?Type=Statute&Statute=32-38-1",
+      "sha256": "b4d2049c03b204db0808c69538ae85120a2764d61f1409175fb293a96fdb12a6",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://sdlegislature.gov/Statutes/Codified_Laws/DisplayStatute.aspx?Type=Statute&Statute=58-23-7",
+      "sha256": "b4d2049c03b204db0808c69538ae85120a2764d61f1409175fb293a96fdb12a6",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table",
+      "sha256": "a4c2b59b06107a409c1a69df93e9cbf431e5b4e2e5c179d6b93528e8b768f3b5",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.sd.gov/dps?id=cs_kb_article_view&sysparm_article=KB0043733",
+      "handbook": true,
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.sd.gov/dps?id=cs_kb_article_view&sysparm_article=KB0043734",
+      "error": "fetch failed: fetch failed"
+    }
+  ]
+}

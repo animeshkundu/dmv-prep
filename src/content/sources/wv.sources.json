@@ -1,0 +1,24 @@
+{
+  "state": "WV",
+  "sources": [
+    {
+      "url": "https://mutcd.fhwa.dot.gov/",
+      "sha256": "b774f3f34dfc56d807552547e81123b5b693f5080f1585239891b4b1134f3aa2",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://transportation.wv.gov/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf",
+      "handbook": true,
+      "contentType": "application/pdf",
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+    },
+    {
+      "url": "https://transportation.wv.gov/DMV/Drivers/Pages/Point-System.aspx",
+      "sha256": "4050ac999752fd0558e8570b90e962d10b52c5ea496e7452d916ae3bab66fcd1",
+      "contentType": "text/html",
+      "status": 200
+    }
+  ]
+}

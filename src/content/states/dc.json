@@ -9,8 +9,14 @@
   "handbookEditionYear": 2024,
   "handbookCopyrightStatus": "unknown",
   "applicantVariants": [
-    { "id": "under-21", "label": "Under 21 (GRAD graduated licensing)" },
-    { "id": "adult", "label": "Adult (21+)" }
+    {
+      "id": "under-21",
+      "label": "Under 21 (GRAD graduated licensing)"
+    },
+    {
+      "id": "adult",
+      "label": "Adult (21+)"
+    }
   ],
   "examVariants": [
     {
@@ -18,7 +24,9 @@
       "label": "Knowledge test — under 21 (GRAD)",
       "numQuestions": 30,
       "numToPass": 24,
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "onlineAvailable": true
     },
     {
@@ -26,7 +34,9 @@
       "label": "Knowledge test — 21 and older",
       "numQuestions": 25,
       "numToPass": 20,
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "onlineAvailable": true
     }
   ],
@@ -70,7 +80,11 @@
     "moveOverRule": "Slow down and, when safe, move over a lane for stopped emergency, tow, and service vehicles displaying flashing lights",
     "interstateMaxSpeed": "55 mph (freeways such as I-295/DC-295)",
     "schoolZoneSpeed": "15 mph when children are present",
-    "namedLaws": ["Move Over Law", "Distracted Driving Safety Act (handheld ban)", "Zero Tolerance Law"]
+    "namedLaws": [
+      "Move Over Law",
+      "Distracted Driving Safety Act (handheld ban)",
+      "Zero Tolerance Law"
+    ]
   },
   "references": [
     {
@@ -90,7 +104,7 @@
     }
   ],
   "effectiveDate": "2026-07-24",
-  "sourceSnapshotHash": "seed-pending-verification",
+  "sourceSnapshotHash": "0bdc0d002d163539031489572317e75ffa97c17b28bc5d8fc97abe6bcfcc4f8b",
   "reviewStatus": "draft",
   "verifyNote": "Official DC DMV sources confirm the age-based test lengths (under 21: 30; age 21+: 25), $10 service-center test fee, $20 permit/provisional fees, $47 eight-year license fee, minimum age 16, six-month/40-hour learner requirements, BAC limits, and point thresholds. The official pages available in this review did not explicitly state the 24/30 and 20/25 passing scores, and the current manual edition year and seasonal provisional curfew wording remain unconfirmed.",
   "lastVerified": "2026-07-24",

@@ -1,0 +1,100 @@
+{
+  "state": "MI",
+  "sources": [
+    {
+      "url": "https://mutcd.fhwa.dot.gov/",
+      "sha256": "b774f3f34dfc56d807552547e81123b5b693f5080f1585239891b4b1134f3aa2",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-310e",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-319",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-320",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-320a",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-602b",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-612",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-622",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-624a",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-625",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-625f",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-625m",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-627",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-628",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-653a",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-674",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-684",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-710e",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-500-3009",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.michigan.gov/mdot/travel/michigan-speed-limits",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.michigan.gov/msp/divisions/ohsp/ohsp-traffic-safety-programs/impaired-driving/impaired-driving-law",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.michigan.gov/msp/divisions/ohsp/traffic-safety-programs/distracted-driving",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.michigan.gov/sos/all-services/manuals/what-every-driver-must-know",
+      "handbook": true,
+      "error": "fetch failed: fetch failed"
+    }
+  ]
+}

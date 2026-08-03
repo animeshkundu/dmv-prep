@@ -1,0 +1,108 @@
+{
+  "state": "UT",
+  "sources": [
+    {
+      "url": "https://dld.utah.gov/fees/",
+      "sha256": "7d08db91410030e422c67dddfd34c1fbb3521e4dd15f9e0377bfadf5af6219bb",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://dld.utah.gov/points-system/",
+      "sha256": "c3fb1cd23cc27e2baa1458d92ddee13e05b2e26c7fbc3a006240926a4264fc27",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-REV-3.2026.pdf",
+      "handbook": true,
+      "contentType": "application/pdf",
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+    },
+    {
+      "url": "https://le.utah.gov/xcode/Title31A/Chapter22/31A-22-S304.html",
+      "sha256": "120ed72734baa656096dc3e210a07c46c783761c173a64a08c4594b500ef7008",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://le.utah.gov/xcode/Title41/Chapter6A/41-6a-S1716.html",
+      "sha256": "597f55daa2ace99e4290f41dfb2f2a7cbf240b4a71fc54c8b414efef64327834",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://le.utah.gov/xcode/Title41/Chapter6A/41-6a-S1803.html",
+      "sha256": "a1740dfdfb787fed49ab21bc26d67c380ca1fd84e760f4e8d004983773378633",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://le.utah.gov/xcode/Title41/Chapter6A/41-6a-S305.html",
+      "contentType": "text/html",
+      "status": 200,
+      "error": "extraction failed: No extractable text was found for https://le.utah.gov/xcode/Title41/Chapter6A/41-6a-S305.html; refusing to hash an empty source."
+    },
+    {
+      "url": "https://le.utah.gov/xcode/Title41/Chapter6A/41-6a-S401.html",
+      "sha256": "a15d20f22d61e92c468c85d5f777507caad2f20264257a88552b39f3c484e0af",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://le.utah.gov/xcode/Title41/Chapter6A/41-6a-S502.html",
+      "sha256": "87b1f86ba40c3580941aa6ec87b775a4a35d9fb1f7d14b04059b6318a3ec2085",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://le.utah.gov/xcode/Title41/Chapter6A/41-6a-S520.html",
+      "sha256": "16848390e365beac980023e74e40eece3380704ef8a00e05ec811558531c9c86",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://le.utah.gov/xcode/Title41/Chapter6A/41-6a-S526.html",
+      "sha256": "d5fd35d8dd7fd9211bcc1ea6db46a4178dca0322fa63e257aa639866e1181f8b",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://le.utah.gov/xcode/Title41/Chapter6A/41-6a-S601.html",
+      "sha256": "719757cea41ea623c2c2d389349061294eb90f48a9121f1b4724f0855cc01924",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://le.utah.gov/xcode/Title41/Chapter6A/41-6a-S604.html",
+      "sha256": "5bb236b2e6522722256cfa4c250357cc4feee4364b92342083d2a2d8a9a265a6",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://le.utah.gov/xcode/Title41/Chapter6A/41-6a-S904.html",
+      "sha256": "fdfcb0a4bf10c9daa1da33ab2cb2e2b847e4f5d1f8d8ac5d000256ab5c5fed8e",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://le.utah.gov/xcode/Title53/Chapter3/53-3-S221.html",
+      "sha256": "47c55d126d4d47113dcfe06ce98808978392d9e4386db9f9dd6b3737f4246ecb",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://le.utah.gov/xcode/Title53/Chapter3/53-3-S223.html",
+      "sha256": "b46110a8bf21c654c36e72827d99c4b92da71b8db6e177bf0221e7e8e3ed8b35",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://mutcd.fhwa.dot.gov/",
+      "sha256": "b774f3f34dfc56d807552547e81123b5b693f5080f1585239891b4b1134f3aa2",
+      "contentType": "text/html",
+      "status": 200
+    }
+  ]
+}

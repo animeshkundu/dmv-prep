@@ -1,0 +1,118 @@
+{
+  "state": "IL",
+  "sources": [
+    {
+      "url": "https://law.onecle.com/illinois/625ilcs5/11-1303.html",
+      "sha256": "d10d42f731bb543e6e0800dd60de96f3a2c16181c27d088d579908327a7a007a",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://law.onecle.com/illinois/625ilcs5/11-306.html",
+      "sha256": "680aff1bb0d78664879911032eaa45b4bc0b1bcd75a64dd9d133f83f60607f8f",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://law.onecle.com/illinois/625ilcs5/11-406.html",
+      "sha256": "ab1313f37725d58e162f89132ada862ebfcc0fdf9c5f539755e77ccc83e1e563",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://law.onecle.com/illinois/625ilcs5/11-501.1.html",
+      "sha256": "de85b50080ac78885c61d2e7d4fa86a6c83e5ec1d76a2e951aeffaa7036e4e69",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://law.onecle.com/illinois/625ilcs5/11-501.html",
+      "sha256": "33b7f2fff1db623004ae20328d4521d5a6c303aa6ca16f4e53734d7f8f6ece1a",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://law.onecle.com/illinois/625ilcs5/11-502.html",
+      "sha256": "1fa5fe616cf670738ad6d6b03e492bafd514691d240426ac7967e585fed7f72e",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://law.onecle.com/illinois/625ilcs5/11-601.html",
+      "sha256": "ab241ff218f84147023f795d0f7929877dee632550c48743fc5baace077baa02",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://law.onecle.com/illinois/625ilcs5/11-605.html",
+      "sha256": "84625df51d06832f4b02c929fa36da8e4b379f8aeadcdc23ee8053634d1fcf1c",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://law.onecle.com/illinois/625ilcs5/11-907.html",
+      "sha256": "402c98586c0b4f67f587de37328fa2cdd7ba5d1933b0deb2932d89e2463ed607",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://law.onecle.com/illinois/625ilcs5/12-201.html",
+      "sha256": "5751884f3455964464d88387e51e65d8093d352335dfb7a9d6db22cf317d513e",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://law.onecle.com/illinois/625ilcs5/12-603.1.html",
+      "sha256": "2709a2f5456c85976e094aeb3aa46a351f6fa3ec604d570d80e683b81581a00e",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://law.onecle.com/illinois/625ilcs5/12-610.2.html",
+      "sha256": "6de8b0cdaa3a86dd0a0fa28c2fa6c5867384af334561029583bf5cbef9d35479",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://law.onecle.com/illinois/625ilcs5/6-206.html",
+      "sha256": "b00b939d7d695bf0ff3630149d319aa48b084e04499d93034c1a78c5103a3caa",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://law.onecle.com/illinois/625ilcs5/6-208.1.html",
+      "sha256": "37e3a7eeabac3ab940e9979147c5b285ab860dcb5ae54e91675ae7fb4ed2d8c4",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://law.onecle.com/illinois/625ilcs5/6-514.html",
+      "sha256": "fab5bef5727d02e51c88bb1ea9c36de8bb9832f7f35ec2c2ea2a379d65e8d95b",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://law.onecle.com/illinois/625ilcs5/7-203.html",
+      "sha256": "a59179d5b5e43328b7b32b3b57b822f10f2ae9503aa619f1d4a72cfca17353fb",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://mutcd.fhwa.dot.gov/",
+      "sha256": "b774f3f34dfc56d807552547e81123b5b693f5080f1585239891b4b1134f3aa2",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.ilsos.gov/departments/drivers/drivers_license/home.html",
+      "error": "fetch failed: The operation was aborted due to timeout"
+    },
+    {
+      "url": "https://www.ilsos.gov/publications/pdf_publications/dsd_a112.pdf",
+      "handbook": true,
+      "contentType": "application/pdf",
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+    }
+  ]
+}

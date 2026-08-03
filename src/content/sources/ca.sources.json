@@ -1,0 +1,143 @@
+{
+  "state": "CA",
+  "sources": [
+    {
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=12509.&lawCode=VEH",
+      "sha256": "ed065d5e1ea7509f9e88a4bc7102aff43748ab0ef14ca96ed3f02a03c799541e",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=12810.5.&lawCode=VEH",
+      "sha256": "38dfafd5806bd0de4f218522b9cd2c98f789082f8db1019e5b971f453fd84671",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=12814.6.&lawCode=VEH",
+      "sha256": "1c4a89eb65851c218b456c001bd9b1dbb3a797c4a30ad0f942ab657823d224fb",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=13352.&lawCode=VEH",
+      "sha256": "bb288630afa8311a8bbce4ab3f45352481df8c3768cbb3daec8e4365c95b1d0b",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=13353.&lawCode=VEH",
+      "sha256": "9ad58110366f9e1b2043f96782a3965b186964302bb658160e19b929fa346599",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=16000.&lawCode=VEH",
+      "sha256": "1af1f0a0517f621fbdf7c07120c36fc8d98f3deb9cf2e907e5668da5c7f14fd9",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=16056.&lawCode=VEH",
+      "sha256": "6470379b45481a73411922da4b4df5a11a85f8bb2669128e09c7b9543297785a",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=21453.&lawCode=VEH",
+      "sha256": "52d5b4c1ec820651cea5c2dfc9ac7fdad75ad1eca5b166dae700c45bc3bc37fc",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=21809.&lawCode=VEH",
+      "sha256": "0725f129c06339eb50c6659d4eaa512c903b715fda85a2f37e4c7368fa81aa83",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=22350.&lawCode=VEH",
+      "sha256": "8557de5416e70a4ab52f3b5b3986f57ed99406d4ea7faddf8a2863e10ae8a5ad",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=22356.&lawCode=VEH",
+      "sha256": "39f61bea20af1ec542bc2c3bb870e5cfa02a06a0551715ea7a520be3eeb6af60",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=22500.&lawCode=VEH",
+      "sha256": "35859615b25fdee3bfc8b1be784f1ed24c56e028a2e4db7f0a71a2ee7e9620bd",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=23123.5&lawCode=VEH",
+      "sha256": "068bd4f989850111e77b6031e3c98ca7f9dc3250393a005382e17bdedf2a9d5c",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=23136.&lawCode=VEH",
+      "sha256": "41fa392d46d8281d51183bb8b8a5e7492d1c430459ecbebf26738042f6c3a6f5",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=23152.&lawCode=VEH",
+      "sha256": "13dc668d4f9a5f9d2d8d5af82cec6d1dc9552f909fd151c472e6f02a1c8218a8",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=23223.&lawCode=VEH",
+      "sha256": "91d015ba0b5dd42e970a68ae7e46b64ac2a97b197182aef82e4b196f922f8dc4",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=24400.&lawCode=VEH",
+      "sha256": "184a561699f2fc2aa55e3ff6be290fddc3f820db8e70b6ff29042f9a21a5f3a6",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=27315.&lawCode=VEH",
+      "sha256": "bf92c19d4c537f5ca4efae6184efab258dc6a89c8e2689159737a39db459b540",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://leginfo.legislature.ca.gov/faces/selectFromMultiples.xhtml?lawCode=VEH&sectionNum=22352.",
+      "sha256": "a9624de459767a1ef6fee686ef17a62dd40f743a55db659f1f0a76a1a2c0b7e6",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://mutcd.fhwa.dot.gov/",
+      "sha256": "b774f3f34dfc56d807552547e81123b5b693f5080f1585239891b4b1134f3aa2",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/dl-id-fees/",
+      "status": 404,
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+      "handbook": true,
+      "contentType": "application/pdf",
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+    },
+    {
+      "url": "https://www.dmv.ca.gov/portal/handbooks-and-manuals/california-driver-handbook/",
+      "sha256": "caea7d6300cffddba96b01e48ce4b6484a141561ac9de238e6017b572e3a722c",
+      "contentType": "text/html",
+      "status": 200
+    }
+  ]
+}

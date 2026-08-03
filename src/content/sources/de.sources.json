@@ -1,0 +1,42 @@
+{
+  "state": "DE",
+  "sources": [
+    {
+      "url": "https://citizen.dmv.de.gov/forms/driver_serv_forms/pdfs/J102083_DMV_Manual_2024_06_Web.pdf",
+      "handbook": true,
+      "contentType": "application/pdf",
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+    },
+    {
+      "url": "https://delcode.delaware.gov/title21/index.html",
+      "sha256": "253813e5ae11b0914847fe14f8ca50f0ba6746819539b20cfb0b621120edd287",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://dmv.de.gov/forms/index.shtml",
+      "sha256": "9dc0cd115ae3518c35b387539e6d970795a5a0c93a3ff33d5ecb07340259df81",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://mutcd.fhwa.dot.gov/",
+      "sha256": "b774f3f34dfc56d807552547e81123b5b693f5080f1585239891b4b1134f3aa2",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.dmv.de.gov/DriverServices/drivers_license/index.shtml",
+      "sha256": "35a3420cc2972caa63a8245c6db264826caaab9c6e3d1b5e6fde0783f792c605",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table",
+      "sha256": "a4c2b59b06107a409c1a69df93e9cbf431e5b4e2e5c179d6b93528e8b768f3b5",
+      "contentType": "text/html",
+      "status": 200
+    }
+  ]
+}

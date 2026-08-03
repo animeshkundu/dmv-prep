@@ -1,0 +1,52 @@
+{
+  "state": "DC",
+  "sources": [
+    {
+      "url": "https://code.dccouncil.gov/us/dc/council/code/sections/25-1001",
+      "sha256": "187d5c75bbbc8f6f7554d0695b34287e45a1924437660e9c3448f67d1f69a7c6",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://code.dccouncil.gov/us/dc/council/code/sections/31-2406",
+      "sha256": "57acfc00ccdf16075e344ca39132cb573d4ca51dead192f44f87e6a9e42d9b80",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://code.dccouncil.gov/us/dc/council/code/titles/50",
+      "sha256": "7f4b34497ff8ac79865b488e02a8b8208805bdc6f4080f3fbcc4301433275206",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://dmv.dc.gov/book/dmv-fees/driver-license-fees",
+      "sha256": "9b49d5f611cb877526dae535083898d575646640e02f6141cbd763868cfd94c2",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://dmv.dc.gov/node/1113762",
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://dmv.dc.gov/publication/dc-dmv-automobile-driver-manual",
+      "handbook": true,
+      "sha256": "0bdc0d002d163539031489572317e75ffa97c17b28bc5d8fc97abe6bcfcc4f8b",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://mutcd.fhwa.dot.gov/",
+      "sha256": "b774f3f34dfc56d807552547e81123b5b693f5080f1585239891b4b1134f3aa2",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://public.dmv.washingtondc.gov/BusinessPages/GS/KnowledgeTest/TestInfo.aspx",
+      "error": "fetch failed: fetch failed"
+    }
+  ],
+  "handbookSnapshotHash": "0bdc0d002d163539031489572317e75ffa97c17b28bc5d8fc97abe6bcfcc4f8b"
+}

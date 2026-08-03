@@ -263,6 +263,13 @@
     "id": "nat-row-013",
     "category": "right-of-way",
     "stateScope": "all",
+    "tags": [
+      "sign-rule"
+    ],
+    "coversSigns": [
+      "stop"
+    ],
+    "imageAsset": "stop",
     "prompt": "After stopping at a stop sign, before you proceed you must:",
     "options": [
       "Wait for a green light",

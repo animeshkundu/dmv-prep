@@ -3,6 +3,13 @@
     "id": "nat-signs-001",
     "category": "road-signs",
     "stateScope": "all",
+    "tags": [
+      "sign-identify"
+    ],
+    "coversSigns": [
+      "stop"
+    ],
+    "imageAsset": "stop",
     "prompt": "What does a red, eight-sided (octagonal) sign always mean?",
     "options": [
       "Road ends ahead",

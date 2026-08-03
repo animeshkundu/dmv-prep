@@ -1,0 +1,115 @@
+{
+  "state": "IN",
+  "sources": [
+    {
+      "url": "https://iga.in.gov/laws/2025/ic/titles/9/articles/14.1/chapters/3",
+      "sha256": "8a06003b5080bdcc1fd7f102c45527f1609163779ea37edfb50af683ac053c4a",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://iga.in.gov/laws/2025/ic/titles/9/articles/19/chapters/10",
+      "sha256": "8a06003b5080bdcc1fd7f102c45527f1609163779ea37edfb50af683ac053c4a",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://iga.in.gov/laws/2025/ic/titles/9/articles/19/chapters/6",
+      "sha256": "8a06003b5080bdcc1fd7f102c45527f1609163779ea37edfb50af683ac053c4a",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://iga.in.gov/laws/2025/ic/titles/9/articles/21/chapters/16",
+      "sha256": "8a06003b5080bdcc1fd7f102c45527f1609163779ea37edfb50af683ac053c4a",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://iga.in.gov/laws/2025/ic/titles/9/articles/21/chapters/3",
+      "sha256": "8a06003b5080bdcc1fd7f102c45527f1609163779ea37edfb50af683ac053c4a",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://iga.in.gov/laws/2025/ic/titles/9/articles/21/chapters/5",
+      "sha256": "8a06003b5080bdcc1fd7f102c45527f1609163779ea37edfb50af683ac053c4a",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://iga.in.gov/laws/2025/ic/titles/9/articles/21/chapters/8",
+      "sha256": "8a06003b5080bdcc1fd7f102c45527f1609163779ea37edfb50af683ac053c4a",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://iga.in.gov/laws/2025/ic/titles/9/articles/24/chapters/3",
+      "sha256": "8a06003b5080bdcc1fd7f102c45527f1609163779ea37edfb50af683ac053c4a",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://iga.in.gov/laws/2025/ic/titles/9/articles/25/chapters/4",
+      "sha256": "8a06003b5080bdcc1fd7f102c45527f1609163779ea37edfb50af683ac053c4a",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://iga.in.gov/laws/2025/ic/titles/9/articles/26/chapters/1",
+      "sha256": "8a06003b5080bdcc1fd7f102c45527f1609163779ea37edfb50af683ac053c4a",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://iga.in.gov/laws/2025/ic/titles/9/articles/30/chapters/15",
+      "sha256": "8a06003b5080bdcc1fd7f102c45527f1609163779ea37edfb50af683ac053c4a",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://iga.in.gov/laws/2025/ic/titles/9/articles/30/chapters/5",
+      "sha256": "8a06003b5080bdcc1fd7f102c45527f1609163779ea37edfb50af683ac053c4a",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://iga.in.gov/laws/2025/ic/titles/9/articles/30/chapters/6",
+      "sha256": "8a06003b5080bdcc1fd7f102c45527f1609163779ea37edfb50af683ac053c4a",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://mutcd.fhwa.dot.gov/",
+      "sha256": "b774f3f34dfc56d807552547e81123b5b693f5080f1585239891b4b1134f3aa2",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/",
+      "sha256": "934e538aeac84fc042cb1fda701fe9dbebeb9c508634b639d369c952900f6271",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/drivers-manual/",
+      "handbook": true,
+      "sha256": "302358e3ffa7dfbe3be8290fca496a95ca5d3ff1770ca6ffebfd1f38ec000ce3",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.in.gov/bmv/licenses-permits-ids/suspension-and-reinstatement/citation-points-and-driver-safety-program/",
+      "sha256": "214b025599cdbe15bad2b14538a4248556acb0cc7b6190f79d26245dfaa972a4",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.in.gov/bmv/licenses-permits-ids/suspension-and-reinstatement/driver-record-points/",
+      "sha256": "6c68fdf4b0ba97e84e38e06f5342c2ecee776e5c8fe13f22a7c123f2e71c7045",
+      "contentType": "text/html",
+      "status": 200
+    }
+  ],
+  "handbookSnapshotHash": "302358e3ffa7dfbe3be8290fca496a95ca5d3ff1770ca6ffebfd1f38ec000ce3"
+}

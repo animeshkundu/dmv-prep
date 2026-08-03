@@ -1,0 +1,125 @@
+{
+  "state": "HI",
+  "sources": [
+    {
+      "url": "https://hidot.hawaii.gov/highways/files/2019/01/Hawaii-Drivers-Manual.pdf",
+      "handbook": true,
+      "status": 404,
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://hidot.hawaii.gov/highways/library/motor-vehicle-safety-office/english-original-hawaii-drivers-manual/",
+      "sha256": "75bb8a79c2785f323bffbc3936ebbe475073e172016c8ecf09bbb46860abc30a",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://mutcd.fhwa.dot.gov/",
+      "sha256": "b774f3f34dfc56d807552547e81123b5b693f5080f1585239891b4b1134f3aa2",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol09_Ch0431-0435H/HRS0431/HRS_0431-0010C-0301.htm",
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol14_Ch0701-0853/HRS0291/HRS_0291-0003_0003.htm",
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol14_Ch0701-0853/HRS0291/HRS_0291-0011_0006.htm",
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol14_Ch0701-0853/HRS0291C/HRS_0291C-0038.htm",
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol14_Ch0701-0853/HRS0291C/HRS_0291C-0063.htm",
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol14_Ch0701-0853/HRS0291C/HRS_0291C-0064.htm",
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol14_Ch0701-0853/HRS0291C/HRS_0291C-0101.htm",
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol14_Ch0701-0853/HRS0291C/HRS_0291C-0102.htm",
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol14_Ch0701-0853/HRS0291C/HRS_0291C-0103.htm",
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol14_Ch0701-0853/HRS0291C/HRS_0291C-0111.htm",
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol14_Ch0701-0853/HRS0291C/HRS_0291C-0121.htm",
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol14_Ch0701-0853/HRS0291C/HRS_0291C-0137.htm",
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol14_Ch0701-0853/HRS0291E/HRS_0291E-0041.htm",
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol14_Ch0701-0853/HRS0291E/HRS_0291E-0061_0005.htm",
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol14_Ch0701-0853/HRS0291E/HRS_0291E-0061.htm",
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol14_Ch0701-0853/HRS0291E/HRS_0291E-0064.htm",
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol14_Ch0701-0853/HRS0291E/HRS_0291E-0065.htm",
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table",
+      "sha256": "a4c2b59b06107a409c1a69df93e9cbf431e5b4e2e5c179d6b93528e8b768f3b5",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.iihs.org/topics/speed/speed-limit-laws-table",
+      "status": 404,
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.iihs.org/topics/teenagers/graduated-licensing-laws-table",
+      "sha256": "a4c2b59b06107a409c1a69df93e9cbf431e5b4e2e5c179d6b93528e8b768f3b5",
+      "contentType": "text/html",
+      "status": 200
+    }
+  ]
+}

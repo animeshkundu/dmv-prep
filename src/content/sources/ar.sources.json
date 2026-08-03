@@ -1,0 +1,30 @@
+{
+  "state": "AR",
+  "sources": [
+    {
+      "url": "https://dps.arkansas.gov/law-enforcement/arkansas-state-police/services-programs/driver-examination/",
+      "sha256": "61f5cd4d5af5ab655070ab2c222dfa2a9b6ed2f09726e996a2318b0a5fbdacdd",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://media.ark.org/dps/Arkansas-DL-Manual-English-1.pdf",
+      "handbook": true,
+      "contentType": "application/pdf",
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+    },
+    {
+      "url": "https://mutcd.fhwa.dot.gov/",
+      "sha256": "b774f3f34dfc56d807552547e81123b5b693f5080f1585239891b4b1134f3aa2",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.dfa.arkansas.gov/office/driver-services/licenses-ids-permits/non-commercial-information-ncl/",
+      "sha256": "1996ce5ec7efd3e453f70746f08c4ed95879c29442dd77c1ed7f30908e3f7b46",
+      "contentType": "text/html",
+      "status": 200
+    }
+  ]
+}

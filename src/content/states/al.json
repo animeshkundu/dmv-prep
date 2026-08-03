@@ -9,8 +9,14 @@
   "handbookEditionYear": 2024,
   "handbookCopyrightStatus": "terms-of-use",
   "applicantVariants": [
-    { "id": "under-18", "label": "Under 18 (GDL Stage I permit / Stage II restricted)" },
-    { "id": "adult", "label": "Adult (18+)" }
+    {
+      "id": "under-18",
+      "label": "Under 18 (GDL Stage I permit / Stage II restricted)"
+    },
+    {
+      "id": "adult",
+      "label": "Adult (18+)"
+    }
   ],
   "examVariants": [
     {
@@ -18,7 +24,9 @@
       "label": "Class D knowledge test (all ages)",
       "numQuestions": 30,
       "numToPass": 24,
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "onlineAvailable": false
     }
   ],
@@ -61,7 +69,11 @@
     "moveOverRule": "Move over one lane, or slow down if you cannot safely change lanes, for stopped emergency and recovery vehicles displaying flashing lights",
     "interstateMaxSpeed": "70 mph",
     "schoolZoneSpeed": "Reduced posted limit during school hours (commonly 15-25 mph where posted)",
-    "namedLaws": ["Move Over Law", "Texting-while-driving ban", "Graduated Driver License (GDL) law"]
+    "namedLaws": [
+      "Move Over Law",
+      "Texting-while-driving ban",
+      "Graduated Driver License (GDL) law"
+    ]
   },
   "typedFacts": {
     "bacAdult": {
@@ -72,7 +84,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Code of Alabama",
-        "citation": "Ala. Code \u00a7 32-5A-191(a)(1)",
+        "citation": "Ala. Code § 32-5A-191(a)(1)",
         "url": "https://alison.legislature.state.al.us/code-of-alabama"
       },
       "lastVerified": "2026-07-27",
@@ -86,7 +98,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Code of Alabama",
-        "citation": "Ala. Code \u00a7 32-5A-191(b)",
+        "citation": "Ala. Code § 32-5A-191(b)",
         "url": "https://alison.legislature.state.al.us/code-of-alabama"
       },
       "lastVerified": "2026-07-27",
@@ -100,7 +112,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Code of Alabama",
-        "citation": "Ala. Code \u00a7 32-5A-191(a)(2)",
+        "citation": "Ala. Code § 32-5A-191(a)(2)",
         "url": "https://alison.legislature.state.al.us/code-of-alabama"
       },
       "lastVerified": "2026-07-27",
@@ -114,7 +126,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Code of Alabama",
-        "citation": "Ala. Code \u00a7 32-5-192",
+        "citation": "Ala. Code § 32-5-192",
         "url": "https://alison.legislature.state.al.us/code-of-alabama"
       },
       "lastVerified": "2026-07-27",
@@ -128,7 +140,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Code of Alabama",
-        "citation": "Ala. Code \u00a7 32-5A-330",
+        "citation": "Ala. Code § 32-5A-330",
         "url": "https://alison.legislature.state.al.us/code-of-alabama"
       },
       "lastVerified": "2026-07-27",
@@ -142,7 +154,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Code of Alabama",
-        "citation": "Ala. Code \u00a7 32-5A-191",
+        "citation": "Ala. Code § 32-5A-191",
         "url": "https://alison.legislature.state.al.us/code-of-alabama"
       },
       "lastVerified": "2026-07-27",
@@ -156,7 +168,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Code of Alabama",
-        "citation": "Ala. Code \u00a7 32-5A-171",
+        "citation": "Ala. Code § 32-5A-171",
         "url": "https://alison.legislature.state.al.us/code-of-alabama"
       },
       "lastVerified": "2026-07-27",
@@ -170,7 +182,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Code of Alabama",
-        "citation": "Ala. Code \u00a7 32-5A-171",
+        "citation": "Ala. Code § 32-5A-171",
         "url": "https://alison.legislature.state.al.us/code-of-alabama"
       },
       "lastVerified": "2026-07-27",
@@ -179,12 +191,12 @@
     "residentialDefaultMph": {
       "state": {
         "status": "not-applicable",
-        "reason": "Alabama\u2019s statute sets an urban-district speed rather than a distinct statewide residential default represented by this key."
+        "reason": "Alabama’s statute sets an urban-district speed rather than a distinct statewide residential default represented by this key."
       },
       "display": "Not applicable",
       "citation": {
         "label": "Code of Alabama",
-        "citation": "Ala. Code \u00a7 32-5A-171",
+        "citation": "Ala. Code § 32-5A-171",
         "url": "https://alison.legislature.state.al.us/code-of-alabama"
       },
       "lastVerified": "2026-07-27",
@@ -198,7 +210,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Code of Alabama",
-        "citation": "Ala. Code \u00a7 32-5A-171",
+        "citation": "Ala. Code § 32-5A-171",
         "url": "https://alison.legislature.state.al.us/code-of-alabama"
       },
       "lastVerified": "2026-07-27",
@@ -212,7 +224,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Code of Alabama",
-        "citation": "Ala. Code \u00a7 32-5A-170",
+        "citation": "Ala. Code § 32-5A-170",
         "url": "https://alison.legislature.state.al.us/code-of-alabama"
       },
       "lastVerified": "2026-07-27",
@@ -226,7 +238,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Code of Alabama",
-        "citation": "Ala. Code \u00a7 32-5A-32",
+        "citation": "Ala. Code § 32-5A-32",
         "url": "https://alison.legislature.state.al.us/code-of-alabama"
       },
       "lastVerified": "2026-07-27",
@@ -240,7 +252,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Code of Alabama",
-        "citation": "Ala. Code \u00a7 32-5A-32",
+        "citation": "Ala. Code § 32-5A-32",
         "url": "https://alison.legislature.state.al.us/code-of-alabama"
       },
       "lastVerified": "2026-07-27",
@@ -254,7 +266,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Code of Alabama",
-        "citation": "Ala. Code \u00a7 32-5B-4",
+        "citation": "Ala. Code § 32-5B-4",
         "url": "https://alison.legislature.state.al.us/code-of-alabama"
       },
       "lastVerified": "2026-07-27",
@@ -268,7 +280,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Code of Alabama",
-        "citation": "Ala. Code \u00a7 32-5A-350",
+        "citation": "Ala. Code § 32-5A-350",
         "url": "https://alison.legislature.state.al.us/code-of-alabama"
       },
       "lastVerified": "2026-07-27",
@@ -282,7 +294,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Code of Alabama",
-        "citation": "Ala. Code \u00a7 32-5A-350",
+        "citation": "Ala. Code § 32-5A-350",
         "url": "https://alison.legislature.state.al.us/code-of-alabama"
       },
       "lastVerified": "2026-07-27",
@@ -296,7 +308,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Code of Alabama",
-        "citation": "Ala. Code \u00a7 32-5A-58.2",
+        "citation": "Ala. Code § 32-5A-58.2",
         "url": "https://alison.legislature.state.al.us/code-of-alabama"
       },
       "lastVerified": "2026-07-27",
@@ -310,7 +322,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Code of Alabama",
-        "citation": "Ala. Code \u00a7 32-5-240",
+        "citation": "Ala. Code § 32-5-240",
         "url": "https://alison.legislature.state.al.us/code-of-alabama"
       },
       "lastVerified": "2026-07-27",
@@ -324,7 +336,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Code of Alabama",
-        "citation": "Ala. Code \u00a7 32-5A-137",
+        "citation": "Ala. Code § 32-5A-137",
         "url": "https://alison.legislature.state.al.us/code-of-alabama"
       },
       "lastVerified": "2026-07-27",
@@ -338,7 +350,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Code of Alabama",
-        "citation": "Ala. Code \u00a7 32-5A-137",
+        "citation": "Ala. Code § 32-5A-137",
         "url": "https://alison.legislature.state.al.us/code-of-alabama"
       },
       "lastVerified": "2026-07-27",
@@ -352,7 +364,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Code of Alabama",
-        "citation": "Ala. Code \u00a7 32-5A-137",
+        "citation": "Ala. Code § 32-5A-137",
         "url": "https://alison.legislature.state.al.us/code-of-alabama"
       },
       "lastVerified": "2026-07-27",
@@ -366,7 +378,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Code of Alabama",
-        "citation": "Ala. Code \u00a7 32-5A-137",
+        "citation": "Ala. Code § 32-5A-137",
         "url": "https://alison.legislature.state.al.us/code-of-alabama"
       },
       "lastVerified": "2026-07-27",
@@ -408,7 +420,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Code of Alabama",
-        "citation": "Ala. Code \u00a7 32-6-7.2",
+        "citation": "Ala. Code § 32-6-7.2",
         "url": "https://alison.legislature.state.al.us/code-of-alabama"
       },
       "lastVerified": "2026-07-27",
@@ -422,7 +434,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Code of Alabama",
-        "citation": "Ala. Code \u00a7 32-6-7.2",
+        "citation": "Ala. Code § 32-6-7.2",
         "url": "https://alison.legislature.state.al.us/code-of-alabama"
       },
       "lastVerified": "2026-07-27",
@@ -436,7 +448,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Code of Alabama",
-        "citation": "Ala. Code \u00a7 32-6-7.2",
+        "citation": "Ala. Code § 32-6-7.2",
         "url": "https://alison.legislature.state.al.us/code-of-alabama"
       },
       "lastVerified": "2026-07-27",
@@ -450,7 +462,7 @@
       "display": "Not applicable",
       "citation": {
         "label": "Code of Alabama",
-        "citation": "Ala. Code \u00a7 32-6-7.2",
+        "citation": "Ala. Code § 32-6-7.2",
         "url": "https://alison.legislature.state.al.us/code-of-alabama"
       },
       "lastVerified": "2026-07-27",
@@ -464,7 +476,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Code of Alabama",
-        "citation": "Ala. Code \u00a7 32-6-7.2",
+        "citation": "Ala. Code § 32-6-7.2",
         "url": "https://alison.legislature.state.al.us/code-of-alabama"
       },
       "lastVerified": "2026-07-27",
@@ -473,12 +485,12 @@
     "gdlPassengerPhase1": {
       "state": {
         "status": "not-applicable",
-        "reason": "The passenger restriction is not expressed with the age threshold required by this fact\u2019s {cap, underAge, familyExempt} model."
+        "reason": "The passenger restriction is not expressed with the age threshold required by this fact’s {cap, underAge, familyExempt} model."
       },
       "display": "Not applicable",
       "citation": {
         "label": "Code of Alabama",
-        "citation": "Ala. Code \u00a7 32-6-7.2",
+        "citation": "Ala. Code § 32-6-7.2",
         "url": "https://alison.legislature.state.al.us/code-of-alabama"
       },
       "lastVerified": "2026-07-27",
@@ -492,7 +504,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Code of Alabama",
-        "citation": "Ala. Code \u00a7 32-7-6",
+        "citation": "Ala. Code § 32-7-6",
         "url": "https://alison.legislature.state.al.us/code-of-alabama"
       },
       "lastVerified": "2026-07-27",
@@ -506,7 +518,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Code of Alabama",
-        "citation": "Ala. Code \u00a7 32-10-5",
+        "citation": "Ala. Code § 32-10-5",
         "url": "https://alison.legislature.state.al.us/code-of-alabama"
       },
       "lastVerified": "2026-07-27",
@@ -531,7 +543,7 @@
     }
   ],
   "effectiveDate": "2026-07-24",
-  "sourceSnapshotHash": "seed-pending-verification",
+  "sourceSnapshotHash": "37ccc59a63029a8c4fd07cf62c693c58b8b967e6da722b9e3540128838485c74",
   "reviewStatus": "draft",
   "verifyNote": "ALEA officially confirms fees and GDL ages, but its indexed official pages/manual landing page do not directly state the 30-question/24-correct Class D exam format; retain pending direct official confirmation.",
   "lastVerified": "2026-07-24",
