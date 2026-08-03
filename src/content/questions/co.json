@@ -2,271 +2,436 @@
   {
     "id": "co-speed-001",
     "category": "speed-limits",
-    "stateScope": ["CO"],
+    "stateScope": [
+      "CO"
+    ],
     "prompt": "Unless otherwise posted, the speed limit in a Colorado school zone during posted hours is:",
-    "options": ["15 mph", "20 mph", "25 mph", "30 mph"],
-    "correctIndex": 1,
+    "options": [
+      "15 mph",
+      "25 mph",
+      "30 mph",
+      "20 mph"
+    ],
+    "correctIndex": 3,
     "explanation": "Colorado school zones are generally 20 mph, or as posted, during posted times, and fines for speeding there are doubled.",
     "difficulty": "medium",
-    "references": [{ "label": "School zones", "citation": "Colorado Driver Handbook, Speed Limits", "url": "https://dmv.colorado.gov/driver-handbooks" }],
+    "references": [
+      {
+        "label": "School zones",
+        "citation": "Colorado Driver Handbook, Speed Limits",
+        "url": "https://dmv.colorado.gov/driver-handbooks"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "co-speed-002",
     "category": "speed-limits",
-    "stateScope": ["CO"],
+    "stateScope": [
+      "CO"
+    ],
     "prompt": "The maximum posted speed limit on a rural Colorado interstate is generally:",
-    "options": ["65 mph", "70 mph", "75 mph", "80 mph"],
-    "correctIndex": 2,
+    "options": [
+      "75 mph",
+      "65 mph",
+      "80 mph",
+      "70 mph"
+    ],
+    "correctIndex": 0,
     "explanation": "Colorado posts a maximum of 75 mph on many rural interstate segments. Mountain passes and urban stretches are often lower, so always follow the posted sign.",
     "difficulty": "easy",
-    "references": [{ "label": "Speed limits", "citation": "Colorado Driver Handbook, Speed Limits", "url": "https://dmv.colorado.gov/driver-handbooks" }],
+    "references": [
+      {
+        "label": "Speed limits",
+        "citation": "Colorado Driver Handbook, Speed Limits",
+        "url": "https://dmv.colorado.gov/driver-handbooks"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "co-alc-001",
     "category": "alcohol-drugs",
-    "stateScope": ["CO"],
+    "stateScope": [
+      "CO"
+    ],
     "prompt": "In Colorado, a driver 21 or older can be charged with the lesser offense of DWAI (Driving While Ability Impaired) with a BAC as low as:",
-    "options": ["0.02%", "0.05%", "0.08%", "0.10%"],
+    "options": [
+      "0.10%",
+      "0.05%",
+      "0.02%",
+      "0.08%"
+    ],
     "correctIndex": 1,
     "explanation": "Colorado is unusual in having a DWAI offense at 0.05% BAC, below the 0.08% DUI threshold. A BAC of 0.08% or higher is a DUI.",
     "difficulty": "hard",
-    "references": [{ "label": "DWAI/DUI", "citation": "Colorado Driver Handbook, Alcohol and Drugs", "url": "https://dmv.colorado.gov/driver-handbooks" }],
+    "references": [
+      {
+        "label": "DWAI/DUI",
+        "citation": "Colorado Driver Handbook, Alcohol and Drugs",
+        "url": "https://dmv.colorado.gov/driver-handbooks"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "co-alc-002",
     "category": "alcohol-drugs",
-    "stateScope": ["CO"],
+    "stateScope": [
+      "CO"
+    ],
     "prompt": "Colorado's underage drinking and driving (UDD) law makes it illegal for drivers under 21 to drive with a BAC of:",
-    "options": ["0.08% or higher", "0.05% or higher", "0.02% or higher", "0.01% or higher"],
+    "options": [
+      "0.01% or higher",
+      "0.08% or higher",
+      "0.02% or higher",
+      "0.05% or higher"
+    ],
     "correctIndex": 2,
     "explanation": "Under Colorado's UDD law, drivers under 21 can be charged with a BAC of 0.02% or higher, well below the adult limits.",
     "difficulty": "medium",
-    "references": [{ "label": "Underage drinking", "citation": "Colorado Driver Handbook, Alcohol and Drugs", "url": "https://dmv.colorado.gov/driver-handbooks" }],
+    "references": [
+      {
+        "label": "Underage drinking",
+        "citation": "Colorado Driver Handbook, Alcohol and Drugs",
+        "url": "https://dmv.colorado.gov/driver-handbooks"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "co-alc-003",
     "category": "alcohol-drugs",
-    "stateScope": ["CO"],
+    "stateScope": [
+      "CO"
+    ],
     "prompt": "Under Colorado's Express Consent Law, if you drive on Colorado roads you have agreed to:",
     "options": [
       "Waive the right to a lawyer during a DUI stop",
-      "Take a blood or breath test if lawfully arrested for DUI",
+      "Pay all fines before contesting them",
       "Allow a search of your vehicle at any time",
-      "Pay all fines before contesting them"
+      "Take a blood or breath test if lawfully arrested for DUI"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "Colorado's Express Consent Law means that by driving you consent to take a blood or breath test when lawfully arrested for DUI. Refusing leads to license revocation.",
     "difficulty": "hard",
-    "references": [{ "label": "Express consent", "citation": "Colorado Driver Handbook, Alcohol and Drugs", "url": "https://dmv.colorado.gov/driver-handbooks" }],
+    "references": [
+      {
+        "label": "Express consent",
+        "citation": "Colorado Driver Handbook, Alcohol and Drugs",
+        "url": "https://dmv.colorado.gov/driver-handbooks"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "co-gdl-001",
     "category": "gdl-teen",
-    "stateScope": ["CO"],
+    "stateScope": [
+      "CO"
+    ],
     "prompt": "A Colorado driver under 18 must hold an instruction permit for at least how long before getting a license?",
-    "options": ["3 months", "6 months", "12 months", "18 months"],
-    "correctIndex": 2,
+    "options": [
+      "6 months",
+      "12 months",
+      "3 months",
+      "18 months"
+    ],
+    "correctIndex": 1,
     "explanation": "Colorado requires drivers under 18 to hold the instruction permit for at least 12 months before they can get a minor driver license.",
     "difficulty": "medium",
-    "references": [{ "label": "Permit period", "citation": "Colorado DMV, First-Time Driver License", "url": "https://dmv.colorado.gov/permits-first-time-driver-license" }],
+    "references": [
+      {
+        "label": "Permit period",
+        "citation": "Colorado DMV, First-Time Driver License",
+        "url": "https://dmv.colorado.gov/permits-first-time-driver-license"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "co-gdl-002",
     "category": "gdl-teen",
-    "stateScope": ["CO"],
+    "stateScope": [
+      "CO"
+    ],
     "prompt": "How many hours of supervised driving must a Colorado teen log before applying for a license?",
     "options": [
-      "30 hours, all daytime",
       "40 hours, including 5 at night",
+      "60 hours, including 15 at night",
       "50 hours, including 10 at night",
-      "60 hours, including 15 at night"
+      "30 hours, all daytime"
     ],
     "correctIndex": 2,
     "explanation": "Colorado teens must complete 50 hours of supervised driving, including 10 hours at night, with a supervising driver age 21 or older.",
     "difficulty": "medium",
-    "references": [{ "label": "Supervised hours", "citation": "Colorado DMV, First-Time Driver License", "url": "https://dmv.colorado.gov/permits-first-time-driver-license" }],
+    "references": [
+      {
+        "label": "Supervised hours",
+        "citation": "Colorado DMV, First-Time Driver License",
+        "url": "https://dmv.colorado.gov/permits-first-time-driver-license"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "co-gdl-003",
     "category": "gdl-teen",
-    "stateScope": ["CO"],
+    "stateScope": [
+      "CO"
+    ],
     "prompt": "During the first 6 months after a Colorado minor is licensed, they generally may carry:",
     "options": [
-      "No passengers under 21",
       "One passenger under 21",
       "Up to three passengers under 21",
-      "Any number of passengers"
+      "Any number of passengers",
+      "No passengers under 21"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "explanation": "For the first 6 months of licensing, a Colorado minor may not carry any passengers under 21 (with limited family exceptions). In the second 6 months, no more than one passenger under 21 is allowed.",
     "difficulty": "hard",
-    "references": [{ "label": "Passenger limits", "citation": "Colorado DMV, First-Time Driver License", "url": "https://dmv.colorado.gov/permits-first-time-driver-license" }],
+    "references": [
+      {
+        "label": "Passenger limits",
+        "citation": "Colorado DMV, First-Time Driver License",
+        "url": "https://dmv.colorado.gov/permits-first-time-driver-license"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "co-gdl-004",
     "category": "gdl-teen",
-    "stateScope": ["CO"],
+    "stateScope": [
+      "CO"
+    ],
     "prompt": "For the first 12 months of licensing, a Colorado minor generally may not drive between:",
     "options": [
-      "10 p.m. and 4 a.m.",
       "Midnight and 5 a.m.",
+      "10 p.m. and 4 a.m.",
       "11 p.m. and 6 a.m.",
       "1 a.m. and 5 a.m."
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "For the first 12 months, a Colorado minor may not drive between midnight and 5 a.m. unless driving for work, school, or a medical emergency, or accompanied by a licensed adult.",
     "difficulty": "medium",
-    "references": [{ "label": "Night restriction", "citation": "Colorado DMV, First-Time Driver License", "url": "https://dmv.colorado.gov/permits-first-time-driver-license" }],
+    "references": [
+      {
+        "label": "Night restriction",
+        "citation": "Colorado DMV, First-Time Driver License",
+        "url": "https://dmv.colorado.gov/permits-first-time-driver-license"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "co-pts-001",
     "category": "penalties-points",
-    "stateScope": ["CO"],
+    "stateScope": [
+      "CO"
+    ],
     "prompt": "For an adult driver 21 or older, Colorado may suspend a license for accumulating:",
     "options": [
-      "6 points in 12 months",
-      "9 points in 12 months",
       "12 points in 12 months or 18 in 24 months",
-      "20 points in 12 months"
+      "20 points in 12 months",
+      "9 points in 12 months",
+      "6 points in 12 months"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "explanation": "Colorado suspends adult (21+) drivers who accumulate 12 points in 12 months or 18 points in 24 months. Younger drivers face lower thresholds.",
     "difficulty": "hard",
-    "references": [{ "label": "Points", "citation": "Colorado Driver Handbook, Point System", "url": "https://dmv.colorado.gov/driver-handbooks" }],
+    "references": [
+      {
+        "label": "Points",
+        "citation": "Colorado Driver Handbook, Point System",
+        "url": "https://dmv.colorado.gov/driver-handbooks"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "co-pts-002",
     "category": "penalties-points",
-    "stateScope": ["CO"],
+    "stateScope": [
+      "CO"
+    ],
     "prompt": "A Colorado driver under 18 can have their license suspended for accumulating as few as:",
     "options": [
+      "18 points in 24 months",
       "6 points in 12 months",
       "12 points in 12 months",
-      "18 points in 24 months",
       "24 points in 24 months"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "Drivers under 18 in Colorado face suspension at just 6 points in 12 months (or 7 points before turning 18), a stricter standard than for adults.",
     "difficulty": "hard",
-    "references": [{ "label": "Minor points", "citation": "Colorado Driver Handbook, Point System", "url": "https://dmv.colorado.gov/driver-handbooks" }],
+    "references": [
+      {
+        "label": "Minor points",
+        "citation": "Colorado Driver Handbook, Point System",
+        "url": "https://dmv.colorado.gov/driver-handbooks"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "co-laws-001",
     "category": "traffic-laws",
-    "stateScope": ["CO"],
+    "stateScope": [
+      "CO"
+    ],
     "prompt": "Under Colorado's Move Over Law, when approaching a stopped emergency vehicle with flashing lights, you should:",
     "options": [
-      "Keep your speed and lane",
+      "Flash your high beams and pass",
       "Slow down and, when safe, move over one lane",
       "Come to a full stop in your lane",
-      "Flash your high beams and pass"
+      "Keep your speed and lane"
     ],
     "correctIndex": 1,
     "explanation": "Colorado's Move Over Law requires drivers to slow down and, when it is safe, move over a lane for stopped emergency, tow, maintenance, and utility vehicles displaying flashing lights.",
     "difficulty": "medium",
-    "references": [{ "label": "Move Over", "citation": "Colorado Driver Handbook, Sharing the Road", "url": "https://dmv.colorado.gov/driver-handbooks" }],
+    "references": [
+      {
+        "label": "Move Over",
+        "citation": "Colorado Driver Handbook, Sharing the Road",
+        "url": "https://dmv.colorado.gov/driver-handbooks"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "co-safe-001",
     "category": "safe-driving",
-    "stateScope": ["CO"],
+    "stateScope": [
+      "CO"
+    ],
     "prompt": "When descending a long, steep Colorado mountain grade, the best practice to avoid overheating your brakes is to:",
     "options": [
-      "Ride the brakes continuously",
-      "Shift to a lower gear and use engine braking",
+      "Turn off the engine",
       "Coast in neutral",
-      "Turn off the engine"
+      "Shift to a lower gear and use engine braking",
+      "Ride the brakes continuously"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "On long mountain descents, shift to a lower gear so engine braking helps control speed, reducing reliance on the brakes and preventing brake fade.",
     "difficulty": "medium",
-    "references": [{ "label": "Mountain driving", "citation": "Colorado Driver Handbook, Special Driving Conditions", "url": "https://dmv.colorado.gov/driver-handbooks" }],
+    "references": [
+      {
+        "label": "Mountain driving",
+        "citation": "Colorado Driver Handbook, Special Driving Conditions",
+        "url": "https://dmv.colorado.gov/driver-handbooks"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "co-proc-001",
     "category": "traffic-laws",
-    "stateScope": ["CO"],
+    "stateScope": [
+      "CO"
+    ],
     "prompt": "In Colorado, a 15-year-old may apply for a Level 1 instruction permit only after:",
     "options": [
       "Turning 16",
-      "Completing an approved 30-hour driver education course",
       "Logging 50 hours of driving",
+      "Completing an approved 30-hour driver education course",
       "Passing the road test"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "A 15-year-old in Colorado must complete a 30-hour driver education course before applying for a Level 1 permit. At 15 years 6 months a shorter driver awareness course is required; at 16 no course is required to apply.",
     "difficulty": "medium",
-    "references": [{ "label": "Permit eligibility", "citation": "Colorado DMV, Driver Education", "url": "https://dmv.colorado.gov/permits-first-time-driver-license" }],
+    "references": [
+      {
+        "label": "Permit eligibility",
+        "citation": "Colorado DMV, Driver Education",
+        "url": "https://dmv.colorado.gov/permits-first-time-driver-license"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "co-row-001",
     "category": "right-of-way",
-    "stateScope": ["CO"],
+    "stateScope": [
+      "CO"
+    ],
     "prompt": "Colorado law requires drivers to give bicycles passing clearance of at least:",
-    "options": ["1 foot", "2 feet", "3 feet", "5 feet"],
-    "correctIndex": 2,
+    "options": [
+      "3 feet",
+      "5 feet",
+      "2 feet",
+      "1 foot"
+    ],
+    "correctIndex": 0,
     "explanation": "Colorado requires motorists to allow at least 3 feet of clearance when passing a bicyclist, and drivers may cross the center line to do so when safe.",
     "difficulty": "medium",
-    "references": [{ "label": "Bicycles", "citation": "Colorado Driver Handbook, Sharing the Road", "url": "https://dmv.colorado.gov/driver-handbooks" }],
+    "references": [
+      {
+        "label": "Bicycles",
+        "citation": "Colorado Driver Handbook, Sharing the Road",
+        "url": "https://dmv.colorado.gov/driver-handbooks"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   }
 ]

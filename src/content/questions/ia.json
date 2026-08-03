@@ -2,256 +2,451 @@
   {
     "id": "ia-gdl-teen-001",
     "category": "gdl-teen",
-    "stateScope": ["IA"],
+    "stateScope": [
+      "IA"
+    ],
     "prompt": "The minimum age to apply for a regular Iowa instruction permit is:",
-    "options": ["14", "15", "16", "17"],
-    "correctIndex": 0,
+    "options": [
+      "17",
+      "16",
+      "15",
+      "14"
+    ],
+    "correctIndex": 3,
     "explanation": "Iowa allows a teen to apply for an instruction permit at age 14 after passing the vision and knowledge tests. This is one of the youngest permit ages in the nation.",
     "difficulty": "easy",
-    "references": [{ "label": "Instruction permit", "citation": "Iowa Driver's Manual, Graduated Licensing", "url": "https://iowadot.gov/drivers-licenses-ids/driver-education/manuals-practice-tests/drivers-manual" }],
+    "references": [
+      {
+        "label": "Instruction permit",
+        "citation": "Iowa Driver's Manual, Graduated Licensing",
+        "url": "https://iowadot.gov/drivers-licenses-ids/driver-education/manuals-practice-tests/drivers-manual"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
-    "contentVersion": 1
+    "contentVersion": 3
   },
   {
     "id": "ia-gdl-teen-002",
     "category": "gdl-teen",
-    "stateScope": ["IA"],
+    "stateScope": [
+      "IA"
+    ],
     "prompt": "A driver with an Iowa intermediate license generally may not drive between:",
-    "options": ["10 p.m. and 5 a.m.", "Midnight and 6 a.m.", "12:30 a.m. and 5 a.m.", "11 p.m. and 5 a.m."],
-    "correctIndex": 2,
+    "options": [
+      "12:30 a.m. and 5 a.m.",
+      "10 p.m. and 5 a.m.",
+      "11 p.m. and 5 a.m.",
+      "Midnight and 6 a.m."
+    ],
+    "correctIndex": 0,
     "explanation": "An Iowa intermediate license holder may not drive between 12:30 a.m. and 5 a.m. unless accompanied by a parent or guardian, or driving to or from work or a school activity.",
     "difficulty": "medium",
-    "references": [{ "label": "Intermediate license", "citation": "Iowa Driver's Manual, Graduated Licensing", "url": "https://iowadot.gov/drivers-licenses-ids/driver-education/manuals-practice-tests/drivers-manual" }],
+    "references": [
+      {
+        "label": "Intermediate license",
+        "citation": "Iowa Driver's Manual, Graduated Licensing",
+        "url": "https://iowadot.gov/drivers-licenses-ids/driver-education/manuals-practice-tests/drivers-manual"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
-    "contentVersion": 1
+    "contentVersion": 3
   },
   {
     "id": "ia-gdl-teen-003",
     "category": "gdl-teen",
-    "stateScope": ["IA"],
+    "stateScope": [
+      "IA"
+    ],
     "prompt": "To move from an Iowa instruction permit to an intermediate license, a teen must complete at least how many hours of supervised driving at the permit stage?",
-    "options": ["10 hours", "20 hours", "40 hours", "50 hours"],
+    "options": [
+      "40 hours",
+      "20 hours",
+      "50 hours",
+      "10 hours"
+    ],
     "correctIndex": 1,
     "explanation": "Iowa requires 20 hours of supervised driving (at least 2 at night) at the instruction-permit stage, plus 10 additional hours (2 at night) during the intermediate stage.",
     "difficulty": "medium",
-    "references": [{ "label": "Supervised driving", "citation": "Iowa Driver's Manual, Graduated Licensing", "url": "https://iowadot.gov/drivers-licenses-ids/driver-education/manuals-practice-tests/drivers-manual" }],
+    "references": [
+      {
+        "label": "Supervised driving",
+        "citation": "Iowa Driver's Manual, Graduated Licensing",
+        "url": "https://iowadot.gov/drivers-licenses-ids/driver-education/manuals-practice-tests/drivers-manual"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
-    "contentVersion": 1
+    "contentVersion": 3
   },
   {
     "id": "ia-gdl-teen-004",
     "category": "gdl-teen",
-    "stateScope": ["IA"],
+    "stateScope": [
+      "IA"
+    ],
     "prompt": "How long must an Iowa teen hold an instruction permit before moving up to an intermediate license?",
-    "options": ["3 months", "6 months", "12 months", "18 months"],
+    "options": [
+      "18 months",
+      "6 months",
+      "12 months",
+      "3 months"
+    ],
     "correctIndex": 2,
     "explanation": "Iowa requires the instruction permit to be held for at least 12 months (and the driver to be at least 16) with a clean record before an intermediate license is issued.",
     "difficulty": "medium",
-    "references": [{ "label": "Permit holding period", "citation": "Iowa Driver's Manual, Graduated Licensing", "url": "https://iowadot.gov/drivers-licenses-ids/driver-education/manuals-practice-tests/drivers-manual" }],
+    "references": [
+      {
+        "label": "Permit holding period",
+        "citation": "Iowa Driver's Manual, Graduated Licensing",
+        "url": "https://iowadot.gov/drivers-licenses-ids/driver-education/manuals-practice-tests/drivers-manual"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
-    "contentVersion": 1
+    "contentVersion": 3
   },
   {
     "id": "ia-alcohol-drugs-001",
     "category": "alcohol-drugs",
-    "stateScope": ["IA"],
+    "stateScope": [
+      "IA"
+    ],
     "prompt": "In Iowa, an adult driver (21 or older) is legally considered intoxicated (OWI) at a BAC of:",
-    "options": ["0.05% or higher", "0.08% or higher", "0.10% or higher", "0.02% or higher"],
-    "correctIndex": 1,
+    "options": [
+      "0.10% or higher",
+      "0.05% or higher",
+      "0.08% or higher",
+      "0.02% or higher"
+    ],
+    "correctIndex": 2,
     "explanation": "Iowa's adult per se limit for Operating While Intoxicated (OWI) is 0.08%. A driver can still be charged at a lower BAC if impaired.",
     "difficulty": "easy",
-    "references": [{ "label": "OWI limit", "citation": "Iowa Code § 321J.2; Iowa Driver's Manual", "url": "https://iowadot.gov/drivers-licenses-ids/driver-education/manuals-practice-tests/drivers-manual" }],
+    "references": [
+      {
+        "label": "OWI limit",
+        "citation": "Iowa Code § 321J.2; Iowa Driver's Manual",
+        "url": "https://iowadot.gov/drivers-licenses-ids/driver-education/manuals-practice-tests/drivers-manual"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
-    "contentVersion": 1
+    "contentVersion": 3
   },
   {
     "id": "ia-alcohol-drugs-002",
     "category": "alcohol-drugs",
-    "stateScope": ["IA"],
+    "stateScope": [
+      "IA"
+    ],
     "prompt": "Under Iowa's zero-tolerance law, a driver under 21 can lose their license for driving with a BAC of:",
-    "options": ["0.08% or higher", "0.05% or higher", "0.02% or higher", "0.04% or higher"],
-    "correctIndex": 2,
+    "options": [
+      "0.05% or higher",
+      "0.08% or higher",
+      "0.04% or higher",
+      "0.02% or higher"
+    ],
+    "correctIndex": 3,
     "explanation": "Iowa enforces a 0.02% zero-tolerance limit for drivers under 21. A reading at or above 0.02% can result in a license suspension.",
     "difficulty": "medium",
-    "references": [{ "label": "Zero tolerance", "citation": "Iowa Code § 321J.2A; Iowa Driver's Manual", "url": "https://iowadot.gov/drivers-licenses-ids/driver-education/manuals-practice-tests/drivers-manual" }],
+    "references": [
+      {
+        "label": "Zero tolerance",
+        "citation": "Iowa Code § 321J.2A; Iowa Driver's Manual",
+        "url": "https://iowadot.gov/drivers-licenses-ids/driver-education/manuals-practice-tests/drivers-manual"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
-    "contentVersion": 1
+    "contentVersion": 3
   },
   {
     "id": "ia-speed-limits-001",
     "category": "speed-limits",
-    "stateScope": ["IA"],
+    "stateScope": [
+      "IA"
+    ],
     "prompt": "The maximum posted speed limit on a rural interstate highway in Iowa is:",
-    "options": ["65 mph", "70 mph", "75 mph", "80 mph"],
-    "correctIndex": 1,
+    "options": [
+      "80 mph",
+      "75 mph",
+      "70 mph",
+      "65 mph"
+    ],
+    "correctIndex": 2,
     "explanation": "Iowa's maximum speed on rural interstate highways is 70 mph. Lower limits apply on urban interstates and other roads.",
     "difficulty": "easy",
-    "references": [{ "label": "Speed limits", "citation": "Iowa Code § 321.285; Iowa Driver's Manual", "url": "https://iowadot.gov/drivers-licenses-ids/driver-education/manuals-practice-tests/drivers-manual" }],
+    "references": [
+      {
+        "label": "Speed limits",
+        "citation": "Iowa Code § 321.285; Iowa Driver's Manual",
+        "url": "https://iowadot.gov/drivers-licenses-ids/driver-education/manuals-practice-tests/drivers-manual"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
-    "contentVersion": 1
+    "contentVersion": 3
   },
   {
     "id": "ia-speed-limits-002",
     "category": "speed-limits",
-    "stateScope": ["IA"],
+    "stateScope": [
+      "IA"
+    ],
     "prompt": "Unless otherwise posted, the speed limit in an Iowa business district is:",
-    "options": ["15 mph", "20 mph", "25 mph", "30 mph"],
-    "correctIndex": 2,
+    "options": [
+      "20 mph",
+      "15 mph",
+      "30 mph",
+      "25 mph"
+    ],
+    "correctIndex": 3,
     "explanation": "The current Iowa Driver's Manual lists 25 mph in any business district unless a different limit is posted.",
     "difficulty": "medium",
-    "references": [{ "label": "District speed limits", "citation": "Iowa Code § 321.285; Iowa Driver's Manual", "url": "https://iowadot.gov/drivers-licenses-ids/driver-education/manuals-practice-tests/drivers-manual" }],
+    "references": [
+      {
+        "label": "District speed limits",
+        "citation": "Iowa Code § 321.285; Iowa Driver's Manual",
+        "url": "https://iowadot.gov/drivers-licenses-ids/driver-education/manuals-practice-tests/drivers-manual"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
-    "contentVersion": 1
+    "contentVersion": 3
   },
   {
     "id": "ia-traffic-laws-001",
     "category": "traffic-laws",
-    "stateScope": ["IA"],
+    "stateScope": [
+      "IA"
+    ],
     "prompt": "Under Iowa's Move Over law, when you approach a stopped emergency, tow, or utility vehicle with flashing lights, you must:",
-    "options": ["Keep your speed and stay in your lane", "Move over a lane if safe, or slow down", "Stop and wait behind the vehicle", "Turn on your hazard lights and continue"],
-    "correctIndex": 1,
+    "options": [
+      "Move over a lane if safe, or slow down",
+      "Keep your speed and stay in your lane",
+      "Stop and wait behind the vehicle",
+      "Turn on your hazard lights and continue"
+    ],
+    "correctIndex": 0,
     "explanation": "Iowa Code § 321.323A requires drivers to move over a lane away from a stopped emergency, tow, maintenance, or utility vehicle when safe, or to slow down if they cannot change lanes.",
     "difficulty": "easy",
-    "references": [{ "label": "Move Over law", "citation": "Iowa Code § 321.323A", "url": "https://www.legis.iowa.gov/docs/code/321.323A.pdf" }],
+    "references": [
+      {
+        "label": "Move Over law",
+        "citation": "Iowa Code § 321.323A",
+        "url": "https://www.legis.iowa.gov/docs/code/321.323A.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
-    "contentVersion": 1
+    "contentVersion": 3
   },
   {
     "id": "ia-traffic-laws-002",
     "category": "traffic-laws",
-    "stateScope": ["IA"],
+    "stateScope": [
+      "IA"
+    ],
     "prompt": "Under Iowa's hands-free law (effective July 1, 2025), while driving you may:",
-    "options": ["Hold your phone to type a text", "Only use an electronic device in a hands-free or voice-activated mode", "Watch streaming video at a stoplight", "Hold your phone for calls but not texts"],
+    "options": [
+      "Hold your phone for calls but not texts",
+      "Only use an electronic device in a hands-free or voice-activated mode",
+      "Hold your phone to type a text",
+      "Watch streaming video at a stoplight"
+    ],
     "correctIndex": 1,
     "explanation": "Iowa's hands-free law bans holding or manually using an electronic device while driving. Devices may be used only in a hands-free, voice-activated mode. Full fines began January 1, 2026.",
     "difficulty": "medium",
-    "references": [{ "label": "Hands-free law", "citation": "Iowa Code § 321.276 (effective July 1, 2025)", "url": "https://dps.iowa.gov/press-release/2025-06-25/hands-free-its-law" }],
+    "references": [
+      {
+        "label": "Hands-free law",
+        "citation": "Iowa Code § 321.276 (effective July 1, 2025)",
+        "url": "https://dps.iowa.gov/press-release/2025-06-25/hands-free-its-law"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
-    "contentVersion": 1
+    "contentVersion": 3
   },
   {
     "id": "ia-road-signs-001",
     "category": "road-signs",
-    "stateScope": ["IA"],
+    "stateScope": [
+      "IA"
+    ],
     "prompt": "A five-sided (pentagon-shaped) road sign indicates:",
-    "options": ["A railroad crossing", "A school zone or school crossing", "A no-passing zone", "A hospital ahead"],
-    "correctIndex": 1,
+    "options": [
+      "A no-passing zone",
+      "A hospital ahead",
+      "A school zone or school crossing",
+      "A railroad crossing"
+    ],
+    "correctIndex": 2,
     "explanation": "A five-sided pentagon sign marks a school zone or school crossing. Slow down and watch for children.",
     "difficulty": "easy",
-    "references": [{ "label": "Warning signs", "citation": "Iowa Driver's Manual, Traffic Signs", "url": "https://iowadot.gov/drivers-licenses-ids/driver-education/manuals-practice-tests/drivers-manual" }],
+    "references": [
+      {
+        "label": "Warning signs",
+        "citation": "Iowa Driver's Manual, Traffic Signs",
+        "url": "https://iowadot.gov/drivers-licenses-ids/driver-education/manuals-practice-tests/drivers-manual"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
-    "contentVersion": 1
+    "contentVersion": 3
   },
   {
     "id": "ia-right-of-way-001",
     "category": "right-of-way",
-    "stateScope": ["IA"],
+    "stateScope": [
+      "IA"
+    ],
     "prompt": "When you approach a stopped school bus with its red lights flashing and stop arm extended on a two-lane road, you must:",
-    "options": ["Slow to 20 mph and pass carefully", "Stop and remain stopped until the lights stop flashing and the arm is withdrawn", "Pass on the left if no children are visible", "Sound your horn and proceed"],
-    "correctIndex": 1,
+    "options": [
+      "Slow to 20 mph and pass carefully",
+      "Pass on the left if no children are visible",
+      "Stop and remain stopped until the lights stop flashing and the arm is withdrawn",
+      "Sound your horn and proceed"
+    ],
+    "correctIndex": 2,
     "explanation": "Iowa law requires drivers in both directions on a two-lane road to stop for a school bus with flashing red lights and an extended stop arm, and to stay stopped until the bus resumes motion or signals you to proceed.",
     "difficulty": "medium",
-    "references": [{ "label": "School bus stops", "citation": "Iowa Driver's Manual, Sharing the Road", "url": "https://iowadot.gov/drivers-licenses-ids/driver-education/manuals-practice-tests/drivers-manual" }],
+    "references": [
+      {
+        "label": "School bus stops",
+        "citation": "Iowa Driver's Manual, Sharing the Road",
+        "url": "https://iowadot.gov/drivers-licenses-ids/driver-education/manuals-practice-tests/drivers-manual"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
-    "contentVersion": 1
+    "contentVersion": 3
   },
   {
     "id": "ia-safe-driving-001",
     "category": "safe-driving",
-    "stateScope": ["IA"],
+    "stateScope": [
+      "IA"
+    ],
     "prompt": "When driving on an icy or snow-covered Iowa road, you should:",
-    "options": ["Brake hard to test traction", "Reduce speed, increase following distance, and make gentle steering and braking inputs", "Use cruise control to keep a steady speed", "Follow closely behind a snowplow to see better"],
-    "correctIndex": 1,
+    "options": [
+      "Use cruise control to keep a steady speed",
+      "Brake hard to test traction",
+      "Follow closely behind a snowplow to see better",
+      "Reduce speed, increase following distance, and make gentle steering and braking inputs"
+    ],
+    "correctIndex": 3,
     "explanation": "On ice or snow, slow down, leave extra following distance, and steer and brake gently to avoid skids. Do not use cruise control on slippery roads, and stay well back from snowplows.",
     "difficulty": "medium",
-    "references": [{ "label": "Winter driving", "citation": "Iowa Driver's Manual, Adverse Conditions", "url": "https://iowadot.gov/drivers-licenses-ids/driver-education/manuals-practice-tests/drivers-manual" }],
+    "references": [
+      {
+        "label": "Winter driving",
+        "citation": "Iowa Driver's Manual, Adverse Conditions",
+        "url": "https://iowadot.gov/drivers-licenses-ids/driver-education/manuals-practice-tests/drivers-manual"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
-    "contentVersion": 1
+    "contentVersion": 3
   },
   {
     "id": "ia-pavement-markings-001",
     "category": "pavement-markings",
-    "stateScope": ["IA"],
+    "stateScope": [
+      "IA"
+    ],
     "prompt": "A broken (dashed) yellow center line on a two-way road means:",
-    "options": ["Passing is never allowed", "You may pass when it is safe, on your side with the dashed line", "The road is one-way", "You must stay in the center of the road"],
-    "correctIndex": 1,
+    "options": [
+      "You may pass when it is safe, on your side with the dashed line",
+      "You must stay in the center of the road",
+      "The road is one-way",
+      "Passing is never allowed"
+    ],
+    "correctIndex": 0,
     "explanation": "A broken yellow center line means passing is permitted for the side next to the dashes when it is safe and legal. A solid yellow line on your side means no passing.",
     "difficulty": "easy",
-    "references": [{ "label": "Pavement markings", "citation": "Iowa Driver's Manual, Pavement Markings", "url": "https://iowadot.gov/drivers-licenses-ids/driver-education/manuals-practice-tests/drivers-manual" }],
+    "references": [
+      {
+        "label": "Pavement markings",
+        "citation": "Iowa Driver's Manual, Pavement Markings",
+        "url": "https://iowadot.gov/drivers-licenses-ids/driver-education/manuals-practice-tests/drivers-manual"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
-    "contentVersion": 1
+    "contentVersion": 3
   },
   {
     "id": "ia-sharing-the-road-001",
     "category": "sharing-the-road",
-    "stateScope": ["IA"],
+    "stateScope": [
+      "IA"
+    ],
     "prompt": "When you meet or pass farm equipment on a rural Iowa road, you should:",
-    "options": ["Pass immediately without slowing", "Slow down, be patient, and pass only when you have a clear, legal view of oncoming traffic", "Follow closely to encourage it to move over", "Honk continuously until it pulls over"],
-    "correctIndex": 1,
+    "options": [
+      "Slow down, be patient, and pass only when you have a clear, legal view of oncoming traffic",
+      "Honk continuously until it pulls over",
+      "Follow closely to encourage it to move over",
+      "Pass immediately without slowing"
+    ],
+    "correctIndex": 0,
     "explanation": "Slow-moving farm equipment is common on Iowa roads. Slow down, keep back, and pass only where it is legal and you can clearly see that oncoming traffic is clear.",
     "difficulty": "medium",
-    "references": [{ "label": "Sharing the road", "citation": "Iowa Driver's Manual, Sharing the Road", "url": "https://iowadot.gov/drivers-licenses-ids/driver-education/manuals-practice-tests/drivers-manual" }],
+    "references": [
+      {
+        "label": "Sharing the road",
+        "citation": "Iowa Driver's Manual, Sharing the Road",
+        "url": "https://iowadot.gov/drivers-licenses-ids/driver-education/manuals-practice-tests/drivers-manual"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "sourceSnapshotHash": "seed-pending-verification",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
-    "contentVersion": 1
+    "contentVersion": 3
   }
 ]

@@ -1,0 +1,36 @@
+{
+  "state": "KY",
+  "sources": [
+    {
+      "url": "https://apps.legislature.ky.gov/law/statutes/",
+      "sha256": "673057f80ca4c9c33d471ae573454c352931785e3197af7b36c2a594a6bbe4a6",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://drive.ky.gov/driver-licensing/Pages/Testing-and-Permit-Fees.aspx",
+      "status": 404,
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://kentuckystatepolice.ky.gov/driver-testing/",
+      "handbook": true,
+      "sha256": "c85d5f9ca003099f81277754c4c7d7655f4f2c334fe89a5515927f086eaf16bd",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://mutcd.fhwa.dot.gov/",
+      "sha256": "b774f3f34dfc56d807552547e81123b5b693f5080f1585239891b4b1134f3aa2",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table",
+      "sha256": "a4c2b59b06107a409c1a69df93e9cbf431e5b4e2e5c179d6b93528e8b768f3b5",
+      "contentType": "text/html",
+      "status": 200
+    }
+  ],
+  "handbookSnapshotHash": "c85d5f9ca003099f81277754c4c7d7655f4f2c334fe89a5515927f086eaf16bd"
+}

@@ -9,8 +9,14 @@
   "handbookEditionYear": 2024,
   "handbookCopyrightStatus": "terms-of-use",
   "applicantVariants": [
-    { "id": "under-18", "label": "Under 18 (learner's permit / intermediate license, driver ed required)" },
-    { "id": "adult", "label": "Adult (18+)" }
+    {
+      "id": "under-18",
+      "label": "Under 18 (learner's permit / intermediate license, driver ed required)"
+    },
+    {
+      "id": "adult",
+      "label": "Adult (18+)"
+    }
   ],
   "examVariants": [
     {
@@ -18,7 +24,9 @@
       "label": "Class D/E knowledge test (all ages)",
       "numQuestions": 40,
       "numToPass": 32,
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "onlineAvailable": false
     }
   ],
@@ -62,7 +70,10 @@
     "moveOverRule": "Move over one lane, or slow down if you cannot safely change lanes, for stopped emergency, law-enforcement, and utility vehicles displaying flashing lights",
     "interstateMaxSpeed": "70 mph",
     "schoolZoneSpeed": "Reduced posted limit during posted hours (commonly 25 mph where posted)",
-    "namedLaws": ["Move Over Law", "Texting-while-driving ban (R.S. 32:300.5)"]
+    "namedLaws": [
+      "Move Over Law",
+      "Texting-while-driving ban (R.S. 32:300.5)"
+    ]
   },
   "references": [
     {
@@ -77,7 +88,7 @@
     }
   ],
   "effectiveDate": "2026-07-24",
-  "sourceSnapshotHash": "seed-pending-verification",
+  "sourceSnapshotHash": "9dc883b7d32bba264e758c9de876a8a51324ef65f2996d6e90c93404f2e7046a",
   "reviewStatus": "draft",
   "verifyNote": "Louisiana OMV officially confirms fees and GDL ages/hours, but its accessible official pages and Class D/E guide landing page do not directly state the 40-question/32-correct exam format; retain pending direct official confirmation.",
   "lastVerified": "2026-07-27",

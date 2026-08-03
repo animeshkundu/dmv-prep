@@ -1,0 +1,112 @@
+{
+  "state": "NJ",
+  "sources": [
+    {
+      "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1/32635",
+      "sha256": "e70b40616bdb9f2bb663071ea17f6b05203172d665662c10af3f6b309ec8c54c",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://mutcd.fhwa.dot.gov/",
+      "sha256": "b774f3f34dfc56d807552547e81123b5b693f5080f1585239891b4b1134f3aa2",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://pub.njleg.state.nj.us/Bills/2000/AL00/83_.PDF",
+      "contentType": "application/pdf",
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+    },
+    {
+      "url": "https://pub.njleg.state.nj.us/Bills/2002/AL03/314_.PDF",
+      "contentType": "application/pdf",
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+    },
+    {
+      "url": "https://pub.njleg.state.nj.us/Bills/2006/AL07/266_.PDF",
+      "contentType": "application/pdf",
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+    },
+    {
+      "url": "https://pub.njleg.state.nj.us/Bills/2008/AL09/319_.PDF",
+      "contentType": "application/pdf",
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+    },
+    {
+      "url": "https://pub.njleg.state.nj.us/Bills/2012/AL13/70_.PDF",
+      "contentType": "application/pdf",
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+    },
+    {
+      "url": "https://pub.njleg.state.nj.us/Bills/2014/AL15/50_.PDF",
+      "contentType": "application/pdf",
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+    },
+    {
+      "url": "https://pub.njleg.state.nj.us/Bills/2018/AL19/248_.PDF",
+      "contentType": "application/pdf",
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+    },
+    {
+      "url": "https://pub.njleg.state.nj.us/Bills/2018/AL19/5_.PDF",
+      "contentType": "application/pdf",
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+    },
+    {
+      "url": "https://pub.njleg.state.nj.us/Bills/2020/AL21/139_.PDF",
+      "contentType": "application/pdf",
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+    },
+    {
+      "url": "https://pub.njleg.state.nj.us/Bills/2022/AL23/216_.PDF",
+      "contentType": "application/pdf",
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+    },
+    {
+      "url": "https://pub.njleg.state.nj.us/Bills/2024/AL25/155_.PDF",
+      "contentType": "application/pdf",
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+    },
+    {
+      "url": "https://pub.njleg.state.nj.us/Bills/2024/AL25/248_.PDF",
+      "contentType": "application/pdf",
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+    },
+    {
+      "url": "https://www.iihs.org/topics/speed/speed-limit-laws",
+      "sha256": "381e82f5508e943ac29ba82b3c912cb493a4124a02c7e2ab4197e23180751b0d",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.nj.gov/mvc/about/gdlsafety.htm",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.nj.gov/mvc/license/firstlic.htm",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.nj.gov/mvc/license/suspension.htm",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+      "handbook": true,
+      "error": "fetch failed: fetch failed"
+    }
+  ]
+}

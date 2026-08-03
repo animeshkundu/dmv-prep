@@ -1,0 +1,17 @@
+[
+  {
+    "id": "fixture-national-stop",
+    "stateScope": "all",
+    "prompt": "At a stop sign, what must a driver do before entering the intersection?"
+  },
+  {
+    "id": "fixture-state-stop",
+    "stateScope": ["AL"],
+    "prompt": "At a stop sign, what must a driver do before entering the intersection?"
+  },
+  {
+    "id": "fixture-near-stop",
+    "stateScope": ["AK"],
+    "prompt": "When approaching a stop sign, what must a driver do before entering the intersection?"
+  }
+]

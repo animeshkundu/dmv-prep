@@ -1,0 +1,29 @@
+{
+  "state": "WI",
+  "sources": [
+    {
+      "url": "https://mutcd.fhwa.dot.gov/",
+      "sha256": "b774f3f34dfc56d807552547e81123b5b693f5080f1585239891b4b1134f3aa2",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "handbook": true,
+      "contentType": "application/pdf",
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+    },
+    {
+      "url": "https://wisconsindot.gov/Pages/dmv/license-drvs/susp-or-rvkd/owi.aspx",
+      "sha256": "e6336505b3a11b18351dfe2e381b0ce1fa012ec0d22f09d481110fbfeb71988e",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://wisconsindot.gov/Pages/dmv/teen-driver/teen-driver.aspx",
+      "status": 404,
+      "error": "HTTP 404"
+    }
+  ]
+}

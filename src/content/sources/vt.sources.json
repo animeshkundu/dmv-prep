@@ -1,0 +1,27 @@
+{
+  "state": "VT",
+  "sources": [
+    {
+      "url": "https://dmv.vermont.gov/licenses/fees",
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://dmv.vermont.gov/licenses/new/learners-permit",
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://dmv.vermont.gov/sites/dmv/files/documents/VN-007-Drivers_Manual.pdf",
+      "handbook": true,
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://mutcd.fhwa.dot.gov/",
+      "sha256": "b774f3f34dfc56d807552547e81123b5b693f5080f1585239891b4b1134f3aa2",
+      "contentType": "text/html",
+      "status": 200
+    }
+  ]
+}

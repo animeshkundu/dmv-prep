@@ -1,0 +1,42 @@
+{
+  "state": "CO",
+  "sources": [
+    {
+      "url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2025-title-10.pdf",
+      "status": 404,
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2025-title-42.pdf",
+      "status": 404,
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://dmv.colorado.gov/driver-handbook",
+      "handbook": true,
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://dmv.colorado.gov/driver-handbooks",
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://dmv.colorado.gov/fees",
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://dmv.colorado.gov/permits-first-time-driver-license",
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://mutcd.fhwa.dot.gov/",
+      "sha256": "b774f3f34dfc56d807552547e81123b5b693f5080f1585239891b4b1134f3aa2",
+      "contentType": "text/html",
+      "status": 200
+    }
+  ]
+}

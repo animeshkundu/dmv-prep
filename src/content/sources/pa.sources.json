@@ -1,0 +1,24 @@
+{
+  "state": "PA",
+  "sources": [
+    {
+      "url": "https://mutcd.fhwa.dot.gov/",
+      "sha256": "b774f3f34dfc56d807552547e81123b5b693f5080f1585239891b4b1134f3aa2",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/testing",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+      "handbook": true,
+      "error": "fetch failed: fetch failed"
+    }
+  ]
+}

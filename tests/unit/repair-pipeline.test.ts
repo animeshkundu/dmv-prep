@@ -51,7 +51,10 @@ describe('Pipeline Tooling (docs/CHANGE_SPEC_COMPLETENESS.md §7.2, §4.6, §9.3
   });
 
   it('dedupe-report.mjs detects known duplicates', () => {
-    const result = runScript('scripts/content/dedupe-report.mjs', []);
+    const result = runScript('scripts/content/dedupe-report.mjs', [
+      '--questions-dir',
+      'tests/fixtures/dedupe-questions',
+    ]);
     expect(result.status).not.toBe(0);
     expect(result.stderr || result.stdout).toMatch(/exact duplicate/i);
     expect(result.stderr || result.stdout).toMatch(/near duplicate/i);

@@ -2,57 +2,96 @@
   {
     "id": "de-speed-001",
     "category": "speed-limits",
-    "stateScope": ["DE"],
+    "stateScope": [
+      "DE"
+    ],
     "prompt": "On Delaware interstate highways, unless otherwise posted, the maximum speed limit is:",
-    "options": ["55 mph", "60 mph", "65 mph", "70 mph"],
-    "correctIndex": 2,
+    "options": [
+      "65 mph",
+      "60 mph",
+      "70 mph",
+      "55 mph"
+    ],
+    "correctIndex": 0,
     "explanation": "Delaware's maximum posted speed limit on its interstate highways is 65 mph. Always obey the posted limit, which may be lower in work zones or urban segments.",
     "difficulty": "medium",
-    "references": [{ "label": "Speed limits", "citation": "Delaware Driver Manual, Speed Limits; 21 Del. C. 4169", "url": "https://www.dmv.de.gov/DriverServices/drivers_license/index.shtml" }],
+    "references": [
+      {
+        "label": "Speed limits",
+        "citation": "Delaware Driver Manual, Speed Limits; 21 Del. C. 4169",
+        "url": "https://www.dmv.de.gov/DriverServices/drivers_license/index.shtml"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "de-alc-001",
     "category": "alcohol-drugs",
-    "stateScope": ["DE"],
+    "stateScope": [
+      "DE"
+    ],
     "prompt": "In Delaware, a driver under 21 can lose driving privileges for driving with a blood alcohol concentration (BAC) of:",
-    "options": ["0.08% or higher", "0.05% or higher", "0.02% or higher", "0.10% or higher"],
-    "correctIndex": 2,
+    "options": [
+      "0.10% or higher",
+      "0.05% or higher",
+      "0.08% or higher",
+      "0.02% or higher"
+    ],
+    "correctIndex": 3,
     "explanation": "Delaware's zero-tolerance law makes it illegal for a driver under 21 to drive with a BAC of 0.02% or higher, which can trigger license revocation. The adult limit is 0.08%.",
     "difficulty": "medium",
-    "references": [{ "label": "Zero tolerance", "citation": "Delaware Driver Manual, Alcohol and Driving", "url": "https://www.dmv.de.gov/DriverServices/drivers_license/index.shtml" }],
+    "references": [
+      {
+        "label": "Zero tolerance",
+        "citation": "Delaware Driver Manual, Alcohol and Driving",
+        "url": "https://www.dmv.de.gov/DriverServices/drivers_license/index.shtml"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "de-pts-001",
     "category": "penalties-points",
-    "stateScope": ["DE"],
+    "stateScope": [
+      "DE"
+    ],
     "prompt": "Delaware assigns points to your driving record for moving violations. Accumulating too many points can lead to:",
     "options": [
-      "A cash reward for safe driving",
       "Suspension of your driving privileges",
       "An automatic license upgrade",
+      "A cash reward for safe driving",
       "No consequences at all"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "Delaware uses a driver point system. Points from moving violations stay on your record, and accumulating a high total (for example, 14 or more points) can result in suspension of your driving privileges.",
     "difficulty": "medium",
-    "references": [{ "label": "Point system", "citation": "Delaware Driver Manual, Point System / Penalties", "url": "https://www.dmv.de.gov/DriverServices/drivers_license/index.shtml" }],
+    "references": [
+      {
+        "label": "Point system",
+        "citation": "Delaware Driver Manual, Point System / Penalties",
+        "url": "https://www.dmv.de.gov/DriverServices/drivers_license/index.shtml"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "de-pts-002",
     "category": "penalties-points",
-    "stateScope": ["DE"],
+    "stateScope": [
+      "DE"
+    ],
     "prompt": "In Delaware, illegally passing a stopped school bus that is loading or unloading children is a serious violation that:",
     "options": [
       "Carries no penalty if you slow down",
@@ -63,195 +102,278 @@
     "correctIndex": 1,
     "explanation": "Passing a stopped school bus with its red lights flashing is one of Delaware's most serious moving violations. It adds 6 points and may result in additional action, including suspension.",
     "difficulty": "medium",
-    "references": [{ "label": "School bus violations", "citation": "Delaware Driver Manual, Point System / School Buses", "url": "https://www.dmv.de.gov/DriverServices/drivers_license/index.shtml" }],
+    "references": [
+      {
+        "label": "School bus violations",
+        "citation": "Delaware Driver Manual, Point System / School Buses",
+        "url": "https://www.dmv.de.gov/DriverServices/drivers_license/index.shtml"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "de-gdl-001",
     "category": "gdl-teen",
-    "stateScope": ["DE"],
+    "stateScope": [
+      "DE"
+    ],
     "prompt": "In Delaware, a teen enrolled in an approved driver education course may obtain a Level 1 Learner's Permit as young as:",
-    "options": ["15 years", "15 years 10 months", "16 years", "17 years"],
+    "options": [
+      "15 years 10 months",
+      "17 years",
+      "16 years",
+      "15 years"
+    ],
     "correctIndex": 2,
     "explanation": "A Delaware applicant must be at least 16 years old to qualify for a Level 1 Learner's Permit and must present proof of completing an approved driver education course.",
     "difficulty": "hard",
-    "references": [{ "label": "Graduated licensing", "citation": "IIHS Graduated Licensing Laws Table (Delaware); Delaware Driver Manual", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
+    "references": [
+      {
+        "label": "Graduated licensing",
+        "citation": "IIHS Graduated Licensing Laws Table (Delaware); Delaware Driver Manual",
+        "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "de-gdl-002",
     "category": "gdl-teen",
-    "stateScope": ["DE"],
+    "stateScope": [
+      "DE"
+    ],
     "prompt": "During the restricted period of Delaware's graduated licensing, a young driver generally may not drive unsupervised between:",
-    "options": ["11 p.m. and 5 a.m.", "10 p.m. and 6 a.m.", "Midnight and 5 a.m.", "9 p.m. and 6 a.m."],
-    "correctIndex": 1,
+    "options": [
+      "Midnight and 5 a.m.",
+      "9 p.m. and 6 a.m.",
+      "11 p.m. and 5 a.m.",
+      "10 p.m. and 6 a.m."
+    ],
+    "correctIndex": 3,
     "explanation": "Delaware's nighttime driving restriction for graduated-license holders prohibits unsupervised driving between 10 p.m. and 6 a.m., unless a listed exception (such as work or an emergency) applies.",
     "difficulty": "medium",
-    "references": [{ "label": "Nighttime restriction", "citation": "IIHS Graduated Licensing Laws Table (Delaware); Delaware Driver Manual", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
+    "references": [
+      {
+        "label": "Nighttime restriction",
+        "citation": "IIHS Graduated Licensing Laws Table (Delaware); Delaware Driver Manual",
+        "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "de-gdl-003",
     "category": "gdl-teen",
-    "stateScope": ["DE"],
+    "stateScope": [
+      "DE"
+    ],
     "prompt": "During Delaware's Level 1 learner period, the driver is generally limited to carrying:",
     "options": [
       "No more than 1 passenger (plus household/immediate family exceptions)",
-      "As many passengers as there are seat belts",
       "Only adult passengers over 25",
-      "No passengers under any circumstances"
+      "No passengers under any circumstances",
+      "As many passengers as there are seat belts"
     ],
     "correctIndex": 0,
     "explanation": "A Delaware Level 1 driver may generally carry only the supervising adult and one other passenger. Immediate-family exceptions apply while the adult supervisor is present; during unsupervised driving, only one passenger may accompany the driver.",
     "difficulty": "hard",
-    "references": [{ "label": "Passenger limits", "citation": "IIHS Graduated Licensing Laws Table (Delaware); Delaware Driver Manual", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
+    "references": [
+      {
+        "label": "Passenger limits",
+        "citation": "IIHS Graduated Licensing Laws Table (Delaware); Delaware Driver Manual",
+        "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "de-laws-001",
     "category": "traffic-laws",
-    "stateScope": ["DE"],
+    "stateScope": [
+      "DE"
+    ],
     "prompt": "Under Delaware's hands-free law, while driving you may use a cell phone:",
     "options": [
-      "Held in your hand for navigation",
-      "Only in hands-free mode; holding the device is prohibited",
       "For texting when traffic is stopped",
-      "Freely once you are 18"
+      "Freely once you are 18",
+      "Only in hands-free mode; holding the device is prohibited",
+      "Held in your hand for navigation"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "Delaware prohibits using a handheld cell phone or electronic device while driving. You must use hands-free technology, and learner-permit and Level 1 drivers may not use a cell phone at all while driving.",
     "difficulty": "easy",
-    "references": [{ "label": "Hands-free law", "citation": "Delaware Driver Manual, Distracted Driving", "url": "https://www.dmv.de.gov/DriverServices/drivers_license/index.shtml" }],
+    "references": [
+      {
+        "label": "Hands-free law",
+        "citation": "Delaware Driver Manual, Distracted Driving",
+        "url": "https://www.dmv.de.gov/DriverServices/drivers_license/index.shtml"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "de-safe-001",
     "category": "safe-driving",
-    "stateScope": ["DE"],
+    "stateScope": [
+      "DE"
+    ],
     "prompt": "Under Delaware's Move Over Law, when you approach a stopped emergency vehicle with flashing lights, you must:",
     "options": [
-      "Keep your speed and lane position",
-      "Move over one lane if safe, or slow down if you cannot change lanes",
+      "Flash your headlights and continue",
       "Stop in the travel lane",
-      "Flash your headlights and continue"
+      "Move over one lane if safe, or slow down if you cannot change lanes",
+      "Keep your speed and lane position"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "Delaware's Move Over Law requires you to change one lane away from a stopped emergency or authorized vehicle displaying flashing lights when it is safe. If you cannot move over, slow down and proceed with caution.",
     "difficulty": "easy",
-    "references": [{ "label": "Move Over Law", "citation": "Delaware Driver Manual, Emergency Vehicles", "url": "https://www.dmv.de.gov/DriverServices/drivers_license/index.shtml" }],
+    "references": [
+      {
+        "label": "Move Over Law",
+        "citation": "Delaware Driver Manual, Emergency Vehicles",
+        "url": "https://www.dmv.de.gov/DriverServices/drivers_license/index.shtml"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "de-signs-001",
     "category": "road-signs",
-    "stateScope": ["DE"],
+    "stateScope": [
+      "DE"
+    ],
     "prompt": "A triangular sign pointing downward with a white center and red border means:",
-    "options": ["Stop", "Yield", "No entry", "Merge"],
-    "correctIndex": 1,
+    "options": [
+      "Yield",
+      "Stop",
+      "No entry",
+      "Merge"
+    ],
+    "correctIndex": 0,
     "explanation": "The downward-pointing triangle with a red border is a YIELD sign. Slow down, be ready to stop, and give the right of way to traffic and pedestrians before proceeding.",
     "difficulty": "easy",
-    "references": [{ "label": "Regulatory signs", "citation": "Delaware Driver Manual, Traffic Signs", "url": "https://www.dmv.de.gov/DriverServices/drivers_license/index.shtml" }],
+    "references": [
+      {
+        "label": "Regulatory signs",
+        "citation": "Delaware Driver Manual, Traffic Signs",
+        "url": "https://www.dmv.de.gov/DriverServices/drivers_license/index.shtml"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "de-row-001",
     "category": "right-of-way",
-    "stateScope": ["DE"],
+    "stateScope": [
+      "DE"
+    ],
     "prompt": "When an emergency vehicle approaches with siren and flashing lights, Delaware law requires you to:",
     "options": [
-      "Speed up to get out of the way",
-      "Pull over to the right edge of the road and stop until it passes",
       "Stop immediately in your lane",
-      "Continue as normal if you are not in its lane"
+      "Speed up to get out of the way",
+      "Continue as normal if you are not in its lane",
+      "Pull over to the right edge of the road and stop until it passes"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "You must yield to an approaching emergency vehicle by pulling over to the right edge of the roadway and stopping until it has passed. Do not block intersections while yielding.",
     "difficulty": "easy",
-    "references": [{ "label": "Emergency vehicles", "citation": "Delaware Driver Manual, Right-of-Way / Emergency Vehicles", "url": "https://www.dmv.de.gov/DriverServices/drivers_license/index.shtml" }],
-    "effectiveDate": "2026-07-24",
-    "reviewStatus": "draft",
-    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
-  },
-  {
-    "id": "de-sig-001",
-    "category": "traffic-signals",
-    "stateScope": ["DE"],
-    "prompt": "A steady yellow traffic light means:",
-    "options": [
-      "Speed up to beat the red",
-      "The light is about to turn red; stop if you can do so safely",
-      "Stop and stay stopped",
-      "Proceed with the right of way"
+    "references": [
+      {
+        "label": "Emergency vehicles",
+        "citation": "Delaware Driver Manual, Right-of-Way / Emergency Vehicles",
+        "url": "https://www.dmv.de.gov/DriverServices/drivers_license/index.shtml"
+      }
     ],
-    "correctIndex": 1,
-    "explanation": "A steady yellow light warns that the signal is about to turn red. Stop if you can do so safely; enter the intersection only if you are too close to stop safely.",
-    "difficulty": "easy",
-    "references": [{ "label": "Traffic signals", "citation": "Delaware Driver Manual, Traffic Signals", "url": "https://www.dmv.de.gov/DriverServices/drivers_license/index.shtml" }],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "de-share-001",
     "category": "sharing-the-road",
-    "stateScope": ["DE"],
+    "stateScope": [
+      "DE"
+    ],
     "prompt": "When passing a bicyclist on a Delaware roadway, you should:",
     "options": [
-      "Pass as closely as possible",
       "Allow a safe distance of at least 3 feet when passing",
-      "Sound your horn to move them off the road",
-      "Pass only on the right"
+      "Pass only on the right",
+      "Pass as closely as possible",
+      "Sound your horn to move them off the road"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "Delaware law requires drivers to give bicyclists a safe passing distance of at least 3 feet. Slow down, wait for a safe gap, and pass with plenty of room.",
     "difficulty": "medium",
-    "references": [{ "label": "Sharing the road", "citation": "Delaware Driver Manual, Sharing the Road with Bicycles", "url": "https://www.dmv.de.gov/DriverServices/drivers_license/index.shtml" }],
+    "references": [
+      {
+        "label": "Sharing the road",
+        "citation": "Delaware Driver Manual, Sharing the Road with Bicycles",
+        "url": "https://www.dmv.de.gov/DriverServices/drivers_license/index.shtml"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "de-mark-001",
     "category": "pavement-markings",
-    "stateScope": ["DE"],
+    "stateScope": [
+      "DE"
+    ],
     "prompt": "A double solid yellow center line means:",
     "options": [
+      "The lane to the right is one-way",
       "Passing is allowed for both directions",
       "Neither direction may cross to pass (except to turn into a driveway or road)",
-      "The lane to the right is one-way",
       "You may park along the line"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "Double solid yellow lines mean traffic in neither direction may cross to pass. You may cross them only to turn left into or out of a driveway, alley, or private road when it is safe.",
     "difficulty": "easy",
-    "references": [{ "label": "Pavement markings", "citation": "Delaware Driver Manual, Pavement Markings", "url": "https://www.dmv.de.gov/DriverServices/drivers_license/index.shtml" }],
+    "references": [
+      {
+        "label": "Pavement markings",
+        "citation": "Delaware Driver Manual, Pavement Markings",
+        "url": "https://www.dmv.de.gov/DriverServices/drivers_license/index.shtml"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   }
 ]

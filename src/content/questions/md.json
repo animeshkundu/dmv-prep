@@ -2,261 +2,436 @@
   {
     "id": "md-alcohol-drugs-001",
     "category": "alcohol-drugs",
-    "stateScope": ["MD"],
+    "stateScope": [
+      "MD"
+    ],
     "prompt": "In Maryland, a driver age 21 or older is considered driving under the influence when their blood alcohol concentration (BAC) is at or above:",
-    "options": ["0.10%", "0.08%", "0.05%", "0.02%"],
-    "correctIndex": 1,
+    "options": [
+      "0.05%",
+      "0.10%",
+      "0.08%",
+      "0.02%"
+    ],
+    "correctIndex": 2,
     "explanation": "Maryland's per se limit for adult drivers is 0.08%. At or above this BAC a driver can be charged with driving under the influence (DUI).",
     "difficulty": "easy",
-    "references": [{ "label": "Alcohol and the law", "citation": "MDOT MVA Driver's Manual (DL-002), Alcohol, Other Drugs and Driving", "url": "https://mva.maryland.gov/Documents/DL-002.pdf" }],
+    "references": [
+      {
+        "label": "Alcohol and the law",
+        "citation": "MDOT MVA Driver's Manual (DL-002), Alcohol, Other Drugs and Driving",
+        "url": "https://mva.maryland.gov/Documents/DL-002.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 2
   },
   {
     "id": "md-alcohol-drugs-002",
     "category": "alcohol-drugs",
-    "stateScope": ["MD"],
+    "stateScope": [
+      "MD"
+    ],
     "prompt": "A driver under 21 in Maryland can be charged with an alcohol-restriction violation when their BAC reaches:",
-    "options": ["0.08%", "0.05%", "0.02%", "0.00%"],
-    "correctIndex": 2,
+    "options": [
+      "0.05%",
+      "0.00%",
+      "0.08%",
+      "0.02%"
+    ],
+    "correctIndex": 3,
     "explanation": "Maryland places an alcohol restriction on drivers under 21. A BAC of 0.02% or higher violates that restriction and can lead to license penalties.",
     "difficulty": "medium",
-    "references": [{ "label": "Under 21 alcohol restriction", "citation": "MDOT MVA Driver's Manual (DL-002), Alcohol, Other Drugs and Driving", "url": "https://mva.maryland.gov/Documents/DL-002.pdf" }],
+    "references": [
+      {
+        "label": "Under 21 alcohol restriction",
+        "citation": "MDOT MVA Driver's Manual (DL-002), Alcohol, Other Drugs and Driving",
+        "url": "https://mva.maryland.gov/Documents/DL-002.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "md-penalties-points-001",
     "category": "penalties-points",
-    "stateScope": ["MD"],
+    "stateScope": [
+      "MD"
+    ],
     "prompt": "In Maryland, accumulating how many points within a two-year period will result in license revocation?",
-    "options": ["5 points", "8 points", "12 points", "3 points"],
-    "correctIndex": 2,
+    "options": [
+      "5 points",
+      "3 points",
+      "8 points",
+      "12 points"
+    ],
+    "correctIndex": 3,
     "explanation": "In Maryland, 8 to 11 points in two years leads to a suspension notice, while 12 or more points in two years results in license revocation.",
     "difficulty": "medium",
-    "references": [{ "label": "Driver's License Points", "citation": "MDOT MVA Driver's License Points", "url": "https://mva.maryland.gov/your-mva-guide/drivers-revoked-or-suspended-licenses/drivers-license-points" }],
+    "references": [
+      {
+        "label": "Driver's License Points",
+        "citation": "MDOT MVA Driver's License Points",
+        "url": "https://mva.maryland.gov/your-mva-guide/drivers-revoked-or-suspended-licenses/drivers-license-points"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "md-penalties-points-002",
     "category": "penalties-points",
-    "stateScope": ["MD"],
+    "stateScope": [
+      "MD"
+    ],
     "prompt": "In Maryland, how many points accumulated within two years triggers a notice of license suspension?",
-    "options": ["3 to 4 points", "8 to 11 points", "12 or more points", "1 to 2 points"],
-    "correctIndex": 1,
+    "options": [
+      "8 to 11 points",
+      "1 to 2 points",
+      "12 or more points",
+      "3 to 4 points"
+    ],
+    "correctIndex": 0,
     "explanation": "Maryland issues a suspension notice when a driver accumulates 8 to 11 points within a two-year period. At 12 or more points the license is revoked.",
     "difficulty": "medium",
-    "references": [{ "label": "Driver's License Points", "citation": "MDOT MVA Driver's License Points", "url": "https://mva.maryland.gov/your-mva-guide/drivers-revoked-or-suspended-licenses/drivers-license-points" }],
+    "references": [
+      {
+        "label": "Driver's License Points",
+        "citation": "MDOT MVA Driver's License Points",
+        "url": "https://mva.maryland.gov/your-mva-guide/drivers-revoked-or-suspended-licenses/drivers-license-points"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 2
   },
   {
     "id": "md-gdl-teen-001",
     "category": "gdl-teen",
-    "stateScope": ["MD"],
+    "stateScope": [
+      "MD"
+    ],
     "prompt": "A Maryland learner's permit holder must complete how many hours of supervised driving practice before the driving skills test?",
-    "options": ["30 hours", "40 hours", "60 hours", "50 hours"],
+    "options": [
+      "50 hours",
+      "40 hours",
+      "60 hours",
+      "30 hours"
+    ],
     "correctIndex": 2,
     "explanation": "Maryland requires 60 hours of supervised driving practice, including at least 10 hours at night, documented before taking the skills test.",
     "difficulty": "medium",
-    "references": [{ "label": "Rookie Driver GDL", "citation": "MDOT MVA Rookie Driver learner's permit", "url": "https://mva.maryland.gov/your-mva-guide/teens-new-drivers/learners-permit" }],
+    "references": [
+      {
+        "label": "Rookie Driver GDL",
+        "citation": "MDOT MVA Rookie Driver learner's permit",
+        "url": "https://mva.maryland.gov/your-mva-guide/teens-new-drivers/learners-permit"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 2
   },
   {
     "id": "md-gdl-teen-002",
     "category": "gdl-teen",
-    "stateScope": ["MD"],
+    "stateScope": [
+      "MD"
+    ],
     "prompt": "During the first 151 days of holding a Maryland provisional license, a driver under 18 generally may not:",
     "options": [
       "Drive on any highway",
-      "Carry non-family passengers under 18 unless a qualified supervising driver is present",
+      "Drive an automatic-transmission vehicle",
       "Drive faster than 45 mph",
-      "Drive an automatic-transmission vehicle"
+      "Carry non-family passengers under 18 unless a qualified supervising driver is present"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "For the first 151 days of a provisional license, Maryland drivers under 18 may not carry non-family passengers younger than 18 unless accompanied by a qualified supervising driver 21 or older. Immediate family passengers are exempt.",
     "difficulty": "hard",
-    "references": [{ "label": "Provisional license restrictions", "citation": "MDOT MVA Rookie Driver graduated licensing", "url": "https://mva.maryland.gov/your-mva-guide/teens-new-drivers/learners-permit" }],
+    "references": [
+      {
+        "label": "Provisional license restrictions",
+        "citation": "MDOT MVA Rookie Driver graduated licensing",
+        "url": "https://mva.maryland.gov/your-mva-guide/teens-new-drivers/learners-permit"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "md-gdl-teen-003",
     "category": "gdl-teen",
-    "stateScope": ["MD"],
+    "stateScope": [
+      "MD"
+    ],
     "prompt": "What is the minimum age to apply for a learner's permit in Maryland?",
-    "options": ["15 years", "15 years 9 months", "16 years", "14 years 6 months"],
-    "correctIndex": 1,
+    "options": [
+      "15 years 9 months",
+      "16 years",
+      "15 years",
+      "14 years 6 months"
+    ],
+    "correctIndex": 0,
     "explanation": "In Maryland you must be at least 15 years and 9 months old to apply for a learner's instructional permit.",
     "difficulty": "easy",
-    "references": [{ "label": "Learner's permit eligibility", "citation": "MDOT MVA Rookie Driver learner's permit", "url": "https://mva.maryland.gov/your-mva-guide/teens-new-drivers/learners-permit" }],
+    "references": [
+      {
+        "label": "Learner's permit eligibility",
+        "citation": "MDOT MVA Rookie Driver learner's permit",
+        "url": "https://mva.maryland.gov/your-mva-guide/teens-new-drivers/learners-permit"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "md-gdl-teen-004",
     "category": "gdl-teen",
-    "stateScope": ["MD"],
+    "stateScope": [
+      "MD"
+    ],
     "prompt": "Unless supervised, a Maryland provisional license holder under 18 is prohibited from driving during which hours?",
-    "options": ["9 p.m. to 6 a.m.", "Midnight to 5 a.m.", "10 p.m. to 4 a.m.", "11 p.m. to 5 a.m."],
+    "options": [
+      "10 p.m. to 4 a.m.",
+      "Midnight to 5 a.m.",
+      "9 p.m. to 6 a.m.",
+      "11 p.m. to 5 a.m."
+    ],
     "correctIndex": 1,
     "explanation": "Maryland provisional drivers under 18 may not drive between midnight and 5 a.m. unless accompanied by a qualified supervising driver, with limited exceptions such as work or school.",
     "difficulty": "medium",
-    "references": [{ "label": "Nighttime restriction", "citation": "MDOT MVA Rookie Driver graduated licensing", "url": "https://mva.maryland.gov/your-mva-guide/teens-new-drivers/learners-permit" }],
+    "references": [
+      {
+        "label": "Nighttime restriction",
+        "citation": "MDOT MVA Rookie Driver graduated licensing",
+        "url": "https://mva.maryland.gov/your-mva-guide/teens-new-drivers/learners-permit"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "md-speed-limits-001",
     "category": "speed-limits",
-    "stateScope": ["MD"],
+    "stateScope": [
+      "MD"
+    ],
     "prompt": "What is the maximum speed limit on Maryland interstate highways where posted?",
-    "options": ["55 mph", "65 mph", "70 mph", "75 mph"],
-    "correctIndex": 2,
+    "options": [
+      "55 mph",
+      "75 mph",
+      "65 mph",
+      "70 mph"
+    ],
+    "correctIndex": 3,
     "explanation": "Maryland's highest posted maximum speed limit for passenger vehicles on interstates is 70 mph. Lower limits apply in urban and work zones.",
     "difficulty": "easy",
-    "references": [{ "label": "Speed limits", "citation": "MDOT MVA Driver's Manual (DL-002), Speed Limits", "url": "https://mva.maryland.gov/Documents/DL-002.pdf" }],
+    "references": [
+      {
+        "label": "Speed limits",
+        "citation": "MDOT MVA Driver's Manual (DL-002), Speed Limits",
+        "url": "https://mva.maryland.gov/Documents/DL-002.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "md-traffic-laws-001",
     "category": "traffic-laws",
-    "stateScope": ["MD"],
+    "stateScope": [
+      "MD"
+    ],
     "prompt": "Under Maryland's Move Over Law, when approaching a stopped emergency, tow, or service vehicle with flashing lights, you must:",
     "options": [
       "Stop completely until it leaves",
-      "Move over a lane if you can, or slow down if you cannot",
       "Honk and continue at normal speed",
+      "Move over a lane if you can, or slow down if you cannot",
       "Speed up to clear the area quickly"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "Maryland's Move Over Law requires drivers to change to a non-adjacent lane when safe, or reduce speed if they cannot move over, for stopped emergency, tow, and service vehicles displaying warning lights.",
     "difficulty": "easy",
-    "references": [{ "label": "Move Over Law", "citation": "MDOT MVA Driver's Manual (DL-002), Sharing the Road", "url": "https://mva.maryland.gov/Documents/DL-002.pdf" }],
+    "references": [
+      {
+        "label": "Move Over Law",
+        "citation": "MDOT MVA Driver's Manual (DL-002), Sharing the Road",
+        "url": "https://mva.maryland.gov/Documents/DL-002.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "md-traffic-laws-002",
     "category": "traffic-laws",
-    "stateScope": ["MD"],
+    "stateScope": [
+      "MD"
+    ],
     "prompt": "Maryland's 'Noah's Law' is primarily associated with which penalty for drunk driving offenses?",
     "options": [
+      "Permanent license revocation",
       "Mandatory community service",
-      "Ignition interlock device requirement",
       "Doubling of all fines",
-      "Permanent license revocation"
+      "Ignition interlock device requirement"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "Noah's Law expanded Maryland's ignition interlock program, requiring an interlock device for many drunk-driving offenders as a condition of continued driving.",
     "difficulty": "hard",
-    "references": [{ "label": "Ignition interlock", "citation": "MDOT MVA Driver's Manual (DL-002), Alcohol, Other Drugs and Driving", "url": "https://mva.maryland.gov/Documents/DL-002.pdf" }],
+    "references": [
+      {
+        "label": "Ignition interlock",
+        "citation": "MDOT MVA Driver's Manual (DL-002), Alcohol, Other Drugs and Driving",
+        "url": "https://mva.maryland.gov/Documents/DL-002.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "md-safe-driving-001",
     "category": "safe-driving",
-    "stateScope": ["MD"],
+    "stateScope": [
+      "MD"
+    ],
     "prompt": "Under Maryland law, when may a driver use a hand-held cell phone while driving?",
     "options": [
-      "Any time as long as the call is brief",
-      "Only in hands-free mode, except to call 911 in an emergency",
       "Only when stopped at a red light",
-      "Only on local roads, not highways"
+      "Only in hands-free mode, except to call 911 in an emergency",
+      "Only on local roads, not highways",
+      "Any time as long as the call is brief"
     ],
     "correctIndex": 1,
     "explanation": "Maryland prohibits using a hand-held phone while driving. Use must be hands-free, with a narrow exception for contacting 911 or emergency services.",
     "difficulty": "medium",
-    "references": [{ "label": "Distracted driving", "citation": "MDOT MVA Driver's Manual (DL-002), Distracted Driving", "url": "https://mva.maryland.gov/Documents/DL-002.pdf" }],
+    "references": [
+      {
+        "label": "Distracted driving",
+        "citation": "MDOT MVA Driver's Manual (DL-002), Distracted Driving",
+        "url": "https://mva.maryland.gov/Documents/DL-002.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 2
   },
   {
     "id": "md-safe-driving-002",
     "category": "safe-driving",
-    "stateScope": ["MD"],
+    "stateScope": [
+      "MD"
+    ],
     "prompt": "Maryland law requires headlights to be turned on:",
     "options": [
-      "Only after 10 p.m.",
-      "Whenever windshield wipers are in continuous use and from sunset to sunrise",
+      "Only when other cars have their lights on",
       "Only on interstate highways",
-      "Only when other cars have their lights on"
+      "Whenever windshield wipers are in continuous use and from sunset to sunrise",
+      "Only after 10 p.m."
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "In Maryland you must use headlights from sunset to sunrise and whenever you must use your windshield wipers continuously because of rain, snow, or fog.",
     "difficulty": "medium",
-    "references": [{ "label": "Using headlights", "citation": "MDOT MVA Driver's Manual (DL-002), Vehicle Equipment / Lights", "url": "https://mva.maryland.gov/Documents/DL-002.pdf" }],
+    "references": [
+      {
+        "label": "Using headlights",
+        "citation": "MDOT MVA Driver's Manual (DL-002), Vehicle Equipment / Lights",
+        "url": "https://mva.maryland.gov/Documents/DL-002.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "md-right-of-way-001",
     "category": "right-of-way",
-    "stateScope": ["MD"],
+    "stateScope": [
+      "MD"
+    ],
     "prompt": "In Maryland, you may turn right on a red light after stopping unless:",
     "options": [
-      "It is after dark",
-      "A sign prohibits it or the way is not clear of pedestrians and traffic",
+      "There is a green light for oncoming traffic",
       "You are on a two-lane road",
-      "There is a green light for oncoming traffic"
+      "It is after dark",
+      "A sign prohibits it or the way is not clear of pedestrians and traffic"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "Maryland allows a right turn on red after a complete stop, but only when no sign prohibits it and the intersection is clear of pedestrians and cross traffic.",
     "difficulty": "easy",
-    "references": [{ "label": "Turning on red", "citation": "MDOT MVA Driver's Manual (DL-002), Traffic Signals", "url": "https://mva.maryland.gov/Documents/DL-002.pdf" }],
+    "references": [
+      {
+        "label": "Turning on red",
+        "citation": "MDOT MVA Driver's Manual (DL-002), Traffic Signals",
+        "url": "https://mva.maryland.gov/Documents/DL-002.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "md-alcohol-drugs-003",
     "category": "alcohol-drugs",
-    "stateScope": ["MD"],
+    "stateScope": [
+      "MD"
+    ],
     "prompt": "Under Maryland's implied consent law, refusing to take a chemical breath or blood test when lawfully requested results in:",
     "options": [
-      "A warning only for a first refusal",
       "An automatic license suspension",
       "No penalty if you were not drinking",
-      "A reduced fine"
+      "A reduced fine",
+      "A warning only for a first refusal"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "By driving in Maryland you give implied consent to chemical testing. Refusing a lawful test triggers an automatic administrative license suspension, separate from any DUI charge.",
     "difficulty": "medium",
-    "references": [{ "label": "Implied consent", "citation": "MDOT MVA Driver's Manual (DL-002), Alcohol, Other Drugs and Driving", "url": "https://mva.maryland.gov/Documents/DL-002.pdf" }],
+    "references": [
+      {
+        "label": "Implied consent",
+        "citation": "MDOT MVA Driver's Manual (DL-002), Alcohol, Other Drugs and Driving",
+        "url": "https://mva.maryland.gov/Documents/DL-002.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   }
 ]

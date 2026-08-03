@@ -1,0 +1,29 @@
+{
+  "state": "WA",
+  "sources": [
+    {
+      "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-licenses/driver-license-fees",
+      "status": 404,
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides",
+      "sha256": "70e15eb175a636d56dee7dc0451ceadc7276ac58af7ed44d6ff0b8e09ba01b19",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf",
+      "handbook": true,
+      "contentType": "application/pdf",
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+    },
+    {
+      "url": "https://mutcd.fhwa.dot.gov/",
+      "sha256": "b774f3f34dfc56d807552547e81123b5b693f5080f1585239891b4b1134f3aa2",
+      "contentType": "text/html",
+      "status": 200
+    }
+  ]
+}

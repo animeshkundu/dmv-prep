@@ -2,157 +2,270 @@
   {
     "id": "ar-speed-001",
     "category": "speed-limits",
-    "stateScope": ["AR"],
+    "stateScope": [
+      "AR"
+    ],
     "prompt": "On a rural Arkansas interstate highway, the maximum posted speed limit for a passenger car is generally:",
-    "options": ["65 mph", "70 mph", "75 mph", "80 mph"],
+    "options": [
+      "70 mph",
+      "65 mph",
+      "75 mph",
+      "80 mph"
+    ],
     "correctIndex": 2,
     "explanation": "Arkansas posts a maximum of 75 mph on rural interstate segments for passenger vehicles. Trucks and urban stretches are often held to lower posted limits, and you must always drive at a safe speed for conditions.",
     "difficulty": "medium",
-    "references": [{ "label": "Arkansas DL Study Guide", "citation": "Arkansas DL Study Guide, Speed Limits", "url": "https://media.ark.org/dps/Arkansas-DL-Manual-English-1.pdf" }],
+    "references": [
+      {
+        "label": "Arkansas DL Study Guide",
+        "citation": "Arkansas DL Study Guide, Speed Limits",
+        "url": "https://media.ark.org/dps/Arkansas-DL-Manual-English-1.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "ar-alcohol-drugs-001",
     "category": "alcohol-drugs",
-    "stateScope": ["AR"],
+    "stateScope": [
+      "AR"
+    ],
     "prompt": "Under Arkansas's zero-tolerance law, a driver under 21 can be charged for driving with a blood alcohol concentration (BAC) of at least:",
-    "options": ["0.08%", "0.05%", "0.02%", "0.01%"],
-    "correctIndex": 2,
+    "options": [
+      "0.02%",
+      "0.05%",
+      "0.08%",
+      "0.01%"
+    ],
+    "correctIndex": 0,
     "explanation": "Arkansas sets a 0.02% BAC threshold for drivers under 21, far below the 0.08% adult limit. Even a small amount of alcohol can lead to an underage DUI and license suspension.",
     "difficulty": "medium",
-    "references": [{ "label": "Arkansas DL Study Guide", "citation": "Arkansas DL Study Guide, Alcohol and the Law", "url": "https://media.ark.org/dps/Arkansas-DL-Manual-English-1.pdf" }],
+    "references": [
+      {
+        "label": "Arkansas DL Study Guide",
+        "citation": "Arkansas DL Study Guide, Alcohol and the Law",
+        "url": "https://media.ark.org/dps/Arkansas-DL-Manual-English-1.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "ar-alcohol-drugs-002",
     "category": "alcohol-drugs",
-    "stateScope": ["AR"],
+    "stateScope": [
+      "AR"
+    ],
     "prompt": "In Arkansas, the legal BAC limit for a driver age 21 or older operating a regular passenger vehicle is:",
-    "options": ["0.10%", "0.08%", "0.05%", "0.04%"],
+    "options": [
+      "0.05%",
+      "0.08%",
+      "0.10%",
+      "0.04%"
+    ],
     "correctIndex": 1,
     "explanation": "The adult per-se limit in Arkansas is 0.08%. Commercial drivers are held to 0.04%, and drivers under 21 to 0.02%.",
     "difficulty": "easy",
-    "references": [{ "label": "Arkansas DL Study Guide", "citation": "Arkansas DL Study Guide, Alcohol and the Law", "url": "https://media.ark.org/dps/Arkansas-DL-Manual-English-1.pdf" }],
+    "references": [
+      {
+        "label": "Arkansas DL Study Guide",
+        "citation": "Arkansas DL Study Guide, Alcohol and the Law",
+        "url": "https://media.ark.org/dps/Arkansas-DL-Manual-English-1.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "ar-gdl-teen-001",
     "category": "gdl-teen",
-    "stateScope": ["AR"],
+    "stateScope": [
+      "AR"
+    ],
     "prompt": "What is the minimum age to apply for an Arkansas instruction (learner's) permit?",
-    "options": ["14", "15", "16", "16 years 6 months"],
-    "correctIndex": 0,
+    "options": [
+      "16 years 6 months",
+      "14",
+      "15",
+      "16"
+    ],
+    "correctIndex": 1,
     "explanation": "Arkansas allows an instruction permit at age 14. Drivers advance to an intermediate license at 16 and an unrestricted license at 18.",
     "difficulty": "medium",
-    "references": [{ "label": "Arkansas DL Study Guide", "citation": "Arkansas DL Study Guide, Graduated Licensing", "url": "https://media.ark.org/dps/Arkansas-DL-Manual-English-1.pdf" }],
+    "references": [
+      {
+        "label": "Arkansas DL Study Guide",
+        "citation": "Arkansas DL Study Guide, Graduated Licensing",
+        "url": "https://media.ark.org/dps/Arkansas-DL-Manual-English-1.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "ar-gdl-teen-002",
     "category": "gdl-teen",
-    "stateScope": ["AR"],
+    "stateScope": [
+      "AR"
+    ],
     "prompt": "An Arkansas intermediate (16-17) license holder is generally prohibited from driving during which hours unless an exception applies?",
     "options": [
       "9 p.m. to 5 a.m.",
-      "10 p.m. to 6 a.m.",
+      "Midnight to 6 a.m.",
       "11 p.m. to 4 a.m.",
-      "Midnight to 6 a.m."
+      "10 p.m. to 6 a.m."
     ],
     "correctIndex": 2,
     "explanation": "Arkansas restricts intermediate license holders from driving between 11 p.m. and 4 a.m., unless accompanied by a licensed adult 21 or older or driving for work, school, church, or an emergency.",
     "difficulty": "hard",
-    "references": [{ "label": "Arkansas DL Study Guide", "citation": "Arkansas DL Study Guide, Intermediate License Restrictions", "url": "https://media.ark.org/dps/Arkansas-DL-Manual-English-1.pdf" }],
+    "references": [
+      {
+        "label": "Arkansas DL Study Guide",
+        "citation": "Arkansas DL Study Guide, Intermediate License Restrictions",
+        "url": "https://media.ark.org/dps/Arkansas-DL-Manual-English-1.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "ar-gdl-teen-003",
     "category": "gdl-teen",
-    "stateScope": ["AR"],
+    "stateScope": [
+      "AR"
+    ],
     "prompt": "While driving on an Arkansas intermediate license, how many passengers under 21 who are not family members may you carry?",
-    "options": ["No limit", "No more than one", "No more than two", "None at all"],
-    "correctIndex": 1,
+    "options": [
+      "None at all",
+      "No limit",
+      "No more than two",
+      "No more than one"
+    ],
+    "correctIndex": 3,
     "explanation": "Intermediate drivers in Arkansas may not carry more than one passenger under 21 who is not a member of the driver's family.",
     "difficulty": "medium",
-    "references": [{ "label": "Arkansas DL Study Guide", "citation": "Arkansas DL Study Guide, Intermediate License Restrictions", "url": "https://media.ark.org/dps/Arkansas-DL-Manual-English-1.pdf" }],
+    "references": [
+      {
+        "label": "Arkansas DL Study Guide",
+        "citation": "Arkansas DL Study Guide, Intermediate License Restrictions",
+        "url": "https://media.ark.org/dps/Arkansas-DL-Manual-English-1.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "ar-penalties-points-001",
     "category": "penalties-points",
-    "stateScope": ["AR"],
+    "stateScope": [
+      "AR"
+    ],
     "prompt": "Arkansas uses a driver point system. Accumulating how many points generally triggers a mandatory hearing that can lead to suspension?",
-    "options": ["6 points", "8 points", "14 points", "20 points"],
+    "options": [
+      "20 points",
+      "6 points",
+      "14 points",
+      "8 points"
+    ],
     "correctIndex": 2,
     "explanation": "In Arkansas a warning letter is issued around 10 points, and reaching 14 or more points triggers a mandatory hearing; missing that hearing can lead to an automatic suspension.",
     "difficulty": "hard",
-    "references": [{ "label": "Arkansas DFA Driver Improvement", "citation": "AR DFA Driver Services, Driver Improvement / Points", "url": "https://www.dfa.arkansas.gov/office/driver-services/licenses-ids-permits/non-commercial-information-ncl/" }],
+    "references": [
+      {
+        "label": "Arkansas DFA Driver Improvement",
+        "citation": "AR DFA Driver Services, Driver Improvement / Points",
+        "url": "https://www.dfa.arkansas.gov/office/driver-services/licenses-ids-permits/non-commercial-information-ncl/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "ar-safe-driving-001",
     "category": "safe-driving",
-    "stateScope": ["AR"],
+    "stateScope": [
+      "AR"
+    ],
     "prompt": "Under Arkansas's Move Over Law, when you approach a stopped emergency or tow vehicle with flashing lights on a multi-lane road, you should:",
     "options": [
-      "Maintain speed and stay in your lane",
-      "Move over one lane away if safe, or slow down if you cannot",
       "Stop completely in your lane until the vehicle leaves",
-      "Sound your horn and continue at speed"
+      "Sound your horn and continue at speed",
+      "Maintain speed and stay in your lane",
+      "Move over one lane away if safe, or slow down if you cannot"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "Arkansas's Move Over Law requires drivers to change lanes away from a stopped emergency, law-enforcement, tow, or utility vehicle displaying flashing lights, or to slow down when moving over is not possible.",
     "difficulty": "easy",
-    "references": [{ "label": "Arkansas DL Study Guide", "citation": "Arkansas DL Study Guide, Move Over Law", "url": "https://media.ark.org/dps/Arkansas-DL-Manual-English-1.pdf" }],
+    "references": [
+      {
+        "label": "Arkansas DL Study Guide",
+        "citation": "Arkansas DL Study Guide, Move Over Law",
+        "url": "https://media.ark.org/dps/Arkansas-DL-Manual-English-1.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "ar-road-signs-001",
     "category": "road-signs",
-    "stateScope": ["AR"],
+    "stateScope": [
+      "AR"
+    ],
     "prompt": "You approach a red, eight-sided (octagonal) sign. You must:",
     "options": [
-      "Slow down and proceed if the way looks clear",
       "Come to a complete stop, then proceed when it is safe",
-      "Yield only to pedestrians",
-      "Stop only if another vehicle is present"
+      "Slow down and proceed if the way looks clear",
+      "Stop only if another vehicle is present",
+      "Yield only to pedestrians"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "An octagonal red STOP sign requires a full stop behind the stop line or crosswalk. You may proceed only after stopping and yielding to pedestrians and cross traffic.",
     "difficulty": "easy",
-    "references": [{ "label": "Arkansas DL Study Guide", "citation": "Arkansas DL Study Guide, Traffic Signs", "url": "https://media.ark.org/dps/Arkansas-DL-Manual-English-1.pdf" }],
+    "references": [
+      {
+        "label": "Arkansas DL Study Guide",
+        "citation": "Arkansas DL Study Guide, Traffic Signs",
+        "url": "https://media.ark.org/dps/Arkansas-DL-Manual-English-1.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "ar-road-signs-002",
     "category": "road-signs",
-    "stateScope": ["AR"],
+    "stateScope": [
+      "AR"
+    ],
     "prompt": "A diamond-shaped sign with a yellow background and black symbols is used to:",
     "options": [
       "Give a regulatory order such as a speed limit",
@@ -163,110 +276,133 @@
     "correctIndex": 1,
     "explanation": "Yellow diamond-shaped signs are warning signs. They alert you to conditions ahead such as curves, intersections, or merges so you can slow and prepare.",
     "difficulty": "easy",
-    "references": [{ "label": "Arkansas DL Study Guide", "citation": "Arkansas DL Study Guide, Warning Signs", "url": "https://media.ark.org/dps/Arkansas-DL-Manual-English-1.pdf" }],
+    "references": [
+      {
+        "label": "Arkansas DL Study Guide",
+        "citation": "Arkansas DL Study Guide, Warning Signs",
+        "url": "https://media.ark.org/dps/Arkansas-DL-Manual-English-1.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "ar-right-of-way-001",
     "category": "right-of-way",
-    "stateScope": ["AR"],
+    "stateScope": [
+      "AR"
+    ],
     "prompt": "At a four-way stop in Arkansas where two vehicles arrive at the same time, who has the right of way?",
     "options": [
-      "The vehicle on the left",
-      "The vehicle on the right",
+      "Whoever accelerates first",
       "The larger vehicle",
-      "Whoever accelerates first"
+      "The vehicle on the right",
+      "The vehicle on the left"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "When two vehicles reach a four-way stop at the same time, the driver on the left yields to the driver on the right.",
     "difficulty": "medium",
-    "references": [{ "label": "Arkansas DL Study Guide", "citation": "Arkansas DL Study Guide, Right of Way", "url": "https://media.ark.org/dps/Arkansas-DL-Manual-English-1.pdf" }],
-    "effectiveDate": "2026-07-24",
-    "reviewStatus": "draft",
-    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
-  },
-  {
-    "id": "ar-traffic-signals-001",
-    "category": "traffic-signals",
-    "stateScope": ["AR"],
-    "prompt": "A steady yellow traffic light means:",
-    "options": [
-      "Speed up to clear the intersection",
-      "The light is about to turn red; stop if you can do so safely",
-      "Stop and wait for a green arrow",
-      "Yield only to pedestrians"
+    "references": [
+      {
+        "label": "Arkansas DL Study Guide",
+        "citation": "Arkansas DL Study Guide, Right of Way",
+        "url": "https://media.ark.org/dps/Arkansas-DL-Manual-English-1.pdf"
+      }
     ],
-    "correctIndex": 1,
-    "explanation": "A steady yellow signal warns that the light is about to turn red. Stop if you can do so safely; enter the intersection only if you cannot stop in time.",
-    "difficulty": "easy",
-    "references": [{ "label": "Arkansas DL Study Guide", "citation": "Arkansas DL Study Guide, Traffic Signals", "url": "https://media.ark.org/dps/Arkansas-DL-Manual-English-1.pdf" }],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "ar-pavement-markings-001",
     "category": "pavement-markings",
-    "stateScope": ["AR"],
+    "stateScope": [
+      "AR"
+    ],
     "prompt": "A solid yellow line on your side of the center of a two-lane road means:",
     "options": [
-      "Passing is allowed when clear",
       "Do not cross to pass",
+      "Two-way left-turn lane",
       "The road ends ahead",
-      "Two-way left-turn lane"
+      "Passing is allowed when clear"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "A solid yellow line on your side means passing is prohibited. Yellow lines separate traffic moving in opposite directions.",
     "difficulty": "easy",
-    "references": [{ "label": "Arkansas DL Study Guide", "citation": "Arkansas DL Study Guide, Pavement Markings", "url": "https://media.ark.org/dps/Arkansas-DL-Manual-English-1.pdf" }],
+    "references": [
+      {
+        "label": "Arkansas DL Study Guide",
+        "citation": "Arkansas DL Study Guide, Pavement Markings",
+        "url": "https://media.ark.org/dps/Arkansas-DL-Manual-English-1.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 2
   },
   {
     "id": "ar-sharing-the-road-001",
     "category": "sharing-the-road",
-    "stateScope": ["AR"],
+    "stateScope": [
+      "AR"
+    ],
     "prompt": "When you meet a school bus stopped with its red lights flashing and stop arm out on a two-lane road, you must:",
     "options": [
-      "Slow to 15 mph and pass carefully",
+      "Sound your horn to warn children",
       "Stop and remain stopped until the lights stop flashing and the arm is withdrawn",
       "Pass on the left if no children are visible",
-      "Sound your horn to warn children"
+      "Slow to 15 mph and pass carefully"
     ],
     "correctIndex": 1,
     "explanation": "On a two-lane road you must stop for a school bus loading or unloading children when its red lights flash and the stop arm is extended, and remain stopped until the signals are withdrawn.",
     "difficulty": "medium",
-    "references": [{ "label": "Arkansas DL Study Guide", "citation": "Arkansas DL Study Guide, School Buses", "url": "https://media.ark.org/dps/Arkansas-DL-Manual-English-1.pdf" }],
+    "references": [
+      {
+        "label": "Arkansas DL Study Guide",
+        "citation": "Arkansas DL Study Guide, School Buses",
+        "url": "https://media.ark.org/dps/Arkansas-DL-Manual-English-1.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "ar-safe-driving-002",
     "category": "safe-driving",
-    "stateScope": ["AR"],
+    "stateScope": [
+      "AR"
+    ],
     "prompt": "When driving in heavy rain or fog in Arkansas, the safest action is to:",
     "options": [
-      "Use your high-beam headlights for maximum light",
       "Reduce speed, increase following distance, and use low-beam headlights",
-      "Turn on hazard lights and maintain the posted limit",
-      "Follow the taillights of the car ahead closely"
+      "Use your high-beam headlights for maximum light",
+      "Follow the taillights of the car ahead closely",
+      "Turn on hazard lights and maintain the posted limit"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "In rain or fog, slow down, leave extra following distance, and use low-beam headlights. High beams reflect off fog and reduce visibility.",
     "difficulty": "easy",
-    "references": [{ "label": "Arkansas DL Study Guide", "citation": "Arkansas DL Study Guide, Adverse Conditions", "url": "https://media.ark.org/dps/Arkansas-DL-Manual-English-1.pdf" }],
+    "references": [
+      {
+        "label": "Arkansas DL Study Guide",
+        "citation": "Arkansas DL Study Guide, Adverse Conditions",
+        "url": "https://media.ark.org/dps/Arkansas-DL-Manual-English-1.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   }
 ]

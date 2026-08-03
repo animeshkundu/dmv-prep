@@ -1,0 +1,48 @@
+{
+  "state": "SC",
+  "sources": [
+    {
+      "url": "https://dmv.sc.gov/fees",
+      "sha256": "49e8f4e1cb4858d0c7b05a37ebac92daaaff1320a394ec786db19ed3ad4b2703",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://dmv.sc.gov/sites/scdmv/files/2026-01/Drivers%20Manual.pdf",
+      "handbook": true,
+      "contentType": "application/pdf",
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+    },
+    {
+      "url": "https://mutcd.fhwa.dot.gov/",
+      "sha256": "b774f3f34dfc56d807552547e81123b5b693f5080f1585239891b4b1134f3aa2",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://scdps.sc.gov/DrivinginSC/move-over-law",
+      "sha256": "701324dee2b671661a39390593c44a490e04147889247c87c11ebae4289f6965",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table",
+      "sha256": "a4c2b59b06107a409c1a69df93e9cbf431e5b4e2e5c179d6b93528e8b768f3b5",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.scstatehouse.gov/code/t38c077.php",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.scstatehouse.gov/code/t56c001.php",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.scstatehouse.gov/code/t56c005.php",
+      "error": "fetch failed: fetch failed"
+    }
+  ]
+}

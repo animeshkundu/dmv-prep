@@ -1,0 +1,156 @@
+{
+  "state": "MD",
+  "sources": [
+    {
+      "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gcr&section=10-125&enactments=false",
+      "sha256": "072d44e8edbee7f56134ed8f61ed4b7c3ee6b0b27c128ac5834139cf14c85746",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=11-174.1&enactments=false",
+      "sha256": "4bd07d6121eed9712bbad31d99628a81859854e7f608d9213a520a8d4da079a9",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=16-103&enactments=false",
+      "sha256": "a8b639a8987febe6fc18e93eb9a477176e6dcba0ff24a90bc2b19e70aecb666d",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=16-113&enactments=false",
+      "sha256": "7285644d622297848e3a54961f8d69b4dcf2afd84e463b6fcea778f2a7ee3c02",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=16-205.1&enactments=false",
+      "sha256": "f0f85dba2e64113305dbcc2d7e3b966e70024d7c86fe92bd70ed189e8f8c09ff",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=16-404&enactments=false",
+      "sha256": "ffb64e0ca09da71f672bf52f54534eab82520fe121b0766d855cfac0a4a718c8",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=16-812&enactments=false",
+      "sha256": "3b61e15bcad3b22829ab522fdf725c78d78050bb8e6f690bdb27247019a42540",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=17-103&enactments=false",
+      "sha256": "d0a4ae3cc6c61f805d29f92fd7919d3f01cc746768764f413de64e6bd5480f9a",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=20-107&enactments=false",
+      "sha256": "094007095ee62782af2ea2d2dc6ff6abe6622148af82234b3b4df67ae73a1200",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=21-1003&enactments=false",
+      "sha256": "1ec9be21871f793ee32a5bf1307febe22ce0e8444babb969e2ade38327745345",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=21-1123&enactments=false",
+      "sha256": "89f78addfe550ff1b67e91be9ec64407442f3c34e08107b4afea892beacc620b",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=21-1124.1&enactments=false",
+      "sha256": "f4d5b14a008cd7340080d9217be40b97cb6c1560a11c9deae80ea42947439332",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=21-1124.2&enactments=false",
+      "sha256": "212757210bd143dbfb98a6ac5b4a928df5c967c568e2be2ec993ec85aae8e79b",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=21-202&enactments=false",
+      "sha256": "7da72cfaf336e0cd9984c34170fb8fbf81773e21f4b043d0d92bba63c0bb8bdd",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=21-405&enactments=false",
+      "sha256": "bfe73006d6455aaf17d129f0986b3375166cc499be644b4741f0adecb87fb51d",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=21-801.1&enactments=false",
+      "sha256": "2292ae8af486ad863a7fbf3f1fb6f9e1cf7c326887426b9bf7b6cda9ebf2cdcb",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=21-801&enactments=false",
+      "sha256": "0c11b8f56a3d94eeefeb05a1001abcb181c0299e4abba516d1bc18239c56572e",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=21-803&enactments=false",
+      "sha256": "23c54b9b0f2ca02bc0dd0e98c220e9bdc149ab072e1469967ad6d07c8baec5dd",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=22-201.1&enactments=false",
+      "sha256": "e219716d836924d85f8f7f91dd30d7338b988fc6d81ec3afee49c286e0e2a199",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=22-412.3&enactments=false",
+      "sha256": "96b54adb8cbd98ba0a60ac27a4b5974449edff5a0e574a04092dafe2475825a0",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://mutcd.fhwa.dot.gov/",
+      "sha256": "b774f3f34dfc56d807552547e81123b5b693f5080f1585239891b4b1134f3aa2",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://mva.maryland.gov/Documents/DL-002.pdf",
+      "handbook": true,
+      "contentType": "application/pdf",
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+    },
+    {
+      "url": "https://mva.maryland.gov/your-mva-guide/drivers-revoked-or-suspended-licenses/drivers-license-points",
+      "sha256": "375ddde213e5822aa4feeb3d981a21e4a87f5f06dc62fe1d4113e81b6284d0ed",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://mva.maryland.gov/your-mva-guide/teens-new-drivers/learners-permit",
+      "sha256": "a3200c03fe50082c168a21527363e9ea4eaccdafcc2d9acb9c7580a217a55dd9",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://mva.maryland.gov/your-mva-guide/teens-new-drivers/provisional-license",
+      "sha256": "4a09cac7cda1829890304e0fe980d4705f7fab9127aa1cc60d97e44b72df2dc6",
+      "contentType": "text/html",
+      "status": 200
+    }
+  ]
+}

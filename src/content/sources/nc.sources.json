@@ -1,0 +1,106 @@
+{
+  "state": "NC",
+  "sources": [
+    {
+      "url": "https://mutcd.fhwa.dot.gov/",
+      "sha256": "b774f3f34dfc56d807552547e81123b5b693f5080f1585239891b4b1134f3aa2",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.iihs.org/topics/speed/speed-limit-laws",
+      "sha256": "381e82f5508e943ac29ba82b3c912cb493a4124a02c7e2ab4197e23180751b0d",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/graduated-licensing.aspx",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/handbooks.aspx",
+      "handbook": true,
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.ncdot.gov/dmv/license-id/license-suspension/Pages/default.aspx",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.ncleg.gov/EnactedLegislation/SessionLaws/HTML/2021-2022/SL2022-68.html",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.ncleg.gov/EnactedLegislation/SessionLaws/HTML/2023-2024/SL2023-133.html",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-11.html",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-129.html",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-135.2A.html",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-137.3.html",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-137.4A.html",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-138.1.html",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-138.2.html",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-138.3.html",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-138.7.html",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-141.1.html",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-141.html",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-158.html",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-16.2.html",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-16.html",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-162.html",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-166.1.html",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-17.html",
+      "error": "fetch failed: fetch failed"
+    }
+  ]
+}

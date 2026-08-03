@@ -2,236 +2,407 @@
   {
     "id": "sc-speed-001",
     "category": "speed-limits",
-    "stateScope": ["SC"],
+    "stateScope": [
+      "SC"
+    ],
     "prompt": "Unless otherwise posted, the maximum speed limit on a rural interstate highway in South Carolina is:",
-    "options": ["55 mph", "65 mph", "70 mph", "75 mph"],
-    "correctIndex": 2,
+    "options": [
+      "65 mph",
+      "70 mph",
+      "75 mph",
+      "55 mph"
+    ],
+    "correctIndex": 1,
     "explanation": "South Carolina's maximum speed limit on interstate highways is 70 mph where posted. Lower limits apply in urban areas and work zones, and you must always drive at a safe speed for conditions.",
     "difficulty": "easy",
-    "references": [{ "label": "South Carolina Driver's Manual", "citation": "SCDMV Driver's Manual, Speed Limits; SC Code 56-5-1520", "url": "https://dmv.sc.gov/sites/scdmv/files/2026-01/Drivers%20Manual.pdf" }],
+    "references": [
+      {
+        "label": "South Carolina Driver's Manual",
+        "citation": "SCDMV Driver's Manual, Speed Limits; SC Code 56-5-1520",
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-01/Drivers%20Manual.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "sc-alc-001",
     "category": "alcohol-drugs",
-    "stateScope": ["SC"],
+    "stateScope": [
+      "SC"
+    ],
     "prompt": "In South Carolina, a driver under 21 can face license suspension for driving with a blood alcohol concentration (BAC) as low as:",
-    "options": ["0.08%", "0.05%", "0.02%", "0.04%"],
-    "correctIndex": 2,
+    "options": [
+      "0.02%",
+      "0.05%",
+      "0.04%",
+      "0.08%"
+    ],
+    "correctIndex": 0,
     "explanation": "South Carolina's zero-tolerance law applies to drivers under 21: a BAC of 0.02% or higher can trigger an administrative license suspension, well below the adult limit of 0.08%.",
     "difficulty": "medium",
-    "references": [{ "label": "South Carolina Driver's Manual", "citation": "SCDMV Driver's Manual, Alcohol and the Law", "url": "https://dmv.sc.gov/sites/scdmv/files/2026-01/Drivers%20Manual.pdf" }],
+    "references": [
+      {
+        "label": "South Carolina Driver's Manual",
+        "citation": "SCDMV Driver's Manual, Alcohol and the Law",
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-01/Drivers%20Manual.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 2
   },
   {
     "id": "sc-alc-002",
     "category": "alcohol-drugs",
-    "stateScope": ["SC"],
+    "stateScope": [
+      "SC"
+    ],
     "prompt": "The blood alcohol concentration (BAC) at which an adult (21+) driver is considered legally impaired in South Carolina is:",
-    "options": ["0.10%", "0.08%", "0.05%", "0.02%"],
+    "options": [
+      "0.05%",
+      "0.08%",
+      "0.10%",
+      "0.02%"
+    ],
     "correctIndex": 1,
     "explanation": "In South Carolina, as in every state, a driver 21 or older with a BAC of 0.08% or higher is driving under the influence. Impairment can begin at lower levels.",
     "difficulty": "easy",
-    "references": [{ "label": "South Carolina Driver's Manual", "citation": "SCDMV Driver's Manual, Alcohol and the Law", "url": "https://dmv.sc.gov/sites/scdmv/files/2026-01/Drivers%20Manual.pdf" }],
+    "references": [
+      {
+        "label": "South Carolina Driver's Manual",
+        "citation": "SCDMV Driver's Manual, Alcohol and the Law",
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-01/Drivers%20Manual.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "sc-gdl-001",
     "category": "gdl-teen",
-    "stateScope": ["SC"],
+    "stateScope": [
+      "SC"
+    ],
     "prompt": "What is the minimum age to apply for a South Carolina beginner's permit?",
-    "options": ["14", "15", "16", "17"],
+    "options": [
+      "17",
+      "15",
+      "14",
+      "16"
+    ],
     "correctIndex": 1,
     "explanation": "You may apply for a South Carolina beginner's permit at age 15 after passing the vision and knowledge tests.",
     "difficulty": "easy",
-    "references": [{ "label": "Graduated Driver License", "citation": "IIHS Graduated Licensing Laws Table (South Carolina)", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
+    "references": [
+      {
+        "label": "Graduated Driver License",
+        "citation": "IIHS Graduated Licensing Laws Table (South Carolina)",
+        "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "sc-gdl-002",
     "category": "gdl-teen",
-    "stateScope": ["SC"],
+    "stateScope": [
+      "SC"
+    ],
     "prompt": "Before a South Carolina teen can take the road test for a conditional or special restricted license, how many hours of supervised driving must be completed?",
-    "options": ["20 hours", "30 hours", "40 hours (including 10 at night)", "60 hours"],
+    "options": [
+      "60 hours",
+      "20 hours",
+      "40 hours (including 10 at night)",
+      "30 hours"
+    ],
     "correctIndex": 2,
     "explanation": "South Carolina requires 40 hours of supervised driving, including at least 10 hours at night, before a minor takes the road test.",
     "difficulty": "medium",
-    "references": [{ "label": "Graduated Driver License", "citation": "IIHS Graduated Licensing Laws Table (South Carolina)", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
+    "references": [
+      {
+        "label": "Graduated Driver License",
+        "citation": "IIHS Graduated Licensing Laws Table (South Carolina)",
+        "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "sc-gdl-003",
     "category": "gdl-teen",
-    "stateScope": ["SC"],
+    "stateScope": [
+      "SC"
+    ],
     "prompt": "A South Carolina conditional or special restricted license holder generally may not drive alone during which hours (Eastern Standard Time)?",
     "options": [
+      "There is no night restriction",
       "Midnight to 5 a.m.",
-      "6 p.m. to 6 a.m.",
       "9 p.m. to 6 a.m.",
-      "There is no night restriction"
+      "6 p.m. to 6 a.m."
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "Solo driving ends at 6 p.m. during standard time (8 p.m. during daylight saving time). A licensed driver 21+ is required until midnight; from midnight to 6 a.m., a qualified individual must accompany the teen.",
     "difficulty": "hard",
-    "references": [{ "label": "Graduated Driver License", "citation": "IIHS Graduated Licensing Laws Table (South Carolina)", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
+    "references": [
+      {
+        "label": "Graduated Driver License",
+        "citation": "IIHS Graduated Licensing Laws Table (South Carolina)",
+        "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "sc-gdl-004",
     "category": "gdl-teen",
-    "stateScope": ["SC"],
+    "stateScope": [
+      "SC"
+    ],
     "prompt": "A South Carolina restricted (GDL) driver may carry how many passengers under age 21?",
     "options": [
-      "No passengers under 21",
       "No more than 2 passengers under 21 (except to/from school)",
-      "Up to 4 passengers under 21",
-      "Any number of passengers"
+      "No passengers under 21",
+      "Any number of passengers",
+      "Up to 4 passengers under 21"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "A South Carolina restricted driver may carry no more than 2 passengers under 21, unless they are being transported to or from school or a licensed adult 21+ is present.",
     "difficulty": "medium",
-    "references": [{ "label": "Graduated Driver License", "citation": "IIHS Graduated Licensing Laws Table (South Carolina)", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
+    "references": [
+      {
+        "label": "Graduated Driver License",
+        "citation": "IIHS Graduated Licensing Laws Table (South Carolina)",
+        "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "sc-pts-001",
     "category": "penalties-points",
-    "stateScope": ["SC"],
+    "stateScope": [
+      "SC"
+    ],
     "prompt": "In South Carolina, accumulating how many points on your driving record results in a license suspension?",
-    "options": ["6 points", "8 points", "12 points", "15 points"],
+    "options": [
+      "6 points",
+      "15 points",
+      "12 points",
+      "8 points"
+    ],
     "correctIndex": 2,
     "explanation": "The SCDMV suspends a license when a driver accumulates 12 or more points. Points are reduced by half after one year and drop off after two years.",
     "difficulty": "medium",
-    "references": [{ "label": "South Carolina Driver's Manual", "citation": "SCDMV Driver's Manual, Point System", "url": "https://dmv.sc.gov/sites/scdmv/files/2026-01/Drivers%20Manual.pdf" }],
+    "references": [
+      {
+        "label": "South Carolina Driver's Manual",
+        "citation": "SCDMV Driver's Manual, Point System",
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-01/Drivers%20Manual.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 2
   },
   {
     "id": "sc-laws-001",
     "category": "traffic-laws",
-    "stateScope": ["SC"],
+    "stateScope": [
+      "SC"
+    ],
     "prompt": "Under South Carolina's Move Over Law, when you approach a stopped emergency or recovery vehicle with flashing lights, you must:",
     "options": [
-      "Continue at the same speed",
       "Move over one lane if possible, or slow down if you cannot",
-      "Stop completely until it leaves",
-      "Sound your horn and pass quickly"
+      "Sound your horn and pass quickly",
+      "Continue at the same speed",
+      "Stop completely until it leaves"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "South Carolina's Move Over Law requires drivers to change lanes away from a stopped emergency, law-enforcement, or recovery vehicle displaying flashing lights, or to slow down if changing lanes is not safe.",
     "difficulty": "easy",
-    "references": [{ "label": "SC Move Over Law", "citation": "SCDPS Move Over Law", "url": "https://scdps.sc.gov/DrivinginSC/move-over-law" }],
+    "references": [
+      {
+        "label": "SC Move Over Law",
+        "citation": "SCDPS Move Over Law",
+        "url": "https://scdps.sc.gov/DrivinginSC/move-over-law"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "sc-laws-002",
     "category": "traffic-laws",
-    "stateScope": ["SC"],
+    "stateScope": [
+      "SC"
+    ],
     "prompt": "South Carolina's \"Emma's Law\" is best known for requiring what for certain DUI offenders?",
     "options": [
-      "A mandatory jail term for any first offense",
+      "A defensive-driving course",
       "An ignition interlock device",
       "Permanent license revocation",
-      "A defensive-driving course"
+      "A mandatory jail term for any first offense"
     ],
     "correctIndex": 1,
     "explanation": "Emma's Law requires an ignition interlock device (IID) for convicted DUI offenders. The device prevents a vehicle from starting if it detects alcohol on the driver's breath.",
     "difficulty": "medium",
-    "references": [{ "label": "SC Code 56-5-2941", "citation": "SCDMV Driver's Manual, Alcohol and the Law; SC Code 56-5-2941", "url": "https://dmv.sc.gov/sites/scdmv/files/2026-01/Drivers%20Manual.pdf" }],
+    "references": [
+      {
+        "label": "SC Code 56-5-2941",
+        "citation": "SCDMV Driver's Manual, Alcohol and the Law; SC Code 56-5-2941",
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-01/Drivers%20Manual.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "sc-signal-001",
     "category": "right-of-way",
-    "stateScope": ["SC"],
+    "stateScope": [
+      "SC"
+    ],
     "prompt": "At a four-way stop in South Carolina where two vehicles arrive at the same time, who has the right-of-way?",
     "options": [
-      "The vehicle on the left",
-      "The vehicle on the right",
+      "Whoever accelerates first",
       "The larger vehicle",
-      "Whoever accelerates first"
+      "The vehicle on the right",
+      "The vehicle on the left"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "When two vehicles reach an all-way stop at the same time, the driver on the left must yield to the driver on the right.",
     "difficulty": "easy",
-    "references": [{ "label": "South Carolina Driver's Manual", "citation": "SCDMV Driver's Manual, Right of Way", "url": "https://dmv.sc.gov/sites/scdmv/files/2026-01/Drivers%20Manual.pdf" }],
+    "references": [
+      {
+        "label": "South Carolina Driver's Manual",
+        "citation": "SCDMV Driver's Manual, Right of Way",
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-01/Drivers%20Manual.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 2
   },
   {
     "id": "sc-proc-001",
     "category": "safe-driving",
-    "stateScope": ["SC"],
+    "stateScope": [
+      "SC"
+    ],
     "prompt": "To obtain an unrestricted South Carolina driver's license, your vision must be at least:",
-    "options": ["20/20", "20/40 in at least one eye", "20/70 in both eyes", "20/100"],
+    "options": [
+      "20/70 in both eyes",
+      "20/40 in at least one eye",
+      "20/20",
+      "20/100"
+    ],
     "correctIndex": 1,
     "explanation": "South Carolina requires at least 20/40 vision in one eye (with or without corrective lenses) for an unrestricted license. Vision between 20/40 and 20/70 may qualify for a restricted license.",
     "difficulty": "medium",
-    "references": [{ "label": "South Carolina Driver's Manual", "citation": "SCDMV Driver's Manual, Vision Requirements", "url": "https://dmv.sc.gov/sites/scdmv/files/2026-01/Drivers%20Manual.pdf" }],
+    "references": [
+      {
+        "label": "South Carolina Driver's Manual",
+        "citation": "SCDMV Driver's Manual, Vision Requirements",
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-01/Drivers%20Manual.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "sc-proc-002",
     "category": "traffic-laws",
-    "stateScope": ["SC"],
+    "stateScope": [
+      "SC"
+    ],
     "prompt": "If you fail the South Carolina knowledge test, how soon can you generally retake it?",
-    "options": ["The same day", "The next day", "After 7 days", "After 30 days"],
-    "correctIndex": 1,
+    "options": [
+      "After 30 days",
+      "After 7 days",
+      "The same day",
+      "The next day"
+    ],
+    "correctIndex": 3,
     "explanation": "If you do not pass the SCDMV knowledge test, you may retest the next day. A knowledge-test fee applies to each attempt.",
     "difficulty": "easy",
-    "references": [{ "label": "South Carolina Driver's Manual", "citation": "SCDMV Driver's Manual, Knowledge Test", "url": "https://dmv.sc.gov/sites/scdmv/files/2026-01/Drivers%20Manual.pdf" }],
+    "references": [
+      {
+        "label": "South Carolina Driver's Manual",
+        "citation": "SCDMV Driver's Manual, Knowledge Test",
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-01/Drivers%20Manual.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "sc-laws-003",
     "category": "traffic-laws",
-    "stateScope": ["SC"],
+    "stateScope": [
+      "SC"
+    ],
     "prompt": "The South Carolina knowledge test for a Class D license consists of 30 questions. How many must you answer correctly to pass?",
-    "options": ["20", "24", "27", "30"],
-    "correctIndex": 1,
+    "options": [
+      "30",
+      "20",
+      "24",
+      "27"
+    ],
+    "correctIndex": 2,
     "explanation": "You must answer at least 24 of the 30 questions correctly (80%) to pass the South Carolina Class D knowledge test.",
     "difficulty": "easy",
-    "references": [{ "label": "South Carolina Driver's Manual", "citation": "SCDMV Driver's Manual, Knowledge Test", "url": "https://dmv.sc.gov/sites/scdmv/files/2026-01/Drivers%20Manual.pdf" }],
+    "references": [
+      {
+        "label": "South Carolina Driver's Manual",
+        "citation": "SCDMV Driver's Manual, Knowledge Test",
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-01/Drivers%20Manual.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   }
 ]

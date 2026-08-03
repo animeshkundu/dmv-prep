@@ -1,0 +1,43 @@
+{
+  "state": "AL",
+  "sources": [
+    {
+      "url": "https://alison.legislature.state.al.us/code-of-alabama",
+      "sha256": "135676d95e5557313c6f57662f408348bc0cf96d1f4485f98a8fec6cf6b7b969",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://mutcd.fhwa.dot.gov/",
+      "sha256": "b774f3f34dfc56d807552547e81123b5b693f5080f1585239891b4b1134f3aa2",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.alea.gov/dps/driver-license/driver-license-manuals",
+      "handbook": true,
+      "sha256": "37ccc59a63029a8c4fd07cf62c693c58b8b967e6da722b9e3540128838485c74",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.alea.gov/dps/driver-license/driver-license-point-system",
+      "sha256": "43d271fb94ce096a285f0d37b3868c2bb7e484b465ebefeb63e9da01712600c0",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.alea.gov/dps/highway-patrol/speed-limits",
+      "sha256": "aa8501d6b03518e5fa2bc21f84ef7ec9e2deaa9d7191329f0319e22756f61be6",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table",
+      "sha256": "a4c2b59b06107a409c1a69df93e9cbf431e5b4e2e5c179d6b93528e8b768f3b5",
+      "contentType": "text/html",
+      "status": 200
+    }
+  ],
+  "handbookSnapshotHash": "37ccc59a63029a8c4fd07cf62c693c58b8b967e6da722b9e3540128838485c74"
+}

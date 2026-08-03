@@ -1,0 +1,73 @@
+{
+  "state": "NE",
+  "sources": [
+    {
+      "url": "https://dmv.nebraska.gov/dl/manuals",
+      "sha256": "b478b76617ed2b78579de7f6b75e42562fd01954c3bce03f9382d4ddbe932ff3",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://dmv.nebraska.gov/file/class-o-drivers-manual-english-1-2025pdf-0",
+      "handbook": true,
+      "sha256": "9784bae12e03c0086f849ffc0be04c15f3b3278d38102d37b702226cc1f825d7",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://dmv.nebraska.gov/fr/nebraska-point-system",
+      "sha256": "3bd244927a39b2c8d4261951bf0f426d4575559bbf01dfcf613dff436f6dfa12",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://mutcd.fhwa.dot.gov/",
+      "sha256": "b774f3f34dfc56d807552547e81123b5b693f5080f1585239891b4b1134f3aa2",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-4,120",
+      "sha256": "0ce837ffc61e2bf09e52047f5102db538bc5059d8ae9289425f476f231550f33",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-4,182",
+      "sha256": "01374070734d12f9158806d614f0134ac065eb45e6eacb7d8c38a132e2981d11",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-509",
+      "sha256": "abf55691feee0cf78527652022c428212cc463caac67279318856713f3f62998",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-6,166",
+      "sha256": "5f0a25b7021e9990c38efff854d232bb57dc1d0eab9c26cb2be3701b148e9bad",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-6,186",
+      "sha256": "c38f110411b1d68fdd49ae65210c6a90ed0a17d6dcaee61a717dc39caaec49e0",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-6,196",
+      "sha256": "ca7561a43c6bc71491d85244f75fa732eeba144804a4374660a3926965b25b0d",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-6,214",
+      "sha256": "07d6bf5a23c455490839cd3b277cf7eaeb702b348b1a9b0d47fed6619614e5cc",
+      "contentType": "text/html",
+      "status": 200
+    }
+  ],
+  "handbookSnapshotHash": "9784bae12e03c0086f849ffc0be04c15f3b3278d38102d37b702226cc1f825d7"
+}

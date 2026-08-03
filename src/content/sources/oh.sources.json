@@ -1,0 +1,28 @@
+{
+  "state": "OH",
+  "sources": [
+    {
+      "url": "https://mutcd.fhwa.dot.gov/",
+      "sha256": "b774f3f34dfc56d807552547e81123b5b693f5080f1585239891b4b1134f3aa2",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest",
+      "status": 404,
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.bmv.ohio.gov/dl-gdl.aspx",
+      "sha256": "86d6987fb9acacf0f33a841b02baf8803d579d384dcbb90547ce9fa1bc5e36da",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.bmv.ohio.gov/docs/dl-7-a.pdf",
+      "handbook": true,
+      "status": 404,
+      "error": "HTTP 404"
+    }
+  ]
+}

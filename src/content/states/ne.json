@@ -10,8 +10,14 @@
   "handbookEditionYear": 2025,
   "handbookCopyrightStatus": "unknown",
   "applicantVariants": [
-    { "id": "under-18", "label": "Under 18 (LPE/POP graduated licensing)" },
-    { "id": "adult", "label": "Adult (Class O operator) knowledge test" }
+    {
+      "id": "under-18",
+      "label": "Under 18 (LPE/POP graduated licensing)"
+    },
+    {
+      "id": "adult",
+      "label": "Adult (Class O operator) knowledge test"
+    }
   ],
   "examVariants": [
     {
@@ -19,7 +25,9 @@
       "label": "Under-18 knowledge test (Class O)",
       "numQuestions": 25,
       "numToPass": 20,
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "onlineAvailable": false
     },
     {
@@ -27,7 +35,9 @@
       "label": "Adult knowledge test (Class O operator)",
       "numQuestions": 25,
       "numToPass": 20,
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "onlineAvailable": false
     }
   ],
@@ -70,7 +80,11 @@
     "moveOverRule": "Move over a lane or slow down for stopped emergency, tow, and utility vehicles displaying flashing or warning lights",
     "interstateMaxSpeed": "75 mph on rural interstates",
     "schoolZoneSpeed": "25 mph in a school zone (unless otherwise posted); fines are doubled",
-    "namedLaws": ["Statewide texting ban (primary enforcement)", "Move Over Law", "Under-18 cell phone ban"]
+    "namedLaws": [
+      "Statewide texting ban (primary enforcement)",
+      "Move Over Law",
+      "Under-18 cell phone ban"
+    ]
   },
   "typedFacts": {
     "bacAdult": {
@@ -535,7 +549,7 @@
     }
   ],
   "effectiveDate": "2026-07-24",
-  "sourceSnapshotHash": "seed-pending-verification",
+  "sourceSnapshotHash": "9784bae12e03c0086f849ffc0be04c15f3b3278d38102d37b702226cc1f825d7",
   "reviewStatus": "draft",
   "verifyNote": "Official DMV sources confirm the 25-question/20-correct exam and the corrected GDL holding-period distinctions. The current Class O license fee could not be confirmed from the official fee schedule, so the state remains draft.",
   "lastVerified": "2026-07-24",

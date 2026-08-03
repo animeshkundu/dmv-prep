@@ -1,0 +1,144 @@
+{
+  "state": "KS",
+  "sources": [
+    {
+      "url": "https://mutcd.fhwa.dot.gov/",
+      "sha256": "b774f3f34dfc56d807552547e81123b5b693f5080f1585239891b4b1134f3aa2",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.kslegislature.gov/b2025_26/laws/",
+      "sha256": "c52751213872e9ad95b8852b03bf0323f20bcf6a5d19da217052e0455e182602",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.kslegislature.gov/b2025_26/laws/008_000_0000_chapter/008_002_0000_article/008_002_0037_section/008_002_0037_k/",
+      "sha256": "e89da3a81488eb1aa5890cc6302507ea3753900a84fa5df40622d6ebf91ca858",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.kslegislature.gov/b2025_26/laws/008_000_0000_chapter/008_002_0000_article/008_002_0039_section/008_002_0039_k/",
+      "sha256": "fade5b2336eaba3a52984fa01cf87ed4c5c0d3bb8f6fb885b149cce5b27f0128",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.kslegislature.gov/b2025_26/laws/008_000_0000_chapter/008_002_0000_article/008_002_0055_section/008_002_0055_k/",
+      "sha256": "29ffd5c06604c0c9886d42bd76ff1d1ba40a6ea7ff5d6e26d801b487702a2ed8",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.kslegislature.gov/b2025_26/laws/008_000_0000_chapter/008_010_0000_article/008_010_0001_section/008_010_0001_k/",
+      "sha256": "a5b145f1065bf07feb431b8f41c9801ecb546cdd61876bc4b4d2d4d8e4594baa",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.kslegislature.gov/b2025_26/laws/008_000_0000_chapter/008_010_0000_article/008_010_0013_section/008_010_0013_k/",
+      "sha256": "3fcac1de1188ba6624c2d684d718b59188835461824504def2d91793e801bdf2",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.kslegislature.gov/b2025_26/laws/008_000_0000_chapter/008_015_0000_article/008_015_0030_section/008_015_0030_k/",
+      "sha256": "7b7b95babe7f317f38081e9a9627f08e4ad04b8256485cdcbac6578fa5644f8d",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.kslegislature.gov/b2025_26/laws/008_000_0000_chapter/008_015_0000_article/008_015_0053_section/008_015_0053_k/",
+      "sha256": "adbe21d46b2740e3933863e603f9261784c37cd2866d3fbe94b5b70cf86766a7",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.kslegislature.gov/b2025_26/laws/008_000_0000_chapter/008_015_0000_article/008_015_0057_section/008_015_0057_k/",
+      "sha256": "3924ae844165a0e441dfd542dbf74417f55fcfda4168403bc1fc8e64d25d3bcb",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.kslegislature.gov/b2025_26/laws/008_000_0000_chapter/008_015_0000_article/008_015_0058_section/008_015_0058_k/",
+      "sha256": "68bbde8888eefa5d689625687203f19cc7b7d7545e58b4c866af4b8634eaf2bf",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.kslegislature.gov/b2025_26/laws/008_000_0000_chapter/008_015_0000_article/008_015_0062_section/008_015_0062_k/",
+      "sha256": "3cf3d8940f8f2c065b697586c01ff97075a56f50aa41aac9ad668bd5bd4b9d70",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.kslegislature.gov/b2025_26/laws/008_000_0000_chapter/008_015_0000_article/008_015_0067_section/008_015_0067_k/",
+      "sha256": "7ceefa3eedb8d75a5d6395888bc976665af1a12020dbf54fe3a7264cb90c7e72",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.kslegislature.gov/b2025_26/laws/008_000_0000_chapter/008_015_0000_article/008_015_0067a_section/008_015_0067a_k/",
+      "sha256": "d58a7abec3ccd16ace7b0abfe1c2061ee776f03a3bf0e92f414d1fd1ee43d6ce",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.kslegislature.gov/b2025_26/laws/008_000_0000_chapter/008_015_0000_article/008_015_0071_section/008_015_0071_k/",
+      "sha256": "e045f80ee9625f04c34ba40173a22127a5b32b290bb6cb47dd2fc5de58bb15ed",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.kslegislature.gov/b2025_26/laws/008_000_0000_chapter/008_015_0000_article/008_015_0099_section/008_015_0099_k/",
+      "sha256": "2d35953c7c4e163e02e9f49b9b057f3d117c83a316faa993cab92b845a8873bd",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.kslegislature.gov/b2025_26/laws/008_000_0000_chapter/008_016_0000_article/008_016_0004_section/008_016_0004_k/",
+      "sha256": "5c8e18cc4d66e75febb6a7b94013a5adb644c8a2a27976e6f50b6ad41356e85b",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.kslegislature.gov/b2025_26/laws/008_000_0000_chapter/008_017_0000_article/008_017_0003_section/008_017_0003_k/",
+      "sha256": "95fef8ba7b9e65cdd56e2efb3bbf31daeea8a72edbfffdf63aa07963e4382453",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.kslegislature.gov/b2025_26/laws/008_000_0000_chapter/008_025_0000_article/008_025_0003_section/008_025_0003_k/",
+      "sha256": "a43de82b27e3ab73f826b4e8fa837de8eea978a97a73ee2c38181981596ac5cc",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.kslegislature.gov/b2025_26/laws/040_000_0000_chapter/040_031_0000_article/040_031_0007_section/040_031_0007_k/",
+      "sha256": "a1b8d433bd9ffce2e45d0b4e1223819b3b6b6c3c2c0a26306fccbc7cb230bd2a",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.ksrevenue.gov/dovindex.html",
+      "sha256": "c40de656998450d3d863b10df22baec53062aeeae74598d436a79137ebdc179a",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf",
+      "handbook": true,
+      "contentType": "application/pdf",
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+    },
+    {
+      "url": "https://www.ksrevenue.gov/pdf/dmvlicfees.pdf",
+      "contentType": "application/pdf",
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+    }
+  ]
+}

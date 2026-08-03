@@ -4,176 +4,319 @@
     "category": "road-signs",
     "stateScope": "all",
     "prompt": "A downward-pointing (inverted) triangle sign tells you to:",
-    "options": ["Stop and wait for a signal", "Slow down and give the right-of-way, stopping if necessary", "Speed up to merge", "Make a U-turn"],
+    "options": [
+      "Make a U-turn",
+      "Slow down and give the right-of-way, stopping if necessary",
+      "Stop and wait for a signal",
+      "Speed up to merge"
+    ],
     "correctIndex": 1,
     "explanation": "The inverted-triangle shape is reserved for the YIELD sign. Slow down, be ready to stop, and let cross traffic or pedestrians go before you proceed.",
     "difficulty": "easy",
-    "references": [{ "label": "Regulatory signs", "citation": "MUTCD Ch. 2B (regulatory signs)", "url": "https://mutcd.fhwa.dot.gov/" }],
+    "references": [
+      {
+        "label": "Regulatory signs",
+        "citation": "MUTCD Ch. 2B (regulatory signs)",
+        "url": "https://mutcd.fhwa.dot.gov/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 2
   },
   {
     "id": "nat-signs-004",
     "category": "road-signs",
     "stateScope": "all",
     "prompt": "A round, yellow sign with a black 'X' and the letters 'RR' warns you that:",
-    "options": ["A rest area is ahead", "A railroad crossing is ahead", "The road curves right then left", "A racetrack is nearby"],
-    "correctIndex": 1,
+    "options": [
+      "The road curves right then left",
+      "A rest area is ahead",
+      "A railroad crossing is ahead",
+      "A racetrack is nearby"
+    ],
+    "correctIndex": 2,
     "explanation": "The round yellow sign with an 'X' and 'RR' is the advance warning for a railroad crossing ahead. Be prepared to slow down and stop for a train.",
     "difficulty": "easy",
-    "references": [{ "label": "Grade crossing signs", "citation": "MUTCD Ch. 8B (railroad crossings)", "url": "https://mutcd.fhwa.dot.gov/" }],
+    "references": [
+      {
+        "label": "Grade crossing signs",
+        "citation": "MUTCD Ch. 8B (railroad crossings)",
+        "url": "https://mutcd.fhwa.dot.gov/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-signs-005",
     "category": "road-signs",
     "stateScope": "all",
     "prompt": "A yellow, pennant-shaped (sideways triangle) sign on the left side of the road means:",
-    "options": ["No-passing zone ahead", "A picnic area is ahead", "Trucks entering", "The lane is ending"],
-    "correctIndex": 0,
+    "options": [
+      "Trucks entering",
+      "The lane is ending",
+      "A picnic area is ahead",
+      "No-passing zone ahead"
+    ],
+    "correctIndex": 3,
     "explanation": "The pennant shape is used only to mark the beginning of a no-passing zone. It is placed on the left side of the road facing drivers who might be tempted to pass.",
     "difficulty": "medium",
-    "references": [{ "label": "Warning signs", "citation": "MUTCD Ch. 2C (warning signs)", "url": "https://mutcd.fhwa.dot.gov/" }],
+    "references": [
+      {
+        "label": "Warning signs",
+        "citation": "MUTCD Ch. 2C (warning signs)",
+        "url": "https://mutcd.fhwa.dot.gov/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-signs-006",
     "category": "road-signs",
     "stateScope": "all",
     "prompt": "A five-sided (pentagon) sign that points up is used to warn of:",
-    "options": ["A hospital ahead", "A school zone or school crossing", "A steep hill", "A dead-end street"],
-    "correctIndex": 1,
+    "options": [
+      "A school zone or school crossing",
+      "A steep hill",
+      "A hospital ahead",
+      "A dead-end street"
+    ],
+    "correctIndex": 0,
     "explanation": "The upward-pointing pentagon shape identifies school zones and school crossings. Slow down and watch for children.",
     "difficulty": "easy",
-    "references": [{ "label": "School area signs", "citation": "MUTCD Ch. 7B (school signs)", "url": "https://mutcd.fhwa.dot.gov/" }],
+    "references": [
+      {
+        "label": "School area signs",
+        "citation": "MUTCD Ch. 7B (school signs)",
+        "url": "https://mutcd.fhwa.dot.gov/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-signs-007",
     "category": "road-signs",
     "stateScope": "all",
     "prompt": "Orange-colored signs are used to indicate:",
-    "options": ["Recreation areas", "Construction and work zones", "Motorist services", "Permanent regulations"],
+    "options": [
+      "Motorist services",
+      "Construction and work zones",
+      "Recreation areas",
+      "Permanent regulations"
+    ],
     "correctIndex": 1,
     "explanation": "Orange is the standard color for temporary traffic control in construction and maintenance work zones. Expect workers, equipment, and changed conditions.",
     "difficulty": "easy",
-    "references": [{ "label": "Temporary traffic control", "citation": "MUTCD Ch. 6F (work-zone signs)", "url": "https://mutcd.fhwa.dot.gov/" }],
+    "references": [
+      {
+        "label": "Temporary traffic control",
+        "citation": "MUTCD Ch. 6F (work-zone signs)",
+        "url": "https://mutcd.fhwa.dot.gov/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-signs-008",
     "category": "road-signs",
     "stateScope": "all",
     "prompt": "A blue sign with white letters or symbols generally tells you about:",
-    "options": ["A warning hazard", "Motorist services such as food, fuel, or lodging", "A no-passing zone", "A sharp curve"],
-    "correctIndex": 1,
+    "options": [
+      "A sharp curve",
+      "A no-passing zone",
+      "Motorist services such as food, fuel, or lodging",
+      "A warning hazard"
+    ],
+    "correctIndex": 2,
     "explanation": "Blue guide signs point you to motorist services like gas, food, lodging, and hospitals. They give information rather than a warning or regulation.",
     "difficulty": "easy",
-    "references": [{ "label": "Guide signs", "citation": "MUTCD Ch. 2I (general service signs)", "url": "https://mutcd.fhwa.dot.gov/" }],
+    "references": [
+      {
+        "label": "Guide signs",
+        "citation": "MUTCD Ch. 2I (general service signs)",
+        "url": "https://mutcd.fhwa.dot.gov/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-signs-009",
     "category": "road-signs",
     "stateScope": "all",
     "prompt": "Brown-colored signs are typically used for:",
-    "options": ["Construction zones", "Recreational and cultural interest areas such as parks", "Regulatory speed limits", "Railroad crossings"],
-    "correctIndex": 1,
+    "options": [
+      "Regulatory speed limits",
+      "Railroad crossings",
+      "Construction zones",
+      "Recreational and cultural interest areas such as parks"
+    ],
+    "correctIndex": 3,
     "explanation": "Brown identifies recreational and cultural sites such as parks, campgrounds, and historic areas.",
     "difficulty": "medium",
-    "references": [{ "label": "Guide signs", "citation": "MUTCD Ch. 2N (recreational and cultural interest signs)", "url": "https://mutcd.fhwa.dot.gov/" }],
+    "references": [
+      {
+        "label": "Guide signs",
+        "citation": "MUTCD Ch. 2N (recreational and cultural interest signs)",
+        "url": "https://mutcd.fhwa.dot.gov/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-signs-010",
     "category": "road-signs",
     "stateScope": "all",
     "prompt": "Green highway signs most often provide:",
-    "options": ["Warnings of hazards ahead", "Directions, distances, and destinations", "Prohibited movements", "Locations of gas stations"],
-    "correctIndex": 1,
+    "options": [
+      "Directions, distances, and destinations",
+      "Warnings of hazards ahead",
+      "Prohibited movements",
+      "Locations of gas stations"
+    ],
+    "correctIndex": 0,
     "explanation": "Green guide signs give directional information: destinations, distances, exit names, and street names.",
     "difficulty": "easy",
-    "references": [{ "label": "Guide signs", "citation": "MUTCD Ch. 2D (guide signs)", "url": "https://mutcd.fhwa.dot.gov/" }],
+    "references": [
+      {
+        "label": "Guide signs",
+        "citation": "MUTCD Ch. 2D (guide signs)",
+        "url": "https://mutcd.fhwa.dot.gov/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-signs-011",
     "category": "road-signs",
     "stateScope": "all",
     "prompt": "A white rectangular sign with black lettering usually shows:",
-    "options": ["A warning about the road ahead", "A traffic law or regulation you must obey", "A tourist attraction", "A recreation area"],
+    "options": [
+      "A recreation area",
+      "A traffic law or regulation you must obey",
+      "A tourist attraction",
+      "A warning about the road ahead"
+    ],
     "correctIndex": 1,
     "explanation": "White signs with black legends are regulatory. They state laws you must follow, such as lane use, turning rules, or posted limits.",
     "difficulty": "easy",
-    "references": [{ "label": "Regulatory signs", "citation": "MUTCD Ch. 2B (regulatory signs)", "url": "https://mutcd.fhwa.dot.gov/" }],
+    "references": [
+      {
+        "label": "Regulatory signs",
+        "citation": "MUTCD Ch. 2B (regulatory signs)",
+        "url": "https://mutcd.fhwa.dot.gov/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-signs-012",
     "category": "road-signs",
     "stateScope": "all",
     "prompt": "A crossbuck (a large white 'X' reading 'RAILROAD CROSSING') marks:",
-    "options": ["A pedestrian crosswalk", "The location of a railroad grade crossing", "A hospital zone", "A four-way stop"],
-    "correctIndex": 1,
+    "options": [
+      "A four-way stop",
+      "A hospital zone",
+      "The location of a railroad grade crossing",
+      "A pedestrian crosswalk"
+    ],
+    "correctIndex": 2,
     "explanation": "The crossbuck is placed at the railroad crossing itself and functions like a yield sign. Slow down, look, and be ready to stop for a train.",
     "difficulty": "easy",
-    "references": [{ "label": "Grade crossing signs", "citation": "MUTCD Ch. 8B (railroad crossings)", "url": "https://mutcd.fhwa.dot.gov/" }],
+    "references": [
+      {
+        "label": "Grade crossing signs",
+        "citation": "MUTCD Ch. 8B (railroad crossings)",
+        "url": "https://mutcd.fhwa.dot.gov/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-signs-013",
     "category": "road-signs",
     "stateScope": "all",
     "prompt": "A bright fluorescent yellow-green sign is used to warn drivers of:",
-    "options": ["Nearby fuel stations", "Pedestrians, bicyclists, or school zones", "A no-passing zone", "An upcoming toll booth"],
-    "correctIndex": 1,
+    "options": [
+      "A no-passing zone",
+      "An upcoming toll booth",
+      "Nearby fuel stations",
+      "Pedestrians, bicyclists, or school zones"
+    ],
+    "correctIndex": 3,
     "explanation": "The fluorescent yellow-green color is reserved for high-visibility warnings about pedestrians, bicyclists, and school areas.",
     "difficulty": "medium",
-    "references": [{ "label": "Warning signs", "citation": "MUTCD Ch. 2C (warning signs)", "url": "https://mutcd.fhwa.dot.gov/" }],
+    "references": [
+      {
+        "label": "Warning signs",
+        "citation": "MUTCD Ch. 2C (warning signs)",
+        "url": "https://mutcd.fhwa.dot.gov/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-signs-014",
     "category": "road-signs",
     "stateScope": "all",
     "prompt": "A red circle with a red slash drawn through a symbol means:",
-    "options": ["The action shown is prohibited", "The action shown is recommended", "A service is available ahead", "Proceed with caution"],
+    "options": [
+      "The action shown is prohibited",
+      "The action shown is recommended",
+      "A service is available ahead",
+      "Proceed with caution"
+    ],
     "correctIndex": 0,
     "explanation": "A circle with a diagonal slash always means 'no' — the pictured action, such as a turn or a maneuver, is not allowed.",
     "difficulty": "easy",
-    "references": [{ "label": "Regulatory signs", "citation": "MUTCD Ch. 2B (regulatory signs)", "url": "https://mutcd.fhwa.dot.gov/" }],
+    "references": [
+      {
+        "label": "Regulatory signs",
+        "citation": "MUTCD Ch. 2B (regulatory signs)",
+        "url": "https://mutcd.fhwa.dot.gov/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
@@ -184,416 +327,748 @@
     "category": "road-signs",
     "stateScope": "all",
     "prompt": "You are driving and see a 'WRONG WAY' sign facing you. This means:",
-    "options": ["You are on the correct ramp", "You are traveling against traffic and must not continue", "There is a detour ahead", "You may proceed with caution"],
+    "options": [
+      "You are on the correct ramp",
+      "You are traveling against traffic and must not continue",
+      "There is a detour ahead",
+      "You may proceed with caution"
+    ],
     "correctIndex": 1,
     "explanation": "A red 'WRONG WAY' sign means you are heading opposite to legal traffic flow. Stop, and safely turn around or back out of the wrong-way path.",
     "difficulty": "easy",
-    "references": [{ "label": "Regulatory signs", "citation": "MUTCD Ch. 2B (regulatory signs)", "url": "https://mutcd.fhwa.dot.gov/" }],
+    "references": [
+      {
+        "label": "Regulatory signs",
+        "citation": "MUTCD Ch. 2B (regulatory signs)",
+        "url": "https://mutcd.fhwa.dot.gov/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-signs-016",
     "category": "road-signs",
     "stateScope": "all",
     "prompt": "A slow-moving-vehicle emblem is a reflective:",
-    "options": ["Blue square", "Orange triangle with a red border", "Green circle", "White diamond"],
-    "correctIndex": 1,
+    "options": [
+      "Blue square",
+      "Green circle",
+      "Orange triangle with a red border",
+      "White diamond"
+    ],
+    "correctIndex": 2,
     "explanation": "The orange-and-red triangle marks vehicles that travel well below normal traffic speed, such as farm equipment. Slow down and pass only when it is safe.",
     "difficulty": "medium",
-    "references": [{ "label": "Warning signs", "citation": "MUTCD Ch. 2C (warning signs)", "url": "https://mutcd.fhwa.dot.gov/" }],
+    "references": [
+      {
+        "label": "Warning signs",
+        "citation": "MUTCD Ch. 2C (warning signs)",
+        "url": "https://mutcd.fhwa.dot.gov/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-signs-017",
     "category": "road-signs",
     "stateScope": "all",
     "prompt": "A yellow diamond sign showing a leaping deer warns that:",
-    "options": ["A zoo is ahead", "Animals may cross the road in this area", "Hunting is permitted", "A petting farm is nearby"],
-    "correctIndex": 1,
+    "options": [
+      "A zoo is ahead",
+      "A petting farm is nearby",
+      "Hunting is permitted",
+      "Animals may cross the road in this area"
+    ],
+    "correctIndex": 3,
     "explanation": "This warning sign means wildlife frequently crosses here. Scan the roadsides, slow down, and be ready to stop, especially at dawn and dusk.",
     "difficulty": "easy",
-    "references": [{ "label": "Warning signs", "citation": "MUTCD Ch. 2C (warning signs)", "url": "https://mutcd.fhwa.dot.gov/" }],
+    "references": [
+      {
+        "label": "Warning signs",
+        "citation": "MUTCD Ch. 2C (warning signs)",
+        "url": "https://mutcd.fhwa.dot.gov/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-signs-018",
     "category": "road-signs",
     "stateScope": "all",
     "prompt": "A yellow diamond sign with a curving arrow means:",
-    "options": ["The road ahead curves in the direction of the arrow", "You must turn in the direction of the arrow", "One-way traffic ahead", "A passing lane begins"],
+    "options": [
+      "The road ahead curves in the direction of the arrow",
+      "You must turn in the direction of the arrow",
+      "One-way traffic ahead",
+      "A passing lane begins"
+    ],
     "correctIndex": 0,
     "explanation": "A warning sign with a curved arrow tells you the road bends ahead. Reduce speed before entering the curve rather than braking in it.",
     "difficulty": "easy",
-    "references": [{ "label": "Warning signs", "citation": "MUTCD Ch. 2C (horizontal alignment signs)", "url": "https://mutcd.fhwa.dot.gov/" }],
+    "references": [
+      {
+        "label": "Warning signs",
+        "citation": "MUTCD Ch. 2C (horizontal alignment signs)",
+        "url": "https://mutcd.fhwa.dot.gov/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-signals-002",
     "category": "traffic-signals",
     "stateScope": "all",
     "prompt": "A steady yellow traffic light means:",
-    "options": ["Speed up to beat the red", "The light is about to turn red; stop if you can do so safely", "Stop and wait for a green arrow", "The signal is out of service"],
-    "correctIndex": 1,
+    "options": [
+      "The light is about to turn red; stop if you can do so safely",
+      "Stop and wait for a green arrow",
+      "The signal is out of service",
+      "Speed up to beat the red"
+    ],
+    "correctIndex": 0,
     "explanation": "A steady yellow warns that the signal is about to turn red. Stop if you can do so safely; enter the intersection only if you cannot stop in time.",
     "difficulty": "easy",
-    "references": [{ "label": "Traffic signals", "citation": "MUTCD Ch. 4 (traffic signals)", "url": "https://mutcd.fhwa.dot.gov/" }],
+    "references": [
+      {
+        "label": "Traffic signals",
+        "citation": "MUTCD Ch. 4 (traffic signals)",
+        "url": "https://mutcd.fhwa.dot.gov/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-signals-003",
     "category": "traffic-signals",
     "stateScope": "all",
     "prompt": "A steady green arrow pointing left means:",
-    "options": ["You may turn left, and oncoming traffic is being held for you", "You must turn left even if unsafe", "Left turns are prohibited", "Yield to oncoming traffic before turning left"],
-    "correctIndex": 0,
+    "options": [
+      "Left turns are prohibited",
+      "You may turn left, and oncoming traffic is being held for you",
+      "Yield to oncoming traffic before turning left",
+      "You must turn left even if unsafe"
+    ],
+    "correctIndex": 1,
     "explanation": "A steady green arrow gives a protected turn in the arrow's direction. Oncoming traffic faces a red light, but you must still watch for pedestrians.",
     "difficulty": "medium",
-    "references": [{ "label": "Traffic signals", "citation": "MUTCD Ch. 4 (traffic signals)", "url": "https://mutcd.fhwa.dot.gov/" }],
+    "references": [
+      {
+        "label": "Traffic signals",
+        "citation": "MUTCD Ch. 4 (traffic signals)",
+        "url": "https://mutcd.fhwa.dot.gov/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-signals-004",
     "category": "traffic-signals",
     "stateScope": "all",
     "prompt": "A steady red arrow pointing left means:",
-    "options": ["Turn left after yielding", "You may not make the left turn while the arrow is red", "Proceed straight only", "The signal is broken"],
-    "correctIndex": 1,
+    "options": [
+      "The signal is broken",
+      "Turn left after yielding",
+      "You may not make the left turn while the arrow is red",
+      "Proceed straight only"
+    ],
+    "correctIndex": 2,
     "explanation": "A steady red arrow means stop and wait; you cannot make the movement shown by the arrow until it turns green or the arrow changes.",
     "difficulty": "medium",
-    "references": [{ "label": "Traffic signals", "citation": "MUTCD Ch. 4 (traffic signals)", "url": "https://mutcd.fhwa.dot.gov/" }],
+    "references": [
+      {
+        "label": "Traffic signals",
+        "citation": "MUTCD Ch. 4 (traffic signals)",
+        "url": "https://mutcd.fhwa.dot.gov/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 2
   },
   {
     "id": "nat-signals-005",
     "category": "traffic-signals",
     "stateScope": "all",
     "prompt": "A flashing yellow traffic light means:",
-    "options": ["Stop completely, then go", "Slow down and proceed with caution", "The road is closed", "Turns are prohibited"],
-    "correctIndex": 1,
+    "options": [
+      "The road is closed",
+      "Turns are prohibited",
+      "Stop completely, then go",
+      "Slow down and proceed with caution"
+    ],
+    "correctIndex": 3,
     "explanation": "A flashing yellow light tells you to slow down and proceed carefully, watching for cross traffic and pedestrians.",
     "difficulty": "easy",
-    "references": [{ "label": "Traffic signals", "citation": "MUTCD Ch. 4 (traffic signals)", "url": "https://mutcd.fhwa.dot.gov/" }],
+    "references": [
+      {
+        "label": "Traffic signals",
+        "citation": "MUTCD Ch. 4 (traffic signals)",
+        "url": "https://mutcd.fhwa.dot.gov/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-signals-006",
     "category": "traffic-signals",
     "stateScope": "all",
     "prompt": "A flashing yellow left-turn arrow means:",
-    "options": ["Left turns are not allowed", "You may turn left but must yield to oncoming traffic and pedestrians", "You have a protected left turn", "Stop before turning left"],
-    "correctIndex": 1,
+    "options": [
+      "You may turn left but must yield to oncoming traffic and pedestrians",
+      "Stop before turning left",
+      "You have a protected left turn",
+      "Left turns are not allowed"
+    ],
+    "correctIndex": 0,
     "explanation": "A flashing yellow arrow permits a left turn, but the turn is unprotected: you must yield to oncoming vehicles and pedestrians before going.",
     "difficulty": "medium",
-    "references": [{ "label": "Traffic signals", "citation": "MUTCD Ch. 4 (flashing yellow arrow)", "url": "https://mutcd.fhwa.dot.gov/" }],
+    "references": [
+      {
+        "label": "Traffic signals",
+        "citation": "MUTCD Ch. 4 (flashing yellow arrow)",
+        "url": "https://mutcd.fhwa.dot.gov/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-signals-007",
     "category": "traffic-signals",
     "stateScope": "all",
     "prompt": "When you approach an intersection where the traffic signals are completely dark (not working), you should:",
-    "options": ["Proceed without slowing, since the light is off", "Treat the intersection as an all-way stop", "Assume you have the right-of-way", "Speed through quickly"],
+    "options": [
+      "Assume you have the right-of-way",
+      "Treat the intersection as an all-way stop",
+      "Proceed without slowing, since the light is off",
+      "Speed through quickly"
+    ],
     "correctIndex": 1,
     "explanation": "A dark or fully failed signal should be treated like an all-way stop: every driver stops, then proceeds in turn when it is safe.",
     "difficulty": "medium",
-    "references": [{ "label": "Signal outages", "citation": "State driver handbook, malfunctioning signals" }],
+    "references": [
+      {
+        "label": "Signal outages",
+        "citation": "State driver handbook, malfunctioning signals"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-signals-008",
     "category": "traffic-signals",
     "stateScope": "all",
     "prompt": "You have a green light but traffic ahead is backed up through the intersection. You should:",
-    "options": ["Enter the intersection and wait there", "Stay behind the line until you can clear the intersection completely", "Sound your horn and push forward", "Change lanes in the middle of the intersection"],
-    "correctIndex": 1,
+    "options": [
+      "Sound your horn and push forward",
+      "Enter the intersection and wait there",
+      "Stay behind the line until you can clear the intersection completely",
+      "Change lanes in the middle of the intersection"
+    ],
+    "correctIndex": 2,
     "explanation": "Never enter an intersection you cannot clear. Blocking it when the light changes traps cross traffic. Wait behind the line until there is room on the far side.",
     "difficulty": "medium",
-    "references": [{ "label": "Intersections", "citation": "State driver handbook, blocking intersections" }],
+    "references": [
+      {
+        "label": "Intersections",
+        "citation": "State driver handbook, blocking intersections"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-signals-009",
     "category": "traffic-signals",
     "stateScope": "all",
     "prompt": "A lane-use signal showing a steady red 'X' above your lane means:",
-    "options": ["The lane is open for you", "Do not drive in that lane", "Merge left immediately", "The lane is for buses only"],
-    "correctIndex": 1,
+    "options": [
+      "Merge left immediately",
+      "The lane is for buses only",
+      "The lane is open for you",
+      "Do not drive in that lane"
+    ],
+    "correctIndex": 3,
     "explanation": "A red 'X' over a lane means it is closed to you; you must not drive in that lane. A green arrow over a lane means it is open.",
     "difficulty": "medium",
-    "references": [{ "label": "Lane-use control signals", "citation": "MUTCD Ch. 4M (lane-use control signals)", "url": "https://mutcd.fhwa.dot.gov/" }],
+    "references": [
+      {
+        "label": "Lane-use control signals",
+        "citation": "MUTCD Ch. 4M (lane-use control signals)",
+        "url": "https://mutcd.fhwa.dot.gov/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 2
   },
   {
     "id": "nat-signals-010",
     "category": "traffic-signals",
     "stateScope": "all",
     "prompt": "A pedestrian signal showing a steady 'upraised hand' symbol means a pedestrian should:",
-    "options": ["Begin crossing right away", "Not start crossing the street", "Run across quickly", "Cross only in the center of the road"],
-    "correctIndex": 1,
+    "options": [
+      "Not start crossing the street",
+      "Cross only in the center of the road",
+      "Begin crossing right away",
+      "Run across quickly"
+    ],
+    "correctIndex": 0,
     "explanation": "The steady upraised hand means 'Don't Walk' — pedestrians should not begin to cross. A walking-person symbol permits pedestrians to start crossing, but they must still watch for vehicles.",
     "difficulty": "easy",
-    "references": [{ "label": "Pedestrian signals", "citation": "MUTCD Ch. 4E (pedestrian control features)", "url": "https://mutcd.fhwa.dot.gov/" }],
+    "references": [
+      {
+        "label": "Pedestrian signals",
+        "citation": "MUTCD Ch. 4E (pedestrian control features)",
+        "url": "https://mutcd.fhwa.dot.gov/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-signals-011",
     "category": "traffic-signals",
     "stateScope": "all",
     "prompt": "A green traffic light means:",
-    "options": ["Go, even if the intersection is blocked", "Go if the intersection is clear, after yielding to any traffic or pedestrians still in it", "Turn only", "Stop, then go"],
+    "options": [
+      "Go, even if the intersection is blocked",
+      "Go if the intersection is clear, after yielding to any traffic or pedestrians still in it",
+      "Turn only",
+      "Stop, then go"
+    ],
     "correctIndex": 1,
     "explanation": "Green means you may go, but you must first yield to vehicles and pedestrians still lawfully in the intersection and make sure your path is clear.",
     "difficulty": "easy",
-    "references": [{ "label": "Traffic signals", "citation": "MUTCD Ch. 4 (traffic signals)", "url": "https://mutcd.fhwa.dot.gov/" }],
+    "references": [
+      {
+        "label": "Traffic signals",
+        "citation": "MUTCD Ch. 4 (traffic signals)",
+        "url": "https://mutcd.fhwa.dot.gov/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-signals-012",
     "category": "traffic-signals",
     "stateScope": "all",
     "prompt": "At an intersection controlled by a police officer whose directions conflict with the traffic signal, you should:",
-    "options": ["Obey the traffic signal", "Obey the police officer's directions", "Stop and wait for the officer to leave", "Follow whichever is more convenient"],
-    "correctIndex": 1,
+    "options": [
+      "Follow whichever is more convenient",
+      "Obey the traffic signal",
+      "Obey the police officer's directions",
+      "Stop and wait for the officer to leave"
+    ],
+    "correctIndex": 2,
     "explanation": "Directions given by a police officer or other authorized traffic controller always override the traffic signals and signs.",
     "difficulty": "medium",
-    "references": [{ "label": "Traffic control", "citation": "State driver handbook, obeying traffic officers" }],
+    "references": [
+      {
+        "label": "Traffic control",
+        "citation": "State driver handbook, obeying traffic officers"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-markings-002",
     "category": "pavement-markings",
     "stateScope": "all",
     "prompt": "A broken (dashed) yellow center line means:",
-    "options": ["Passing is never allowed", "You may pass when it is safe to do so", "The road is one-way", "You must not change lanes"],
+    "options": [
+      "Passing is never allowed",
+      "You may pass when it is safe to do so",
+      "You must not change lanes",
+      "The road is one-way"
+    ],
     "correctIndex": 1,
     "explanation": "A broken yellow center line on your side means passing is permitted when the way ahead is clear, passing is otherwise legal, and it is safe. Yellow center lines separate opposing traffic.",
     "difficulty": "easy",
-    "references": [{ "label": "Pavement markings", "citation": "MUTCD Ch. 3B (pavement and curb markings)", "url": "https://mutcd.fhwa.dot.gov/" }],
+    "references": [
+      {
+        "label": "Pavement markings",
+        "citation": "MUTCD Ch. 3B (pavement and curb markings)",
+        "url": "https://mutcd.fhwa.dot.gov/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-markings-003",
     "category": "pavement-markings",
     "stateScope": "all",
     "prompt": "Two solid yellow lines in the center of the road mean:",
-    "options": ["Passing is allowed in both directions", "Neither direction may cross to pass", "The lanes go the same direction", "Parking is permitted"],
-    "correctIndex": 1,
+    "options": [
+      "Parking is permitted",
+      "The lanes go the same direction",
+      "Neither direction may cross to pass",
+      "Passing is allowed in both directions"
+    ],
+    "correctIndex": 2,
     "explanation": "A double solid yellow line means passing is prohibited for traffic in both directions. You may cross it only to turn into or out of a driveway or road when safe.",
     "difficulty": "medium",
-    "references": [{ "label": "Pavement markings", "citation": "MUTCD Ch. 3B (pavement and curb markings)", "url": "https://mutcd.fhwa.dot.gov/" }],
+    "references": [
+      {
+        "label": "Pavement markings",
+        "citation": "MUTCD Ch. 3B (pavement and curb markings)",
+        "url": "https://mutcd.fhwa.dot.gov/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 2
   },
   {
     "id": "nat-markings-004",
     "category": "pavement-markings",
     "stateScope": "all",
     "prompt": "White lines painted between lanes separate:",
-    "options": ["Traffic moving in opposite directions", "Traffic moving in the same direction", "Parking spaces", "Bicycle lanes only"],
-    "correctIndex": 1,
+    "options": [
+      "Bicycle lanes only",
+      "Parking spaces",
+      "Traffic moving in opposite directions",
+      "Traffic moving in the same direction"
+    ],
+    "correctIndex": 3,
     "explanation": "White lane lines separate lanes of traffic traveling in the same direction. Yellow lines separate opposing traffic.",
     "difficulty": "easy",
-    "references": [{ "label": "Pavement markings", "citation": "MUTCD Ch. 3B (pavement and curb markings)", "url": "https://mutcd.fhwa.dot.gov/" }],
+    "references": [
+      {
+        "label": "Pavement markings",
+        "citation": "MUTCD Ch. 3B (pavement and curb markings)",
+        "url": "https://mutcd.fhwa.dot.gov/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-markings-005",
     "category": "pavement-markings",
     "stateScope": "all",
     "prompt": "A broken (dashed) white line between lanes means:",
-    "options": ["You may change lanes when it is safe", "You may never change lanes", "The lane is for turning only", "Traffic ahead is one-way"],
+    "options": [
+      "You may change lanes when it is safe",
+      "The lane is for turning only",
+      "Traffic ahead is one-way",
+      "You may never change lanes"
+    ],
     "correctIndex": 0,
     "explanation": "A broken white line separates same-direction lanes and allows lane changes when it is safe.",
     "difficulty": "easy",
-    "references": [{ "label": "Pavement markings", "citation": "MUTCD Ch. 3B (pavement and curb markings)", "url": "https://mutcd.fhwa.dot.gov/" }],
+    "references": [
+      {
+        "label": "Pavement markings",
+        "citation": "MUTCD Ch. 3B (pavement and curb markings)",
+        "url": "https://mutcd.fhwa.dot.gov/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-markings-006",
     "category": "pavement-markings",
     "stateScope": "all",
     "prompt": "A single solid white line separating lanes going the same direction means:",
-    "options": ["Lane changes are encouraged", "Crossing the line is discouraged; change lanes only if it is permitted and safe", "The road is closed", "Passing is required"],
+    "options": [
+      "Passing is required",
+      "Crossing the line is discouraged; change lanes only if it is permitted and safe",
+      "Lane changes are encouraged",
+      "The road is closed"
+    ],
     "correctIndex": 1,
     "explanation": "A single solid white line discourages lane changes. Stay in your lane unless crossing is permitted and you can change lanes safely; a double solid white line prohibits crossing.",
     "difficulty": "medium",
-    "references": [{ "label": "Pavement markings", "citation": "MUTCD Ch. 3B (pavement and curb markings)", "url": "https://mutcd.fhwa.dot.gov/" }],
+    "references": [
+      {
+        "label": "Pavement markings",
+        "citation": "MUTCD Ch. 3B (pavement and curb markings)",
+        "url": "https://mutcd.fhwa.dot.gov/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-markings-007",
     "category": "pavement-markings",
     "stateScope": "all",
     "prompt": "A solid white line painted across your lane at an intersection is a:",
-    "options": ["Crosswalk", "Stop line marking where to stop", "Bike lane", "Center line"],
-    "correctIndex": 1,
+    "options": [
+      "Crosswalk",
+      "Bike lane",
+      "Stop line marking where to stop",
+      "Center line"
+    ],
+    "correctIndex": 2,
     "explanation": "The wide solid white 'stop line' shows where to stop for a sign or signal. Stop before it so you do not block the crosswalk or cross traffic.",
     "difficulty": "easy",
-    "references": [{ "label": "Pavement markings", "citation": "MUTCD Ch. 3B (stop and yield lines)", "url": "https://mutcd.fhwa.dot.gov/" }],
+    "references": [
+      {
+        "label": "Pavement markings",
+        "citation": "MUTCD Ch. 3B (stop and yield lines)",
+        "url": "https://mutcd.fhwa.dot.gov/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-markings-008",
     "category": "pavement-markings",
     "stateScope": "all",
     "prompt": "A lane in the center of the road bordered by a solid yellow line and a broken yellow line on each side is:",
-    "options": ["A passing lane", "A shared center left-turn lane for both directions", "A bicycle lane", "A breakdown lane"],
-    "correctIndex": 1,
+    "options": [
+      "A bicycle lane",
+      "A passing lane",
+      "A breakdown lane",
+      "A shared center left-turn lane for both directions"
+    ],
+    "correctIndex": 3,
     "explanation": "This is a two-way left-turn lane. Drivers from either direction use it only to prepare for and make left turns, not to travel or pass.",
     "difficulty": "hard",
-    "references": [{ "label": "Pavement markings", "citation": "MUTCD Ch. 3B (two-way left-turn lanes)", "url": "https://mutcd.fhwa.dot.gov/" }],
+    "references": [
+      {
+        "label": "Pavement markings",
+        "citation": "MUTCD Ch. 3B (two-way left-turn lanes)",
+        "url": "https://mutcd.fhwa.dot.gov/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-markings-009",
     "category": "pavement-markings",
     "stateScope": "all",
     "prompt": "White markings that form a crosswalk across the road indicate:",
-    "options": ["A place for vehicles to park", "A designated place for pedestrians to cross", "A lane for turning", "A no-stopping zone"],
-    "correctIndex": 1,
+    "options": [
+      "A designated place for pedestrians to cross",
+      "A place for vehicles to park",
+      "A no-stopping zone",
+      "A lane for turning"
+    ],
+    "correctIndex": 0,
     "explanation": "Crosswalk markings designate a place for pedestrians to cross. Approach cautiously, keep the crosswalk clear, and yield or stop for pedestrians as required.",
     "difficulty": "easy",
-    "references": [{ "label": "Pavement markings", "citation": "MUTCD Ch. 3B (crosswalk markings)", "url": "https://mutcd.fhwa.dot.gov/" }],
+    "references": [
+      {
+        "label": "Pavement markings",
+        "citation": "MUTCD Ch. 3B (crosswalk markings)",
+        "url": "https://mutcd.fhwa.dot.gov/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-markings-010",
     "category": "pavement-markings",
     "stateScope": "all",
     "prompt": "A white diamond symbol painted in a lane usually indicates:",
-    "options": ["A lane reserved for certain vehicles, such as carpools or buses", "A lane that is closed", "A parking lane", "A no-passing zone"],
-    "correctIndex": 0,
+    "options": [
+      "A lane that is closed",
+      "A lane reserved for certain vehicles, such as carpools or buses",
+      "A parking lane",
+      "A no-passing zone"
+    ],
+    "correctIndex": 1,
     "explanation": "The diamond marks a preferential or reserved lane, such as a high-occupancy vehicle (carpool) lane. Watch for accompanying signs that state the rules.",
     "difficulty": "medium",
-    "references": [{ "label": "Pavement markings", "citation": "MUTCD Ch. 3D (preferential lane markings)", "url": "https://mutcd.fhwa.dot.gov/" }],
+    "references": [
+      {
+        "label": "Pavement markings",
+        "citation": "MUTCD Ch. 3D (preferential lane markings)",
+        "url": "https://mutcd.fhwa.dot.gov/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-markings-011",
     "category": "pavement-markings",
     "stateScope": "all",
     "prompt": "A white arrow painted in your lane pointing only to the right means:",
-    "options": ["You may go straight or right", "Traffic in that lane must turn right", "The lane is ending", "You may pass on the right"],
-    "correctIndex": 1,
+    "options": [
+      "You may go straight or right",
+      "You may pass on the right",
+      "Traffic in that lane must turn right",
+      "The lane is ending"
+    ],
+    "correctIndex": 2,
     "explanation": "A turn arrow painted in a lane requires you to move in the direction of the arrow. If it points only right, you must turn right from that lane.",
     "difficulty": "medium",
-    "references": [{ "label": "Pavement markings", "citation": "MUTCD Ch. 3B (arrow markings)", "url": "https://mutcd.fhwa.dot.gov/" }],
+    "references": [
+      {
+        "label": "Pavement markings",
+        "citation": "MUTCD Ch. 3B (arrow markings)",
+        "url": "https://mutcd.fhwa.dot.gov/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 2
   },
   {
     "id": "nat-markings-012",
     "category": "pavement-markings",
     "stateScope": "all",
     "prompt": "A solid white line along the right side of a travel lane marks:",
-    "options": ["The center of the road", "The right edge of the roadway", "A passing zone", "A bus stop"],
-    "correctIndex": 1,
+    "options": [
+      "A bus stop",
+      "A passing zone",
+      "The center of the road",
+      "The right edge of the roadway"
+    ],
+    "correctIndex": 3,
     "explanation": "The white edge line shows the right-hand edge of the traveled roadway. It helps guide you, especially at night or in poor visibility.",
     "difficulty": "easy",
-    "references": [{ "label": "Pavement markings", "citation": "MUTCD Ch. 3B (edge line markings)", "url": "https://mutcd.fhwa.dot.gov/" }],
+    "references": [
+      {
+        "label": "Pavement markings",
+        "citation": "MUTCD Ch. 3B (edge line markings)",
+        "url": "https://mutcd.fhwa.dot.gov/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-markings-013",
     "category": "pavement-markings",
     "stateScope": "all",
     "prompt": "On a road with a solid yellow line on your side and a broken yellow line on the other side:",
-    "options": ["Both directions may pass", "You may not pass, but oncoming traffic may", "Neither direction may pass", "You may pass but oncoming traffic may not"],
-    "correctIndex": 1,
+    "options": [
+      "You may not pass, but oncoming traffic may",
+      "Both directions may pass",
+      "Neither direction may pass",
+      "You may pass but oncoming traffic may not"
+    ],
+    "correctIndex": 0,
     "explanation": "Passing rules follow the line on your own side. A solid yellow line on your side means you may not pass; the broken line lets the other direction pass.",
     "difficulty": "hard",
-    "references": [{ "label": "Pavement markings", "citation": "MUTCD Ch. 3B (no-passing markings)", "url": "https://mutcd.fhwa.dot.gov/" }],
+    "references": [
+      {
+        "label": "Pavement markings",
+        "citation": "MUTCD Ch. 3B (no-passing markings)",
+        "url": "https://mutcd.fhwa.dot.gov/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-markings-014",
     "category": "pavement-markings",
     "stateScope": "all",
     "prompt": "The color of the line that separates traffic moving in opposite directions is:",
-    "options": ["White", "Yellow", "Blue", "Green"],
+    "options": [
+      "White",
+      "Yellow",
+      "Blue",
+      "Green"
+    ],
     "correctIndex": 1,
     "explanation": "A yellow center line separates traffic moving in opposite directions. White lane lines generally separate traffic moving in the same direction.",
     "difficulty": "easy",
-    "references": [{ "label": "Pavement markings", "citation": "MUTCD Ch. 3B (pavement and curb markings)", "url": "https://mutcd.fhwa.dot.gov/" }],
+    "references": [
+      {
+        "label": "Pavement markings",
+        "citation": "MUTCD Ch. 3B (pavement and curb markings)",
+        "url": "https://mutcd.fhwa.dot.gov/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",

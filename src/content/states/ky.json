@@ -9,8 +9,14 @@
   "handbookEditionYear": 2024,
   "handbookCopyrightStatus": "terms-of-use",
   "applicantVariants": [
-    { "id": "under-18", "label": "Under 18 (instruction permit / intermediate license)" },
-    { "id": "adult", "label": "Adult (18+)" }
+    {
+      "id": "under-18",
+      "label": "Under 18 (instruction permit / intermediate license)"
+    },
+    {
+      "id": "adult",
+      "label": "Adult (18+)"
+    }
   ],
   "examVariants": [
     {
@@ -18,7 +24,9 @@
       "label": "Operator knowledge test (all ages)",
       "numQuestions": 40,
       "numToPass": 32,
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "onlineAvailable": false
     }
   ],
@@ -62,7 +70,10 @@
     "moveOverRule": "Move over one lane, or slow down if you cannot safely change lanes, for stopped emergency, public-safety, and utility vehicles displaying warning lights (KRS 189.930)",
     "interstateMaxSpeed": "70 mph (rural interstates)",
     "schoolZoneSpeed": "Reduced posted limit when in effect (commonly 25 mph where posted)",
-    "namedLaws": ["Move Over Law (KRS 189.930)", "Texting-while-driving ban (KRS 189.292)"]
+    "namedLaws": [
+      "Move Over Law (KRS 189.930)",
+      "Texting-while-driving ban (KRS 189.292)"
+    ]
   },
   "references": [
     {
@@ -82,7 +93,7 @@
     }
   ],
   "effectiveDate": "2026-07-24",
-  "sourceSnapshotHash": "seed-pending-verification",
+  "sourceSnapshotHash": "c85d5f9ca003099f81277754c4c7d7655f4f2c334fe89a5515927f086eaf16bd",
   "reviewStatus": "adversarially-verified",
   "lastVerified": "2026-07-27",
   "contentVersion": 1,

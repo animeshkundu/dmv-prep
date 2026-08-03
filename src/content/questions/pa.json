@@ -2,227 +2,328 @@
   {
     "id": "pa-speed-001",
     "category": "speed-limits",
-    "stateScope": ["PA"],
+    "stateScope": [
+      "PA"
+    ],
     "prompt": "On a Pennsylvania interstate where a higher limit is posted, the maximum speed limit is:",
-    "options": ["65 mph", "70 mph", "75 mph", "80 mph"],
+    "options": [
+      "75 mph",
+      "70 mph",
+      "65 mph",
+      "80 mph"
+    ],
     "correctIndex": 1,
     "explanation": "Pennsylvania posts a maximum of 70 mph on certain interstate and turnpike segments. Many stretches are posted lower, and you must always obey the posted sign.",
     "difficulty": "easy",
-    "references": [{ "label": "Speed limits", "citation": "PA Driver's Manual (PUB 95), Speed limits", "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual" }],
+    "references": [
+      {
+        "label": "Speed limits",
+        "citation": "PA Driver's Manual (PUB 95), Speed limits",
+        "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "pa-speed-002",
     "category": "speed-limits",
-    "stateScope": ["PA"],
+    "stateScope": [
+      "PA"
+    ],
     "prompt": "In a posted Pennsylvania school zone while the warning lights are flashing, the speed limit is:",
-    "options": ["15 mph", "20 mph", "25 mph", "10 mph"],
-    "correctIndex": 0,
+    "options": [
+      "25 mph",
+      "20 mph",
+      "15 mph",
+      "10 mph"
+    ],
+    "correctIndex": 2,
     "explanation": "Pennsylvania sets a 15 mph limit in posted school zones when the flashing signals are operating or during the posted school-zone hours.",
     "difficulty": "medium",
-    "references": [{ "label": "School zones", "citation": "PA Driver's Manual (PUB 95), Speed limits", "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual" }],
+    "references": [
+      {
+        "label": "School zones",
+        "citation": "PA Driver's Manual (PUB 95), Speed limits",
+        "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "pa-alc-001",
     "category": "alcohol-drugs",
-    "stateScope": ["PA"],
+    "stateScope": [
+      "PA"
+    ],
     "prompt": "Under Pennsylvania's zero-tolerance law, a driver under 21 can be charged with DUI at a blood alcohol concentration (BAC) as low as:",
-    "options": ["0.08%", "0.05%", "0.02%", "0.01%"],
-    "correctIndex": 2,
+    "options": [
+      "0.01%",
+      "0.02%",
+      "0.05%",
+      "0.08%"
+    ],
+    "correctIndex": 1,
     "explanation": "Pennsylvania's zero-tolerance law sets the limit for drivers under 21 at 0.02% BAC. The adult limit is 0.08%.",
     "difficulty": "medium",
-    "references": [{ "label": "Zero tolerance", "citation": "PA Driver's Manual (PUB 95), Alcohol, drugs and driving", "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual" }],
+    "references": [
+      {
+        "label": "Zero tolerance",
+        "citation": "PA Driver's Manual (PUB 95), Alcohol, drugs and driving",
+        "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "pa-alc-002",
     "category": "alcohol-drugs",
-    "stateScope": ["PA"],
+    "stateScope": [
+      "PA"
+    ],
     "prompt": "In Pennsylvania, an adult (21 or older) driving a passenger car is considered legally impaired (DUI) at a BAC of:",
-    "options": ["0.10%", "0.08%", "0.05%", "0.04%"],
-    "correctIndex": 1,
+    "options": [
+      "0.10%",
+      "0.04%",
+      "0.08%",
+      "0.05%"
+    ],
+    "correctIndex": 2,
     "explanation": "The general per se limit for adult drivers in Pennsylvania is 0.08% BAC. Commercial drivers are held to 0.04%.",
     "difficulty": "easy",
-    "references": [{ "label": "BAC limits", "citation": "PA Driver's Manual (PUB 95), Alcohol, drugs and driving", "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual" }],
+    "references": [
+      {
+        "label": "BAC limits",
+        "citation": "PA Driver's Manual (PUB 95), Alcohol, drugs and driving",
+        "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "pa-pen-001",
     "category": "penalties-points",
-    "stateScope": ["PA"],
+    "stateScope": [
+      "PA"
+    ],
     "prompt": "The first time a Pennsylvania driver's record reaches 6 points, PennDOT will:",
     "options": [
-      "Suspend the license for 30 days automatically",
+      "Take no action until 12 points are reached",
       "Require a special written point examination, passing which removes 2 points",
-      "Revoke the license permanently",
-      "Take no action until 12 points are reached"
+      "Suspend the license for 30 days automatically",
+      "Revoke the license permanently"
     ],
     "correctIndex": 1,
     "explanation": "The first time a driver reaches 6 points, PennDOT sends notice of a required written point exam. Passing it removes 2 points. Later accumulations can trigger a hearing and suspension.",
     "difficulty": "hard",
-    "references": [{ "label": "Point system", "citation": "PA Driver's Manual (PUB 95), Point system and penalties", "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual" }],
+    "references": [
+      {
+        "label": "Point system",
+        "citation": "PA Driver's Manual (PUB 95), Point system and penalties",
+        "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "pa-law-001",
     "category": "traffic-laws",
-    "stateScope": ["PA"],
+    "stateScope": [
+      "PA"
+    ],
     "prompt": "Under Pennsylvania's Steer Clear / Move Over Law, when you approach an emergency response area with flashing lights you must:",
     "options": [
-      "Speed up to clear the area quickly",
-      "Move over one lane if possible, or slow to a safe and reasonable speed if you cannot",
       "Stop completely until the vehicles leave",
-      "Sound your horn and continue at the same speed"
+      "Speed up to clear the area quickly",
+      "Sound your horn and continue at the same speed",
+      "Move over one lane if possible, or slow to a safe and reasonable speed if you cannot"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "Pennsylvania's Steer Clear law requires drivers to move over one lane away from an emergency response area with flashing lights, or to slow to a safe and reasonable speed when moving over is not possible.",
     "difficulty": "medium",
-    "references": [{ "label": "Move over law", "citation": "PA Driver's Manual (PUB 95), Steer Clear / Move Over Law", "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual" }],
+    "references": [
+      {
+        "label": "Move over law",
+        "citation": "PA Driver's Manual (PUB 95), Steer Clear / Move Over Law",
+        "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 2
   },
   {
     "id": "pa-gdl-001",
     "category": "gdl-teen",
-    "stateScope": ["PA"],
+    "stateScope": [
+      "PA"
+    ],
     "prompt": "Before taking the road test, a Pennsylvania junior (under-18) permit holder must complete a minimum of:",
     "options": [
-      "40 hours of supervised driving, all daytime",
-      "65 hours of supervised driving, including 10 at night and 5 in poor weather",
       "50 hours of supervised driving, including 10 at night",
-      "30 hours of supervised driving"
+      "30 hours of supervised driving",
+      "65 hours of supervised driving, including 10 at night and 5 in poor weather",
+      "40 hours of supervised driving, all daytime"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "Junior permit holders must log at least 65 hours of adult-supervised practice, including 10 hours at night and 5 hours in inclement weather, and hold the permit at least 6 months.",
     "difficulty": "hard",
-    "references": [{ "label": "Junior license", "citation": "PA Driver's Manual (PUB 95), Graduated licensing", "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual" }],
+    "references": [
+      {
+        "label": "Junior license",
+        "citation": "PA Driver's Manual (PUB 95), Graduated licensing",
+        "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "pa-gdl-002",
     "category": "gdl-teen",
-    "stateScope": ["PA"],
+    "stateScope": [
+      "PA"
+    ],
     "prompt": "A Pennsylvania junior driver is generally prohibited from driving during which hours?",
     "options": [
+      "10 p.m. to 5 a.m.",
       "9 p.m. to 6 a.m.",
-      "11 p.m. to 5 a.m.",
       "Midnight to 6 a.m.",
-      "10 p.m. to 5 a.m."
+      "11 p.m. to 5 a.m."
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "Junior license holders may not drive between 11 p.m. and 5 a.m., except for limited reasons such as employment, volunteer service, or when accompanied by a parent or guardian.",
     "difficulty": "medium",
-    "references": [{ "label": "Night restriction", "citation": "PA Driver's Manual (PUB 95), Graduated licensing", "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual" }],
+    "references": [
+      {
+        "label": "Night restriction",
+        "citation": "PA Driver's Manual (PUB 95), Graduated licensing",
+        "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "pa-gdl-003",
     "category": "gdl-teen",
-    "stateScope": ["PA"],
+    "stateScope": [
+      "PA"
+    ],
     "prompt": "During the first 6 months after getting a Pennsylvania junior license, how many passengers under 18 (not immediate family) may the driver carry?",
     "options": [
-      "No limit",
-      "Up to 3",
       "No more than 1",
-      "No passengers at all"
+      "Up to 3",
+      "No passengers at all",
+      "No limit"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "explanation": "For the first 6 months, a junior driver may carry no more than one passenger under 18 who is not immediate family, unless a parent or guardian is in the vehicle. After 6 months with a clean record the limit rises to three.",
     "difficulty": "hard",
-    "references": [{ "label": "Passenger limit", "citation": "PA Driver's Manual (PUB 95), Graduated licensing", "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual" }],
+    "references": [
+      {
+        "label": "Passenger limit",
+        "citation": "PA Driver's Manual (PUB 95), Graduated licensing",
+        "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "pa-saf-001",
     "category": "safe-driving",
-    "stateScope": ["PA"],
+    "stateScope": [
+      "PA"
+    ],
     "prompt": "Pennsylvania law requires you to turn your headlights on whenever:",
     "options": [
       "Only when it is fully dark outside",
-      "Your windshield wipers are in continuous or intermittent use because of weather",
       "You are driving faster than 45 mph",
+      "Your windshield wipers are in continuous or intermittent use because of weather",
       "You are on an interstate at any time"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "Pennsylvania requires headlights any time your wipers are in continuous or intermittent use due to rain, snow, fog, or other conditions, as well as from sunset to sunrise.",
     "difficulty": "medium",
-    "references": [{ "label": "Headlight use", "citation": "PA Driver's Manual (PUB 95), Vehicle equipment / driving conditions", "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual" }],
+    "references": [
+      {
+        "label": "Headlight use",
+        "citation": "PA Driver's Manual (PUB 95), Vehicle equipment / driving conditions",
+        "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "pa-proc-001",
     "category": "traffic-laws",
-    "stateScope": ["PA"],
+    "stateScope": [
+      "PA"
+    ],
     "prompt": "The Pennsylvania knowledge (permit) test consists of how many questions, and how many must you answer correctly to pass?",
     "options": [
-      "40 questions, 30 correct",
-      "18 questions, 15 correct",
       "25 questions, 20 correct",
+      "18 questions, 15 correct",
+      "40 questions, 30 correct",
       "35 questions, 28 correct"
     ],
     "correctIndex": 1,
     "explanation": "Pennsylvania's non-commercial knowledge test has 18 multiple-choice questions, and you must answer at least 15 correctly (about 83%) to pass.",
     "difficulty": "easy",
-    "references": [{ "label": "Testing", "citation": "PA Driver's Manual (PUB 95), Chapter 1: Testing", "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/testing" }],
-    "effectiveDate": "2026-07-24",
-    "reviewStatus": "draft",
-    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
-  },
-  {
-    "id": "pa-row-001",
-    "category": "right-of-way",
-    "stateScope": ["PA"],
-    "prompt": "When entering a roundabout in Pennsylvania, you must:",
-    "options": [
-      "Stop and wait for all traffic to leave the circle",
-      "Yield to traffic already circulating in the roundabout before entering",
-      "Enter quickly to keep traffic moving",
-      "Always turn left into the circle"
+    "references": [
+      {
+        "label": "Testing",
+        "citation": "PA Driver's Manual (PUB 95), Chapter 1: Testing",
+        "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/testing"
+      }
     ],
-    "correctIndex": 1,
-    "explanation": "At a roundabout you yield to vehicles already circulating, then enter to the right when there is a safe gap and travel counterclockwise. Slow down as you approach.",
-    "difficulty": "medium",
-    "references": [{ "label": "Roundabouts", "citation": "PA Driver's Manual (PUB 95), Intersections and roundabouts", "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual" }],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "pa-pen-002",
     "category": "gdl-teen",
-    "stateScope": ["PA"],
+    "stateScope": [
+      "PA"
+    ],
     "prompt": "A Pennsylvania junior driver can qualify for an unrestricted license before age 18 by:",
     "options": [
       "Simply turning 17",
@@ -233,50 +334,75 @@
     "correctIndex": 1,
     "explanation": "A junior driver may upgrade to an unrestricted license at 17 after holding the junior license for 12 months without an at-fault crash or conviction and completing an approved driver education course; otherwise restrictions end at 18.",
     "difficulty": "hard",
-    "references": [{ "label": "Unrestricted license", "citation": "PA Driver's Manual (PUB 95), Graduated licensing", "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual" }],
+    "references": [
+      {
+        "label": "Unrestricted license",
+        "citation": "PA Driver's Manual (PUB 95), Graduated licensing",
+        "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "pa-saf-002",
     "category": "safe-driving",
-    "stateScope": ["PA"],
+    "stateScope": [
+      "PA"
+    ],
     "prompt": "Pennsylvania's seat belt and child restraint law requires that:",
     "options": [
       "Only the driver must wear a seat belt",
-      "Children under 4 must be in an approved child safety seat, and children under 2 in a rear-facing seat",
       "Seat belts are optional for back-seat passengers of any age",
-      "Only passengers under 8 need any restraint"
+      "Only passengers under 8 need any restraint",
+      "Children under 4 must be in an approved child safety seat, and children under 2 in a rear-facing seat"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "Pennsylvania requires children under 4 to ride in an approved child safety seat, and children under 2 to be in a rear-facing seat. Children 4 up to 8 must use a booster seat.",
     "difficulty": "medium",
-    "references": [{ "label": "Occupant protection", "citation": "PA Driver's Manual (PUB 95), Seat belts and child restraints", "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual" }],
+    "references": [
+      {
+        "label": "Occupant protection",
+        "citation": "PA Driver's Manual (PUB 95), Seat belts and child restraints",
+        "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 2
   },
   {
     "id": "pa-law-002",
     "category": "traffic-laws",
-    "stateScope": ["PA"],
+    "stateScope": [
+      "PA"
+    ],
     "prompt": "In Pennsylvania, texting while driving is:",
     "options": [
-      "Allowed at red lights only",
       "Prohibited for all drivers as a primary offense",
       "Allowed for drivers over 18",
-      "Only banned in school zones"
+      "Only banned in school zones",
+      "Allowed at red lights only"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "Pennsylvania bans sending, reading, or writing text-based messages on an interactive wireless device for all drivers, and it is a primary offense (you can be stopped for it alone).",
     "difficulty": "easy",
-    "references": [{ "label": "Distracted driving", "citation": "PA Driver's Manual (PUB 95), Distracted driving", "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual" }],
+    "references": [
+      {
+        "label": "Distracted driving",
+        "citation": "PA Driver's Manual (PUB 95), Distracted driving",
+        "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   }
 ]

@@ -1,0 +1,136 @@
+{
+  "state": "ME",
+  "sources": [
+    {
+      "url": "https://legislature.maine.gov/statutes/29-A/title29-Asec1304.html",
+      "sha256": "0ddff402fd21606a35d6f832f97a51e237d6d418d7a09b957084f4fb38585099",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://legislature.maine.gov/statutes/29-A/title29-Asec1311.html",
+      "sha256": "4c1432814a91342280b206afc4e1b453cf07fde885e76bf61e4b3c848d699ca2",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://legislature.maine.gov/statutes/29-A/title29-Asec1601.html",
+      "sha256": "88078e884261f9bd7f8810104393fd62562e8ab8e971f91878e720a1ad08d0de",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://legislature.maine.gov/statutes/29-A/title29-Asec2054.html",
+      "sha256": "429006867119a83ac924827d9ebc8de24d217f9000597e650754f81408793f0e",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://legislature.maine.gov/statutes/29-A/title29-Asec2067.html",
+      "sha256": "73097e054185253ec17da40186e72c75094de4c92ecbe7b674195aaa19c867fb",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://legislature.maine.gov/statutes/29-A/title29-Asec2068.html",
+      "sha256": "f6d18bfb0fdc63f07399dfaa21f5ebf269953d443a828a32e41973ad7e884188",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://legislature.maine.gov/statutes/29-A/title29-Asec2071.html",
+      "sha256": "9f94b4b8a0c281029e2cc89a8b6dc8e58c39d80399753edbc45199996f6d4e25",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://legislature.maine.gov/statutes/29-A/title29-Asec2074.html",
+      "sha256": "6f13b8ef85aa97b9a8a19430f71d389e23ac747fd4844df0a9f2437e2a99d9ba",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://legislature.maine.gov/statutes/29-A/title29-Asec2081.html",
+      "sha256": "1f167df121e9f9ae5affd498268bccc67438550090ef21c97c00c6f536dd15a1",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://legislature.maine.gov/statutes/29-A/title29-Asec2112-A.html",
+      "sha256": "54e4ed20d7055b204de305e2ee5fc0713b48d40cf6ca8a221f242342ff406ae2",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://legislature.maine.gov/statutes/29-A/title29-Asec2119.html",
+      "sha256": "bb4f304af2e09d07797e40e62ce85d5c9fa1836a00ca8b0317eb2ad22c83bc24",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://legislature.maine.gov/statutes/29-A/title29-Asec2121.html",
+      "sha256": "5150c9aff1dc67cd39a4e60a7d38aae21ec46c156f2ecf11b54ab1c9c5c3a8a3",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://legislature.maine.gov/statutes/29-A/title29-Asec2251.html",
+      "sha256": "8bdac66b7ef522d76b5d6cc05acf2debc75e0ddce5b2acfd652cebf2f7e1e841",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://legislature.maine.gov/statutes/29-A/title29-Asec2411.html",
+      "sha256": "66c39f4cc244cad906ddef5f175212d1b280355482f46c313c28030f1a1fe1ff",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://legislature.maine.gov/statutes/29-A/title29-Asec2521.html",
+      "sha256": "183c42ba092e6f2b7f48050bc0de44aeb3a5b9dc495457d9423b28166d03360d",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://legislature.maine.gov/statutes/29-A/title29-Asec2551.html",
+      "sha256": "dcab054cc350894b019f7a7a1a05fc1e4a892807e46302d78526e2ce15a15fc6",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://legislature.maine.gov/statutes/29-A/title29-Asec2552.html",
+      "sha256": "c92a9592b68ea91095087dd81d5e4e9a7cebb9ae68fda071956407a331ea8a6a",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://mutcd.fhwa.dot.gov/",
+      "sha256": "b774f3f34dfc56d807552547e81123b5b693f5080f1585239891b4b1134f3aa2",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.iihs.org/topics/teenagers/graduated-licensing-laws-table",
+      "sha256": "a4c2b59b06107a409c1a69df93e9cbf431e5b4e2e5c179d6b93528e8b768f3b5",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.maine.gov/sos/bmv/driver-licenses-and-ids/car-license/driver-license-manual-and-Maine-motorist-handbook-and-study-guide",
+      "handbook": true,
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.maine.gov/sos/bmv/driver-licenses-and-ids/car-license/drivers-license-exam",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.maine.gov/sos/bmv/driver-licenses-and-ids/car-license/how-to-obtain-a-license",
+      "error": "fetch failed: fetch failed"
+    },
+    {
+      "url": "https://www.mainelegislature.org/legis/statutes/29-A/title29-Asec2074.html",
+      "error": "fetch failed: fetch failed"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "state": "MO",
+  "sources": [
+    {
+      "url": "https://dor.mo.gov/driver-license/issuance/graduated-driver-license/",
+      "sha256": "209c665871f6f7c39cb93bb0bb02b7ec1a78b48d845aaa1e7527cafb01941497",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://dor.mo.gov/forms/Driver_Guide.pdf",
+      "handbook": true,
+      "status": 404,
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://mutcd.fhwa.dot.gov/",
+      "sha256": "b774f3f34dfc56d807552547e81123b5b693f5080f1585239891b4b1134f3aa2",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://revisor.mo.gov/main/OneSection.aspx?section=302.178",
+      "sha256": "daafe6ff069b5aaef675843437bbfa30ff07b358d3f832fea82ec4a822f5ebfa",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://revisor.mo.gov/main/OneSection.aspx?section=302.302",
+      "sha256": "29ee9d56e2b6a1d63b4f433d9e01dbd4f4b0911d6065c1ae07261271addfe1e0",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://revisor.mo.gov/main/OneSection.aspx?section=303.190",
+      "sha256": "05b18867cba3d1ea8efa1a5d4c43659b734d7cd511be9ceda3704e6a41a4159f",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://revisor.mo.gov/main/OneSection.aspx?section=304.009",
+      "sha256": "83d3422b850242cf4d8c170c0d47ca15f1c3efed1e4552e3c975a29b8986b076",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://revisor.mo.gov/main/OneSection.aspx?section=304.120",
+      "sha256": "f713942d0b1352aff8ccc23a01e772766cc427d7b8d27289c08017ec3b937ca0",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://revisor.mo.gov/main/OneSection.aspx?section=304.281",
+      "sha256": "45deecec5a831e235b2d6cad14a03ce43041b929482258b4c8dbe65dab330898",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://revisor.mo.gov/main/OneSection.aspx?section=577.012",
+      "sha256": "5fa3a4df8ea5dcb43376a907634d891da70fdb99b690a3b084f93a0477dea410",
+      "contentType": "text/html",
+      "status": 200
+    }
+  ]
+}

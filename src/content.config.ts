@@ -530,17 +530,69 @@ const lessons = defineCollection({
 
 const signs = defineCollection({
   loader: arrayJsonLoader('src/content/signs'),
-  schema: z.object({
-    id: z.string().min(1),
-    name: z.string().min(1),
-    category: z.enum(['regulatory', 'warning', 'guide', 'construction', 'marking']),
-    asset: z.string().min(1), // path to SVG (base-aware at render)
-    meaning: z.string().min(1),
-    mutcdCode: z.string().optional(), // MUTCD signs are largely public domain
-    stateScope: z.union([z.literal('all'), z.array(stateCode).min(1)]).default('all'),
-    references: z.array(reference).default([]),
-    lastVerified: isoDate,
-  }),
+  schema: z
+    .object({
+      id: z.string().min(1),
+      name: z.string().min(1),
+      category: z.enum([
+        'regulatory',
+        'warning',
+        'guide',
+        'construction',
+        'school',
+        'marking',
+        'emergency',
+      ]),
+      shape: z.enum([
+        'octagon',
+        'triangle-down',
+        'diamond',
+        'rectangle-vertical',
+        'rectangle-horizontal',
+        'pentagon',
+        'circle',
+        'pennant',
+        'crossbuck',
+        'trapezoid',
+        'square',
+      ]),
+      color: z.enum([
+        'red',
+        'white',
+        'yellow',
+        'fluorescent-yellow-green',
+        'orange',
+        'green',
+        'blue',
+        'brown',
+        'black',
+        'pink',
+        'purple',
+      ]),
+      asset: z.string().min(1), // path to SVG (base-aware at render)
+      altText: z.string().min(1),
+      meaning: z.string().min(1),
+      legendText: z.string().optional(),
+      commonConfusions: z.array(z.string()).default([]),
+      mutcdCode: z.string().optional(), // MUTCD signs are largely public domain
+      mutcdEdition: z.string().optional(),
+      assetLicense: z.enum(['public-domain-mutcd', 'cc0', 'cc-by', 'original']),
+      assetSource: z.object({
+        label: z.string().min(1),
+        url: z.string().url().optional(),
+        retrieved: isoDate,
+      }),
+      assetSha256: z.string().regex(/^[0-9a-f]{64}$/i),
+      stateScope: z.union([z.literal('all'), z.array(stateCode).min(1)]).default('all'),
+      references: z.array(reference).min(1),
+      lastVerified: isoDate,
+    })
+    .refine((sign) => !sign.mutcdCode || sign.assetLicense === 'public-domain-mutcd', {
+      message: 'MUTCD-coded signs must be recorded as public-domain-mutcd',
+    })
+    .refine((sign) => sign.mutcdCode || sign.assetLicense === 'original', {
+      message: 'Non-MUTCD signs must be original artwork',
+    }),
 });
 
 export const collections = { states, questions, lessons, signs };

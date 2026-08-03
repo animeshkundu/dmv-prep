@@ -3,180 +3,325 @@
     "id": "nat-signs-001",
     "category": "road-signs",
     "stateScope": "all",
+    "tags": [
+      "sign-identify"
+    ],
+    "coversSigns": [
+      "stop"
+    ],
+    "imageAsset": "stop",
     "prompt": "What does a red, eight-sided (octagonal) sign always mean?",
-    "options": ["Yield to traffic", "Come to a complete stop", "Slow down and proceed", "Road ends ahead"],
-    "correctIndex": 1,
+    "options": [
+      "Road ends ahead",
+      "Slow down and proceed",
+      "Yield to traffic",
+      "Come to a complete stop"
+    ],
+    "correctIndex": 3,
     "explanation": "An octagon is used only for STOP signs. You must come to a complete stop, then proceed when it is safe.",
     "difficulty": "easy",
-    "references": [{ "label": "Traffic signs", "citation": "MUTCD Ch. 2B (regulatory signs)", "url": "https://mutcd.fhwa.dot.gov/" }],
+    "references": [
+      {
+        "label": "Traffic signs",
+        "citation": "MUTCD Ch. 2B (regulatory signs)",
+        "url": "https://mutcd.fhwa.dot.gov/"
+      }
+    ],
     "effectiveDate": "2026-07-23",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-23"
+    "lastVerified": "2026-07-23",
+    "contentVersion": 3
   },
   {
     "id": "nat-signs-002",
     "category": "road-signs",
     "stateScope": "all",
     "prompt": "A yellow, diamond-shaped sign indicates:",
-    "options": ["A regulation you must obey", "A general warning about conditions ahead", "A destination or service", "A construction detour only"],
-    "correctIndex": 1,
+    "options": [
+      "A general warning about conditions ahead",
+      "A regulation you must obey",
+      "A destination or service",
+      "A construction detour only"
+    ],
+    "correctIndex": 0,
     "explanation": "Yellow diamond signs are warning signs. They alert you to possible hazards or changes in road conditions ahead.",
     "difficulty": "easy",
-    "references": [{ "label": "Warning signs", "citation": "MUTCD Ch. 2C (warning signs)", "url": "https://mutcd.fhwa.dot.gov/" }],
+    "references": [
+      {
+        "label": "Warning signs",
+        "citation": "MUTCD Ch. 2C (warning signs)",
+        "url": "https://mutcd.fhwa.dot.gov/"
+      }
+    ],
     "effectiveDate": "2026-07-23",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-23"
+    "lastVerified": "2026-07-23",
+    "contentVersion": 2
   },
   {
     "id": "nat-signals-001",
     "category": "traffic-signals",
     "stateScope": "all",
     "prompt": "A flashing red traffic light means:",
-    "options": ["Stop, then proceed when safe", "Speed up to clear the intersection", "The light is broken; ignore it", "Yield only to pedestrians"],
-    "correctIndex": 0,
+    "options": [
+      "Yield only to pedestrians",
+      "The light is broken; ignore it",
+      "Speed up to clear the intersection",
+      "Stop, then proceed when safe"
+    ],
+    "correctIndex": 3,
     "explanation": "A flashing red light means the same as a stop sign: stop completely, then go when it is safe.",
     "difficulty": "easy",
-    "references": [{ "label": "Traffic signals", "citation": "MUTCD Ch. 4 (traffic signals)", "url": "https://mutcd.fhwa.dot.gov/" }],
+    "references": [
+      {
+        "label": "Traffic signals",
+        "citation": "MUTCD Ch. 4 (traffic signals)",
+        "url": "https://mutcd.fhwa.dot.gov/"
+      }
+    ],
     "effectiveDate": "2026-07-23",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-23"
+    "lastVerified": "2026-07-23",
+    "contentVersion": 3
   },
   {
     "id": "nat-row-001",
     "category": "right-of-way",
     "stateScope": "all",
     "prompt": "At a four-way stop, two vehicles arrive at the same time. Who goes first?",
-    "options": ["The vehicle on the left", "The vehicle on the right", "The larger vehicle", "Whoever accelerates first"],
+    "options": [
+      "The vehicle on the left",
+      "The vehicle on the right",
+      "Whoever accelerates first",
+      "The larger vehicle"
+    ],
     "correctIndex": 1,
     "explanation": "When two vehicles reach a four-way stop at the same time, the driver on the left yields to the driver on the right.",
     "difficulty": "medium",
-    "references": [{ "label": "Right of way", "citation": "State driver handbook, right-of-way rules" }],
+    "references": [
+      {
+        "label": "Right of way",
+        "citation": "State driver handbook, right-of-way rules"
+      }
+    ],
     "effectiveDate": "2026-07-23",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-23"
+    "lastVerified": "2026-07-23",
+    "contentVersion": 3
   },
   {
     "id": "nat-row-002",
     "category": "right-of-way",
     "stateScope": "all",
     "prompt": "You are approaching an intersection with a green light, but a pedestrian is still in the crosswalk. You should:",
-    "options": ["Proceed; you have the green", "Honk so they hurry", "Stop and let them finish crossing", "Drive around them"],
+    "options": [
+      "Drive around them",
+      "Honk so they hurry",
+      "Stop and let them finish crossing",
+      "Proceed; you have the green"
+    ],
     "correctIndex": 2,
     "explanation": "You must yield to pedestrians already in a crosswalk, even when your light is green. Never proceed until they are safely clear.",
     "difficulty": "easy",
-    "references": [{ "label": "Pedestrians", "citation": "State driver handbook, pedestrian right-of-way" }],
+    "references": [
+      {
+        "label": "Pedestrians",
+        "citation": "State driver handbook, pedestrian right-of-way"
+      }
+    ],
     "effectiveDate": "2026-07-23",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-23"
+    "lastVerified": "2026-07-23",
+    "contentVersion": 3
   },
   {
     "id": "nat-safe-001",
     "category": "safe-driving",
     "stateScope": "all",
     "prompt": "To maintain a safe following distance under good conditions, you should:",
-    "options": ["Follow as closely as possible", "Leave enough time and space to stop if the vehicle ahead slows", "Stay exactly half a car length behind", "Use the same fixed distance at every speed"],
-    "correctIndex": 1,
+    "options": [
+      "Leave enough time and space to stop if the vehicle ahead slows",
+      "Follow as closely as possible",
+      "Stay exactly half a car length behind",
+      "Use the same fixed distance at every speed"
+    ],
+    "correctIndex": 0,
     "explanation": "Leave enough time and space to react and stop if the vehicle ahead slows. Increase that space at higher speeds and in poor road, weather, or visibility conditions.",
     "difficulty": "medium",
-    "references": [{ "label": "Following distance", "citation": "State driver handbook, safe following distance" }],
+    "references": [
+      {
+        "label": "Following distance",
+        "citation": "State driver handbook, safe following distance"
+      }
+    ],
     "effectiveDate": "2026-07-23",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-23"
+    "lastVerified": "2026-07-23",
+    "contentVersion": 3
   },
   {
     "id": "nat-safe-002",
     "category": "safe-driving",
     "stateScope": "all",
     "prompt": "When driving in fog, you should use:",
-    "options": ["High-beam headlights", "Low-beam headlights", "No lights to avoid glare", "Hazard lights while moving"],
+    "options": [
+      "Hazard lights while moving",
+      "Low-beam headlights",
+      "High-beam headlights",
+      "No lights to avoid glare"
+    ],
     "correctIndex": 1,
     "explanation": "In fog use low beams. High beams reflect off the fog and reduce visibility. Slow down and increase your following distance.",
     "difficulty": "medium",
-    "references": [{ "label": "Adverse conditions", "citation": "State driver handbook, driving in fog" }],
+    "references": [
+      {
+        "label": "Adverse conditions",
+        "citation": "State driver handbook, driving in fog"
+      }
+    ],
     "effectiveDate": "2026-07-23",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-23"
+    "lastVerified": "2026-07-23",
+    "contentVersion": 3
   },
   {
     "id": "nat-share-001",
     "category": "sharing-the-road",
     "stateScope": "all",
     "prompt": "When you see a school bus stopped with its red lights flashing and stop arm out on an undivided road, you must:",
-    "options": ["Pass slowly on the left", "Stop in both directions until the lights stop", "Sound your horn and pass", "Proceed if no children are visible"],
-    "correctIndex": 1,
+    "options": [
+      "Stop in both directions until the lights stop",
+      "Sound your horn and pass",
+      "Proceed if no children are visible",
+      "Pass slowly on the left"
+    ],
+    "correctIndex": 0,
     "explanation": "On an undivided road, traffic in both directions must stop for a school bus with flashing red lights and an extended stop arm until it is withdrawn.",
     "difficulty": "medium",
-    "references": [{ "label": "School buses", "citation": "State driver handbook, school bus rules" }],
+    "references": [
+      {
+        "label": "School buses",
+        "citation": "State driver handbook, school bus rules"
+      }
+    ],
     "effectiveDate": "2026-07-23",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-23"
+    "lastVerified": "2026-07-23",
+    "contentVersion": 3
   },
   {
     "id": "nat-park-001",
     "category": "parking",
     "stateScope": "all",
     "prompt": "When parking uphill next to a curb, you should turn your front wheels:",
-    "options": ["Toward the curb", "Away from the curb (toward the street)", "Straight ahead", "It does not matter"],
-    "correctIndex": 1,
+    "options": [
+      "Away from the curb (toward the street)",
+      "It does not matter",
+      "Toward the curb",
+      "Straight ahead"
+    ],
+    "correctIndex": 0,
     "explanation": "Uphill with a curb, turn the wheels away from the curb so that if the car rolls back the rear of a front tire catches the curb.",
     "difficulty": "hard",
-    "references": [{ "label": "Parking on hills", "citation": "State driver handbook, hill parking" }],
+    "references": [
+      {
+        "label": "Parking on hills",
+        "citation": "State driver handbook, hill parking"
+      }
+    ],
     "effectiveDate": "2026-07-23",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-23"
+    "lastVerified": "2026-07-23",
+    "contentVersion": 3
   },
   {
     "id": "nat-laws-001",
     "category": "traffic-laws",
     "stateScope": "all",
     "prompt": "Before changing lanes, you should:",
-    "options": ["Rely only on your mirrors", "Signal, check mirrors, and check your blind spot", "Signal only if other cars are near", "Change quickly without signaling"],
-    "correctIndex": 1,
+    "options": [
+      "Change quickly without signaling",
+      "Signal only if other cars are near",
+      "Signal, check mirrors, and check your blind spot",
+      "Rely only on your mirrors"
+    ],
+    "correctIndex": 2,
     "explanation": "Always signal, check your mirrors, and glance over your shoulder to check the blind spot before changing lanes. Mirrors alone do not show the blind spot.",
     "difficulty": "easy",
-    "references": [{ "label": "Lane changes", "citation": "State driver handbook, changing lanes" }],
+    "references": [
+      {
+        "label": "Lane changes",
+        "citation": "State driver handbook, changing lanes"
+      }
+    ],
     "effectiveDate": "2026-07-23",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-23"
+    "lastVerified": "2026-07-23",
+    "contentVersion": 3
   },
   {
     "id": "nat-alc-001",
     "category": "alcohol-drugs",
-    "stateScope": "all",
-    "prompt": "For most drivers age 21 and over, it is illegal to drive with a blood alcohol concentration (BAC) at or above:",
-    "options": ["0.05%", "0.08%", "0.10%", "0.02%"],
-    "correctIndex": 1,
-    "explanation": "In nearly every state the adult limit is 0.08% (Utah is 0.05%). Commercial drivers are limited to 0.04%, and drivers under 21 face near-zero tolerance.",
+    "stateScope": [
+      "AL"
+    ],
+    "prompt": "In Alabama, it is illegal for a driver age 21 or older to drive with a blood alcohol concentration (BAC) at or above:",
+    "options": [
+      "0.10%",
+      "0.02%",
+      "0.08%",
+      "0.05%"
+    ],
+    "correctIndex": 2,
+    "explanation": "Alabama's per se BAC threshold for a driver age 21 or older is 0.08%. Other driver classes and other jurisdictions can have different thresholds.",
     "difficulty": "easy",
-    "references": [{ "label": "Impaired driving", "citation": "State driver handbook, alcohol and the law" }],
+    "references": [
+      {
+        "label": "Alabama driving under the influence",
+        "citation": "Ala. Code § 32-5A-191(a)(1)"
+      }
+    ],
     "effectiveDate": "2026-07-23",
     "reviewStatus": "draft",
     "lastVerified": "2026-07-23",
-    "verifyNote": "Not universal as written: Utah's per se adult BAC limit is 0.05%, so 0.08% is not unambiguously correct in every state. Move this item to explicit state scopes or rewrite it without a numeric state-variable threshold."
+    "verifyNote": "This Alabama-specific item has not received independent cross-lab verification or a confirmed audit ledger.",
+    "contentVersion": 3
   },
   {
     "id": "nat-markings-001",
     "category": "pavement-markings",
     "stateScope": "all",
     "prompt": "A solid yellow line on your side of the center line means:",
-    "options": ["Passing is allowed", "Passing is not allowed on your side", "The road is one-way", "You may park along it"],
-    "correctIndex": 1,
+    "options": [
+      "Passing is not allowed on your side",
+      "The road is one-way",
+      "Passing is allowed",
+      "You may park along it"
+    ],
+    "correctIndex": 0,
     "explanation": "A solid yellow line on your side means you may not cross it to pass. A broken yellow line on your side means passing is permitted when safe.",
     "difficulty": "medium",
-    "references": [{ "label": "Pavement markings", "citation": "MUTCD Ch. 3 (markings)", "url": "https://mutcd.fhwa.dot.gov/" }],
+    "references": [
+      {
+        "label": "Pavement markings",
+        "citation": "MUTCD Ch. 3 (markings)",
+        "url": "https://mutcd.fhwa.dot.gov/"
+      }
+    ],
     "effectiveDate": "2026-07-23",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-23"
+    "lastVerified": "2026-07-23",
+    "contentVersion": 3
   }
 ]

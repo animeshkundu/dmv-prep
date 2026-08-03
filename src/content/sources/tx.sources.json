@@ -1,0 +1,83 @@
+{
+  "state": "TX",
+  "sources": [
+    {
+      "url": "https://mutcd.fhwa.dot.gov/",
+      "sha256": "b774f3f34dfc56d807552547e81123b5b693f5080f1585239891b4b1134f3aa2",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://statutes.capitol.texas.gov/Docs/PE/htm/PE.49.htm",
+      "sha256": "a664306cf602f84cb6477d75b331c1e87c4f2b0f149cbb4b21276af51e069c99",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://statutes.capitol.texas.gov/Docs/TN/htm/TN.521.htm",
+      "sha256": "a664306cf602f84cb6477d75b331c1e87c4f2b0f149cbb4b21276af51e069c99",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://statutes.capitol.texas.gov/Docs/TN/htm/TN.522.htm",
+      "sha256": "a664306cf602f84cb6477d75b331c1e87c4f2b0f149cbb4b21276af51e069c99",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://statutes.capitol.texas.gov/Docs/TN/htm/TN.544.htm",
+      "sha256": "a664306cf602f84cb6477d75b331c1e87c4f2b0f149cbb4b21276af51e069c99",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://statutes.capitol.texas.gov/Docs/TN/htm/TN.545.htm",
+      "sha256": "a664306cf602f84cb6477d75b331c1e87c4f2b0f149cbb4b21276af51e069c99",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://statutes.capitol.texas.gov/Docs/TN/htm/TN.547.htm",
+      "sha256": "a664306cf602f84cb6477d75b331c1e87c4f2b0f149cbb4b21276af51e069c99",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://statutes.capitol.texas.gov/Docs/TN/htm/TN.550.htm",
+      "sha256": "a664306cf602f84cb6477d75b331c1e87c4f2b0f149cbb4b21276af51e069c99",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://statutes.capitol.texas.gov/Docs/TN/htm/TN.601.htm",
+      "sha256": "a664306cf602f84cb6477d75b331c1e87c4f2b0f149cbb4b21276af51e069c99",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://statutes.capitol.texas.gov/Docs/TN/htm/TN.724.htm",
+      "sha256": "a664306cf602f84cb6477d75b331c1e87c4f2b0f149cbb4b21276af51e069c99",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf",
+      "handbook": true,
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://www.dps.texas.gov/section/driver-license/driver-license-fees",
+      "sha256": "8012fcf75c14e1538fe8f9452688b9d0ef8eabdb2ae06d7d284116f27bb55eaa",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table",
+      "sha256": "a4c2b59b06107a409c1a69df93e9cbf431e5b4e2e5c179d6b93528e8b768f3b5",
+      "contentType": "text/html",
+      "status": 200
+    }
+  ]
+}

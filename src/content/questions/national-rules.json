@@ -4,599 +4,1046 @@
     "category": "right-of-way",
     "stateScope": "all",
     "prompt": "At an intersection with no signs or signals, two vehicles arrive at about the same time. Who should yield?",
-    "options": ["The vehicle on the right yields", "The vehicle on the left yields to the vehicle on the right", "The faster vehicle yields", "Neither vehicle needs to yield"],
-    "correctIndex": 1,
+    "options": [
+      "The faster vehicle yields",
+      "Neither vehicle needs to yield",
+      "The vehicle on the right yields",
+      "The vehicle on the left yields to the vehicle on the right"
+    ],
+    "correctIndex": 3,
     "explanation": "At an open, uncontrolled intersection, the driver on the left must yield to the driver on the right when both arrive at roughly the same time.",
     "difficulty": "medium",
-    "references": [{ "label": "Right of way", "citation": "State driver handbook, uncontrolled intersections" }],
+    "references": [
+      {
+        "label": "Right of way",
+        "citation": "State driver handbook, uncontrolled intersections"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-row-004",
     "category": "right-of-way",
     "stateScope": "all",
     "prompt": "You are making a left turn at an intersection with a green light (no green arrow). Oncoming traffic is approaching. You must:",
-    "options": ["Turn quickly before they arrive", "Yield to oncoming traffic and turn only when there is a safe gap", "Proceed because you have the green light", "Expect oncoming traffic to stop for you"],
-    "correctIndex": 1,
+    "options": [
+      "Yield to oncoming traffic and turn only when there is a safe gap",
+      "Proceed because you have the green light",
+      "Turn quickly before they arrive",
+      "Expect oncoming traffic to stop for you"
+    ],
+    "correctIndex": 0,
     "explanation": "A green light without a green arrow is a permissive left. You must yield to oncoming vehicles and pedestrians and turn only when it is clearly safe.",
     "difficulty": "easy",
-    "references": [{ "label": "Right of way", "citation": "State driver handbook, left turns" }],
+    "references": [
+      {
+        "label": "Right of way",
+        "citation": "State driver handbook, left turns"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-row-005",
     "category": "right-of-way",
     "stateScope": "all",
     "prompt": "When you are pulling out of a driveway or alley onto a street, you must:",
-    "options": ["Yield to traffic and pedestrians already on the street or sidewalk", "Expect other traffic to slow for you", "Sound your horn and proceed", "Enter quickly to claim the lane"],
-    "correctIndex": 0,
+    "options": [
+      "Enter quickly to claim the lane",
+      "Yield to traffic and pedestrians already on the street or sidewalk",
+      "Expect other traffic to slow for you",
+      "Sound your horn and proceed"
+    ],
+    "correctIndex": 1,
     "explanation": "A driver entering a roadway from a driveway, alley, or private road must yield to vehicles on the road and to pedestrians on the sidewalk.",
     "difficulty": "easy",
-    "references": [{ "label": "Right of way", "citation": "State driver handbook, entering a roadway" }],
+    "references": [
+      {
+        "label": "Right of way",
+        "citation": "State driver handbook, entering a roadway"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-row-006",
     "category": "right-of-way",
     "stateScope": "all",
     "prompt": "At a T-intersection with no signs, the driver on the road that ends (the top of the 'T') should:",
-    "options": ["Have the right-of-way", "Yield to traffic on the through road", "Speed up to merge", "Expect through traffic to stop"],
-    "correctIndex": 1,
+    "options": [
+      "Expect through traffic to stop",
+      "Have the right-of-way",
+      "Yield to traffic on the through road",
+      "Speed up to merge"
+    ],
+    "correctIndex": 2,
     "explanation": "Traffic on the terminating road of a T-intersection must yield to traffic on the through road that continues straight.",
     "difficulty": "medium",
-    "references": [{ "label": "Right of way", "citation": "State driver handbook, T-intersections" }],
+    "references": [
+      {
+        "label": "Right of way",
+        "citation": "State driver handbook, T-intersections"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-row-007",
     "category": "right-of-way",
     "stateScope": "all",
     "prompt": "On a two-way road, an emergency vehicle is approaching with lights and siren on. You should:",
-    "options": ["Speed up to get out of the way", "Safely pull to the right edge of the road and stop until it passes", "Stop immediately in your lane", "Continue at the same speed"],
-    "correctIndex": 1,
+    "options": [
+      "Continue at the same speed",
+      "Stop immediately in your lane",
+      "Speed up to get out of the way",
+      "Safely pull to the right edge of the road and stop until it passes"
+    ],
+    "correctIndex": 3,
     "explanation": "On a two-way road, yield by safely pulling to the right edge and stopping until the emergency vehicle passes. Clear an intersection before pulling over, and follow any directions from emergency personnel.",
     "difficulty": "easy",
-    "references": [{ "label": "Right of way", "citation": "State driver handbook, emergency vehicles" }],
+    "references": [
+      {
+        "label": "Right of way",
+        "citation": "State driver handbook, emergency vehicles"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-row-008",
     "category": "right-of-way",
     "stateScope": "all",
     "prompt": "When entering a roundabout, you must:",
-    "options": ["Stop and wait for a green light", "Yield to traffic already circulating in the roundabout", "Enter as fast as possible", "Have the right-of-way over circulating traffic"],
-    "correctIndex": 1,
+    "options": [
+      "Yield to traffic already circulating in the roundabout",
+      "Enter as fast as possible",
+      "Have the right-of-way over circulating traffic",
+      "Stop and wait for a green light"
+    ],
+    "correctIndex": 0,
     "explanation": "Traffic already in the roundabout has the right-of-way. Yield to vehicles coming from your left, then enter when there is a safe gap.",
     "difficulty": "medium",
-    "references": [{ "label": "Right of way", "citation": "State driver handbook, roundabouts" }],
+    "references": [
+      {
+        "label": "Right of way",
+        "citation": "State driver handbook, roundabouts"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-row-009",
     "category": "right-of-way",
     "stateScope": "all",
     "prompt": "When merging onto a highway from an on-ramp, the driver merging should:",
-    "options": ["Force their way into the lane", "Adjust speed and yield to traffic already on the highway", "Stop at the end of the ramp and wait", "Expect highway traffic to move over"],
+    "options": [
+      "Force their way into the lane",
+      "Adjust speed and yield to traffic already on the highway",
+      "Stop at the end of the ramp and wait",
+      "Expect highway traffic to move over"
+    ],
     "correctIndex": 1,
     "explanation": "A merging driver should match the speed of highway traffic and yield, blending into a safe gap rather than forcing in or stopping on the ramp.",
     "difficulty": "medium",
-    "references": [{ "label": "Right of way", "citation": "State driver handbook, merging" }],
+    "references": [
+      {
+        "label": "Right of way",
+        "citation": "State driver handbook, merging"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-row-010",
     "category": "right-of-way",
     "stateScope": "all",
     "prompt": "A pedestrian who is blind is crossing the street using a white cane or guide dog. You must:",
-    "options": ["Proceed carefully around them", "Always stop and yield the right-of-way", "Honk to warn them", "Continue if you have a green light"],
-    "correctIndex": 1,
+    "options": [
+      "Proceed carefully around them",
+      "Honk to warn them",
+      "Always stop and yield the right-of-way",
+      "Continue if you have a green light"
+    ],
+    "correctIndex": 2,
     "explanation": "You must always yield to a pedestrian using a white cane or guide dog. Stop and give them time to cross safely.",
     "difficulty": "easy",
-    "references": [{ "label": "Right of way", "citation": "State driver handbook, pedestrians with disabilities" }],
+    "references": [
+      {
+        "label": "Right of way",
+        "citation": "State driver handbook, pedestrians with disabilities"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-row-011",
     "category": "right-of-way",
     "stateScope": "all",
     "prompt": "At a four-way stop, the vehicle that should generally proceed first is the one that:",
-    "options": ["Is the largest", "Arrived and stopped first", "Is going straight", "Has the most passengers"],
-    "correctIndex": 1,
+    "options": [
+      "Has the most passengers",
+      "Is going straight",
+      "Is the largest",
+      "Arrived and stopped first"
+    ],
+    "correctIndex": 3,
     "explanation": "At an all-way stop, the first vehicle to arrive and stop goes first. If two arrive together, the one on the left yields to the one on the right.",
     "difficulty": "easy",
-    "references": [{ "label": "Right of way", "citation": "State driver handbook, all-way stops" }],
+    "references": [
+      {
+        "label": "Right of way",
+        "citation": "State driver handbook, all-way stops"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-row-012",
     "category": "right-of-way",
     "stateScope": "all",
     "prompt": "A vehicle is already lawfully in the intersection when you approach. You should:",
-    "options": ["Enter anyway if you have room", "Let the vehicle already in the intersection clear it first", "Sound your horn", "Assume it will back up"],
-    "correctIndex": 1,
+    "options": [
+      "Let the vehicle already in the intersection clear it first",
+      "Enter anyway if you have room",
+      "Sound your horn",
+      "Assume it will back up"
+    ],
+    "correctIndex": 0,
     "explanation": "A vehicle already in the intersection has the right-of-way. Let it clear before you enter, even if your signal turns green.",
     "difficulty": "easy",
-    "references": [{ "label": "Right of way", "citation": "State driver handbook, intersections" }],
+    "references": [
+      {
+        "label": "Right of way",
+        "citation": "State driver handbook, intersections"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-row-013",
     "category": "right-of-way",
     "stateScope": "all",
+    "tags": [
+      "sign-rule"
+    ],
+    "coversSigns": [
+      "stop"
+    ],
+    "imageAsset": "stop",
     "prompt": "After stopping at a stop sign, before you proceed you must:",
-    "options": ["Go immediately once stopped", "Yield to cross traffic and pedestrians, then proceed when it is safe", "Wait for a green light", "Assume cross traffic will stop"],
+    "options": [
+      "Wait for a green light",
+      "Yield to cross traffic and pedestrians, then proceed when it is safe",
+      "Go immediately once stopped",
+      "Assume cross traffic will stop"
+    ],
     "correctIndex": 1,
     "explanation": "A stop sign requires a complete stop and then yielding to any cross traffic and pedestrians. Proceed only when the way is clear.",
     "difficulty": "easy",
-    "references": [{ "label": "Right of way", "citation": "State driver handbook, stop signs" }],
+    "references": [
+      {
+        "label": "Right of way",
+        "citation": "State driver handbook, stop signs"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-row-014",
     "category": "right-of-way",
     "stateScope": "all",
     "prompt": "Right-of-way rules at an intersection primarily identify:",
-    "options": ["Who may force another driver to stop", "Who must give way to avoid a collision", "Who owns the road", "Who can drive fastest"],
-    "correctIndex": 1,
+    "options": [
+      "Who may force another driver to stop",
+      "Who can drive fastest",
+      "Who must give way to avoid a collision",
+      "Who owns the road"
+    ],
+    "correctIndex": 2,
     "explanation": "Right-of-way is about who must yield. The law says who must give way; no driver is ever entitled to force the right-of-way, even when others fail to yield.",
     "difficulty": "medium",
-    "references": [{ "label": "Right of way", "citation": "State driver handbook, right-of-way principles" }],
+    "references": [
+      {
+        "label": "Right of way",
+        "citation": "State driver handbook, right-of-way principles"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-row-015",
     "category": "right-of-way",
     "stateScope": "all",
     "prompt": "You want to turn left across a sidewalk to enter a parking lot, and a pedestrian is walking along the sidewalk. You should:",
-    "options": ["Turn in front of the pedestrian", "Yield and let the pedestrian pass before crossing the sidewalk", "Honk so they wait", "Speed up to clear the sidewalk first"],
-    "correctIndex": 1,
+    "options": [
+      "Speed up to clear the sidewalk first",
+      "Honk so they wait",
+      "Turn in front of the pedestrian",
+      "Yield and let the pedestrian pass before crossing the sidewalk"
+    ],
+    "correctIndex": 3,
     "explanation": "Pedestrians on a sidewalk have the right-of-way over vehicles crossing it. Yield and wait until the pedestrian has passed before entering or leaving the driveway.",
     "difficulty": "medium",
-    "references": [{ "label": "Right of way", "citation": "State driver handbook, sidewalks and driveways" }],
+    "references": [
+      {
+        "label": "Right of way",
+        "citation": "State driver handbook, sidewalks and driveways"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 2
   },
   {
     "id": "nat-park-002",
     "category": "parking",
     "stateScope": "all",
     "prompt": "When parking downhill next to a curb, you should turn your front wheels:",
-    "options": ["Away from the curb", "Toward the curb", "Straight ahead", "It does not matter"],
+    "options": [
+      "Away from the curb",
+      "Toward the curb",
+      "It does not matter",
+      "Straight ahead"
+    ],
     "correctIndex": 1,
     "explanation": "Facing downhill with a curb, turn the wheels toward the curb so that if the car rolls, the front tire catches the curb and stops it.",
     "difficulty": "hard",
-    "references": [{ "label": "Parking on hills", "citation": "State driver handbook, hill parking" }],
+    "references": [
+      {
+        "label": "Parking on hills",
+        "citation": "State driver handbook, hill parking"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-park-003",
     "category": "parking",
     "stateScope": "all",
     "prompt": "When you park on a hill where there is no curb, you should turn your front wheels:",
-    "options": ["Toward the center of the road", "Toward the edge of the road, so the car would roll away from traffic", "Straight ahead", "It makes no difference"],
-    "correctIndex": 1,
+    "options": [
+      "Straight ahead",
+      "Toward the center of the road",
+      "Toward the edge of the road, so the car would roll away from traffic",
+      "It makes no difference"
+    ],
+    "correctIndex": 2,
     "explanation": "With no curb, aim the wheels toward the shoulder or edge of the road so that if the car rolls, it moves away from traffic rather than into it.",
     "difficulty": "hard",
-    "references": [{ "label": "Parking on hills", "citation": "State driver handbook, hill parking" }],
+    "references": [
+      {
+        "label": "Parking on hills",
+        "citation": "State driver handbook, hill parking"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-park-004",
     "category": "parking",
     "stateScope": "all",
     "prompt": "Before you leave your parked vehicle on a hill, you should always:",
-    "options": ["Leave it in neutral", "Set the parking brake", "Leave the engine running", "Leave the doors unlocked"],
-    "correctIndex": 1,
+    "options": [
+      "Leave the doors unlocked",
+      "Leave it in neutral",
+      "Leave the engine running",
+      "Set the parking brake"
+    ],
+    "correctIndex": 3,
     "explanation": "Always set the parking brake when parking, and leave an automatic in 'Park' or a manual in gear. Turning the wheels is an added safeguard.",
     "difficulty": "easy",
-    "references": [{ "label": "Parking", "citation": "State driver handbook, securing a parked vehicle" }],
+    "references": [
+      {
+        "label": "Parking",
+        "citation": "State driver handbook, securing a parked vehicle"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-park-005",
     "category": "parking",
     "stateScope": "all",
     "prompt": "It is illegal to park in which of the following places?",
-    "options": ["On a marked residential street", "Blocking a fire hydrant, crosswalk, or driveway", "In a metered space", "In a parking garage"],
-    "correctIndex": 1,
+    "options": [
+      "Blocking a fire hydrant, crosswalk, or driveway",
+      "In a metered space",
+      "In a parking garage",
+      "On a marked residential street"
+    ],
+    "correctIndex": 0,
     "explanation": "You may never park where you block a fire hydrant, crosswalk, or driveway. Doing so obstructs emergency access and pedestrians.",
     "difficulty": "easy",
-    "references": [{ "label": "Parking", "citation": "State driver handbook, no-parking zones" }],
+    "references": [
+      {
+        "label": "Parking",
+        "citation": "State driver handbook, no-parking zones"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-park-006",
     "category": "parking",
     "stateScope": "all",
     "prompt": "You should never stop or park your vehicle:",
-    "options": ["In a parking lot", "On a railroad crossing or within an intersection", "On a residential street", "In a driveway you own"],
+    "options": [
+      "In a parking lot",
+      "On a railroad crossing or within an intersection",
+      "In a driveway you own",
+      "On a residential street"
+    ],
     "correctIndex": 1,
     "explanation": "Never stop or park on railroad tracks or within an intersection. Both trap your vehicle in the path of a train or cross traffic.",
     "difficulty": "medium",
-    "references": [{ "label": "Parking", "citation": "State driver handbook, prohibited stopping" }],
+    "references": [
+      {
+        "label": "Parking",
+        "citation": "State driver handbook, prohibited stopping"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-park-007",
     "category": "parking",
     "stateScope": "all",
     "prompt": "To legally park in a space marked with the international symbol of accessibility (a wheelchair symbol), you must:",
-    "options": ["Have a valid disability permit or license plate", "Be picking someone up", "Only park briefly", "Have a large vehicle"],
-    "correctIndex": 0,
+    "options": [
+      "Be picking someone up",
+      "Only park briefly",
+      "Have a valid disability permit or license plate",
+      "Have a large vehicle"
+    ],
+    "correctIndex": 2,
     "explanation": "Accessible parking spaces are reserved for vehicles displaying a valid disability parking permit or plate. Parking there without one is illegal.",
     "difficulty": "easy",
-    "references": [{ "label": "Parking", "citation": "State driver handbook, accessible parking" }],
+    "references": [
+      {
+        "label": "Parking",
+        "citation": "State driver handbook, accessible parking"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-park-008",
     "category": "parking",
     "stateScope": "all",
     "prompt": "When you pull out of a parallel parking space to rejoin traffic, you should:",
-    "options": ["Pull out quickly", "Signal, check your mirrors and blind spot, and yield to passing traffic", "Expect traffic to stop for you", "Back up first"],
-    "correctIndex": 1,
+    "options": [
+      "Back up first",
+      "Expect traffic to stop for you",
+      "Pull out quickly",
+      "Signal, check your mirrors and blind spot, and yield to passing traffic"
+    ],
+    "correctIndex": 3,
     "explanation": "Leaving a parking space, you are entering traffic. Signal, check mirrors and your blind spot, and yield to vehicles and bicycles already in the lane.",
     "difficulty": "easy",
-    "references": [{ "label": "Parking", "citation": "State driver handbook, leaving a parking space" }],
+    "references": [
+      {
+        "label": "Parking",
+        "citation": "State driver handbook, leaving a parking space"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-park-009",
     "category": "parking",
     "stateScope": "all",
     "prompt": "When parallel parking along a curb, your vehicle should end up:",
-    "options": ["Angled out into the lane", "Parallel to and close to the curb", "As far from the curb as possible", "Facing oncoming traffic"],
-    "correctIndex": 1,
+    "options": [
+      "Parallel to and close to the curb",
+      "Angled out into the lane",
+      "As far from the curb as possible",
+      "Facing oncoming traffic"
+    ],
+    "correctIndex": 0,
     "explanation": "A properly parallel-parked car sits parallel to and close to the curb, not sticking out into traffic. This keeps the travel lane clear.",
     "difficulty": "medium",
-    "references": [{ "label": "Parking", "citation": "State driver handbook, parallel parking" }],
+    "references": [
+      {
+        "label": "Parking",
+        "citation": "State driver handbook, parallel parking"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-park-010",
     "category": "parking",
     "stateScope": "all",
     "prompt": "If your vehicle breaks down and you must stop on the shoulder of a highway, you should:",
-    "options": ["Leave it in the travel lane", "Move as far off the road as possible and turn on your hazard lights", "Stand in the traffic lane to flag help", "Leave without warning other drivers"],
+    "options": [
+      "Leave without warning other drivers",
+      "Move as far off the road as possible and turn on your hazard lights",
+      "Leave it in the travel lane",
+      "Stand in the traffic lane to flag help"
+    ],
     "correctIndex": 1,
     "explanation": "Get the vehicle as far off the roadway as you can, turn on your hazard (emergency flasher) lights to warn others, and stay aware of passing traffic.",
     "difficulty": "medium",
-    "references": [{ "label": "Parking", "citation": "State driver handbook, disabled vehicles" }],
+    "references": [
+      {
+        "label": "Parking",
+        "citation": "State driver handbook, disabled vehicles"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-park-011",
     "category": "parking",
     "stateScope": "all",
     "prompt": "'Double parking' means stopping your vehicle:",
-    "options": ["In two spaces at once", "Alongside another vehicle that is already parked at the curb", "In a parking garage", "At an angle"],
-    "correctIndex": 1,
+    "options": [
+      "In two spaces at once",
+      "In a parking garage",
+      "Alongside another vehicle that is already parked at the curb",
+      "At an angle"
+    ],
+    "correctIndex": 2,
     "explanation": "Double parking is stopping beside a vehicle that is already parked at the curb. It blocks a travel lane and is generally illegal.",
     "difficulty": "medium",
-    "references": [{ "label": "Parking", "citation": "State driver handbook, prohibited parking" }],
+    "references": [
+      {
+        "label": "Parking",
+        "citation": "State driver handbook, prohibited parking"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-park-012",
     "category": "parking",
     "stateScope": "all",
     "prompt": "When you leave your vehicle parked and unattended, you should:",
-    "options": ["Leave the engine running", "Turn off the engine and take the key", "Leave the doors open", "Leave it in neutral without the brake"],
-    "correctIndex": 1,
+    "options": [
+      "Leave the doors open",
+      "Leave it in neutral without the brake",
+      "Leave the engine running",
+      "Turn off the engine and take the key"
+    ],
+    "correctIndex": 3,
     "explanation": "Turn off the engine, set the parking brake, and take the key when leaving your vehicle unattended to prevent theft and unintended movement.",
     "difficulty": "easy",
-    "references": [{ "label": "Parking", "citation": "State driver handbook, unattended vehicles" }],
+    "references": [
+      {
+        "label": "Parking",
+        "citation": "State driver handbook, unattended vehicles"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-laws-002",
     "category": "traffic-laws",
     "stateScope": "all",
     "prompt": "You should signal your intention to turn:",
-    "options": ["As you begin the turn", "Well before the turn, to give others time to react", "Only if other cars are close", "After you complete the turn"],
-    "correctIndex": 1,
+    "options": [
+      "Only if other cars are close",
+      "As you begin the turn",
+      "After you complete the turn",
+      "Well before the turn, to give others time to react"
+    ],
+    "correctIndex": 3,
     "explanation": "Signal well before turning or changing lanes so drivers, cyclists, and pedestrians have time to anticipate your move.",
     "difficulty": "easy",
-    "references": [{ "label": "Traffic laws", "citation": "State driver handbook, signaling" }],
+    "references": [
+      {
+        "label": "Traffic laws",
+        "citation": "State driver handbook, signaling"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 2
   },
   {
     "id": "nat-laws-003",
     "category": "traffic-laws",
     "stateScope": "all",
     "prompt": "At a red light where right turns are allowed, before turning right on red you must:",
-    "options": ["Turn without stopping if the way looks clear", "Come to a complete stop, then yield to traffic and pedestrians before turning", "Wait for a green arrow", "Sound your horn first"],
-    "correctIndex": 1,
+    "options": [
+      "Come to a complete stop, then yield to traffic and pedestrians before turning",
+      "Wait for a green arrow",
+      "Sound your horn first",
+      "Turn without stopping if the way looks clear"
+    ],
+    "correctIndex": 0,
     "explanation": "A right turn on red is permitted only after a full stop and yielding to cross traffic and pedestrians, and only where no sign prohibits it.",
     "difficulty": "medium",
-    "references": [{ "label": "Traffic laws", "citation": "State driver handbook, turning on red" }],
+    "references": [
+      {
+        "label": "Traffic laws",
+        "citation": "State driver handbook, turning on red"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-laws-004",
     "category": "traffic-laws",
     "stateScope": "all",
     "prompt": "You should turn on your headlights:",
-    "options": ["Only on the highway", "From dusk to dawn and whenever visibility is poor", "Only in heavy rain", "Only when other cars have theirs on"],
+    "options": [
+      "Only when other cars have theirs on",
+      "From dusk to dawn and whenever visibility is poor",
+      "Only in heavy rain",
+      "Only on the highway"
+    ],
     "correctIndex": 1,
     "explanation": "Use headlights from dusk to dawn and any time visibility is reduced, such as in rain, fog, or snow, so you can see and be seen.",
     "difficulty": "easy",
-    "references": [{ "label": "Traffic laws", "citation": "State driver handbook, use of headlights" }],
+    "references": [
+      {
+        "label": "Traffic laws",
+        "citation": "State driver handbook, use of headlights"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-laws-005",
     "category": "traffic-laws",
     "stateScope": "all",
     "prompt": "When you pass another vehicle, you should return to your lane only when:",
-    "options": ["You are alongside the other vehicle", "You can see the passed vehicle in your rearview mirror", "You have cleared its front bumper", "The other driver signals you"],
-    "correctIndex": 1,
+    "options": [
+      "The other driver signals you",
+      "You have cleared its front bumper",
+      "You can see the passed vehicle in your rearview mirror",
+      "You are alongside the other vehicle"
+    ],
+    "correctIndex": 2,
     "explanation": "Do not pull back in front of a vehicle you passed until you can see it in your rearview mirror, which means you have enough room to merge safely.",
     "difficulty": "medium",
-    "references": [{ "label": "Traffic laws", "citation": "State driver handbook, passing" }],
+    "references": [
+      {
+        "label": "Traffic laws",
+        "citation": "State driver handbook, passing"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-laws-006",
     "category": "traffic-laws",
     "stateScope": "all",
     "prompt": "You should not attempt to pass another vehicle when:",
-    "options": ["The road is straight and clear", "Approaching a hill or curve where you cannot see oncoming traffic", "You are on a multi-lane one-way street", "The vehicle ahead is slow"],
-    "correctIndex": 1,
+    "options": [
+      "The vehicle ahead is slow",
+      "You are on a multi-lane one-way street",
+      "The road is straight and clear",
+      "Approaching a hill or curve where you cannot see oncoming traffic"
+    ],
+    "correctIndex": 3,
     "explanation": "Never pass where your view is limited, such as on hills or curves, or where markings prohibit it. You cannot judge oncoming traffic you cannot see.",
     "difficulty": "medium",
-    "references": [{ "label": "Traffic laws", "citation": "State driver handbook, when not to pass" }],
+    "references": [
+      {
+        "label": "Traffic laws",
+        "citation": "State driver handbook, when not to pass"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-laws-007",
     "category": "traffic-laws",
     "stateScope": "all",
     "prompt": "At a railroad crossing where the gates are down and the lights are flashing, you must:",
-    "options": ["Drive around the gates if no train is visible", "Stop and wait until the gates rise and the lights stop", "Proceed slowly across the tracks", "Sound your horn and cross"],
-    "correctIndex": 1,
+    "options": [
+      "Stop and wait until the gates rise and the lights stop",
+      "Proceed slowly across the tracks",
+      "Drive around the gates if no train is visible",
+      "Sound your horn and cross"
+    ],
+    "correctIndex": 0,
     "explanation": "Flashing lights and lowered gates mean a train is coming. Stop and wait until the gates are fully raised and the lights stop before crossing.",
     "difficulty": "easy",
-    "references": [{ "label": "Traffic laws", "citation": "State driver handbook, railroad crossings" }],
+    "references": [
+      {
+        "label": "Traffic laws",
+        "citation": "State driver handbook, railroad crossings"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-laws-008",
     "category": "traffic-laws",
     "stateScope": "all",
     "prompt": "To make a right turn at a corner, you should generally turn from:",
-    "options": ["The center lane", "The lane closest to the right curb", "Any lane you choose", "The left lane"],
+    "options": [
+      "The left lane",
+      "The lane closest to the right curb",
+      "The center lane",
+      "Any lane you choose"
+    ],
     "correctIndex": 1,
     "explanation": "Begin a right turn from the lane nearest the right curb and end in the right lane of the road you enter, keeping your turn tight and predictable.",
     "difficulty": "easy",
-    "references": [{ "label": "Traffic laws", "citation": "State driver handbook, turning" }],
+    "references": [
+      {
+        "label": "Traffic laws",
+        "citation": "State driver handbook, turning"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-laws-009",
     "category": "traffic-laws",
     "stateScope": "all",
     "prompt": "When you are preparing to back your vehicle, you should:",
-    "options": ["Rely on one mirror only", "Check all around and behind using direct views and available mirrors or cameras, then back slowly", "Back up as quickly as possible", "Have a passenger steer"],
-    "correctIndex": 1,
+    "options": [
+      "Have a passenger steer",
+      "Rely on one mirror only",
+      "Check all around and behind using direct views and available mirrors or cameras, then back slowly",
+      "Back up as quickly as possible"
+    ],
+    "correctIndex": 2,
     "explanation": "Before and while backing, check all around and behind the vehicle using direct views plus available mirrors or cameras, and move slowly. No single mirror or camera shows every hazard.",
     "difficulty": "easy",
-    "references": [{ "label": "Traffic laws", "citation": "State driver handbook, backing up" }],
+    "references": [
+      {
+        "label": "Traffic laws",
+        "citation": "State driver handbook, backing up"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-laws-010",
     "category": "traffic-laws",
     "stateScope": "all",
     "prompt": "The safest and most recommended way to handle a phone while driving is to:",
-    "options": ["Text only at red lights", "Avoid texting and hold calls until you can stop safely", "Hold the phone below the dashboard", "Read messages quickly between turns"],
-    "correctIndex": 1,
+    "options": [
+      "Hold the phone below the dashboard",
+      "Text only at red lights",
+      "Read messages quickly between turns",
+      "Avoid texting and hold calls until you can stop safely"
+    ],
+    "correctIndex": 3,
     "explanation": "Texting and handheld phone use are major distractions and are restricted in most states. The safe practice is to put the phone away and stop before using it.",
     "difficulty": "easy",
-    "references": [{ "label": "Traffic laws", "citation": "State driver handbook, distracted driving" }],
+    "references": [
+      {
+        "label": "Traffic laws",
+        "citation": "State driver handbook, distracted driving"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-laws-011",
     "category": "traffic-laws",
     "stateScope": "all",
     "prompt": "In the United States, on a road with two or more lanes in the same direction, slower traffic should generally:",
-    "options": ["Use the left lane", "Keep to the right and use the left lanes for passing", "Drive in the center", "Change lanes constantly"],
-    "correctIndex": 1,
+    "options": [
+      "Keep to the right and use the left lanes for passing",
+      "Drive in the center",
+      "Use the left lane",
+      "Change lanes constantly"
+    ],
+    "correctIndex": 0,
     "explanation": "Slower traffic keeps right. On multi-lane roads the left lane is primarily for passing; stay right except to pass so faster traffic can flow.",
     "difficulty": "medium",
-    "references": [{ "label": "Traffic laws", "citation": "State driver handbook, lane use" }],
+    "references": [
+      {
+        "label": "Traffic laws",
+        "citation": "State driver handbook, lane use"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-laws-012",
     "category": "traffic-laws",
     "stateScope": "all",
     "prompt": "If you are involved in a traffic crash, you are required to:",
-    "options": ["Leave if the damage seems minor", "Stop, and exchange information with the other party", "Move on if no police are present", "Only stop if someone is injured"],
+    "options": [
+      "Leave if the damage seems minor",
+      "Stop, and exchange information with the other party",
+      "Only stop if someone is injured",
+      "Move on if no police are present"
+    ],
     "correctIndex": 1,
     "explanation": "You must stop at the scene of a crash you are involved in and exchange name, contact, and insurance information. Leaving is a serious offense.",
     "difficulty": "easy",
-    "references": [{ "label": "Traffic laws", "citation": "State driver handbook, duties after a collision" }],
+    "references": [
+      {
+        "label": "Traffic laws",
+        "citation": "State driver handbook, duties after a collision"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-laws-013",
     "category": "traffic-laws",
     "stateScope": "all",
     "prompt": "Wearing a properly fastened seat belt is:",
-    "options": ["Optional for adults", "Required for the driver and helps prevent injury in a crash", "Only needed on highways", "Only for front-seat passengers under 18"],
-    "correctIndex": 1,
+    "options": [
+      "Optional for adults",
+      "Only for front-seat passengers under 18",
+      "Required for the driver and helps prevent injury in a crash",
+      "Only needed on highways"
+    ],
+    "correctIndex": 2,
     "explanation": "Seat belts save lives by keeping occupants in place and letting the vehicle absorb crash forces. The driver is responsible for buckling up.",
     "difficulty": "easy",
-    "references": [{ "label": "Traffic laws", "citation": "State driver handbook, occupant protection" }],
+    "references": [
+      {
+        "label": "Traffic laws",
+        "citation": "State driver handbook, occupant protection"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "lastVerified": "2026-07-24",
-    "verifyNote": "Not universal as a legal claim: New Hampshire does not require seat belts for adult drivers, although belt use is strongly recommended and child-restraint requirements apply. Scope this item by state or rewrite it as a safety recommendation."
+    "verifyNote": "Not universal as a legal claim: New Hampshire does not require seat belts for adult drivers, although belt use is strongly recommended and child-restraint requirements apply. Scope this item by state or rewrite it as a safety recommendation.",
+    "contentVersion": 3
   },
   {
     "id": "nat-laws-014",
     "category": "traffic-laws",
     "stateScope": "all",
     "prompt": "You may make a U-turn only when:",
-    "options": ["You feel like it", "It is not prohibited and you have a clear view and enough space to complete it safely", "Traffic is heavy", "You are on a curve"],
-    "correctIndex": 1,
+    "options": [
+      "Traffic is heavy",
+      "You feel like it",
+      "You are on a curve",
+      "It is not prohibited and you have a clear view and enough space to complete it safely"
+    ],
+    "correctIndex": 3,
     "explanation": "Make a U-turn only where it is legal, you can see traffic clearly, and you have enough space to complete it safely. Do not make one where a curve, hill, sign, or other restriction makes it prohibited or unsafe.",
     "difficulty": "medium",
-    "references": [{ "label": "Traffic laws", "citation": "State driver handbook, U-turns" }],
+    "references": [
+      {
+        "label": "Traffic laws",
+        "citation": "State driver handbook, U-turns"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-laws-015",
     "category": "traffic-laws",
     "stateScope": "all",
     "prompt": "It is unsafe and generally illegal to drive when your view or control is blocked by:",
-    "options": ["A clean windshield", "Cargo, frost, or objects that obstruct your vision or movement", "A rearview mirror", "Working headlights"],
-    "correctIndex": 1,
+    "options": [
+      "Cargo, frost, or objects that obstruct your vision or movement",
+      "Working headlights",
+      "A clean windshield",
+      "A rearview mirror"
+    ],
+    "correctIndex": 0,
     "explanation": "You must keep windows clear and never overload the vehicle so that cargo blocks your view or ability to steer, brake, or signal.",
     "difficulty": "easy",
-    "references": [{ "label": "Traffic laws", "citation": "State driver handbook, obstructed vision" }],
+    "references": [
+      {
+        "label": "Traffic laws",
+        "citation": "State driver handbook, obstructed vision"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-laws-016",
     "category": "traffic-laws",
     "stateScope": "all",
     "prompt": "After you complete a turn, you should:",
-    "options": ["Leave the turn signal on", "Make sure your turn signal has turned off", "Immediately change lanes", "Signal again"],
+    "options": [
+      "Signal again",
+      "Make sure your turn signal has turned off",
+      "Immediately change lanes",
+      "Leave the turn signal on"
+    ],
     "correctIndex": 1,
     "explanation": "Check that your signal has canceled after a turn. A signal left blinking misleads other drivers about your next move.",
     "difficulty": "easy",
-    "references": [{ "label": "Traffic laws", "citation": "State driver handbook, signaling" }],
+    "references": [
+      {
+        "label": "Traffic laws",
+        "citation": "State driver handbook, signaling"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nat-laws-017",
     "category": "traffic-laws",
     "stateScope": "all",
     "prompt": "Basic speed law in every state requires that you:",
-    "options": ["Always drive the posted maximum", "Never drive faster than is safe for current conditions", "Drive as fast as traffic allows", "Match the speed of the fastest car"],
-    "correctIndex": 1,
+    "options": [
+      "Drive as fast as traffic allows",
+      "Always drive the posted maximum",
+      "Never drive faster than is safe for current conditions",
+      "Match the speed of the fastest car"
+    ],
+    "correctIndex": 2,
     "explanation": "The basic speed law says you must never drive faster than is reasonable and safe for conditions, even when that is below the posted limit, such as in rain or fog.",
     "difficulty": "medium",
-    "references": [{ "label": "Traffic laws", "citation": "State driver handbook, basic speed law" }],
+    "references": [
+      {
+        "label": "Traffic laws",
+        "citation": "State driver handbook, basic speed law"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   }
 ]
