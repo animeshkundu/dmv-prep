@@ -1,0 +1,88 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import { STATES, byCode, stateSlug } from '../../../lib/states-directory';
+import { studyContent } from '../../../lib/content';
+import '../../../styles/pages.css';
+import '../../../styles/print.css';
+
+export function getStaticPaths() {
+  return STATES.map((state) => ({ params: { code: stateSlug(state.code) } }));
+}
+
+const code = Astro.params.code!.toUpperCase();
+const directory = byCode(code)!;
+const { state } = await studyContent(code);
+type VerifiedFact = {
+  display: string;
+  confidence: string;
+  lastVerified: string;
+  citation: { label: string; citation: string; url?: string };
+};
+const facts = Object.entries(state?.typedFacts ?? {})
+  .filter(([, fact]) => (fact as VerifiedFact).confidence === 'verified')
+  .map(([key, fact]) => [key, fact as VerifiedFact] as const);
+const labelFor = (key: string) => key.replace(/([A-Z])/g, ' $1').replace(/^./, (letter) => letter.toUpperCase());
+---
+
+<BaseLayout
+  title={`${directory.name} Driving Rules Cheat Sheet`}
+  description={`Print a source-cited ${directory.name} driving-rules cheat sheet from verified typed facts.`}
+>
+  <section class="container page-shell cheat-sheet">
+    <Breadcrumbs
+      items={[
+        { label: 'Home', path: '/' },
+        { label: 'States', path: '/states' },
+        { label: directory.name, path: `/state/${stateSlug(code)}` },
+        { label: 'Cheat sheet' },
+      ]}
+    />
+    <header class="page-hero">
+      <p class="eyebrow">{directory.name} quick reference</p>
+      <h1>Verified rules at a glance.</h1>
+      <p class="lede">This page only renders source-verified typed facts. Confirm current requirements with the licensing agency before driving or applying.</p>
+      <button class="btn btn-primary print-action" onclick="window.print()">Print this sheet</button>
+    </header>
+
+    {facts.length ? (
+      <section class="reference-grid" aria-label="Verified state facts">
+        {facts.map(([key, fact]) => (
+          <article class="card article-card cheat-fact">
+            <h2>{labelFor(key)}</h2>
+            <p class="fact-value">{fact.display}</p>
+            <p class="muted">Verified {fact.lastVerified}</p>
+            <p>
+              {fact.citation.url
+                ? <a href={fact.citation.url}>{fact.citation.citation}</a>
+                : fact.citation.citation}
+            </p>
+          </article>
+        ))}
+      </section>
+    ) : (
+      <article class="card article-card">
+        <p class="eyebrow">Verification in progress</p>
+        <h2>A state-specific quick reference is not available yet.</h2>
+        <p>We do not fill a cheat sheet with unverified state rules. Use the official source while facts are being verified.</p>
+        {state && <p><a class="btn btn-primary" href={state.officialSiteUrl}>Visit {state.agencyShort}</a></p>}
+      </article>
+    )}
+    <footer class="print-disclaimer">
+      DMV Prep is study support, not legal advice. Rules can change; verify them with the official licensing agency.
+    </footer>
+  </section>
+</BaseLayout>
+
+<style>
+  .cheat-sheet {
+    display: grid;
+    gap: var(--sp-6);
+  }
+
+  .fact-value {
+    color: var(--c-text);
+    font-size: var(--fs-xl);
+    font-weight: 850;
+  }
+</style>

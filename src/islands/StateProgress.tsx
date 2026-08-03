@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'preact/hooks';
-import type { Progress } from '../lib/types';
+import type { ExamVariant, Progress, Question } from '../lib/types';
 import { masteryByCategory, mockHistory, streakDays } from '../lib/progress';
+import { examReadiness } from '../lib/mastery';
 import { getProgress } from '../lib/storage';
 import '../styles/study.css';
 
@@ -10,9 +11,11 @@ interface Props {
   practiceHref: string;
   mockHref: string;
   progressHref: string;
+  questionPool: Array<Pick<Question, 'id' | 'category'>>;
+  variants: ExamVariant[];
 }
 
-export default function StateProgress({ stateName, stateCode, practiceHref, mockHref, progressHref }: Props) {
+export default function StateProgress({ stateName, stateCode, practiceHref, mockHref, progressHref, questionPool, variants }: Props) {
   const [progress, setProgress] = useState<Progress>();
 
   useEffect(() => {
@@ -28,6 +31,10 @@ export default function StateProgress({ stateName, stateCode, practiceHref, mock
     ? mastery.reduce((total, value) => total + value, 0) / mastery.length
     : 0;
   const latestMock = mockHistory(progress).find((result) => result.state === stateCode);
+  const readinessScores = variants.map((variant) => examReadiness(progress, questionPool, stateCode, variant));
+  const readiness = readinessScores.length
+    ? readinessScores.reduce((lowest, current) => current.score < lowest.score ? current : lowest)
+    : undefined;
   const hasPractice = Object.keys(progress.attempts).length > 0;
   const action = !hasPractice
     ? { eyebrow: 'Your next best step', title: 'Take a 10-question warm-up', copy: `Start with a short ${stateName} practice set. You will get an explanation and source after every answer.`, href: practiceHref, label: 'Start practice' }
@@ -35,7 +42,9 @@ export default function StateProgress({ stateName, stateCode, practiceHref, mock
       ? { eyebrow: 'Bring your progress to this state', title: `Take a ${stateName} warm-up`, copy: 'Your overall study history follows you. Start here with a short set before rehearsing this state’s test format.', href: practiceHref, label: 'Start state practice' }
       : !latestMock.passed
         ? { eyebrow: 'Close the gaps', title: 'Review, then retake the mock', copy: `Your latest ${stateName} mock was ${latestMock.correct} of ${latestMock.total}. Use a focused set before your next rehearsal.`, href: practiceHref, label: 'Review with practice' }
-        : { eyebrow: 'Keep your test-day rhythm', title: 'Rehearse the full test again', copy: `You passed your latest ${stateName} mock. Take a fresh version to make that result consistent.`, href: mockHref, label: 'Take another mock' };
+        : readiness && readiness.blockers.length
+          ? { eyebrow: 'Keep building readiness', title: 'Review the remaining blockers', copy: readiness.blockers.slice(0, 2).join(' '), href: practiceHref, label: 'Review with practice' }
+          : { eyebrow: 'Keep your test-day rhythm', title: 'Rehearse the full test again', copy: `You passed your latest ${stateName} mock. Take a fresh version to make that result consistent.`, href: mockHref, label: 'Take another mock' };
 
   return (
     <section class="progress-plan card card-strong" aria-label="Study plan">
@@ -47,7 +56,7 @@ export default function StateProgress({ stateName, stateCode, practiceHref, mock
       </div>
       <div class="plan-stats">
         <div><strong>{streakDays(progress)}</strong><span>overall day streak</span></div>
-        <div><strong>{Math.round(average * 100)}%</strong><span>overall topic average</span></div>
+        <div><strong>{Math.round((readiness?.score ?? average) * 100)}%</strong><span>{readiness ? 'exam readiness' : 'overall topic average'}</span></div>
         <div><strong>{latestMock ? `${latestMock.correct}/${latestMock.total}` : 'Not yet'}</strong><span>latest {stateName} mock</span></div>
         <a href={progressHref}>View all progress</a>
       </div>

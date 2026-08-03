@@ -20,6 +20,24 @@ const S_DIR = join(ROOT, 'src/content/states');
 
 const errors = [];
 const warnings = [];
+const questions = [];
+const states = [];
+const QUESTION_CATEGORIES = [
+  'road-signs',
+  'traffic-signals',
+  'pavement-markings',
+  'right-of-way',
+  'parking',
+  'speed-limits',
+  'alcohol-drugs',
+  'sharing-the-road',
+  'safe-driving',
+  'traffic-laws',
+  'penalties-points',
+  'gdl-teen',
+];
+const FLOOR_PER_STATE_TOTAL = 500;
+const FLOOR_PER_CATEGORY = 25;
 
 async function jsonFiles(dir) {
   if (!existsSync(dir)) return [];
@@ -53,6 +71,7 @@ for (const file of await jsonFiles(Q_DIR)) {
     if (q.stateScope === undefined) errors.push(`${file} [${id}]: missing stateScope`);
     if (q.reviewStatus === 'draft' || q.reviewStatus === undefined)
       warnings.push(`${file} [${id}]: reviewStatus is draft/unset (not launch-verified)`);
+    questions.push(q);
   }
 }
 
@@ -83,6 +102,30 @@ for (const file of await jsonFiles(S_DIR)) {
   }
   if (!hasCitations(data.references)) errors.push(`${file}: missing citation(s)`);
   if (!data.lastVerified) errors.push(`${file}: missing lastVerified`);
+  states.push(data);
+}
+
+// §2's coverage floors are launch gates, not report-only diagnostics. The
+// validator reads the same raw corpus shape as the content acceptance suite.
+for (const state of states) {
+  const applicable = questions.filter((question) =>
+    question.stateScope === 'all'
+      ? !question.stateExceptions?.includes(state.code)
+      : Array.isArray(question.stateScope) && question.stateScope.includes(state.code),
+  );
+  if (applicable.length < FLOOR_PER_STATE_TOTAL) {
+    errors.push(
+      `${state.code}: ${applicable.length} applicable questions (< ${FLOOR_PER_STATE_TOTAL} §2 floor)`,
+    );
+  }
+  for (const category of QUESTION_CATEGORIES) {
+    const count = applicable.filter((question) => question.category === category).length;
+    if (count < FLOOR_PER_CATEGORY) {
+      errors.push(
+        `${state.code}/${category}: ${count} applicable questions (< ${FLOOR_PER_CATEGORY} §2 floor)`,
+      );
+    }
+  }
 }
 
 for (const w of warnings) console.warn('⚠️  ' + w);

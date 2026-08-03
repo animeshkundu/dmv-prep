@@ -4,7 +4,10 @@ import Breadcrumbs from '../../../components/Breadcrumbs.astro';
 import Flashcards from '../../../islands/Flashcards';
 import { STATES, byCode, stateSlug } from '../../../lib/states-directory';
 import { studyContent } from '../../../lib/content';
-import { applicableQuestions } from '../../../lib/questions';
+import { applicableQuestions, seedQuestions } from '../../../lib/questions';
+import { toClientSigns } from '../../../lib/bank';
+import { getBankBuildData } from '../../../lib/bank-build';
+import { assetUrl } from '../../../lib/site';
 import '../../../styles/pages.css';
 
 export function getStaticPaths() {
@@ -15,6 +18,8 @@ const code = Astro.params.code!.toUpperCase();
 const directory = byCode(code)!;
 const content = await studyContent(code);
 const questions = applicableQuestions(content.questions, code);
+const seed = seedQuestions(questions, 10);
+const { bankVersion } = await getBankBuildData();
 ---
 
 <BaseLayout
@@ -42,6 +47,14 @@ const questions = applicableQuestions(content.questions, code);
         <span class="badge">Smart spaced review</span>
       </div>
     </header>
-    <Flashcards client:load questions={questions} signs={content.signs} />
+    <Flashcards
+      client:load
+      seedQuestions={seed}
+      stateCode={code}
+      bankUrl={assetUrl(`/bank/${stateSlug(code)}.json`)}
+      bankVersion={bankVersion}
+      signs={toClientSigns(content.signs)}
+      signUrl={assetUrl('/bank/signs.json')}
+    />
   </section>
 </BaseLayout>
