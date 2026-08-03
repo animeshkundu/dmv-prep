@@ -10,7 +10,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Speed limits", "citation": "RI DMV Operator's Manual, Speed Limits", "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -24,7 +25,8 @@
     "difficulty": "medium",
     "references": [{ "label": "School zones", "citation": "RI DMV Operator's Manual, Speed Limits; R.I. Gen. Laws 31-14-2", "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -38,7 +40,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Zero tolerance", "citation": "RI DMV Operator's Manual, Alcohol and Driving", "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -52,7 +55,8 @@
     "difficulty": "easy",
     "references": [{ "label": "New license & permits", "citation": "RI DMV New License & Permits", "url": "https://dmv.ri.gov/licenses-permits-ids/permits-tests/new-license-permits" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -71,7 +75,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Passenger limits", "citation": "RI DMV New License & Permits (Limited Provisional License)", "url": "https://dmv.ri.gov/licenses-permits-ids/permits-tests/new-license-permits" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -90,7 +95,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Nighttime restriction", "citation": "RI DMV New License & Permits (Limited Provisional License)", "url": "https://dmv.ri.gov/licenses-permits-ids/permits-tests/new-license-permits" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -109,7 +115,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Graduated licensing", "citation": "RI DMV Operator's Manual; Colin B. Foote Act", "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -128,7 +135,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Hands-free law", "citation": "RI DMV Operator's Manual, Distracted Driving", "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -147,7 +155,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Move Over Law", "citation": "RI DMV Operator's Manual, Emergency Vehicles", "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -161,7 +170,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Regulatory signs", "citation": "RI DMV Operator's Manual, Traffic Signs", "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -180,7 +190,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Roundabouts", "citation": "RI DMV Operator's Manual, Right-of-Way / Rotaries", "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -194,7 +205,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Parking rules", "citation": "RI DMV Operator's Manual, Parking", "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -213,7 +225,8 @@
     "difficulty": "medium",
     "references": [{ "label": "School buses", "citation": "RI DMV Operator's Manual, School Buses", "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -232,7 +245,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Pavement markings", "citation": "RI DMV Operator's Manual, Pavement Markings", "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   }
 ]

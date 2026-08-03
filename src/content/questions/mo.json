@@ -10,7 +10,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Written test", "citation": "Missouri Driver Guide, The Driver Examination", "url": "https://dor.mo.gov/forms/Driver_Guide.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -24,7 +25,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Sign test", "citation": "Missouri Driver Guide, The Driver Examination", "url": "https://dor.mo.gov/forms/Driver_Guide.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -38,7 +40,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Speed limits", "citation": "Missouri Driver Guide, Speed Limits", "url": "https://dor.mo.gov/forms/Driver_Guide.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -52,7 +55,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Zero tolerance", "citation": "Missouri Driver Guide, Alcohol, Drugs and Driving", "url": "https://dor.mo.gov/forms/Driver_Guide.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -66,7 +70,8 @@
     "difficulty": "easy",
     "references": [{ "label": "DWI limit", "citation": "Missouri Driver Guide, Alcohol, Drugs and Driving", "url": "https://dor.mo.gov/forms/Driver_Guide.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -80,7 +85,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Instruction permit age", "citation": "Missouri Driver Guide, Graduated Driver License Law", "url": "https://dor.mo.gov/forms/Driver_Guide.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -94,7 +100,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Permit holding period", "citation": "Missouri Driver Guide, Graduated Driver License Law", "url": "https://dor.mo.gov/forms/Driver_Guide.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -113,7 +120,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Supervised hours", "citation": "Missouri Driver Guide, Graduated Driver License Law", "url": "https://dor.mo.gov/forms/Driver_Guide.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -132,7 +140,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Night restriction", "citation": "Missouri Driver Guide, Graduated Driver License Law", "url": "https://dor.mo.gov/forms/Driver_Guide.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -151,7 +160,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Passenger limit", "citation": "Missouri Driver Guide, Graduated Driver License Law", "url": "https://dor.mo.gov/forms/Driver_Guide.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -165,7 +175,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Point system", "citation": "Missouri Driver Guide, The Point System", "url": "https://dor.mo.gov/forms/Driver_Guide.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -184,7 +195,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Point system", "citation": "Missouri Driver Guide, The Point System", "url": "https://dor.mo.gov/forms/Driver_Guide.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -203,7 +215,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Hands-free law", "citation": "Missouri Driver Guide, Distracted Driving", "url": "https://dor.mo.gov/forms/Driver_Guide.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -222,7 +235,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Move over law", "citation": "Missouri Driver Guide, Move Over Law", "url": "https://dor.mo.gov/forms/Driver_Guide.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -241,7 +255,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Vision standard", "citation": "Missouri Driver Guide, The Driver Examination", "url": "https://dor.mo.gov/forms/Driver_Guide.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   }
 ]

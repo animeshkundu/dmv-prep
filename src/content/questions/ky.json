@@ -10,7 +10,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Kentucky Driver Manual", "citation": "Kentucky State Police Driver Manual, Speed Limits", "url": "https://kentuckystatepolice.ky.gov/driver-testing/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -24,7 +25,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Kentucky Driver Manual", "citation": "Kentucky State Police Driver Manual, Alcohol and Drugs; KRS 189A.010", "url": "https://kentuckystatepolice.ky.gov/driver-testing/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -38,7 +40,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Kentucky Driver Manual", "citation": "Kentucky State Police Driver Manual, Alcohol and Drugs; KRS 189A.010", "url": "https://kentuckystatepolice.ky.gov/driver-testing/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -52,7 +55,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Graduated Driver License", "citation": "IIHS Graduated Licensing Laws Table (Kentucky)", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -71,7 +75,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Graduated Driver License", "citation": "IIHS Graduated Licensing Laws Table (Kentucky)", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -90,7 +95,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Graduated Driver License", "citation": "IIHS Graduated Licensing Laws Table (Kentucky)", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -104,7 +110,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Graduated Driver License", "citation": "IIHS Graduated Licensing Laws Table (Kentucky)", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -123,7 +130,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Graduated Driver License", "citation": "IIHS Graduated Licensing Laws Table (Kentucky)", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -137,7 +145,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Kentucky Driver Manual", "citation": "Kentucky State Police Driver Manual, Point System", "url": "https://kentuckystatepolice.ky.gov/driver-testing/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -156,7 +165,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Kentucky Driver Manual", "citation": "Kentucky State Police Driver Manual, Move Over Law; KRS 189.930", "url": "https://kentuckystatepolice.ky.gov/driver-testing/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -175,7 +185,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Kentucky Driver Manual", "citation": "Kentucky State Police Driver Manual, Distracted Driving; KRS 189.292", "url": "https://kentuckystatepolice.ky.gov/driver-testing/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -194,7 +205,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Kentucky Driver Manual", "citation": "Kentucky State Police Driver Manual, School Buses", "url": "https://kentuckystatepolice.ky.gov/driver-testing/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -208,7 +220,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Kentucky Driver Manual", "citation": "Kentucky State Police Driver Manual, The Written Test", "url": "https://kentuckystatepolice.ky.gov/driver-testing/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -227,7 +240,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Graduated Driver License", "citation": "IIHS Graduated Licensing Laws Table (Kentucky)", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   }
 ]

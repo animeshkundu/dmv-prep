@@ -10,8 +10,14 @@
   "handbookEditionYear": 2026,
   "handbookCopyrightStatus": "terms-of-use",
   "applicantVariants": [
-    { "id": "under-18", "label": "Under 18 (instruction permit, GDL)" },
-    { "id": "adult", "label": "Adult (18+) Class D" }
+    {
+      "id": "under-18",
+      "label": "Under 18 (instruction permit, GDL)"
+    },
+    {
+      "id": "adult",
+      "label": "Adult (18+) Class D"
+    }
   ],
   "examVariants": [
     {
@@ -19,7 +25,12 @@
       "label": "Under-18 knowledge test - Class D permit",
       "numQuestions": 40,
       "numToPass": 32,
-      "languages": ["en", "es", "so", "hmn"],
+      "languages": [
+        "en",
+        "es",
+        "so",
+        "hmn"
+      ],
       "onlineAvailable": false
     },
     {
@@ -27,7 +38,12 @@
       "label": "Adult knowledge test - Class D permit",
       "numQuestions": 40,
       "numToPass": 32,
-      "languages": ["en", "es", "so", "hmn"],
+      "languages": [
+        "en",
+        "es",
+        "so",
+        "hmn"
+      ],
       "onlineAvailable": false
     }
   ],
@@ -70,7 +86,627 @@
     "moveOverRule": "Move over a full lane, or slow down if you cannot, for stopped emergency, road maintenance, construction, and utility vehicles with flashing lights",
     "interstateMaxSpeed": "70 mph on rural interstates where posted",
     "schoolZoneSpeed": "Posted reduced school-zone limit when children are present; violations carry enhanced fines",
-    "namedLaws": ["Move Over Law", "Not a Drop Law", "Hands-Free Law", "Slowpoke Law (keep right except to pass)"]
+    "namedLaws": [
+      "Move Over Law",
+      "Not a Drop Law",
+      "Hands-Free Law",
+      "Slowpoke Law (keep right except to pass)"
+    ]
+  },
+  "typedFacts": {
+    "bacAdult": {
+      "state": {
+        "status": "value",
+        "value": 0.08
+      },
+      "display": "It is a crime to drive, operate, or be in physical control of a motor vehicle with an alcohol concentration of 0.08 or more, measured at the time of or within two hours of driving.",
+      "citation": {
+        "label": "Minn. Stat. § 169A.20, subd. 1(5)",
+        "citation": "Minn. Stat. § 169A.20, subd. 1(5)",
+        "url": "https://www.revisor.mn.gov/statutes/cite/169A.20"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "bacUnder21": {
+      "state": {
+        "status": "value",
+        "value": 0,
+        "conditions": [
+          {
+            "kind": "driver-age",
+            "detail": "Minnesota's 'Not a Drop' law imposes true zero tolerance: it is a crime for anyone under 21 to drive after consuming ANY amount of alcohol (any physical evidence of consumption in the body), not a defined 0.02 numeric limit. Value 0.0 encodes that zero-tolerance rule."
+          }
+        ]
+      },
+      "display": "Under Minnesota's 'Not a Drop' law it is a crime for a person under 21 to drive, operate, or control a vehicle while consuming alcohol or with any physical evidence of alcohol consumption in the body — a zero-tolerance standard, not a 0.02 numeric threshold.",
+      "citation": {
+        "label": "Minn. Stat. § 169A.33, subd. 2",
+        "citation": "Minn. Stat. § 169A.33, subd. 2 (Underage Drinking and Driving)",
+        "url": "https://www.revisor.mn.gov/statutes/cite/169A.33"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "bacCommercial": {
+      "state": {
+        "status": "value",
+        "value": 0.04,
+        "conditions": [
+          {
+            "kind": "vehicle-class",
+            "detail": "Applies while driving, operating, or in physical control of a commercial motor vehicle."
+          }
+        ]
+      },
+      "display": "It is a crime to operate a commercial motor vehicle with an alcohol concentration of 0.04 or more, measured at the time of or within two hours of driving.",
+      "citation": {
+        "label": "Minn. Stat. § 169A.20, subd. 1(6)",
+        "citation": "Minn. Stat. § 169A.20, subd. 1(6)",
+        "url": "https://www.revisor.mn.gov/statutes/cite/169A.20"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "impliedConsentRefusal": {
+      "state": {
+        "status": "value",
+        "value": {
+          "suspensionMonths": 12,
+          "criminalOffense": true
+        },
+        "conditions": [
+          {
+            "kind": "driver-age",
+            "detail": "First-offense figures shown (no qualified prior impaired-driving incident within 20 years): the administrative revocation for refusing testing is not less than one year (12 months). Refusing the test is also itself a crime (test refusal under Minn. Stat. § 169A.20, subd. 2, generally a gross misdemeanor). Repeat offenders face longer, interlock-conditioned revocation."
+          }
+        ]
+      },
+      "display": "Refusing a required chemical test carries an administrative license revocation of at least one year for a first offense (longer for repeat offenders), and the refusal is itself a separate crime under Minnesota's implied-consent law.",
+      "citation": {
+        "label": "Minn. Stat. § 169A.52, subd. 3; § 171.178, subd. 3",
+        "citation": "Minn. Stat. § 169A.52, subd. 3 & § 171.178, subd. 3(1)",
+        "url": "https://www.revisor.mn.gov/statutes/cite/171.178"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "openContainerProhibited": {
+      "state": {
+        "status": "value",
+        "value": true
+      },
+      "display": "Under Minnesota's Open Bottle Law, it is a crime to drink alcohol in a vehicle on a street or highway, or to possess an opened or partially removed container of alcohol in the passenger area of a private vehicle on a street or highway; sealed containers or those in the trunk are exempt, and buses, limousines, and pedal-pubs have limited passenger exceptions.",
+      "citation": {
+        "label": "Minn. Stat. § 169A.35",
+        "citation": "Minn. Stat. § 169A.35 (Open Bottle Law), subd. 2-3",
+        "url": "https://www.revisor.mn.gov/statutes/cite/169A.35"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "duiFirstSuspensionDays": {
+      "state": {
+        "status": "value",
+        "value": 90,
+        "conditions": [
+          {
+            "kind": "driver-age",
+            "detail": "First-offense DWI test failure at 0.08 to under twice the legal limit, with no qualified prior impaired-driving incident within 20 years: revocation of not less than 90 days. A first-offense driver under 21 faces not less than 180 days, and 0.16+ (twice the limit) faces not less than one year."
+          }
+        ]
+      },
+      "display": "A first-offense administrative revocation for failing a chemical test (0.08 or more, no prior incidents) is not less than 90 days; longer minimums apply for drivers under 21 (180 days) or test results of twice the legal limit or more (1 year).",
+      "citation": {
+        "label": "Minn. Stat. § 171.178, subd. 4(1)",
+        "citation": "Minn. Stat. § 171.178, subd. 4(1)(i)",
+        "url": "https://www.revisor.mn.gov/statutes/cite/171.178"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "ruralInterstateMaxMph": {
+      "state": {
+        "status": "value",
+        "value": 70,
+        "conditions": [
+          {
+            "kind": "road-class",
+            "detail": "70 mph applies on interstate highways outside the limits of any urbanized area with a population greater than 50,000, as defined by order of the MnDOT commissioner."
+          }
+        ]
+      },
+      "display": "The maximum speed limit on rural interstate highways (outside urbanized areas over 50,000 population) is 70 mph.",
+      "citation": {
+        "label": "Minn. Stat. § 169.14, subd. 2(a)(4)",
+        "citation": "Minn. Stat. § 169.14, subd. 2(a)(4)",
+        "url": "https://www.revisor.mn.gov/statutes/cite/169.14"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "urbanInterstateMaxMph": {
+      "state": {
+        "status": "value",
+        "value": 65,
+        "conditions": [
+          {
+            "kind": "road-class",
+            "detail": "65 mph applies on interstate highways inside the limits of any urbanized area with a population greater than 50,000, as defined by order of the MnDOT commissioner; some urban segments are posted lower by the commissioner."
+          }
+        ]
+      },
+      "display": "The statutory maximum speed limit on urban interstate highways (inside urbanized areas over 50,000 population) is 65 mph.",
+      "citation": {
+        "label": "Minn. Stat. § 169.14, subd. 2(a)(5)",
+        "citation": "Minn. Stat. § 169.14, subd. 2(a)(5)",
+        "url": "https://www.revisor.mn.gov/statutes/cite/169.14"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "residentialDefaultMph": {
+      "state": {
+        "status": "varies",
+        "variants": [
+          {
+            "value": 30,
+            "conditions": [
+              {
+                "kind": "locality",
+                "detail": "Default statutory limit of 30 mph in an urban district (which includes typical residential streets in a city or town) where no other limit is posted."
+              }
+            ]
+          },
+          {
+            "value": 25,
+            "conditions": [
+              {
+                "kind": "road-class",
+                "detail": "25 mph on a residential roadway where the road authority with jurisdiction has adopted the limit and posted signs marking the start and end of the residential roadway."
+              }
+            ]
+          }
+        ]
+      },
+      "display": "Absent other posting, the default limit is 30 mph in an urban district; a road authority may lower a residential roadway to 25 mph (signed), and a rural residential district may be posted at 35 mph.",
+      "citation": {
+        "label": "Minn. Stat. § 169.14, subd. 2(a)(1),(7)",
+        "citation": "Minn. Stat. § 169.14, subd. 2(a)(1),(7)-(8)",
+        "url": "https://www.revisor.mn.gov/statutes/cite/169.14"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "schoolZoneMph": {
+      "state": {
+        "status": "value",
+        "value": 15,
+        "conditions": [
+          {
+            "kind": "posting",
+            "detail": "Statutory floor: a local authority may establish a school speed limit no lower than 15 mph and no more than 30 mph below the normal posted limit, effective only when signed and when children are present going to/from school or during recess. 15 mph is the minimum the zone can be set to, not a fixed statewide number."
+          }
+        ]
+      },
+      "display": "In a posted school zone, when children are present, the reduced speed limit is set by the local authority and may be no lower than 15 mph (and no more than 30 mph below the street's normal limit).",
+      "citation": {
+        "label": "Minn. Stat. § 169.14, subd. 5a",
+        "citation": "Minn. Stat. § 169.14, subd. 5a(a)",
+        "url": "https://www.revisor.mn.gov/statutes/cite/169.14"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "basicSpeedLaw": {
+      "state": {
+        "status": "value",
+        "value": true
+      },
+      "display": "No person may drive at a speed greater than is reasonable and prudent under the conditions, regardless of any posted limit; speed must always allow the driver to avoid a collision.",
+      "citation": {
+        "label": "Minn. Stat. § 169.14, subd. 1",
+        "citation": "Minn. Stat. § 169.14, subd. 1 (Duty to drive with due care)",
+        "url": "https://www.revisor.mn.gov/statutes/cite/169.14"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "rightTurnOnRed": {
+      "state": {
+        "status": "value",
+        "value": "allowed-after-stop"
+      },
+      "display": "A driver facing a steady red signal must stop, then may turn right after stopping unless an official sign prohibits the turn, yielding to pedestrians and other traffic.",
+      "citation": {
+        "label": "Minn. Stat. § 169.06, subd. 5(a)(3)(i)(A)",
+        "citation": "Minn. Stat. § 169.06, subd. 5(a)(3)(i)(A)",
+        "url": "https://www.revisor.mn.gov/statutes/cite/169.06"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "leftTurnOnRedFromOneWay": {
+      "state": {
+        "status": "value",
+        "value": "allowed",
+        "conditions": [
+          {
+            "kind": "road-class",
+            "detail": "Permitted only when turning from a one-way street onto another one-way street on which traffic moves to the left; the driver must stop first and may proceed unless a sign prohibits the movement."
+          }
+        ]
+      },
+      "display": "From a one-way street onto another one-way street, a driver facing a steady red signal must stop and may then turn left unless a sign prohibits it, yielding to pedestrians and other traffic.",
+      "citation": {
+        "label": "Minn. Stat. § 169.06, subd. 5(a)(3)(i)(B)",
+        "citation": "Minn. Stat. § 169.06, subd. 5(a)(3)(i)(B)",
+        "url": "https://www.revisor.mn.gov/statutes/cite/169.06"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "seatBeltEnforcement": {
+      "state": {
+        "status": "value",
+        "value": "primary",
+        "conditions": [
+          {
+            "kind": "occupancy",
+            "detail": "Applies to the driver and all passengers in a passenger vehicle. Minnesota is a primary-enforcement state: an officer may stop and cite a vehicle solely for a seat belt violation by the driver or any occupant, with no separate underlying offense required."
+          }
+        ]
+      },
+      "display": "Every driver and passenger of a passenger vehicle must wear a properly fastened seat belt; Minnesota enforces this as a primary offense, meaning police may stop and ticket a driver solely for an unbelted driver or passenger.",
+      "citation": {
+        "label": "Minn. Stat. § 169.686, subd. 1",
+        "citation": "Minn. Stat. § 169.686, subd. 1(a)-(b)",
+        "url": "https://www.revisor.mn.gov/statutes/cite/169.686"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "handheldPhone": {
+      "state": {
+        "status": "value",
+        "value": "banned-all",
+        "conditions": [
+          {
+            "kind": "driver-age",
+            "detail": "Under the Hands-Free Law, all drivers are barred from holding a wireless device or using it (calls, messaging, video, browsing) while the vehicle is in motion or in traffic; only voice-activated/single-touch hands-free use is allowed. Provisional-license holders and instruction-permit holders under 18 face an even stricter total ban, including hands-free calls."
+          }
+        ]
+      },
+      "display": "Minnesota's Hands-Free Law bans all drivers from holding or manually using a wireless communications device while driving; only voice-activated or single-touch hands-free operation is permitted (novice/provisional and permit holders are barred from phone use entirely).",
+      "citation": {
+        "label": "Minn. Stat. § 169.475, subd. 2",
+        "citation": "Minn. Stat. § 169.475, subd. 2 (Hands-Free Law)",
+        "url": "https://www.revisor.mn.gov/statutes/cite/169.475"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "texting": {
+      "state": {
+        "status": "value",
+        "value": "banned-all"
+      },
+      "display": "All drivers are prohibited from using a wireless device to initiate, compose, send, retrieve, or read any electronic message (including texts, email, and instant messages) while the vehicle is in motion or part of traffic.",
+      "citation": {
+        "label": "Minn. Stat. § 169.475, subd. 2(a)(2)(i)",
+        "citation": "Minn. Stat. § 169.475, subd. 2(a)(2)(i)",
+        "url": "https://www.revisor.mn.gov/statutes/cite/169.475"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "moveOver": {
+      "state": {
+        "status": "value",
+        "value": {
+          "requirement": "lane-change-or-slow",
+          "coveredVehicles": [
+            "emergency",
+            "tow",
+            "roadside-assist",
+            "utility"
+          ]
+        },
+        "conditions": [
+          {
+            "kind": "road-class",
+            "detail": "On a road with two or more lanes in the same direction, the driver must move to the lane farthest from (or leave a full lane vacant next to) a stopped authorized vehicle with lights activated. Only if a lane change is impossible, or on a single-lane road, must the driver instead slow to a reasonable and prudent speed. Covered vehicles include emergency, tow/towing, freeway service patrol, road maintenance, utility, construction, postal, solid waste, and recycling vehicles; a companion rule (subd. 11a) also covers stalled vehicles with hazard lights."
+          }
+        ]
+      },
+      "display": "Approaching a stopped authorized vehicle (emergency, tow, freeway service patrol, utility, road maintenance, construction, postal, or waste vehicle) with warning lights on, a driver must move over a lane away if possible, or if that is impossible slow to a reasonable and prudent speed; no fixed mph is set in statute.",
+      "citation": {
+        "label": "Minn. Stat. § 169.18, subd. 11",
+        "citation": "Minn. Stat. § 169.18, subd. 11(a)-(d)",
+        "url": "https://www.revisor.mn.gov/statutes/cite/169.18"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "headlightsRequired": {
+      "state": {
+        "status": "value",
+        "value": {
+          "whenWipersOn": true,
+          "minutesAfterSunset": 0
+        },
+        "conditions": [
+          {
+            "kind": "time-of-day",
+            "detail": "Minnesota's statute does not use a literal 'wipers in use' trigger or a 'minutes after sunset' offset; it requires lighted lamps (1) from sunset to sunrise, (2) whenever it is raining, snowing, sleeting, or hailing, and (3) whenever visibility is under 500 feet. minutesAfterSunset=0 encodes the sunset-to-sunrise trigger and whenWipersOn=true encodes the precipitation trigger as the closest schema-compatible approximation of that functional rule (see display for the exact standard)."
+          }
+        ]
+      },
+      "display": "Minnesota requires lighted headlamps and tail lamps from sunset to sunrise, at any time it is raining, snowing, sleeting, or hailing, and any other time visibility is impaired so persons/vehicles are not clearly discernible at 500 feet — a functional weather/visibility standard rather than a literal wipers-on or fixed sunset-offset rule.",
+      "citation": {
+        "label": "Minn. Stat. § 169.48, subd. 1",
+        "citation": "Minn. Stat. § 169.48, subd. 1(a)",
+        "url": "https://www.revisor.mn.gov/statutes/cite/169.48"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "parkFtFromHydrant": {
+      "state": {
+        "status": "value",
+        "value": 10
+      },
+      "display": "A vehicle may not stop, stand, or park within 10 feet of a fire hydrant.",
+      "citation": {
+        "label": "Minn. Stat. § 169.34, subd. 1(a)(4)",
+        "citation": "Minn. Stat. § 169.34, subd. 1(a)(4)",
+        "url": "https://www.revisor.mn.gov/statutes/cite/169.34"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "parkFtFromCrosswalk": {
+      "state": {
+        "status": "value",
+        "value": 20
+      },
+      "display": "A vehicle may not stop, stand, or park within 20 feet of a crosswalk at an intersection.",
+      "citation": {
+        "label": "Minn. Stat. § 169.34, subd. 1(a)(6)",
+        "citation": "Minn. Stat. § 169.34, subd. 1(a)(6)",
+        "url": "https://www.revisor.mn.gov/statutes/cite/169.34"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "parkFtFromStopSign": {
+      "state": {
+        "status": "value",
+        "value": 30
+      },
+      "display": "A vehicle may not stop, stand, or park within 30 feet upon the approach to any flashing beacon, stop sign, or traffic-control signal located at the side of a roadway.",
+      "citation": {
+        "label": "Minn. Stat. § 169.34, subd. 1(a)(7)",
+        "citation": "Minn. Stat. § 169.34, subd. 1(a)(7)",
+        "url": "https://www.revisor.mn.gov/statutes/cite/169.34"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "parkFtFromRailroad": {
+      "state": {
+        "status": "value",
+        "value": 50
+      },
+      "display": "A vehicle may not stop, stand, or park within 50 feet of the nearest rail of a railroad crossing.",
+      "citation": {
+        "label": "Minn. Stat. § 169.34, subd. 1(a)(8)",
+        "citation": "Minn. Stat. § 169.34, subd. 1(a)(8)",
+        "url": "https://www.revisor.mn.gov/statutes/cite/169.34"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "pointSystem": {
+      "state": {
+        "status": "value",
+        "value": false,
+        "conditions": [
+          {
+            "kind": "posting",
+            "detail": "Minnesota does not assess demerit points against driving records. License suspensions and revocations are driven by specific convictions and repeat-offense provisions (e.g., DWI/implied consent, habitual-violator provisions under Minn. Stat. §§ 171.17-171.18), not by accumulating a threshold number of points."
+          }
+        ]
+      },
+      "display": "Minnesota does not use a driver's license point system; suspensions and revocations are based on specific convictions and repeat-violation rules rather than accumulated points.",
+      "citation": {
+        "label": "MN DPS-DVS Class D Driver's Manual",
+        "citation": "MN DPS-DVS Class D Driver's Manual; see Minn. Stat. §§ 171.17-171.18 (conviction-based suspension/revocation)",
+        "url": "https://www.revisor.mn.gov/statutes/cite/171.17"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "pointSuspension": {
+      "state": {
+        "status": "not-applicable",
+        "reason": "Minnesota has no numeric point-accumulation system, so there is no points-in-a-window suspension threshold. License suspension and revocation are instead triggered by specific convictions and repeat-offender provisions (Minn. Stat. §§ 171.17-171.18) rather than by reaching a point total."
+      },
+      "display": "Not applicable: Minnesota does not suspend licenses on an accumulated-point threshold; suspension/revocation is conviction-based under Minn. Stat. §§ 171.17-171.18.",
+      "citation": {
+        "label": "Minn. Stat. §§ 171.17-171.18",
+        "citation": "Minn. Stat. § 171.17 (Revocation) & § 171.18 (Suspension)",
+        "url": "https://www.revisor.mn.gov/statutes/cite/171.17"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "permitMinAgeMonths": {
+      "state": {
+        "status": "value",
+        "value": 180,
+        "conditions": [
+          {
+            "kind": "driver-age",
+            "detail": "The department may issue an instruction permit to an applicant who is 15, 16, or 17 (with driver-education enrollment and other requirements); 15 years equals 180 months, the minimum age."
+          }
+        ]
+      },
+      "display": "The minimum age for a Minnesota instruction permit is 15 (180 months), provided the applicant is enrolled in driver education and meets the other permit requirements.",
+      "citation": {
+        "label": "Minn. Stat. § 171.05, subd. 2",
+        "citation": "Minn. Stat. § 171.05, subd. 2(a)",
+        "url": "https://www.revisor.mn.gov/statutes/cite/171.05"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "permitHoldingMonths": {
+      "state": {
+        "status": "value",
+        "value": 6,
+        "conditions": [
+          {
+            "kind": "gdl-phase",
+            "detail": "A minor must possess the instruction permit for the six months immediately preceding the provisional-license application, with a clean record (no DWI/implied-consent, crash-related, or other moving-violation convictions)."
+          }
+        ]
+      },
+      "display": "A minor must hold the instruction permit for at least 6 months (with a conviction-free record) before qualifying for a provisional license.",
+      "citation": {
+        "label": "Minn. Stat. § 171.055, subd. 1(a)(2)",
+        "citation": "Minn. Stat. § 171.055, subd. 1(a)(2)",
+        "url": "https://www.revisor.mn.gov/statutes/cite/171.055"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "supervisedHoursTotal": {
+      "state": {
+        "status": "varies",
+        "variants": [
+          {
+            "value": 50,
+            "conditions": [
+              {
+                "kind": "gdl-phase",
+                "detail": "Default requirement: 40 hours under the log plus an additional 10 hours (50 total) when the primary driving supervisor has NOT completed the supplemental parental curriculum. This is the standard case."
+              }
+            ]
+          },
+          {
+            "value": 40,
+            "conditions": [
+              {
+                "kind": "gdl-phase",
+                "detail": "Reduced requirement: 40 hours total when the primary driving supervisor submits a certification of the supplemental parental curriculum under Minn. Stat. § 171.05, subd. 2(b)."
+              }
+            ]
+          }
+        ]
+      },
+      "display": "A provisional-license applicant must log supervised driving with a licensed driver 21+: 50 hours total by default, reduced to 40 hours if the parent/primary supervisor completes the supplemental parental-awareness curriculum. (At least 15 of those hours must be at night in either case.)",
+      "citation": {
+        "label": "Minn. Stat. § 171.055, subd. 1(a)(5)-(6)",
+        "citation": "Minn. Stat. § 171.055, subd. 1(a)(5)(i),(6)(i)-(ii)",
+        "url": "https://www.revisor.mn.gov/statutes/cite/171.055"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "supervisedHoursNight": {
+      "state": {
+        "status": "value",
+        "value": 15
+      },
+      "display": "At least 15 of the required supervised practice-driving hours must be completed at night, regardless of whether the total requirement is 40 or 50 hours.",
+      "citation": {
+        "label": "Minn. Stat. § 171.055, subd. 1(a)(5)(i)",
+        "citation": "Minn. Stat. § 171.055, subd. 1(a)(5)(i)",
+        "url": "https://www.revisor.mn.gov/statutes/cite/171.055"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "gdlNightCurfew": {
+      "state": {
+        "status": "value",
+        "value": {
+          "startHour24": 0,
+          "endHour24": 5
+        },
+        "conditions": [
+          {
+            "kind": "gdl-phase",
+            "detail": "Applies during the first six months of provisional licensure only. A provisional holder may drive midnight-5:00 a.m. only when driving between home and work, home and a school event lacking school transportation, for employment purposes, or accompanied by a licensed driver at least 25 years old."
+          }
+        ]
+      },
+      "display": "During the first six months of provisional licensure, the holder may not drive between midnight and 5:00 a.m. except for commuting to/from work, a school event, employment purposes, or when accompanied by a licensed driver 25 or older.",
+      "citation": {
+        "label": "Minn. Stat. § 171.055, subd. 2(d)",
+        "citation": "Minn. Stat. § 171.055, subd. 2(d)",
+        "url": "https://www.revisor.mn.gov/statutes/cite/171.055"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "gdlPassengerPhase1": {
+      "state": {
+        "status": "value",
+        "value": {
+          "cap": 1,
+          "underAge": 20,
+          "familyExempt": true
+        },
+        "conditions": [
+          {
+            "kind": "gdl-phase",
+            "detail": "First six months of provisional licensure: no more than one passenger under age 20 who is not an immediate family member. (In the second six months the cap rises to three such passengers.) The limit does not apply when a parent or guardian accompanies the driver."
+          }
+        ]
+      },
+      "display": "For the first six months of a provisional license, the holder may carry no more than one passenger under age 20 who is not immediate family (unless a parent or guardian is present); the cap rises to three in the second six months.",
+      "citation": {
+        "label": "Minn. Stat. § 171.055, subd. 2(c)",
+        "citation": "Minn. Stat. § 171.055, subd. 2(c)",
+        "url": "https://www.revisor.mn.gov/statutes/cite/171.055"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "minLiability": {
+      "state": {
+        "status": "value",
+        "value": {
+          "bodilyPerPerson": 30000,
+          "bodilyPerCrash": 60000,
+          "property": 10000
+        }
+      },
+      "display": "Minnesota's minimum residual liability coverage is $30,000 for bodily injury to one person, $60,000 for bodily injury to two or more persons per accident, and $10,000 for property damage.",
+      "citation": {
+        "label": "Minn. Stat. § 65B.49, subd. 3(1)",
+        "citation": "Minn. Stat. § 65B.49, subd. 3(1)",
+        "url": "https://www.revisor.mn.gov/statutes/cite/65B.49"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "crashReportThresholdUsd": {
+      "state": {
+        "status": "not-applicable",
+        "reason": "Minnesota's crash-reporting statute does not use a property-damage dollar threshold. A report is required when the accident results in a fatality, a bodily injury requiring medical treatment, disabling damage requiring a vehicle to be towed from the scene, or damage to fixtures/infrastructure/property alongside the highway (Minn. Stat. § 169.09, subd. 8(b)) — not upon reaching a set dollar figure."
+      },
+      "display": "Not applicable: Minnesota requires a crash report based on injury, death, tow-away (disabling) damage, or damage to roadside property/fixtures, not on a minimum property-damage dollar amount.",
+      "citation": {
+        "label": "Minn. Stat. § 169.09, subd. 8",
+        "citation": "Minn. Stat. § 169.09, subd. 8(b)",
+        "url": "https://www.revisor.mn.gov/statutes/cite/169.09"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    }
   },
   "references": [
     {

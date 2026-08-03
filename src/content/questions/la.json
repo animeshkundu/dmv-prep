@@ -10,7 +10,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Louisiana Driver's Guide", "citation": "Louisiana OMV Class D & E Driver's Guide, Speed Limits", "url": "https://expresslane.la.gov/omv/resources/driver-manuals/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -24,7 +25,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Louisiana Driver's Guide", "citation": "Louisiana OMV Driver's Guide, Alcohol and Drugs", "url": "https://expresslane.la.gov/omv/resources/driver-manuals/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -38,7 +40,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Louisiana Driver's Guide", "citation": "Louisiana OMV Driver's Guide, Alcohol and Drugs", "url": "https://expresslane.la.gov/omv/resources/driver-manuals/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -52,7 +55,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Graduated Driver License", "citation": "IIHS Graduated Licensing Laws Table (Louisiana)", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -71,7 +75,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Graduated Driver License", "citation": "IIHS Graduated Licensing Laws Table (Louisiana)", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -90,7 +95,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Graduated Driver License", "citation": "IIHS Graduated Licensing Laws Table (Louisiana)", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -104,7 +110,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Graduated Driver License", "citation": "IIHS Graduated Licensing Laws Table (Louisiana)", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -118,7 +125,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Graduated Driver License", "citation": "IIHS Graduated Licensing Laws Table (Louisiana)", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -137,7 +145,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Louisiana Driver's Guide", "citation": "Louisiana OMV Driver's Guide, Move Over Law; R.S. 32:125", "url": "https://expresslane.la.gov/omv/resources/driver-manuals/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -156,7 +165,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Louisiana Driver's Guide", "citation": "Louisiana OMV Driver's Guide, Distracted Driving; R.S. 32:300.5", "url": "https://expresslane.la.gov/omv/resources/driver-manuals/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -175,7 +185,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Louisiana Driver's Guide", "citation": "Louisiana OMV Driver's Guide, Suspensions and Revocations", "url": "https://expresslane.la.gov/omv/resources/driver-manuals/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -194,7 +205,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Louisiana Driver's Guide", "citation": "Louisiana OMV Driver's Guide, School Buses", "url": "https://expresslane.la.gov/omv/resources/driver-manuals/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -223,7 +235,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Louisiana Driver's Guide", "citation": "Louisiana OMV Driver's Guide, Vision Requirements", "url": "https://expresslane.la.gov/omv/resources/driver-manuals/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   }
 ]

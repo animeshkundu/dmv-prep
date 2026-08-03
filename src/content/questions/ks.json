@@ -10,7 +10,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Kansas Driving Handbook", "citation": "Kansas Driving Handbook, Speed Limits", "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -24,7 +25,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Kansas Driving Handbook", "citation": "Kansas Driving Handbook, Alcohol and Drugs", "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -43,7 +45,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Kansas Driving Handbook", "citation": "Kansas Driving Handbook, Implied Consent", "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -57,7 +60,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Kansas Driving Handbook", "citation": "Kansas Driving Handbook, Graduated Driver Licensing", "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -76,7 +80,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Kansas Driving Handbook", "citation": "Kansas Driving Handbook, Graduated Driver Licensing", "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -95,7 +100,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Kansas Driving Handbook", "citation": "Kansas Driving Handbook, GDL Restrictions", "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -109,7 +115,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Kansas Driving Handbook", "citation": "Kansas Driving Handbook, GDL Restrictions", "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -128,7 +135,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Kansas Driving Handbook", "citation": "Kansas Driving Handbook, Move Over Law", "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -142,7 +150,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Kansas Driving Handbook", "citation": "Kansas Driving Handbook, Traffic Signs", "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -161,7 +170,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Kansas Driving Handbook", "citation": "Kansas Driving Handbook, Work Zones", "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -180,7 +190,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Kansas Driving Handbook", "citation": "Kansas Driving Handbook, Roundabouts", "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -199,7 +210,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Kansas Driving Handbook", "citation": "Kansas Driving Handbook, Traffic Signals", "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -218,7 +230,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Kansas Driving Handbook", "citation": "Kansas Driving Handbook, Pavement Markings", "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -237,7 +250,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Kansas Division of Vehicles", "citation": "KDOR Division of Vehicles, Written Exam / KnowTo Drive", "url": "https://www.ksrevenue.gov/dovindex.html" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -256,7 +270,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Kansas Driving Handbook", "citation": "Kansas Driving Handbook, Following Distance", "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   }
 ]

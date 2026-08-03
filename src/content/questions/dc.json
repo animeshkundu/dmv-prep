@@ -10,7 +10,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Speed limits", "citation": "DC DMV Driver Manual — Speed Limits", "url": "https://dmv.dc.gov/node/1113762" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -24,7 +25,8 @@
     "difficulty": "easy",
     "references": [{ "label": "School zones", "citation": "DC DMV Driver Manual — Speed Limits", "url": "https://dmv.dc.gov/node/1113762" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -38,7 +40,8 @@
     "difficulty": "easy",
     "references": [{ "label": "DUI limits", "citation": "DC DMV Driver Manual — Alcohol and Driving", "url": "https://dmv.dc.gov/node/1113762" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -57,7 +60,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Zero tolerance", "citation": "DC DMV Driver Manual — Alcohol and Driving", "url": "https://dmv.dc.gov/node/1113762" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -71,7 +75,8 @@
     "difficulty": "medium",
     "references": [{ "label": "GRAD program", "citation": "DC DMV Driver Manual — Graduated Licensing (GRAD)", "url": "https://dmv.dc.gov/node/1113762" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -90,7 +95,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Learner restrictions", "citation": "DC DMV Driver Manual — Graduated Licensing (GRAD)", "url": "https://dmv.dc.gov/node/1113762" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -109,7 +115,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Passenger limits", "citation": "DC DMV Driver Manual — Graduated Licensing (GRAD)", "url": "https://dmv.dc.gov/node/1113762" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -128,7 +135,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Distracted driving", "citation": "DC DMV Driver Manual — Distracted Driving", "url": "https://dmv.dc.gov/node/1113762" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -147,7 +155,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Move Over law", "citation": "DC DMV Driver Manual — Sharing the Road", "url": "https://dmv.dc.gov/node/1113762" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -166,7 +175,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Pedestrians", "citation": "DC DMV Driver Manual — Right-of-Way", "url": "https://dmv.dc.gov/node/1113762" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -185,7 +195,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Turning on red", "citation": "DC DMV Driver Manual — Traffic Signals", "url": "https://dmv.dc.gov/node/1113762" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -199,7 +210,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Parking rules", "citation": "DC DMV Driver Manual — Parking", "url": "https://dmv.dc.gov/node/1113762" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -218,7 +230,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Bicyclists", "citation": "DC DMV Driver Manual — Sharing the Road", "url": "https://dmv.dc.gov/node/1113762" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -237,7 +250,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Point system", "citation": "DC DMV Driver Manual — Point System", "url": "https://dmv.dc.gov/node/1113762" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   }
 ]

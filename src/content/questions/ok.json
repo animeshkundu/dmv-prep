@@ -10,7 +10,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Speed limits", "citation": "Oklahoma Driver Manual, Speed Limits", "url": "https://oklahoma.gov/service/all-pages/driver-education.html" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -24,7 +25,8 @@
     "difficulty": "easy",
     "references": [{ "label": "DUI limits", "citation": "Oklahoma Driver Manual, Alcohol and Driving", "url": "https://oklahoma.gov/service/all-pages/driver-education.html" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -38,7 +40,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Aggravated DUI", "citation": "Oklahoma Driver Manual, Alcohol and Driving", "url": "https://oklahoma.gov/service/all-pages/driver-education.html" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -57,7 +60,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Point system", "citation": "Oklahoma Driver Manual, Point System", "url": "https://oklahoma.gov/service/all-pages/driver-education.html" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -76,7 +80,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Learner permit restrictions", "citation": "Oklahoma Driver Manual, Graduated Licensing", "url": "https://oklahoma.gov/service/all-pages/driver-education.html" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -95,7 +100,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Practice hours", "citation": "Oklahoma Driver Manual, Graduated Licensing", "url": "https://oklahoma.gov/service/all-pages/driver-education.html" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -114,7 +120,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Passenger limits", "citation": "Oklahoma Driver Manual, Graduated Licensing", "url": "https://oklahoma.gov/service/all-pages/driver-education.html" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -133,7 +140,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Move Over law", "citation": "Oklahoma Driver Manual, Emergency Vehicles", "url": "https://oklahoma.gov/service/all-pages/driver-education.html" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -152,7 +160,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Right of way", "citation": "Oklahoma Driver Manual, Right of Way", "url": "https://oklahoma.gov/service/all-pages/driver-education.html" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -171,7 +180,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Sign shapes", "citation": "Oklahoma Driver Manual, Traffic Signs", "url": "https://oklahoma.gov/service/all-pages/driver-education.html" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -190,7 +200,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Turning on red", "citation": "Oklahoma Driver Manual, Traffic Signals", "url": "https://oklahoma.gov/service/all-pages/driver-education.html" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -209,7 +220,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Pavement markings", "citation": "Oklahoma Driver Manual, Pavement Markings", "url": "https://oklahoma.gov/service/all-pages/driver-education.html" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -228,7 +240,8 @@
     "difficulty": "medium",
     "references": [{ "label": "School buses", "citation": "Oklahoma Driver Manual, Sharing the Road", "url": "https://oklahoma.gov/service/all-pages/driver-education.html" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -247,7 +260,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Skid control", "citation": "Oklahoma Driver Manual, Safe Driving", "url": "https://oklahoma.gov/service/all-pages/driver-education.html" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -266,7 +280,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Headlight use", "citation": "Oklahoma Driver Manual, Vehicle Lights", "url": "https://oklahoma.gov/service/all-pages/driver-education.html" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   }
 ]

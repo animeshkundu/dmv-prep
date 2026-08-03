@@ -10,7 +10,8 @@
     "difficulty": "medium",
     "references": [{ "label": "School zones", "citation": "Massachusetts Driver's Manual, Speed Limits", "url": "https://www.mass.gov/how-to/request-a-drivers-manual" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -24,7 +25,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Speed limits", "citation": "Massachusetts Driver's Manual, Speed Limits", "url": "https://www.mass.gov/how-to/request-a-drivers-manual" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -38,7 +40,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Thickly settled", "citation": "Massachusetts Driver's Manual, Speed Limits", "url": "https://www.mass.gov/how-to/request-a-drivers-manual" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -52,7 +55,8 @@
     "difficulty": "easy",
     "references": [{ "label": "OUI limits", "citation": "Massachusetts Driver's Manual, Alcohol and Driving", "url": "https://www.mass.gov/how-to/request-a-drivers-manual" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -66,7 +70,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Junior Operator BAC", "citation": "Massachusetts Driver's Manual, Junior Operator Law", "url": "https://www.mass.gov/how-to/request-a-drivers-manual" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -85,7 +90,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Night restriction", "citation": "Massachusetts Driver's Manual, Junior Operator Law", "url": "https://www.mass.gov/how-to/request-a-drivers-manual" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -104,7 +110,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Passenger limits", "citation": "Massachusetts Driver's Manual, Junior Operator Law", "url": "https://www.mass.gov/how-to/request-a-drivers-manual" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -118,7 +125,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Permit period", "citation": "Massachusetts RMV, First Time Driver", "url": "https://www.mass.gov/info-details/first-time-driver-start-here" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -132,7 +140,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Supervised hours", "citation": "Massachusetts RMV, First Time Driver", "url": "https://www.mass.gov/info-details/first-time-driver-start-here" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -151,7 +160,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Multiple offenses", "citation": "Massachusetts RMV, Suspensions from multiple offenses", "url": "https://www.mass.gov/info-details/suspensions-from-multiple-offenses" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -170,7 +180,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Surchargeable events", "citation": "Massachusetts RMV, Surchargeable incidents", "url": "https://www.mass.gov/info-details/surchargeable-incidents" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -189,7 +200,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Hands-free", "citation": "Massachusetts Driver's Manual, Distracted Driving", "url": "https://www.mass.gov/how-to/request-a-drivers-manual" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -208,7 +220,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Move Over", "citation": "Massachusetts Driver's Manual, Sharing the Road", "url": "https://www.mass.gov/how-to/request-a-drivers-manual" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -227,7 +240,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Rotaries", "citation": "Massachusetts Driver's Manual, Intersections and Turns", "url": "https://www.mass.gov/how-to/request-a-drivers-manual" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -241,7 +255,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Permit validity", "citation": "Massachusetts RMV, First Time Driver", "url": "https://www.mass.gov/info-details/first-time-driver-start-here" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   }
 ]

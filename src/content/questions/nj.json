@@ -10,7 +10,8 @@
     "difficulty": "medium",
     "references": [{ "label": "New Jersey Driver Manual", "citation": "NJ MVC Driver Manual, Speed Control", "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -24,7 +25,8 @@
     "difficulty": "easy",
     "references": [{ "label": "New Jersey Driver Manual", "citation": "NJ MVC Driver Manual, Speed Control", "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -38,7 +40,8 @@
     "difficulty": "medium",
     "references": [{ "label": "New Jersey Driver Manual", "citation": "NJ MVC Driver Manual, Drinking and Driving", "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -52,7 +55,8 @@
     "difficulty": "easy",
     "references": [{ "label": "New Jersey Driver Manual", "citation": "NJ MVC Driver Manual, Drinking and Driving", "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -71,7 +75,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Graduated Driver License", "citation": "NJ MVC - Graduated Driver License", "url": "https://www.nj.gov/mvc/about/gdlsafety.htm" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -90,7 +95,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Graduated Driver License", "citation": "NJ MVC - Graduated Driver License", "url": "https://www.nj.gov/mvc/about/gdlsafety.htm" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -109,7 +115,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Graduated Driver License", "citation": "NJ MVC - Graduated Driver License", "url": "https://www.nj.gov/mvc/about/gdlsafety.htm" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -123,7 +130,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Graduated Driver License", "citation": "NJ MVC - Supervised driving requirement", "url": "https://www.nj.gov/mvc/about/gdlsafety.htm" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -137,7 +145,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Graduated Driver License", "citation": "NJ MVC - Graduated Driver License", "url": "https://www.nj.gov/mvc/about/gdlsafety.htm" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -156,7 +165,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Graduated Driver License", "citation": "NJ MVC - Graduated Driver License", "url": "https://www.nj.gov/mvc/about/gdlsafety.htm" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -175,7 +185,8 @@
     "difficulty": "medium",
     "references": [{ "label": "New Jersey Driver Manual", "citation": "NJ MVC Driver Manual, Move Over Law", "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -189,7 +200,8 @@
     "difficulty": "medium",
     "references": [{ "label": "New Jersey Driver Manual", "citation": "NJ MVC Driver Manual, Point System", "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -208,7 +220,8 @@
     "difficulty": "medium",
     "references": [{ "label": "New Jersey Driver Manual", "citation": "NJ MVC Driver Manual, Vision Requirements", "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -227,7 +240,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Graduated Driver License", "citation": "NJ MVC - Graduated Driver License", "url": "https://www.nj.gov/mvc/about/gdlsafety.htm" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -241,7 +255,8 @@
     "difficulty": "easy",
     "references": [{ "label": "New Jersey Driver Manual", "citation": "NJ MVC Driver Manual, Knowledge Test", "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   }
 ]

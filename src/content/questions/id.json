@@ -10,7 +10,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Idaho Driver's Handbook", "citation": "Idaho ITD Driver's Handbook, Speed Limits", "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -24,7 +25,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Idaho Driver's Handbook", "citation": "Idaho ITD Driver's Handbook, School Zones", "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -38,7 +40,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Idaho Driver's Handbook", "citation": "Idaho ITD Driver's Handbook, Alcohol, Drugs and Driving", "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -52,7 +55,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Idaho Driver's Handbook", "citation": "Idaho ITD Driver's Handbook, Alcohol, Drugs and Driving", "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -66,7 +70,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Idaho Young Drivers", "citation": "Idaho ITD Young Drivers (GDL)", "url": "https://itd.idaho.gov/dmv/young-drivers/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -80,7 +85,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Idaho Young Drivers", "citation": "Idaho ITD Young Drivers (GDL)", "url": "https://itd.idaho.gov/dmv/young-drivers/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -94,7 +100,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Idaho Young Drivers", "citation": "Idaho ITD Young Drivers (GDL)", "url": "https://itd.idaho.gov/dmv/young-drivers/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -108,7 +115,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Idaho Driver's Handbook", "citation": "Idaho ITD Driver's Handbook, Point System", "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -127,7 +135,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Idaho Driver's Handbook", "citation": "Idaho ITD Driver's Handbook, Distracted Driving", "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -146,7 +155,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Idaho Driver's Handbook", "citation": "Idaho ITD Driver's Handbook, Move Over Law", "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -165,7 +175,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Idaho Driver's Handbook", "citation": "Idaho ITD Driver's Handbook, Traffic Signs", "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -184,7 +195,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Idaho Driver's Handbook", "citation": "Idaho ITD Driver's Handbook, Right-of-Way and Turns", "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -203,7 +215,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Idaho Driver's Handbook", "citation": "Idaho ITD Driver's Handbook, Adverse Conditions", "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -222,7 +235,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Idaho Driver's Handbook", "citation": "Idaho ITD Driver's Handbook, Sharing the Road", "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   }
 ]

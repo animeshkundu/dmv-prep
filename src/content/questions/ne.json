@@ -10,7 +10,8 @@
     "difficulty": "easy",
     "references": [{ "label": "NE Driver's Manual", "citation": "NE DMV Class O Driver's Manual, Speed Limits", "url": "https://dmv.nebraska.gov/dl/manuals" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -39,7 +40,8 @@
     "difficulty": "medium",
     "references": [{ "label": "NE Driver's Manual", "citation": "NE DMV Class O Driver's Manual, Alcohol and Drugs", "url": "https://dmv.nebraska.gov/dl/manuals" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -53,7 +55,8 @@
     "difficulty": "easy",
     "references": [{ "label": "NE Driver's Manual", "citation": "NE DMV Class O Driver's Manual, Alcohol and Drugs", "url": "https://dmv.nebraska.gov/dl/manuals" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -67,7 +70,8 @@
     "difficulty": "hard",
     "references": [{ "label": "NE Driver's Manual", "citation": "NE DMV Class O Driver's Manual, Provisional Operator's Permit", "url": "https://dmv.nebraska.gov/dl/manuals" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -81,7 +85,8 @@
     "difficulty": "hard",
     "references": [{ "label": "NE Driver's Manual", "citation": "NE DMV Class O Driver's Manual, Provisional Operator's Permit", "url": "https://dmv.nebraska.gov/dl/manuals" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -95,7 +100,8 @@
     "difficulty": "hard",
     "references": [{ "label": "NE Driver's Manual", "citation": "NE DMV Class O Driver's Manual, School Permit", "url": "https://dmv.nebraska.gov/dl/manuals" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -109,7 +115,8 @@
     "difficulty": "medium",
     "references": [{ "label": "NE Point System", "citation": "NE DMV Nebraska Point System", "url": "https://dmv.nebraska.gov/fr/nebraska-point-system" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -128,7 +135,8 @@
     "difficulty": "medium",
     "references": [{ "label": "NE Driver's Manual", "citation": "NE DMV Class O Driver's Manual, Distracted Driving", "url": "https://dmv.nebraska.gov/dl/manuals" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -147,7 +155,8 @@
     "difficulty": "easy",
     "references": [{ "label": "NE Driver's Manual", "citation": "NE DMV Class O Driver's Manual, Move Over Law", "url": "https://dmv.nebraska.gov/dl/manuals" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -166,7 +175,8 @@
     "difficulty": "easy",
     "references": [{ "label": "NE Driver's Manual", "citation": "NE DMV Class O Driver's Manual, Right-of-Way", "url": "https://dmv.nebraska.gov/dl/manuals" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -180,7 +190,8 @@
     "difficulty": "easy",
     "references": [{ "label": "NE Driver's Manual", "citation": "NE DMV Class O Driver's Manual, Traffic Signs", "url": "https://dmv.nebraska.gov/dl/manuals" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -199,7 +210,8 @@
     "difficulty": "medium",
     "references": [{ "label": "NE Driver's Manual", "citation": "NE DMV Class O Driver's Manual, Driving in Bad Weather", "url": "https://dmv.nebraska.gov/dl/manuals" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -218,7 +230,8 @@
     "difficulty": "medium",
     "references": [{ "label": "NE Driver's Manual", "citation": "NE DMV Class O Driver's Manual, Sharing the Road", "url": "https://dmv.nebraska.gov/dl/manuals" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   }
 ]

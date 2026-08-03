@@ -15,7 +15,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Zero tolerance", "citation": "NC Driver's Handbook, Alcohol and the Law; N.C.G.S. § 20-138.3", "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/handbooks.aspx" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -29,7 +30,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Impaired driving", "citation": "NC Driver's Handbook; N.C.G.S. § 20-138.1", "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/handbooks.aspx" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -48,7 +50,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Level 1 permit", "citation": "NC Driver's Handbook, Graduated Licensing; N.C.G.S. § 20-11", "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/graduated-licensing.aspx" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -67,7 +70,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Level 2 restrictions", "citation": "NC Driver's Handbook, Graduated Licensing; N.C.G.S. § 20-11", "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/graduated-licensing.aspx" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -86,7 +90,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Supervised hours", "citation": "NC Driver's Handbook, Graduated Licensing (DL-214)", "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/graduated-licensing.aspx" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -105,7 +110,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Passenger limits", "citation": "NC Driver's Handbook, Graduated Licensing; N.C.G.S. § 20-11", "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/graduated-licensing.aspx" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -124,7 +130,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Point system", "citation": "NCDMV License Suspension; N.C.G.S. § 20-16", "url": "https://www.ncdot.gov/dmv/license-id/license-suspension/Pages/default.aspx" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -138,7 +145,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Speed limits", "citation": "NC Driver's Handbook, Speed Limits", "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/handbooks.aspx" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -157,7 +165,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Excessive speed", "citation": "NCDMV License Suspension; N.C.G.S. § 20-16.1", "url": "https://www.ncdot.gov/dmv/license-id/license-suspension/Pages/default.aspx" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -176,7 +185,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Cell phone ban", "citation": "NC Driver's Handbook; N.C.G.S. § 20-137.3", "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/handbooks.aspx" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -195,7 +205,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Move Over Law", "citation": "NC Driver's Handbook; N.C.G.S. § 20-157", "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/handbooks.aspx" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -214,7 +225,8 @@
     "difficulty": "medium",
     "references": [{ "label": "School buses", "citation": "NC Driver's Handbook; N.C.G.S. § 20-217", "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/handbooks.aspx" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -233,7 +245,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Knowledge test", "citation": "NC Driver's Handbook, The Examination", "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/handbooks.aspx" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -252,7 +265,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Seat belts", "citation": "NC Driver's Handbook; N.C.G.S. § 20-135.2A", "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/handbooks.aspx" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -271,7 +285,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Driving Eligibility Certificate", "citation": "NCDMV Teen Driver requirements; N.C.G.S. § 20-11(n)", "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/graduated-licensing.aspx" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   }
 ]

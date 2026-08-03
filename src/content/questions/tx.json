@@ -10,7 +10,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Speed limits", "citation": "Texas Driver Handbook (DL-7), Speed Regulations", "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -29,7 +30,8 @@
     "difficulty": "medium",
     "references": [{ "label": "School zones", "citation": "Texas Driver Handbook (DL-7), School Zones and Distracted Driving", "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -48,7 +50,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Zero tolerance", "citation": "Texas Driver Handbook (DL-7), Alcohol and the Law", "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -62,7 +65,8 @@
     "difficulty": "easy",
     "references": [{ "label": "BAC limit", "citation": "Texas Driver Handbook (DL-7), Alcohol and the Law", "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -76,7 +80,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Commercial BAC", "citation": "Texas Driver Handbook (DL-7), Alcohol and the Law", "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -95,7 +100,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Suspensions", "citation": "Texas Driver Handbook (DL-7), License Suspension and Revocation", "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -114,7 +120,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Provisional restrictions", "citation": "Texas Driver Handbook (DL-7), Graduated Driver License Program", "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -128,7 +135,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Passenger limit", "citation": "Texas Driver Handbook (DL-7), Graduated Driver License Program", "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -147,7 +155,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Learner license", "citation": "Texas Driver Handbook (DL-7), Graduated Driver License Program", "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -166,7 +175,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Supervised hours", "citation": "Texas Driver Handbook (DL-7), Driver Education Requirements", "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -185,7 +195,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Move Over law", "citation": "Texas Driver Handbook (DL-7), Move Over/Slow Down Law", "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -204,7 +215,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Texting ban", "citation": "Texas Driver Handbook (DL-7), Distracted Driving", "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -223,7 +235,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Implied consent", "citation": "Texas Driver Handbook (DL-7), Implied Consent", "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -237,7 +250,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Knowledge test", "citation": "Texas Driver Handbook (DL-7), The Examination", "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -256,7 +270,8 @@
     "difficulty": "medium",
     "references": [{ "label": "School buses", "citation": "Texas Driver Handbook (DL-7), School Buses", "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   }
 ]

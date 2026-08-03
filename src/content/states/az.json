@@ -73,6 +73,470 @@
     "schoolZoneSpeed": "15 mph when children are present and school is in session",
     "namedLaws": ["Move Over Law", "Hands-Free Law (A.R.S. 28-914)"]
   },
+  "typedFacts": {
+    "bacAdult": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Arizona Revised Statutes page establishes current text but does not state this provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Arizona Revised Statutes",
+        "citation": "A.R.S. \u00a7 28-1381",
+        "url": "https://www.azleg.gov/ars/28/01381.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "bacUnder21": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Arizona Revised Statutes page establishes current text but does not state this provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Arizona Revised Statutes",
+        "citation": "A.R.S. \u00a7 4-244",
+        "url": "https://www.azleg.gov/ars/04/00244.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "bacCommercial": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Arizona Revised Statutes page establishes current text but does not state this provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Arizona Revised Statutes",
+        "citation": "A.R.S. \u00a7 28-1381",
+        "url": "https://www.azleg.gov/ars/28/01381.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "impliedConsentRefusal": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Arizona Revised Statutes page establishes current text but does not state this provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Arizona Revised Statutes",
+        "citation": "A.R.S. \u00a7 28-1321",
+        "url": "https://www.azleg.gov/ars/28/01321.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "openContainerProhibited": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Arizona Revised Statutes page establishes current text but does not state this provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Arizona Revised Statutes",
+        "citation": "A.R.S. \u00a7 4-251",
+        "url": "https://www.azleg.gov/ars/04/00251.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "duiFirstSuspensionDays": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Arizona Revised Statutes page establishes current text but does not state this provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Arizona Revised Statutes",
+        "citation": "A.R.S. \u00a7 28-1385",
+        "url": "https://www.azleg.gov/ars/28/01385.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "ruralInterstateMaxMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "A.R.S. \u00a7\u00a7 28-701 and 28-702 make the limit depend on posting; the retrieved primary text did not establish one statewide rural-interstate maximum with an effective date."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Arizona Revised Statutes",
+        "citation": "A.R.S. \u00a7 28-702",
+        "url": "https://www.azleg.gov/ars/28/00702.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "urbanInterstateMaxMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "A.R.S. \u00a7\u00a7 28-701 and 28-702 make the limit depend on posting; the retrieved primary text did not establish one statewide urban-interstate maximum with an effective date."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Arizona Revised Statutes",
+        "citation": "A.R.S. \u00a7 28-702",
+        "url": "https://www.azleg.gov/ars/28/00702.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "residentialDefaultMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Arizona Revised Statutes page establishes current text but does not state this provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Arizona Revised Statutes",
+        "citation": "A.R.S. \u00a7 28-701",
+        "url": "https://www.azleg.gov/ars/28/00701.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "schoolZoneMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Arizona Revised Statutes page establishes current text but does not state this provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Arizona Revised Statutes",
+        "citation": "A.R.S. \u00a7 28-701",
+        "url": "https://www.azleg.gov/ars/28/00701.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "basicSpeedLaw": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Arizona Revised Statutes page establishes current text but does not state this provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Arizona Revised Statutes",
+        "citation": "A.R.S. \u00a7 28-701",
+        "url": "https://www.azleg.gov/ars/28/00701.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "rightTurnOnRed": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Arizona Revised Statutes page establishes current text but does not state this provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Arizona Revised Statutes",
+        "citation": "A.R.S. \u00a7 28-645",
+        "url": "https://www.azleg.gov/ars/28/00645.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "leftTurnOnRedFromOneWay": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Arizona Revised Statutes page establishes current text but does not state this provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Arizona Revised Statutes",
+        "citation": "A.R.S. \u00a7 28-645",
+        "url": "https://www.azleg.gov/ars/28/00645.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "seatBeltEnforcement": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Arizona Revised Statutes page establishes current text but does not state this provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Arizona Revised Statutes",
+        "citation": "A.R.S. \u00a7 28-909",
+        "url": "https://www.azleg.gov/ars/28/00909.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "handheldPhone": {
+      "state": {
+        "status": "value",
+        "value": "banned-all",
+        "conditions": [
+          {
+            "kind": "vehicle-class",
+            "detail": "Subject to the statutory hands-free and listed emergency/work exemptions."
+          }
+        ]
+      },
+      "display": "Handheld device use prohibited for all drivers (statutory exemptions apply)",
+      "citation": {
+        "label": "Arizona Revised Statutes",
+        "citation": "A.R.S. \u00a7 28-914",
+        "url": "https://www.azleg.gov/ars/28/00914.htm"
+      },
+      "effectiveDate": "2021-01-01",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "texting": {
+      "state": {
+        "status": "value",
+        "value": "banned-all",
+        "conditions": [
+          {
+            "kind": "vehicle-class",
+            "detail": "Subject to the statutory voice-based, hands-free, emergency, and listed work exemptions."
+          }
+        ]
+      },
+      "display": "Text-based device use prohibited for all drivers (statutory exemptions apply)",
+      "citation": {
+        "label": "Arizona Revised Statutes",
+        "citation": "A.R.S. \u00a7 28-914",
+        "url": "https://www.azleg.gov/ars/28/00914.htm"
+      },
+      "effectiveDate": "2021-01-01",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "moveOver": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Arizona Revised Statutes page establishes current text but does not state this provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Arizona Revised Statutes",
+        "citation": "A.R.S. \u00a7 28-775",
+        "url": "https://www.azleg.gov/ars/28/00775.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "headlightsRequired": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Arizona Revised Statutes page establishes current text but does not state this provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Arizona Revised Statutes",
+        "citation": "A.R.S. \u00a7 28-922",
+        "url": "https://www.azleg.gov/ars/28/00922.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromHydrant": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Arizona Revised Statutes page establishes current text but does not state this provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Arizona Revised Statutes",
+        "citation": "A.R.S. \u00a7 28-873",
+        "url": "https://www.azleg.gov/ars/28/00873.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromCrosswalk": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Arizona Revised Statutes page establishes current text but does not state this provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Arizona Revised Statutes",
+        "citation": "A.R.S. \u00a7 28-873",
+        "url": "https://www.azleg.gov/ars/28/00873.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromStopSign": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Arizona Revised Statutes page establishes current text but does not state this provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Arizona Revised Statutes",
+        "citation": "A.R.S. \u00a7 28-873",
+        "url": "https://www.azleg.gov/ars/28/00873.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromRailroad": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Arizona Revised Statutes page establishes current text but does not state this provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Arizona Revised Statutes",
+        "citation": "A.R.S. \u00a7 28-873",
+        "url": "https://www.azleg.gov/ars/28/00873.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "pointSystem": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Arizona Revised Statutes page establishes current text but does not state this provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Arizona Revised Statutes",
+        "citation": "A.R.S. \u00a7 28-3306",
+        "url": "https://www.azleg.gov/ars/28/03306.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "pointSuspension": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Arizona Revised Statutes page establishes current text but does not state this provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Arizona Revised Statutes",
+        "citation": "A.R.S. \u00a7 28-3306",
+        "url": "https://www.azleg.gov/ars/28/03306.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "permitMinAgeMonths": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Arizona Revised Statutes page establishes current text but does not state this provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Arizona Revised Statutes",
+        "citation": "A.R.S. \u00a7 28-3154",
+        "url": "https://www.azleg.gov/ars/28/03154.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "permitHoldingMonths": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Arizona Revised Statutes page establishes current text but does not state this provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Arizona Revised Statutes",
+        "citation": "A.R.S. \u00a7 28-3154",
+        "url": "https://www.azleg.gov/ars/28/03154.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "supervisedHoursTotal": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Arizona Revised Statutes page establishes current text but does not state this provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Arizona Revised Statutes",
+        "citation": "A.R.S. \u00a7 28-3160",
+        "url": "https://www.azleg.gov/ars/28/03160.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "supervisedHoursNight": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Arizona Revised Statutes page establishes current text but does not state this provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Arizona Revised Statutes",
+        "citation": "A.R.S. \u00a7 28-3160",
+        "url": "https://www.azleg.gov/ars/28/03160.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "gdlNightCurfew": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Arizona Revised Statutes page establishes current text but does not state this provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Arizona Revised Statutes",
+        "citation": "A.R.S. \u00a7 28-3160",
+        "url": "https://www.azleg.gov/ars/28/03160.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "gdlPassengerPhase1": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Arizona Revised Statutes page establishes current text but does not state this provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Arizona Revised Statutes",
+        "citation": "A.R.S. \u00a7 28-3160",
+        "url": "https://www.azleg.gov/ars/28/03160.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "minLiability": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Arizona Revised Statutes page establishes current text but does not state this provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Arizona Revised Statutes",
+        "citation": "A.R.S. \u00a7 28-4009",
+        "url": "https://www.azleg.gov/ars/28/04009.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "crashReportThresholdUsd": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Arizona Revised Statutes page establishes current text but does not state this provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Arizona Revised Statutes",
+        "citation": "A.R.S. \u00a7 28-667",
+        "url": "https://www.azleg.gov/ars/28/00667.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    }
+  },
   "references": [
     {
       "label": "Arizona Driver License Manual",

@@ -9,8 +9,14 @@
   "handbookEditionYear": 2024,
   "handbookCopyrightStatus": "public-domain",
   "applicantVariants": [
-    { "id": "under-18", "label": "Teen (under 18, graduated license)" },
-    { "id": "adult", "label": "Adult (18+)" }
+    {
+      "id": "under-18",
+      "label": "Teen (under 18, graduated license)"
+    },
+    {
+      "id": "adult",
+      "label": "Adult (18+)"
+    }
   ],
   "examVariants": [
     {
@@ -18,7 +24,9 @@
       "label": "Knowledge examination (operator license/permit)",
       "numQuestions": 50,
       "numToPass": 40,
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "onlineAvailable": false
     }
   ],
@@ -61,7 +69,11 @@
     "moveOverRule": "Change lanes away from, or slow below the posted limit for, stopped emergency, tow, and maintenance vehicles displaying flashing lights",
     "interstateMaxSpeed": "70 mph for passenger vehicles on rural interstates",
     "schoolZoneSpeed": "Reduced limit as posted during school hours / when children are present",
-    "namedLaws": ["Move Over Law", "Hands-Free Law", "Zero Tolerance Law"]
+    "namedLaws": [
+      "Move Over Law",
+      "Hands-Free Law",
+      "Zero Tolerance Law"
+    ]
   },
   "references": [
     {
@@ -79,5 +91,483 @@
   "sourceSnapshotHash": "seed-pending-verification",
   "reviewStatus": "adversarially-verified",
   "lastVerified": "2026-07-24",
-  "contentVersion": 1
+  "contentVersion": 1,
+  "typedFacts": {
+    "bacAdult": {
+      "state": {
+        "status": "value",
+        "value": 0.08
+      },
+      "display": "0.08%",
+      "citation": {
+        "label": "Indiana Code § 9-30-5-1",
+        "citation": "IC 9-30-5-1",
+        "url": "https://iga.in.gov/laws/2025/ic/titles/9/articles/30/chapters/5"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "bacUnder21": {
+      "state": {
+        "status": "value",
+        "value": 0.02
+      },
+      "display": "0.02%",
+      "citation": {
+        "label": "Indiana Code § 9-30-5-9.5",
+        "citation": "IC 9-30-5-9.5",
+        "url": "https://iga.in.gov/laws/2025/ic/titles/9/articles/30/chapters/5"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "bacCommercial": {
+      "state": {
+        "status": "value",
+        "value": 0.04
+      },
+      "display": "0.04%",
+      "citation": {
+        "label": "Indiana Code § 9-30-5-1",
+        "citation": "IC 9-30-5-1",
+        "url": "https://iga.in.gov/laws/2025/ic/titles/9/articles/30/chapters/5"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "impliedConsentRefusal": {
+      "state": {
+        "status": "value",
+        "value": {
+          "suspensionMonths": 12,
+          "criminalOffense": false
+        }
+      },
+      "display": "1-year administrative license suspension",
+      "citation": {
+        "label": "Indiana Code § 9-30-6-9",
+        "citation": "IC 9-30-6-9",
+        "url": "https://iga.in.gov/laws/2025/ic/titles/9/articles/30/chapters/6"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "openContainerProhibited": {
+      "state": {
+        "status": "value",
+        "value": true
+      },
+      "display": "Yes",
+      "citation": {
+        "label": "Indiana Code § 9-30-15-2",
+        "citation": "IC 9-30-15-2",
+        "url": "https://iga.in.gov/laws/2025/ic/titles/9/articles/30/chapters/15"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "duiFirstSuspensionDays": {
+      "state": {
+        "status": "value",
+        "value": 180
+      },
+      "display": "180 days",
+      "citation": {
+        "label": "Indiana Code § 9-30-6-9",
+        "citation": "IC 9-30-6-9",
+        "url": "https://iga.in.gov/laws/2025/ic/titles/9/articles/30/chapters/6"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "ruralInterstateMaxMph": {
+      "state": {
+        "status": "value",
+        "value": 70
+      },
+      "display": "70 mph",
+      "citation": {
+        "label": "Indiana Code § 9-21-5-2",
+        "citation": "IC 9-21-5-2",
+        "url": "https://iga.in.gov/laws/2025/ic/titles/9/articles/21/chapters/5"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "urbanInterstateMaxMph": {
+      "state": {
+        "status": "value",
+        "value": 55
+      },
+      "display": "55 mph",
+      "citation": {
+        "label": "Indiana Code § 9-21-5-2",
+        "citation": "IC 9-21-5-2",
+        "url": "https://iga.in.gov/laws/2025/ic/titles/9/articles/21/chapters/5"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "residentialDefaultMph": {
+      "state": {
+        "status": "value",
+        "value": 30
+      },
+      "display": "30 mph",
+      "citation": {
+        "label": "Indiana Code § 9-21-5-2",
+        "citation": "IC 9-21-5-2",
+        "url": "https://iga.in.gov/laws/2025/ic/titles/9/articles/21/chapters/5"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "schoolZoneMph": {
+      "state": {
+        "status": "value",
+        "value": 20
+      },
+      "display": "20 mph",
+      "citation": {
+        "label": "Indiana Code § 9-21-5-6",
+        "citation": "IC 9-21-5-6",
+        "url": "https://iga.in.gov/laws/2025/ic/titles/9/articles/21/chapters/5"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "basicSpeedLaw": {
+      "state": {
+        "status": "value",
+        "value": true
+      },
+      "display": "Yes",
+      "citation": {
+        "label": "Indiana Code § 9-21-5-1",
+        "citation": "IC 9-21-5-1",
+        "url": "https://iga.in.gov/laws/2025/ic/titles/9/articles/21/chapters/5"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "rightTurnOnRed": {
+      "state": {
+        "status": "value",
+        "value": "allowed-after-stop"
+      },
+      "display": "Allowed after complete stop",
+      "citation": {
+        "label": "Indiana Code § 9-21-3-7",
+        "citation": "IC 9-21-3-7",
+        "url": "https://iga.in.gov/laws/2025/ic/titles/9/articles/21/chapters/3"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "leftTurnOnRedFromOneWay": {
+      "state": {
+        "status": "value",
+        "value": "allowed"
+      },
+      "display": "Allowed",
+      "citation": {
+        "label": "Indiana Code § 9-21-3-7(b)",
+        "citation": "IC 9-21-3-7(b)",
+        "url": "https://iga.in.gov/laws/2025/ic/titles/9/articles/21/chapters/3"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "seatBeltEnforcement": {
+      "state": {
+        "status": "value",
+        "value": "primary"
+      },
+      "display": "Primary enforcement",
+      "citation": {
+        "label": "Indiana Code § 9-19-10-2",
+        "citation": "IC 9-19-10-2",
+        "url": "https://iga.in.gov/laws/2025/ic/titles/9/articles/19/chapters/10"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "handheldPhone": {
+      "state": {
+        "status": "value",
+        "value": "banned-all"
+      },
+      "display": "Banned for all drivers",
+      "citation": {
+        "label": "Indiana Code § 9-21-8-59",
+        "citation": "IC 9-21-8-59",
+        "url": "https://iga.in.gov/laws/2025/ic/titles/9/articles/21/chapters/8"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "texting": {
+      "state": {
+        "status": "value",
+        "value": "banned-all"
+      },
+      "display": "Banned for all drivers",
+      "citation": {
+        "label": "Indiana Code § 9-21-8-59",
+        "citation": "IC 9-21-8-59",
+        "url": "https://iga.in.gov/laws/2025/ic/titles/9/articles/21/chapters/8"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "moveOver": {
+      "state": {
+        "status": "value",
+        "value": {
+          "requirement": "lane-change-or-slow",
+          "coveredVehicles": [
+            "emergency",
+            "tow",
+            "roadside-assist",
+            "utility"
+          ]
+        }
+      },
+      "display": "Move to a non-adjacent lane or reduce speed >= 10 mph",
+      "citation": {
+        "label": "Indiana Code § 9-21-8-35",
+        "citation": "IC 9-21-8-35",
+        "url": "https://iga.in.gov/laws/2025/ic/titles/9/articles/21/chapters/8"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "headlightsRequired": {
+      "state": {
+        "status": "value",
+        "value": {
+          "whenWipersOn": true,
+          "minutesAfterSunset": 30
+        }
+      },
+      "display": "30 minutes after sunset",
+      "citation": {
+        "label": "Indiana Code § 9-19-6-1",
+        "citation": "IC 9-19-6-1",
+        "url": "https://iga.in.gov/laws/2025/ic/titles/9/articles/19/chapters/6"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "parkFtFromHydrant": {
+      "state": {
+        "status": "value",
+        "value": 15
+      },
+      "display": "15 ft",
+      "citation": {
+        "label": "Indiana Code § 9-21-16-1",
+        "citation": "IC 9-21-16-1",
+        "url": "https://iga.in.gov/laws/2025/ic/titles/9/articles/21/chapters/16"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "parkFtFromCrosswalk": {
+      "state": {
+        "status": "value",
+        "value": 20
+      },
+      "display": "20 ft",
+      "citation": {
+        "label": "Indiana Code § 9-21-16-1",
+        "citation": "IC 9-21-16-1",
+        "url": "https://iga.in.gov/laws/2025/ic/titles/9/articles/21/chapters/16"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "parkFtFromStopSign": {
+      "state": {
+        "status": "value",
+        "value": 30
+      },
+      "display": "30 ft",
+      "citation": {
+        "label": "Indiana Code § 9-21-16-1",
+        "citation": "IC 9-21-16-1",
+        "url": "https://iga.in.gov/laws/2025/ic/titles/9/articles/21/chapters/16"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "parkFtFromRailroad": {
+      "state": {
+        "status": "value",
+        "value": 50
+      },
+      "display": "50 ft",
+      "citation": {
+        "label": "Indiana Code § 9-21-16-7",
+        "citation": "IC 9-21-16-7",
+        "url": "https://iga.in.gov/laws/2025/ic/titles/9/articles/21/chapters/16"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "pointSystem": {
+      "state": {
+        "status": "value",
+        "value": true
+      },
+      "display": "Yes",
+      "citation": {
+        "label": "Indiana Code § 9-14.1-3-4",
+        "citation": "IC 9-14.1-3-4",
+        "url": "https://iga.in.gov/laws/2025/ic/titles/9/articles/14.1/chapters/3"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "pointSuspension": {
+      "state": {
+        "status": "value",
+        "value": {
+          "points": 18,
+          "windowMonths": 24
+        }
+      },
+      "display": "18 points in 24 months",
+      "citation": {
+        "label": "Indiana Code § 9-14.1-3-4",
+        "citation": "IC 9-14.1-3-4",
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/drivers-manual/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "permitMinAgeMonths": {
+      "state": {
+        "status": "value",
+        "value": 180
+      },
+      "display": "15 years",
+      "citation": {
+        "label": "Indiana Code § 9-24-2-1",
+        "citation": "IC 9-24-2-1",
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "permitHoldingMonths": {
+      "state": {
+        "status": "value",
+        "value": 6
+      },
+      "display": "6 months",
+      "citation": {
+        "label": "Indiana Code § 9-24-3-2",
+        "citation": "IC 9-24-3-2",
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "supervisedHoursTotal": {
+      "state": {
+        "status": "value",
+        "value": 50
+      },
+      "display": "50 hours",
+      "citation": {
+        "label": "Indiana Code § 9-24-3-2",
+        "citation": "IC 9-24-3-2",
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "supervisedHoursNight": {
+      "state": {
+        "status": "value",
+        "value": 10
+      },
+      "display": "10 hours",
+      "citation": {
+        "label": "Indiana Code § 9-24-3-2",
+        "citation": "IC 9-24-3-2",
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "gdlNightCurfew": {
+      "state": {
+        "status": "value",
+        "value": {
+          "startHour24": 22,
+          "endHour24": 5
+        }
+      },
+      "display": "10 pm – 5 am",
+      "citation": {
+        "label": "Indiana Code § 9-24-3-4",
+        "citation": "IC 9-24-3-4",
+        "url": "https://iga.in.gov/laws/2025/ic/titles/9/articles/24/chapters/3"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "gdlPassengerPhase1": {
+      "state": {
+        "status": "value",
+        "value": {
+          "cap": 0,
+          "underAge": 21,
+          "familyExempt": true
+        }
+      },
+      "display": "First 180 days: no non-family passengers",
+      "citation": {
+        "label": "Indiana Code § 9-24-3-3",
+        "citation": "IC 9-24-3-3",
+        "url": "https://iga.in.gov/laws/2025/ic/titles/9/articles/24/chapters/3"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "minLiability": {
+      "state": {
+        "status": "value",
+        "value": {
+          "bodilyPerPerson": 25000,
+          "bodilyPerCrash": 50000,
+          "property": 25000
+        }
+      },
+      "display": "25/50/25",
+      "citation": {
+        "label": "Indiana Code § 9-25-4-5",
+        "citation": "IC 9-25-4-5",
+        "url": "https://iga.in.gov/laws/2025/ic/titles/9/articles/25/chapters/4"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "crashReportThresholdUsd": {
+      "state": {
+        "status": "value",
+        "value": 1000
+      },
+      "display": "$1,000",
+      "citation": {
+        "label": "Indiana Code § 9-26-1-1.5",
+        "citation": "IC 9-26-1-1.5",
+        "url": "https://iga.in.gov/laws/2025/ic/titles/9/articles/26/chapters/1"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    }
+  }
 }

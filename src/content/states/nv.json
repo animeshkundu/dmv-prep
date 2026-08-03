@@ -64,6 +64,456 @@
     "schoolZoneSpeed": "15 or 25 mph as posted; generally effective on school days from 30 minutes before school begins until 30 minutes after school ends, unless otherwise posted",
     "namedLaws": ["Move Over Law", "Zero Tolerance Law", "Hands-Free Law"]
   },
+  "typedFacts": {
+    "bacAdult": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nevada Revised Statutes",
+        "citation": "Nev. Rev. Stat. §§ 484C.020, 484C.110, 484C.120, 484C.210",
+        "url": "https://www.leg.state.nv.us/nrs/nrs-484c.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "bacUnder21": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nevada Revised Statutes",
+        "citation": "Nev. Rev. Stat. §§ 484C.020, 484C.110, 484C.120, 484C.210",
+        "url": "https://www.leg.state.nv.us/nrs/nrs-484c.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "bacCommercial": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nevada Revised Statutes",
+        "citation": "Nev. Rev. Stat. §§ 484C.020, 484C.110, 484C.120, 484C.210",
+        "url": "https://www.leg.state.nv.us/nrs/nrs-484c.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "impliedConsentRefusal": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nevada Revised Statutes",
+        "citation": "Nev. Rev. Stat. §§ 484C.020, 484C.110, 484C.120, 484C.210",
+        "url": "https://www.leg.state.nv.us/nrs/nrs-484c.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "openContainerProhibited": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nevada Revised Statutes",
+        "citation": "Nev. Rev. Stat. §§ 484C.020, 484C.110, 484C.120, 484C.210",
+        "url": "https://www.leg.state.nv.us/nrs/nrs-484c.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "duiFirstSuspensionDays": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nevada Revised Statutes",
+        "citation": "Nev. Rev. Stat. §§ 484C.020, 484C.110, 484C.120, 484C.210",
+        "url": "https://www.leg.state.nv.us/nrs/nrs-484c.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "ruralInterstateMaxMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nevada Revised Statutes",
+        "citation": "Nev. Rev. Stat. §§ 484B.600 to 484B.609",
+        "url": "https://www.leg.state.nv.us/nrs/nrs-484b.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "urbanInterstateMaxMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nevada Revised Statutes",
+        "citation": "Nev. Rev. Stat. §§ 484B.600 to 484B.609",
+        "url": "https://www.leg.state.nv.us/nrs/nrs-484b.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "residentialDefaultMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nevada Revised Statutes",
+        "citation": "Nev. Rev. Stat. §§ 484B.600 to 484B.609",
+        "url": "https://www.leg.state.nv.us/nrs/nrs-484b.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "schoolZoneMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nevada Revised Statutes",
+        "citation": "Nev. Rev. Stat. §§ 484B.600 to 484B.609",
+        "url": "https://www.leg.state.nv.us/nrs/nrs-484b.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "basicSpeedLaw": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nevada Revised Statutes",
+        "citation": "Nev. Rev. Stat. §§ 484B.600 to 484B.609",
+        "url": "https://www.leg.state.nv.us/nrs/nrs-484b.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "rightTurnOnRed": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nevada Revised Statutes",
+        "citation": "Nev. Rev. Stat. §§ 484B.271, 484B.280, 484B.450, 484B.653, 484B.165",
+        "url": "https://www.leg.state.nv.us/nrs/nrs-484b.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "leftTurnOnRedFromOneWay": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nevada Revised Statutes",
+        "citation": "Nev. Rev. Stat. §§ 484B.271, 484B.280, 484B.450, 484B.653, 484B.165",
+        "url": "https://www.leg.state.nv.us/nrs/nrs-484b.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "seatBeltEnforcement": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nevada Revised Statutes",
+        "citation": "Nev. Rev. Stat. §§ 484B.271, 484B.280, 484B.450, 484B.653, 484B.165",
+        "url": "https://www.leg.state.nv.us/nrs/nrs-484b.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "handheldPhone": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nevada Revised Statutes",
+        "citation": "Nev. Rev. Stat. §§ 484B.271, 484B.280, 484B.450, 484B.653, 484B.165",
+        "url": "https://www.leg.state.nv.us/nrs/nrs-484b.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "texting": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nevada Revised Statutes",
+        "citation": "Nev. Rev. Stat. §§ 484B.271, 484B.280, 484B.450, 484B.653, 484B.165",
+        "url": "https://www.leg.state.nv.us/nrs/nrs-484b.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "moveOver": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nevada Revised Statutes",
+        "citation": "Nev. Rev. Stat. §§ 484B.271, 484B.280, 484B.450, 484B.653, 484B.165",
+        "url": "https://www.leg.state.nv.us/nrs/nrs-484b.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "headlightsRequired": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nevada Revised Statutes",
+        "citation": "Nev. Rev. Stat. §§ 484B.271, 484B.280, 484B.450, 484B.653, 484B.165",
+        "url": "https://www.leg.state.nv.us/nrs/nrs-484b.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromHydrant": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nevada Revised Statutes",
+        "citation": "Nev. Rev. Stat. § 484B.450",
+        "url": "https://www.leg.state.nv.us/nrs/nrs-484b.html#NRS484BSec450"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromCrosswalk": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nevada Revised Statutes",
+        "citation": "Nev. Rev. Stat. § 484B.450",
+        "url": "https://www.leg.state.nv.us/nrs/nrs-484b.html#NRS484BSec450"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromStopSign": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nevada Revised Statutes",
+        "citation": "Nev. Rev. Stat. § 484B.450",
+        "url": "https://www.leg.state.nv.us/nrs/nrs-484b.html#NRS484BSec450"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromRailroad": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nevada Revised Statutes",
+        "citation": "Nev. Rev. Stat. § 484B.450",
+        "url": "https://www.leg.state.nv.us/nrs/nrs-484b.html#NRS484BSec450"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "pointSystem": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nevada Revised Statutes",
+        "citation": "Nev. Rev. Stat. § 483.475",
+        "url": "https://www.leg.state.nv.us/nrs/nrs-483.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "pointSuspension": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nevada Revised Statutes",
+        "citation": "Nev. Rev. Stat. § 483.475",
+        "url": "https://www.leg.state.nv.us/nrs/nrs-483.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "permitMinAgeMonths": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nevada Revised Statutes",
+        "citation": "Nev. Rev. Stat. §§ 483.010, 483.250",
+        "url": "https://www.leg.state.nv.us/nrs/nrs-483.html#NRS483Sec010"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "permitHoldingMonths": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nevada Revised Statutes",
+        "citation": "Nev. Rev. Stat. §§ 483.010, 483.250",
+        "url": "https://www.leg.state.nv.us/nrs/nrs-483.html#NRS483Sec010"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "supervisedHoursTotal": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nevada Revised Statutes",
+        "citation": "Nev. Rev. Stat. §§ 483.010, 483.250",
+        "url": "https://www.leg.state.nv.us/nrs/nrs-483.html#NRS483Sec010"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "supervisedHoursNight": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nevada Revised Statutes",
+        "citation": "Nev. Rev. Stat. §§ 483.010, 483.250",
+        "url": "https://www.leg.state.nv.us/nrs/nrs-483.html#NRS483Sec010"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "gdlNightCurfew": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nevada Revised Statutes",
+        "citation": "Nev. Rev. Stat. §§ 483.010, 483.250",
+        "url": "https://www.leg.state.nv.us/nrs/nrs-483.html#NRS483Sec010"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "gdlPassengerPhase1": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nevada Revised Statutes",
+        "citation": "Nev. Rev. Stat. §§ 483.010, 483.250",
+        "url": "https://www.leg.state.nv.us/nrs/nrs-483.html#NRS483Sec010"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "minLiability": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nevada Revised Statutes",
+        "citation": "Nev. Rev. Stat. §§ 485.185, 484E.020",
+        "url": "https://www.leg.state.nv.us/nrs/nrs-485.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "crashReportThresholdUsd": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited current source was reachable, but this review did not establish the rule’s actual effective date; do not generate from this fact."
+      },
+      "display": "Unknown — cited rule effective date not established",
+      "citation": {
+        "label": "Nevada Revised Statutes",
+        "citation": "Nev. Rev. Stat. §§ 485.185, 484E.020",
+        "url": "https://www.leg.state.nv.us/nrs/nrs-485.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    }
+  },
   "references": [
     {
       "label": "Nevada Driver's Handbook",

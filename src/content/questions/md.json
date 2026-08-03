@@ -10,7 +10,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Alcohol and the law", "citation": "MDOT MVA Driver's Manual (DL-002), Alcohol, Other Drugs and Driving", "url": "https://mva.maryland.gov/Documents/DL-002.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -24,7 +25,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Under 21 alcohol restriction", "citation": "MDOT MVA Driver's Manual (DL-002), Alcohol, Other Drugs and Driving", "url": "https://mva.maryland.gov/Documents/DL-002.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -38,7 +40,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Driver's License Points", "citation": "MDOT MVA Driver's License Points", "url": "https://mva.maryland.gov/your-mva-guide/drivers-revoked-or-suspended-licenses/drivers-license-points" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -52,7 +55,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Driver's License Points", "citation": "MDOT MVA Driver's License Points", "url": "https://mva.maryland.gov/your-mva-guide/drivers-revoked-or-suspended-licenses/drivers-license-points" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -66,7 +70,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Rookie Driver GDL", "citation": "MDOT MVA Rookie Driver learner's permit", "url": "https://mva.maryland.gov/your-mva-guide/teens-new-drivers/learners-permit" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -85,7 +90,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Provisional license restrictions", "citation": "MDOT MVA Rookie Driver graduated licensing", "url": "https://mva.maryland.gov/your-mva-guide/teens-new-drivers/learners-permit" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -99,7 +105,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Learner's permit eligibility", "citation": "MDOT MVA Rookie Driver learner's permit", "url": "https://mva.maryland.gov/your-mva-guide/teens-new-drivers/learners-permit" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -113,7 +120,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Nighttime restriction", "citation": "MDOT MVA Rookie Driver graduated licensing", "url": "https://mva.maryland.gov/your-mva-guide/teens-new-drivers/learners-permit" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -127,7 +135,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Speed limits", "citation": "MDOT MVA Driver's Manual (DL-002), Speed Limits", "url": "https://mva.maryland.gov/Documents/DL-002.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -146,7 +155,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Move Over Law", "citation": "MDOT MVA Driver's Manual (DL-002), Sharing the Road", "url": "https://mva.maryland.gov/Documents/DL-002.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -165,7 +175,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Ignition interlock", "citation": "MDOT MVA Driver's Manual (DL-002), Alcohol, Other Drugs and Driving", "url": "https://mva.maryland.gov/Documents/DL-002.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -184,7 +195,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Distracted driving", "citation": "MDOT MVA Driver's Manual (DL-002), Distracted Driving", "url": "https://mva.maryland.gov/Documents/DL-002.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -203,7 +215,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Using headlights", "citation": "MDOT MVA Driver's Manual (DL-002), Vehicle Equipment / Lights", "url": "https://mva.maryland.gov/Documents/DL-002.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -222,7 +235,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Turning on red", "citation": "MDOT MVA Driver's Manual (DL-002), Traffic Signals", "url": "https://mva.maryland.gov/Documents/DL-002.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -241,7 +255,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Implied consent", "citation": "MDOT MVA Driver's Manual (DL-002), Alcohol, Other Drugs and Driving", "url": "https://mva.maryland.gov/Documents/DL-002.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   }
 ]

@@ -74,6 +74,581 @@
     "schoolZoneSpeed": "Varies; obey the posted school-zone limit and indicated hours or flashing signals",
     "namedLaws": ["Ambrose-Searles Move Over Act", "Leandra's Law", "Hands-free / handheld device ban", "Zero Tolerance Law"]
   },
+  "typedFacts": {
+    "bacAdult": {
+      "state": {
+        "status": "value",
+        "value": 0.08
+      },
+      "display": "Driving with a blood alcohol concentration of 0.08 or more is DWI; 0.05 through 0.07 supports a DWAI (driving while ability impaired) charge.",
+      "citation": {
+        "label": "Operating a motor vehicle while under the influence of alcohol or drugs (NYS Legislative Retrieval System, Vehicle and Traffic Law)",
+        "citation": "N.Y. Veh. & Traf. Law § 1192(2)",
+        "url": "http://public.leginfo.state.ny.us/lawssrch.cgi?NVLWO:&hwebpage=LAWS&QLAWDATA=%24%24VAT1192%24%24%40TXVAT01192&LIST=LAW"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "bacUnder21": {
+      "state": {
+        "status": "value",
+        "value": 0.02,
+        "conditions": [
+          {
+            "kind": "driver-age",
+            "detail": "drivers under 21"
+          }
+        ]
+      },
+      "display": "Zero Tolerance Law: a driver under 21 with a BAC of 0.02 through 0.07 faces a civil finding and license suspension.",
+      "citation": {
+        "label": "Operating a motor vehicle after having consumed alcohol; under the age of twenty-one (NYS Legislative Retrieval System, Vehicle and Traffic Law)",
+        "citation": "N.Y. Veh. & Traf. Law § 1192-a",
+        "url": "http://public.leginfo.state.ny.us/lawssrch.cgi?NVLWO:&hwebpage=LAWS&QLAWDATA=%24%24VAT1192-A%24%24%40TXVAT01192-A&LIST=LAW"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "bacCommercial": {
+      "state": {
+        "status": "value",
+        "value": 0.04,
+        "conditions": [
+          {
+            "kind": "vehicle-class",
+            "detail": "commercial motor vehicles"
+          }
+        ]
+      },
+      "display": "Operating a commercial motor vehicle with a BAC of 0.04 or more is a violation.",
+      "citation": {
+        "label": "Commercial motor vehicles: per se level I (NYS Legislative Retrieval System, Vehicle and Traffic Law)",
+        "citation": "N.Y. Veh. & Traf. Law § 1192(5)",
+        "url": "http://public.leginfo.state.ny.us/lawssrch.cgi?NVLWO:&hwebpage=LAWS&QLAWDATA=%24%24VAT1192%24%24%40TXVAT01192&LIST=LAW"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "impliedConsentRefusal": {
+      "state": {
+        "status": "value",
+        "value": {
+          "suspensionMonths": 12,
+          "criminalOffense": false
+        }
+      },
+      "display": "Refusing a chemical test results in a minimum one-year revocation (18 months where the driver had a prior refusal revocation or a section 1192 conviction within the preceding five years) plus a civil penalty; the refusal itself is a civil, not criminal, matter.",
+      "citation": {
+        "label": "L.2006, ch.732, § 23 (S8232), amending VTL § 1194(2)(d)(1) to raise the refusal revocation from six months to one year; § 27: effective the first of November next succeeding enactment (signed September 13, 2006)",
+        "citation": "N.Y. Veh. & Traf. Law § 1194(2)(d)(1); L.2006, ch. 732, § 23",
+        "url": "https://nyassembly.gov/leg/?default_fld=&bn=S08232&term=2005&Summary=Y&Actions=Y&Text=Y"
+      },
+      "effectiveDate": "2006-11-01",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "openContainerProhibited": {
+      "state": {
+        "status": "value",
+        "value": true
+      },
+      "display": "No person may drink or possess an open container of an alcoholic beverage in a motor vehicle located on a public highway or right-of-way.",
+      "citation": {
+        "label": "Consumption or possession of alcoholic beverages in certain motor vehicles (NYS Legislative Retrieval System, Vehicle and Traffic Law)",
+        "citation": "N.Y. Veh. & Traf. Law § 1227",
+        "url": "http://public.leginfo.state.ny.us/lawssrch.cgi?NVLWO:&hwebpage=LAWS&QLAWDATA=%24%24VAT1227%24%24%40TXVAT01227&LIST=LAW"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "duiFirstSuspensionDays": {
+      "state": {
+        "status": "value",
+        "value": 180
+      },
+      "display": "A first DWI conviction carries a minimum six-month license revocation (a first DWAI-alcohol conviction carries a 90-day suspension under VTL § 1193(2)(a)(1)).",
+      "citation": {
+        "label": "L.2006, ch.732, § 6 (S8232), amending VTL § 1193(2)(b)(2): \"Six months, where the holder is convicted of a violation of subdivision two, three, four or four-a of section eleven hundred ninety-two\"; § 27: effective the first of November next succeeding enactment (signed September 13, 2006)",
+        "citation": "N.Y. Veh. & Traf. Law § 1193(2)(b)(2); L.2006, ch. 732, § 6",
+        "url": "https://nyassembly.gov/leg/?default_fld=&bn=S08232&term=2005&Summary=Y&Actions=Y&Text=Y"
+      },
+      "effectiveDate": "2006-11-01",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "ruralInterstateMaxMph": {
+      "state": {
+        "status": "value",
+        "value": 65,
+        "conditions": [
+          {
+            "kind": "road-class",
+            "detail": "interstate and controlled-access highways posted at 65 mph"
+          }
+        ]
+      },
+      "display": "No speed limit above 65 mph may be established in New York; 65 mph is posted on rural interstates.",
+      "citation": {
+        "label": "Speed not reasonable and prudent; maximum speed limits (NYS Legislative Retrieval System, Vehicle and Traffic Law)",
+        "citation": "N.Y. Veh. & Traf. Law § 1180(b)",
+        "url": "http://public.leginfo.state.ny.us/lawssrch.cgi?NVLWO:&hwebpage=LAWS&QLAWDATA=%24%24VAT1180%24%24%40TXVAT01180&LIST=LAW"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "urbanInterstateMaxMph": {
+      "state": {
+        "status": "value",
+        "value": 65,
+        "conditions": [
+          {
+            "kind": "road-class",
+            "detail": "urban interstate segments posted at 65 mph"
+          }
+        ]
+      },
+      "display": "Maximum posted speed limit on urban interstates is 65 mph, the statutory ceiling statewide.",
+      "citation": {
+        "label": "IIHS maximum posted speed limits by state (July 2026)",
+        "citation": "IIHS, Maximum posted speed limits (New York: 65 mph rural and urban interstates)",
+        "url": "https://www.iihs.org/topics/speed/speed-limit-laws"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "residentialDefaultMph": {
+      "state": {
+        "status": "varies",
+        "variants": [
+          {
+            "value": 55,
+            "conditions": [
+              {
+                "kind": "locality",
+                "detail": "statewide default where no other limit is posted"
+              }
+            ]
+          },
+          {
+            "value": 25,
+            "conditions": [
+              {
+                "kind": "locality",
+                "detail": "New York City, where no other limit is posted"
+              }
+            ]
+          }
+        ]
+      },
+      "display": "Unless another limit is posted, the maximum speed is 55 mph statewide; in New York City the default is 25 mph. Cities and villages may set lower limits that are not always posted.",
+      "citation": {
+        "label": "New York State Driver's Manual (MV-21), Chapter 6, Defensive Driving — speed limits",
+        "citation": "NY DMV Driver's Manual MV-21",
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "schoolZoneMph": {
+      "state": {
+        "status": "not-applicable",
+        "reason": "New York sets no single statewide school-zone speed limit. School speed limits are established by local authorities or the Department of Transportation under VTL §§ 1180(c), 1622, 1643 and 1662-a; such a limit may not be set below 15 mph and applies only when posted during school days and designated hours."
+      },
+      "display": "No statewide school-zone number: locally established school speed limits (never below 15 mph) apply when posted, generally on school days between 7 a.m. and 6 p.m. or when children are present.",
+      "citation": {
+        "label": "Speed limits in school zones (NYS Legislative Retrieval System, Vehicle and Traffic Law)",
+        "citation": "N.Y. Veh. & Traf. Law § 1180(c)",
+        "url": "http://public.leginfo.state.ny.us/lawssrch.cgi?NVLWO:&hwebpage=LAWS&QLAWDATA=%24%24VAT1180%24%24%40TXVAT01180&LIST=LAW"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "basicSpeedLaw": {
+      "state": {
+        "status": "value",
+        "value": true
+      },
+      "display": "No person shall drive at a speed greater than is reasonable and prudent under the conditions, having regard to actual and potential hazards.",
+      "citation": {
+        "label": "Speed not reasonable and prudent (NYS Legislative Retrieval System, Vehicle and Traffic Law)",
+        "citation": "N.Y. Veh. & Traf. Law § 1180(a)",
+        "url": "http://public.leginfo.state.ny.us/lawssrch.cgi?NVLWO:&hwebpage=LAWS&QLAWDATA=%24%24VAT1180%24%24%40TXVAT01180&LIST=LAW"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "rightTurnOnRed": {
+      "state": {
+        "status": "varies",
+        "variants": [
+          {
+            "value": "allowed-after-stop",
+            "conditions": [
+              {
+                "kind": "locality",
+                "detail": "statewide, outside New York City, unless a sign prohibits the turn"
+              }
+            ]
+          },
+          {
+            "value": "prohibited-unless-posted",
+            "conditions": [
+              {
+                "kind": "locality",
+                "detail": "within New York City, where turns on red are prohibited unless a sign permits them"
+              }
+            ]
+          }
+        ]
+      },
+      "display": "After a full stop at a steady red signal you may turn right unless a sign prohibits it — except in New York City, where turning on red is illegal unless a sign allows it.",
+      "citation": {
+        "label": "Traffic-control signal indications; steady red (NYS Legislative Retrieval System, Vehicle and Traffic Law)",
+        "citation": "N.Y. Veh. & Traf. Law § 1111(d)(2)",
+        "url": "http://public.leginfo.state.ny.us/lawssrch.cgi?NVLWO:&hwebpage=LAWS&QLAWDATA=%24%24VAT1111%24%24%40TXVAT01111&LIST=LAW"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "leftTurnOnRedFromOneWay": {
+      "state": {
+        "status": "varies",
+        "variants": [
+          {
+            "value": "allowed",
+            "conditions": [
+              {
+                "kind": "locality",
+                "detail": "statewide, outside New York City: from a one-way street into a one-way street after stopping, unless signed otherwise"
+              }
+            ]
+          },
+          {
+            "value": "prohibited",
+            "conditions": [
+              {
+                "kind": "locality",
+                "detail": "within New York City, unless a sign permits the turn"
+              }
+            ]
+          }
+        ]
+      },
+      "display": "A left turn on red from a one-way street into a one-way street is allowed after stopping (unless a sign prohibits it), but all turns on red are banned in New York City unless a sign permits them.",
+      "citation": {
+        "label": "Traffic-control signal indications; steady red; turns (NYS Legislative Retrieval System, Vehicle and Traffic Law)",
+        "citation": "N.Y. Veh. & Traf. Law § 1111(d)(2)(b)",
+        "url": "http://public.leginfo.state.ny.us/lawssrch.cgi?NVLWO:&hwebpage=LAWS&QLAWDATA=%24%24VAT1111%24%24%40TXVAT01111&LIST=LAW"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "seatBeltEnforcement": {
+      "state": {
+        "status": "value",
+        "value": "primary"
+      },
+      "display": "Seat belt use is primary enforcement: a driver can be stopped and ticketed solely for an unbelted driver or passenger, including all rear-seat passengers age 16 and older.",
+      "citation": {
+        "label": "Operation of vehicles with safety seats and safety belts (NYS Legislative Retrieval System, Vehicle and Traffic Law)",
+        "citation": "N.Y. Veh. & Traf. Law § 1229-c",
+        "url": "http://public.leginfo.state.ny.us/lawssrch.cgi?NVLWO:&hwebpage=LAWS&QLAWDATA=%24%24VAT1229-C%24%24%40TXVAT01229-C&LIST=LAW"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "handheldPhone": {
+      "state": {
+        "status": "value",
+        "value": "banned-all"
+      },
+      "display": "No driver may use a handheld mobile telephone for a call while the vehicle is in motion; hands-free use is permitted for drivers 18 and older.",
+      "citation": {
+        "label": "Use of mobile telephones (NYS Legislative Retrieval System, Vehicle and Traffic Law)",
+        "citation": "N.Y. Veh. & Traf. Law § 1225-c",
+        "url": "http://public.leginfo.state.ny.us/lawssrch.cgi?NVLWO:&hwebpage=LAWS&QLAWDATA=%24%24VAT1225-C%24%24%40TXVAT01225-C&LIST=LAW"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "texting": {
+      "state": {
+        "status": "value",
+        "value": "banned-all"
+      },
+      "display": "No driver may use a portable electronic device (texting, e-mail, browsing, taking photos) while the vehicle is in motion.",
+      "citation": {
+        "label": "Use of portable electronic devices (NYS Legislative Retrieval System, Vehicle and Traffic Law)",
+        "citation": "N.Y. Veh. & Traf. Law § 1225-d",
+        "url": "http://public.leginfo.state.ny.us/lawssrch.cgi?NVLWO:&hwebpage=LAWS&QLAWDATA=%24%24VAT1225-D%24%24%40TXVAT01225-D&LIST=LAW"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "moveOver": {
+      "state": {
+        "status": "value",
+        "value": {
+          "requirement": "lane-change-or-slow",
+          "coveredVehicles": [
+            "emergency",
+            "tow",
+            "roadside-assist",
+            "utility",
+            "any-flashing"
+          ]
+        }
+      },
+      "display": "The Move Over Law requires every driver to exercise due care around stopped emergency, hazard and blue/green-light vehicles displaying lights; on parkways and controlled-access highways due care means moving out of the lane adjacent to the shoulder when it is safe, and since March 27, 2024 that duty also covers any motor vehicle parked, stopped or standing on the shoulder.",
+      "citation": {
+        "label": "L.2023, ch.517 (S5129A), amending VTL § 1144-a and adding subdivision (d) to cover every stopped, standing or parked vehicle; § 2: effective the one hundred eightieth day after it became law (signed September 29, 2023)",
+        "citation": "N.Y. Veh. & Traf. Law § 1144-a; L.2023, ch. 517",
+        "url": "https://nyassembly.gov/leg/?default_fld=&bn=S05129&term=2023&Summary=Y&Actions=Y&Text=Y"
+      },
+      "effectiveDate": "2024-03-27",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "headlightsRequired": {
+      "state": {
+        "status": "value",
+        "value": {
+          "whenWipersOn": true,
+          "minutesAfterSunset": 30
+        }
+      },
+      "display": "Headlights are required from one-half hour after sunset to one-half hour before sunrise, whenever visibility is less than 1,000 feet, and whenever windshield wipers are used for rain, snow or sleet.",
+      "citation": {
+        "label": "Equipment; lamps; when lighted lamps are required (NYS Legislative Retrieval System, Vehicle and Traffic Law)",
+        "citation": "N.Y. Veh. & Traf. Law § 375(2)(a)",
+        "url": "http://public.leginfo.state.ny.us/lawssrch.cgi?NVLWO:&hwebpage=LAWS&QLAWDATA=%24%24VAT375%24%24%40TXVAT0375&LIST=LAW"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "parkFtFromHydrant": {
+      "state": {
+        "status": "value",
+        "value": 15
+      },
+      "display": "No stopping, standing or parking within 15 feet of a fire hydrant.",
+      "citation": {
+        "label": "Stopping, standing or parking prohibited in specified places (NYS Legislative Retrieval System, Vehicle and Traffic Law)",
+        "citation": "N.Y. Veh. & Traf. Law § 1202(b)",
+        "url": "http://public.leginfo.state.ny.us/lawssrch.cgi?NVLWO:&hwebpage=LAWS&QLAWDATA=%24%24VAT1202%24%24%40TXVAT01202&LIST=LAW"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "parkFtFromCrosswalk": {
+      "state": {
+        "status": "value",
+        "value": 20,
+        "conditions": [
+          {
+            "kind": "locality",
+            "detail": "crosswalk at an intersection; parking on a crosswalk is prohibited entirely"
+          }
+        ]
+      },
+      "display": "No parking on a crosswalk or within 20 feet of a crosswalk at an intersection.",
+      "citation": {
+        "label": "Stopping, standing or parking prohibited in specified places (NYS Legislative Retrieval System, Vehicle and Traffic Law)",
+        "citation": "N.Y. Veh. & Traf. Law § 1202(a)",
+        "url": "http://public.leginfo.state.ny.us/lawssrch.cgi?NVLWO:&hwebpage=LAWS&QLAWDATA=%24%24VAT1202%24%24%40TXVAT01202&LIST=LAW"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "parkFtFromStopSign": {
+      "state": {
+        "status": "value",
+        "value": 30
+      },
+      "display": "No parking within 30 feet of the approach to a stop sign, flashing beacon or traffic-control signal at the side of a roadway.",
+      "citation": {
+        "label": "Stopping, standing or parking prohibited in specified places (NYS Legislative Retrieval System, Vehicle and Traffic Law)",
+        "citation": "N.Y. Veh. & Traf. Law § 1202(a)",
+        "url": "http://public.leginfo.state.ny.us/lawssrch.cgi?NVLWO:&hwebpage=LAWS&QLAWDATA=%24%24VAT1202%24%24%40TXVAT01202&LIST=LAW"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "parkFtFromRailroad": {
+      "state": {
+        "status": "value",
+        "value": 50
+      },
+      "display": "No parking within 50 feet of the nearest rail of a railroad crossing.",
+      "citation": {
+        "label": "Stopping, standing or parking prohibited in specified places (NYS Legislative Retrieval System, Vehicle and Traffic Law)",
+        "citation": "N.Y. Veh. & Traf. Law § 1202(a)",
+        "url": "http://public.leginfo.state.ny.us/lawssrch.cgi?NVLWO:&hwebpage=LAWS&QLAWDATA=%24%24VAT1202%24%24%40TXVAT01202&LIST=LAW"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "pointSystem": {
+      "state": {
+        "status": "value",
+        "value": true
+      },
+      "display": "The DMV Driver Violation Point System assigns points for traffic convictions and can lead to suspension and a Driver Responsibility Assessment.",
+      "citation": {
+        "label": "NY DMV, About the NYS Driver Point System",
+        "citation": "NY DMV Driver Violation Point System",
+        "url": "https://dmv.ny.gov/tickets/about-nys-driver-point-system"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "pointSuspension": {
+      "state": {
+        "status": "value",
+        "value": {
+          "points": 11,
+          "windowMonths": 24
+        }
+      },
+      "display": "Accumulating 11 or more points within 24 months (based on violation dates) may result in license suspension or revocation.",
+      "citation": {
+        "label": "NY DMV, About the NYS Driver Point System",
+        "citation": "NY DMV Driver Violation Point System",
+        "url": "https://dmv.ny.gov/tickets/about-nys-driver-point-system"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "permitMinAgeMonths": {
+      "state": {
+        "status": "value",
+        "value": 192
+      },
+      "display": "A learner permit may be issued at age 16.",
+      "citation": {
+        "label": "Application for license; minimum age (NYS Legislative Retrieval System, Vehicle and Traffic Law)",
+        "citation": "N.Y. Veh. & Traf. Law § 502(2)",
+        "url": "http://public.leginfo.state.ny.us/lawssrch.cgi?NVLWO:&hwebpage=LAWS&QLAWDATA=%24%24VAT502%24%24%40TXVAT0502&LIST=LAW"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "permitHoldingMonths": {
+      "state": {
+        "status": "value",
+        "value": 6
+      },
+      "display": "The learner permit must be held in valid status for at least six months before the road test may be taken.",
+      "citation": {
+        "label": "New York State Driver's Manual (MV-21), Chapter 1, Your Driver License — learner permit and road test",
+        "citation": "NY DMV Driver's Manual MV-21",
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "supervisedHoursTotal": {
+      "state": {
+        "status": "value",
+        "value": 50
+      },
+      "display": "Applicants under 18 must certify 50 hours of supervised driving practice (form MV-262).",
+      "citation": {
+        "label": "Certification of supervised driving experience (NYS Legislative Retrieval System, Vehicle and Traffic Law)",
+        "citation": "N.Y. Veh. & Traf. Law § 502(2)(d)",
+        "url": "http://public.leginfo.state.ny.us/lawssrch.cgi?NVLWO:&hwebpage=LAWS&QLAWDATA=%24%24VAT502%24%24%40TXVAT0502&LIST=LAW"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "supervisedHoursNight": {
+      "state": {
+        "status": "value",
+        "value": 15
+      },
+      "display": "At least 15 of the 50 required supervised hours must be after sunset.",
+      "citation": {
+        "label": "Certification of supervised driving experience (NYS Legislative Retrieval System, Vehicle and Traffic Law)",
+        "citation": "N.Y. Veh. & Traf. Law § 502(2)(d)",
+        "url": "http://public.leginfo.state.ny.us/lawssrch.cgi?NVLWO:&hwebpage=LAWS&QLAWDATA=%24%24VAT502%24%24%40TXVAT0502&LIST=LAW"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "gdlNightCurfew": {
+      "state": {
+        "status": "value",
+        "value": {
+          "startHour24": 21,
+          "endHour24": 5
+        },
+        "conditions": [
+          {
+            "kind": "locality",
+            "detail": "upstate/most of New York State: unsupervised junior-license driving is limited to 5 a.m. through 9 p.m.; stricter rules apply in New York City (no driving at any time) and in Nassau, Suffolk and Westchester counties"
+          }
+        ]
+      },
+      "display": "Junior (Class DJ/MJ) licensees may generally drive unsupervised only between 5 a.m. and 9 p.m.; driving at other hours requires a qualifying purpose or supervision, driving is prohibited entirely in New York City, and Long Island and Westchester impose additional restrictions.",
+      "citation": {
+        "label": "New York State Driver's Manual (MV-21), Chapter 1, Junior Learner Permit and Junior License restrictions",
+        "citation": "NY DMV Driver's Manual MV-21",
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "gdlPassengerPhase1": {
+      "state": {
+        "status": "value",
+        "value": {
+          "cap": 1,
+          "underAge": 21,
+          "familyExempt": true
+        }
+      },
+      "display": "A junior permit or junior license holder may carry no more than one passenger under 21 who is not an immediate family member (all passengers must wear seat belts).",
+      "citation": {
+        "label": "New York State Driver's Manual (MV-21), Chapter 1, Junior Learner Permit and Junior License restrictions",
+        "citation": "NY DMV Driver's Manual MV-21",
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "minLiability": {
+      "state": {
+        "status": "value",
+        "value": {
+          "bodilyPerPerson": 25000,
+          "bodilyPerCrash": 50000,
+          "property": 10000
+        }
+      },
+      "display": "Minimum liability coverage is $25,000/$50,000 for bodily injury ($50,000/$100,000 for death), plus $10,000 property damage, with no-fault personal injury protection of $50,000.",
+      "citation": {
+        "label": "NY DMV, Insurance requirements",
+        "citation": "N.Y. Veh. & Traf. Law § 311(4); NY DMV insurance requirements",
+        "url": "https://dmv.ny.gov/insurance/insurance-requirements"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "crashReportThresholdUsd": {
+      "state": {
+        "status": "value",
+        "value": 1000
+      },
+      "display": "A crash must be reported to DMV (form MV-104) when anyone is injured or killed or when property damage to any one person exceeds $1,000.",
+      "citation": {
+        "label": "Reports of accidents (NYS Legislative Retrieval System, Vehicle and Traffic Law)",
+        "citation": "N.Y. Veh. & Traf. Law § 605",
+        "url": "http://public.leginfo.state.ny.us/lawssrch.cgi?NVLWO:&hwebpage=LAWS&QLAWDATA=%24%24VAT605%24%24%40TXVAT0605&LIST=LAW"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    }
+  },
   "references": [
     {
       "label": "New York State Driver's Manual (MV-21)",

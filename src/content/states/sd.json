@@ -83,6 +83,456 @@
   "sourceSnapshotHash": "seed-pending-verification",
   "reviewStatus": "adversarially-verified",
   "verifyNote": "Official South Dakota sources confirm the 25-question/20-correct exam format, minimum age 14, current $38 original/renewal license fee effective July 1, 2025, and the REV 2021 manual edition. School-zone limits remain locally posted rather than a single statewide number.",
-  "lastVerified": "2026-07-24",
-  "contentVersion": 1
+  "lastVerified": "2026-07-27",
+  "contentVersion": 1,
+  "typedFacts": {
+    "bacAdult": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Dakota Codified Laws",
+        "citation": "S.D. Codified Laws §32-23-7",
+        "url": "https://sdlegislature.gov/Statutes/Codified_Laws/DisplayStatute.aspx?Type=Statute&Statute=32-23-7"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "bacUnder21": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Dakota Codified Laws",
+        "citation": "S.D. Codified Laws §32-23-21",
+        "url": "https://sdlegislature.gov/Statutes/Codified_Laws/DisplayStatute.aspx?Type=Statute&Statute=32-23-21"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "bacCommercial": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Dakota Codified Laws",
+        "citation": "S.D. Codified Laws §32-12A-1",
+        "url": "https://sdlegislature.gov/Statutes/Codified_Laws/DisplayStatute.aspx?Type=Statute&Statute=32-12A-1"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "impliedConsentRefusal": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Dakota Codified Laws",
+        "citation": "S.D. Codified Laws ch. 32-23",
+        "url": "https://sdlegislature.gov/Statutes/Codified_Laws/DisplayStatute.aspx?Type=Statute&Statute=32-23"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "openContainerProhibited": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Dakota DPS Driver License Manual",
+        "citation": "South Dakota DPS Driver License Manual",
+        "url": "https://www.sd.gov/dps?id=cs_kb_article_view&sysparm_article=KB0043733"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "duiFirstSuspensionDays": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Dakota DPS Driver License Manual",
+        "citation": "South Dakota DPS Driver License Manual",
+        "url": "https://www.sd.gov/dps?id=cs_kb_article_view&sysparm_article=KB0043733"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "ruralInterstateMaxMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Dakota Codified Laws",
+        "citation": "S.D. Codified Laws §32-25-7",
+        "url": "https://sdlegislature.gov/Statutes/Codified_Laws/DisplayStatute.aspx?Type=Statute&Statute=32-25-7"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "urbanInterstateMaxMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Dakota Codified Laws",
+        "citation": "S.D. Codified Laws §32-25-7",
+        "url": "https://sdlegislature.gov/Statutes/Codified_Laws/DisplayStatute.aspx?Type=Statute&Statute=32-25-7"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "residentialDefaultMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Dakota Codified Laws",
+        "citation": "S.D. Codified Laws §32-25-3",
+        "url": "https://sdlegislature.gov/Statutes/Codified_Laws/DisplayStatute.aspx?Type=Statute&Statute=32-25-3"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "schoolZoneMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Dakota Codified Laws",
+        "citation": "S.D. Codified Laws §32-25-14",
+        "url": "https://sdlegislature.gov/Statutes/Codified_Laws/DisplayStatute.aspx?Type=Statute&Statute=32-25-14"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "basicSpeedLaw": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Dakota Codified Laws",
+        "citation": "S.D. Codified Laws §32-25-3",
+        "url": "https://sdlegislature.gov/Statutes/Codified_Laws/DisplayStatute.aspx?Type=Statute&Statute=32-25-3"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "rightTurnOnRed": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Dakota Codified Laws",
+        "citation": "S.D. Codified Laws §32-26-18",
+        "url": "https://sdlegislature.gov/Statutes/Codified_Laws/DisplayStatute.aspx?Type=Statute&Statute=32-26-18"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "leftTurnOnRedFromOneWay": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Dakota Codified Laws",
+        "citation": "S.D. Codified Laws §32-26-18",
+        "url": "https://sdlegislature.gov/Statutes/Codified_Laws/DisplayStatute.aspx?Type=Statute&Statute=32-26-18"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "seatBeltEnforcement": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Dakota Codified Laws",
+        "citation": "S.D. Codified Laws §32-38-1",
+        "url": "https://sdlegislature.gov/Statutes/Codified_Laws/DisplayStatute.aspx?Type=Statute&Statute=32-38-1"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "handheldPhone": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Dakota Codified Laws",
+        "citation": "S.D. Codified Laws §32-26-47",
+        "url": "https://sdlegislature.gov/Statutes/Codified_Laws/DisplayStatute.aspx?Type=Statute&Statute=32-26-47"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "texting": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Dakota Codified Laws",
+        "citation": "S.D. Codified Laws §32-26-47",
+        "url": "https://sdlegislature.gov/Statutes/Codified_Laws/DisplayStatute.aspx?Type=Statute&Statute=32-26-47"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "moveOver": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Dakota Codified Laws",
+        "citation": "S.D. Codified Laws §32-31-6",
+        "url": "https://sdlegislature.gov/Statutes/Codified_Laws/DisplayStatute.aspx?Type=Statute&Statute=32-31-6"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "headlightsRequired": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Dakota Codified Laws",
+        "citation": "S.D. Codified Laws §32-17-4",
+        "url": "https://sdlegislature.gov/Statutes/Codified_Laws/DisplayStatute.aspx?Type=Statute&Statute=32-17-4"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "parkFtFromHydrant": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Dakota Codified Laws",
+        "citation": "S.D. Codified Laws §32-30-2",
+        "url": "https://sdlegislature.gov/Statutes/Codified_Laws/DisplayStatute.aspx?Type=Statute&Statute=32-30-2"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "parkFtFromCrosswalk": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Dakota Codified Laws",
+        "citation": "S.D. Codified Laws §32-30-2",
+        "url": "https://sdlegislature.gov/Statutes/Codified_Laws/DisplayStatute.aspx?Type=Statute&Statute=32-30-2"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "parkFtFromStopSign": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Dakota Codified Laws",
+        "citation": "S.D. Codified Laws §32-30-2",
+        "url": "https://sdlegislature.gov/Statutes/Codified_Laws/DisplayStatute.aspx?Type=Statute&Statute=32-30-2"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "parkFtFromRailroad": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Dakota Codified Laws",
+        "citation": "S.D. Codified Laws §32-30-2",
+        "url": "https://sdlegislature.gov/Statutes/Codified_Laws/DisplayStatute.aspx?Type=Statute&Statute=32-30-2"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "pointSystem": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Dakota Codified Laws",
+        "citation": "S.D. Codified Laws §32-12-49",
+        "url": "https://sdlegislature.gov/Statutes/Codified_Laws/DisplayStatute.aspx?Type=Statute&Statute=32-12-49"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "pointSuspension": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Dakota Codified Laws",
+        "citation": "S.D. Codified Laws §32-12-49",
+        "url": "https://sdlegislature.gov/Statutes/Codified_Laws/DisplayStatute.aspx?Type=Statute&Statute=32-12-49"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "permitMinAgeMonths": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Dakota DPS Driver License Manual",
+        "citation": "South Dakota DPS Driver License Manual",
+        "url": "https://www.sd.gov/dps?id=cs_kb_article_view&sysparm_article=KB0043733"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "permitHoldingMonths": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Dakota DPS Driver License Manual",
+        "citation": "South Dakota DPS Driver License Manual",
+        "url": "https://www.sd.gov/dps?id=cs_kb_article_view&sysparm_article=KB0043733"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "supervisedHoursTotal": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Dakota DPS Driver License Manual",
+        "citation": "South Dakota DPS Driver License Manual",
+        "url": "https://www.sd.gov/dps?id=cs_kb_article_view&sysparm_article=KB0043733"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "supervisedHoursNight": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Dakota DPS Driver License Manual",
+        "citation": "South Dakota DPS Driver License Manual",
+        "url": "https://www.sd.gov/dps?id=cs_kb_article_view&sysparm_article=KB0043733"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "gdlNightCurfew": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Dakota DPS Driver License Manual",
+        "citation": "South Dakota DPS Driver License Manual",
+        "url": "https://www.sd.gov/dps?id=cs_kb_article_view&sysparm_article=KB0043733"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "gdlPassengerPhase1": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Dakota DPS Driver License Manual",
+        "citation": "South Dakota DPS Driver License Manual",
+        "url": "https://www.sd.gov/dps?id=cs_kb_article_view&sysparm_article=KB0043733"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "minLiability": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Dakota Codified Laws",
+        "citation": "S.D. Codified Laws §58-23-7",
+        "url": "https://sdlegislature.gov/Statutes/Codified_Laws/DisplayStatute.aspx?Type=Statute&Statute=58-23-7"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "crashReportThresholdUsd": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Dakota Codified Laws",
+        "citation": "S.D. Codified Laws §32-34-1",
+        "url": "https://sdlegislature.gov/Statutes/Codified_Laws/DisplayStatute.aspx?Type=Statute&Statute=32-34-1"
+      },
+      "lastVerified": "2026-07-27"
+    }
+  }
 }

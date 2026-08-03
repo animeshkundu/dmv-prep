@@ -47,10 +47,22 @@ export default defineConfig({
         // Precache the built shell + content. Navigation falls back to the SPA-style
         // index when a route is not precached; real routes are all static HTML.
         globPatterns: ['**/*.{js,css,html,svg,png,woff2,webmanifest}'],
+        // Banks are fetched on demand so an expanded corpus does not inflate precache.
+        globIgnores: ['bank/**/*.json'],
         navigateFallback: `${BASE}404.html`,
         navigateFallbackDenylist: [/\/_/],
         maximumFileSizeToCacheInBytes: 6 * 1024 * 1024,
         cleanupOutdatedCaches: true,
+        runtimeCaching: [
+          {
+            // Match the configured project base rather than a root-relative bank URL.
+            urlPattern: new RegExp(`${BASE.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}bank/[^/]+\\.json$`),
+            handler: 'StaleWhileRevalidate',
+            options: {
+              cacheName: 'bank-json',
+            },
+          },
+        ],
       },
     }),
   ],

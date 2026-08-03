@@ -10,7 +10,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Speed limits", "citation": "TN Comprehensive Driver License Manual, Speed Limits", "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -29,7 +30,8 @@
     "difficulty": "medium",
     "references": [{ "label": "School zones", "citation": "TN Comprehensive Driver License Manual, Speed Limits", "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -43,7 +45,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Zero tolerance", "citation": "TN Comprehensive Driver License Manual, Alcohol and the Driver", "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -57,7 +60,8 @@
     "difficulty": "easy",
     "references": [{ "label": "DUI limit", "citation": "TN Comprehensive Driver License Manual, Alcohol and the Driver", "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -71,7 +75,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Commercial BAC", "citation": "TN Comprehensive Driver License Manual, Alcohol and the Driver", "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -85,7 +90,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Learner permit age", "citation": "TN Comprehensive Driver License Manual, Graduated Driver License", "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -99,7 +105,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Permit holding period", "citation": "TN Comprehensive Driver License Manual, Graduated Driver License", "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -118,7 +125,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Supervised hours", "citation": "TN Comprehensive Driver License Manual, Graduated Driver License", "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -137,7 +145,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Night restriction", "citation": "TN Comprehensive Driver License Manual, Graduated Driver License", "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -156,7 +165,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Passenger limit", "citation": "TN Comprehensive Driver License Manual, Graduated Driver License", "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -170,7 +180,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Point system", "citation": "TN Comprehensive Driver License Manual, Driver Improvement Points", "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -189,7 +200,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Hands-free law", "citation": "TN Comprehensive Driver License Manual, Distracted Driving", "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -208,7 +220,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Move over law", "citation": "TN Comprehensive Driver License Manual, Move Over Law", "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -227,7 +240,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Slowpoke law", "citation": "TN Comprehensive Driver License Manual, Lane Use", "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -246,7 +260,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Knowledge test", "citation": "TN Comprehensive Driver License Manual, The Examination", "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   }
 ]

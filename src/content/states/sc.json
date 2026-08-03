@@ -85,6 +85,475 @@
   "effectiveDate": "2026-07-24",
   "sourceSnapshotHash": "seed-pending-verification",
   "reviewStatus": "adversarially-verified",
-  "lastVerified": "2026-07-24",
-  "contentVersion": 1
+  "lastVerified": "2026-07-27",
+  "contentVersion": 1,
+  "typedFacts": {
+    "bacAdult": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Carolina Code",
+        "citation": "S.C. Code §56-5-2933",
+        "url": "https://www.scstatehouse.gov/code/t56c005.php"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "bacUnder21": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Carolina Code",
+        "citation": "S.C. Code §56-5-2933",
+        "url": "https://www.scstatehouse.gov/code/t56c005.php"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "bacCommercial": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Carolina Code",
+        "citation": "S.C. Code §56-1-2110",
+        "url": "https://www.scstatehouse.gov/code/t56c001.php"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "impliedConsentRefusal": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Carolina Code",
+        "citation": "S.C. Code §56-5-2950",
+        "url": "https://www.scstatehouse.gov/code/t56c005.php"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "openContainerProhibited": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Carolina SCDMV Driver Manual",
+        "citation": "South Carolina SCDMV Driver Manual",
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-01/Drivers%20Manual.pdf"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "duiFirstSuspensionDays": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Carolina Code",
+        "citation": "S.C. Code §56-5-2951",
+        "url": "https://www.scstatehouse.gov/code/t56c005.php"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "ruralInterstateMaxMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Carolina Code",
+        "citation": "S.C. Code §56-5-1520",
+        "url": "https://www.scstatehouse.gov/code/t56c005.php"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "urbanInterstateMaxMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Carolina Code",
+        "citation": "S.C. Code §56-5-1520",
+        "url": "https://www.scstatehouse.gov/code/t56c005.php"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "residentialDefaultMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Carolina Code",
+        "citation": "S.C. Code §56-5-1530",
+        "url": "https://www.scstatehouse.gov/code/t56c005.php"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "schoolZoneMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Carolina Code",
+        "citation": "S.C. Code §56-5-1520",
+        "url": "https://www.scstatehouse.gov/code/t56c005.php"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "basicSpeedLaw": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Carolina Code",
+        "citation": "S.C. Code §56-5-1520",
+        "url": "https://www.scstatehouse.gov/code/t56c005.php"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "rightTurnOnRed": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Carolina Code",
+        "citation": "S.C. Code §56-5-1550",
+        "url": "https://www.scstatehouse.gov/code/t56c005.php"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "leftTurnOnRedFromOneWay": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Carolina Code",
+        "citation": "S.C. Code §56-5-1550",
+        "url": "https://www.scstatehouse.gov/code/t56c005.php"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "seatBeltEnforcement": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Carolina Code",
+        "citation": "S.C. Code §56-5-6520",
+        "url": "https://www.scstatehouse.gov/code/t56c005.php"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "handheldPhone": {
+      "state": {
+        "status": "value",
+        "value": "banned-all",
+        "conditions": [
+          {
+            "kind": "road-class",
+            "detail": "While operating a motor vehicle on a public highway; statutory parked/stopped and emergency exceptions apply"
+          }
+        ]
+      },
+      "display": "Banned for all drivers while driving (statutory exceptions apply)",
+      "effectiveDate": "2025-09-01",
+      "confidence": "verified",
+      "citation": {
+        "label": "South Carolina Code",
+        "citation": "S.C. Code §56-5-3890",
+        "url": "https://www.scstatehouse.gov/code/t56c005.php"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "texting": {
+      "state": {
+        "status": "value",
+        "value": "banned-all",
+        "conditions": [
+          {
+            "kind": "road-class",
+            "detail": "While operating a motor vehicle on a public highway; statutory parked/stopped and emergency exceptions apply"
+          }
+        ]
+      },
+      "display": "Banned for all drivers while driving (statutory exceptions apply)",
+      "effectiveDate": "2025-09-01",
+      "confidence": "verified",
+      "citation": {
+        "label": "South Carolina Code",
+        "citation": "S.C. Code §56-5-3890",
+        "url": "https://www.scstatehouse.gov/code/t56c005.php"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "moveOver": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Carolina SCDMV Driver Manual",
+        "citation": "South Carolina SCDMV Driver Manual",
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-01/Drivers%20Manual.pdf"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "headlightsRequired": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Carolina Code",
+        "citation": "S.C. Code §56-5-4450",
+        "url": "https://www.scstatehouse.gov/code/t56c005.php"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "parkFtFromHydrant": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Carolina Code",
+        "citation": "S.C. Code §56-5-2530",
+        "url": "https://www.scstatehouse.gov/code/t56c005.php"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "parkFtFromCrosswalk": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Carolina Code",
+        "citation": "S.C. Code §56-5-2530",
+        "url": "https://www.scstatehouse.gov/code/t56c005.php"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "parkFtFromStopSign": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Carolina Code",
+        "citation": "S.C. Code §56-5-2530",
+        "url": "https://www.scstatehouse.gov/code/t56c005.php"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "parkFtFromRailroad": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Carolina Code",
+        "citation": "S.C. Code §56-5-2530",
+        "url": "https://www.scstatehouse.gov/code/t56c005.php"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "pointSystem": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Carolina Code",
+        "citation": "S.C. Code §56-1-720",
+        "url": "https://www.scstatehouse.gov/code/t56c001.php"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "pointSuspension": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Carolina Code",
+        "citation": "S.C. Code §56-1-720",
+        "url": "https://www.scstatehouse.gov/code/t56c001.php"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "permitMinAgeMonths": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Carolina SCDMV Driver Manual",
+        "citation": "South Carolina SCDMV Driver Manual",
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-01/Drivers%20Manual.pdf"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "permitHoldingMonths": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Carolina SCDMV Driver Manual",
+        "citation": "South Carolina SCDMV Driver Manual",
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-01/Drivers%20Manual.pdf"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "supervisedHoursTotal": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Carolina SCDMV Driver Manual",
+        "citation": "South Carolina SCDMV Driver Manual",
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-01/Drivers%20Manual.pdf"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "supervisedHoursNight": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Carolina SCDMV Driver Manual",
+        "citation": "South Carolina SCDMV Driver Manual",
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-01/Drivers%20Manual.pdf"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "gdlNightCurfew": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Carolina SCDMV Driver Manual",
+        "citation": "South Carolina SCDMV Driver Manual",
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-01/Drivers%20Manual.pdf"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "gdlPassengerPhase1": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Carolina SCDMV Driver Manual",
+        "citation": "South Carolina SCDMV Driver Manual",
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-01/Drivers%20Manual.pdf"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "minLiability": {
+      "state": {
+        "status": "value",
+        "value": {
+          "bodilyPerPerson": 25000,
+          "bodilyPerCrash": 50000,
+          "property": 25000
+        }
+      },
+      "display": "$25,000 per person / $50,000 per crash bodily injury; $25,000 property damage",
+      "effectiveDate": "2014-01-01",
+      "confidence": "verified",
+      "citation": {
+        "label": "South Carolina Code",
+        "citation": "S.C. Code §38-77-140",
+        "url": "https://www.scstatehouse.gov/code/t38c077.php"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "crashReportThresholdUsd": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "South Carolina Code",
+        "citation": "S.C. Code §56-5-1270",
+        "url": "https://www.scstatehouse.gov/code/t56c005.php"
+      },
+      "lastVerified": "2026-07-27"
+    }
+  }
 }

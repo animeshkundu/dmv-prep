@@ -15,30 +15,8 @@
   ],
   "examVariants": [
     {
-      "variantId": "under-18",
-      "label": "Two-part knowledge exam (road signs + general knowledge)",
-      "numQuestions": 40,
-      "numToPass": 34,
-      "subRequirements": [
-        {
-          "category": "road-signs",
-          "minCorrect": 10,
-          "outOf": 10,
-          "note": "Must correctly answer all 10 road-sign questions to advance to the general section"
-        },
-        {
-          "category": "traffic-laws",
-          "minCorrect": 24,
-          "outOf": 30,
-          "note": "Must score at least 80% (24 of 30) on the general knowledge section"
-        }
-      ],
-      "languages": ["en", "es"],
-      "onlineAvailable": false
-    },
-    {
-      "variantId": "adult",
-      "label": "Two-part knowledge exam (road signs + general knowledge)",
+      "variantId": "all",
+      "label": "Two-part knowledge exam (all applicants; road signs + general knowledge)",
       "numQuestions": 40,
       "numToPass": 34,
       "subRequirements": [
@@ -101,6 +79,456 @@
     "schoolZoneSpeed": "25 mph (or as posted, when lights flash / children present)",
     "namedLaws": ["Move Over Law", "Hands-Free Law", "Zero Tolerance Law"]
   },
+  "typedFacts": {
+    "bacAdult": {
+      "state": {
+        "status": "unknown",
+        "reason": "adult BAC threshold: The official DMV manual was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Virginia Driver's Manual",
+        "citation": "VA DMV Driver's Manual (DMV 39)",
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "bacUnder21": {
+      "state": {
+        "status": "unknown",
+        "reason": "under-21 BAC threshold: The official DMV manual was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Virginia Driver's Manual",
+        "citation": "VA DMV Driver's Manual (DMV 39)",
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "bacCommercial": {
+      "state": {
+        "status": "unknown",
+        "reason": "commercial-driver BAC threshold: The official DMV manual was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Virginia Driver's Manual",
+        "citation": "VA DMV Driver's Manual (DMV 39)",
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "impliedConsentRefusal": {
+      "state": {
+        "status": "unknown",
+        "reason": "implied-consent refusal consequence: The official DMV manual was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Virginia Driver's Manual",
+        "citation": "VA DMV Driver's Manual (DMV 39)",
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "openContainerProhibited": {
+      "state": {
+        "status": "unknown",
+        "reason": "open-container prohibition: The official DMV manual was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Virginia Driver's Manual",
+        "citation": "VA DMV Driver's Manual (DMV 39)",
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "duiFirstSuspensionDays": {
+      "state": {
+        "status": "unknown",
+        "reason": "first-DUI suspension duration: The official DMV manual was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Virginia Driver's Manual",
+        "citation": "VA DMV Driver's Manual (DMV 39)",
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "ruralInterstateMaxMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "rural-interstate maximum speed: The official DMV manual was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Virginia Driver's Manual",
+        "citation": "VA DMV Driver's Manual (DMV 39)",
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "urbanInterstateMaxMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "urban-interstate maximum speed: The official DMV manual was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Virginia Driver's Manual",
+        "citation": "VA DMV Driver's Manual (DMV 39)",
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "residentialDefaultMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "residential default speed: The official DMV manual was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Virginia Driver's Manual",
+        "citation": "VA DMV Driver's Manual (DMV 39)",
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "schoolZoneMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "school-zone speed: The official DMV manual was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Virginia Driver's Manual",
+        "citation": "VA DMV Driver's Manual (DMV 39)",
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "basicSpeedLaw": {
+      "state": {
+        "status": "unknown",
+        "reason": "basic-speed-law applicability: The official DMV manual was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Virginia Driver's Manual",
+        "citation": "VA DMV Driver's Manual (DMV 39)",
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "rightTurnOnRed": {
+      "state": {
+        "status": "unknown",
+        "reason": "right-turn-on-red rule: The official DMV manual was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Virginia Driver's Manual",
+        "citation": "VA DMV Driver's Manual (DMV 39)",
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "leftTurnOnRedFromOneWay": {
+      "state": {
+        "status": "unknown",
+        "reason": "one-way-to-one-way left-turn-on-red rule: The official DMV manual was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Virginia Driver's Manual",
+        "citation": "VA DMV Driver's Manual (DMV 39)",
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "seatBeltEnforcement": {
+      "state": {
+        "status": "unknown",
+        "reason": "seat-belt enforcement classification: The official DMV manual was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Virginia Driver's Manual",
+        "citation": "VA DMV Driver's Manual (DMV 39)",
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "handheldPhone": {
+      "state": {
+        "status": "unknown",
+        "reason": "handheld-phone rule: The official DMV manual was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Virginia Driver's Manual",
+        "citation": "VA DMV Driver's Manual (DMV 39)",
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "texting": {
+      "state": {
+        "status": "unknown",
+        "reason": "texting rule: The official DMV manual was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Virginia Driver's Manual",
+        "citation": "VA DMV Driver's Manual (DMV 39)",
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "moveOver": {
+      "state": {
+        "status": "unknown",
+        "reason": "move-over requirement and covered vehicles: The official DMV manual was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Virginia Driver's Manual",
+        "citation": "VA DMV Driver's Manual (DMV 39)",
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "headlightsRequired": {
+      "state": {
+        "status": "unknown",
+        "reason": "headlight-use conditions: The official DMV manual was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Virginia Driver's Manual",
+        "citation": "VA DMV Driver's Manual (DMV 39)",
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromHydrant": {
+      "state": {
+        "status": "unknown",
+        "reason": "fire-hydrant parking distance: The official DMV manual was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Virginia Driver's Manual",
+        "citation": "VA DMV Driver's Manual (DMV 39)",
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromCrosswalk": {
+      "state": {
+        "status": "unknown",
+        "reason": "crosswalk parking distance: The official DMV manual was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Virginia Driver's Manual",
+        "citation": "VA DMV Driver's Manual (DMV 39)",
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromStopSign": {
+      "state": {
+        "status": "unknown",
+        "reason": "stop-sign parking distance: The official DMV manual was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Virginia Driver's Manual",
+        "citation": "VA DMV Driver's Manual (DMV 39)",
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromRailroad": {
+      "state": {
+        "status": "unknown",
+        "reason": "railroad-crossing parking distance: The official DMV manual was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Virginia Driver's Manual",
+        "citation": "VA DMV Driver's Manual (DMV 39)",
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "pointSystem": {
+      "state": {
+        "status": "unknown",
+        "reason": "driver point-system status: The official DMV manual was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Virginia Driver's Manual",
+        "citation": "VA DMV Driver's Manual (DMV 39)",
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "pointSuspension": {
+      "state": {
+        "status": "unknown",
+        "reason": "point-suspension threshold: The official DMV manual was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Virginia Driver's Manual",
+        "citation": "VA DMV Driver's Manual (DMV 39)",
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "permitMinAgeMonths": {
+      "state": {
+        "status": "unknown",
+        "reason": "permit minimum age: The official DMV manual was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Virginia Driver's Manual",
+        "citation": "VA DMV Driver's Manual (DMV 39)",
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "permitHoldingMonths": {
+      "state": {
+        "status": "unknown",
+        "reason": "permit holding period: The official DMV manual was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Virginia Driver's Manual",
+        "citation": "VA DMV Driver's Manual (DMV 39)",
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "supervisedHoursTotal": {
+      "state": {
+        "status": "unknown",
+        "reason": "total supervised-driving hours: The official DMV manual was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Virginia Driver's Manual",
+        "citation": "VA DMV Driver's Manual (DMV 39)",
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "supervisedHoursNight": {
+      "state": {
+        "status": "unknown",
+        "reason": "night supervised-driving hours: The official DMV manual was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Virginia Driver's Manual",
+        "citation": "VA DMV Driver's Manual (DMV 39)",
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "gdlNightCurfew": {
+      "state": {
+        "status": "unknown",
+        "reason": "GDL night-curfew hours: The official DMV manual was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Virginia Driver's Manual",
+        "citation": "VA DMV Driver's Manual (DMV 39)",
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "gdlPassengerPhase1": {
+      "state": {
+        "status": "unknown",
+        "reason": "first-phase GDL passenger limit: The official DMV manual was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Virginia Driver's Manual",
+        "citation": "VA DMV Driver's Manual (DMV 39)",
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "minLiability": {
+      "state": {
+        "status": "unknown",
+        "reason": "minimum liability limits: The official DMV manual was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Virginia Driver's Manual",
+        "citation": "VA DMV Driver's Manual (DMV 39)",
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "crashReportThresholdUsd": {
+      "state": {
+        "status": "unknown",
+        "reason": "property-damage crash-report threshold: The official DMV manual was reachable, but this audit did not establish the exact value/conditions and the cited rule's effective date required for a verified fact."
+      },
+      "display": "Not verified",
+      "citation": {
+        "label": "Virginia Driver's Manual",
+        "citation": "VA DMV Driver's Manual (DMV 39)",
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    }
+  },
   "references": [
     {
       "label": "Virginia Driver's Manual",
@@ -116,6 +544,6 @@
   "effectiveDate": "2026-07-24",
   "sourceSnapshotHash": "seed-pending-verification",
   "reviewStatus": "adversarially-verified",
-  "lastVerified": "2026-07-24",
+  "lastVerified": "2026-07-27",
   "contentVersion": 1
 }

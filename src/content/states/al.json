@@ -63,6 +63,456 @@
     "schoolZoneSpeed": "Reduced posted limit during school hours (commonly 15-25 mph where posted)",
     "namedLaws": ["Move Over Law", "Texting-while-driving ban", "Graduated Driver License (GDL) law"]
   },
+  "typedFacts": {
+    "bacAdult": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alabama Legislature code portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Code of Alabama",
+        "citation": "Ala. Code \u00a7 32-5A-191(a)(1)",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "bacUnder21": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alabama Legislature code portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Code of Alabama",
+        "citation": "Ala. Code \u00a7 32-5A-191(b)",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "bacCommercial": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alabama Legislature code portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Code of Alabama",
+        "citation": "Ala. Code \u00a7 32-5A-191(a)(2)",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "impliedConsentRefusal": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alabama Legislature code portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Code of Alabama",
+        "citation": "Ala. Code \u00a7 32-5-192",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "openContainerProhibited": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alabama Legislature code portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Code of Alabama",
+        "citation": "Ala. Code \u00a7 32-5A-330",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "duiFirstSuspensionDays": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alabama Legislature code portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Code of Alabama",
+        "citation": "Ala. Code \u00a7 32-5A-191",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "ruralInterstateMaxMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alabama Legislature code portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Code of Alabama",
+        "citation": "Ala. Code \u00a7 32-5A-171",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "urbanInterstateMaxMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alabama Legislature code portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Code of Alabama",
+        "citation": "Ala. Code \u00a7 32-5A-171",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "residentialDefaultMph": {
+      "state": {
+        "status": "not-applicable",
+        "reason": "Alabama\u2019s statute sets an urban-district speed rather than a distinct statewide residential default represented by this key."
+      },
+      "display": "Not applicable",
+      "citation": {
+        "label": "Code of Alabama",
+        "citation": "Ala. Code \u00a7 32-5A-171",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "schoolZoneMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alabama Legislature code portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Code of Alabama",
+        "citation": "Ala. Code \u00a7 32-5A-171",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "basicSpeedLaw": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alabama Legislature code portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Code of Alabama",
+        "citation": "Ala. Code \u00a7 32-5A-170",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "rightTurnOnRed": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alabama Legislature code portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Code of Alabama",
+        "citation": "Ala. Code \u00a7 32-5A-32",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "leftTurnOnRedFromOneWay": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alabama Legislature code portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Code of Alabama",
+        "citation": "Ala. Code \u00a7 32-5A-32",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "seatBeltEnforcement": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alabama Legislature code portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Code of Alabama",
+        "citation": "Ala. Code \u00a7 32-5B-4",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "handheldPhone": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alabama Legislature code portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Code of Alabama",
+        "citation": "Ala. Code \u00a7 32-5A-350",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "texting": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alabama Legislature code portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Code of Alabama",
+        "citation": "Ala. Code \u00a7 32-5A-350",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "moveOver": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alabama Legislature code portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Code of Alabama",
+        "citation": "Ala. Code \u00a7 32-5A-58.2",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "headlightsRequired": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alabama Legislature code portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Code of Alabama",
+        "citation": "Ala. Code \u00a7 32-5-240",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromHydrant": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alabama Legislature code portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Code of Alabama",
+        "citation": "Ala. Code \u00a7 32-5A-137",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromCrosswalk": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alabama Legislature code portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Code of Alabama",
+        "citation": "Ala. Code \u00a7 32-5A-137",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromStopSign": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alabama Legislature code portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Code of Alabama",
+        "citation": "Ala. Code \u00a7 32-5A-137",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromRailroad": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alabama Legislature code portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Code of Alabama",
+        "citation": "Ala. Code \u00a7 32-5A-137",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "pointSystem": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alabama Legislature code portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Alabama Driver License Point System",
+        "citation": "ALEA Driver License Point System",
+        "url": "https://www.alea.gov/dps/driver-license/driver-license-point-system"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "pointSuspension": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alabama Legislature code portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Alabama Driver License Point System",
+        "citation": "ALEA Driver License Point System",
+        "url": "https://www.alea.gov/dps/driver-license/driver-license-point-system"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "permitMinAgeMonths": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alabama Legislature code portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Code of Alabama",
+        "citation": "Ala. Code \u00a7 32-6-7.2",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "permitHoldingMonths": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alabama Legislature code portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Code of Alabama",
+        "citation": "Ala. Code \u00a7 32-6-7.2",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "supervisedHoursTotal": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alabama Legislature code portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Code of Alabama",
+        "citation": "Ala. Code \u00a7 32-6-7.2",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "supervisedHoursNight": {
+      "state": {
+        "status": "not-applicable",
+        "reason": "The cited GDL provision supplies a total-driving/driver-education alternative, not a separate night-driving-hour requirement."
+      },
+      "display": "Not applicable",
+      "citation": {
+        "label": "Code of Alabama",
+        "citation": "Ala. Code \u00a7 32-6-7.2",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "gdlNightCurfew": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alabama Legislature code portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Code of Alabama",
+        "citation": "Ala. Code \u00a7 32-6-7.2",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "gdlPassengerPhase1": {
+      "state": {
+        "status": "not-applicable",
+        "reason": "The passenger restriction is not expressed with the age threshold required by this fact\u2019s {cap, underAge, familyExempt} model."
+      },
+      "display": "Not applicable",
+      "citation": {
+        "label": "Code of Alabama",
+        "citation": "Ala. Code \u00a7 32-6-7.2",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "minLiability": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alabama Legislature code portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Code of Alabama",
+        "citation": "Ala. Code \u00a7 32-7-6",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "crashReportThresholdUsd": {
+      "state": {
+        "status": "unknown",
+        "reason": "The reachable Alabama Legislature code portal identifies this provision but did not provide the provision's effective date; no fetch date was substituted."
+      },
+      "display": "Unknown (provision effective date not verified)",
+      "citation": {
+        "label": "Code of Alabama",
+        "citation": "Ala. Code \u00a7 32-10-5",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    }
+  },
   "references": [
     {
       "label": "Alabama Driver Manual",

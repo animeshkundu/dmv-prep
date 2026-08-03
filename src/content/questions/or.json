@@ -15,7 +15,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Basic Rule", "citation": "Oregon Driver Manual, Speed", "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -29,7 +30,8 @@
     "difficulty": "easy",
     "references": [{ "label": "School zones", "citation": "Oregon Driver Manual, Speed", "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -48,7 +50,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Zero tolerance", "citation": "Oregon Driver Manual, Alcohol and Drugs", "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -67,7 +70,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Provisional passenger limits", "citation": "Oregon Driver Manual, Provisional License", "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -86,7 +90,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Nighttime restriction", "citation": "Oregon Driver Manual, Provisional License", "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -100,7 +105,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Practice hours", "citation": "Oregon Driver Manual, Provisional License", "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -119,7 +125,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Distracted driving", "citation": "Oregon Driver Manual, Cell Phones", "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -138,7 +145,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Move Over law", "citation": "Oregon Driver Manual, Emergency Vehicles", "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -157,7 +165,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Right of way", "citation": "Oregon Driver Manual, Intersections", "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -176,7 +185,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Bicyclists", "citation": "Oregon Driver Manual, Sharing the Road", "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -195,7 +205,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Sign shapes", "citation": "Oregon Driver Manual, Signs", "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -214,7 +225,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Traffic signals", "citation": "Oregon Driver Manual, Signals", "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -233,7 +245,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Pavement markings", "citation": "Oregon Driver Manual, Lane Markings", "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -252,7 +265,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Driver Improvement", "citation": "Oregon Driver Manual, Keeping Your License", "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -271,7 +285,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Parking on hills", "citation": "Oregon Driver Manual, Parking", "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   }
 ]

@@ -10,25 +10,53 @@
   "handbookEditionYear": 2024,
   "handbookCopyrightStatus": "unknown",
   "applicantVariants": [
-    { "id": "under-18", "label": "Under 18 (Class CP permit / Class D provisional)" },
-    { "id": "adult", "label": "Adult (18+, Class C)" }
+    {
+      "id": "under-18",
+      "label": "Under 18 (Class CP permit / Class D provisional)"
+    },
+    {
+      "id": "adult",
+      "label": "Adult (18+, Class C)"
+    }
   ],
   "examVariants": [
     {
-      "variantId": "all",
+      "variantId": "signs",
       "label": "Road Signs knowledge test (all applicants)",
       "numQuestions": 20,
       "numToPass": 15,
-      "languages": ["en"],
-      "onlineAvailable": false
+      "languages": [
+        "en"
+      ],
+      "onlineAvailable": false,
+      "testGroup": "permit-knowledge-tests",
+      "categoryScope": [
+        "road-signs",
+        "traffic-signals",
+        "pavement-markings"
+      ]
     },
     {
-      "variantId": "all",
+      "variantId": "rules",
       "label": "Road Rules knowledge test (all applicants)",
       "numQuestions": 20,
       "numToPass": 15,
-      "languages": ["en"],
-      "onlineAvailable": false
+      "languages": [
+        "en"
+      ],
+      "onlineAvailable": false,
+      "testGroup": "permit-knowledge-tests",
+      "categoryScope": [
+        "right-of-way",
+        "parking",
+        "speed-limits",
+        "alcohol-drugs",
+        "sharing-the-road",
+        "safe-driving",
+        "traffic-laws",
+        "penalties-points",
+        "gdl-teen"
+      ]
     }
   ],
   "retake": {
@@ -71,7 +99,12 @@
     "moveOverRule": "Move over one lane, or slow down if unable, for stopped emergency, utility, and DOT vehicles displaying flashing lights",
     "interstateMaxSpeed": "70 mph",
     "schoolZoneSpeed": "As posted, reduced when lights are flashing or children are present (commonly 25 mph)",
-    "namedLaws": ["Joshua's Law", "Super Speeder Law", "Hands-Free Georgia Act", "Move Over Law"]
+    "namedLaws": [
+      "Joshua's Law",
+      "Super Speeder Law",
+      "Hands-Free Georgia Act",
+      "Move Over Law"
+    ]
   },
   "references": [
     {
@@ -94,5 +127,483 @@
   "sourceSnapshotHash": "seed-pending-verification",
   "reviewStatus": "adversarially-verified",
   "lastVerified": "2026-07-24",
-  "contentVersion": 1
+  "contentVersion": 1,
+  "typedFacts": {
+    "bacAdult": {
+      "state": {
+        "status": "value",
+        "value": 0.08
+      },
+      "display": "0.08%",
+      "citation": {
+        "label": "Official Code of Georgia Annotated",
+        "citation": "O.C.G.A. § 40-6-391(a)(5)",
+        "url": "https://www.findlaw.com/state/georgia-law/georgia-dui-laws.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "bacUnder21": {
+      "state": {
+        "status": "value",
+        "value": 0.02
+      },
+      "display": "0.02% (zero tolerance)",
+      "citation": {
+        "label": "Official Code of Georgia Annotated",
+        "citation": "O.C.G.A. § 40-6-391(k)(1)",
+        "url": "https://www.findlaw.com/state/georgia-law/georgia-dui-laws.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "bacCommercial": {
+      "state": {
+        "status": "value",
+        "value": 0.04
+      },
+      "display": "0.04%",
+      "citation": {
+        "label": "Official Code of Georgia Annotated",
+        "citation": "O.C.G.A. § 40-6-391(a)(4); 49 C.F.R. § 382.201 (FMCSA)",
+        "url": "https://www.findlaw.com/state/georgia-law/georgia-dui-laws.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "impliedConsentRefusal": {
+      "state": {
+        "status": "value",
+        "value": {
+          "suspensionMonths": 12,
+          "criminalOffense": false
+        }
+      },
+      "display": "12-month administrative license suspension; refusal is not a separate criminal offense in Georgia",
+      "citation": {
+        "label": "Official Code of Georgia Annotated",
+        "citation": "O.C.G.A. § 40-5-67.1(d)(1)",
+        "url": "https://www.findlaw.com/state/georgia-law/georgia-dui-laws.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "openContainerProhibited": {
+      "state": {
+        "status": "value",
+        "value": true
+      },
+      "display": "Yes – open alcoholic beverage container prohibited in passenger area",
+      "citation": {
+        "label": "Official Code of Georgia Annotated",
+        "citation": "O.C.G.A. § 40-6-253",
+        "url": "https://www.findlaw.com/state/georgia-law/georgia-traffic-laws.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "duiFirstSuspensionDays": {
+      "state": {
+        "status": "value",
+        "value": 365
+      },
+      "display": "365 days (12 months) for first DUI conviction",
+      "citation": {
+        "label": "Official Code of Georgia Annotated / FindLaw",
+        "citation": "O.C.G.A. § 40-5-63(a)(1)",
+        "url": "https://www.findlaw.com/state/georgia-law/georgia-dui-laws.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "ruralInterstateMaxMph": {
+      "state": {
+        "status": "value",
+        "value": 70
+      },
+      "display": "70 mph",
+      "citation": {
+        "label": "Official Code of Georgia Annotated",
+        "citation": "O.C.G.A. § 40-6-181(b)(1)",
+        "url": "https://www.iihs.org/research-areas/speed/speed-limit-laws"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "urbanInterstateMaxMph": {
+      "state": {
+        "status": "value",
+        "value": 65
+      },
+      "display": "65 mph (urban interstate)",
+      "citation": {
+        "label": "Official Code of Georgia Annotated",
+        "citation": "O.C.G.A. § 40-6-181(b)(2)",
+        "url": "https://www.iihs.org/research-areas/speed/speed-limit-laws"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "residentialDefaultMph": {
+      "state": {
+        "status": "value",
+        "value": 30
+      },
+      "display": "30 mph",
+      "citation": {
+        "label": "Official Code of Georgia Annotated",
+        "citation": "O.C.G.A. § 40-6-181(b)(5)",
+        "url": "https://www.findlaw.com/state/georgia-law/georgia-traffic-laws.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "schoolZoneMph": {
+      "state": {
+        "status": "value",
+        "value": 25
+      },
+      "display": "25 mph (as posted; typically 25 mph when lights are flashing)",
+      "citation": {
+        "label": "Official Code of Georgia Annotated",
+        "citation": "O.C.G.A. § 40-6-188",
+        "url": "https://dds.georgia.gov/dds-forms-and-manuals/manuals"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "basicSpeedLaw": {
+      "state": {
+        "status": "value",
+        "value": true
+      },
+      "display": "Yes – must drive at speed reasonable and prudent under conditions",
+      "citation": {
+        "label": "Official Code of Georgia Annotated",
+        "citation": "O.C.G.A. § 40-6-180",
+        "url": "https://www.findlaw.com/state/georgia-law/georgia-traffic-laws.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "rightTurnOnRed": {
+      "state": {
+        "status": "value",
+        "value": "allowed-after-stop"
+      },
+      "display": "Allowed after full stop unless 'No Turn on Red' sign is posted",
+      "citation": {
+        "label": "Official Code of Georgia Annotated",
+        "citation": "O.C.G.A. § 40-6-21(a)(1)",
+        "url": "https://www.findlaw.com/state/georgia-law/georgia-traffic-laws.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "leftTurnOnRedFromOneWay": {
+      "state": {
+        "status": "value",
+        "value": "allowed"
+      },
+      "display": "Allowed – left turn from a one-way street onto another one-way street after full stop",
+      "citation": {
+        "label": "Official Code of Georgia Annotated",
+        "citation": "O.C.G.A. § 40-6-21(a)(2)",
+        "url": "https://www.findlaw.com/state/georgia-law/georgia-traffic-laws.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "seatBeltEnforcement": {
+      "state": {
+        "status": "value",
+        "value": "primary"
+      },
+      "display": "Primary – officer may stop a vehicle solely for a seat belt violation",
+      "citation": {
+        "label": "Official Code of Georgia Annotated",
+        "citation": "O.C.G.A. § 40-8-76.1",
+        "url": "https://www.autoinsurance.com/states/georgia/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "handheldPhone": {
+      "state": {
+        "status": "value",
+        "value": "banned-all"
+      },
+      "display": "Banned for all drivers",
+      "citation": {
+        "label": "Official Code of Georgia Annotated",
+        "citation": "O.C.G.A. § 40-6-241",
+        "url": "https://www.findlaw.com/state/georgia-law/georgia-traffic-laws.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "texting": {
+      "state": {
+        "status": "value",
+        "value": "banned-all"
+      },
+      "display": "Banned for all drivers (Hands-Free Georgia Act)",
+      "citation": {
+        "label": "Official Code of Georgia Annotated",
+        "citation": "O.C.G.A. § 40-6-241(b)",
+        "url": "https://www.findlaw.com/state/georgia-law/georgia-traffic-laws.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "moveOver": {
+      "state": {
+        "status": "value",
+        "value": {
+          "requirement": "lane-change-or-slow",
+          "coveredVehicles": [
+            "emergency",
+            "tow",
+            "roadside-assist",
+            "utility"
+          ]
+        }
+      },
+      "display": "Move one lane away or slow to at least 10 mph below posted speed",
+      "citation": {
+        "label": "Official Code of Georgia Annotated",
+        "citation": "O.C.G.A. § 40-6-16",
+        "url": "https://www.findlaw.com/state/georgia-law/georgia-traffic-laws.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "headlightsRequired": {
+      "state": {
+        "status": "value",
+        "value": {
+          "whenWipersOn": true,
+          "minutesAfterSunset": 30
+        }
+      },
+      "display": "Required 30 minutes after sunset and when wipers are on",
+      "citation": {
+        "label": "Official Code of Georgia Annotated",
+        "citation": "O.C.G.A. § 40-8-20",
+        "url": "https://dds.georgia.gov/dds-forms-and-manuals/manuals"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "parkFtFromHydrant": {
+      "state": {
+        "status": "value",
+        "value": 15
+      },
+      "display": "15 ft",
+      "citation": {
+        "label": "Official Code of Georgia Annotated",
+        "citation": "O.C.G.A. § 40-6-203(a)(4)",
+        "url": "https://dds.georgia.gov/dds-forms-and-manuals/manuals"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "parkFtFromCrosswalk": {
+      "state": {
+        "status": "value",
+        "value": 20
+      },
+      "display": "20 ft",
+      "citation": {
+        "label": "Official Code of Georgia Annotated",
+        "citation": "O.C.G.A. § 40-6-203(a)(6)",
+        "url": "https://dds.georgia.gov/dds-forms-and-manuals/manuals"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "parkFtFromStopSign": {
+      "state": {
+        "status": "value",
+        "value": 30
+      },
+      "display": "30 ft",
+      "citation": {
+        "label": "Official Code of Georgia Annotated",
+        "citation": "O.C.G.A. § 40-6-203(a)(7)",
+        "url": "https://dds.georgia.gov/dds-forms-and-manuals/manuals"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "parkFtFromRailroad": {
+      "state": {
+        "status": "value",
+        "value": 50
+      },
+      "display": "50 ft",
+      "citation": {
+        "label": "Official Code of Georgia Annotated",
+        "citation": "O.C.G.A. § 40-6-203(a)(9)",
+        "url": "https://dds.georgia.gov/dds-forms-and-manuals/manuals"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "pointSystem": {
+      "state": {
+        "status": "value",
+        "value": true
+      },
+      "display": "Yes – Georgia uses a demerit point system",
+      "citation": {
+        "label": "Georgia DDS Points Schedule",
+        "citation": "O.C.G.A. § 40-5-57",
+        "url": "https://dds.georgia.gov/georgia-licenseid/violations-suspensions-revocations/points-and-points-reduction"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "pointSuspension": {
+      "state": {
+        "status": "value",
+        "value": {
+          "points": 15,
+          "windowMonths": 24
+        }
+      },
+      "display": "15 points in 24 months triggers suspension (21+)",
+      "citation": {
+        "label": "Georgia DDS Points Schedule",
+        "citation": "O.C.G.A. § 40-5-57(c)(1)(A)",
+        "url": "https://dds.georgia.gov/georgia-licenseid/violations-suspensions-revocations/points-and-points-reduction"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "permitMinAgeMonths": {
+      "state": {
+        "status": "value",
+        "value": 180
+      },
+      "display": "15 years (180 months)",
+      "citation": {
+        "label": "Official Code of Georgia Annotated",
+        "citation": "O.C.G.A. § 40-5-22(a)(1)",
+        "url": "https://dds.georgia.gov/teen-driving-laws-faqs"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "permitHoldingMonths": {
+      "state": {
+        "status": "value",
+        "value": 12
+      },
+      "display": "12 months and 1 day",
+      "citation": {
+        "label": "Official Code of Georgia Annotated",
+        "citation": "O.C.G.A. § 40-5-24(a)",
+        "url": "https://dds.georgia.gov/teen-driving-laws-faqs"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "supervisedHoursTotal": {
+      "state": {
+        "status": "value",
+        "value": 40
+      },
+      "display": "40 hours total supervised driving",
+      "citation": {
+        "label": "Official Code of Georgia Annotated",
+        "citation": "O.C.G.A. § 40-5-24(a)(2)",
+        "url": "https://dds.georgia.gov/teen-driving-laws-faqs"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "supervisedHoursNight": {
+      "state": {
+        "status": "value",
+        "value": 6
+      },
+      "display": "6 hours at night",
+      "citation": {
+        "label": "Official Code of Georgia Annotated",
+        "citation": "O.C.G.A. § 40-5-24(a)(2)",
+        "url": "https://dds.georgia.gov/teen-driving-laws-faqs"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "gdlNightCurfew": {
+      "state": {
+        "status": "value",
+        "value": {
+          "startHour24": 0,
+          "endHour24": 5
+        }
+      },
+      "display": "No driving 12:00 a.m. to 5:00 a.m.",
+      "citation": {
+        "label": "Official Code of Georgia Annotated",
+        "citation": "O.C.G.A. § 40-5-24(b)(3)",
+        "url": "https://dds.georgia.gov/teen-driving-laws-faqs"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "gdlPassengerPhase1": {
+      "state": {
+        "status": "value",
+        "value": {
+          "cap": 0,
+          "underAge": 21,
+          "familyExempt": true
+        }
+      },
+      "display": "Immediate family members only",
+      "citation": {
+        "label": "Official Code of Georgia Annotated",
+        "citation": "O.C.G.A. § 40-5-24(b)(4)",
+        "url": "https://dds.georgia.gov/teen-driving-laws-faqs"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "minLiability": {
+      "state": {
+        "status": "value",
+        "value": {
+          "bodilyPerPerson": 25000,
+          "bodilyPerCrash": 50000,
+          "property": 25000
+        }
+      },
+      "display": "25/50/25",
+      "citation": {
+        "label": "Official Code of Georgia Annotated",
+        "citation": "O.C.G.A. § 33-7-11(a)(1)(A)",
+        "url": "https://oci.georgia.gov/insurance-resources/auto"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "crashReportThresholdUsd": {
+      "state": {
+        "status": "value",
+        "value": 500
+      },
+      "display": "$500",
+      "citation": {
+        "label": "Official Code of Georgia Annotated",
+        "citation": "O.C.G.A. § 40-6-273",
+        "url": "https://www.autoinsurance.com/states/georgia/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    }
+  }
 }

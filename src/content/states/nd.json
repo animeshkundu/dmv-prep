@@ -64,6 +64,554 @@
     "schoolZoneSpeed": "Obey the posted school-zone limit when children are present",
     "namedLaws": ["Move Over Law", "Zero Tolerance Law (under 21)", "Texting/handheld device ban"]
   },
+  "typedFacts": {
+    "bacAdult": {
+      "state": {
+        "status": "value",
+        "value": 0.08
+      },
+      "display": "An individual may not drive with an alcohol concentration of at least 0.08 by weight (or while under the influence of intoxicating liquor or drugs).",
+      "citation": {
+        "label": "Persons under the influence of intoxicating liquor or any other drugs or substances not to operate vehicle",
+        "citation": "N.D. Cent. Code § 39-08-01",
+        "url": "https://ndlegis.gov/cencode/t39c08.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "bacUnder21": {
+      "state": {
+        "status": "value",
+        "value": 0.02,
+        "conditions": [
+          {
+            "kind": "driver-age",
+            "detail": "drivers under 21"
+          }
+        ]
+      },
+      "display": "For a driver under 21, an alcohol concentration of at least 0.02 triggers administrative license sanctions.",
+      "citation": {
+        "label": "Administrative sanction for driving while having certain alcohol concentration",
+        "citation": "N.D. Cent. Code § 39-20-04.1",
+        "url": "https://ndlegis.gov/cencode/t39c20.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "bacCommercial": {
+      "state": {
+        "status": "value",
+        "value": 0.04,
+        "conditions": [
+          {
+            "kind": "vehicle-class",
+            "detail": "commercial motor vehicles"
+          }
+        ]
+      },
+      "display": "Driving a commercial motor vehicle with an alcohol concentration of at least 0.04 is prohibited and disqualifying.",
+      "citation": {
+        "label": "Commercial drivers - Alcohol and controlled substances",
+        "citation": "N.D. Cent. Code § 39-06.2-10.2",
+        "url": "https://ndlegis.gov/cencode/t39c06-2.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "impliedConsentRefusal": {
+      "state": {
+        "status": "value",
+        "value": {
+          "suspensionMonths": 6,
+          "criminalOffense": true
+        }
+      },
+      "display": "Refusal to submit to testing revokes driving privileges for 180 days for a first refusal (two years for a second, three for a third); refusal is also a criminal offense punishable the same as driving under the influence.",
+      "citation": {
+        "label": "Revocation of privilege to drive motor vehicle upon refusal to submit to testing",
+        "citation": "N.D. Cent. Code § 39-20-04",
+        "url": "https://ndlegis.gov/cencode/t39c20.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "openContainerProhibited": {
+      "state": {
+        "status": "value",
+        "value": true
+      },
+      "display": "No person may drink, or have in the passenger area an open container of, alcoholic beverages while in a motor vehicle on a highway or right of way.",
+      "citation": {
+        "label": "Consumption or possession of alcoholic beverage in motor vehicle prohibited",
+        "citation": "N.D. Cent. Code § 39-08-18",
+        "url": "https://ndlegis.gov/cencode/t39c08.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "duiFirstSuspensionDays": {
+      "state": {
+        "status": "value",
+        "value": 91,
+        "conditions": [
+          {
+            "kind": "driver-age",
+            "detail": "first offense in seven years with an alcohol concentration under 0.18"
+          }
+        ]
+      },
+      "display": "Administrative suspension of 91 days for a first offense within seven years (180 days if the alcohol concentration was 0.18 or more).",
+      "citation": {
+        "label": "Administrative sanction for driving while having certain alcohol concentration",
+        "citation": "N.D. Cent. Code § 39-20-04.1",
+        "url": "https://ndlegis.gov/cencode/t39c20.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "ruralInterstateMaxMph": {
+      "state": {
+        "status": "value",
+        "value": 80,
+        "conditions": [
+          {
+            "kind": "road-class",
+            "detail": "access-controlled, paved, divided multilane interstate highways"
+          }
+        ]
+      },
+      "display": "80 mph is lawful on access-controlled, paved and divided multilane interstate highways; 75 mph is posted on some urban interstate segments.",
+      "citation": {
+        "label": "Speed limitations",
+        "citation": "N.D. Cent. Code § 39-09-02",
+        "url": "https://ndlegis.gov/cencode/t39c09.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "urbanInterstateMaxMph": {
+      "state": {
+        "status": "value",
+        "value": 75,
+        "conditions": [
+          {
+            "kind": "road-class",
+            "detail": "urban interstate segments posted at 75 mph"
+          }
+        ]
+      },
+      "display": "Maximum posted speed limit on urban interstates is 75 mph (the statutory ceiling of 80 mph applies to interstates generally).",
+      "citation": {
+        "label": "IIHS maximum posted speed limits by state (July 2026)",
+        "citation": "IIHS, Maximum posted speed limits (North Dakota: 80 mph rural interstates, 75 mph urban interstates)",
+        "url": "https://www.iihs.org/topics/speed/speed-limit-laws"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "residentialDefaultMph": {
+      "state": {
+        "status": "value",
+        "value": 25,
+        "conditions": [
+          {
+            "kind": "locality",
+            "detail": "business district, residence district or public park, unless a different limit is posted"
+          }
+        ]
+      },
+      "display": "25 mph on any highway in a business district, residence district or public park unless a different speed is designated and posted by local authorities.",
+      "citation": {
+        "label": "Speed limitations",
+        "citation": "N.D. Cent. Code § 39-09-02",
+        "url": "https://ndlegis.gov/cencode/t39c09.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "schoolZoneMph": {
+      "state": {
+        "status": "value",
+        "value": 20,
+        "conditions": [
+          {
+            "kind": "time-of-day",
+            "detail": "during school recess or while children are going to or leaving school at opening or closing hours"
+          }
+        ]
+      },
+      "display": "20 mph when passing a school during recess or while children are going to or leaving school during opening or closing hours, unless local authorities post a lower speed.",
+      "citation": {
+        "label": "Speed limitations",
+        "citation": "N.D. Cent. Code § 39-09-02",
+        "url": "https://ndlegis.gov/cencode/t39c09.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "basicSpeedLaw": {
+      "state": {
+        "status": "value",
+        "value": true
+      },
+      "display": "An individual may not drive at a speed greater than is reasonable and prudent under the conditions, having regard for actual and potential hazards.",
+      "citation": {
+        "label": "Basic rule - Penalty for violation",
+        "citation": "N.D. Cent. Code § 39-09-01",
+        "url": "https://ndlegis.gov/cencode/t39c09.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "rightTurnOnRed": {
+      "state": {
+        "status": "value",
+        "value": "allowed-after-stop"
+      },
+      "display": "After stopping at a steady red signal, a driver may turn right (or left from a one-way street into a one-way street) unless a sign prohibits the turn.",
+      "citation": {
+        "label": "Traffic-control signal legend",
+        "citation": "N.D. Cent. Code § 39-10-05",
+        "url": "https://ndlegis.gov/cencode/t39c10.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "leftTurnOnRedFromOneWay": {
+      "state": {
+        "status": "value",
+        "value": "allowed"
+      },
+      "display": "A left turn on a steady red signal is permitted from a one-way street into a one-way street after stopping, unless prohibited by sign.",
+      "citation": {
+        "label": "Traffic-control signal legend",
+        "citation": "N.D. Cent. Code § 39-10-05",
+        "url": "https://ndlegis.gov/cencode/t39c10.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "seatBeltEnforcement": {
+      "state": {
+        "status": "value",
+        "value": "primary"
+      },
+      "display": "Seat belt use is primary-enforcement statewide: the secondary-enforcement limitation in N.D.C.C. § 39-21-41.5 was repealed by 2023 N.D. Sess. Laws ch. 362, § 2.",
+      "citation": {
+        "label": "N.D.C.C. § 39-21-41.5 (Repealed by S.L. 2023, ch. 362, § 2); N.D.C.C. § 39-21-41.2 (occupant restraints)",
+        "citation": "N.D. Cent. Code §§ 39-21-41.2, 39-21-41.5 (repealed 2023)",
+        "url": "https://ndlegis.gov/cencode/t39c21.pdf"
+      },
+      "effectiveDate": "2023-08-01",
+      "lastVerified": "2026-07-27",
+      "confidence": "verified"
+    },
+    "handheldPhone": {
+      "state": {
+        "status": "value",
+        "value": "banned-novice",
+        "conditions": [
+          {
+            "kind": "driver-age",
+            "detail": "drivers under 18, instruction permit holders and restricted class D licensees"
+          }
+        ]
+      },
+      "display": "No general handheld ban for adults; drivers under 18, instruction permit holders and minors with a restricted class D license may not use an electronic communication device while the vehicle is in motion (emergency exceptions).",
+      "citation": {
+        "label": "Use of an electronic communication device by minor prohibited",
+        "citation": "N.D. Cent. Code § 39-08-24",
+        "url": "https://ndlegis.gov/cencode/t39c08.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "texting": {
+      "state": {
+        "status": "value",
+        "value": "banned-all"
+      },
+      "display": "No individual may operate a motor vehicle in motion while using a wireless communications device to compose, read or send an electronic message.",
+      "citation": {
+        "label": "Use of a wireless communications device prohibited",
+        "citation": "N.D. Cent. Code § 39-08-23",
+        "url": "https://ndlegis.gov/cencode/t39c08.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "moveOver": {
+      "state": {
+        "status": "value",
+        "value": {
+          "requirement": "lane-change-or-slow",
+          "coveredVehicles": [
+            "emergency",
+            "tow",
+            "utility",
+            "any-flashing"
+          ]
+        }
+      },
+      "display": "Approaching a stationary vehicle displaying flashing lights (emergency, towing, highway maintenance or utility), a driver must move to a non-adjacent lane if possible, or otherwise slow to a reasonable and prudent speed.",
+      "citation": {
+        "label": "Vehicle to yield the right of way for stationary motor vehicles (see also § 39-10-26 for emergency vehicles)",
+        "citation": "N.D. Cent. Code § 39-10-26.3",
+        "url": "https://ndlegis.gov/cencode/t39c10.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "headlightsRequired": {
+      "state": {
+        "status": "value",
+        "value": {
+          "whenWipersOn": false,
+          "minutesAfterSunset": 0
+        }
+      },
+      "display": "Lighted lamps are required from sunset to sunrise and at any other time when visibility is insufficient (under 1,000 feet); North Dakota has no statutory wipers-on headlight rule.",
+      "citation": {
+        "label": "When lighted lamps are required",
+        "citation": "N.D. Cent. Code § 39-21-01",
+        "url": "https://ndlegis.gov/cencode/t39c21.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "parkFtFromHydrant": {
+      "state": {
+        "status": "value",
+        "value": 10
+      },
+      "display": "No stopping, standing or parking within 10 feet of a fire hydrant.",
+      "citation": {
+        "label": "Stopping, standing, or parking prohibited in specified places",
+        "citation": "N.D. Cent. Code § 39-10-49",
+        "url": "https://ndlegis.gov/cencode/t39c10.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "parkFtFromCrosswalk": {
+      "state": {
+        "status": "value",
+        "value": 10,
+        "conditions": [
+          {
+            "kind": "locality",
+            "detail": "crosswalk at an intersection; parking on a crosswalk is prohibited entirely"
+          }
+        ]
+      },
+      "display": "No parking on a crosswalk, or within 10 feet of a crosswalk at an intersection.",
+      "citation": {
+        "label": "Stopping, standing, or parking prohibited in specified places",
+        "citation": "N.D. Cent. Code § 39-10-49",
+        "url": "https://ndlegis.gov/cencode/t39c10.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "parkFtFromStopSign": {
+      "state": {
+        "status": "value",
+        "value": 15
+      },
+      "display": "No parking within 15 feet upon the approach to a flashing beacon, stop sign or traffic-control signal located at the side of a roadway.",
+      "citation": {
+        "label": "Stopping, standing, or parking prohibited in specified places",
+        "citation": "N.D. Cent. Code § 39-10-49",
+        "url": "https://ndlegis.gov/cencode/t39c10.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "parkFtFromRailroad": {
+      "state": {
+        "status": "value",
+        "value": 15
+      },
+      "display": "No parking within 15 feet of the nearest rail of a railroad crossing.",
+      "citation": {
+        "label": "Stopping, standing, or parking prohibited in specified places",
+        "citation": "N.D. Cent. Code § 39-10-49",
+        "url": "https://ndlegis.gov/cencode/t39c10.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "pointSystem": {
+      "state": {
+        "status": "value",
+        "value": true
+      },
+      "display": "The director assigns points for traffic convictions and acts against the license when points accumulate.",
+      "citation": {
+        "label": "Point system",
+        "citation": "N.D. Cent. Code § 39-06.1-10",
+        "url": "https://ndlegis.gov/cencode/t39c06-1.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "pointSuspension": {
+      "state": {
+        "status": "value",
+        "value": {
+          "points": 12,
+          "windowMonths": 0
+        }
+      },
+      "display": "The director must move to suspend the license once a driving record shows a total of 12 or more points. There is no fixed look-back window: the point total is reduced by one point for each three-month period without a recorded violation.",
+      "citation": {
+        "label": "Point system",
+        "citation": "N.D. Cent. Code § 39-06.1-10",
+        "url": "https://ndlegis.gov/cencode/t39c06-1.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "permitMinAgeMonths": {
+      "state": {
+        "status": "value",
+        "value": 168
+      },
+      "display": "A class D instruction permit may be issued to a resident who is at least 14 years old.",
+      "citation": {
+        "label": "Class D instruction permit",
+        "citation": "N.D. Cent. Code § 39-06-04",
+        "url": "https://ndlegis.gov/cencode/t39c06.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "permitHoldingMonths": {
+      "state": {
+        "status": "varies",
+        "variants": [
+          {
+            "value": 12,
+            "conditions": [
+              {
+                "kind": "driver-age",
+                "detail": "applicants under 16"
+              }
+            ]
+          },
+          {
+            "value": 6,
+            "conditions": [
+              {
+                "kind": "driver-age",
+                "detail": "applicants 16 or 17"
+              }
+            ]
+          }
+        ]
+      },
+      "display": "An applicant under 18 is not eligible for a class D license until the instruction permit has been held at least six months, or at least twelve months if the applicant is under 16.",
+      "citation": {
+        "label": "Class D instruction permit",
+        "citation": "N.D. Cent. Code § 39-06-04",
+        "url": "https://ndlegis.gov/cencode/t39c06.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "supervisedHoursTotal": {
+      "state": {
+        "status": "value",
+        "value": 50
+      },
+      "display": "A minor must accumulate at least 50 hours of supervised behind-the-wheel experience in varied conditions before a restricted class D license is issued.",
+      "citation": {
+        "label": "Restricted licenses - Penalty for violation",
+        "citation": "N.D. Cent. Code § 39-06-17",
+        "url": "https://ndlegis.gov/cencode/t39c06.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "supervisedHoursNight": {
+      "state": {
+        "status": "not-applicable",
+        "reason": "North Dakota requires that the 50 supervised hours include night driving, gravel/dirt road driving, rural and urban driving and winter conditions, but sets no separate minimum number of night hours."
+      },
+      "display": "No specific night-hour minimum: the 50 required supervised hours must include night driving among other varied conditions.",
+      "citation": {
+        "label": "Restricted licenses - Penalty for violation",
+        "citation": "N.D. Cent. Code § 39-06-17",
+        "url": "https://ndlegis.gov/cencode/t39c06.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "gdlNightCurfew": {
+      "state": {
+        "status": "value",
+        "value": {
+          "startHour24": 21,
+          "endHour24": 5
+        }
+      },
+      "display": "A restricted class D licensee may not drive between the later of sunset or 9:00 p.m. and 5:00 a.m. unless accompanied by a licensed adult 18 or older.",
+      "citation": {
+        "label": "Restricted licenses - Penalty for violation",
+        "citation": "N.D. Cent. Code § 39-06-17",
+        "url": "https://ndlegis.gov/cencode/t39c06.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "gdlPassengerPhase1": {
+      "state": {
+        "status": "not-applicable",
+        "reason": "North Dakota imposes no young-passenger limit on restricted class D licensees; the only passenger restriction is that the driver may not carry more passengers than the vehicle manufacturer's suggested capacity."
+      },
+      "display": "No passenger-age restriction: a restricted class D licensee may not exceed the manufacturer’s suggested passenger capacity.",
+      "citation": {
+        "label": "Restricted licenses - Penalty for violation",
+        "citation": "N.D. Cent. Code § 39-06-17",
+        "url": "https://ndlegis.gov/cencode/t39c06.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "minLiability": {
+      "state": {
+        "status": "value",
+        "value": {
+          "bodilyPerPerson": 25000,
+          "bodilyPerCrash": 50000,
+          "property": 25000
+        }
+      },
+      "display": "Minimum liability coverage is $25,000 per person / $50,000 per accident for bodily injury and $25,000 for property damage.",
+      "citation": {
+        "label": "Motor vehicle liability policy",
+        "citation": "N.D. Cent. Code § 39-16.1-11",
+        "url": "https://ndlegis.gov/cencode/t39c16-1.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "crashReportThresholdUsd": {
+      "state": {
+        "status": "value",
+        "value": 4000
+      },
+      "display": "A crash must be reported when it results in injury or death, or total property damage of $4,000 or more.",
+      "citation": {
+        "label": "Immediate notice of accident - Penalty",
+        "citation": "N.D. Cent. Code § 39-08-09",
+        "url": "https://ndlegis.gov/cencode/t39c08.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    }
+  },
   "references": [
     {
       "label": "North Dakota Noncommercial Driver License Manual (2025-2027)",

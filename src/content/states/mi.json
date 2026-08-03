@@ -9,8 +9,14 @@
   "handbookEditionYear": 2025,
   "handbookCopyrightStatus": "unknown",
   "applicantVariants": [
-    { "id": "under-18", "label": "Under 18 (Graduated Licensing Level 1/Level 2)" },
-    { "id": "adult", "label": "Adult (18+, original operator license)" }
+    {
+      "id": "under-18",
+      "label": "Under 18 (Graduated Licensing Level 1/Level 2)"
+    },
+    {
+      "id": "adult",
+      "label": "Adult (18+, original operator license)"
+    }
   ],
   "examVariants": [
     {
@@ -18,7 +24,9 @@
       "label": "Knowledge test (Secretary of State branch)",
       "numQuestions": 50,
       "numToPass": 40,
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "onlineAvailable": true
     }
   ],
@@ -61,7 +69,607 @@
     "moveOverRule": "Slow down and, if safe, move over one lane for stopped emergency, tow, and utility vehicles displaying flashing lights",
     "interstateMaxSpeed": "70 mph (75 mph on some posted rural freeway segments)",
     "schoolZoneSpeed": "As posted (commonly 25 mph when children are present)",
-    "namedLaws": ["Kelsey's Law (teen cell phone ban)", "Michigan Hands-Free Law (2023)", "Move Over Law", "High BAC 'Super Drunk' Law"]
+    "namedLaws": [
+      "Kelsey's Law (teen cell phone ban)",
+      "Michigan Hands-Free Law (2023)",
+      "Move Over Law",
+      "High BAC 'Super Drunk' Law"
+    ]
+  },
+  "typedFacts": {
+    "bacAdult": {
+      "state": {
+        "status": "value",
+        "value": 0.08
+      },
+      "display": "It is unlawful to operate a vehicle with an alcohol content of 0.08 grams or more per 100 mL of blood, per 210 L of breath, or per 67 mL of urine ('operating while intoxicated'); a separate enhanced 'High BAC' offense applies at 0.17 or more.",
+      "citation": {
+        "label": "MCL 257.625(1)(b)",
+        "citation": "Michigan Vehicle Code, MCL 257.625(1)(b)",
+        "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-625"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "bacUnder21": {
+      "state": {
+        "status": "value",
+        "value": 0.02,
+        "conditions": [
+          {
+            "kind": "driver-age",
+            "detail": "Applies to any operator under 21. Michigan's 'zero tolerance' law prohibits driving with 'any bodily alcohol content,' defined as either 0.02 or more (but under 0.08) OR any presence of alcohol from consuming alcoholic liquor (other than a religious service), so the 0.02 figure is the codified numeric floor within an effectively zero-tolerance rule."
+          }
+        ]
+      },
+      "display": "Drivers under 21 may not operate with 'any bodily alcohol content' — a codified threshold of 0.02 or more, and also any measurable presence of alcohol from drinking (zero tolerance), short of the 0.08 adult limit.",
+      "citation": {
+        "label": "MCL 257.625(6)",
+        "citation": "Michigan Vehicle Code, MCL 257.625(6)(a)-(b)",
+        "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-625"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "bacCommercial": {
+      "state": {
+        "status": "value",
+        "value": 0.04
+      },
+      "display": "A person may not operate a commercial motor vehicle with an alcohol content of 0.04 or more per 100 mL of blood, per 210 L of breath, or per 67 mL of urine.",
+      "citation": {
+        "label": "MCL 257.625m(1)",
+        "citation": "Michigan Vehicle Code, MCL 257.625m(1)",
+        "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-625m"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "impliedConsentRefusal": {
+      "state": {
+        "status": "value",
+        "value": {
+          "suspensionMonths": 12,
+          "criminalOffense": false
+        },
+        "conditions": [
+          {
+            "kind": "posting",
+            "detail": "Unreasonably refusing a peace officer's chemical test under implied consent results in a 1-year (12-month) license suspension for a first refusal and 2 years for a second or subsequent refusal within 7 years, plus 6 points added to the record. It is an administrative Secretary of State sanction, not a separate crime."
+          }
+        ]
+      },
+      "display": "Refusing a lawfully requested chemical test under Michigan's implied-consent law results in a 1-year administrative license suspension for a first refusal (2 years for a repeat within 7 years) and 6 points; the refusal itself is not a separate criminal offense.",
+      "citation": {
+        "label": "MCL 257.625f(1)",
+        "citation": "Michigan Vehicle Code, MCL 257.625f(1)(a)",
+        "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-625f"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "openContainerProhibited": {
+      "state": {
+        "status": "value",
+        "value": true
+      },
+      "display": "An operator or occupant may not transport or possess an open, uncapped, or broken-seal container of alcoholic liquor in the passenger area of a vehicle on a highway; storing it in a locked glove box, behind the last upright seat, or in a trunk/area not normally occupied is permitted (limited exceptions for chartered vehicles and commercial quadricycles).",
+      "citation": {
+        "label": "MCL 257.624a",
+        "citation": "Michigan Vehicle Code, MCL 257.624a(1)-(2)",
+        "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-624a"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "duiFirstSuspensionDays": {
+      "state": {
+        "status": "value",
+        "value": 180
+      },
+      "display": "For a first operating-while-intoxicated conviction (MCL 257.625(1)) with no priors within 7 years, the Secretary of State suspends the license for 180 days; no restricted license may be issued during the first 30 days.",
+      "citation": {
+        "label": "MCL 257.319(8)(a)",
+        "citation": "Michigan Vehicle Code, MCL 257.319(8)(a)",
+        "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-319"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "ruralInterstateMaxMph": {
+      "state": {
+        "status": "varies",
+        "variants": [
+          {
+            "value": 70,
+            "conditions": [
+              {
+                "kind": "road-class",
+                "detail": "'Limited access freeway general speed limit' of 70 mph applies on limited-access freeways where a speed limit is not otherwise fixed and posted (MCL 257.627(8))."
+              }
+            ]
+          },
+          {
+            "value": 75,
+            "conditions": [
+              {
+                "kind": "posting",
+                "detail": "75 mph is posted on qualifying rural limited-access freeway segments where an engineering/85th-percentile study supports it; MCL 257.627(17) directed raising at least 600 miles of freeway to 75 mph."
+              }
+            ]
+          }
+        ]
+      },
+      "display": "The general limited-access freeway limit is 70 mph; qualifying rural freeway segments are posted at 75 mph where an engineering and 85th-percentile speed study supports it.",
+      "citation": {
+        "label": "MCL 257.627(8),(17)",
+        "citation": "Michigan Vehicle Code, MCL 257.627(8) and (17)",
+        "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-627"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "urbanInterstateMaxMph": {
+      "state": {
+        "status": "varies",
+        "variants": [
+          {
+            "value": 55,
+            "conditions": [
+              {
+                "kind": "locality",
+                "detail": "Michigan sets no separate statutory 'urban interstate' limit; metropolitan freeway segments (e.g., in metro Detroit) are commonly posted at 55-70 mph via traffic-control orders jointly issued by MDOT and the State Police under MCL 257.628(3), with 55 mph a common lower posting."
+              }
+            ]
+          }
+        ]
+      },
+      "display": "There is no separate statutory urban-freeway limit; the 70 mph general freeway limit applies unless MDOT and the State Police post a lower limit for a segment (commonly 55 mph on congested metro freeways).",
+      "citation": {
+        "label": "MCL 257.627(8); 257.628(3)",
+        "citation": "Michigan Vehicle Code, MCL 257.627(8) and MCL 257.628(3)",
+        "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-628"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "residentialDefaultMph": {
+      "state": {
+        "status": "value",
+        "value": 25,
+        "conditions": [
+          {
+            "kind": "road-class",
+            "detail": "25 mph is the statutory limit on a highway segment within a residential subdivision or condominium subdivision, and on local-street-system segments within residentially zoned land, unless another speed is fixed and posted (MCL 257.627(2)(d)-(e)); business-district segments are likewise 25 mph."
+          }
+        ]
+      },
+      "display": "Absent another posted limit, the default speed limit in a residential subdivision or on residential local streets is 25 mph.",
+      "citation": {
+        "label": "MCL 257.627(2)(d)-(e)",
+        "citation": "Michigan Vehicle Code, MCL 257.627(2)(d)-(e)",
+        "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-627"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "schoolZoneMph": {
+      "state": {
+        "status": "value",
+        "value": 25,
+        "conditions": [
+          {
+            "kind": "posting",
+            "detail": "Michigan sets no single statewide statutory school-zone speed number; school-zone limits are established locally by traffic-control order and posting under MCL 257.627/257.628. 25 mph is the value commonly posted (some zones use a flashing-beacon reduced limit, e.g., during arrival/dismissal). The 25 mph figure is an approximation of the common posted limit, not a fixed statewide statute."
+          }
+        ]
+      },
+      "display": "Michigan has no single statewide statutory school-zone speed; local authorities set and post school-zone limits (commonly 25 mph, sometimes lower with flashing beacons) via traffic-control orders.",
+      "citation": {
+        "label": "MCL 257.627; 257.628",
+        "citation": "Michigan Vehicle Code, MCL 257.627 and MCL 257.628 (locally established, posted school-zone limits)",
+        "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-627"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "basicSpeedLaw": {
+      "state": {
+        "status": "value",
+        "value": true
+      },
+      "display": "A driver must operate at a careful and prudent speed that is reasonable and proper for conditions and never faster than allows stopping within the assured clear distance ahead, regardless of any posted limit (the 'basic speed law').",
+      "citation": {
+        "label": "MCL 257.627(1)",
+        "citation": "Michigan Vehicle Code, MCL 257.627(1)",
+        "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-627"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "rightTurnOnRed": {
+      "state": {
+        "status": "value",
+        "value": "allowed-after-stop"
+      },
+      "display": "After coming to a complete stop at a steady red signal, a driver may turn right (from a one-way or two-way street) unless a sign, signal, or marking prohibits the turn, yielding to pedestrians, bicyclists, and other traffic.",
+      "citation": {
+        "label": "MCL 257.612(1)(c)(ii)",
+        "citation": "Michigan Vehicle Code, MCL 257.612(1)(c)(ii)",
+        "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-612"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "leftTurnOnRedFromOneWay": {
+      "state": {
+        "status": "value",
+        "value": "allowed"
+      },
+      "display": "After stopping at a steady red signal, a driver may turn left from a one-way or two-way street onto a one-way roadway carrying traffic in the direction of the turn, unless prohibited by a sign, signal, or marking.",
+      "citation": {
+        "label": "MCL 257.612(1)(c)(ii)",
+        "citation": "Michigan Vehicle Code, MCL 257.612(1)(c)(ii)",
+        "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-612"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "seatBeltEnforcement": {
+      "state": {
+        "status": "value",
+        "value": "primary",
+        "conditions": [
+          {
+            "kind": "occupancy",
+            "detail": "Applies to the driver and front-seat passengers (and children 13-15 in any seat). Enforcement is primary unless the Office of Highway Safety Planning certifies belt use fell below 80% in the prior year, in which case MCL 257.710e(7) makes it secondary; Michigan use has remained well above 80%, so enforcement is primary."
+          }
+        ]
+      },
+      "display": "Michigan is a primary seat-belt enforcement state: officers may stop and cite a driver solely for an unbelted driver or front-seat passenger. Enforcement drops to secondary only if statewide belt use is certified below 80%.",
+      "citation": {
+        "label": "MCL 257.710e(3),(7)",
+        "citation": "Michigan Vehicle Code, MCL 257.710e(3) and (7)",
+        "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-710e"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "handheldPhone": {
+      "state": {
+        "status": "value",
+        "value": "banned-all",
+        "conditions": [
+          {
+            "kind": "vehicle-class",
+            "detail": "Under the 2023 hands-free law, all drivers are banned from holding or using a mobile electronic device while driving; voice-operated/hands-free use in a mount is permitted. A stricter total-use ban applies to commercial-vehicle and school-bus drivers (MCL 257.602b(2))."
+          }
+        ]
+      },
+      "display": "All Michigan drivers are prohibited from holding or manually using a handheld mobile device while driving (hands-free/mounted use is allowed); commercial and school-bus drivers face an even broader use ban.",
+      "citation": {
+        "label": "MCL 257.602b(1)",
+        "citation": "Michigan Vehicle Code, MCL 257.602b(1)-(2)",
+        "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-602b"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "texting": {
+      "state": {
+        "status": "value",
+        "value": "banned-all"
+      },
+      "display": "Texting is banned for all drivers: sending, receiving, or reading a text message on a handheld mobile device while driving is prohibited use under Michigan's hands-free law, regardless of age.",
+      "citation": {
+        "label": "MCL 257.602b(1)",
+        "citation": "Michigan Vehicle Code, MCL 257.602b(1); 'use' defined at MCL 257.602b(2)(a)(ii)",
+        "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-602b"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "moveOver": {
+      "state": {
+        "status": "value",
+        "value": {
+          "requirement": "lane-change-or-slow",
+          "coveredVehicles": [
+            "emergency",
+            "tow",
+            "utility"
+          ]
+        },
+        "conditions": [
+          {
+            "kind": "road-class",
+            "detail": "On a roadway with at least 2 lanes in the driver's direction, the driver must move over at least one lane (or 2 vehicle widths) away AND slow at least 10 mph below the posted limit; where moving over is not possible or on a single-lane approach, the driver must at least slow at least 10 mph below the posted limit. The statute covers stationary authorized emergency vehicles displaying flashing red, blue, white, or amber lights; amber lights under MCL 257.698 are used by tow/wrecker and road-service/utility vehicles. The 10-mph-below-posted reduction cannot be expressed in the schema's slowToMph field, so it is omitted here and stated in this display."
+          }
+        ]
+      },
+      "display": "Approaching a stopped emergency, tow, or utility/service vehicle showing flashing red/blue/white/amber lights, a driver must move over one lane (or two vehicle widths) if there are 2+ lanes in their direction and slow to at least 10 mph below the posted limit; if moving over is unsafe or unavailable, the driver must at minimum slow 10 mph below the posted limit.",
+      "citation": {
+        "label": "MCL 257.653a(1)",
+        "citation": "Michigan Vehicle Code, MCL 257.653a(1)(a)-(b)",
+        "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-653a"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "headlightsRequired": {
+      "state": {
+        "status": "value",
+        "value": {
+          "whenWipersOn": false,
+          "minutesAfterSunset": 30
+        },
+        "conditions": [
+          {
+            "kind": "time-of-day",
+            "detail": "Lighted lamps are required from a half hour (30 minutes) after sunset to a half hour before sunrise, and at any other time when persons/vehicles are not clearly discernible at 500 feet. Michigan has no explicit 'headlights when wipers/windshield wipers in use' statute, so whenWipersOn is set false; the 500-foot low-visibility trigger (which functionally covers rain/fog/snow) is described here since the schema has no visibility-distance field."
+          }
+        ]
+      },
+      "display": "Headlights must be lit from 30 minutes after sunset until 30 minutes before sunrise, and any time visibility is insufficient to clearly see persons and vehicles 500 feet ahead (e.g., rain, fog, snow). Michigan has no separate 'lights-on-with-wipers' mandate.",
+      "citation": {
+        "label": "MCL 257.684(a)",
+        "citation": "Michigan Vehicle Code, MCL 257.684(a)",
+        "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-684"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "parkFtFromHydrant": {
+      "state": {
+        "status": "value",
+        "value": 15
+      },
+      "display": "A vehicle may not be parked within 15 feet of a fire hydrant (except momentarily to comply with traffic, law, or an officer's direction).",
+      "citation": {
+        "label": "MCL 257.674(1)(d)",
+        "citation": "Michigan Vehicle Code, MCL 257.674(1)(d)",
+        "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-674"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "parkFtFromCrosswalk": {
+      "state": {
+        "status": "value",
+        "value": 20
+      },
+      "display": "A vehicle may not be parked within 20 feet of a crosswalk (or, where there is no crosswalk, within 15 feet of the intersection of property lines at an intersection).",
+      "citation": {
+        "label": "MCL 257.674(1)(f)",
+        "citation": "Michigan Vehicle Code, MCL 257.674(1)(f)",
+        "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-674"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "parkFtFromStopSign": {
+      "state": {
+        "status": "value",
+        "value": 30
+      },
+      "display": "A vehicle may not be parked within 30 feet of the approach to a flashing beacon, stop sign, or traffic-control signal located at the side of a highway.",
+      "citation": {
+        "label": "MCL 257.674(1)(g)",
+        "citation": "Michigan Vehicle Code, MCL 257.674(1)(g)",
+        "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-674"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "parkFtFromRailroad": {
+      "state": {
+        "status": "value",
+        "value": 50
+      },
+      "display": "A vehicle may not be parked within 50 feet of the nearest rail of a railroad crossing.",
+      "citation": {
+        "label": "MCL 257.674(1)(i)",
+        "citation": "Michigan Vehicle Code, MCL 257.674(1)(i)",
+        "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-674"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "pointSystem": {
+      "state": {
+        "status": "value",
+        "value": true
+      },
+      "display": "Michigan assesses points against a driver's record for traffic convictions on a schedule set by statute (e.g., 2-6 points per offense); points remain on the record for 2 years from the conviction date.",
+      "citation": {
+        "label": "MCL 257.320a",
+        "citation": "Michigan Vehicle Code, MCL 257.320a",
+        "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-320a"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "pointSuspension": {
+      "state": {
+        "status": "value",
+        "value": {
+          "points": 12,
+          "windowMonths": 24
+        },
+        "conditions": [
+          {
+            "kind": "driver-age",
+            "detail": "Accumulating 12 or more points within a 2-year (24-month) period is statutory grounds for the Secretary of State to require a driver reexamination, after which it may restrict, suspend, or revoke the license (suspension under this section is capped at 1 year). Suspension is not automatic at 12 points — it follows the reexamination/investigation, so the number represents the reexamination trigger that can lead to suspension."
+          }
+        ]
+      },
+      "display": "Reaching 12 or more points within 2 years is grounds for a mandatory driver reexamination, after which the Secretary of State may restrict, suspend (up to 1 year), or revoke the license; suspension is not automatic but flows from the reexamination.",
+      "citation": {
+        "label": "MCL 257.320(1)(d),(2)",
+        "citation": "Michigan Vehicle Code, MCL 257.320(1)(d) and (2),(4)",
+        "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-320"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "permitMinAgeMonths": {
+      "state": {
+        "status": "value",
+        "value": 177
+      },
+      "display": "A Level 1 graduated license (learner stage) may be issued at 14 years, 9 months of age (177 months), after passing a vision test and completing Segment 1 of driver education with at least 6 hours of behind-the-wheel instruction, with parental approval.",
+      "citation": {
+        "label": "MCL 257.310e(3)",
+        "citation": "Michigan Vehicle Code, MCL 257.310e(3)",
+        "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-310e"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "permitHoldingMonths": {
+      "state": {
+        "status": "value",
+        "value": 6
+      },
+      "display": "A driver must hold Level 1 graduated licensing status for at least 6 months before advancing to Level 2.",
+      "citation": {
+        "label": "MCL 257.310e(4)-(5)",
+        "citation": "Michigan Vehicle Code, MCL 257.310e(4) and (5)(a)",
+        "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-310e"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "supervisedHoursTotal": {
+      "state": {
+        "status": "value",
+        "value": 50
+      },
+      "display": "Before advancing to Level 2, a Level 1 driver must accumulate at least 50 hours of behind-the-wheel experience with a licensed parent/guardian or a designated licensed driver 21 or older.",
+      "citation": {
+        "label": "MCL 257.310e(5)(d)",
+        "citation": "Michigan Vehicle Code, MCL 257.310e(5)(d)",
+        "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-310e"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "supervisedHoursNight": {
+      "state": {
+        "status": "value",
+        "value": 10
+      },
+      "display": "At least 10 of the 50 required supervised behind-the-wheel hours must be at night (this nighttime requirement does not apply to a daylight-only restricted license).",
+      "citation": {
+        "label": "MCL 257.310e(5)(d)",
+        "citation": "Michigan Vehicle Code, MCL 257.310e(5)(d)",
+        "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-310e"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "gdlNightCurfew": {
+      "state": {
+        "status": "value",
+        "value": {
+          "startHour24": 22,
+          "endHour24": 5
+        },
+        "conditions": [
+          {
+            "kind": "gdl-phase",
+            "detail": "Applies to Level 2 graduated-license holders: no driving between 10 p.m. (hour 22) and 5 a.m. Exceptions: when accompanied by a parent/guardian or a designated licensed driver 21+, or when driving in the course of, or to/from, employment or an authorized activity. Curfew hours are whole hours, so no rounding was needed."
+          }
+        ]
+      },
+      "display": "A Level 2 (intermediate) driver may not drive between 10 p.m. and 5 a.m. unless accompanied by a parent/guardian or designated licensed driver 21+, or when driving to/from or during work or an authorized activity.",
+      "citation": {
+        "label": "MCL 257.310e(6)(a)",
+        "citation": "Michigan Vehicle Code, MCL 257.310e(6)(a)",
+        "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-310e"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "gdlPassengerPhase1": {
+      "state": {
+        "status": "value",
+        "value": {
+          "cap": 1,
+          "underAge": 21,
+          "familyExempt": true
+        },
+        "conditions": [
+          {
+            "kind": "gdl-phase",
+            "detail": "Michigan's passenger restriction applies at Level 2 (the intermediate stage; at Level 1 an adult must always accompany the driver, so passengers are moot). A Level 2 driver may carry no more than 1 passenger under 21. Exceptions: passengers who are immediate family members, when accompanied by a parent/guardian or designated licensed driver 21+, or when driving to/from or during employment or an authorized activity."
+          }
+        ]
+      },
+      "display": "A Level 2 (intermediate) driver may not carry more than one passenger under 21, except immediate family members, when supervised by a parent/guardian or designated driver 21+, or when traveling to/from or during work or an authorized activity.",
+      "citation": {
+        "label": "MCL 257.310e(6)(b)",
+        "citation": "Michigan Vehicle Code, MCL 257.310e(6)(b)",
+        "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-310e"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "minLiability": {
+      "state": {
+        "status": "varies",
+        "variants": [
+          {
+            "value": {
+              "bodilyPerPerson": 250000,
+              "bodilyPerCrash": 500000,
+              "property": 10000
+            },
+            "conditions": [
+              {
+                "kind": "posting",
+                "detail": "Default limits that apply when the insured does not sign the statutory election form: $250,000 per person / $500,000 per accident bodily injury, and $10,000 property damage (MCL 500.3009(1),(8))."
+              }
+            ]
+          },
+          {
+            "value": {
+              "bodilyPerPerson": 50000,
+              "bodilyPerCrash": 100000,
+              "property": 10000
+            },
+            "conditions": [
+              {
+                "kind": "posting",
+                "detail": "Lowest bodily-injury limits an insured may elect by signing the MCL 500.3009(5) form: $50,000 per person / $100,000 per accident; property-damage minimum remains $10,000."
+              }
+            ]
+          }
+        ]
+      },
+      "display": "Since Michigan's 2019 auto no-fault reform, the default minimum liability limits are $250,000 per person / $500,000 per accident bodily injury and $10,000 property damage, but a policyholder may sign a form to elect lower bodily-injury limits down to a floor of $50,000 / $100,000 (property stays $10,000).",
+      "citation": {
+        "label": "MCL 500.3009(1),(5),(8)",
+        "citation": "Insurance Code of 1956, MCL 500.3009(1)(a)-(c), (5), (8)",
+        "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-500-3009"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "crashReportThresholdUsd": {
+      "state": {
+        "status": "value",
+        "value": 1000
+      },
+      "display": "A driver in a crash that injures or kills a person, or that damages property to an apparent total of $1,000 or more, must immediately report it to the nearest police station or officer.",
+      "citation": {
+        "label": "MCL 257.622",
+        "citation": "Michigan Vehicle Code, MCL 257.622",
+        "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-622"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    }
   },
   "references": [
     {

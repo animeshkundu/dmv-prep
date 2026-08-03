@@ -21,6 +21,8 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
+      - name: Report content coverage and distribution
+        run: npm run content:report
       - name: Check official links + source hashes
         id: check
         run: node scripts/check-links.mjs --report link-report.json || echo "failures=true" >> "$GITHUB_OUTPUT"

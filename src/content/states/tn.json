@@ -89,6 +89,456 @@
   "effectiveDate": "2026-07-24",
   "sourceSnapshotHash": "seed-pending-verification",
   "reviewStatus": "adversarially-verified",
-  "lastVerified": "2026-07-24",
-  "contentVersion": 1
+  "lastVerified": "2026-07-27",
+  "contentVersion": 1,
+  "typedFacts": {
+    "bacAdult": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Tennessee Comprehensive Driver License Manual",
+        "citation": "Tennessee Comprehensive Driver License Manual",
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "bacUnder21": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Tennessee Comprehensive Driver License Manual",
+        "citation": "Tennessee Comprehensive Driver License Manual",
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "bacCommercial": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Tennessee Comprehensive Driver License Manual",
+        "citation": "Tennessee Comprehensive Driver License Manual",
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "impliedConsentRefusal": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Tennessee Comprehensive Driver License Manual",
+        "citation": "Tennessee Comprehensive Driver License Manual",
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "openContainerProhibited": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Tennessee Comprehensive Driver License Manual",
+        "citation": "Tennessee Comprehensive Driver License Manual",
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "duiFirstSuspensionDays": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Tennessee Comprehensive Driver License Manual",
+        "citation": "Tennessee Comprehensive Driver License Manual",
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "ruralInterstateMaxMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Tennessee Comprehensive Driver License Manual",
+        "citation": "Tennessee Comprehensive Driver License Manual",
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "urbanInterstateMaxMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Tennessee Comprehensive Driver License Manual",
+        "citation": "Tennessee Comprehensive Driver License Manual",
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "residentialDefaultMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Tennessee Comprehensive Driver License Manual",
+        "citation": "Tennessee Comprehensive Driver License Manual",
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "schoolZoneMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Tennessee Comprehensive Driver License Manual",
+        "citation": "Tennessee Comprehensive Driver License Manual",
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "basicSpeedLaw": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Tennessee Comprehensive Driver License Manual",
+        "citation": "Tennessee Comprehensive Driver License Manual",
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "rightTurnOnRed": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Tennessee Comprehensive Driver License Manual",
+        "citation": "Tennessee Comprehensive Driver License Manual",
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "leftTurnOnRedFromOneWay": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Tennessee Comprehensive Driver License Manual",
+        "citation": "Tennessee Comprehensive Driver License Manual",
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "seatBeltEnforcement": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Tennessee Comprehensive Driver License Manual",
+        "citation": "Tennessee Comprehensive Driver License Manual",
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "handheldPhone": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Tennessee Comprehensive Driver License Manual",
+        "citation": "Tennessee Comprehensive Driver License Manual",
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "texting": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Tennessee Comprehensive Driver License Manual",
+        "citation": "Tennessee Comprehensive Driver License Manual",
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "moveOver": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Tennessee Comprehensive Driver License Manual",
+        "citation": "Tennessee Comprehensive Driver License Manual",
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "headlightsRequired": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Tennessee Comprehensive Driver License Manual",
+        "citation": "Tennessee Comprehensive Driver License Manual",
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "parkFtFromHydrant": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Tennessee Comprehensive Driver License Manual",
+        "citation": "Tennessee Comprehensive Driver License Manual",
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "parkFtFromCrosswalk": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Tennessee Comprehensive Driver License Manual",
+        "citation": "Tennessee Comprehensive Driver License Manual",
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "parkFtFromStopSign": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Tennessee Comprehensive Driver License Manual",
+        "citation": "Tennessee Comprehensive Driver License Manual",
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "parkFtFromRailroad": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Tennessee Comprehensive Driver License Manual",
+        "citation": "Tennessee Comprehensive Driver License Manual",
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "pointSystem": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Tennessee Comprehensive Driver License Manual",
+        "citation": "Tennessee Comprehensive Driver License Manual",
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "pointSuspension": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Tennessee Comprehensive Driver License Manual",
+        "citation": "Tennessee Comprehensive Driver License Manual",
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "permitMinAgeMonths": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Tennessee Comprehensive Driver License Manual",
+        "citation": "Tennessee Comprehensive Driver License Manual",
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "permitHoldingMonths": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Tennessee Comprehensive Driver License Manual",
+        "citation": "Tennessee Comprehensive Driver License Manual",
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "supervisedHoursTotal": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Tennessee Comprehensive Driver License Manual",
+        "citation": "Tennessee Comprehensive Driver License Manual",
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "supervisedHoursNight": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Tennessee Comprehensive Driver License Manual",
+        "citation": "Tennessee Comprehensive Driver License Manual",
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "gdlNightCurfew": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Tennessee Comprehensive Driver License Manual",
+        "citation": "Tennessee Comprehensive Driver License Manual",
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "gdlPassengerPhase1": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Tennessee Comprehensive Driver License Manual",
+        "citation": "Tennessee Comprehensive Driver License Manual",
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "minLiability": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Tennessee Comprehensive Driver License Manual",
+        "citation": "Tennessee Comprehensive Driver License Manual",
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+      },
+      "lastVerified": "2026-07-27"
+    },
+    "crashReportThresholdUsd": {
+      "state": {
+        "status": "unknown",
+        "reason": "The cited reachable source identifies the governing rule, but this review did not establish an exact machine-usable value, all applicable conditions, and the rule’s actual effective date as of 2026-07-27; do not generate from this fact."
+      },
+      "display": "Unknown — exact value/conditions and rule effective date not established",
+      "confidence": "unknown",
+      "citation": {
+        "label": "Tennessee Comprehensive Driver License Manual",
+        "citation": "Tennessee Comprehensive Driver License Manual",
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+      },
+      "lastVerified": "2026-07-27"
+    }
+  }
 }

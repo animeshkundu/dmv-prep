@@ -10,7 +10,10 @@
   "handbookEditionYear": 2025,
   "handbookCopyrightStatus": "public-domain",
   "applicantVariants": [
-    { "id": "standard", "label": "All applicants (Class D non-commercial)" }
+    {
+      "id": "standard",
+      "label": "All applicants (Class D non-commercial)"
+    }
   ],
   "examVariants": [
     {
@@ -18,7 +21,10 @@
       "label": "Knowledge test (Class D non-commercial)",
       "numQuestions": 40,
       "numToPass": 30,
-      "languages": ["en", "es"],
+      "languages": [
+        "en",
+        "es"
+      ],
       "onlineAvailable": true
     }
   ],
@@ -61,7 +67,9 @@
     "moveOverRule": "Move Over Law: move over one lane when approaching a stopped emergency, road-service, or maintenance vehicle with flashing lights; if moving over is unsafe, slow down and proceed with caution",
     "interstateMaxSpeed": "70 mph on rural interstates and turnpike where posted",
     "schoolZoneSpeed": "20 mph during recess and while children are arriving or leaving, during posted school hours",
-    "namedLaws": ["Move Over Law"]
+    "namedLaws": [
+      "Move Over Law"
+    ]
   },
   "references": [
     {
@@ -79,5 +87,455 @@
   "sourceSnapshotHash": "seed-pending-verification",
   "reviewStatus": "adversarially-verified",
   "lastVerified": "2026-07-24",
-  "contentVersion": 1
+  "contentVersion": 1,
+  "typedFacts": {
+    "bacAdult": {
+      "state": {
+        "status": "value",
+        "value": 0.08
+      },
+      "display": "0.08%",
+      "citation": {
+        "label": "Digest of Ohio Motor Vehicle Laws",
+        "citation": "Ohio BMV / OSHP, Digest of Ohio Motor Vehicle Laws",
+        "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "bacCommercial": {
+      "state": {
+        "status": "value",
+        "value": 0.04
+      },
+      "display": "0.04%",
+      "citation": {
+        "label": "Digest of Ohio Motor Vehicle Laws",
+        "citation": "Ohio BMV / OSHP, Digest of Ohio Motor Vehicle Laws",
+        "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "bacUnder21": {
+      "state": {
+        "status": "value",
+        "value": 0.02
+      },
+      "display": "0.02%",
+      "citation": {
+        "label": "Digest of Ohio Motor Vehicle Laws",
+        "citation": "Ohio BMV / OSHP, Digest of Ohio Motor Vehicle Laws",
+        "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "impliedConsentRefusal": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Digest of Ohio Motor Vehicle Laws",
+        "citation": "Ohio BMV / OSHP, Digest of Ohio Motor Vehicle Laws",
+        "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "openContainerProhibited": {
+      "state": {
+        "status": "value",
+        "value": true
+      },
+      "display": "Yes",
+      "citation": {
+        "label": "Digest of Ohio Motor Vehicle Laws",
+        "citation": "Ohio BMV / OSHP, Digest of Ohio Motor Vehicle Laws",
+        "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "duiFirstSuspensionDays": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Digest of Ohio Motor Vehicle Laws",
+        "citation": "Ohio BMV / OSHP, Digest of Ohio Motor Vehicle Laws",
+        "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "ruralInterstateMaxMph": {
+      "state": {
+        "status": "value",
+        "value": 70
+      },
+      "display": "70 mph",
+      "citation": {
+        "label": "Digest of Ohio Motor Vehicle Laws",
+        "citation": "Ohio BMV / OSHP, Digest of Ohio Motor Vehicle Laws",
+        "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "urbanInterstateMaxMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Digest of Ohio Motor Vehicle Laws",
+        "citation": "Ohio BMV / OSHP, Digest of Ohio Motor Vehicle Laws",
+        "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "residentialDefaultMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Digest of Ohio Motor Vehicle Laws",
+        "citation": "Ohio BMV / OSHP, Digest of Ohio Motor Vehicle Laws",
+        "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "schoolZoneMph": {
+      "state": {
+        "status": "value",
+        "value": 20
+      },
+      "display": "20 mph",
+      "citation": {
+        "label": "Digest of Ohio Motor Vehicle Laws",
+        "citation": "Ohio BMV / OSHP, Digest of Ohio Motor Vehicle Laws",
+        "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "basicSpeedLaw": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Digest of Ohio Motor Vehicle Laws",
+        "citation": "Ohio BMV / OSHP, Digest of Ohio Motor Vehicle Laws",
+        "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "rightTurnOnRed": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Digest of Ohio Motor Vehicle Laws",
+        "citation": "Ohio BMV / OSHP, Digest of Ohio Motor Vehicle Laws",
+        "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "leftTurnOnRedFromOneWay": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Digest of Ohio Motor Vehicle Laws",
+        "citation": "Ohio BMV / OSHP, Digest of Ohio Motor Vehicle Laws",
+        "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "seatBeltEnforcement": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Digest of Ohio Motor Vehicle Laws",
+        "citation": "Ohio BMV / OSHP, Digest of Ohio Motor Vehicle Laws",
+        "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "handheldPhone": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Digest of Ohio Motor Vehicle Laws",
+        "citation": "Ohio BMV / OSHP, Digest of Ohio Motor Vehicle Laws",
+        "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "texting": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Digest of Ohio Motor Vehicle Laws",
+        "citation": "Ohio BMV / OSHP, Digest of Ohio Motor Vehicle Laws",
+        "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "moveOver": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Digest of Ohio Motor Vehicle Laws",
+        "citation": "Ohio BMV / OSHP, Digest of Ohio Motor Vehicle Laws",
+        "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "headlightsRequired": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Digest of Ohio Motor Vehicle Laws",
+        "citation": "Ohio BMV / OSHP, Digest of Ohio Motor Vehicle Laws",
+        "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromHydrant": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Digest of Ohio Motor Vehicle Laws",
+        "citation": "Ohio BMV / OSHP, Digest of Ohio Motor Vehicle Laws",
+        "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromCrosswalk": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Digest of Ohio Motor Vehicle Laws",
+        "citation": "Ohio BMV / OSHP, Digest of Ohio Motor Vehicle Laws",
+        "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromStopSign": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Digest of Ohio Motor Vehicle Laws",
+        "citation": "Ohio BMV / OSHP, Digest of Ohio Motor Vehicle Laws",
+        "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromRailroad": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Digest of Ohio Motor Vehicle Laws",
+        "citation": "Ohio BMV / OSHP, Digest of Ohio Motor Vehicle Laws",
+        "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "pointSystem": {
+      "state": {
+        "status": "value",
+        "value": true
+      },
+      "display": "Yes",
+      "citation": {
+        "label": "Digest of Ohio Motor Vehicle Laws",
+        "citation": "Ohio BMV / OSHP, Digest of Ohio Motor Vehicle Laws",
+        "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "pointSuspension": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Digest of Ohio Motor Vehicle Laws",
+        "citation": "Ohio BMV / OSHP, Digest of Ohio Motor Vehicle Laws",
+        "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "permitMinAgeMonths": {
+      "state": {
+        "status": "value",
+        "value": 186
+      },
+      "display": "15 yrs 6 mo",
+      "citation": {
+        "label": "Digest of Ohio Motor Vehicle Laws",
+        "citation": "Ohio BMV / OSHP, Digest of Ohio Motor Vehicle Laws",
+        "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "permitHoldingMonths": {
+      "state": {
+        "status": "value",
+        "value": 6
+      },
+      "display": "6 months",
+      "citation": {
+        "label": "Digest of Ohio Motor Vehicle Laws",
+        "citation": "Ohio BMV / OSHP, Digest of Ohio Motor Vehicle Laws",
+        "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "supervisedHoursTotal": {
+      "state": {
+        "status": "value",
+        "value": 50
+      },
+      "display": "50 hours",
+      "citation": {
+        "label": "Digest of Ohio Motor Vehicle Laws",
+        "citation": "Ohio BMV / OSHP, Digest of Ohio Motor Vehicle Laws",
+        "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "supervisedHoursNight": {
+      "state": {
+        "status": "value",
+        "value": 10
+      },
+      "display": "10 hours",
+      "citation": {
+        "label": "Digest of Ohio Motor Vehicle Laws",
+        "citation": "Ohio BMV / OSHP, Digest of Ohio Motor Vehicle Laws",
+        "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "gdlNightCurfew": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Digest of Ohio Motor Vehicle Laws",
+        "citation": "Ohio BMV / OSHP, Digest of Ohio Motor Vehicle Laws",
+        "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "gdlPassengerPhase1": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Digest of Ohio Motor Vehicle Laws",
+        "citation": "Ohio BMV / OSHP, Digest of Ohio Motor Vehicle Laws",
+        "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "minLiability": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Digest of Ohio Motor Vehicle Laws",
+        "citation": "Ohio BMV / OSHP, Digest of Ohio Motor Vehicle Laws",
+        "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "crashReportThresholdUsd": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Digest of Ohio Motor Vehicle Laws",
+        "citation": "Ohio BMV / OSHP, Digest of Ohio Motor Vehicle Laws",
+        "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    }
+  }
 }

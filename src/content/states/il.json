@@ -11,7 +11,10 @@
   "handbookCopyrightStatus": "terms-of-use",
   "handbookTermsUrl": "https://www.ilsos.gov/about/privacyagreement.html",
   "applicantVariants": [
-    { "id": "standard", "label": "All applicants (Class D non-commercial)" }
+    {
+      "id": "standard",
+      "label": "All applicants (Class D non-commercial)"
+    }
   ],
   "examVariants": [
     {
@@ -19,7 +22,11 @@
       "label": "Written knowledge exam (Rules of the Road)",
       "numQuestions": 35,
       "numToPass": 28,
-      "languages": ["en", "es", "pl"],
+      "languages": [
+        "en",
+        "es",
+        "pl"
+      ],
       "onlineAvailable": false
     }
   ],
@@ -63,7 +70,10 @@
     "moveOverRule": "Scott's Law (Move Over Law): change lanes away from a stopped emergency or maintenance vehicle displaying flashing lights, or reduce speed and proceed with caution if changing lanes is unsafe",
     "interstateMaxSpeed": "70 mph on rural interstates (55 mph on many urban expressways, where posted)",
     "schoolZoneSpeed": "20 mph on school days when children are present, from 7 a.m. to 4 p.m.",
-    "namedLaws": ["Scott's Law", "Use It & Lose It (zero tolerance)"]
+    "namedLaws": [
+      "Scott's Law",
+      "Use It & Lose It (zero tolerance)"
+    ]
   },
   "references": [
     {
@@ -81,5 +91,503 @@
   "sourceSnapshotHash": "seed-pending-verification",
   "reviewStatus": "adversarially-verified",
   "lastVerified": "2026-07-24",
-  "contentVersion": 1
+  "contentVersion": 1,
+  "typedFacts": {
+    "bacAdult": {
+      "state": {
+        "status": "value",
+        "value": 0.08
+      },
+      "display": "0.08%",
+      "citation": {
+        "label": "Illinois Vehicle Code — DUI",
+        "citation": "625 ILCS 5/11-501(a)(1)",
+        "url": "https://law.onecle.com/illinois/625ilcs5/11-501.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "bacUnder21": {
+      "state": {
+        "status": "value",
+        "value": 0
+      },
+      "display": "0.00% (zero tolerance)",
+      "citation": {
+        "label": "Illinois Vehicle Code — Zero Tolerance",
+        "citation": "625 ILCS 5/11-501.8",
+        "url": "https://law.onecle.com/illinois/625ilcs5/11-501.1.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "bacCommercial": {
+      "state": {
+        "status": "value",
+        "value": 0.04
+      },
+      "display": "0.04%",
+      "citation": {
+        "label": "Illinois Vehicle Code — Commercial Driver Disqualification",
+        "citation": "625 ILCS 5/6-514",
+        "url": "https://law.onecle.com/illinois/625ilcs5/6-514.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "impliedConsentRefusal": {
+      "state": {
+        "status": "value",
+        "value": {
+          "suspensionMonths": 12,
+          "criminalOffense": false
+        }
+      },
+      "display": "12-month license suspension",
+      "citation": {
+        "label": "Illinois Vehicle Code — Statutory Summary Suspension Periods",
+        "citation": "625 ILCS 5/6-208.1(a)(1)",
+        "url": "https://law.onecle.com/illinois/625ilcs5/6-208.1.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "openContainerProhibited": {
+      "state": {
+        "status": "value",
+        "value": true
+      },
+      "display": "Open containers of alcohol prohibited in passenger area",
+      "citation": {
+        "label": "Illinois Vehicle Code — Transportation of Alcoholic Liquor",
+        "citation": "625 ILCS 5/11-502(a)(b)",
+        "url": "https://law.onecle.com/illinois/625ilcs5/11-502.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "duiFirstSuspensionDays": {
+      "state": {
+        "status": "value",
+        "value": 180
+      },
+      "display": "180 days",
+      "citation": {
+        "label": "Illinois Vehicle Code — Statutory Summary Suspension Periods",
+        "citation": "625 ILCS 5/6-208.1(a)(2)",
+        "url": "https://law.onecle.com/illinois/625ilcs5/6-208.1.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "ruralInterstateMaxMph": {
+      "state": {
+        "status": "value",
+        "value": 70
+      },
+      "display": "70 mph",
+      "citation": {
+        "label": "Illinois Vehicle Code — General Speed Restrictions",
+        "citation": "625 ILCS 5/11-601(d-1)(1)",
+        "url": "https://law.onecle.com/illinois/625ilcs5/11-601.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "urbanInterstateMaxMph": {
+      "state": {
+        "status": "varies",
+        "variants": [
+          {
+            "value": 70,
+            "conditions": [
+              {
+                "kind": "posting",
+                "detail": "Statutory maximum"
+              }
+            ]
+          },
+          {
+            "value": 55,
+            "conditions": [
+              {
+                "kind": "posting",
+                "detail": "Commonly posted on urban interstates"
+              }
+            ]
+          }
+        ]
+      },
+      "display": "70 mph statutory cap",
+      "citation": {
+        "label": "Illinois Vehicle Code — General Speed Restrictions",
+        "citation": "625 ILCS 5/11-601(a-5),(d-1)",
+        "url": "https://law.onecle.com/illinois/625ilcs5/11-601.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "residentialDefaultMph": {
+      "state": {
+        "status": "value",
+        "value": 30
+      },
+      "display": "30 mph",
+      "citation": {
+        "label": "Illinois Vehicle Code — General Speed Restrictions",
+        "citation": "625 ILCS 5/11-601(c)(1)",
+        "url": "https://law.onecle.com/illinois/625ilcs5/11-601.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "schoolZoneMph": {
+      "state": {
+        "status": "value",
+        "value": 20
+      },
+      "display": "20 mph",
+      "citation": {
+        "label": "Illinois Vehicle Code — Special Speed Limit While Passing Schools",
+        "citation": "625 ILCS 5/11-605(a)",
+        "url": "https://law.onecle.com/illinois/625ilcs5/11-605.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "basicSpeedLaw": {
+      "state": {
+        "status": "value",
+        "value": true
+      },
+      "display": "Yes",
+      "citation": {
+        "label": "Illinois Vehicle Code — General Speed Restrictions",
+        "citation": "625 ILCS 5/11-601(a)",
+        "url": "https://law.onecle.com/illinois/625ilcs5/11-601.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "rightTurnOnRed": {
+      "state": {
+        "status": "value",
+        "value": "allowed-after-stop"
+      },
+      "display": "Allowed after a complete stop",
+      "citation": {
+        "label": "Illinois Vehicle Code — Traffic-Control Signal Legend",
+        "citation": "625 ILCS 5/11-306(c)(3)",
+        "url": "https://law.onecle.com/illinois/625ilcs5/11-306.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "leftTurnOnRedFromOneWay": {
+      "state": {
+        "status": "value",
+        "value": "allowed"
+      },
+      "display": "Allowed",
+      "citation": {
+        "label": "Illinois Vehicle Code — Traffic-Control Signal Legend",
+        "citation": "625 ILCS 5/11-306(c)(3)",
+        "url": "https://law.onecle.com/illinois/625ilcs5/11-306.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "seatBeltEnforcement": {
+      "state": {
+        "status": "value",
+        "value": "primary"
+      },
+      "display": "Primary enforcement",
+      "citation": {
+        "label": "Illinois Vehicle Code — Driver and Passenger Required to Use Safety Belts",
+        "citation": "625 ILCS 5/12-603.1",
+        "url": "https://law.onecle.com/illinois/625ilcs5/12-603.1.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "handheldPhone": {
+      "state": {
+        "status": "value",
+        "value": "banned-all"
+      },
+      "display": "Banned for all drivers",
+      "citation": {
+        "label": "Illinois Vehicle Code — Electronic Communication Devices",
+        "citation": "625 ILCS 5/12-610.2(b)",
+        "url": "https://law.onecle.com/illinois/625ilcs5/12-610.2.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "texting": {
+      "state": {
+        "status": "value",
+        "value": "banned-all"
+      },
+      "display": "Banned for all drivers",
+      "citation": {
+        "label": "Illinois Vehicle Code — Electronic Communication Devices",
+        "citation": "625 ILCS 5/12-610.2(b)",
+        "url": "https://law.onecle.com/illinois/625ilcs5/12-610.2.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "moveOver": {
+      "state": {
+        "status": "value",
+        "value": {
+          "requirement": "lane-change-or-slow",
+          "coveredVehicles": [
+            "emergency",
+            "tow",
+            "roadside-assist",
+            "utility",
+            "any-flashing"
+          ]
+        }
+      },
+      "display": "Scott's Law: change lanes or slow",
+      "citation": {
+        "label": "Illinois Vehicle Code — Scott's Law",
+        "citation": "625 ILCS 5/11-907(c)",
+        "url": "https://law.onecle.com/illinois/625ilcs5/11-907.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "headlightsRequired": {
+      "state": {
+        "status": "value",
+        "value": {
+          "whenWipersOn": true,
+          "minutesAfterSunset": 0
+        }
+      },
+      "display": "Sunset to sunrise and when wipers are required",
+      "citation": {
+        "label": "Illinois Vehicle Code — When Lighted Lamps Are Required",
+        "citation": "625 ILCS 5/12-201(b)",
+        "url": "https://law.onecle.com/illinois/625ilcs5/12-201.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "parkFtFromHydrant": {
+      "state": {
+        "status": "value",
+        "value": 15
+      },
+      "display": "15 ft",
+      "citation": {
+        "label": "Illinois Vehicle Code",
+        "citation": "625 ILCS 5/11-1303(a)(2)(b)",
+        "url": "https://law.onecle.com/illinois/625ilcs5/11-1303.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "parkFtFromCrosswalk": {
+      "state": {
+        "status": "value",
+        "value": 20
+      },
+      "display": "20 ft",
+      "citation": {
+        "label": "Illinois Vehicle Code",
+        "citation": "625 ILCS 5/11-1303(a)(2)(c)",
+        "url": "https://law.onecle.com/illinois/625ilcs5/11-1303.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "parkFtFromStopSign": {
+      "state": {
+        "status": "value",
+        "value": 30
+      },
+      "display": "30 ft",
+      "citation": {
+        "label": "Illinois Vehicle Code",
+        "citation": "625 ILCS 5/11-1303(a)(2)(d)",
+        "url": "https://law.onecle.com/illinois/625ilcs5/11-1303.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "parkFtFromRailroad": {
+      "state": {
+        "status": "value",
+        "value": 50
+      },
+      "display": "50 ft",
+      "citation": {
+        "label": "Illinois Vehicle Code",
+        "citation": "625 ILCS 5/11-1303(a)(3)(a)",
+        "url": "https://law.onecle.com/illinois/625ilcs5/11-1303.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "pointSystem": {
+      "state": {
+        "status": "value",
+        "value": false
+      },
+      "display": "No formal point system",
+      "citation": {
+        "label": "Illinois Vehicle Code",
+        "citation": "625 ILCS 5/6-206(a)(2)",
+        "url": "https://law.onecle.com/illinois/625ilcs5/6-206.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "pointSuspension": {
+      "state": {
+        "status": "value",
+        "value": {
+          "points": 3,
+          "windowMonths": 12
+        }
+      },
+      "display": "3 moving violations in 12 months",
+      "citation": {
+        "label": "Illinois Vehicle Code",
+        "citation": "625 ILCS 5/6-206(a)(2)",
+        "url": "https://law.onecle.com/illinois/625ilcs5/6-206.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "permitMinAgeMonths": {
+      "state": {
+        "status": "value",
+        "value": 180
+      },
+      "display": "15 years",
+      "citation": {
+        "label": "Illinois Vehicle Code",
+        "citation": "625 ILCS 5/6-107(a)",
+        "url": "https://www.ilsos.gov/departments/drivers/drivers_license/home.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "permitHoldingMonths": {
+      "state": {
+        "status": "value",
+        "value": 9
+      },
+      "display": "9 months",
+      "citation": {
+        "label": "Illinois Vehicle Code",
+        "citation": "625 ILCS 5/6-107(b)(1)",
+        "url": "https://www.ilsos.gov/departments/drivers/drivers_license/home.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "supervisedHoursTotal": {
+      "state": {
+        "status": "value",
+        "value": 50
+      },
+      "display": "50 hours",
+      "citation": {
+        "label": "Illinois Vehicle Code",
+        "citation": "625 ILCS 5/6-107(b)(2)",
+        "url": "https://www.ilsos.gov/departments/drivers/drivers_license/home.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "supervisedHoursNight": {
+      "state": {
+        "status": "value",
+        "value": 10
+      },
+      "display": "10 hours",
+      "citation": {
+        "label": "Illinois Vehicle Code",
+        "citation": "625 ILCS 5/6-107(b)(2)",
+        "url": "https://www.ilsos.gov/departments/drivers/drivers_license/home.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "gdlNightCurfew": {
+      "state": {
+        "status": "value",
+        "value": {
+          "startHour24": 22,
+          "endHour24": 6
+        }
+      },
+      "display": "No driving 10 p.m.–6 a.m.",
+      "citation": {
+        "label": "Illinois Vehicle Code",
+        "citation": "625 ILCS 5/6-107(c)(1)",
+        "url": "https://www.ilsos.gov/departments/drivers/drivers_license/home.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "gdlPassengerPhase1": {
+      "state": {
+        "status": "value",
+        "value": {
+          "cap": 1,
+          "underAge": 20,
+          "familyExempt": true
+        }
+      },
+      "display": "No more than 1 passenger under age 20",
+      "citation": {
+        "label": "Illinois Vehicle Code",
+        "citation": "625 ILCS 5/6-107(c)(2)",
+        "url": "https://www.ilsos.gov/departments/drivers/drivers_license/home.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "minLiability": {
+      "state": {
+        "status": "value",
+        "value": {
+          "bodilyPerPerson": 25000,
+          "bodilyPerCrash": 50000,
+          "property": 20000
+        }
+      },
+      "display": "25/50/20",
+      "citation": {
+        "label": "Illinois Vehicle Code",
+        "citation": "625 ILCS 5/7-203",
+        "url": "https://law.onecle.com/illinois/625ilcs5/7-203.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "crashReportThresholdUsd": {
+      "state": {
+        "status": "value",
+        "value": 1500
+      },
+      "display": "$1,500",
+      "citation": {
+        "label": "Illinois Vehicle Code",
+        "citation": "625 ILCS 5/11-406(a)",
+        "url": "https://law.onecle.com/illinois/625ilcs5/11-406.html"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    }
+  }
 }

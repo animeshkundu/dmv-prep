@@ -15,7 +15,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Written test", "citation": "New York State Driver's Manual (MV-21), The Written Test", "url": "https://dmv.ny.gov/brochure/mv21.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -29,7 +30,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Speed limits", "citation": "New York State Driver's Manual (MV-21), Speed Limits", "url": "https://dmv.ny.gov/brochure/mv21.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -43,7 +45,8 @@
     "difficulty": "medium",
     "references": [{ "label": "City speed", "citation": "New York State Driver's Manual (MV-21), Speed Limits", "url": "https://dmv.ny.gov/brochure/mv21.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -57,7 +60,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Zero tolerance", "citation": "New York State Driver's Manual (MV-21), Alcohol and Other Drugs", "url": "https://dmv.ny.gov/brochure/mv21.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -71,7 +75,8 @@
     "difficulty": "easy",
     "references": [{ "label": "DWI limit", "citation": "New York State Driver's Manual (MV-21), Alcohol and Other Drugs", "url": "https://dmv.ny.gov/brochure/mv21.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -90,7 +95,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Leandra's Law", "citation": "New York State Driver's Manual (MV-21), Alcohol and Other Drugs", "url": "https://dmv.ny.gov/brochure/mv21.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -109,7 +115,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Point system", "citation": "NY DMV Driver Point System", "url": "https://dmv.ny.gov/points-and-penalties/the-new-york-state-driver-point-system" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -128,7 +135,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Driver Responsibility Assessment", "citation": "NY DMV Driver Point System", "url": "https://dmv.ny.gov/points-and-penalties/the-new-york-state-driver-point-system" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -147,7 +155,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Move Over Act", "citation": "New York State Driver's Manual (MV-21), Move Over Law", "url": "https://dmv.ny.gov/brochure/mv21.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -166,7 +175,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Cell phone law", "citation": "New York State Driver's Manual (MV-21), Distracted Driving", "url": "https://dmv.ny.gov/brochure/mv21.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -185,7 +195,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Junior license", "citation": "New York State Driver's Manual (MV-21), Junior Licenses", "url": "https://dmv.ny.gov/brochure/mv21.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -204,7 +215,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Junior license", "citation": "New York State Driver's Manual (MV-21), Junior Licenses", "url": "https://dmv.ny.gov/brochure/mv21.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -223,7 +235,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Supervised hours", "citation": "New York State Driver's Manual (MV-21), Getting Your License", "url": "https://dmv.ny.gov/brochure/mv21.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -242,7 +255,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Driver education", "citation": "New York State Driver's Manual (MV-21), Junior Licenses", "url": "https://dmv.ny.gov/brochure/mv21.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -261,7 +275,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Warning signs", "citation": "New York State Driver's Manual (MV-21), Traffic Signs", "url": "https://dmv.ny.gov/brochure/mv21.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   }
 ]

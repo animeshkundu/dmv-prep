@@ -10,8 +10,14 @@
   "handbookEditionYear": 2022,
   "handbookCopyrightStatus": "unknown",
   "applicantVariants": [
-    { "id": "under-18", "label": "Under 18 (limited instructional permit / provisional)" },
-    { "id": "adult", "label": "Adult (18+)" }
+    {
+      "id": "under-18",
+      "label": "Under 18 (limited instructional permit / provisional)"
+    },
+    {
+      "id": "adult",
+      "label": "Adult (18+)"
+    }
   ],
   "examVariants": [
     {
@@ -19,7 +25,9 @@
       "label": "Under-18 computerized knowledge test",
       "numQuestions": 25,
       "numToPass": 20,
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "onlineAvailable": false
     },
     {
@@ -27,7 +35,9 @@
       "label": "Adult computerized knowledge test",
       "numQuestions": 25,
       "numToPass": 20,
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "onlineAvailable": false
     }
   ],
@@ -70,7 +80,11 @@
     "moveOverRule": "Move over a lane, or slow down if unable to change lanes safely, for stopped emergency, maintenance, and tow vehicles displaying flashing lights",
     "interstateMaxSpeed": "65 mph on rural interstates (55 mph on urban interstates)",
     "schoolZoneSpeed": "20 mph in a marked school zone during posted school hours when children are present",
-    "namedLaws": ["Colin B. Foote Act (graduated licensing)", "Move Over Law", "Hands-Free Law"]
+    "namedLaws": [
+      "Colin B. Foote Act (graduated licensing)",
+      "Move Over Law",
+      "Hands-Free Law"
+    ]
   },
   "references": [
     {
@@ -94,5 +108,455 @@
   "reviewStatus": "adversarially-verified",
   "verifyNote": "Official RI DMV pages confirm the 25-question exam with 20 correct required, current permit/license fees, minimum ages, and GDL requirements. Rhode Island does not use a demerit-point system. The numeric vision acuity standard remains unconfirmed, so the field states only that screening is administered.",
   "lastVerified": "2026-07-24",
-  "contentVersion": 1
+  "contentVersion": 1,
+  "typedFacts": {
+    "bacAdult": {
+      "state": {
+        "status": "value",
+        "value": 0.08
+      },
+      "display": "0.08%",
+      "citation": {
+        "label": "Rhode Island Operator's Manual",
+        "citation": "RI DMV Operator's Manual (2022)",
+        "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "bacCommercial": {
+      "state": {
+        "status": "value",
+        "value": 0.04
+      },
+      "display": "0.04%",
+      "citation": {
+        "label": "Rhode Island Operator's Manual",
+        "citation": "RI DMV Operator's Manual (2022)",
+        "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "bacUnder21": {
+      "state": {
+        "status": "value",
+        "value": 0.02
+      },
+      "display": "0.02%",
+      "citation": {
+        "label": "Rhode Island Operator's Manual",
+        "citation": "RI DMV Operator's Manual (2022)",
+        "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "impliedConsentRefusal": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Rhode Island Operator's Manual",
+        "citation": "RI DMV Operator's Manual (2022)",
+        "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "openContainerProhibited": {
+      "state": {
+        "status": "value",
+        "value": true
+      },
+      "display": "Yes",
+      "citation": {
+        "label": "Rhode Island Operator's Manual",
+        "citation": "RI DMV Operator's Manual (2022)",
+        "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "duiFirstSuspensionDays": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Rhode Island Operator's Manual",
+        "citation": "RI DMV Operator's Manual (2022)",
+        "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "ruralInterstateMaxMph": {
+      "state": {
+        "status": "value",
+        "value": 65
+      },
+      "display": "65 mph",
+      "citation": {
+        "label": "Rhode Island Operator's Manual",
+        "citation": "RI DMV Operator's Manual (2022)",
+        "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "urbanInterstateMaxMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Rhode Island Operator's Manual",
+        "citation": "RI DMV Operator's Manual (2022)",
+        "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "residentialDefaultMph": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Rhode Island Operator's Manual",
+        "citation": "RI DMV Operator's Manual (2022)",
+        "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "schoolZoneMph": {
+      "state": {
+        "status": "value",
+        "value": 20
+      },
+      "display": "20 mph",
+      "citation": {
+        "label": "Rhode Island Operator's Manual",
+        "citation": "RI DMV Operator's Manual (2022)",
+        "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "basicSpeedLaw": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Rhode Island Operator's Manual",
+        "citation": "RI DMV Operator's Manual (2022)",
+        "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "rightTurnOnRed": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Rhode Island Operator's Manual",
+        "citation": "RI DMV Operator's Manual (2022)",
+        "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "leftTurnOnRedFromOneWay": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Rhode Island Operator's Manual",
+        "citation": "RI DMV Operator's Manual (2022)",
+        "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "seatBeltEnforcement": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Rhode Island Operator's Manual",
+        "citation": "RI DMV Operator's Manual (2022)",
+        "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "handheldPhone": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Rhode Island Operator's Manual",
+        "citation": "RI DMV Operator's Manual (2022)",
+        "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "texting": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Rhode Island Operator's Manual",
+        "citation": "RI DMV Operator's Manual (2022)",
+        "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "moveOver": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Rhode Island Operator's Manual",
+        "citation": "RI DMV Operator's Manual (2022)",
+        "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "headlightsRequired": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Rhode Island Operator's Manual",
+        "citation": "RI DMV Operator's Manual (2022)",
+        "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromHydrant": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Rhode Island Operator's Manual",
+        "citation": "RI DMV Operator's Manual (2022)",
+        "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromCrosswalk": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Rhode Island Operator's Manual",
+        "citation": "RI DMV Operator's Manual (2022)",
+        "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromStopSign": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Rhode Island Operator's Manual",
+        "citation": "RI DMV Operator's Manual (2022)",
+        "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "parkFtFromRailroad": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Rhode Island Operator's Manual",
+        "citation": "RI DMV Operator's Manual (2022)",
+        "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "pointSystem": {
+      "state": {
+        "status": "value",
+        "value": false
+      },
+      "display": "No",
+      "citation": {
+        "label": "Rhode Island Operator's Manual",
+        "citation": "RI DMV Operator's Manual (2022)",
+        "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "pointSuspension": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Rhode Island Operator's Manual",
+        "citation": "RI DMV Operator's Manual (2022)",
+        "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "permitMinAgeMonths": {
+      "state": {
+        "status": "value",
+        "value": 192
+      },
+      "display": "16 (limited instructional permit)",
+      "citation": {
+        "label": "Rhode Island Operator's Manual",
+        "citation": "RI DMV Operator's Manual (2022)",
+        "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "permitHoldingMonths": {
+      "state": {
+        "status": "value",
+        "value": 6
+      },
+      "display": "6 months",
+      "citation": {
+        "label": "Rhode Island Operator's Manual",
+        "citation": "RI DMV Operator's Manual (2022)",
+        "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "supervisedHoursTotal": {
+      "state": {
+        "status": "value",
+        "value": 50
+      },
+      "display": "50 hours",
+      "citation": {
+        "label": "Rhode Island Operator's Manual",
+        "citation": "RI DMV Operator's Manual (2022)",
+        "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "supervisedHoursNight": {
+      "state": {
+        "status": "value",
+        "value": 10
+      },
+      "display": "10 hours",
+      "citation": {
+        "label": "Rhode Island Operator's Manual",
+        "citation": "RI DMV Operator's Manual (2022)",
+        "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "gdlNightCurfew": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Rhode Island Operator's Manual",
+        "citation": "RI DMV Operator's Manual (2022)",
+        "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "gdlPassengerPhase1": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Rhode Island Operator's Manual",
+        "citation": "RI DMV Operator's Manual (2022)",
+        "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "minLiability": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Rhode Island Operator's Manual",
+        "citation": "RI DMV Operator's Manual (2022)",
+        "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    },
+    "crashReportThresholdUsd": {
+      "state": {
+        "status": "unknown",
+        "reason": "Not explicitly verified in initial data"
+      },
+      "display": "Unknown",
+      "citation": {
+        "label": "Rhode Island Operator's Manual",
+        "citation": "RI DMV Operator's Manual (2022)",
+        "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    }
+  }
 }

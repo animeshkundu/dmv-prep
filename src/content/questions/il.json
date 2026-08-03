@@ -15,7 +15,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Scott's Law", "citation": "Illinois Rules of the Road, Scott's Law", "url": "https://www.ilsos.gov/publications/pdf_publications/dsd_a112.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -34,7 +35,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Zero tolerance", "citation": "Illinois Rules of the Road, Alcohol/drugs and driving", "url": "https://www.ilsos.gov/publications/pdf_publications/dsd_a112.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -48,7 +50,8 @@
     "difficulty": "easy",
     "references": [{ "label": "BAC limits", "citation": "Illinois Rules of the Road, Alcohol/drugs and driving", "url": "https://www.ilsos.gov/publications/pdf_publications/dsd_a112.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -62,7 +65,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Speed limits", "citation": "Illinois Rules of the Road, Speed limits", "url": "https://www.ilsos.gov/publications/pdf_publications/dsd_a112.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -81,7 +85,8 @@
     "difficulty": "medium",
     "references": [{ "label": "School zones", "citation": "Illinois Rules of the Road, Speed limits / school zones", "url": "https://www.ilsos.gov/publications/pdf_publications/dsd_a112.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -100,7 +105,8 @@
     "difficulty": "hard",
     "references": [{ "label": "GDL", "citation": "Illinois Rules of the Road, Graduated driver licensing", "url": "https://www.ilsos.gov/publications/pdf_publications/dsd_a112.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -119,7 +125,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Night restriction", "citation": "Illinois Rules of the Road, Graduated driver licensing", "url": "https://www.ilsos.gov/publications/pdf_publications/dsd_a112.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -138,7 +145,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Passenger limit", "citation": "Illinois Rules of the Road, Graduated driver licensing", "url": "https://www.ilsos.gov/publications/pdf_publications/dsd_a112.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -157,7 +165,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Written exam", "citation": "Illinois Rules of the Road, Examinations", "url": "https://www.ilsos.gov/publications/pdf_publications/dsd_a112.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -176,7 +185,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Permit age", "citation": "Illinois Rules of the Road, Graduated driver licensing", "url": "https://www.ilsos.gov/publications/pdf_publications/dsd_a112.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -195,7 +205,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Distracted driving", "citation": "Illinois Rules of the Road, Distracted driving", "url": "https://www.ilsos.gov/publications/pdf_publications/dsd_a112.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -214,7 +225,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Traffic signals", "citation": "Illinois Rules of the Road, Traffic signals", "url": "https://www.ilsos.gov/publications/pdf_publications/dsd_a112.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -233,7 +245,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Suspensions", "citation": "Illinois Rules of the Road, Point system and suspensions", "url": "https://www.ilsos.gov/publications/pdf_publications/dsd_a112.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -252,7 +265,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Headlight use", "citation": "Illinois Rules of the Road, Headlights and driving conditions", "url": "https://www.ilsos.gov/publications/pdf_publications/dsd_a112.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -266,7 +280,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Parking rules", "citation": "Illinois Rules of the Road, Parking", "url": "https://www.ilsos.gov/publications/pdf_publications/dsd_a112.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   }
 ]

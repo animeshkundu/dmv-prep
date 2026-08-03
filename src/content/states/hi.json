@@ -10,8 +10,14 @@
   "handbookEditionYear": 2019,
   "handbookCopyrightStatus": "terms-of-use",
   "applicantVariants": [
-    { "id": "under-18", "label": "Under 18 (provisional license applicant)" },
-    { "id": "adult", "label": "Adult (18+)" }
+    {
+      "id": "under-18",
+      "label": "Under 18 (provisional license applicant)"
+    },
+    {
+      "id": "adult",
+      "label": "Adult (18+)"
+    }
   ],
   "examVariants": [
     {
@@ -20,7 +26,10 @@
       "numQuestions": 30,
       "numToPass": 24,
       "timeLimitMinutes": 60,
-      "languages": ["en", "es"],
+      "languages": [
+        "en",
+        "es"
+      ],
       "onlineAvailable": true
     }
   ],
@@ -63,7 +72,11 @@
     "moveOverRule": "Move over a lane, or slow to a safe speed if you cannot, for stopped emergency, tow, and highway vehicles displaying flashing lights",
     "interstateMaxSpeed": "60 mph (highest posted freeway limit; obey posted signs)",
     "schoolZoneSpeed": "25 mph in a marked school zone unless otherwise posted",
-    "namedLaws": ["Move Over Law", "Zero Tolerance Law (under 21)", "Hands-Free (mobile electronic device) Law"]
+    "namedLaws": [
+      "Move Over Law",
+      "Zero Tolerance Law (under 21)",
+      "Hands-Free (mobile electronic device) Law"
+    ]
   },
   "references": [
     {
@@ -81,5 +94,479 @@
   "sourceSnapshotHash": "seed-pending-verification",
   "reviewStatus": "adversarially-verified",
   "lastVerified": "2026-07-24",
-  "contentVersion": 1
+  "contentVersion": 1,
+  "typedFacts": {
+    "bacAdult": {
+      "state": {
+        "status": "value",
+        "value": 0.08
+      },
+      "display": "0.08%",
+      "citation": {
+        "label": "Hawaii Revised Statutes §291E-61",
+        "citation": "HRS §291E-61(a)(3) (Operating a vehicle under the influence of an intoxicant)",
+        "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol14_Ch0701-0853/HRS0291E/HRS_0291E-0061.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "bacUnder21": {
+      "state": {
+        "status": "value",
+        "value": 0.02
+      },
+      "display": "0.02% (zero-tolerance)",
+      "citation": {
+        "label": "Hawaii Revised Statutes §291E-64",
+        "citation": "HRS §291E-64 (Habitually driving under the influence of intoxicants — prohibitions for persons under twenty-one)",
+        "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol14_Ch0701-0853/HRS0291E/HRS_0291E-0064.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "bacCommercial": {
+      "state": {
+        "status": "value",
+        "value": 0.04
+      },
+      "display": "0.04%",
+      "citation": {
+        "label": "Hawaii Revised Statutes §291E-61.5",
+        "citation": "HRS §291E-61.5 (Operating a commercial motor vehicle under the influence of an intoxicant)",
+        "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol14_Ch0701-0853/HRS0291E/HRS_0291E-0061_0005.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "impliedConsentRefusal": {
+      "state": {
+        "status": "value",
+        "value": {
+          "suspensionMonths": 12,
+          "criminalOffense": true
+        }
+      },
+      "display": "1-year license revocation; refusal is a petty misdemeanor (first offense)",
+      "citation": {
+        "label": "Hawaii Revised Statutes §291E-65 and §291E-68",
+        "citation": "HRS §291E-65 (Administrative revocation of license — 1 year first refusal); HRS §291E-68 (Criminal penalty for refusal)",
+        "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol14_Ch0701-0853/HRS0291E/HRS_0291E-0065.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "openContainerProhibited": {
+      "state": {
+        "status": "value",
+        "value": true
+      },
+      "display": "Prohibited — open containers of alcohol in passenger area are banned",
+      "citation": {
+        "label": "Hawaii Revised Statutes §291-3.3",
+        "citation": "HRS §291-3.3 (Consumption of intoxicating liquor in motor vehicle prohibited)",
+        "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol14_Ch0701-0853/HRS0291/HRS_0291-0003_0003.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "duiFirstSuspensionDays": {
+      "state": {
+        "status": "value",
+        "value": 90
+      },
+      "display": "90 days (administrative revocation, first offense, BAC 0.08–0.14%)",
+      "citation": {
+        "label": "Hawaii Revised Statutes §291E-41",
+        "citation": "HRS §291E-41 (Administrative revocation — first offense per se DUI, 90-day revocation for BAC 0.08–0.14%)",
+        "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol14_Ch0701-0853/HRS0291E/HRS_0291E-0041.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "ruralInterstateMaxMph": {
+      "state": {
+        "status": "value",
+        "value": 60
+      },
+      "display": "60 mph (highest posted interstate/freeway speed; no rural–urban distinction in Hawaii)",
+      "citation": {
+        "label": "IIHS Maximum Posted Speed Limits (July 2026)",
+        "citation": "IIHS Maximum Posted Speed Limits table — Hawaii row; Footnote 1: 'In Hawaii, the maximum speed limit is established by county ordinance or by the director of transportation.'",
+        "url": "https://www.iihs.org/topics/speed/speed-limit-laws-table"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "urbanInterstateMaxMph": {
+      "state": {
+        "status": "value",
+        "value": 60
+      },
+      "display": "60 mph (same maximum applies; H-1 drops to 45 mph in central Honolulu by posted sign)",
+      "citation": {
+        "label": "IIHS Maximum Posted Speed Limits (July 2026)",
+        "citation": "IIHS Maximum Posted Speed Limits table — Hawaii row (urban interstates: 60 mph, Footnote 1)",
+        "url": "https://www.iihs.org/topics/speed/speed-limit-laws-table"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "residentialDefaultMph": {
+      "state": {
+        "status": "value",
+        "value": 25
+      },
+      "display": "25 mph (prima facie limit in residential and business districts)",
+      "citation": {
+        "label": "Hawaii Revised Statutes §291C-102",
+        "citation": "HRS §291C-102 (Obedience to and effect of speed limitations — 25 mph prima facie limit in business and residential districts)",
+        "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol14_Ch0701-0853/HRS0291C/HRS_0291C-0102.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "schoolZoneMph": {
+      "state": {
+        "status": "value",
+        "value": 25
+      },
+      "display": "25 mph in a marked school zone (when children are present or school zone beacon is flashing)",
+      "citation": {
+        "label": "Hawaii Revised Statutes §291C-103",
+        "citation": "HRS §291C-103 (Speed limits in school zones — 25 mph maximum when school zone is in effect)",
+        "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol14_Ch0701-0853/HRS0291C/HRS_0291C-0103.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "basicSpeedLaw": {
+      "state": {
+        "status": "value",
+        "value": true
+      },
+      "display": "Yes — no person shall drive at a speed greater than is reasonable and prudent under the conditions",
+      "citation": {
+        "label": "Hawaii Revised Statutes §291C-101",
+        "citation": "HRS §291C-101 (Basic rule and maximum limits — basic speed law)",
+        "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol14_Ch0701-0853/HRS0291C/HRS_0291C-0101.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "rightTurnOnRed": {
+      "state": {
+        "status": "value",
+        "value": "allowed-after-stop"
+      },
+      "display": "Allowed after a full stop, unless a sign prohibits it",
+      "citation": {
+        "label": "Hawaii Revised Statutes §291C-63",
+        "citation": "HRS §291C-63 (Required stops; permissible turns)",
+        "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol14_Ch0701-0853/HRS0291C/HRS_0291C-0063.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "leftTurnOnRedFromOneWay": {
+      "state": {
+        "status": "value",
+        "value": "allowed"
+      },
+      "display": "Allowed — left turn from a one-way street onto a one-way street after a full stop, unless prohibited by sign",
+      "citation": {
+        "label": "Hawaii Revised Statutes §291C-64",
+        "citation": "HRS §291C-64 (Turning on red signal)",
+        "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol14_Ch0701-0853/HRS0291C/HRS_0291C-0064.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "seatBeltEnforcement": {
+      "state": {
+        "status": "value",
+        "value": "primary"
+      },
+      "display": "Primary enforcement — officer may stop and cite solely for seat belt non-use",
+      "citation": {
+        "label": "Hawaii Revised Statutes §291-11.6",
+        "citation": "HRS §291-11.6 (Mandatory use of seat belts — primary enforcement)",
+        "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol14_Ch0701-0853/HRS0291/HRS_0291-0011_0006.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "handheldPhone": {
+      "state": {
+        "status": "value",
+        "value": "banned-all"
+      },
+      "display": "Banned for all drivers — handheld mobile electronic device use while driving is prohibited",
+      "citation": {
+        "label": "Hawaii Revised Statutes §291C-137",
+        "citation": "HRS §291C-137 (Use of mobile electronic device while operating a motor vehicle prohibited)",
+        "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol14_Ch0701-0853/HRS0291C/HRS_0291C-0137.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "texting": {
+      "state": {
+        "status": "value",
+        "value": "banned-all"
+      },
+      "display": "Banned for all drivers — texting while driving is prohibited under the same handheld device ban",
+      "citation": {
+        "label": "Hawaii Revised Statutes §291C-137",
+        "citation": "HRS §291C-137 (Use of mobile electronic device while operating a motor vehicle prohibited — covers texting)",
+        "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol14_Ch0701-0853/HRS0291C/HRS_0291C-0137.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "moveOver": {
+      "state": {
+        "status": "value",
+        "value": {
+          "requirement": "lane-change-or-slow",
+          "coveredVehicles": [
+            "emergency",
+            "tow",
+            "utility"
+          ]
+        }
+      },
+      "display": "Move to adjacent lane or, if not possible, slow to a speed safe for the conditions — required for emergency vehicles, tow trucks, and highway maintenance/utility vehicles with flashing lights",
+      "citation": {
+        "label": "Hawaii Revised Statutes §291C-121",
+        "citation": "HRS §291C-121 (Approach of authorized emergency vehicles; moved-over rule for stopped vehicles with flashing lights)",
+        "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol14_Ch0701-0853/HRS0291C/HRS_0291C-0121.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "headlightsRequired": {
+      "state": {
+        "status": "value",
+        "value": {
+          "whenWipersOn": false,
+          "minutesAfterSunset": 30
+        }
+      },
+      "display": "Required from 30 minutes after sunset to 30 minutes before sunrise, and when visibility is less than 500 feet; no separate statutory wiper-on requirement",
+      "citation": {
+        "label": "Hawaii Revised Statutes §291C-38",
+        "citation": "HRS §291C-38 (When lighted lamps are required — 30 minutes after sunset; visibility less than 500 feet triggers requirement)",
+        "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol14_Ch0701-0853/HRS0291C/HRS_0291C-0038.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "parkFtFromHydrant": {
+      "state": {
+        "status": "value",
+        "value": 15
+      },
+      "display": "15 ft from a fire hydrant",
+      "citation": {
+        "label": "Hawaii Revised Statutes §291C-111",
+        "citation": "HRS §291C-111(a)(4) (Stopping, standing, or parking prohibited in specified places — within fifteen feet of a fire hydrant)",
+        "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol14_Ch0701-0853/HRS0291C/HRS_0291C-0111.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "parkFtFromCrosswalk": {
+      "state": {
+        "status": "value",
+        "value": 20
+      },
+      "display": "20 ft from a crosswalk at an intersection",
+      "citation": {
+        "label": "Hawaii Revised Statutes §291C-111",
+        "citation": "HRS §291C-111(a)(6) (Stopping, standing, or parking prohibited — within twenty feet of a crosswalk at an intersection)",
+        "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol14_Ch0701-0853/HRS0291C/HRS_0291C-0111.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "parkFtFromStopSign": {
+      "state": {
+        "status": "value",
+        "value": 30
+      },
+      "display": "30 ft from the face of a stop sign or traffic control signal at an intersection",
+      "citation": {
+        "label": "Hawaii Revised Statutes §291C-111",
+        "citation": "HRS §291C-111(a)(7) (Stopping, standing, or parking prohibited — within thirty feet of a flashing beacon, stop sign, or traffic control signal)",
+        "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol14_Ch0701-0853/HRS0291C/HRS_0291C-0111.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "parkFtFromRailroad": {
+      "state": {
+        "status": "value",
+        "value": 50
+      },
+      "display": "50 ft from the nearest rail of a railroad crossing",
+      "citation": {
+        "label": "Hawaii Revised Statutes §291C-111",
+        "citation": "HRS §291C-111(a)(9) (Stopping, standing, or parking prohibited — within fifty feet of the nearest rail of a railroad)",
+        "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol14_Ch0701-0853/HRS0291C/HRS_0291C-0111.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "pointSystem": {
+      "state": {
+        "status": "value",
+        "value": false
+      },
+      "display": "No numeric demerit-point system — Hawaii uses an abstract-of-convictions record; habitual or serious offenders face suspension/revocation based on conviction patterns, not a point tally",
+      "citation": {
+        "label": "Hawaii Driver's Manual (2019) & Hawaii Revised Statutes §286",
+        "citation": "Hawaii Driver's Manual (2019 ed.) — license suspension/revocation section; HRS Chapter 286 (Administration of Motor Vehicle Laws) — no operative numeric point schedule",
+        "url": "https://hidot.hawaii.gov/highways/files/2019/01/Hawaii-Drivers-Manual.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "permitMinAgeMonths": {
+      "state": {
+        "status": "value",
+        "value": 186
+      },
+      "display": "15 years 6 months (186 months)",
+      "citation": {
+        "label": "IIHS Graduated Licensing Laws Table (July 2026) & HRS §286-102.6",
+        "citation": "IIHS GDL table — HI learner stage minimum entry age: '15, 6 months'; HRS §286-102.6 (Instruction permit — minimum age 15 years 6 months)",
+        "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "permitHoldingMonths": {
+      "state": {
+        "status": "value",
+        "value": 6
+      },
+      "display": "6 months minimum holding period for instruction permit before provisional license",
+      "citation": {
+        "label": "IIHS Graduated Licensing Laws Table (July 2026) & HRS §286-102.6",
+        "citation": "IIHS GDL table — HI learner stage mandatory holding period: '6 months'; HRS §286-102.6",
+        "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "supervisedHoursTotal": {
+      "state": {
+        "status": "value",
+        "value": 50
+      },
+      "display": "50 hours of supervised driving required (10 must be at night)",
+      "citation": {
+        "label": "IIHS Graduated Licensing Laws Table (July 2026) & HRS §286-102.6",
+        "citation": "IIHS GDL table — HI learner stage minimum supervised driving: '50 hours, 10 of which must be at night'; HRS §286-102.6",
+        "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "supervisedHoursNight": {
+      "state": {
+        "status": "value",
+        "value": 10
+      },
+      "display": "10 of the 50 required supervised hours must be driven at night",
+      "citation": {
+        "label": "IIHS Graduated Licensing Laws Table (July 2026) & HRS §286-102.6",
+        "citation": "IIHS GDL table — HI learner stage: '50 hours, 10 of which must be at night'; HRS §286-102.6",
+        "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "gdlNightCurfew": {
+      "state": {
+        "status": "value",
+        "value": {
+          "startHour24": 23,
+          "endHour24": 5
+        }
+      },
+      "display": "11:00 PM – 5:00 AM (provisional/intermediate license holders under 18 may not drive unsupervised during these hours)",
+      "citation": {
+        "label": "IIHS Graduated Licensing Laws Table (July 2026) & HRS §286-102.6",
+        "citation": "IIHS GDL table — HI intermediate stage nighttime restriction: '11 p.m.–5 a.m.'; HRS §286-102.6",
+        "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "gdlPassengerPhase1": {
+      "state": {
+        "status": "value",
+        "value": {
+          "cap": 1,
+          "underAge": 18,
+          "familyExempt": true
+        }
+      },
+      "display": "No more than 1 passenger under age 18 (household members of the driver are excepted)",
+      "citation": {
+        "label": "IIHS Graduated Licensing Laws Table (July 2026) & HRS §286-102.6",
+        "citation": "IIHS GDL table — HI intermediate stage passenger restriction: 'no more than 1 passenger younger than 18 (household members excepted)'; HRS §286-102.6",
+        "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "minLiability": {
+      "state": {
+        "status": "value",
+        "value": {
+          "bodilyPerPerson": 20000,
+          "bodilyPerCrash": 40000,
+          "property": 10000
+        }
+      },
+      "display": "$20,000 / $40,000 / $10,000 (bodily injury per person / per accident / property damage)",
+      "citation": {
+        "label": "Hawaii Revised Statutes §431:10C-301",
+        "citation": "HRS §431:10C-301 (Required motor vehicle insurance — minimum liability: $20,000 per person, $40,000 per occurrence, $10,000 property damage); Act 187 (2016) raised limits effective July 1, 2016",
+        "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol09_Ch0431-0435H/HRS0431/HRS_0431-0010C-0301.htm"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "crashReportThresholdUsd": {
+      "state": {
+        "status": "value",
+        "value": 3000
+      },
+      "display": "$3,000 — must report accidents involving injury, death, or property damage of $3,000 or more",
+      "citation": {
+        "label": "Hawaii Revised Statutes §291C-12 / Hawaii Driver's Manual (2019)",
+        "citation": "HRS §291C-12 (Duty to give information and render aid); Hawaii Driver's Manual (2019 ed.) — accidents must be reported to police if damage meets or exceeds $3,000",
+        "url": "https://hidot.hawaii.gov/highways/files/2019/01/Hawaii-Drivers-Manual.pdf"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "inferred"
+    },
+    "pointSuspension": {
+      "state": {
+        "status": "not-applicable",
+        "reason": "Hawaii does not use a numeric demerit point system"
+      },
+      "display": "Not applicable (no point system)",
+      "citation": {
+        "label": "Hawaii Driver's Manual",
+        "citation": "Revocation and Suspension",
+        "url": "https://hidot.hawaii.gov/highways/library/motor-vehicle-safety-office/english-original-hawaii-drivers-manual/"
+      },
+      "lastVerified": "2026-07-27",
+      "confidence": "unknown"
+    }
+  }
 }

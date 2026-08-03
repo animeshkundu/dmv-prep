@@ -10,7 +10,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Speed limits", "citation": "PA Driver's Manual (PUB 95), Speed limits", "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -24,7 +25,8 @@
     "difficulty": "medium",
     "references": [{ "label": "School zones", "citation": "PA Driver's Manual (PUB 95), Speed limits", "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -38,7 +40,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Zero tolerance", "citation": "PA Driver's Manual (PUB 95), Alcohol, drugs and driving", "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -52,7 +55,8 @@
     "difficulty": "easy",
     "references": [{ "label": "BAC limits", "citation": "PA Driver's Manual (PUB 95), Alcohol, drugs and driving", "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -71,7 +75,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Point system", "citation": "PA Driver's Manual (PUB 95), Point system and penalties", "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -90,7 +95,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Move over law", "citation": "PA Driver's Manual (PUB 95), Steer Clear / Move Over Law", "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -109,7 +115,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Junior license", "citation": "PA Driver's Manual (PUB 95), Graduated licensing", "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -128,7 +135,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Night restriction", "citation": "PA Driver's Manual (PUB 95), Graduated licensing", "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -147,7 +155,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Passenger limit", "citation": "PA Driver's Manual (PUB 95), Graduated licensing", "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -166,7 +175,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Headlight use", "citation": "PA Driver's Manual (PUB 95), Vehicle equipment / driving conditions", "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -185,7 +195,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Testing", "citation": "PA Driver's Manual (PUB 95), Chapter 1: Testing", "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/testing" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -204,7 +215,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Roundabouts", "citation": "PA Driver's Manual (PUB 95), Intersections and roundabouts", "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -223,7 +235,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Unrestricted license", "citation": "PA Driver's Manual (PUB 95), Graduated licensing", "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -242,7 +255,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Occupant protection", "citation": "PA Driver's Manual (PUB 95), Seat belts and child restraints", "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -261,7 +275,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Distracted driving", "citation": "PA Driver's Manual (PUB 95), Distracted driving", "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   }
 ]

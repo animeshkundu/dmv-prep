@@ -10,7 +10,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Speed limits", "citation": "CT Driver's Manual, Speed Regulation", "url": "https://portal.ct.gov/-/media/DMV/20/29/R12.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -24,7 +25,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Alcohol and driving", "citation": "CT Driver's Manual, Alcohol/Drugs", "url": "https://portal.ct.gov/-/media/DMV/20/29/R12.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -43,7 +45,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Point system", "citation": "CT Driver's Manual, Violations and Points", "url": "https://portal.ct.gov/-/media/DMV/20/29/R12.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -62,7 +65,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Teen passenger restrictions", "citation": "CT Driver's Manual, 16-17 Year Old Restrictions", "url": "https://portal.ct.gov/-/media/DMV/20/29/R12.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -81,7 +85,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Teen curfew", "citation": "CT Driver's Manual, Nighttime Restriction", "url": "https://portal.ct.gov/-/media/DMV/20/29/R12.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -100,7 +105,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Distracted driving", "citation": "CT Driver's Manual, Cell Phone Use", "url": "https://portal.ct.gov/-/media/DMV/20/29/R12.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -119,7 +125,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Move Over law", "citation": "CT Driver's Manual, Emergency Vehicles", "url": "https://portal.ct.gov/-/media/DMV/20/29/R12.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -138,7 +145,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Right of way", "citation": "CT Driver's Manual, Intersections", "url": "https://portal.ct.gov/-/media/DMV/20/29/R12.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -157,7 +165,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Traffic signals", "citation": "CT Driver's Manual, Signals", "url": "https://portal.ct.gov/-/media/DMV/20/29/R12.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -176,7 +185,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Sign shapes and colors", "citation": "CT Driver's Manual, Traffic Signs", "url": "https://portal.ct.gov/-/media/DMV/20/29/R12.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -195,7 +205,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Pavement markings", "citation": "CT Driver's Manual, Roadway Markings", "url": "https://portal.ct.gov/-/media/DMV/20/29/R12.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -214,7 +225,8 @@
     "difficulty": "medium",
     "references": [{ "label": "School buses", "citation": "CT Driver's Manual, Sharing the Road", "url": "https://portal.ct.gov/-/media/DMV/20/29/R12.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -233,7 +245,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Occupant protection", "citation": "CT Driver's Manual, Seat Belts", "url": "https://portal.ct.gov/-/media/DMV/20/29/R12.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -252,7 +265,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Permit requirements", "citation": "CT DMV Knowledge and Vision Test", "url": "https://portal.ct.gov/dmv/licenses-permits-ids/take-knowledge-vision-test" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -271,7 +285,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Parking on hills", "citation": "CT Driver's Manual, Parking", "url": "https://portal.ct.gov/-/media/DMV/20/29/R12.pdf" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   }
 ]

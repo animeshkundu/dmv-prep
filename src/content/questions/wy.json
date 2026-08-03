@@ -10,7 +10,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Maximum speed limits", "citation": "Wyo. Stat. § 31-5-301", "url": "https://law.justia.com/codes/wyoming/title-31/chapter-5/article-3/section-31-5-301/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -24,7 +25,8 @@
     "difficulty": "easy",
     "references": [{ "label": "School zones", "citation": "Wyoming Rules of the Road — Speed Limits", "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -38,7 +40,8 @@
     "difficulty": "easy",
     "references": [{ "label": "DUI limits", "citation": "Wyoming Rules of the Road — Alcohol and Driving", "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -57,7 +60,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Implied consent", "citation": "Wyoming Rules of the Road — Implied Consent", "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -76,7 +80,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Graduated licensing", "citation": "Wyoming Rules of the Road — Graduated Driver License", "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -90,7 +95,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Learner stage", "citation": "Wyoming Rules of the Road — Graduated Driver License", "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -109,7 +115,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Passenger limits", "citation": "Wyoming Rules of the Road — Graduated Driver License", "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -128,7 +135,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Winter driving", "citation": "Wyoming Rules of the Road — Adverse Conditions", "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -147,7 +155,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Move Over law", "citation": "Wyoming Rules of the Road — Sharing the Road", "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -161,7 +170,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Sign shapes", "citation": "Wyoming Rules of the Road — Traffic Signs", "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -180,7 +190,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Right-of-way", "citation": "Wyoming Rules of the Road — Right-of-Way", "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -199,7 +210,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Pavement markings", "citation": "Wyoming Rules of the Road — Pavement Markings", "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -218,7 +230,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Rural hazards", "citation": "Wyoming Rules of the Road — Sharing the Road", "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {

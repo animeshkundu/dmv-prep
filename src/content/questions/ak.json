@@ -10,7 +10,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Alaska Driver Manual", "citation": "Alaska DMV Driver Manual, speed limits", "url": "https://dmv.alaska.gov/credential-services/drivermanual/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -24,7 +25,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Alaska Driver Manual", "citation": "Alaska DMV Driver Manual, alcohol and driving", "url": "https://dmv.alaska.gov/credential-services/drivermanual/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -43,7 +45,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Alaska Driver Manual", "citation": "Alaska DMV Driver Manual, alcohol and driving", "url": "https://dmv.alaska.gov/credential-services/drivermanual/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -57,7 +60,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Alaska DMV instruction permit", "citation": "Alaska DMV Instruction Permit", "url": "https://dmv.alaska.gov/credential-services/instruction-permit/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -76,7 +80,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Alaska DMV instruction permit", "citation": "Alaska DMV Instruction Permit / GDL", "url": "https://dmv.alaska.gov/credential-services/instruction-permit/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -95,7 +100,8 @@
     "difficulty": "hard",
     "references": [{ "label": "IIHS GDL table", "citation": "IIHS graduated licensing laws (Alaska)", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -114,7 +120,8 @@
     "difficulty": "hard",
     "references": [{ "label": "IIHS GDL table", "citation": "IIHS graduated licensing laws (Alaska)", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -133,7 +140,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Alaska Driver Manual", "citation": "Alaska DMV Driver Manual, move over law", "url": "https://dmv.alaska.gov/credential-services/drivermanual/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -152,7 +160,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Alaska Driver Manual", "citation": "Alaska DMV Driver Manual, sharing the road with wildlife", "url": "https://dmv.alaska.gov/credential-services/drivermanual/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -171,7 +180,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Alaska Driver Manual", "citation": "Alaska DMV Driver Manual, winter driving", "url": "https://dmv.alaska.gov/credential-services/drivermanual/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -190,7 +200,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Alaska Driver Manual", "citation": "Alaska DMV Driver Manual, distracted driving", "url": "https://dmv.alaska.gov/credential-services/drivermanual/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -209,7 +220,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Alaska Driver Manual", "citation": "Alaska DMV Driver Manual, right of way", "url": "https://dmv.alaska.gov/credential-services/drivermanual/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -228,7 +240,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Alaska Driver Manual", "citation": "Alaska DMV Driver Manual, school buses", "url": "https://dmv.alaska.gov/credential-services/drivermanual/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -247,7 +260,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Alaska Driver Manual", "citation": "Alaska DMV Driver Manual, point system", "url": "https://dmv.alaska.gov/credential-services/drivermanual/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   }
 ]

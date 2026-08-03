@@ -15,7 +15,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Basic Speed Law", "citation": "CA Driver Handbook, Speed Limits", "url": "https://www.dmv.ca.gov/portal/handbooks-and-manuals/california-driver-handbook/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -29,7 +30,8 @@
     "difficulty": "medium",
     "references": [{ "label": "School zones", "citation": "CA Driver Handbook, Speed Limits", "url": "https://www.dmv.ca.gov/portal/handbooks-and-manuals/california-driver-handbook/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -43,7 +45,8 @@
     "difficulty": "medium",
     "references": [{ "label": "Zero tolerance", "citation": "CA Driver Handbook, Alcohol and Drugs", "url": "https://www.dmv.ca.gov/portal/handbooks-and-manuals/california-driver-handbook/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -62,7 +65,8 @@
     "difficulty": "hard",
     "references": [{ "label": "Provisional license", "citation": "CA Driver Handbook, Provisional Licensing", "url": "https://www.dmv.ca.gov/portal/handbooks-and-manuals/california-driver-handbook/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   },
   {
@@ -81,7 +85,8 @@
     "difficulty": "easy",
     "references": [{ "label": "Hands-free law", "citation": "CA Driver Handbook, Distracted Driving", "url": "https://www.dmv.ca.gov/portal/handbooks-and-manuals/california-driver-handbook/" }],
     "effectiveDate": "2026-07-24",
-    "reviewStatus": "adversarially-verified",
+    "reviewStatus": "draft",
+    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24"
   }
 ]
