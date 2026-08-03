@@ -2,117 +2,212 @@
   {
     "id": "fl-speed-001",
     "category": "speed-limits",
-    "stateScope": ["FL"],
+    "stateScope": [
+      "FL"
+    ],
     "prompt": "The maximum speed limit on a Florida interstate highway is:",
-    "options": ["55 mph", "65 mph", "70 mph", "75 mph"],
-    "correctIndex": 2,
+    "options": [
+      "75 mph",
+      "70 mph",
+      "65 mph",
+      "55 mph"
+    ],
+    "correctIndex": 1,
     "explanation": "Florida's maximum speed limit on rural interstate highways is 70 mph. Lower limits are posted in urban areas and other roads.",
     "difficulty": "easy",
-    "references": [{ "label": "Speed limits", "citation": "Official Florida Driver License Handbook, Speed Limits", "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf" }],
+    "references": [
+      {
+        "label": "Speed limits",
+        "citation": "Official Florida Driver License Handbook, Speed Limits",
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "fl-speed-002",
     "category": "speed-limits",
-    "stateScope": ["FL"],
+    "stateScope": [
+      "FL"
+    ],
     "prompt": "In a posted Florida school zone during the times children are arriving or leaving, the speed limit is commonly:",
-    "options": ["15 mph", "20 mph", "30 mph", "35 mph"],
-    "correctIndex": 1,
+    "options": [
+      "30 mph",
+      "35 mph",
+      "20 mph",
+      "15 mph"
+    ],
+    "correctIndex": 2,
     "explanation": "Florida school-zone speed limits are commonly 20 mph when the zone is in effect (signals flashing or the posted times apply). Always obey the posted limit.",
     "difficulty": "medium",
-    "references": [{ "label": "School zones", "citation": "Official Florida Driver License Handbook, School Zones", "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf" }],
+    "references": [
+      {
+        "label": "School zones",
+        "citation": "Official Florida Driver License Handbook, School Zones",
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "fl-alc-001",
     "category": "alcohol-drugs",
-    "stateScope": ["FL"],
+    "stateScope": [
+      "FL"
+    ],
     "prompt": "Under Florida's zero-tolerance law, a driver under 21 will have their license suspended for driving with a BAC of:",
-    "options": ["0.08% or higher", "0.05% or higher", "0.02% or higher", "0.10% or higher"],
-    "correctIndex": 2,
+    "options": [
+      "0.02% or higher",
+      "0.10% or higher",
+      "0.08% or higher",
+      "0.05% or higher"
+    ],
+    "correctIndex": 0,
     "explanation": "Florida's zero-tolerance law suspends the license of a driver under 21 who is found driving with a BAC of 0.02% or higher.",
     "difficulty": "medium",
-    "references": [{ "label": "Zero tolerance", "citation": "Official Florida Driver License Handbook, Driving Under the Influence", "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf" }],
+    "references": [
+      {
+        "label": "Zero tolerance",
+        "citation": "Official Florida Driver License Handbook, Driving Under the Influence",
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "fl-alc-002",
     "category": "alcohol-drugs",
-    "stateScope": ["FL"],
+    "stateScope": [
+      "FL"
+    ],
     "prompt": "In Florida, a driver 21 or older is presumed to be driving under the influence at a blood alcohol concentration of:",
-    "options": ["0.05%", "0.08%", "0.10%", "0.04%"],
+    "options": [
+      "0.04%",
+      "0.08%",
+      "0.05%",
+      "0.10%"
+    ],
     "correctIndex": 1,
     "explanation": "The legal BAC limit for adult drivers in Florida is 0.08%. Commercial drivers are limited to 0.04%.",
     "difficulty": "easy",
-    "references": [{ "label": "BAC limit", "citation": "Official Florida Driver License Handbook, Driving Under the Influence", "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf" }],
+    "references": [
+      {
+        "label": "BAC limit",
+        "citation": "Official Florida Driver License Handbook, Driving Under the Influence",
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "fl-penalties-001",
     "category": "penalties-points",
-    "stateScope": ["FL"],
+    "stateScope": [
+      "FL"
+    ],
     "prompt": "In Florida, accumulating 12 points within a 12-month period results in a license suspension of:",
-    "options": ["10 days", "30 days", "3 months", "1 year"],
-    "correctIndex": 1,
+    "options": [
+      "3 months",
+      "10 days",
+      "30 days",
+      "1 year"
+    ],
+    "correctIndex": 2,
     "explanation": "Under the Florida point system, 12 points within 12 months means a 30-day suspension. 18 points in 18 months is a 3-month suspension, and 24 points in 36 months is a 1-year suspension.",
     "difficulty": "hard",
-    "references": [{ "label": "Point suspensions", "citation": "FLHSMV Points and Point Suspensions", "url": "https://www.flhsmv.gov/driver-licenses-id-cards/driver-license-suspensions-revocations/points-point-suspensions/" }],
+    "references": [
+      {
+        "label": "Point suspensions",
+        "citation": "FLHSMV Points and Point Suspensions",
+        "url": "https://www.flhsmv.gov/driver-licenses-id-cards/driver-license-suspensions-revocations/points-point-suspensions/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "fl-penalties-002",
     "category": "penalties-points",
-    "stateScope": ["FL"],
+    "stateScope": [
+      "FL"
+    ],
     "prompt": "In Florida, accumulating 24 points within a 36-month period results in a license suspension of:",
-    "options": ["30 days", "3 months", "6 months", "1 year"],
+    "options": [
+      "3 months",
+      "30 days",
+      "6 months",
+      "1 year"
+    ],
     "correctIndex": 3,
     "explanation": "The Florida point system imposes a 1-year suspension when a driver accumulates 24 points within 36 months.",
     "difficulty": "hard",
-    "references": [{ "label": "Point suspensions", "citation": "FLHSMV Points and Point Suspensions", "url": "https://www.flhsmv.gov/driver-licenses-id-cards/driver-license-suspensions-revocations/points-point-suspensions/" }],
+    "references": [
+      {
+        "label": "Point suspensions",
+        "citation": "FLHSMV Points and Point Suspensions",
+        "url": "https://www.flhsmv.gov/driver-licenses-id-cards/driver-license-suspensions-revocations/points-point-suspensions/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "fl-gdl-001",
     "category": "gdl-teen",
-    "stateScope": ["FL"],
+    "stateScope": [
+      "FL"
+    ],
     "prompt": "A 16-year-old with a Florida driver license may not drive (unless going to or from work, or accompanied by a licensed driver 21 or older) between:",
     "options": [
-      "9 p.m. and 5 a.m.",
-      "11 p.m. and 6 a.m.",
       "midnight and 5 a.m.",
+      "11 p.m. and 6 a.m.",
+      "9 p.m. and 5 a.m.",
       "1 a.m. and 5 a.m."
     ],
     "correctIndex": 1,
     "explanation": "In Florida, 16-year-old license holders may not drive between 11 p.m. and 6 a.m. unless driving to or from work or accompanied by a licensed driver 21 or older. For 17-year-olds the restricted window is 1 a.m. to 5 a.m.",
     "difficulty": "medium",
-    "references": [{ "label": "Teen curfew", "citation": "Official Florida Driver License Handbook, Graduated Driver License", "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf" }],
+    "references": [
+      {
+        "label": "Teen curfew",
+        "citation": "Official Florida Driver License Handbook, Graduated Driver License",
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "fl-gdl-002",
     "category": "gdl-teen",
-    "stateScope": ["FL"],
+    "stateScope": [
+      "FL"
+    ],
     "prompt": "A 17-year-old with a Florida driver license is restricted from driving (without an exception) between:",
     "options": [
       "11 p.m. and 6 a.m.",
@@ -123,140 +218,220 @@
     "correctIndex": 2,
     "explanation": "Florida 17-year-old license holders may not drive between 1 a.m. and 5 a.m. unless driving to or from work or accompanied by a licensed driver 21 or older.",
     "difficulty": "medium",
-    "references": [{ "label": "Teen curfew", "citation": "Official Florida Driver License Handbook, Graduated Driver License", "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf" }],
+    "references": [
+      {
+        "label": "Teen curfew",
+        "citation": "Official Florida Driver License Handbook, Graduated Driver License",
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "fl-gdl-003",
     "category": "gdl-teen",
-    "stateScope": ["FL"],
+    "stateScope": [
+      "FL"
+    ],
     "prompt": "Before a 15-year-old can get a Florida learner license, they must first complete:",
     "options": [
+      "A commercial driving course",
       "A 100-hour internship",
-      "The 4-hour Traffic Law and Substance Abuse Education (TLSAE) course",
       "A full year of college",
-      "A commercial driving course"
+      "The 4-hour Traffic Law and Substance Abuse Education (TLSAE) course"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "Florida requires the 4-hour Traffic Law and Substance Abuse Education (TLSAE) course, plus passing the Class E Knowledge Exam and a vision/hearing test, before issuing a learner license.",
     "difficulty": "medium",
-    "references": [{ "label": "Learner license", "citation": "Official Florida Driver License Handbook, Graduated Driver License", "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf" }],
+    "references": [
+      {
+        "label": "Learner license",
+        "citation": "Official Florida Driver License Handbook, Graduated Driver License",
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "fl-gdl-004",
     "category": "gdl-teen",
-    "stateScope": ["FL"],
+    "stateScope": [
+      "FL"
+    ],
     "prompt": "A Florida learner license must be held for how long (or until age 18) before a driver license can be issued?",
-    "options": ["3 months", "6 months", "12 months", "24 months"],
-    "correctIndex": 2,
+    "options": [
+      "12 months",
+      "6 months",
+      "3 months",
+      "24 months"
+    ],
+    "correctIndex": 0,
     "explanation": "A Florida learner license must be held for at least 12 months (or until the driver turns 18) with no traffic convictions before a full Class E license is issued.",
     "difficulty": "medium",
-    "references": [{ "label": "Learner license", "citation": "Official Florida Driver License Handbook, Graduated Driver License", "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf" }],
+    "references": [
+      {
+        "label": "Learner license",
+        "citation": "Official Florida Driver License Handbook, Graduated Driver License",
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "fl-laws-001",
     "category": "traffic-laws",
-    "stateScope": ["FL"],
+    "stateScope": [
+      "FL"
+    ],
     "prompt": "Under Florida's Move Over Act, when approaching a stopped emergency, law enforcement, tow, or utility vehicle with flashing lights on a multi-lane road, you must:",
     "options": [
       "Speed up to pass quickly",
-      "Move over one lane away; if you cannot, slow to 20 mph below the posted speed limit",
+      "Sound your horn continuously",
       "Stop in your lane",
-      "Sound your horn continuously"
+      "Move over one lane away; if you cannot, slow to 20 mph below the posted speed limit"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "Florida's Move Over Act requires you to vacate the lane closest to the stopped vehicle when possible. If moving over is not possible, slow to 20 mph below the posted limit (or to 5 mph if the limit is 20 mph or less).",
     "difficulty": "medium",
-    "references": [{ "label": "Move Over Act", "citation": "Official Florida Driver License Handbook, Move Over Law", "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf" }],
+    "references": [
+      {
+        "label": "Move Over Act",
+        "citation": "Official Florida Driver License Handbook, Move Over Law",
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 2
   },
   {
     "id": "fl-laws-002",
     "category": "traffic-laws",
-    "stateScope": ["FL"],
+    "stateScope": [
+      "FL"
+    ],
     "prompt": "Florida's Wireless Communications While Driving Law makes texting while driving a primary offense and additionally requires phones to be:",
     "options": [
-      "Turned off at all times while driving",
       "Used hands-free in active school zones and work zones",
+      "Turned off at all times while driving",
       "Kept in the trunk",
       "Registered with the state"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "In Florida, texting while driving is a primary offense, and drivers must use phones hands-free when traveling through active school zones and active work zones.",
     "difficulty": "medium",
-    "references": [{ "label": "Texting law", "citation": "Official Florida Driver License Handbook, Distracted Driving", "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf" }],
+    "references": [
+      {
+        "label": "Texting law",
+        "citation": "Official Florida Driver License Handbook, Distracted Driving",
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "fl-safe-001",
     "category": "safe-driving",
-    "stateScope": ["FL"],
+    "stateScope": [
+      "FL"
+    ],
     "prompt": "The Florida Class E Knowledge Exam has 50 questions. How many must you answer correctly to pass?",
-    "options": ["35", "40", "45", "30"],
-    "correctIndex": 1,
+    "options": [
+      "35",
+      "30",
+      "45",
+      "40"
+    ],
+    "correctIndex": 3,
     "explanation": "You must answer at least 40 of the 50 questions correctly (80%) to pass the Florida Class E Knowledge Exam, which covers both road rules and road signs.",
     "difficulty": "easy",
-    "references": [{ "label": "Knowledge exam", "citation": "FLHSMV Class E Knowledge Exam & Driving Skills Test", "url": "https://www.flhsmv.gov/driver-licenses-id-cards/licensing-requirements-teens-graduated-driver-license-laws-driving-curfews/class-e-knowledge-exam-driving-skills-test/" }],
+    "references": [
+      {
+        "label": "Knowledge exam",
+        "citation": "FLHSMV Class E Knowledge Exam & Driving Skills Test",
+        "url": "https://www.flhsmv.gov/driver-licenses-id-cards/licensing-requirements-teens-graduated-driver-license-laws-driving-curfews/class-e-knowledge-exam-driving-skills-test/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "fl-share-001",
     "category": "sharing-the-road",
-    "stateScope": ["FL"],
+    "stateScope": [
+      "FL"
+    ],
     "prompt": "On a two-way street in Florida with no raised barrier or median separating traffic, when a school bus stops with its red lights flashing:",
     "options": [
-      "Only traffic behind the bus must stop",
+      "Only oncoming traffic must stop",
       "Drivers in both directions must stop",
-      "No one has to stop",
-      "Only oncoming traffic must stop"
+      "Only traffic behind the bus must stop",
+      "No one has to stop"
     ],
     "correctIndex": 1,
     "explanation": "In Florida, on a two-way road without a raised barrier or unpaved median at least 5 feet wide, drivers moving in both directions must stop for a school bus with flashing red lights.",
     "difficulty": "hard",
-    "references": [{ "label": "School buses", "citation": "Official Florida Driver License Handbook, School Buses", "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf" }],
+    "references": [
+      {
+        "label": "School buses",
+        "citation": "Official Florida Driver License Handbook, School Buses",
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "fl-safe-002",
     "category": "safe-driving",
-    "stateScope": ["FL"],
+    "stateScope": [
+      "FL"
+    ],
     "prompt": "To move from a Florida learner license to a driver license, a teen must log a minimum of:",
     "options": [
-      "20 hours of driving, none at night",
       "50 hours of supervised driving, including 10 at night",
+      "20 hours of driving, none at night",
       "100 hours, including 50 at night",
       "No logged hours are required"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "Florida requires at least 50 hours of supervised driving experience, 10 of which must be at night, certified by a parent or guardian before a teen receives a driver license.",
     "difficulty": "medium",
-    "references": [{ "label": "Supervised hours", "citation": "Official Florida Driver License Handbook, Graduated Driver License", "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf" }],
+    "references": [
+      {
+        "label": "Supervised hours",
+        "citation": "Official Florida Driver License Handbook, Graduated Driver License",
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   }
 ]

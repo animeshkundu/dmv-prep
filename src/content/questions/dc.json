@@ -2,256 +2,407 @@
   {
     "id": "dc-speed-001",
     "category": "speed-limits",
-    "stateScope": ["DC"],
+    "stateScope": [
+      "DC"
+    ],
     "prompt": "Unless a different limit is posted, the default speed limit on most District of Columbia streets is:",
-    "options": ["15 mph", "20 mph", "25 mph", "30 mph"],
-    "correctIndex": 1,
+    "options": [
+      "25 mph",
+      "15 mph",
+      "20 mph",
+      "30 mph"
+    ],
+    "correctIndex": 2,
     "explanation": "The District's default speed limit on most local streets is 20 mph unless otherwise posted. Watch for signs, as many corridors set their own limits.",
     "difficulty": "medium",
-    "references": [{ "label": "Speed limits", "citation": "DC DMV Driver Manual — Speed Limits", "url": "https://dmv.dc.gov/node/1113762" }],
+    "references": [
+      {
+        "label": "Speed limits",
+        "citation": "DC DMV Driver Manual — Speed Limits",
+        "url": "https://dmv.dc.gov/node/1113762"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 2
   },
   {
     "id": "dc-speed-002",
     "category": "speed-limits",
-    "stateScope": ["DC"],
+    "stateScope": [
+      "DC"
+    ],
     "prompt": "The speed limit in a District of Columbia school zone when children are present is:",
-    "options": ["10 mph", "15 mph", "20 mph", "25 mph"],
-    "correctIndex": 1,
+    "options": [
+      "25 mph",
+      "10 mph",
+      "20 mph",
+      "15 mph"
+    ],
+    "correctIndex": 3,
     "explanation": "In DC school zones the limit is 15 mph when children are present. These zones are heavily enforced, including by automated cameras.",
     "difficulty": "easy",
-    "references": [{ "label": "School zones", "citation": "DC DMV Driver Manual — Speed Limits", "url": "https://dmv.dc.gov/node/1113762" }],
+    "references": [
+      {
+        "label": "School zones",
+        "citation": "DC DMV Driver Manual — Speed Limits",
+        "url": "https://dmv.dc.gov/node/1113762"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "dc-alcohol-drugs-001",
     "category": "alcohol-drugs",
-    "stateScope": ["DC"],
+    "stateScope": [
+      "DC"
+    ],
     "prompt": "In the District of Columbia, a driver 21 or older can be charged with DWI at a BAC of:",
-    "options": ["0.02%", "0.04%", "0.08%", "0.12%"],
-    "correctIndex": 2,
+    "options": [
+      "0.04%",
+      "0.08%",
+      "0.12%",
+      "0.02%"
+    ],
+    "correctIndex": 1,
     "explanation": "The BAC limit for drivers 21 and older in DC is 0.08%. A driver can still be charged with impaired driving below 0.08% if impairment is observed. Commercial drivers are limited to 0.04%.",
     "difficulty": "easy",
-    "references": [{ "label": "DUI limits", "citation": "DC DMV Driver Manual — Alcohol and Driving", "url": "https://dmv.dc.gov/node/1113762" }],
+    "references": [
+      {
+        "label": "DUI limits",
+        "citation": "DC DMV Driver Manual — Alcohol and Driving",
+        "url": "https://dmv.dc.gov/node/1113762"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 2
   },
   {
     "id": "dc-alcohol-drugs-002",
     "category": "alcohol-drugs",
-    "stateScope": ["DC"],
+    "stateScope": [
+      "DC"
+    ],
     "prompt": "Under the District's zero-tolerance policy, a driver under 21 can be charged for driving with:",
     "options": [
       "A BAC of 0.08% or more",
-      "A BAC of 0.05% or more",
+      "Only if visibly intoxicated",
       "Any measurable amount of alcohol",
-      "Only if visibly intoxicated"
+      "A BAC of 0.05% or more"
     ],
     "correctIndex": 2,
     "explanation": "DC enforces zero tolerance for drivers under 21: any measurable amount of alcohol can result in a charge and license consequences.",
     "difficulty": "medium",
-    "references": [{ "label": "Zero tolerance", "citation": "DC DMV Driver Manual — Alcohol and Driving", "url": "https://dmv.dc.gov/node/1113762" }],
+    "references": [
+      {
+        "label": "Zero tolerance",
+        "citation": "DC DMV Driver Manual — Alcohol and Driving",
+        "url": "https://dmv.dc.gov/node/1113762"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "dc-gdl-teen-001",
     "category": "gdl-teen",
-    "stateScope": ["DC"],
+    "stateScope": [
+      "DC"
+    ],
     "prompt": "In the District's GRAD program, how long must a learner permit be held before advancing to the provisional (intermediate) license?",
-    "options": ["30 days", "3 months", "6 months", "12 months"],
-    "correctIndex": 2,
+    "options": [
+      "12 months",
+      "3 months",
+      "30 days",
+      "6 months"
+    ],
+    "correctIndex": 3,
     "explanation": "DC requires the learner permit to be held for at least 6 months, along with completing required supervised driving, before a driver may move to the provisional license stage.",
     "difficulty": "medium",
-    "references": [{ "label": "GRAD program", "citation": "DC DMV Driver Manual — Graduated Licensing (GRAD)", "url": "https://dmv.dc.gov/node/1113762" }],
+    "references": [
+      {
+        "label": "GRAD program",
+        "citation": "DC DMV Driver Manual — Graduated Licensing (GRAD)",
+        "url": "https://dmv.dc.gov/node/1113762"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 2
   },
   {
     "id": "dc-gdl-teen-002",
     "category": "gdl-teen",
-    "stateScope": ["DC"],
+    "stateScope": [
+      "DC"
+    ],
     "prompt": "A DC learner permit holder may not drive between:",
     "options": [
-      "8 p.m. and 5 a.m.",
       "9 p.m. and 6 a.m.",
       "10 p.m. and 4 a.m.",
+      "8 p.m. and 5 a.m.",
       "Midnight and 6 a.m."
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "During the learner stage in DC, driving is prohibited between 9 p.m. and 6 a.m. Additional seasonal night restrictions apply once a driver reaches the provisional (intermediate) stage.",
     "difficulty": "hard",
-    "references": [{ "label": "Learner restrictions", "citation": "DC DMV Driver Manual — Graduated Licensing (GRAD)", "url": "https://dmv.dc.gov/node/1113762" }],
+    "references": [
+      {
+        "label": "Learner restrictions",
+        "citation": "DC DMV Driver Manual — Graduated Licensing (GRAD)",
+        "url": "https://dmv.dc.gov/node/1113762"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "dc-gdl-teen-003",
     "category": "gdl-teen",
-    "stateScope": ["DC"],
+    "stateScope": [
+      "DC"
+    ],
     "prompt": "During the first 6 months with a DC provisional license, a driver generally may not carry:",
     "options": [
+      "A licensed driving instructor",
       "Passengers under 21, except immediate family or a driving instructor",
-      "Any passenger age 21 or older",
       "Immediate-family passengers",
-      "A licensed driving instructor"
+      "Any passenger age 21 or older"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "For the first 6 months of a DC provisional license, passengers under 21 are prohibited except immediate family members or a driving instructor.",
     "difficulty": "medium",
-    "references": [{ "label": "Passenger limits", "citation": "DC DMV Driver Manual — Graduated Licensing (GRAD)", "url": "https://dmv.dc.gov/node/1113762" }],
+    "references": [
+      {
+        "label": "Passenger limits",
+        "citation": "DC DMV Driver Manual — Graduated Licensing (GRAD)",
+        "url": "https://dmv.dc.gov/node/1113762"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "dc-traffic-laws-001",
     "category": "traffic-laws",
-    "stateScope": ["DC"],
+    "stateScope": [
+      "DC"
+    ],
     "prompt": "In the District of Columbia, using a hand-held cell phone while driving is:",
     "options": [
-      "Allowed for calls only",
-      "Prohibited; drivers must use a hands-free device",
       "Allowed for drivers over 18",
-      "Allowed while stopped at a red light"
+      "Prohibited; drivers must use a hands-free device",
+      "Allowed while stopped at a red light",
+      "Allowed for calls only"
     ],
     "correctIndex": 1,
     "explanation": "DC prohibits using a hand-held phone or device while driving. Drivers must use hands-free equipment, and learner/provisional drivers may not use a phone at all except in an emergency.",
     "difficulty": "easy",
-    "references": [{ "label": "Distracted driving", "citation": "DC DMV Driver Manual — Distracted Driving", "url": "https://dmv.dc.gov/node/1113762" }],
+    "references": [
+      {
+        "label": "Distracted driving",
+        "citation": "DC DMV Driver Manual — Distracted Driving",
+        "url": "https://dmv.dc.gov/node/1113762"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "dc-safe-driving-001",
     "category": "safe-driving",
-    "stateScope": ["DC"],
+    "stateScope": [
+      "DC"
+    ],
     "prompt": "Under the District's Move Over law, when you approach a stopped emergency vehicle with flashing lights you must:",
     "options": [
       "Keep your speed and lane position",
       "Move over a lane when safe, or slow down if you cannot",
-      "Stop in the travel lane",
-      "Pass only on the right"
+      "Pass only on the right",
+      "Stop in the travel lane"
     ],
     "correctIndex": 1,
     "explanation": "DC's Move Over law requires drivers to move over one lane away from a stopped emergency or service vehicle displaying flashing lights when safe, and otherwise to slow down and pass with care.",
     "difficulty": "easy",
-    "references": [{ "label": "Move Over law", "citation": "DC DMV Driver Manual — Sharing the Road", "url": "https://dmv.dc.gov/node/1113762" }],
+    "references": [
+      {
+        "label": "Move Over law",
+        "citation": "DC DMV Driver Manual — Sharing the Road",
+        "url": "https://dmv.dc.gov/node/1113762"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "dc-right-of-way-001",
     "category": "right-of-way",
-    "stateScope": ["DC"],
+    "stateScope": [
+      "DC"
+    ],
     "prompt": "When you approach a crosswalk where a pedestrian is crossing, you must:",
     "options": [
-      "Proceed if you can pass before they reach your lane",
-      "Yield the right-of-way and stop for the pedestrian",
+      "Only stop if a signal tells you to",
       "Sound your horn and continue",
-      "Only stop if a signal tells you to"
+      "Yield the right-of-way and stop for the pedestrian",
+      "Proceed if you can pass before they reach your lane"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "Drivers must yield to pedestrians in crosswalks. In the pedestrian-heavy District, stop and let people finish crossing before you proceed.",
     "difficulty": "easy",
-    "references": [{ "label": "Pedestrians", "citation": "DC DMV Driver Manual — Right-of-Way", "url": "https://dmv.dc.gov/node/1113762" }],
+    "references": [
+      {
+        "label": "Pedestrians",
+        "citation": "DC DMV Driver Manual — Right-of-Way",
+        "url": "https://dmv.dc.gov/node/1113762"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 2
   },
   {
     "id": "dc-traffic-signals-001",
     "category": "traffic-signals",
-    "stateScope": ["DC"],
+    "stateScope": [
+      "DC"
+    ],
     "prompt": "Under District of Columbia law effective in 2025, turning right on a red light is:",
     "options": [
-      "Always allowed after stopping",
+      "Allowed only for taxis",
       "Prohibited unless a sign specifically permits it",
-      "Allowed unless a sign prohibits it",
-      "Allowed only for taxis"
+      "Always allowed after stopping",
+      "Allowed unless a sign prohibits it"
     ],
     "correctIndex": 1,
     "explanation": "DC law generally prohibits right turns on red beginning in 2025 unless DDOT posts a sign specifically allowing the turn. Always obey the intersection's signs and yield to pedestrians and cross traffic.",
     "difficulty": "medium",
-    "references": [{ "label": "Turning on red", "citation": "DC DMV Driver Manual — Traffic Signals", "url": "https://dmv.dc.gov/node/1113762" }],
+    "references": [
+      {
+        "label": "Turning on red",
+        "citation": "DC DMV Driver Manual — Traffic Signals",
+        "url": "https://dmv.dc.gov/node/1113762"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "dc-parking-001",
     "category": "parking",
-    "stateScope": ["DC"],
+    "stateScope": [
+      "DC"
+    ],
     "prompt": "In the District of Columbia, you may not park within how many feet of a fire hydrant?",
-    "options": ["5 feet", "10 feet", "15 feet", "25 feet"],
-    "correctIndex": 1,
+    "options": [
+      "10 feet",
+      "25 feet",
+      "15 feet",
+      "5 feet"
+    ],
+    "correctIndex": 0,
     "explanation": "You may not park within 10 feet of a fire hydrant in DC so that firefighters have clear access in an emergency.",
     "difficulty": "medium",
-    "references": [{ "label": "Parking rules", "citation": "DC DMV Driver Manual — Parking", "url": "https://dmv.dc.gov/node/1113762" }],
+    "references": [
+      {
+        "label": "Parking rules",
+        "citation": "DC DMV Driver Manual — Parking",
+        "url": "https://dmv.dc.gov/node/1113762"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "dc-sharing-the-road-001",
     "category": "sharing-the-road",
-    "stateScope": ["DC"],
+    "stateScope": [
+      "DC"
+    ],
     "prompt": "When driving near the many cyclists and marked bike lanes in the District, you should:",
     "options": [
-      "Drive in the bike lane to pass slower traffic",
-      "Yield to cyclists in bike lanes and check for them before turning across a lane",
       "Assume cyclists will always yield to cars",
-      "Pass cyclists as closely as possible"
+      "Drive in the bike lane to pass slower traffic",
+      "Pass cyclists as closely as possible",
+      "Yield to cyclists in bike lanes and check for them before turning across a lane"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "DC has extensive bike lanes. Do not drive or stop in a bike lane, give cyclists room, and check for them before turning across their path.",
     "difficulty": "medium",
-    "references": [{ "label": "Bicyclists", "citation": "DC DMV Driver Manual — Sharing the Road", "url": "https://dmv.dc.gov/node/1113762" }],
+    "references": [
+      {
+        "label": "Bicyclists",
+        "citation": "DC DMV Driver Manual — Sharing the Road",
+        "url": "https://dmv.dc.gov/node/1113762"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "dc-penalties-points-001",
     "category": "penalties-points",
-    "stateScope": ["DC"],
+    "stateScope": [
+      "DC"
+    ],
     "prompt": "In the District of Columbia's point system, accumulating 10 to 11 points within a two-year period results in:",
     "options": [
-      "A warning letter only",
-      "A 90-day license suspension",
       "Permanent revocation",
-      "No action"
+      "No action",
+      "A warning letter only",
+      "A 90-day license suspension"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "In DC, 10 to 11 points within two years leads to a 90-day suspension, and 12 or more points results in license revocation.",
     "difficulty": "hard",
-    "references": [{ "label": "Point system", "citation": "DC DMV Driver Manual — Point System", "url": "https://dmv.dc.gov/node/1113762" }],
+    "references": [
+      {
+        "label": "Point system",
+        "citation": "DC DMV Driver Manual — Point System",
+        "url": "https://dmv.dc.gov/node/1113762"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   }
 ]

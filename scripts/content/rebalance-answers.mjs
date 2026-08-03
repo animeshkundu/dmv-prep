@@ -32,6 +32,27 @@ const allQuestions = loadAllQuestions(resolvedQuestionsDir);
 let failures = 0;
 let modifiedCount = 0;
 
+const targetCorrectIndex = new Map();
+const questionsByCategory = new Map();
+for (const question of allQuestions) {
+  const categoryQuestions = questionsByCategory.get(question.category) ?? [];
+  categoryQuestions.push(question);
+  questionsByCategory.set(question.category, categoryQuestions);
+}
+for (const questions of questionsByCategory.values()) {
+  questions
+    .sort((left, right) => left.id.localeCompare(right.id))
+    .forEach((question, index) => targetCorrectIndex.set(question.id, index % 4));
+}
+
+function shuffleToCorrectIndex(options, correctText, id, targetIndex) {
+  for (let attempt = 0; attempt < 128; attempt++) {
+    const shuffled = shuffle(options, `${id}:opts:${attempt}`);
+    if (shuffled.indexOf(correctText) === targetIndex) return shuffled;
+  }
+  throw new Error(`Could not place ${id}'s correct option at index ${targetIndex}`);
+}
+
 // Group by file
 const fileGroups = new Map();
 for (const q of allQuestions) {
@@ -60,7 +81,15 @@ for (const [filePath, items] of fileGroups.entries()) {
 
     const oldOptions = [...item.options];
     const oldCorrectText = oldOptions[item.correctIndex];
-    const newOptions = shuffle(item.options, `${item.id}:opts`);
+    // Establish a stable input order first so re-running the repair produces
+    // the same ordering instead of shuffling an already shuffled array again.
+    const canonicalOptions = [...item.options].sort((a, b) => a.localeCompare(b));
+    const newOptions = shuffleToCorrectIndex(
+      canonicalOptions,
+      oldCorrectText,
+      item.id,
+      targetCorrectIndex.get(item.id),
+    );
     
     let isSame = true;
     for (let i = 0; i < oldOptions.length; i++) {

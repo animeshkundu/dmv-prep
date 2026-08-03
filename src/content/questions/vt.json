@@ -2,256 +2,407 @@
   {
     "id": "vt-speed-001",
     "category": "speed-limits",
-    "stateScope": ["VT"],
+    "stateScope": [
+      "VT"
+    ],
     "prompt": "Unless otherwise posted, the maximum speed limit on a Vermont Interstate highway is:",
-    "options": ["55 mph", "65 mph", "70 mph", "80 mph"],
-    "correctIndex": 1,
+    "options": [
+      "80 mph",
+      "70 mph",
+      "55 mph",
+      "65 mph"
+    ],
+    "correctIndex": 3,
     "explanation": "Vermont posts a maximum of 65 mph on its Interstate highways. You must still slow to a safe speed for traffic, weather, and road conditions.",
     "difficulty": "easy",
-    "references": [{ "label": "Speed limits", "citation": "Vermont Driver's Manual — Speed Limits", "url": "https://dmv.vermont.gov/sites/dmv/files/documents/VN-007-Drivers_Manual.pdf" }],
+    "references": [
+      {
+        "label": "Speed limits",
+        "citation": "Vermont Driver's Manual — Speed Limits",
+        "url": "https://dmv.vermont.gov/sites/dmv/files/documents/VN-007-Drivers_Manual.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "vt-alcohol-drugs-001",
     "category": "alcohol-drugs",
-    "stateScope": ["VT"],
+    "stateScope": [
+      "VT"
+    ],
     "prompt": "A driver age 21 or older is legally impaired in Vermont when their blood alcohol concentration (BAC) reaches:",
-    "options": ["0.02%", "0.05%", "0.08%", "0.10%"],
-    "correctIndex": 2,
+    "options": [
+      "0.10%",
+      "0.05%",
+      "0.02%",
+      "0.08%"
+    ],
+    "correctIndex": 3,
     "explanation": "For drivers 21 and older, the legal BAC limit in Vermont is 0.08%. Commercial drivers are limited to 0.04%, and drivers under 21 are held to a 0.02% zero-tolerance standard.",
     "difficulty": "easy",
-    "references": [{ "label": "DUI limits", "citation": "Vermont Driver's Manual — Alcohol and Driving", "url": "https://dmv.vermont.gov/sites/dmv/files/documents/VN-007-Drivers_Manual.pdf" }],
+    "references": [
+      {
+        "label": "DUI limits",
+        "citation": "Vermont Driver's Manual — Alcohol and Driving",
+        "url": "https://dmv.vermont.gov/sites/dmv/files/documents/VN-007-Drivers_Manual.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "vt-alcohol-drugs-002",
     "category": "alcohol-drugs",
-    "stateScope": ["VT"],
+    "stateScope": [
+      "VT"
+    ],
     "prompt": "Under Vermont's zero-tolerance law, a driver under age 21 can face license suspension with a BAC as low as:",
-    "options": ["0.02%", "0.05%", "0.08%", "Any amount over 0.00%"],
+    "options": [
+      "0.02%",
+      "0.05%",
+      "Any amount over 0.00%",
+      "0.08%"
+    ],
     "correctIndex": 0,
     "explanation": "Vermont's zero-tolerance law makes it illegal for a driver under 21 to operate with a BAC of 0.02% or higher, well below the 0.08% adult standard.",
     "difficulty": "medium",
-    "references": [{ "label": "Zero tolerance", "citation": "Vermont Driver's Manual — Alcohol and Driving", "url": "https://dmv.vermont.gov/sites/dmv/files/documents/VN-007-Drivers_Manual.pdf" }],
+    "references": [
+      {
+        "label": "Zero tolerance",
+        "citation": "Vermont Driver's Manual — Alcohol and Driving",
+        "url": "https://dmv.vermont.gov/sites/dmv/files/documents/VN-007-Drivers_Manual.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "vt-gdl-teen-001",
     "category": "gdl-teen",
-    "stateScope": ["VT"],
+    "stateScope": [
+      "VT"
+    ],
     "prompt": "In Vermont, how long must an applicant under 18 hold a learner permit before taking the road test for a junior license?",
-    "options": ["30 days", "3 months", "6 months", "12 months"],
-    "correctIndex": 3,
+    "options": [
+      "3 months",
+      "30 days",
+      "12 months",
+      "6 months"
+    ],
+    "correctIndex": 2,
     "explanation": "A learner permit holder under 18 must hold the permit for at least 12 months (with a clean record) and complete required driver education and supervised practice before qualifying for a junior driver license.",
     "difficulty": "medium",
-    "references": [{ "label": "Junior licensing", "citation": "Vermont Driver's Manual — Graduated Licensing", "url": "https://dmv.vermont.gov/sites/dmv/files/documents/VN-007-Drivers_Manual.pdf" }],
+    "references": [
+      {
+        "label": "Junior licensing",
+        "citation": "Vermont Driver's Manual — Graduated Licensing",
+        "url": "https://dmv.vermont.gov/sites/dmv/files/documents/VN-007-Drivers_Manual.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "vt-gdl-teen-002",
     "category": "gdl-teen",
-    "stateScope": ["VT"],
+    "stateScope": [
+      "VT"
+    ],
     "prompt": "During the first 3 months of holding a Vermont junior driver license, you may generally drive:",
     "options": [
+      "With one passenger of any age",
       "With any number of passengers",
-      "Alone, unless accompanied by a qualified supervising adult",
       "With up to three friends",
-      "With one passenger of any age"
+      "Alone, unless accompanied by a qualified supervising adult"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "For the first 3 months of a junior license, you generally must drive alone unless accompanied by a licensed, unimpaired parent or guardian, driver educator, or person age 25 or older. Immediate-family passengers become permitted during the second 3 months.",
     "difficulty": "medium",
-    "references": [{ "label": "Passenger limits", "citation": "Vermont Driver's Manual — Graduated Licensing", "url": "https://dmv.vermont.gov/sites/dmv/files/documents/VN-007-Drivers_Manual.pdf" }],
+    "references": [
+      {
+        "label": "Passenger limits",
+        "citation": "Vermont Driver's Manual — Graduated Licensing",
+        "url": "https://dmv.vermont.gov/sites/dmv/files/documents/VN-007-Drivers_Manual.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "vt-traffic-laws-001",
     "category": "traffic-laws",
-    "stateScope": ["VT"],
+    "stateScope": [
+      "VT"
+    ],
     "prompt": "Under Vermont's hands-free law, using a hand-held cell phone while driving is:",
     "options": [
+      "Allowed only on Interstate highways",
       "Allowed for calls but not texting",
-      "Prohibited for all drivers; a hands-free device is required",
       "Allowed if you are over 18",
-      "Allowed only on Interstate highways"
+      "Prohibited for all drivers; a hands-free device is required"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "Vermont bans the hand-held use of portable electronic devices while driving. Adults may use a hands-free setup; drivers under 18 may not use any portable electronic device, even hands-free.",
     "difficulty": "easy",
-    "references": [{ "label": "Hands-free law", "citation": "Vermont Driver's Manual — Distracted Driving", "url": "https://dmv.vermont.gov/sites/dmv/files/documents/VN-007-Drivers_Manual.pdf" }],
+    "references": [
+      {
+        "label": "Hands-free law",
+        "citation": "Vermont Driver's Manual — Distracted Driving",
+        "url": "https://dmv.vermont.gov/sites/dmv/files/documents/VN-007-Drivers_Manual.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "vt-safe-driving-001",
     "category": "safe-driving",
-    "stateScope": ["VT"],
+    "stateScope": [
+      "VT"
+    ],
     "prompt": "When you approach a stopped emergency vehicle with flashing lights on a Vermont highway, the Move Over law requires you to:",
     "options": [
-      "Maintain your speed and stay in your lane",
       "Move over a lane if you safely can, or slow down",
+      "Maintain your speed and stay in your lane",
       "Stop completely until the vehicle leaves",
       "Sound your horn as you pass"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "Vermont's Move Over law requires drivers to move over one lane away from a stopped emergency, tow, or maintenance vehicle displaying flashing lights when it is safe, and otherwise to slow down.",
     "difficulty": "easy",
-    "references": [{ "label": "Move Over law", "citation": "Vermont Driver's Manual — Sharing the Road", "url": "https://dmv.vermont.gov/sites/dmv/files/documents/VN-007-Drivers_Manual.pdf" }],
+    "references": [
+      {
+        "label": "Move Over law",
+        "citation": "Vermont Driver's Manual — Sharing the Road",
+        "url": "https://dmv.vermont.gov/sites/dmv/files/documents/VN-007-Drivers_Manual.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "vt-road-signs-001",
     "category": "road-signs",
-    "stateScope": ["VT"],
+    "stateScope": [
+      "VT"
+    ],
     "prompt": "A yellow diamond-shaped sign on a Vermont road means:",
     "options": [
       "Stop ahead and yield the right-of-way",
-      "A warning about conditions on or near the road ahead",
+      "A destination or service guide",
       "A regulatory speed limit",
-      "A destination or service guide"
+      "A warning about conditions on or near the road ahead"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "Diamond-shaped yellow (or yellow-green) signs are warning signs. They alert you to hazards or changing conditions ahead, such as curves, intersections, or animal crossings, so you can slow and prepare.",
     "difficulty": "easy",
-    "references": [{ "label": "Warning signs", "citation": "Vermont Driver's Manual — Traffic Signs", "url": "https://dmv.vermont.gov/sites/dmv/files/documents/VN-007-Drivers_Manual.pdf" }],
+    "references": [
+      {
+        "label": "Warning signs",
+        "citation": "Vermont Driver's Manual — Traffic Signs",
+        "url": "https://dmv.vermont.gov/sites/dmv/files/documents/VN-007-Drivers_Manual.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "vt-traffic-signals-001",
     "category": "traffic-signals",
-    "stateScope": ["VT"],
+    "stateScope": [
+      "VT"
+    ],
     "prompt": "A flashing red traffic signal means you must:",
     "options": [
-      "Slow down and proceed with caution",
+      "Stop and wait for the light to turn green",
       "Stop, then proceed when it is safe, as at a stop sign",
       "Speed up to clear the intersection",
-      "Stop and wait for the light to turn green"
+      "Slow down and proceed with caution"
     ],
     "correctIndex": 1,
     "explanation": "A flashing red light has the same meaning as a stop sign: come to a full stop, yield to other traffic and pedestrians, and proceed only when it is safe.",
     "difficulty": "easy",
-    "references": [{ "label": "Signals", "citation": "Vermont Driver's Manual — Traffic Signals", "url": "https://dmv.vermont.gov/sites/dmv/files/documents/VN-007-Drivers_Manual.pdf" }],
+    "references": [
+      {
+        "label": "Signals",
+        "citation": "Vermont Driver's Manual — Traffic Signals",
+        "url": "https://dmv.vermont.gov/sites/dmv/files/documents/VN-007-Drivers_Manual.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "vt-right-of-way-001",
     "category": "right-of-way",
-    "stateScope": ["VT"],
+    "stateScope": [
+      "VT"
+    ],
     "prompt": "At a four-way stop where two vehicles arrive at the same time, right-of-way goes to:",
     "options": [
-      "The vehicle on the left",
       "The vehicle on the right",
       "The larger vehicle",
+      "The vehicle on the left",
       "Whichever driver honks first"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "When two vehicles reach an intersection at the same time, the driver on the left must yield to the driver on the right. If you arrive first, you have the right-of-way after stopping.",
     "difficulty": "medium",
-    "references": [{ "label": "Right-of-way", "citation": "Vermont Driver's Manual — Right-of-Way", "url": "https://dmv.vermont.gov/sites/dmv/files/documents/VN-007-Drivers_Manual.pdf" }],
+    "references": [
+      {
+        "label": "Right-of-way",
+        "citation": "Vermont Driver's Manual — Right-of-Way",
+        "url": "https://dmv.vermont.gov/sites/dmv/files/documents/VN-007-Drivers_Manual.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "vt-sharing-the-road-001",
     "category": "sharing-the-road",
-    "stateScope": ["VT"],
+    "stateScope": [
+      "VT"
+    ],
     "prompt": "When passing a bicyclist on a Vermont roadway, you should:",
     "options": [
-      "Pass as closely as possible to save time",
+      "Never change lane position when passing",
       "Give the bicyclist plenty of room and pass only when safe",
       "Sound your horn to move them off the road",
-      "Never change lane position when passing"
+      "Pass as closely as possible to save time"
     ],
     "correctIndex": 1,
     "explanation": "Bicyclists have the same right to the road as drivers. Slow down, wait for a safe gap, and give them ample clearance when passing, moving over when you can.",
     "difficulty": "easy",
-    "references": [{ "label": "Bicyclists", "citation": "Vermont Driver's Manual — Sharing the Road", "url": "https://dmv.vermont.gov/sites/dmv/files/documents/VN-007-Drivers_Manual.pdf" }],
+    "references": [
+      {
+        "label": "Bicyclists",
+        "citation": "Vermont Driver's Manual — Sharing the Road",
+        "url": "https://dmv.vermont.gov/sites/dmv/files/documents/VN-007-Drivers_Manual.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "vt-pavement-markings-001",
     "category": "pavement-markings",
-    "stateScope": ["VT"],
+    "stateScope": [
+      "VT"
+    ],
     "prompt": "A solid yellow line on your side of the center of a two-lane road means:",
     "options": [
+      "Passing is allowed only at night",
       "You may pass when the way is clear",
       "You may not cross to pass",
-      "The road is one-way",
-      "Passing is allowed only at night"
+      "The road is one-way"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "A solid yellow line on your side means passing is not permitted. Yellow lines separate traffic moving in opposite directions; a broken yellow line on your side would allow passing when safe.",
     "difficulty": "medium",
-    "references": [{ "label": "Pavement markings", "citation": "Vermont Driver's Manual — Pavement Markings", "url": "https://dmv.vermont.gov/sites/dmv/files/documents/VN-007-Drivers_Manual.pdf" }],
+    "references": [
+      {
+        "label": "Pavement markings",
+        "citation": "Vermont Driver's Manual — Pavement Markings",
+        "url": "https://dmv.vermont.gov/sites/dmv/files/documents/VN-007-Drivers_Manual.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 2
   },
   {
     "id": "vt-safe-driving-002",
     "category": "safe-driving",
-    "stateScope": ["VT"],
+    "stateScope": [
+      "VT"
+    ],
     "prompt": "On Vermont's many rural roads, why should you be especially alert at dawn and dusk?",
     "options": [
-      "Speed limits are automatically higher then",
+      "Passing rules do not apply",
       "Large animals such as deer and moose are most active and may cross the road",
       "Headlights are prohibited at those times",
-      "Passing rules do not apply"
+      "Speed limits are automatically higher then"
     ],
     "correctIndex": 1,
     "explanation": "Deer and moose are most active at dawn and dusk and can enter the roadway unexpectedly. Scan the road edges, heed animal-crossing signs, and slow down, especially on rural highways.",
     "difficulty": "medium",
-    "references": [{ "label": "Rural hazards", "citation": "Vermont Driver's Manual — Safe Driving", "url": "https://dmv.vermont.gov/sites/dmv/files/documents/VN-007-Drivers_Manual.pdf" }],
+    "references": [
+      {
+        "label": "Rural hazards",
+        "citation": "Vermont Driver's Manual — Safe Driving",
+        "url": "https://dmv.vermont.gov/sites/dmv/files/documents/VN-007-Drivers_Manual.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "vt-penalties-points-001",
     "category": "penalties-points",
-    "stateScope": ["VT"],
+    "stateScope": [
+      "VT"
+    ],
     "prompt": "Vermont assigns points for moving violations. Accumulating how many points within a two-year period can lead to license suspension?",
-    "options": ["4 points", "6 points", "10 points", "20 points"],
-    "correctIndex": 2,
+    "options": [
+      "6 points",
+      "10 points",
+      "4 points",
+      "20 points"
+    ],
+    "correctIndex": 1,
     "explanation": "Vermont adds points to your record for moving violations. Reaching 10 or more points within a two-year period can result in suspension of your driving privileges.",
     "difficulty": "hard",
-    "references": [{ "label": "Point system", "citation": "Vermont Driver's Manual — Point System", "url": "https://dmv.vermont.gov/sites/dmv/files/documents/VN-007-Drivers_Manual.pdf" }],
+    "references": [
+      {
+        "label": "Point system",
+        "citation": "Vermont Driver's Manual — Point System",
+        "url": "https://dmv.vermont.gov/sites/dmv/files/documents/VN-007-Drivers_Manual.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   }
 ]

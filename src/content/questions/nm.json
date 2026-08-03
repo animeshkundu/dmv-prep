@@ -2,246 +2,407 @@
   {
     "id": "nm-speed-001",
     "category": "speed-limits",
-    "stateScope": ["NM"],
+    "stateScope": [
+      "NM"
+    ],
     "prompt": "On most rural interstate highways in New Mexico, the maximum posted speed limit for passenger vehicles is:",
-    "options": ["65 mph", "70 mph", "75 mph", "80 mph"],
+    "options": [
+      "80 mph",
+      "65 mph",
+      "75 mph",
+      "70 mph"
+    ],
     "correctIndex": 2,
     "explanation": "New Mexico posts a maximum of 75 mph on most rural interstate highways. You must still slow to a safe speed for traffic, weather, and road conditions.",
     "difficulty": "easy",
-    "references": [{ "label": "NM Driver Manual", "citation": "NM MVD Driver Manual, Speed Limits", "url": "https://www.mvd.newmexico.gov/wp-content/uploads/2020/12/English-Drivers-Manualver11.19.19.pdf" }],
+    "references": [
+      {
+        "label": "NM Driver Manual",
+        "citation": "NM MVD Driver Manual, Speed Limits",
+        "url": "https://www.mvd.newmexico.gov/wp-content/uploads/2020/12/English-Drivers-Manualver11.19.19.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nm-speed-002",
     "category": "speed-limits",
-    "stateScope": ["NM"],
+    "stateScope": [
+      "NM"
+    ],
     "prompt": "You are driving through a marked school zone in New Mexico during posted hours. Unless another limit is posted, you should not exceed:",
-    "options": ["10 mph", "15 mph", "25 mph", "30 mph"],
-    "correctIndex": 1,
+    "options": [
+      "10 mph",
+      "30 mph",
+      "25 mph",
+      "15 mph"
+    ],
+    "correctIndex": 3,
     "explanation": "New Mexico school zones are commonly posted at 15 mph during the hours shown on the sign. Always obey the posted limit and watch for children.",
     "difficulty": "medium",
-    "references": [{ "label": "NM Driver Manual", "citation": "NM MVD Driver Manual, School Zones", "url": "https://www.mvd.newmexico.gov/wp-content/uploads/2020/12/English-Drivers-Manualver11.19.19.pdf" }],
+    "references": [
+      {
+        "label": "NM Driver Manual",
+        "citation": "NM MVD Driver Manual, School Zones",
+        "url": "https://www.mvd.newmexico.gov/wp-content/uploads/2020/12/English-Drivers-Manualver11.19.19.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nm-alcohol-drugs-001",
     "category": "alcohol-drugs",
-    "stateScope": ["NM"],
+    "stateScope": [
+      "NM"
+    ],
     "prompt": "In New Mexico, a driver age 21 or older is legally impaired (per se) at a blood alcohol concentration (BAC) of:",
-    "options": ["0.05%", "0.08%", "0.10%", "0.02%"],
+    "options": [
+      "0.10%",
+      "0.08%",
+      "0.02%",
+      "0.05%"
+    ],
     "correctIndex": 1,
     "explanation": "For drivers 21 and older, 0.08% BAC is the per se limit in New Mexico. Commercial drivers are limited to 0.04%.",
     "difficulty": "easy",
-    "references": [{ "label": "NM Driver Manual", "citation": "NM MVD Driver Manual, Alcohol and the Law", "url": "https://www.mvd.newmexico.gov/wp-content/uploads/2020/12/English-Drivers-Manualver11.19.19.pdf" }],
+    "references": [
+      {
+        "label": "NM Driver Manual",
+        "citation": "NM MVD Driver Manual, Alcohol and the Law",
+        "url": "https://www.mvd.newmexico.gov/wp-content/uploads/2020/12/English-Drivers-Manualver11.19.19.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nm-alcohol-drugs-002",
     "category": "alcohol-drugs",
-    "stateScope": ["NM"],
+    "stateScope": [
+      "NM"
+    ],
     "prompt": "Under New Mexico's zero tolerance law, a driver under 21 can be charged for driving with a BAC as low as:",
-    "options": ["0.08%", "0.05%", "0.02%", "0.01%"],
+    "options": [
+      "0.08%",
+      "0.01%",
+      "0.02%",
+      "0.05%"
+    ],
     "correctIndex": 2,
     "explanation": "New Mexico's zero tolerance law makes it illegal for a driver under 21 to drive with a BAC of 0.02% or higher.",
     "difficulty": "medium",
-    "references": [{ "label": "NM Driver Manual", "citation": "NM MVD Driver Manual, Underage Drinking and Driving", "url": "https://www.mvd.newmexico.gov/wp-content/uploads/2020/12/English-Drivers-Manualver11.19.19.pdf" }],
+    "references": [
+      {
+        "label": "NM Driver Manual",
+        "citation": "NM MVD Driver Manual, Underage Drinking and Driving",
+        "url": "https://www.mvd.newmexico.gov/wp-content/uploads/2020/12/English-Drivers-Manualver11.19.19.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nm-gdl-teen-001",
     "category": "gdl-teen",
-    "stateScope": ["NM"],
+    "stateScope": [
+      "NM"
+    ],
     "prompt": "Before a New Mexico teen can move from an instruction permit to a provisional license, they must hold the permit for at least:",
-    "options": ["30 days", "3 months", "6 months", "12 months"],
+    "options": [
+      "12 months",
+      "30 days",
+      "6 months",
+      "3 months"
+    ],
     "correctIndex": 2,
     "explanation": "New Mexico requires holding the instruction permit for at least 6 months, with 50 hours of supervised driving (10 at night), before applying for a provisional license.",
     "difficulty": "medium",
-    "references": [{ "label": "NM Driver Manual", "citation": "NM MVD Driver Manual, Graduated Licensing", "url": "https://www.mvd.newmexico.gov/wp-content/uploads/2020/12/English-Drivers-Manualver11.19.19.pdf" }],
+    "references": [
+      {
+        "label": "NM Driver Manual",
+        "citation": "NM MVD Driver Manual, Graduated Licensing",
+        "url": "https://www.mvd.newmexico.gov/wp-content/uploads/2020/12/English-Drivers-Manualver11.19.19.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nm-gdl-teen-002",
     "category": "gdl-teen",
-    "stateScope": ["NM"],
+    "stateScope": [
+      "NM"
+    ],
     "prompt": "A New Mexico provisional license holder is generally restricted from driving during which hours (unless an exception applies)?",
-    "options": ["9 p.m. to 4 a.m.", "Midnight to 5 a.m.", "11 p.m. to 6 a.m.", "10 p.m. to 5 a.m."],
-    "correctIndex": 1,
+    "options": [
+      "11 p.m. to 6 a.m.",
+      "9 p.m. to 4 a.m.",
+      "10 p.m. to 5 a.m.",
+      "Midnight to 5 a.m."
+    ],
+    "correctIndex": 3,
     "explanation": "Provisional drivers in New Mexico generally may not drive between midnight and 5 a.m. and may carry no more than one passenger under 21, unless a listed exception applies.",
     "difficulty": "hard",
-    "references": [{ "label": "NM Driver Manual", "citation": "NM MVD Driver Manual, Provisional License Restrictions", "url": "https://www.mvd.newmexico.gov/wp-content/uploads/2020/12/English-Drivers-Manualver11.19.19.pdf" }],
+    "references": [
+      {
+        "label": "NM Driver Manual",
+        "citation": "NM MVD Driver Manual, Provisional License Restrictions",
+        "url": "https://www.mvd.newmexico.gov/wp-content/uploads/2020/12/English-Drivers-Manualver11.19.19.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nm-penalties-points-001",
     "category": "penalties-points",
-    "stateScope": ["NM"],
+    "stateScope": [
+      "NM"
+    ],
     "prompt": "In New Mexico's driver point system, accumulating how many points within a 12-month period results in a one-year license suspension?",
-    "options": ["7 points", "10 points", "12 points", "15 points"],
-    "correctIndex": 2,
+    "options": [
+      "7 points",
+      "10 points",
+      "15 points",
+      "12 points"
+    ],
+    "correctIndex": 3,
     "explanation": "In New Mexico, 12 points in a 12-month period leads to a one-year suspension. Reaching 7 points can trigger a hearing that may result in a shorter suspension.",
     "difficulty": "hard",
-    "references": [{ "label": "NM Driver Manual", "citation": "NM MVD Driver Manual, Point System", "url": "https://www.mvd.newmexico.gov/wp-content/uploads/2020/12/English-Drivers-Manualver11.19.19.pdf" }],
+    "references": [
+      {
+        "label": "NM Driver Manual",
+        "citation": "NM MVD Driver Manual, Point System",
+        "url": "https://www.mvd.newmexico.gov/wp-content/uploads/2020/12/English-Drivers-Manualver11.19.19.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nm-traffic-laws-001",
     "category": "traffic-laws",
-    "stateScope": ["NM"],
+    "stateScope": [
+      "NM"
+    ],
     "prompt": "Under New Mexico's Move Over Law, when you approach a stopped emergency or highway maintenance vehicle with flashing lights on a multi-lane road, you must:",
     "options": [
-      "Speed up to clear the area quickly",
       "Move over one lane if you safely can, or slow down",
+      "Sound your horn and continue at the same speed",
       "Stop completely until the vehicle leaves",
-      "Sound your horn and continue at the same speed"
+      "Speed up to clear the area quickly"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "New Mexico's Move Over Law requires drivers to move over a lane when safe, or slow down, for stopped emergency, police, and highway maintenance vehicles displaying flashing lights.",
     "difficulty": "medium",
-    "references": [{ "label": "NM Driver Manual", "citation": "NM MVD Driver Manual, Move Over Law", "url": "https://www.mvd.newmexico.gov/wp-content/uploads/2020/12/English-Drivers-Manualver11.19.19.pdf" }],
+    "references": [
+      {
+        "label": "NM Driver Manual",
+        "citation": "NM MVD Driver Manual, Move Over Law",
+        "url": "https://www.mvd.newmexico.gov/wp-content/uploads/2020/12/English-Drivers-Manualver11.19.19.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nm-traffic-laws-002",
     "category": "traffic-laws",
-    "stateScope": ["NM"],
+    "stateScope": [
+      "NM"
+    ],
     "prompt": "New Mexico's statewide distracted driving law prohibits which of the following for all drivers?",
     "options": [
-      "Using a hands-free device",
-      "Reading or sending text messages while driving",
       "Listening to the radio",
+      "Reading or sending text messages while driving",
+      "Using a hands-free device",
       "Talking to a passenger"
     ],
     "correctIndex": 1,
     "explanation": "New Mexico bans texting (reading or sending messages) while driving statewide. Some cities add stricter handheld-phone bans.",
     "difficulty": "easy",
-    "references": [{ "label": "NM Driver Manual", "citation": "NM MVD Driver Manual, Distracted Driving", "url": "https://www.mvd.newmexico.gov/wp-content/uploads/2020/12/English-Drivers-Manualver11.19.19.pdf" }],
+    "references": [
+      {
+        "label": "NM Driver Manual",
+        "citation": "NM MVD Driver Manual, Distracted Driving",
+        "url": "https://www.mvd.newmexico.gov/wp-content/uploads/2020/12/English-Drivers-Manualver11.19.19.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nm-right-of-way-001",
     "category": "right-of-way",
-    "stateScope": ["NM"],
+    "stateScope": [
+      "NM"
+    ],
     "prompt": "You reach a four-way stop at the same time as a vehicle on your right. Who has the right-of-way?",
     "options": [
-      "You do, because you are on the left",
       "The vehicle on your right",
-      "Whoever accelerates first",
-      "The larger vehicle"
+      "The larger vehicle",
+      "You do, because you are on the left",
+      "Whoever accelerates first"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "When two vehicles reach an intersection at the same time, the driver on the left yields to the driver on the right.",
     "difficulty": "easy",
-    "references": [{ "label": "NM Driver Manual", "citation": "NM MVD Driver Manual, Right-of-Way", "url": "https://www.mvd.newmexico.gov/wp-content/uploads/2020/12/English-Drivers-Manualver11.19.19.pdf" }],
+    "references": [
+      {
+        "label": "NM Driver Manual",
+        "citation": "NM MVD Driver Manual, Right-of-Way",
+        "url": "https://www.mvd.newmexico.gov/wp-content/uploads/2020/12/English-Drivers-Manualver11.19.19.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nm-road-signs-001",
     "category": "road-signs",
-    "stateScope": ["NM"],
+    "stateScope": [
+      "NM"
+    ],
     "prompt": "A yellow diamond-shaped sign in New Mexico is used to:",
     "options": [
       "Give a regulatory order you must obey",
-      "Warn you of a hazard or change in conditions ahead",
       "Mark a construction zone only",
-      "Show route and distance information"
+      "Show route and distance information",
+      "Warn you of a hazard or change in conditions ahead"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "Yellow diamond-shaped signs are warning signs. They alert you to hazards or changes ahead such as curves, intersections, or merging traffic.",
     "difficulty": "easy",
-    "references": [{ "label": "NM Driver Manual", "citation": "NM MVD Driver Manual, Traffic Signs", "url": "https://www.mvd.newmexico.gov/wp-content/uploads/2020/12/English-Drivers-Manualver11.19.19.pdf" }],
+    "references": [
+      {
+        "label": "NM Driver Manual",
+        "citation": "NM MVD Driver Manual, Traffic Signs",
+        "url": "https://www.mvd.newmexico.gov/wp-content/uploads/2020/12/English-Drivers-Manualver11.19.19.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nm-traffic-signals-001",
     "category": "traffic-signals",
-    "stateScope": ["NM"],
+    "stateScope": [
+      "NM"
+    ],
     "prompt": "A flashing red traffic signal means you must:",
     "options": [
       "Slow down and proceed with caution",
       "Stop, then proceed when it is safe, as at a stop sign",
-      "Continue without stopping",
-      "Stop and wait for the light to turn green"
+      "Stop and wait for the light to turn green",
+      "Continue without stopping"
     ],
     "correctIndex": 1,
     "explanation": "A flashing red light means the same as a stop sign: come to a full stop, then proceed when it is safe to do so.",
     "difficulty": "easy",
-    "references": [{ "label": "NM Driver Manual", "citation": "NM MVD Driver Manual, Traffic Signals", "url": "https://www.mvd.newmexico.gov/wp-content/uploads/2020/12/English-Drivers-Manualver11.19.19.pdf" }],
+    "references": [
+      {
+        "label": "NM Driver Manual",
+        "citation": "NM MVD Driver Manual, Traffic Signals",
+        "url": "https://www.mvd.newmexico.gov/wp-content/uploads/2020/12/English-Drivers-Manualver11.19.19.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nm-safe-driving-001",
     "category": "safe-driving",
-    "stateScope": ["NM"],
+    "stateScope": [
+      "NM"
+    ],
     "prompt": "New Mexico includes wide-open desert and mountain highways. To reduce the danger of hitting wildlife or livestock, you should:",
     "options": [
       "Use high beams at all times, even with oncoming traffic",
-      "Scan the road edges and reduce speed at dawn, dusk, and in open-range areas",
       "Assume animals will move out of the way",
+      "Scan the road edges and reduce speed at dawn, dusk, and in open-range areas",
       "Speed up to pass animals quickly"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "Animals are most active at dawn and dusk and may enter open-range roadways. Scanning the roadsides and slowing down gives you time to react safely.",
     "difficulty": "medium",
-    "references": [{ "label": "NM Driver Manual", "citation": "NM MVD Driver Manual, Safe Driving Tips", "url": "https://www.mvd.newmexico.gov/wp-content/uploads/2020/12/English-Drivers-Manualver11.19.19.pdf" }],
+    "references": [
+      {
+        "label": "NM Driver Manual",
+        "citation": "NM MVD Driver Manual, Safe Driving Tips",
+        "url": "https://www.mvd.newmexico.gov/wp-content/uploads/2020/12/English-Drivers-Manualver11.19.19.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nm-sharing-the-road-001",
     "category": "sharing-the-road",
-    "stateScope": ["NM"],
+    "stateScope": [
+      "NM"
+    ],
     "prompt": "When passing a bicyclist on a New Mexico roadway, you should:",
     "options": [
+      "Never slow down for cyclists",
       "Pass as closely as possible to save time",
       "Give a safe distance and pass only when it is clear",
-      "Honk continuously until the cyclist moves off the road",
-      "Never slow down for cyclists"
+      "Honk continuously until the cyclist moves off the road"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "Treat bicyclists as legal road users. Give them a safe passing distance and wait for a clear, safe opportunity to pass.",
     "difficulty": "easy",
-    "references": [{ "label": "NM Driver Manual", "citation": "NM MVD Driver Manual, Sharing the Road", "url": "https://www.mvd.newmexico.gov/wp-content/uploads/2020/12/English-Drivers-Manualver11.19.19.pdf" }],
+    "references": [
+      {
+        "label": "NM Driver Manual",
+        "citation": "NM MVD Driver Manual, Sharing the Road",
+        "url": "https://www.mvd.newmexico.gov/wp-content/uploads/2020/12/English-Drivers-Manualver11.19.19.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   }
 ]

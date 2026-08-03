@@ -2,162 +2,270 @@
   {
     "id": "mn-alcohol-drugs-001",
     "category": "alcohol-drugs",
-    "stateScope": ["MN"],
+    "stateScope": [
+      "MN"
+    ],
     "prompt": "In Minnesota, a driver age 21 or older is legally impaired (DWI) at a blood alcohol concentration of:",
-    "options": ["0.10%", "0.08%", "0.05%", "0.02%"],
+    "options": [
+      "0.05%",
+      "0.08%",
+      "0.10%",
+      "0.02%"
+    ],
     "correctIndex": 1,
     "explanation": "Minnesota's per se DWI limit for drivers 21 and older is 0.08%. A BAC of 0.16% or higher is an aggravating factor with harsher penalties.",
     "difficulty": "easy",
-    "references": [{ "label": "DWI limits", "citation": "Minnesota Driver's Manual (Class D), Alcohol, Drugs and Driving", "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf" }],
+    "references": [
+      {
+        "label": "DWI limits",
+        "citation": "Minnesota Driver's Manual (Class D), Alcohol, Drugs and Driving",
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "mn-alcohol-drugs-002",
     "category": "alcohol-drugs",
-    "stateScope": ["MN"],
+    "stateScope": [
+      "MN"
+    ],
     "prompt": "Under Minnesota's 'Not a Drop' law, a driver under 21 may not operate a vehicle with a BAC of:",
     "options": [
-      "0.08% or higher",
       "0.04% or higher",
-      "0.02% or higher",
-      "Any amount above 0.00%"
+      "0.08% or higher",
+      "Any amount above 0.00%",
+      "0.02% or higher"
     ],
-    "correctIndex": 3,
+    "correctIndex": 2,
     "explanation": "Minnesota's Not a Drop law is a zero-tolerance rule: a driver under 21 may not drive with any measurable amount of alcohol, so any BAC above 0.00% is a violation.",
     "difficulty": "medium",
-    "references": [{ "label": "Not a Drop", "citation": "Minnesota Driver's Manual (Class D), Alcohol, Drugs and Driving", "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf" }],
+    "references": [
+      {
+        "label": "Not a Drop",
+        "citation": "Minnesota Driver's Manual (Class D), Alcohol, Drugs and Driving",
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 2
   },
   {
     "id": "mn-alcohol-drugs-003",
     "category": "alcohol-drugs",
-    "stateScope": ["MN"],
+    "stateScope": [
+      "MN"
+    ],
     "prompt": "Under Minnesota's implied consent law, refusing to submit to a required chemical test after a lawful DWI arrest:",
     "options": [
-      "Has no separate penalty",
-      "Is a crime and results in license revocation",
       "Only applies to commercial drivers",
-      "Is allowed once per year"
+      "Has no separate penalty",
+      "Is allowed once per year",
+      "Is a crime and results in license revocation"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "In Minnesota, test refusal is itself a crime and leads to license revocation under the implied consent law, in addition to any DWI consequences.",
     "difficulty": "medium",
-    "references": [{ "label": "Implied consent", "citation": "Minnesota Driver's Manual (Class D), Alcohol, Drugs and Driving", "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf" }],
+    "references": [
+      {
+        "label": "Implied consent",
+        "citation": "Minnesota Driver's Manual (Class D), Alcohol, Drugs and Driving",
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "mn-gdl-teen-001",
     "category": "gdl-teen",
-    "stateScope": ["MN"],
+    "stateScope": [
+      "MN"
+    ],
     "prompt": "How many hours of supervised behind-the-wheel driving must a Minnesota teen complete before getting a provisional license (when a parent does not attend the supplemental class)?",
-    "options": ["30 hours", "40 hours", "50 hours", "60 hours"],
-    "correctIndex": 2,
+    "options": [
+      "40 hours",
+      "50 hours",
+      "60 hours",
+      "30 hours"
+    ],
+    "correctIndex": 1,
     "explanation": "Minnesota requires 50 hours of supervised driving, including 15 hours at night. This drops to 40 hours if a parent or guardian completes the supplemental parental-awareness class; at least 15 hours must still be at night.",
     "difficulty": "hard",
-    "references": [{ "label": "Supervised driving", "citation": "Minnesota Driver's Manual (Class D), Graduated Driver Licensing", "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf" }],
+    "references": [
+      {
+        "label": "Supervised driving",
+        "citation": "Minnesota Driver's Manual (Class D), Graduated Driver Licensing",
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "mn-gdl-teen-002",
     "category": "gdl-teen",
-    "stateScope": ["MN"],
+    "stateScope": [
+      "MN"
+    ],
     "prompt": "During the first 6 months with a Minnesota provisional license, a driver under 18 may carry at most:",
     "options": [
-      "No passengers",
-      "One passenger under age 20 (immediate family excepted)",
+      "Any number of passengers with seat belts",
       "Three passengers under age 20",
-      "Any number of passengers with seat belts"
+      "One passenger under age 20 (immediate family excepted)",
+      "No passengers"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "For the first 6 months, a Minnesota provisional driver under 18 may have no more than one passenger under 20, unless the passengers are immediate family. In the next 6 months the limit rises to three passengers under 20.",
     "difficulty": "hard",
-    "references": [{ "label": "Passenger limits", "citation": "Minnesota Driver's Manual (Class D), Graduated Driver Licensing", "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf" }],
+    "references": [
+      {
+        "label": "Passenger limits",
+        "citation": "Minnesota Driver's Manual (Class D), Graduated Driver Licensing",
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "mn-gdl-teen-003",
     "category": "gdl-teen",
-    "stateScope": ["MN"],
+    "stateScope": [
+      "MN"
+    ],
     "prompt": "During the first 6 months of a Minnesota provisional license, a driver under 18 generally may not drive between:",
-    "options": ["10 p.m. and 5 a.m.", "Midnight and 5 a.m.", "11 p.m. and 6 a.m.", "9 p.m. and 4 a.m."],
-    "correctIndex": 1,
+    "options": [
+      "10 p.m. and 5 a.m.",
+      "11 p.m. and 6 a.m.",
+      "9 p.m. and 4 a.m.",
+      "Midnight and 5 a.m."
+    ],
+    "correctIndex": 3,
     "explanation": "Minnesota provisional drivers under 18 may not drive between midnight and 5 a.m. during the first 6 months, unless driving between home and work, for a school or religious event, or accompanied by a licensed driver 25 or older.",
     "difficulty": "medium",
-    "references": [{ "label": "Nighttime restriction", "citation": "Minnesota Driver's Manual (Class D), Graduated Driver Licensing", "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf" }],
+    "references": [
+      {
+        "label": "Nighttime restriction",
+        "citation": "Minnesota Driver's Manual (Class D), Graduated Driver Licensing",
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "mn-gdl-teen-004",
     "category": "gdl-teen",
-    "stateScope": ["MN"],
+    "stateScope": [
+      "MN"
+    ],
     "prompt": "How long must a Minnesota teen hold an instruction permit before taking the road test for a provisional license?",
-    "options": ["30 days", "3 months", "6 months", "12 months"],
-    "correctIndex": 2,
+    "options": [
+      "6 months",
+      "3 months",
+      "30 days",
+      "12 months"
+    ],
+    "correctIndex": 0,
     "explanation": "A Minnesota driver under 18 must hold the instruction permit for at least 6 months (with no violations in the previous 6 months) before taking the road test.",
     "difficulty": "medium",
-    "references": [{ "label": "Permit holding period", "citation": "Minnesota Driver's Manual (Class D), Graduated Driver Licensing", "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf" }],
+    "references": [
+      {
+        "label": "Permit holding period",
+        "citation": "Minnesota Driver's Manual (Class D), Graduated Driver Licensing",
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "mn-speed-limits-001",
     "category": "speed-limits",
-    "stateScope": ["MN"],
+    "stateScope": [
+      "MN"
+    ],
     "prompt": "The maximum speed limit on rural Minnesota interstate highways, where posted, is:",
-    "options": ["55 mph", "65 mph", "70 mph", "75 mph"],
-    "correctIndex": 2,
+    "options": [
+      "70 mph",
+      "75 mph",
+      "55 mph",
+      "65 mph"
+    ],
+    "correctIndex": 0,
     "explanation": "Minnesota posts a maximum of 70 mph on rural interstate freeways. Urban freeways and other roads have lower limits.",
     "difficulty": "easy",
-    "references": [{ "label": "Speed limits", "citation": "Minnesota Driver's Manual (Class D), Speed Limits", "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf" }],
+    "references": [
+      {
+        "label": "Speed limits",
+        "citation": "Minnesota Driver's Manual (Class D), Speed Limits",
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "mn-traffic-laws-001",
     "category": "traffic-laws",
-    "stateScope": ["MN"],
+    "stateScope": [
+      "MN"
+    ],
     "prompt": "Minnesota's 'Slowpoke Law' requires that on a multi-lane highway, a slower driver in the left lane must:",
     "options": [
-      "Speed up to match traffic",
       "Move to the right lane to let faster traffic pass",
       "Stop and let others go around",
-      "Turn on hazard lights"
+      "Turn on hazard lights",
+      "Speed up to match traffic"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "Minnesota's Slowpoke Law requires drivers to keep right except to pass. A slower vehicle in the left lane must move over to allow faster traffic to pass.",
     "difficulty": "medium",
-    "references": [{ "label": "Keep right / Slowpoke Law", "citation": "Minnesota Driver's Manual (Class D), Rules of the Road", "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf" }],
+    "references": [
+      {
+        "label": "Keep right / Slowpoke Law",
+        "citation": "Minnesota Driver's Manual (Class D), Rules of the Road",
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "mn-traffic-laws-002",
     "category": "traffic-laws",
-    "stateScope": ["MN"],
+    "stateScope": [
+      "MN"
+    ],
     "prompt": "Under Minnesota's Hands-Free Law, while driving you may use a cell phone:",
     "options": [
       "Held in your hand for calls",
@@ -168,110 +276,162 @@
     "correctIndex": 1,
     "explanation": "Minnesota's Hands-Free Law lets drivers use a phone only in hands-free or voice-activated mode. Holding a phone to talk, text, or browse while driving is illegal.",
     "difficulty": "easy",
-    "references": [{ "label": "Hands-Free Law", "citation": "Minnesota Driver's Manual (Class D), Distracted Driving", "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf" }],
+    "references": [
+      {
+        "label": "Hands-Free Law",
+        "citation": "Minnesota Driver's Manual (Class D), Distracted Driving",
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "mn-traffic-laws-003",
     "category": "traffic-laws",
-    "stateScope": ["MN"],
+    "stateScope": [
+      "MN"
+    ],
     "prompt": "Minnesota's Move Over Law requires drivers approaching a stopped emergency, maintenance, or utility vehicle with flashing lights to:",
     "options": [
       "Come to a complete stop",
-      "Move over a full lane, or slow down if unable to move over",
       "Continue at the posted speed",
+      "Move over a full lane, or slow down if unable to move over",
       "Pass only on the shoulder"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "Minnesota's Move Over Law requires drivers to keep a full lane between their vehicle and a stopped emergency, road maintenance, construction, or utility vehicle with flashing lights, or to slow down if they cannot safely move over.",
     "difficulty": "easy",
-    "references": [{ "label": "Move Over Law", "citation": "Minnesota Driver's Manual (Class D), Sharing the Road", "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf" }],
+    "references": [
+      {
+        "label": "Move Over Law",
+        "citation": "Minnesota Driver's Manual (Class D), Sharing the Road",
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 2
   },
   {
     "id": "mn-safe-driving-001",
     "category": "safe-driving",
-    "stateScope": ["MN"],
+    "stateScope": [
+      "MN"
+    ],
     "prompt": "Minnesota law requires you to turn on your headlights:",
     "options": [
       "Only after midnight",
       "From sunset to sunrise and whenever weather or conditions require windshield wipers",
-      "Only on gravel roads",
-      "Only when other drivers flash you"
+      "Only when other drivers flash you",
+      "Only on gravel roads"
     ],
     "correctIndex": 1,
     "explanation": "Minnesota requires headlights from sunset to sunrise, and any time conditions such as rain, snow, or fog make it necessary to use windshield wipers.",
     "difficulty": "medium",
-    "references": [{ "label": "Headlight use", "citation": "Minnesota Driver's Manual (Class D), Vehicle Lighting", "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf" }],
+    "references": [
+      {
+        "label": "Headlight use",
+        "citation": "Minnesota Driver's Manual (Class D), Vehicle Lighting",
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "mn-right-of-way-001",
     "category": "right-of-way",
-    "stateScope": ["MN"],
+    "stateScope": [
+      "MN"
+    ],
     "prompt": "When a school bus stops with its red lights flashing and stop arm extended on a two-lane Minnesota road, you must:",
     "options": [
+      "Pass on the left quickly",
       "Slow down and pass with caution",
       "Stop at least 20 feet away from either direction until the lights stop and the arm folds",
-      "Stop only if you are behind the bus",
-      "Pass on the left quickly"
+      "Stop only if you are behind the bus"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "On a two-lane road in Minnesota, traffic in both directions must stop at least 20 feet from a school bus displaying flashing red lights and an extended stop arm, and remain stopped until they are withdrawn.",
     "difficulty": "medium",
-    "references": [{ "label": "School buses", "citation": "Minnesota Driver's Manual (Class D), Sharing the Road", "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf" }],
+    "references": [
+      {
+        "label": "School buses",
+        "citation": "Minnesota Driver's Manual (Class D), Sharing the Road",
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 2
   },
   {
     "id": "mn-penalties-points-001",
     "category": "penalties-points",
-    "stateScope": ["MN"],
+    "stateScope": [
+      "MN"
+    ],
     "prompt": "How does Minnesota track traffic violations against a driver's record?",
     "options": [
-      "With a demerit point system like most states",
-      "Minnesota does not use a point system; suspensions are based on specific violations and convictions",
       "By charging escalating fees only",
-      "Through annual driver exams"
+      "With a demerit point system like most states",
+      "Through annual driver exams",
+      "Minnesota does not use a point system; suspensions are based on specific violations and convictions"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "Minnesota is one of the states that does not use a driver's license point system. Instead, license suspension or revocation is based on specific violations, such as DWI or repeated serious offenses.",
     "difficulty": "medium",
-    "references": [{ "label": "Driver record", "citation": "Minnesota Driver's Manual (Class D), Keeping Your License", "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf" }],
+    "references": [
+      {
+        "label": "Driver record",
+        "citation": "Minnesota Driver's Manual (Class D), Keeping Your License",
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "mn-safe-driving-002",
     "category": "safe-driving",
-    "stateScope": ["MN"],
+    "stateScope": [
+      "MN"
+    ],
     "prompt": "Minnesota's seat belt law requires that:",
     "options": [
-      "Only the driver must be belted",
-      "The driver and all passengers must wear a seat belt or be in a proper child restraint",
+      "Seat belts are optional for adults",
       "Only front-seat occupants must be belted",
-      "Seat belts are optional for adults"
+      "The driver and all passengers must wear a seat belt or be in a proper child restraint",
+      "Only the driver must be belted"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "Minnesota has a primary seat belt law: the driver and every passenger must be buckled or in the correct child restraint, and an officer can stop a vehicle solely for a belt violation.",
     "difficulty": "easy",
-    "references": [{ "label": "Occupant protection", "citation": "Minnesota Driver's Manual (Class D), Safety Belts and Restraints", "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf" }],
+    "references": [
+      {
+        "label": "Occupant protection",
+        "citation": "Minnesota Driver's Manual (Class D), Safety Belts and Restraints",
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   }
 ]

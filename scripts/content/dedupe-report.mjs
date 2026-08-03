@@ -1,8 +1,8 @@
 import { loadAllQuestions, ROOT } from './lib/content-io.mjs';
 import { normalizePrompt, shingles, jaccard, candidatePairsByShingleIndex } from './lib/text-similarity.mjs';
 import { buildJurisdictionNameRegex } from './lib/universality.mjs';
-import { join } from 'node:path';
-import { existsSync, readdirSync, readFileSync } from 'node:fs';
+import { join, resolve } from 'node:path';
+import { existsSync, readdirSync, readFileSync, statSync } from 'node:fs';
 
 const STATE_CODES = [
   'AL','AK','AZ','AR','CA','CO','CT','DE','DC','FL','GA','HI','ID','IL','IN','IA',
@@ -14,8 +14,26 @@ const STATE_CODES = [
 const args = process.argv.slice(2);
 const modeGenerated = args.includes('--generated');
 const modeCache = args.includes('--against-cache');
+const questionsDirArg = args.find((arg) => arg.startsWith('--questions-dir='));
+const questionsDirIndex = args.indexOf('--questions-dir');
+const questionsDir = questionsDirArg !== undefined
+  ? questionsDirArg.slice('--questions-dir='.length)
+  : questionsDirIndex === -1
+    ? undefined
+    : args[questionsDirIndex + 1];
 
-const allQuestions = loadAllQuestions();
+if (questionsDir !== undefined && (!questionsDir || questionsDir.startsWith('--'))) {
+  console.error('ERROR: --questions-dir requires a directory path.');
+  process.exit(2);
+}
+
+const resolvedQuestionsDir = questionsDir ? resolve(questionsDir) : undefined;
+if (resolvedQuestionsDir && (!existsSync(resolvedQuestionsDir) || !statSync(resolvedQuestionsDir).isDirectory())) {
+  console.error(`ERROR: --questions-dir must name an existing directory: ${questionsDir}`);
+  process.exit(2);
+}
+
+const allQuestions = loadAllQuestions(resolvedQuestionsDir);
 const jurisdictionNameRegex = buildJurisdictionNameRegex([
   'Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware',
   'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa',

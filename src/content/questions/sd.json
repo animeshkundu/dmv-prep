@@ -2,256 +2,407 @@
   {
     "id": "sd-speed-001",
     "category": "speed-limits",
-    "stateScope": ["SD"],
+    "stateScope": [
+      "SD"
+    ],
     "prompt": "Unless otherwise posted, the maximum speed limit on rural interstate highways in South Dakota is:",
-    "options": ["65 mph", "70 mph", "75 mph", "80 mph"],
-    "correctIndex": 3,
+    "options": [
+      "65 mph",
+      "75 mph",
+      "80 mph",
+      "70 mph"
+    ],
+    "correctIndex": 2,
     "explanation": "South Dakota posts a maximum of 80 mph on most rural interstate highways. You must still slow to a safe speed for traffic, weather and road conditions.",
     "difficulty": "medium",
-    "references": [{ "label": "SD Driver License Manual", "citation": "SD DPS Driver License Manual, speed limits", "url": "https://www.sd.gov/dps?id=cs_kb_article_view&sysparm_article=KB0043733" }],
+    "references": [
+      {
+        "label": "SD Driver License Manual",
+        "citation": "SD DPS Driver License Manual, speed limits",
+        "url": "https://www.sd.gov/dps?id=cs_kb_article_view&sysparm_article=KB0043733"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "sd-alcohol-drugs-001",
     "category": "alcohol-drugs",
-    "stateScope": ["SD"],
+    "stateScope": [
+      "SD"
+    ],
     "prompt": "Under South Dakota's zero-tolerance law, a driver under age 21 can be charged with an alcohol offense with a blood alcohol concentration (BAC) as low as:",
-    "options": ["0.08%", "0.05%", "0.02%", "0.01%"],
+    "options": [
+      "0.05%",
+      "0.08%",
+      "0.02%",
+      "0.01%"
+    ],
     "correctIndex": 2,
     "explanation": "Drivers under 21 in South Dakota are subject to a zero-tolerance standard: a BAC of 0.02% or higher can result in a citation and license action.",
     "difficulty": "medium",
-    "references": [{ "label": "SD Driver License Manual", "citation": "SD DPS Driver License Manual, alcohol and the law", "url": "https://www.sd.gov/dps?id=cs_kb_article_view&sysparm_article=KB0043733" }],
+    "references": [
+      {
+        "label": "SD Driver License Manual",
+        "citation": "SD DPS Driver License Manual, alcohol and the law",
+        "url": "https://www.sd.gov/dps?id=cs_kb_article_view&sysparm_article=KB0043733"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "sd-alcohol-drugs-002",
     "category": "alcohol-drugs",
-    "stateScope": ["SD"],
+    "stateScope": [
+      "SD"
+    ],
     "prompt": "In South Dakota, a driver age 21 or older is considered legally impaired (DUI) at a blood alcohol concentration of:",
-    "options": ["0.10%", "0.08%", "0.05%", "0.04%"],
-    "correctIndex": 1,
+    "options": [
+      "0.10%",
+      "0.04%",
+      "0.05%",
+      "0.08%"
+    ],
+    "correctIndex": 3,
     "explanation": "The per se BAC limit for adult drivers in South Dakota is 0.08%. Commercial drivers are limited to 0.04%.",
     "difficulty": "easy",
-    "references": [{ "label": "SD Driver License Manual", "citation": "SD DPS Driver License Manual, alcohol and the law", "url": "https://www.sd.gov/dps?id=cs_kb_article_view&sysparm_article=KB0043733" }],
+    "references": [
+      {
+        "label": "SD Driver License Manual",
+        "citation": "SD DPS Driver License Manual, alcohol and the law",
+        "url": "https://www.sd.gov/dps?id=cs_kb_article_view&sysparm_article=KB0043733"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "sd-gdl-teen-001",
     "category": "gdl-teen",
-    "stateScope": ["SD"],
+    "stateScope": [
+      "SD"
+    ],
     "prompt": "What is the youngest age at which a South Dakota resident may apply for an instruction (learner's) permit?",
-    "options": ["13", "14", "15", "16"],
+    "options": [
+      "16",
+      "14",
+      "15",
+      "13"
+    ],
     "correctIndex": 1,
     "explanation": "South Dakota allows a teen to apply for a restricted minor's instruction permit at age 14.",
     "difficulty": "medium",
-    "references": [{ "label": "IIHS GDL table", "citation": "IIHS graduated licensing laws (South Dakota)", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
+    "references": [
+      {
+        "label": "IIHS GDL table",
+        "citation": "IIHS graduated licensing laws (South Dakota)",
+        "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "sd-gdl-teen-002",
     "category": "gdl-teen",
-    "stateScope": ["SD"],
+    "stateScope": [
+      "SD"
+    ],
     "prompt": "A South Dakota teen holding a restricted minor's permit generally may not drive between:",
     "options": [
-      "9 p.m. and 5 a.m.",
-      "10 p.m. and 6 a.m. unless supervised by a parent or guardian",
       "Midnight and 4 a.m.",
-      "There is no nighttime restriction"
+      "There is no nighttime restriction",
+      "10 p.m. and 6 a.m. unless supervised by a parent or guardian",
+      "9 p.m. and 5 a.m."
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "Under a restricted minor's permit, driving between 10 p.m. and 6 a.m. is not allowed unless the teen is supervised by a parent or guardian.",
     "difficulty": "hard",
-    "references": [{ "label": "IIHS GDL table", "citation": "IIHS graduated licensing laws (South Dakota)", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
+    "references": [
+      {
+        "label": "IIHS GDL table",
+        "citation": "IIHS graduated licensing laws (South Dakota)",
+        "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "sd-gdl-teen-003",
     "category": "gdl-teen",
-    "stateScope": ["SD"],
+    "stateScope": [
+      "SD"
+    ],
     "prompt": "Before moving beyond the permit stage, a South Dakota teen must log how many hours of supervised driving practice?",
-    "options": ["25 hours", "40 hours", "50 hours", "60 hours"],
-    "correctIndex": 2,
+    "options": [
+      "60 hours",
+      "40 hours",
+      "25 hours",
+      "50 hours"
+    ],
+    "correctIndex": 3,
     "explanation": "South Dakota requires 50 hours of supervised driving, including 10 hours at night and 10 hours in inclement weather.",
     "difficulty": "medium",
-    "references": [{ "label": "IIHS GDL table", "citation": "IIHS graduated licensing laws (South Dakota)", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
+    "references": [
+      {
+        "label": "IIHS GDL table",
+        "citation": "IIHS graduated licensing laws (South Dakota)",
+        "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "sd-gdl-teen-004",
     "category": "gdl-teen",
-    "stateScope": ["SD"],
+    "stateScope": [
+      "SD"
+    ],
     "prompt": "During the first 6 months of holding a South Dakota restricted license, a teen driver may carry:",
     "options": [
       "No passengers under 18 who are not immediate family",
-      "As many passengers as there are seat belts",
       "Up to three friends",
+      "As many passengers as there are seat belts",
       "Only one adult passenger"
     ],
     "correctIndex": 0,
     "explanation": "For the first 6 months, a South Dakota restricted driver may not carry passengers (immediate family excepted); afterward no more than one passenger under 18.",
     "difficulty": "hard",
-    "references": [{ "label": "IIHS GDL table", "citation": "IIHS graduated licensing laws (South Dakota)", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
+    "references": [
+      {
+        "label": "IIHS GDL table",
+        "citation": "IIHS graduated licensing laws (South Dakota)",
+        "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "sd-penalties-points-001",
     "category": "penalties-points",
-    "stateScope": ["SD"],
+    "stateScope": [
+      "SD"
+    ],
     "prompt": "In South Dakota, your driving privilege may be suspended if you accumulate:",
     "options": [
+      "20 points in 36 months",
       "6 points in 12 months",
       "12 points in 12 months",
-      "15 points in 12 months or 22 points in 24 months",
-      "20 points in 36 months"
+      "15 points in 12 months or 22 points in 24 months"
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "explanation": "South Dakota may suspend your license for accumulating 15 points within 12 months or 22 points within 24 months.",
     "difficulty": "hard",
-    "references": [{ "label": "SD driver point system", "citation": "SD DPS Driver Point System", "url": "https://www.sd.gov/dps?id=cs_kb_article_view&sysparm_article=KB0043734" }],
+    "references": [
+      {
+        "label": "SD driver point system",
+        "citation": "SD DPS Driver Point System",
+        "url": "https://www.sd.gov/dps?id=cs_kb_article_view&sysparm_article=KB0043734"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "sd-traffic-laws-001",
     "category": "traffic-laws",
-    "stateScope": ["SD"],
+    "stateScope": [
+      "SD"
+    ],
     "prompt": "When you approach a stopped emergency vehicle, tow truck or highway-maintenance vehicle with flashing lights on a South Dakota multi-lane road, you must:",
     "options": [
-      "Maintain your speed and hold your lane",
       "Move over a lane if you can do so safely, otherwise slow down",
+      "Sound your horn and continue",
       "Stop until the vehicle leaves",
-      "Sound your horn and continue"
+      "Maintain your speed and hold your lane"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "South Dakota's Move Over Law requires drivers to change lanes away from the stopped vehicle when it is safe, or to slow down if they cannot move over.",
     "difficulty": "medium",
-    "references": [{ "label": "SD Driver License Manual", "citation": "SD DPS Driver License Manual, move over law", "url": "https://www.sd.gov/dps?id=cs_kb_article_view&sysparm_article=KB0043733" }],
+    "references": [
+      {
+        "label": "SD Driver License Manual",
+        "citation": "SD DPS Driver License Manual, move over law",
+        "url": "https://www.sd.gov/dps?id=cs_kb_article_view&sysparm_article=KB0043733"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "sd-traffic-laws-002",
     "category": "traffic-laws",
-    "stateScope": ["SD"],
+    "stateScope": [
+      "SD"
+    ],
     "prompt": "In South Dakota, what is the law on using a cell phone to send a text message while driving?",
     "options": [
-      "Texting while driving is allowed if you are stopped at a light",
+      "There is no restriction on texting",
       "Texting while driving is prohibited",
       "Only drivers under 18 may not text",
-      "There is no restriction on texting"
+      "Texting while driving is allowed if you are stopped at a light"
     ],
     "correctIndex": 1,
     "explanation": "South Dakota prohibits writing, sending, or reading text messages while driving for all drivers. Other phone use can still be dangerously distracting even where not covered by that texting prohibition.",
     "difficulty": "easy",
-    "references": [{ "label": "SD Driver License Manual", "citation": "SD DPS Driver License Manual, distracted driving", "url": "https://www.sd.gov/dps?id=cs_kb_article_view&sysparm_article=KB0043733" }],
+    "references": [
+      {
+        "label": "SD Driver License Manual",
+        "citation": "SD DPS Driver License Manual, distracted driving",
+        "url": "https://www.sd.gov/dps?id=cs_kb_article_view&sysparm_article=KB0043733"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "sd-right-of-way-001",
     "category": "right-of-way",
-    "stateScope": ["SD"],
+    "stateScope": [
+      "SD"
+    ],
     "prompt": "Two vehicles reach an uncontrolled intersection (no signs or signals) in South Dakota at about the same time. Who has the right of way?",
     "options": [
-      "The vehicle on the left",
-      "The vehicle on the right",
       "The faster vehicle",
-      "Whoever honks first"
+      "The vehicle on the left",
+      "Whoever honks first",
+      "The vehicle on the right"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "At an uncontrolled intersection where two vehicles arrive at roughly the same time, the driver on the left must yield to the driver on the right.",
     "difficulty": "medium",
-    "references": [{ "label": "SD Driver License Manual", "citation": "SD DPS Driver License Manual, right of way", "url": "https://www.sd.gov/dps?id=cs_kb_article_view&sysparm_article=KB0043733" }],
+    "references": [
+      {
+        "label": "SD Driver License Manual",
+        "citation": "SD DPS Driver License Manual, right of way",
+        "url": "https://www.sd.gov/dps?id=cs_kb_article_view&sysparm_article=KB0043733"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "sd-safe-driving-001",
     "category": "safe-driving",
-    "stateScope": ["SD"],
+    "stateScope": [
+      "SD"
+    ],
     "prompt": "When must you use your headlights in South Dakota?",
     "options": [
-      "Only after midnight",
-      "From sunset to sunrise, and when visibility is reduced",
       "Only on interstate highways",
-      "Never during daylight"
+      "Never during daylight",
+      "From sunset to sunrise, and when visibility is reduced",
+      "Only after midnight"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "Headlights are required from sunset to sunrise and whenever weather or other conditions reduce visibility.",
     "difficulty": "easy",
-    "references": [{ "label": "SD Driver License Manual", "citation": "SD DPS Driver License Manual, use of headlights", "url": "https://www.sd.gov/dps?id=cs_kb_article_view&sysparm_article=KB0043733" }],
+    "references": [
+      {
+        "label": "SD Driver License Manual",
+        "citation": "SD DPS Driver License Manual, use of headlights",
+        "url": "https://www.sd.gov/dps?id=cs_kb_article_view&sysparm_article=KB0043733"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "sd-sharing-the-road-001",
     "category": "sharing-the-road",
-    "stateScope": ["SD"],
+    "stateScope": [
+      "SD"
+    ],
     "prompt": "You are following a school bus in South Dakota and it stops with red lights flashing and its stop arm extended on an undivided road. You must:",
     "options": [
-      "Pass on the left quickly",
-      "Stop and remain stopped until the lights stop flashing and the arm is withdrawn",
+      "Stop only if children are visible",
       "Slow to 10 mph and pass",
-      "Stop only if children are visible"
+      "Stop and remain stopped until the lights stop flashing and the arm is withdrawn",
+      "Pass on the left quickly"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "On an undivided roadway, traffic in both directions must stop for a school bus with flashing red lights and an extended stop arm, and stay stopped until the lights stop and the arm is withdrawn.",
     "difficulty": "medium",
-    "references": [{ "label": "SD Driver License Manual", "citation": "SD DPS Driver License Manual, school buses", "url": "https://www.sd.gov/dps?id=cs_kb_article_view&sysparm_article=KB0043733" }],
+    "references": [
+      {
+        "label": "SD Driver License Manual",
+        "citation": "SD DPS Driver License Manual, school buses",
+        "url": "https://www.sd.gov/dps?id=cs_kb_article_view&sysparm_article=KB0043733"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "sd-safe-driving-002",
     "category": "safe-driving",
-    "stateScope": ["SD"],
+    "stateScope": [
+      "SD"
+    ],
     "prompt": "Under South Dakota's seat belt requirement, the driver and front-seat passengers of a passenger vehicle must:",
     "options": [
-      "Wear a seat belt",
+      "Are not required to buckle up",
       "Wear a seat belt only on the interstate",
       "Wear a seat belt only if under 18",
-      "Are not required to buckle up"
+      "Wear a seat belt"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "explanation": "South Dakota requires front-seat occupants to wear seat belts, and all children must be properly restrained. Buckling up is the single most effective way to reduce injury in a crash.",
     "difficulty": "easy",
-    "references": [{ "label": "SD Driver License Manual", "citation": "SD DPS Driver License Manual, occupant protection", "url": "https://www.sd.gov/dps?id=cs_kb_article_view&sysparm_article=KB0043733" }],
+    "references": [
+      {
+        "label": "SD Driver License Manual",
+        "citation": "SD DPS Driver License Manual, occupant protection",
+        "url": "https://www.sd.gov/dps?id=cs_kb_article_view&sysparm_article=KB0043733"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   }
 ]

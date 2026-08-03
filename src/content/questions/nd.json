@@ -2,157 +2,270 @@
   {
     "id": "nd-speed-001",
     "category": "speed-limits",
-    "stateScope": ["ND"],
+    "stateScope": [
+      "ND"
+    ],
     "prompt": "Unless otherwise posted, the maximum speed limit on North Dakota interstate highways is:",
-    "options": ["65 mph", "70 mph", "75 mph", "80 mph"],
-    "correctIndex": 3,
+    "options": [
+      "80 mph",
+      "75 mph",
+      "65 mph",
+      "70 mph"
+    ],
+    "correctIndex": 0,
     "explanation": "North Dakota's maximum speed on rural interstate highways is 80 mph unless otherwise posted. Always reduce speed for weather, traffic and road conditions.",
     "difficulty": "medium",
-    "references": [{ "label": "ND Noncommercial Driver License Manual", "citation": "NDDOT Driver License Manual, speed limits", "url": "https://www.dot.nd.gov/driver/noncommercial-driver-license-manual" }],
+    "references": [
+      {
+        "label": "ND Noncommercial Driver License Manual",
+        "citation": "NDDOT Driver License Manual, speed limits",
+        "url": "https://www.dot.nd.gov/driver/noncommercial-driver-license-manual"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nd-alcohol-drugs-001",
     "category": "alcohol-drugs",
-    "stateScope": ["ND"],
+    "stateScope": [
+      "ND"
+    ],
     "prompt": "In North Dakota, a driver age 21 or older is legally impaired (DUI) at a blood alcohol concentration of:",
-    "options": ["0.10%", "0.08%", "0.05%", "0.04%"],
+    "options": [
+      "0.10%",
+      "0.08%",
+      "0.05%",
+      "0.04%"
+    ],
     "correctIndex": 1,
     "explanation": "The per se BAC limit for adult drivers in North Dakota is 0.08%. Commercial drivers are limited to 0.04%.",
     "difficulty": "easy",
-    "references": [{ "label": "ND Noncommercial Driver License Manual", "citation": "NDDOT Driver License Manual, alcohol and drugs", "url": "https://www.dot.nd.gov/driver/noncommercial-driver-license-manual" }],
+    "references": [
+      {
+        "label": "ND Noncommercial Driver License Manual",
+        "citation": "NDDOT Driver License Manual, alcohol and drugs",
+        "url": "https://www.dot.nd.gov/driver/noncommercial-driver-license-manual"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nd-alcohol-drugs-002",
     "category": "alcohol-drugs",
-    "stateScope": ["ND"],
+    "stateScope": [
+      "ND"
+    ],
     "prompt": "Under North Dakota's zero-tolerance law, a driver under age 21 may be charged with an alcohol offense at a BAC of:",
-    "options": ["0.08%", "0.05%", "0.02%", "0.00%"],
+    "options": [
+      "0.08%",
+      "0.00%",
+      "0.02%",
+      "0.05%"
+    ],
     "correctIndex": 2,
     "explanation": "Drivers under 21 in North Dakota are held to a zero-tolerance standard, with an offense at a BAC of 0.02% or higher.",
     "difficulty": "medium",
-    "references": [{ "label": "ND Noncommercial Driver License Manual", "citation": "NDDOT Driver License Manual, alcohol and drugs", "url": "https://www.dot.nd.gov/driver/noncommercial-driver-license-manual" }],
+    "references": [
+      {
+        "label": "ND Noncommercial Driver License Manual",
+        "citation": "NDDOT Driver License Manual, alcohol and drugs",
+        "url": "https://www.dot.nd.gov/driver/noncommercial-driver-license-manual"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nd-gdl-teen-001",
     "category": "gdl-teen",
-    "stateScope": ["ND"],
+    "stateScope": [
+      "ND"
+    ],
     "prompt": "What is the youngest age at which a North Dakota resident may apply for a learner's permit?",
-    "options": ["13", "14", "15", "16"],
-    "correctIndex": 1,
+    "options": [
+      "14",
+      "13",
+      "15",
+      "16"
+    ],
+    "correctIndex": 0,
     "explanation": "North Dakota allows a teen to apply for a learner's permit at age 14.",
     "difficulty": "medium",
-    "references": [{ "label": "IIHS GDL table", "citation": "IIHS graduated licensing laws (North Dakota)", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
+    "references": [
+      {
+        "label": "IIHS GDL table",
+        "citation": "IIHS graduated licensing laws (North Dakota)",
+        "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nd-gdl-teen-002",
     "category": "gdl-teen",
-    "stateScope": ["ND"],
+    "stateScope": [
+      "ND"
+    ],
     "prompt": "A North Dakota teen with a restricted license generally may not drive during which hours?",
     "options": [
-      "Any time between 10 p.m. and 6 a.m.",
-      "From the later of sunset or 9 p.m. until 5 a.m.",
       "From 11 p.m. until 6 a.m.",
-      "There is no nighttime restriction"
+      "From the later of sunset or 9 p.m. until 5 a.m.",
+      "There is no nighttime restriction",
+      "Any time between 10 p.m. and 6 a.m."
     ],
     "correctIndex": 1,
     "explanation": "A restricted license holder in North Dakota may not drive from the later of sunset or 9 p.m. until 5 a.m., except as allowed by the license conditions.",
     "difficulty": "hard",
-    "references": [{ "label": "IIHS GDL table", "citation": "IIHS graduated licensing laws (North Dakota)", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
+    "references": [
+      {
+        "label": "IIHS GDL table",
+        "citation": "IIHS graduated licensing laws (North Dakota)",
+        "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nd-gdl-teen-003",
     "category": "gdl-teen",
-    "stateScope": ["ND"],
+    "stateScope": [
+      "ND"
+    ],
     "prompt": "An applicant under age 16 in North Dakota must complete how many hours of supervised driving before advancing beyond the permit stage?",
-    "options": ["25 hours", "40 hours", "50 hours", "None"],
+    "options": [
+      "None",
+      "25 hours",
+      "50 hours",
+      "40 hours"
+    ],
     "correctIndex": 2,
     "explanation": "North Dakota requires applicants under 16 to complete 50 hours of supervised driving practice.",
     "difficulty": "medium",
-    "references": [{ "label": "IIHS GDL table", "citation": "IIHS graduated licensing laws (North Dakota)", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
+    "references": [
+      {
+        "label": "IIHS GDL table",
+        "citation": "IIHS graduated licensing laws (North Dakota)",
+        "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nd-penalties-points-001",
     "category": "penalties-points",
-    "stateScope": ["ND"],
+    "stateScope": [
+      "ND"
+    ],
     "prompt": "In North Dakota, your driving privilege is subject to suspension once you accumulate how many points?",
-    "options": ["6 points", "8 points", "12 points", "15 points"],
-    "correctIndex": 2,
+    "options": [
+      "6 points",
+      "15 points",
+      "8 points",
+      "12 points"
+    ],
+    "correctIndex": 3,
     "explanation": "Accumulating 12 points on your North Dakota driving record results in a license suspension.",
     "difficulty": "hard",
-    "references": [{ "label": "ND Noncommercial Driver License Manual", "citation": "NDDOT Driver License Manual, point system", "url": "https://www.dot.nd.gov/driver/noncommercial-driver-license-manual" }],
+    "references": [
+      {
+        "label": "ND Noncommercial Driver License Manual",
+        "citation": "NDDOT Driver License Manual, point system",
+        "url": "https://www.dot.nd.gov/driver/noncommercial-driver-license-manual"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nd-traffic-laws-001",
     "category": "traffic-laws",
-    "stateScope": ["ND"],
+    "stateScope": [
+      "ND"
+    ],
     "prompt": "North Dakota's Move Over Law requires you to do what when approaching a stopped emergency or maintenance vehicle with flashing lights?",
     "options": [
-      "Keep your speed and stay in your lane",
-      "Move over a lane if you can do so safely, otherwise slow down",
+      "Turn on your hazard lights and continue at speed",
       "Come to a complete stop in the road",
-      "Turn on your hazard lights and continue at speed"
+      "Move over a lane if you can do so safely, otherwise slow down",
+      "Keep your speed and stay in your lane"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "You must vacate the lane nearest the stopped vehicle when it is safe, or slow down if you are unable to move over.",
     "difficulty": "medium",
-    "references": [{ "label": "ND Noncommercial Driver License Manual", "citation": "NDDOT Driver License Manual, move over law", "url": "https://www.dot.nd.gov/driver/noncommercial-driver-license-manual" }],
+    "references": [
+      {
+        "label": "ND Noncommercial Driver License Manual",
+        "citation": "NDDOT Driver License Manual, move over law",
+        "url": "https://www.dot.nd.gov/driver/noncommercial-driver-license-manual"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nd-traffic-laws-002",
     "category": "traffic-laws",
-    "stateScope": ["ND"],
+    "stateScope": [
+      "ND"
+    ],
     "prompt": "What does North Dakota law say about texting while driving?",
     "options": [
-      "It is allowed for adults",
-      "It is prohibited for all drivers",
       "It is allowed while stopped in traffic",
-      "Only new drivers are restricted"
+      "It is allowed for adults",
+      "Only new drivers are restricted",
+      "It is prohibited for all drivers"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "North Dakota prohibits texting and composing or reading electronic messages while driving for all drivers.",
     "difficulty": "easy",
-    "references": [{ "label": "ND Noncommercial Driver License Manual", "citation": "NDDOT Driver License Manual, distracted driving", "url": "https://www.dot.nd.gov/driver/noncommercial-driver-license-manual" }],
+    "references": [
+      {
+        "label": "ND Noncommercial Driver License Manual",
+        "citation": "NDDOT Driver License Manual, distracted driving",
+        "url": "https://www.dot.nd.gov/driver/noncommercial-driver-license-manual"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nd-right-of-way-001",
     "category": "right-of-way",
-    "stateScope": ["ND"],
+    "stateScope": [
+      "ND"
+    ],
     "prompt": "When you enter a roundabout in North Dakota, you must:",
     "options": [
       "Stop and wait for a green light",
@@ -163,90 +276,133 @@
     "correctIndex": 1,
     "explanation": "Traffic entering a roundabout must yield to vehicles already circulating, then enter when there is a safe gap and travel counterclockwise.",
     "difficulty": "medium",
-    "references": [{ "label": "ND Noncommercial Driver License Manual", "citation": "NDDOT Driver License Manual, roundabouts", "url": "https://www.dot.nd.gov/driver/noncommercial-driver-license-manual" }],
+    "references": [
+      {
+        "label": "ND Noncommercial Driver License Manual",
+        "citation": "NDDOT Driver License Manual, roundabouts",
+        "url": "https://www.dot.nd.gov/driver/noncommercial-driver-license-manual"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nd-safe-driving-001",
     "category": "safe-driving",
-    "stateScope": ["ND"],
+    "stateScope": [
+      "ND"
+    ],
     "prompt": "In North Dakota winter conditions, black ice is most likely to form on:",
     "options": [
       "Straight, flat, sunny stretches of road",
       "Bridges, overpasses and shaded areas",
-      "Gravel roads only",
-      "Roads with heavy traffic"
+      "Roads with heavy traffic",
+      "Gravel roads only"
     ],
     "correctIndex": 1,
     "explanation": "Bridges, overpasses and shaded areas freeze first because cold air reaches them from above and below, so slow down and avoid sudden steering or braking there.",
     "difficulty": "medium",
-    "references": [{ "label": "ND Noncommercial Driver License Manual", "citation": "NDDOT Driver License Manual, winter driving", "url": "https://www.dot.nd.gov/driver/noncommercial-driver-license-manual" }],
+    "references": [
+      {
+        "label": "ND Noncommercial Driver License Manual",
+        "citation": "NDDOT Driver License Manual, winter driving",
+        "url": "https://www.dot.nd.gov/driver/noncommercial-driver-license-manual"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nd-sharing-the-road-001",
     "category": "sharing-the-road",
-    "stateScope": ["ND"],
+    "stateScope": [
+      "ND"
+    ],
     "prompt": "You must stop for a stopped school bus with flashing red lights and an extended stop arm in North Dakota when:",
     "options": [
       "You are behind the bus or meeting it on an undivided road",
-      "Only when you are directly behind the bus",
       "Only if you see children",
+      "Only when you are directly behind the bus",
       "Never, you may pass slowly"
     ],
     "correctIndex": 0,
     "explanation": "On an undivided roadway, traffic approaching from both directions must stop for a school bus displaying flashing red lights and an extended stop arm.",
     "difficulty": "medium",
-    "references": [{ "label": "ND Noncommercial Driver License Manual", "citation": "NDDOT Driver License Manual, school buses", "url": "https://www.dot.nd.gov/driver/noncommercial-driver-license-manual" }],
+    "references": [
+      {
+        "label": "ND Noncommercial Driver License Manual",
+        "citation": "NDDOT Driver License Manual, school buses",
+        "url": "https://www.dot.nd.gov/driver/noncommercial-driver-license-manual"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nd-safe-driving-002",
     "category": "safe-driving",
-    "stateScope": ["ND"],
+    "stateScope": [
+      "ND"
+    ],
     "prompt": "North Dakota's seat belt and child restraint law requires:",
     "options": [
       "Only the driver to buckle up",
-      "All occupants to wear seat belts, with children properly restrained",
       "No one to buckle up on rural roads",
+      "All occupants to wear seat belts, with children properly restrained",
       "Seat belts only on interstates"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "North Dakota requires all occupants to wear seat belts in all seating positions, and children must be secured in the child restraint or seat belt required for their age and size.",
     "difficulty": "easy",
-    "references": [{ "label": "ND Noncommercial Driver License Manual", "citation": "NDDOT Driver License Manual, occupant protection", "url": "https://www.dot.nd.gov/driver/noncommercial-driver-license-manual" }],
+    "references": [
+      {
+        "label": "ND Noncommercial Driver License Manual",
+        "citation": "NDDOT Driver License Manual, occupant protection",
+        "url": "https://www.dot.nd.gov/driver/noncommercial-driver-license-manual"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "nd-traffic-signals-001",
     "category": "traffic-signals",
-    "stateScope": ["ND"],
+    "stateScope": [
+      "ND"
+    ],
     "prompt": "A flashing red traffic signal at an intersection in North Dakota means:",
     "options": [
       "Speed up to clear the intersection",
-      "Stop, then proceed when it is safe, as at a stop sign",
       "The signal is broken, ignore it",
-      "Slow down but do not stop"
+      "Slow down but do not stop",
+      "Stop, then proceed when it is safe, as at a stop sign"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "A flashing red light means the same as a stop sign: come to a complete stop, then proceed when the way is clear.",
     "difficulty": "easy",
-    "references": [{ "label": "ND Noncommercial Driver License Manual", "citation": "NDDOT Driver License Manual, traffic signals", "url": "https://www.dot.nd.gov/driver/noncommercial-driver-license-manual" }],
+    "references": [
+      {
+        "label": "ND Noncommercial Driver License Manual",
+        "citation": "NDDOT Driver License Manual, traffic signals",
+        "url": "https://www.dot.nd.gov/driver/noncommercial-driver-license-manual"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   }
 ]

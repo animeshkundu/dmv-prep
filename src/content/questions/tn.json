@@ -2,266 +2,436 @@
   {
     "id": "tn-speed-001",
     "category": "speed-limits",
-    "stateScope": ["TN"],
+    "stateScope": [
+      "TN"
+    ],
     "prompt": "On a Tennessee interstate highway, the maximum posted speed limit is generally:",
-    "options": ["55 mph", "65 mph", "70 mph", "75 mph"],
-    "correctIndex": 2,
+    "options": [
+      "65 mph",
+      "75 mph",
+      "55 mph",
+      "70 mph"
+    ],
+    "correctIndex": 3,
     "explanation": "Tennessee's maximum posted speed on controlled-access interstate highways is 70 mph. Lower limits apply in urban areas, work zones, and other posted segments.",
     "difficulty": "easy",
-    "references": [{ "label": "Speed limits", "citation": "TN Comprehensive Driver License Manual, Speed Limits", "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf" }],
+    "references": [
+      {
+        "label": "Speed limits",
+        "citation": "TN Comprehensive Driver License Manual, Speed Limits",
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "tn-speed-002",
     "category": "speed-limits",
-    "stateScope": ["TN"],
+    "stateScope": [
+      "TN"
+    ],
     "prompt": "When the warning flashers in a Tennessee school zone are operating, you must:",
     "options": [
-      "Maintain the normal street speed limit",
       "Slow to the reduced speed posted for the school zone",
-      "Stop completely before entering the zone",
-      "Increase speed to clear the zone quickly"
+      "Increase speed to clear the zone quickly",
+      "Maintain the normal street speed limit",
+      "Stop completely before entering the zone"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "In a school zone you must slow to the reduced limit posted for that zone (commonly 15 mph) whenever the warning flashers are operating or children are present.",
     "difficulty": "medium",
-    "references": [{ "label": "School zones", "citation": "TN Comprehensive Driver License Manual, Speed Limits", "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf" }],
+    "references": [
+      {
+        "label": "School zones",
+        "citation": "TN Comprehensive Driver License Manual, Speed Limits",
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "tn-alcohol-drugs-001",
     "category": "alcohol-drugs",
-    "stateScope": ["TN"],
+    "stateScope": [
+      "TN"
+    ],
     "prompt": "Under Tennessee's zero-tolerance law, a driver under 21 can be charged with driving while impaired at a blood alcohol concentration (BAC) as low as:",
-    "options": ["0.08%", "0.05%", "0.02%", "0.01%"],
-    "correctIndex": 2,
+    "options": [
+      "0.02%",
+      "0.05%",
+      "0.08%",
+      "0.01%"
+    ],
+    "correctIndex": 0,
     "explanation": "Tennessee's zero-tolerance law applies to drivers under 21 at a BAC of 0.02% or higher, well below the 0.08% adult limit.",
     "difficulty": "medium",
-    "references": [{ "label": "Zero tolerance", "citation": "TN Comprehensive Driver License Manual, Alcohol and the Driver", "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf" }],
+    "references": [
+      {
+        "label": "Zero tolerance",
+        "citation": "TN Comprehensive Driver License Manual, Alcohol and the Driver",
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "tn-alcohol-drugs-002",
     "category": "alcohol-drugs",
-    "stateScope": ["TN"],
+    "stateScope": [
+      "TN"
+    ],
     "prompt": "In Tennessee, a driver 21 or older is legally considered driving under the influence at a BAC of:",
-    "options": ["0.10%", "0.08%", "0.05%", "0.04%"],
+    "options": [
+      "0.10%",
+      "0.08%",
+      "0.04%",
+      "0.05%"
+    ],
     "correctIndex": 1,
     "explanation": "The legal BAC limit for adult drivers 21 and older in Tennessee is 0.08%. Commercial drivers are limited to 0.04%.",
     "difficulty": "easy",
-    "references": [{ "label": "DUI limit", "citation": "TN Comprehensive Driver License Manual, Alcohol and the Driver", "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf" }],
+    "references": [
+      {
+        "label": "DUI limit",
+        "citation": "TN Comprehensive Driver License Manual, Alcohol and the Driver",
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "tn-alcohol-drugs-003",
     "category": "alcohol-drugs",
-    "stateScope": ["TN"],
+    "stateScope": [
+      "TN"
+    ],
     "prompt": "A person driving a commercial motor vehicle in Tennessee is considered under the influence at a BAC of:",
-    "options": ["0.08%", "0.04%", "0.02%", "0.06%"],
-    "correctIndex": 1,
+    "options": [
+      "0.08%",
+      "0.06%",
+      "0.04%",
+      "0.02%"
+    ],
+    "correctIndex": 2,
     "explanation": "Commercial drivers are held to a stricter 0.04% BAC limit while operating a commercial motor vehicle.",
     "difficulty": "medium",
-    "references": [{ "label": "Commercial BAC", "citation": "TN Comprehensive Driver License Manual, Alcohol and the Driver", "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf" }],
+    "references": [
+      {
+        "label": "Commercial BAC",
+        "citation": "TN Comprehensive Driver License Manual, Alcohol and the Driver",
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "tn-gdl-teen-001",
     "category": "gdl-teen",
-    "stateScope": ["TN"],
+    "stateScope": [
+      "TN"
+    ],
     "prompt": "The minimum age to apply for a Tennessee learner permit is:",
-    "options": ["14", "15", "16", "16 years 6 months"],
+    "options": [
+      "16 years 6 months",
+      "15",
+      "16",
+      "14"
+    ],
     "correctIndex": 1,
     "explanation": "You may apply for a Tennessee learner permit at age 15. The learner permit must be held at least 180 days before applying for an intermediate license.",
     "difficulty": "easy",
-    "references": [{ "label": "Learner permit age", "citation": "TN Comprehensive Driver License Manual, Graduated Driver License", "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf" }],
+    "references": [
+      {
+        "label": "Learner permit age",
+        "citation": "TN Comprehensive Driver License Manual, Graduated Driver License",
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 2
   },
   {
     "id": "tn-gdl-teen-002",
     "category": "gdl-teen",
-    "stateScope": ["TN"],
+    "stateScope": [
+      "TN"
+    ],
     "prompt": "Before applying for a Tennessee intermediate license, a teen must hold the learner permit for at least:",
-    "options": ["30 days", "90 days", "180 days", "one year"],
+    "options": [
+      "90 days",
+      "one year",
+      "180 days",
+      "30 days"
+    ],
     "correctIndex": 2,
     "explanation": "A Tennessee learner permit must be held for a minimum of 180 days before a teen may apply for an intermediate driver license.",
     "difficulty": "medium",
-    "references": [{ "label": "Permit holding period", "citation": "TN Comprehensive Driver License Manual, Graduated Driver License", "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf" }],
+    "references": [
+      {
+        "label": "Permit holding period",
+        "citation": "TN Comprehensive Driver License Manual, Graduated Driver License",
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "tn-gdl-teen-003",
     "category": "gdl-teen",
-    "stateScope": ["TN"],
+    "stateScope": [
+      "TN"
+    ],
     "prompt": "To move from a Tennessee learner permit to an intermediate license, a teen must log a minimum of:",
     "options": [
+      "60 hours of supervised driving, 20 at night",
       "25 hours of supervised driving",
       "40 hours of supervised driving, 5 at night",
-      "50 hours of supervised driving, 10 at night",
-      "60 hours of supervised driving, 20 at night"
+      "50 hours of supervised driving, 10 at night"
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "explanation": "Tennessee requires 50 hours of certified supervised driving, including 10 hours at night, before a teen can obtain an intermediate license.",
     "difficulty": "medium",
-    "references": [{ "label": "Supervised hours", "citation": "TN Comprehensive Driver License Manual, Graduated Driver License", "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf" }],
+    "references": [
+      {
+        "label": "Supervised hours",
+        "citation": "TN Comprehensive Driver License Manual, Graduated Driver License",
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "tn-gdl-teen-004",
     "category": "gdl-teen",
-    "stateScope": ["TN"],
+    "stateScope": [
+      "TN"
+    ],
     "prompt": "A Tennessee intermediate license holder generally may not drive during which hours (without an exception)?",
     "options": [
-      "9 p.m. to 5 a.m.",
-      "10 p.m. to 6 a.m.",
       "11 p.m. to 6 a.m.",
-      "Midnight to 5 a.m."
+      "Midnight to 5 a.m.",
+      "10 p.m. to 6 a.m.",
+      "9 p.m. to 5 a.m."
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "explanation": "Tennessee intermediate license holders are restricted from driving between 11 p.m. and 6 a.m. unless a listed exception applies (such as work, school, or a licensed parent in the vehicle).",
     "difficulty": "hard",
-    "references": [{ "label": "Night restriction", "citation": "TN Comprehensive Driver License Manual, Graduated Driver License", "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf" }],
+    "references": [
+      {
+        "label": "Night restriction",
+        "citation": "TN Comprehensive Driver License Manual, Graduated Driver License",
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "tn-gdl-teen-005",
     "category": "gdl-teen",
-    "stateScope": ["TN"],
+    "stateScope": [
+      "TN"
+    ],
     "prompt": "While holding a Tennessee intermediate license, how many passengers may you carry (absent an exception)?",
     "options": [
       "No passengers at all",
       "No more than 1 passenger",
-      "No more than 3 passengers",
-      "As many as there are seat belts"
+      "As many as there are seat belts",
+      "No more than 3 passengers"
     ],
     "correctIndex": 1,
     "explanation": "A Tennessee intermediate restricted license holder may carry no more than one passenger, excluding immediate family members and other statutory exceptions.",
     "difficulty": "medium",
-    "references": [{ "label": "Passenger limit", "citation": "TN Comprehensive Driver License Manual, Graduated Driver License", "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf" }],
+    "references": [
+      {
+        "label": "Passenger limit",
+        "citation": "TN Comprehensive Driver License Manual, Graduated Driver License",
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 2
   },
   {
     "id": "tn-penalties-points-001",
     "category": "penalties-points",
-    "stateScope": ["TN"],
+    "stateScope": [
+      "TN"
+    ],
     "prompt": "In Tennessee, accumulating how many points within a 12-month period triggers a proposed license suspension for an adult driver?",
-    "options": ["6 points", "8 points", "12 points", "18 points"],
-    "correctIndex": 2,
+    "options": [
+      "12 points",
+      "6 points",
+      "8 points",
+      "18 points"
+    ],
+    "correctIndex": 0,
     "explanation": "Accumulating 12 or more points within any 12-month period results in a notice of proposed suspension. The driver may request an administrative hearing.",
     "difficulty": "medium",
-    "references": [{ "label": "Point system", "citation": "TN Comprehensive Driver License Manual, Driver Improvement Points", "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf" }],
+    "references": [
+      {
+        "label": "Point system",
+        "citation": "TN Comprehensive Driver License Manual, Driver Improvement Points",
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "tn-traffic-laws-001",
     "category": "traffic-laws",
-    "stateScope": ["TN"],
+    "stateScope": [
+      "TN"
+    ],
     "prompt": "Under Tennessee's Hands-Free Law, while driving you may not:",
     "options": [
-      "Use a phone in voice-activated or hands-free mode",
-      "Hold or physically support a cell phone with any part of your body",
+      "Talk to passengers in the vehicle",
       "Use a mounted GPS device",
-      "Talk to passengers in the vehicle"
+      "Hold or physically support a cell phone with any part of your body",
+      "Use a phone in voice-activated or hands-free mode"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "Tennessee's Hands-Free Law prohibits holding or physically supporting a phone while driving. Hands-free and voice-activated use is still allowed for adult drivers.",
     "difficulty": "easy",
-    "references": [{ "label": "Hands-free law", "citation": "TN Comprehensive Driver License Manual, Distracted Driving", "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf" }],
+    "references": [
+      {
+        "label": "Hands-free law",
+        "citation": "TN Comprehensive Driver License Manual, Distracted Driving",
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 2
   },
   {
     "id": "tn-traffic-laws-002",
     "category": "traffic-laws",
-    "stateScope": ["TN"],
+    "stateScope": [
+      "TN"
+    ],
     "prompt": "Tennessee's Move Over Law requires that, when approaching a stopped emergency or utility vehicle with flashing lights, you:",
     "options": [
-      "Continue at the same speed in the same lane",
-      "Move over a lane if possible, or slow down if you cannot",
+      "Sound your horn and pass quickly",
       "Stop completely until the vehicle leaves",
-      "Sound your horn and pass quickly"
+      "Continue at the same speed in the same lane",
+      "Move over a lane if possible, or slow down if you cannot"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "The Move Over Law requires you to move over one lane away from stopped emergency, utility, and highway maintenance vehicles with flashing lights, or slow down if moving over is not possible.",
     "difficulty": "easy",
-    "references": [{ "label": "Move over law", "citation": "TN Comprehensive Driver License Manual, Move Over Law", "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf" }],
+    "references": [
+      {
+        "label": "Move over law",
+        "citation": "TN Comprehensive Driver License Manual, Move Over Law",
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "tn-traffic-laws-003",
     "category": "sharing-the-road",
-    "stateScope": ["TN"],
+    "stateScope": [
+      "TN"
+    ],
     "prompt": "Under Tennessee's \"Slowpoke Law,\" a driver in the left lane of a multi-lane highway should:",
     "options": [
-      "Stay in the left lane at all times",
-      "Move out of the left lane to allow faster traffic to pass",
+      "Drive 10 mph below the limit",
       "Match the speed of the slowest vehicle",
-      "Drive 10 mph below the limit"
+      "Stay in the left lane at all times",
+      "Move out of the left lane to allow faster traffic to pass"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "Tennessee's Slowpoke Law requires slower drivers to keep right and move out of the left (passing) lane so faster-moving traffic can pass.",
     "difficulty": "medium",
-    "references": [{ "label": "Slowpoke law", "citation": "TN Comprehensive Driver License Manual, Lane Use", "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf" }],
+    "references": [
+      {
+        "label": "Slowpoke law",
+        "citation": "TN Comprehensive Driver License Manual, Lane Use",
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "tn-safe-driving-001",
     "category": "safe-driving",
-    "stateScope": ["TN"],
+    "stateScope": [
+      "TN"
+    ],
     "prompt": "To pass the Tennessee Class D knowledge test, you must correctly answer at least:",
     "options": [
-      "18 of 30 questions",
-      "20 of 25 questions",
       "24 of 30 questions",
-      "30 of 40 questions"
+      "30 of 40 questions",
+      "18 of 30 questions",
+      "20 of 25 questions"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "explanation": "The Tennessee knowledge test has 30 questions, and you must answer at least 24 correctly (80%) to pass.",
     "difficulty": "easy",
-    "references": [{ "label": "Knowledge test", "citation": "TN Comprehensive Driver License Manual, The Examination", "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf" }],
+    "references": [
+      {
+        "label": "Knowledge test",
+        "citation": "TN Comprehensive Driver License Manual, The Examination",
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   }
 ]

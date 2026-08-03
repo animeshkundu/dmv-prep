@@ -2,276 +2,436 @@
   {
     "id": "in-safe-driving-001",
     "category": "safe-driving",
-    "stateScope": ["IN"],
+    "stateScope": [
+      "IN"
+    ],
     "prompt": "The Indiana BMV knowledge examination has 50 questions. To pass, you must answer at least:",
-    "options": ["35 correctly", "40 correctly", "45 correctly", "30 correctly"],
-    "correctIndex": 1,
+    "options": [
+      "35 correctly",
+      "45 correctly",
+      "40 correctly",
+      "30 correctly"
+    ],
+    "correctIndex": 2,
     "explanation": "The Indiana knowledge exam has 50 questions and requires a score of 80%, so you must answer at least 40 correctly to pass.",
     "difficulty": "easy",
-    "references": [{ "label": "Knowledge exam", "citation": "Indiana Driver's Manual, The Examination", "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/drivers-manual/" }],
+    "references": [
+      {
+        "label": "Knowledge exam",
+        "citation": "Indiana Driver's Manual, The Examination",
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/drivers-manual/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "in-speed-001",
     "category": "speed-limits",
-    "stateScope": ["IN"],
+    "stateScope": [
+      "IN"
+    ],
     "prompt": "The maximum speed limit for passenger vehicles on rural Indiana interstates is:",
-    "options": ["55 mph", "65 mph", "70 mph", "75 mph"],
-    "correctIndex": 2,
+    "options": [
+      "70 mph",
+      "65 mph",
+      "55 mph",
+      "75 mph"
+    ],
+    "correctIndex": 0,
     "explanation": "Indiana's maximum speed limit for passenger vehicles on rural interstate highways is 70 mph. Trucks and urban segments may have lower limits.",
     "difficulty": "easy",
-    "references": [{ "label": "Speed limits", "citation": "Indiana Driver's Manual, Speed Limits", "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/drivers-manual/" }],
+    "references": [
+      {
+        "label": "Speed limits",
+        "citation": "Indiana Driver's Manual, Speed Limits",
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/drivers-manual/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "in-alcohol-drugs-001",
     "category": "alcohol-drugs",
-    "stateScope": ["IN"],
+    "stateScope": [
+      "IN"
+    ],
     "prompt": "In Indiana, a driver under 21 violates the zero-tolerance law at a BAC of:",
-    "options": ["0.01%", "0.02%", "0.05%", "0.08%"],
-    "correctIndex": 1,
+    "options": [
+      "0.02%",
+      "0.08%",
+      "0.05%",
+      "0.01%"
+    ],
+    "correctIndex": 0,
     "explanation": "Indiana's zero-tolerance law makes it illegal for a driver under 21 to operate with a BAC of 0.02% or higher.",
     "difficulty": "medium",
-    "references": [{ "label": "Zero tolerance", "citation": "Indiana Driver's Manual, Alcohol, Drugs and Driving", "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/drivers-manual/" }],
+    "references": [
+      {
+        "label": "Zero tolerance",
+        "citation": "Indiana Driver's Manual, Alcohol, Drugs and Driving",
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/drivers-manual/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "in-alcohol-drugs-002",
     "category": "alcohol-drugs",
-    "stateScope": ["IN"],
+    "stateScope": [
+      "IN"
+    ],
     "prompt": "In Indiana, a driver 21 or older is considered to be operating while intoxicated at a BAC of:",
-    "options": ["0.05%", "0.08%", "0.10%", "0.04%"],
+    "options": [
+      "0.05%",
+      "0.08%",
+      "0.10%",
+      "0.04%"
+    ],
     "correctIndex": 1,
     "explanation": "The BAC limit for adult drivers 21 and older in Indiana is 0.08%. Commercial drivers are limited to 0.04%.",
     "difficulty": "easy",
-    "references": [{ "label": "OWI limit", "citation": "Indiana Driver's Manual, Alcohol, Drugs and Driving", "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/drivers-manual/" }],
+    "references": [
+      {
+        "label": "OWI limit",
+        "citation": "Indiana Driver's Manual, Alcohol, Drugs and Driving",
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/drivers-manual/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "in-gdl-teen-001",
     "category": "gdl-teen",
-    "stateScope": ["IN"],
+    "stateScope": [
+      "IN"
+    ],
     "prompt": "In Indiana, a teen may obtain a learner's permit at age 15 only if they are:",
     "options": [
-      "Employed part-time",
-      "Enrolled in an approved driver education course",
+      "A licensed motorcyclist",
       "Accompanied by a sibling",
-      "A licensed motorcyclist"
+      "Enrolled in an approved driver education course",
+      "Employed part-time"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "A teen may get an Indiana learner's permit at 15 only when enrolled in an approved driver education program; otherwise the minimum age is 16.",
     "difficulty": "medium",
-    "references": [{ "label": "Permit age", "citation": "Indiana Driver's Manual / IN BMV Learner's Permit", "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/" }],
+    "references": [
+      {
+        "label": "Permit age",
+        "citation": "Indiana Driver's Manual / IN BMV Learner's Permit",
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "in-gdl-teen-002",
     "category": "gdl-teen",
-    "stateScope": ["IN"],
+    "stateScope": [
+      "IN"
+    ],
     "prompt": "An Indiana learner's permit must be held for at least how long before a teen can get a probationary license?",
-    "options": ["30 days", "90 days", "180 days", "one year"],
-    "correctIndex": 2,
+    "options": [
+      "one year",
+      "30 days",
+      "90 days",
+      "180 days"
+    ],
+    "correctIndex": 3,
     "explanation": "A teen must hold an Indiana learner's permit for at least 180 days before applying for a probationary driver's license.",
     "difficulty": "medium",
-    "references": [{ "label": "Permit holding period", "citation": "IN BMV Learner's Permit", "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/" }],
+    "references": [
+      {
+        "label": "Permit holding period",
+        "citation": "IN BMV Learner's Permit",
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "in-gdl-teen-003",
     "category": "gdl-teen",
-    "stateScope": ["IN"],
+    "stateScope": [
+      "IN"
+    ],
     "prompt": "Before obtaining a probationary license, an Indiana teen must complete supervised driving totaling:",
     "options": [
+      "50 hours, 10 at night",
       "25 hours, none at night",
       "40 hours, 5 at night",
-      "50 hours, 10 at night",
       "60 hours, 15 at night"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "explanation": "Indiana requires 50 hours of supervised driving practice, including at least 10 hours at night, before a probationary license is issued.",
     "difficulty": "medium",
-    "references": [{ "label": "Supervised hours", "citation": "Indiana Driver's Manual, Graduated Driver Licensing", "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/drivers-manual/" }],
+    "references": [
+      {
+        "label": "Supervised hours",
+        "citation": "Indiana Driver's Manual, Graduated Driver Licensing",
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/drivers-manual/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "in-gdl-teen-004",
     "category": "gdl-teen",
-    "stateScope": ["IN"],
+    "stateScope": [
+      "IN"
+    ],
     "prompt": "During the first 180 days of holding an Indiana probationary license, the driver generally may not drive between:",
     "options": [
       "9 p.m. and 6 a.m.",
       "10 p.m. and 5 a.m.",
-      "11 p.m. and 5 a.m.",
-      "Midnight and 6 a.m."
+      "Midnight and 6 a.m.",
+      "11 p.m. and 5 a.m."
     ],
     "correctIndex": 1,
     "explanation": "For the first 180 days, Indiana probationary drivers may not drive between 10 p.m. and 5 a.m. (with exceptions). After that, the restriction eases to 11 p.m.-5 a.m. on weeknights.",
     "difficulty": "hard",
-    "references": [{ "label": "Night restriction", "citation": "Indiana Driver's Manual, Graduated Driver Licensing", "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/drivers-manual/" }],
+    "references": [
+      {
+        "label": "Night restriction",
+        "citation": "Indiana Driver's Manual, Graduated Driver Licensing",
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/drivers-manual/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "in-gdl-teen-005",
     "category": "gdl-teen",
-    "stateScope": ["IN"],
+    "stateScope": [
+      "IN"
+    ],
     "prompt": "During the first 180 days with an Indiana probationary license, the driver may carry:",
     "options": [
+      "Only one passenger of any kind",
       "Any number of passengers",
-      "Up to three friends",
       "No passengers except immediate family members",
-      "Only one passenger of any kind"
+      "Up to three friends"
     ],
     "correctIndex": 2,
     "explanation": "For the first 180 days, an Indiana probationary driver may not carry passengers other than immediate family members, unless a licensed driver 25 or older is supervising.",
     "difficulty": "medium",
-    "references": [{ "label": "Passenger limit", "citation": "Indiana Driver's Manual, Graduated Driver Licensing", "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/drivers-manual/" }],
+    "references": [
+      {
+        "label": "Passenger limit",
+        "citation": "Indiana Driver's Manual, Graduated Driver Licensing",
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/drivers-manual/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "in-traffic-laws-001",
     "category": "traffic-laws",
-    "stateScope": ["IN"],
+    "stateScope": [
+      "IN"
+    ],
     "prompt": "Under Indiana's hands-free law, a driver may:",
     "options": [
       "Hold a phone to send a quick text",
-      "Use a phone only hands-free, such as with a mount or voice commands",
       "Hold a phone while stopped in traffic",
-      "Use any phone function if over 21"
+      "Use any phone function if over 21",
+      "Use a phone only hands-free, such as with a mount or voice commands"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "Indiana's hands-free law prohibits holding or using a mobile device in your hand while driving; the device may only be used hands-free (voice command or a mount).",
     "difficulty": "easy",
-    "references": [{ "label": "Hands-free law", "citation": "Indiana Driver's Manual, Distracted Driving", "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/drivers-manual/" }],
+    "references": [
+      {
+        "label": "Hands-free law",
+        "citation": "Indiana Driver's Manual, Distracted Driving",
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/drivers-manual/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "in-traffic-laws-002",
     "category": "traffic-laws",
-    "stateScope": ["IN"],
+    "stateScope": [
+      "IN"
+    ],
     "prompt": "Indiana's Move Over Law requires drivers approaching a stopped emergency or maintenance vehicle with flashing lights to:",
     "options": [
-      "Speed up to pass the scene",
       "Change lanes away from it if possible, or slow below the posted limit",
       "Stop and wait until the vehicle leaves",
-      "Do nothing unless personnel are outside"
+      "Do nothing unless personnel are outside",
+      "Speed up to pass the scene"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "Indiana's Move Over Law requires you to change lanes away from a stopped emergency, tow, or maintenance vehicle displaying flashing lights, or slow below the posted speed limit if you cannot safely change lanes.",
     "difficulty": "easy",
-    "references": [{ "label": "Move over law", "citation": "Indiana Driver's Manual, Move Over Law", "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/drivers-manual/" }],
+    "references": [
+      {
+        "label": "Move over law",
+        "citation": "Indiana Driver's Manual, Move Over Law",
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/drivers-manual/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "in-penalties-points-001",
     "category": "penalties-points",
-    "stateScope": ["IN"],
+    "stateScope": [
+      "IN"
+    ],
     "prompt": "How long do points from a traffic conviction remain on an Indiana driving record?",
     "options": [
       "6 months from the conviction date",
-      "1 year from the conviction date",
       "2 years from the conviction date",
+      "1 year from the conviction date",
       "5 years from the conviction date"
     ],
-    "correctIndex": 2,
+    "correctIndex": 1,
     "explanation": "In Indiana, points assessed for a traffic conviction remain on the driving record for two years from the date of conviction.",
     "difficulty": "medium",
-    "references": [{ "label": "Point system", "citation": "Indiana Driver's Manual / IN BMV Driver Record Points", "url": "https://www.in.gov/bmv/licenses-permits-ids/suspension-and-reinstatement/driver-record-points/" }],
+    "references": [
+      {
+        "label": "Point system",
+        "citation": "Indiana Driver's Manual / IN BMV Driver Record Points",
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/suspension-and-reinstatement/driver-record-points/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "in-penalties-points-002",
     "category": "penalties-points",
-    "stateScope": ["IN"],
+    "stateScope": [
+      "IN"
+    ],
     "prompt": "A driver under 18 who is convicted of two or more moving violations within 12 months in Indiana may be required to:",
     "options": [
-      "Retake only the vision test",
-      "Complete a Driver Safety Program or face suspension",
+      "Surrender the license permanently",
       "Pay a $10 fine and nothing more",
-      "Surrender the license permanently"
+      "Complete a Driver Safety Program or face suspension",
+      "Retake only the vision test"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "An Indiana driver under 18 (or under 21) with two or more moving-violation convictions in a 12-month period must complete a Driver Safety Program or have the license suspended.",
     "difficulty": "hard",
-    "references": [{ "label": "Driver safety program", "citation": "IN BMV Citation Points and Driver Safety Program", "url": "https://www.in.gov/bmv/licenses-permits-ids/suspension-and-reinstatement/citation-points-and-driver-safety-program/" }],
+    "references": [
+      {
+        "label": "Driver safety program",
+        "citation": "IN BMV Citation Points and Driver Safety Program",
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/suspension-and-reinstatement/citation-points-and-driver-safety-program/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "in-safe-driving-002",
     "category": "safe-driving",
-    "stateScope": ["IN"],
+    "stateScope": [
+      "IN"
+    ],
     "prompt": "In Indiana, if you fail the knowledge examination, you may generally retake it:",
     "options": [
-      "Only after 30 days",
-      "The next business day",
+      "After a one-week wait",
       "After completing driver education",
-      "After a one-week wait"
+      "Only after 30 days",
+      "The next business day"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "If you do not pass the Indiana knowledge exam, you may return to retake it the next business day.",
     "difficulty": "easy",
-    "references": [{ "label": "Retake policy", "citation": "IN BMV Knowledge Exam", "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/" }],
+    "references": [
+      {
+        "label": "Retake policy",
+        "citation": "IN BMV Knowledge Exam",
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "in-safe-driving-003",
     "category": "safe-driving",
-    "stateScope": ["IN"],
+    "stateScope": [
+      "IN"
+    ],
     "prompt": "Which of the following is true about vision screening at the Indiana BMV?",
     "options": [
-      "It is only required for new drivers",
       "It is required for every license or permit, including renewals",
-      "It is optional if you wear glasses",
-      "It is required only for drivers over 70"
+      "It is required only for drivers over 70",
+      "It is only required for new drivers",
+      "It is optional if you wear glasses"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "Indiana requires vision screening when a license or permit is obtained, renewed, or amended at a BMV branch; qualifying online renewals are an exception to in-branch screening.",
     "difficulty": "easy",
-    "references": [{ "label": "Vision screening", "citation": "IN BMV Learner's Permit", "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/" }],
+    "references": [
+      {
+        "label": "Vision screening",
+        "citation": "IN BMV Learner's Permit",
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   }
 ]

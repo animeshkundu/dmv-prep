@@ -2,276 +2,407 @@
   {
     "id": "ks-speed-001",
     "category": "speed-limits",
-    "stateScope": ["KS"],
+    "stateScope": [
+      "KS"
+    ],
     "prompt": "On a rural Kansas interstate highway, the maximum posted speed limit is generally:",
-    "options": ["65 mph", "70 mph", "75 mph", "80 mph"],
-    "correctIndex": 2,
+    "options": [
+      "65 mph",
+      "75 mph",
+      "70 mph",
+      "80 mph"
+    ],
+    "correctIndex": 1,
     "explanation": "Kansas posts a maximum of 75 mph on rural interstate highways where signed. Always drive at a speed that is safe for traffic, weather, and road conditions.",
     "difficulty": "medium",
-    "references": [{ "label": "Kansas Driving Handbook", "citation": "Kansas Driving Handbook, Speed Limits", "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf" }],
+    "references": [
+      {
+        "label": "Kansas Driving Handbook",
+        "citation": "Kansas Driving Handbook, Speed Limits",
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "ks-alcohol-drugs-001",
     "category": "alcohol-drugs",
-    "stateScope": ["KS"],
+    "stateScope": [
+      "KS"
+    ],
     "prompt": "Under Kansas's zero-tolerance law, a driver under 21 can be cited for driving with a BAC as low as:",
-    "options": ["0.08%", "0.05%", "0.02%", "0.01%"],
+    "options": [
+      "0.08%",
+      "0.01%",
+      "0.02%",
+      "0.05%"
+    ],
     "correctIndex": 2,
     "explanation": "Kansas prohibits drivers under 21 from driving with a BAC of 0.02% or higher, well below the 0.08% adult limit. A first offense can bring a 30-day suspension followed by restricted driving.",
     "difficulty": "medium",
-    "references": [{ "label": "Kansas Driving Handbook", "citation": "Kansas Driving Handbook, Alcohol and Drugs", "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf" }],
+    "references": [
+      {
+        "label": "Kansas Driving Handbook",
+        "citation": "Kansas Driving Handbook, Alcohol and Drugs",
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "ks-alcohol-drugs-002",
     "category": "alcohol-drugs",
-    "stateScope": ["KS"],
+    "stateScope": [
+      "KS"
+    ],
     "prompt": "In Kansas, refusing to submit to a chemical (breath or blood) test when lawfully requested can result in:",
     "options": [
       "No penalty if you are later found sober",
-      "An automatic administrative license suspension",
       "Only a small fine",
-      "A warning for the first refusal"
+      "A warning for the first refusal",
+      "An automatic administrative license suspension"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "Under Kansas implied-consent law, refusing a chemical test triggers an administrative license suspension that is separate from any criminal DUI case.",
     "difficulty": "medium",
-    "references": [{ "label": "Kansas Driving Handbook", "citation": "Kansas Driving Handbook, Implied Consent", "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf" }],
+    "references": [
+      {
+        "label": "Kansas Driving Handbook",
+        "citation": "Kansas Driving Handbook, Implied Consent",
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "ks-gdl-teen-001",
     "category": "gdl-teen",
-    "stateScope": ["KS"],
+    "stateScope": [
+      "KS"
+    ],
     "prompt": "What is the minimum age to obtain a Kansas instruction permit?",
-    "options": ["14", "15", "16", "16 years 6 months"],
-    "correctIndex": 0,
+    "options": [
+      "16 years 6 months",
+      "16",
+      "15",
+      "14"
+    ],
+    "correctIndex": 3,
     "explanation": "Kansas allows an instruction permit at age 14. A restricted license is available at 15 with driver training, and an unrestricted license at 16 years 6 months.",
     "difficulty": "medium",
-    "references": [{ "label": "Kansas Driving Handbook", "citation": "Kansas Driving Handbook, Graduated Driver Licensing", "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf" }],
+    "references": [
+      {
+        "label": "Kansas Driving Handbook",
+        "citation": "Kansas Driving Handbook, Graduated Driver Licensing",
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 2
   },
   {
     "id": "ks-gdl-teen-002",
     "category": "gdl-teen",
-    "stateScope": ["KS"],
+    "stateScope": [
+      "KS"
+    ],
     "prompt": "To move through the Kansas graduated licensing program, a teen must complete how many hours of supervised driving?",
     "options": [
-      "25 hours, none required at night",
-      "40 hours, including 5 at night",
       "50 hours total, including 10 at night",
-      "60 hours, including 20 at night"
+      "60 hours, including 20 at night",
+      "40 hours, including 5 at night",
+      "25 hours, none required at night"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "explanation": "Kansas requires 50 hours of supervised driving, at least 10 of which must be at night, logged during the learner stage.",
     "difficulty": "hard",
-    "references": [{ "label": "Kansas Driving Handbook", "citation": "Kansas Driving Handbook, Graduated Driver Licensing", "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf" }],
+    "references": [
+      {
+        "label": "Kansas Driving Handbook",
+        "citation": "Kansas Driving Handbook, Graduated Driver Licensing",
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "ks-gdl-teen-003",
     "category": "gdl-teen",
-    "stateScope": ["KS"],
+    "stateScope": [
+      "KS"
+    ],
     "prompt": "A Kansas restricted (GDL) license holder is generally not allowed to drive during which hours except for work, school, or religious activities?",
     "options": [
+      "11 p.m. to 4 a.m.",
       "9 p.m. to 5 a.m.",
       "10 p.m. to 6 a.m.",
-      "11 p.m. to 4 a.m.",
       "Midnight to 6 a.m."
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "Kansas restricts GDL drivers from driving between 9 p.m. and 5 a.m., except when traveling to or from work, school, or religious activities.",
     "difficulty": "hard",
-    "references": [{ "label": "Kansas Driving Handbook", "citation": "Kansas Driving Handbook, GDL Restrictions", "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf" }],
+    "references": [
+      {
+        "label": "Kansas Driving Handbook",
+        "citation": "Kansas Driving Handbook, GDL Restrictions",
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 2
   },
   {
     "id": "ks-gdl-teen-004",
     "category": "gdl-teen",
-    "stateScope": ["KS"],
+    "stateScope": [
+      "KS"
+    ],
     "prompt": "Under Kansas GDL rules, a restricted teen driver may carry how many non-sibling passengers under 18?",
-    "options": ["No more than one", "No more than two", "No more than three", "No limit"],
-    "correctIndex": 0,
+    "options": [
+      "No limit",
+      "No more than two",
+      "No more than one",
+      "No more than three"
+    ],
+    "correctIndex": 2,
     "explanation": "A Kansas restricted driver may carry no more than one non-sibling passenger under age 18, reducing distraction during the highest-risk months of driving.",
     "difficulty": "medium",
-    "references": [{ "label": "Kansas Driving Handbook", "citation": "Kansas Driving Handbook, GDL Restrictions", "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf" }],
+    "references": [
+      {
+        "label": "Kansas Driving Handbook",
+        "citation": "Kansas Driving Handbook, GDL Restrictions",
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "ks-safe-driving-001",
     "category": "safe-driving",
-    "stateScope": ["KS"],
+    "stateScope": [
+      "KS"
+    ],
     "prompt": "Under Kansas's Move Over Law, when approaching a stopped emergency or maintenance vehicle with flashing lights, you must:",
     "options": [
       "Keep your speed and stay in your lane",
       "Move over one lane if you safely can, or slow down if you cannot",
-      "Stop in your lane until it leaves",
-      "Flash your headlights and continue"
+      "Flash your headlights and continue",
+      "Stop in your lane until it leaves"
     ],
     "correctIndex": 1,
     "explanation": "Kansas law requires drivers to move over a lane away from stopped emergency, tow, and highway-maintenance vehicles with flashing lights, or to slow down when it is not safe to change lanes.",
     "difficulty": "easy",
-    "references": [{ "label": "Kansas Driving Handbook", "citation": "Kansas Driving Handbook, Move Over Law", "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf" }],
+    "references": [
+      {
+        "label": "Kansas Driving Handbook",
+        "citation": "Kansas Driving Handbook, Move Over Law",
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "ks-road-signs-001",
     "category": "road-signs",
-    "stateScope": ["KS"],
+    "stateScope": [
+      "KS"
+    ],
     "prompt": "An upside-down (inverted) triangle sign means:",
-    "options": ["Stop", "Yield", "Do not enter", "No passing"],
-    "correctIndex": 1,
+    "options": [
+      "Yield",
+      "Do not enter",
+      "No passing",
+      "Stop"
+    ],
+    "correctIndex": 0,
     "explanation": "A downward-pointing triangle is a YIELD sign. Slow down, be ready to stop, and give the right of way to traffic and pedestrians before proceeding.",
     "difficulty": "easy",
-    "references": [{ "label": "Kansas Driving Handbook", "citation": "Kansas Driving Handbook, Traffic Signs", "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf" }],
+    "references": [
+      {
+        "label": "Kansas Driving Handbook",
+        "citation": "Kansas Driving Handbook, Traffic Signs",
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "ks-road-signs-002",
     "category": "road-signs",
-    "stateScope": ["KS"],
+    "stateScope": [
+      "KS"
+    ],
     "prompt": "An orange diamond-shaped sign most commonly indicates:",
     "options": [
-      "A recreational area",
-      "A construction or work zone ahead",
       "A regulatory speed limit",
+      "A construction or work zone ahead",
+      "A recreational area",
       "A school crossing"
     ],
     "correctIndex": 1,
     "explanation": "Orange signs mark construction and maintenance work zones. Slow down, watch for workers and equipment, and obey any reduced work-zone speed limits.",
     "difficulty": "easy",
-    "references": [{ "label": "Kansas Driving Handbook", "citation": "Kansas Driving Handbook, Work Zones", "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf" }],
-    "effectiveDate": "2026-07-24",
-    "reviewStatus": "draft",
-    "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
-  },
-  {
-    "id": "ks-right-of-way-001",
-    "category": "right-of-way",
-    "stateScope": ["KS"],
-    "prompt": "When entering a roundabout in Kansas, you must:",
-    "options": [
-      "Stop and wait for all traffic to clear",
-      "Yield to traffic already circulating in the roundabout",
-      "Enter quickly before other cars",
-      "Always turn left to go counterclockwise"
+    "references": [
+      {
+        "label": "Kansas Driving Handbook",
+        "citation": "Kansas Driving Handbook, Work Zones",
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf"
+      }
     ],
-    "correctIndex": 1,
-    "explanation": "At a roundabout you yield to vehicles already circulating, then enter when there is a safe gap and travel counterclockwise to your exit.",
-    "difficulty": "medium",
-    "references": [{ "label": "Kansas Driving Handbook", "citation": "Kansas Driving Handbook, Roundabouts", "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf" }],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 2
   },
   {
     "id": "ks-traffic-signals-001",
     "category": "traffic-signals",
-    "stateScope": ["KS"],
+    "stateScope": [
+      "KS"
+    ],
     "prompt": "At an intersection with a flashing red traffic signal, you must:",
     "options": [
-      "Slow down and proceed with caution",
       "Come to a complete stop, then proceed when it is safe",
+      "Slow down and proceed with caution",
       "Treat it as a green light",
       "Stop only if other cars are present"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "A flashing red signal is treated the same as a stop sign: stop completely, then proceed when the way is clear.",
     "difficulty": "easy",
-    "references": [{ "label": "Kansas Driving Handbook", "citation": "Kansas Driving Handbook, Traffic Signals", "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf" }],
+    "references": [
+      {
+        "label": "Kansas Driving Handbook",
+        "citation": "Kansas Driving Handbook, Traffic Signals",
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 2
   },
   {
     "id": "ks-pavement-markings-001",
     "category": "pavement-markings",
-    "stateScope": ["KS"],
+    "stateScope": [
+      "KS"
+    ],
     "prompt": "A broken (dashed) white line between lanes traveling the same direction means:",
     "options": [
-      "Passing is prohibited",
+      "The road is one-way",
       "You may change lanes when it is safe",
-      "The lane is for buses only",
-      "The road is one-way"
+      "Passing is prohibited",
+      "The lane is for buses only"
     ],
     "correctIndex": 1,
     "explanation": "Dashed white lines separate lanes of traffic moving in the same direction and indicate that lane changes are permitted when safe.",
     "difficulty": "easy",
-    "references": [{ "label": "Kansas Driving Handbook", "citation": "Kansas Driving Handbook, Pavement Markings", "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf" }],
+    "references": [
+      {
+        "label": "Kansas Driving Handbook",
+        "citation": "Kansas Driving Handbook, Pavement Markings",
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "ks-traffic-laws-001",
     "category": "traffic-laws",
-    "stateScope": ["KS"],
+    "stateScope": [
+      "KS"
+    ],
     "prompt": "The Kansas knowledge (written) test can be taken:",
     "options": [
-      "Only in person at a driver-license office",
-      "Online through the state's approved KnowTo Drive system, or in person",
       "By mail only",
-      "Only after a road test"
+      "Online through the state's approved KnowTo Drive system, or in person",
+      "Only after a road test",
+      "Only in person at a driver-license office"
     ],
     "correctIndex": 1,
     "explanation": "Kansas offers the knowledge test online through its approved KnowTo Drive platform (with a webcam) as well as in person at a driver-license office.",
     "difficulty": "medium",
-    "references": [{ "label": "Kansas Division of Vehicles", "citation": "KDOR Division of Vehicles, Written Exam / KnowTo Drive", "url": "https://www.ksrevenue.gov/dovindex.html" }],
+    "references": [
+      {
+        "label": "Kansas Division of Vehicles",
+        "citation": "KDOR Division of Vehicles, Written Exam / KnowTo Drive",
+        "url": "https://www.ksrevenue.gov/dovindex.html"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "ks-safe-driving-002",
     "category": "safe-driving",
-    "stateScope": ["KS"],
+    "stateScope": [
+      "KS"
+    ],
     "prompt": "A good rule for following distance behind the vehicle ahead in normal conditions is:",
     "options": [
-      "One car length total",
-      "A three-second gap, increased in poor conditions",
+      "Match the speed of traffic with no gap",
       "Half a second",
-      "Match the speed of traffic with no gap"
+      "A three-second gap, increased in poor conditions",
+      "One car length total"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "Use at least a three-second following distance in good conditions and increase it in rain, fog, or when following large vehicles that block your view.",
     "difficulty": "easy",
-    "references": [{ "label": "Kansas Driving Handbook", "citation": "Kansas Driving Handbook, Following Distance", "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf" }],
+    "references": [
+      {
+        "label": "Kansas Driving Handbook",
+        "citation": "Kansas Driving Handbook, Following Distance",
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   }
 ]

@@ -2,257 +2,386 @@
   {
     "id": "il-law-001",
     "category": "traffic-laws",
-    "stateScope": ["IL"],
+    "stateScope": [
+      "IL"
+    ],
     "prompt": "Illinois's Scott's Law (the Move Over Law) requires that when you approach a stopped emergency or maintenance vehicle with flashing lights, you must:",
     "options": [
-      "Speed up to pass it quickly",
       "Change lanes away from it if safe, or slow down and proceed with caution if you cannot",
       "Come to a complete stop in your lane",
-      "Honk and maintain your speed"
+      "Honk and maintain your speed",
+      "Speed up to pass it quickly"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "Scott's Law requires drivers to change lanes away from a stopped emergency, maintenance, or disabled vehicle displaying flashing lights when it is safe, or to slow down and proceed with caution when changing lanes is not possible.",
     "difficulty": "medium",
-    "references": [{ "label": "Scott's Law", "citation": "Illinois Rules of the Road, Scott's Law", "url": "https://www.ilsos.gov/publications/pdf_publications/dsd_a112.pdf" }],
+    "references": [
+      {
+        "label": "Scott's Law",
+        "citation": "Illinois Rules of the Road, Scott's Law",
+        "url": "https://www.ilsos.gov/publications/pdf_publications/dsd_a112.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "il-alc-001",
     "category": "alcohol-drugs",
-    "stateScope": ["IL"],
+    "stateScope": [
+      "IL"
+    ],
     "prompt": "Under Illinois's zero-tolerance law, a driver under 21 will lose driving privileges for having a BAC of:",
     "options": [
-      "0.08% or higher only",
       "0.05% or higher",
+      "0.02% or higher",
       "Any trace of alcohol (greater than 0.00%)",
-      "0.02% or higher"
+      "0.08% or higher only"
     ],
     "correctIndex": 2,
     "explanation": "Illinois's zero-tolerance law means a driver under 21 with any trace of alcohol (a BAC above 0.00%) faces a suspension: 3 months for a first offense, longer for repeats or test refusal.",
     "difficulty": "medium",
-    "references": [{ "label": "Zero tolerance", "citation": "Illinois Rules of the Road, Alcohol/drugs and driving", "url": "https://www.ilsos.gov/publications/pdf_publications/dsd_a112.pdf" }],
+    "references": [
+      {
+        "label": "Zero tolerance",
+        "citation": "Illinois Rules of the Road, Alcohol/drugs and driving",
+        "url": "https://www.ilsos.gov/publications/pdf_publications/dsd_a112.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "il-alc-002",
     "category": "alcohol-drugs",
-    "stateScope": ["IL"],
+    "stateScope": [
+      "IL"
+    ],
     "prompt": "In Illinois, an adult (21 or older) driving a passenger vehicle is legally intoxicated (DUI) at a BAC of:",
-    "options": ["0.10%", "0.08%", "0.05%", "0.04%"],
-    "correctIndex": 1,
+    "options": [
+      "0.04%",
+      "0.10%",
+      "0.05%",
+      "0.08%"
+    ],
+    "correctIndex": 3,
     "explanation": "The adult DUI limit in Illinois is 0.08% BAC. Commercial drivers are limited to 0.04%, and drivers under 21 are subject to zero tolerance.",
     "difficulty": "easy",
-    "references": [{ "label": "BAC limits", "citation": "Illinois Rules of the Road, Alcohol/drugs and driving", "url": "https://www.ilsos.gov/publications/pdf_publications/dsd_a112.pdf" }],
+    "references": [
+      {
+        "label": "BAC limits",
+        "citation": "Illinois Rules of the Road, Alcohol/drugs and driving",
+        "url": "https://www.ilsos.gov/publications/pdf_publications/dsd_a112.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "il-speed-001",
     "category": "speed-limits",
-    "stateScope": ["IL"],
+    "stateScope": [
+      "IL"
+    ],
     "prompt": "The maximum speed limit on a rural interstate highway in Illinois, unless otherwise posted, is:",
-    "options": ["65 mph", "70 mph", "75 mph", "55 mph"],
-    "correctIndex": 1,
+    "options": [
+      "65 mph",
+      "55 mph",
+      "70 mph",
+      "75 mph"
+    ],
+    "correctIndex": 2,
     "explanation": "Illinois posts 70 mph as the maximum on most rural interstates. Many urban expressways are posted at 55 mph, and you must always obey the posted sign.",
     "difficulty": "easy",
-    "references": [{ "label": "Speed limits", "citation": "Illinois Rules of the Road, Speed limits", "url": "https://www.ilsos.gov/publications/pdf_publications/dsd_a112.pdf" }],
+    "references": [
+      {
+        "label": "Speed limits",
+        "citation": "Illinois Rules of the Road, Speed limits",
+        "url": "https://www.ilsos.gov/publications/pdf_publications/dsd_a112.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "il-speed-002",
     "category": "speed-limits",
-    "stateScope": ["IL"],
+    "stateScope": [
+      "IL"
+    ],
     "prompt": "The Illinois school-zone speed limit of 20 mph applies:",
     "options": [
       "At all times, 24 hours a day",
-      "On school days from 7 a.m. to 4 p.m. when children are present",
+      "Only between midnight and 6 a.m.",
       "Only during summer break",
-      "Only between midnight and 6 a.m."
+      "On school days from 7 a.m. to 4 p.m. when children are present"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "Illinois enforces the 20 mph school-zone limit on school days from 7 a.m. to 4 p.m. when children are present. Fines for violations are increased.",
     "difficulty": "medium",
-    "references": [{ "label": "School zones", "citation": "Illinois Rules of the Road, Speed limits / school zones", "url": "https://www.ilsos.gov/publications/pdf_publications/dsd_a112.pdf" }],
+    "references": [
+      {
+        "label": "School zones",
+        "citation": "Illinois Rules of the Road, Speed limits / school zones",
+        "url": "https://www.ilsos.gov/publications/pdf_publications/dsd_a112.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "il-gdl-001",
     "category": "gdl-teen",
-    "stateScope": ["IL"],
+    "stateScope": [
+      "IL"
+    ],
     "prompt": "During the Illinois learner's permit stage, a driver under 18 must practice for at least how long and log how many hours before the next license stage?",
     "options": [
+      "12 months and 65 hours",
       "6 months and 40 hours",
       "9 months and 50 hours (including 10 at night)",
-      "3 months and 25 hours",
-      "12 months and 65 hours"
+      "3 months and 25 hours"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "Illinois requires teen permit holders to hold the permit at least 9 months and complete 50 hours of adult-supervised driving, including 10 hours at night, before moving to an initial license.",
     "difficulty": "hard",
-    "references": [{ "label": "GDL", "citation": "Illinois Rules of the Road, Graduated driver licensing", "url": "https://www.ilsos.gov/publications/pdf_publications/dsd_a112.pdf" }],
+    "references": [
+      {
+        "label": "GDL",
+        "citation": "Illinois Rules of the Road, Graduated driver licensing",
+        "url": "https://www.ilsos.gov/publications/pdf_publications/dsd_a112.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "il-gdl-002",
     "category": "gdl-teen",
-    "stateScope": ["IL"],
+    "stateScope": [
+      "IL"
+    ],
     "prompt": "On Friday and Saturday nights, an Illinois driver under 18 generally may not drive during which hours?",
     "options": [
       "10 p.m. to 6 a.m.",
-      "11 p.m. to 6 a.m.",
+      "9 p.m. to 6 a.m.",
       "Midnight to 5 a.m.",
-      "9 p.m. to 6 a.m."
+      "11 p.m. to 6 a.m."
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "The Illinois nighttime driving restriction for those under 18 is 11 p.m. to 6 a.m. on Friday and Saturday, and 10 p.m. to 6 a.m. Sunday through Thursday, with limited exceptions.",
     "difficulty": "medium",
-    "references": [{ "label": "Night restriction", "citation": "Illinois Rules of the Road, Graduated driver licensing", "url": "https://www.ilsos.gov/publications/pdf_publications/dsd_a112.pdf" }],
+    "references": [
+      {
+        "label": "Night restriction",
+        "citation": "Illinois Rules of the Road, Graduated driver licensing",
+        "url": "https://www.ilsos.gov/publications/pdf_publications/dsd_a112.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "il-gdl-003",
     "category": "gdl-teen",
-    "stateScope": ["IL"],
+    "stateScope": [
+      "IL"
+    ],
     "prompt": "During the first 12 months (or until age 18) of holding an Illinois initial license, the number of passengers under age 20 is limited to:",
     "options": [
-      "No limit",
       "No more than 1 (unless the others are siblings)",
+      "No passengers allowed",
       "Up to 3",
-      "No passengers allowed"
+      "No limit"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "For the first 12 months or until turning 18, whichever comes first, a young Illinois driver may carry no more than one passenger under age 20, unless the additional passengers are siblings.",
     "difficulty": "hard",
-    "references": [{ "label": "Passenger limit", "citation": "Illinois Rules of the Road, Graduated driver licensing", "url": "https://www.ilsos.gov/publications/pdf_publications/dsd_a112.pdf" }],
+    "references": [
+      {
+        "label": "Passenger limit",
+        "citation": "Illinois Rules of the Road, Graduated driver licensing",
+        "url": "https://www.ilsos.gov/publications/pdf_publications/dsd_a112.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "il-proc-001",
     "category": "traffic-laws",
-    "stateScope": ["IL"],
+    "stateScope": [
+      "IL"
+    ],
     "prompt": "The Illinois written knowledge exam has how many questions, and how many must you answer correctly to pass?",
     "options": [
       "18 questions, 15 correct",
-      "35 questions, 28 correct",
       "40 questions, 30 correct",
+      "35 questions, 28 correct",
       "50 questions, 40 correct"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "The Illinois written exam has 35 questions, and you must answer at least 28 correctly (80%) to pass.",
     "difficulty": "easy",
-    "references": [{ "label": "Written exam", "citation": "Illinois Rules of the Road, Examinations", "url": "https://www.ilsos.gov/publications/pdf_publications/dsd_a112.pdf" }],
+    "references": [
+      {
+        "label": "Written exam",
+        "citation": "Illinois Rules of the Road, Examinations",
+        "url": "https://www.ilsos.gov/publications/pdf_publications/dsd_a112.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "il-gdl-004",
     "category": "gdl-teen",
-    "stateScope": ["IL"],
+    "stateScope": [
+      "IL"
+    ],
     "prompt": "In Illinois, a teen may apply for an instruction permit at what minimum age, and what course must they be enrolled in?",
     "options": [
-      "14, no course required",
+      "17, and enrolled in an online-only course",
       "15, and enrolled in an approved driver education course",
       "16, and enrolled in college",
-      "17, and enrolled in an online-only course"
+      "14, no course required"
     ],
     "correctIndex": 1,
     "explanation": "Illinois teens may get an instruction permit at age 15 if enrolled in an approved driver education course. The initial license is available at 16.",
     "difficulty": "medium",
-    "references": [{ "label": "Permit age", "citation": "Illinois Rules of the Road, Graduated driver licensing", "url": "https://www.ilsos.gov/publications/pdf_publications/dsd_a112.pdf" }],
+    "references": [
+      {
+        "label": "Permit age",
+        "citation": "Illinois Rules of the Road, Graduated driver licensing",
+        "url": "https://www.ilsos.gov/publications/pdf_publications/dsd_a112.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "il-law-002",
     "category": "traffic-laws",
-    "stateScope": ["IL"],
+    "stateScope": [
+      "IL"
+    ],
     "prompt": "Illinois law on cell phone use while driving states that a driver may:",
     "options": [
-      "Hold and talk on a phone freely",
+      "Use a handheld phone if over 21",
       "Only use a phone in hands-free mode (voice or a single touch); handheld use and texting are prohibited",
-      "Text at any time if stopped in traffic",
-      "Use a handheld phone if over 21"
+      "Hold and talk on a phone freely",
+      "Text at any time if stopped in traffic"
     ],
     "correctIndex": 1,
     "explanation": "Illinois prohibits handheld cell phone use and texting while driving. Drivers may only use a phone in hands-free mode. Drivers under 19 may not use a cell phone at all except in emergencies.",
     "difficulty": "easy",
-    "references": [{ "label": "Distracted driving", "citation": "Illinois Rules of the Road, Distracted driving", "url": "https://www.ilsos.gov/publications/pdf_publications/dsd_a112.pdf" }],
+    "references": [
+      {
+        "label": "Distracted driving",
+        "citation": "Illinois Rules of the Road, Distracted driving",
+        "url": "https://www.ilsos.gov/publications/pdf_publications/dsd_a112.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "il-signal-001",
     "category": "traffic-signals",
-    "stateScope": ["IL"],
+    "stateScope": [
+      "IL"
+    ],
     "prompt": "In Illinois, at a red traffic light you may turn right after stopping:",
     "options": [
-      "Never; right on red is always illegal",
+      "Without stopping if no cars are visible",
       "Only when a green arrow appears",
-      "After a full stop and yielding, unless a sign prohibits it",
-      "Without stopping if no cars are visible"
+      "Never; right on red is always illegal",
+      "After a full stop and yielding, unless a sign prohibits it"
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "explanation": "In Illinois you may turn right on a red light after coming to a complete stop and yielding to pedestrians and cross traffic, unless a posted sign prohibits the turn.",
     "difficulty": "easy",
-    "references": [{ "label": "Traffic signals", "citation": "Illinois Rules of the Road, Traffic signals", "url": "https://www.ilsos.gov/publications/pdf_publications/dsd_a112.pdf" }],
+    "references": [
+      {
+        "label": "Traffic signals",
+        "citation": "Illinois Rules of the Road, Traffic signals",
+        "url": "https://www.ilsos.gov/publications/pdf_publications/dsd_a112.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "il-pen-001",
     "category": "penalties-points",
-    "stateScope": ["IL"],
+    "stateScope": [
+      "IL"
+    ],
     "prompt": "In Illinois, an adult driver's license may be suspended for accumulating how many moving-violation convictions within a 12-month period?",
     "options": [
-      "2 convictions",
       "3 convictions",
       "5 convictions",
-      "There is no such rule"
+      "There is no such rule",
+      "2 convictions"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "Three moving-violation convictions within a 12-month period can lead to license suspension for an adult driver in Illinois (two within 24 months for drivers under 21).",
     "difficulty": "hard",
-    "references": [{ "label": "Suspensions", "citation": "Illinois Rules of the Road, Point system and suspensions", "url": "https://www.ilsos.gov/publications/pdf_publications/dsd_a112.pdf" }],
+    "references": [
+      {
+        "label": "Suspensions",
+        "citation": "Illinois Rules of the Road, Point system and suspensions",
+        "url": "https://www.ilsos.gov/publications/pdf_publications/dsd_a112.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "il-saf-001",
     "category": "safe-driving",
-    "stateScope": ["IL"],
+    "stateScope": [
+      "IL"
+    ],
     "prompt": "Illinois law requires headlights to be turned on:",
     "options": [
       "Only after dark",
@@ -263,25 +392,46 @@
     "correctIndex": 1,
     "explanation": "Illinois requires headlights from sunset to sunrise and any time weather conditions (rain, snow, fog) require you to use your windshield wipers.",
     "difficulty": "medium",
-    "references": [{ "label": "Headlight use", "citation": "Illinois Rules of the Road, Headlights and driving conditions", "url": "https://www.ilsos.gov/publications/pdf_publications/dsd_a112.pdf" }],
+    "references": [
+      {
+        "label": "Headlight use",
+        "citation": "Illinois Rules of the Road, Headlights and driving conditions",
+        "url": "https://www.ilsos.gov/publications/pdf_publications/dsd_a112.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "il-park-001",
     "category": "parking",
-    "stateScope": ["IL"],
+    "stateScope": [
+      "IL"
+    ],
     "prompt": "In Illinois, unless signs say otherwise, you may not park within how many feet of a fire hydrant?",
-    "options": ["5 feet", "10 feet", "15 feet", "25 feet"],
+    "options": [
+      "25 feet",
+      "10 feet",
+      "15 feet",
+      "5 feet"
+    ],
     "correctIndex": 2,
     "explanation": "Illinois prohibits parking within 15 feet of a fire hydrant. Other no-parking zones include within 20 feet of a crosswalk at an intersection.",
     "difficulty": "medium",
-    "references": [{ "label": "Parking rules", "citation": "Illinois Rules of the Road, Parking", "url": "https://www.ilsos.gov/publications/pdf_publications/dsd_a112.pdf" }],
+    "references": [
+      {
+        "label": "Parking rules",
+        "citation": "Illinois Rules of the Road, Parking",
+        "url": "https://www.ilsos.gov/publications/pdf_publications/dsd_a112.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   }
 ]

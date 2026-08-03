@@ -2,261 +2,407 @@
   {
     "id": "wv-speed-limits-001",
     "category": "speed-limits",
-    "stateScope": ["WV"],
+    "stateScope": [
+      "WV"
+    ],
     "prompt": "Unless otherwise posted, the maximum speed limit on West Virginia interstate highways is:",
-    "options": ["55 mph", "65 mph", "70 mph", "75 mph"],
-    "correctIndex": 2,
+    "options": [
+      "55 mph",
+      "65 mph",
+      "75 mph",
+      "70 mph"
+    ],
+    "correctIndex": 3,
     "explanation": "West Virginia interstates are generally posted at 70 mph unless a lower limit is posted. Slow down for terrain, curves, and weather.",
     "difficulty": "easy",
-    "references": [{ "label": "WV Driver's Licensing Handbook", "citation": "WV DMV Driver's Licensing Handbook, Speed Limits", "url": "https://transportation.wv.gov/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf" }],
+    "references": [
+      {
+        "label": "WV Driver's Licensing Handbook",
+        "citation": "WV DMV Driver's Licensing Handbook, Speed Limits",
+        "url": "https://transportation.wv.gov/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "wv-speed-limits-002",
     "category": "speed-limits",
-    "stateScope": ["WV"],
+    "stateScope": [
+      "WV"
+    ],
     "prompt": "In a West Virginia school zone, the reduced speed limit applies when:",
     "options": [
-      "Only on weekdays year-round, at all hours",
       "The warning lights are flashing or children are present",
-      "Only during summer break",
-      "Only when a crossing guard waves you down"
+      "Only on weekdays year-round, at all hours",
+      "Only when a crossing guard waves you down",
+      "Only during summer break"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "West Virginia's reduced school-zone limit (commonly 15 mph) applies when the zone's lights are flashing or children are present. Watch for posted signs.",
     "difficulty": "medium",
-    "references": [{ "label": "WV Driver's Licensing Handbook", "citation": "WV DMV Driver's Licensing Handbook, School Zones", "url": "https://transportation.wv.gov/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf" }],
+    "references": [
+      {
+        "label": "WV Driver's Licensing Handbook",
+        "citation": "WV DMV Driver's Licensing Handbook, School Zones",
+        "url": "https://transportation.wv.gov/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "wv-alcohol-drugs-001",
     "category": "alcohol-drugs",
-    "stateScope": ["WV"],
+    "stateScope": [
+      "WV"
+    ],
     "prompt": "In West Virginia, a driver under 21 is subject to penalties for driving with a blood alcohol concentration (BAC) as low as:",
-    "options": ["0.08%", "0.05%", "0.02%", "0.01%"],
+    "options": [
+      "0.05%",
+      "0.08%",
+      "0.02%",
+      "0.01%"
+    ],
     "correctIndex": 2,
     "explanation": "West Virginia's zero tolerance law penalizes drivers under 21 who drive with a BAC of 0.02% or higher.",
     "difficulty": "medium",
-    "references": [{ "label": "WV Driver's Licensing Handbook", "citation": "WV DMV Driver's Licensing Handbook, Alcohol and Driving", "url": "https://transportation.wv.gov/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf" }],
+    "references": [
+      {
+        "label": "WV Driver's Licensing Handbook",
+        "citation": "WV DMV Driver's Licensing Handbook, Alcohol and Driving",
+        "url": "https://transportation.wv.gov/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "wv-alcohol-drugs-002",
     "category": "alcohol-drugs",
-    "stateScope": ["WV"],
+    "stateScope": [
+      "WV"
+    ],
     "prompt": "The blood alcohol concentration (BAC) limit for a driver 21 or older in West Virginia is:",
-    "options": ["0.10%", "0.08%", "0.05%", "0.04%"],
-    "correctIndex": 1,
+    "options": [
+      "0.04%",
+      "0.10%",
+      "0.05%",
+      "0.08%"
+    ],
+    "correctIndex": 3,
     "explanation": "The per se limit for adult drivers 21 and older is 0.08%. Commercial drivers are limited to 0.04%.",
     "difficulty": "easy",
-    "references": [{ "label": "WV Driver's Licensing Handbook", "citation": "WV DMV Driver's Licensing Handbook, Alcohol and Driving", "url": "https://transportation.wv.gov/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf" }],
+    "references": [
+      {
+        "label": "WV Driver's Licensing Handbook",
+        "citation": "WV DMV Driver's Licensing Handbook, Alcohol and Driving",
+        "url": "https://transportation.wv.gov/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 2
   },
   {
     "id": "wv-gdl-teen-001",
     "category": "gdl-teen",
-    "stateScope": ["WV"],
+    "stateScope": [
+      "WV"
+    ],
     "prompt": "A West Virginia Level 1 instruction permit holder may drive only during which hours?",
     "options": [
-      "Any time, with a licensed adult",
+      "Daylight hours only",
       "5 a.m. to 10 p.m.",
-      "6 a.m. to midnight",
-      "Daylight hours only"
+      "Any time, with a licensed adult",
+      "6 a.m. to midnight"
     ],
     "correctIndex": 1,
     "explanation": "A Level 1 permit holder may drive only between 5 a.m. and 10 p.m. and must always be supervised by a licensed adult age 21 or older in the front seat.",
     "difficulty": "hard",
-    "references": [{ "label": "WV Driver's Licensing Handbook", "citation": "WV DMV Driver's Licensing Handbook, Graduated Driver License", "url": "https://transportation.wv.gov/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf" }],
+    "references": [
+      {
+        "label": "WV Driver's Licensing Handbook",
+        "citation": "WV DMV Driver's Licensing Handbook, Graduated Driver License",
+        "url": "https://transportation.wv.gov/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "wv-gdl-teen-002",
     "category": "gdl-teen",
-    "stateScope": ["WV"],
+    "stateScope": [
+      "WV"
+    ],
     "prompt": "A West Virginia Level 1 permit must be held, conviction-free, for at least how long before advancing to a Level 2 intermediate license?",
-    "options": ["30 days", "3 months", "6 months", "12 months"],
+    "options": [
+      "12 months",
+      "30 days",
+      "6 months",
+      "3 months"
+    ],
     "correctIndex": 2,
     "explanation": "The Level 1 permit must be held for at least 6 months without a conviction, with 50 hours of supervised driving (10 at night), before moving to Level 2.",
     "difficulty": "medium",
-    "references": [{ "label": "WV Driver's Licensing Handbook", "citation": "WV DMV Driver's Licensing Handbook, Graduated Driver License", "url": "https://transportation.wv.gov/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf" }],
+    "references": [
+      {
+        "label": "WV Driver's Licensing Handbook",
+        "citation": "WV DMV Driver's Licensing Handbook, Graduated Driver License",
+        "url": "https://transportation.wv.gov/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "wv-gdl-teen-003",
     "category": "gdl-teen",
-    "stateScope": ["WV"],
+    "stateScope": [
+      "WV"
+    ],
     "prompt": "During the first 6 months of a West Virginia Level 2 intermediate license, passengers under age 20 (other than family) are:",
     "options": [
-      "Unlimited",
-      "Not allowed at all",
       "Limited to three",
-      "Limited to two"
+      "Unlimited",
+      "Limited to two",
+      "Not allowed at all"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "For the first 6 months at Level 2, no passengers under 20 (other than immediate family) are allowed. After that, no more than one such passenger is permitted.",
     "difficulty": "hard",
-    "references": [{ "label": "WV Driver's Licensing Handbook", "citation": "WV DMV Driver's Licensing Handbook, Graduated Driver License", "url": "https://transportation.wv.gov/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf" }],
+    "references": [
+      {
+        "label": "WV Driver's Licensing Handbook",
+        "citation": "WV DMV Driver's Licensing Handbook, Graduated Driver License",
+        "url": "https://transportation.wv.gov/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "wv-penalties-points-001",
     "category": "penalties-points",
-    "stateScope": ["WV"],
+    "stateScope": [
+      "WV"
+    ],
     "prompt": "In West Virginia's point system, accumulating 12 points results in:",
     "options": [
-      "Only a warning letter",
-      "A 30-day license suspension",
       "Permanent revocation",
-      "No action"
+      "A 30-day license suspension",
+      "No action",
+      "Only a warning letter"
     ],
     "correctIndex": 1,
     "explanation": "Reaching 12 points in West Virginia triggers a 30-day suspension. Higher point totals lead to progressively longer suspensions.",
     "difficulty": "medium",
-    "references": [{ "label": "WV Point System", "citation": "WV DMV Point System", "url": "https://transportation.wv.gov/DMV/Drivers/Pages/Point-System.aspx" }],
+    "references": [
+      {
+        "label": "WV Point System",
+        "citation": "WV DMV Point System",
+        "url": "https://transportation.wv.gov/DMV/Drivers/Pages/Point-System.aspx"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "wv-traffic-laws-001",
     "category": "traffic-laws",
-    "stateScope": ["WV"],
+    "stateScope": [
+      "WV"
+    ],
     "prompt": "Under West Virginia law, using a handheld cell phone or texting while driving is:",
     "options": [
       "Allowed for all adults",
       "Prohibited; drivers must use hands-free technology",
-      "Allowed only on the interstate",
-      "Allowed when stopped at a red light"
+      "Allowed when stopped at a red light",
+      "Allowed only on the interstate"
     ],
     "correctIndex": 1,
     "explanation": "West Virginia bans handheld cell phone use and texting while driving; drivers must use hands-free technology. Drivers under 18 may not use a cell phone at all while driving.",
     "difficulty": "medium",
-    "references": [{ "label": "WV Driver's Licensing Handbook", "citation": "WV DMV Driver's Licensing Handbook, Distracted Driving", "url": "https://transportation.wv.gov/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf" }],
+    "references": [
+      {
+        "label": "WV Driver's Licensing Handbook",
+        "citation": "WV DMV Driver's Licensing Handbook, Distracted Driving",
+        "url": "https://transportation.wv.gov/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "wv-traffic-laws-002",
     "category": "traffic-laws",
-    "stateScope": ["WV"],
+    "stateScope": [
+      "WV"
+    ],
     "prompt": "West Virginia's Move Over Law requires that when you approach a stopped emergency vehicle with flashing lights, you:",
     "options": [
-      "Keep your speed and lane position",
-      "Move over a lane if safe, or slow down",
+      "Turn around and take another route",
       "Come to a complete stop in your lane",
-      "Turn around and take another route"
+      "Move over a lane if safe, or slow down",
+      "Keep your speed and lane position"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "The Move Over Law requires drivers to change lanes away from stopped emergency, tow, and utility vehicles when safe, or to slow down if they cannot change lanes.",
     "difficulty": "easy",
-    "references": [{ "label": "WV Driver's Licensing Handbook", "citation": "WV DMV Driver's Licensing Handbook, Move Over Law", "url": "https://transportation.wv.gov/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf" }],
+    "references": [
+      {
+        "label": "WV Driver's Licensing Handbook",
+        "citation": "WV DMV Driver's Licensing Handbook, Move Over Law",
+        "url": "https://transportation.wv.gov/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "wv-road-signs-001",
     "category": "road-signs",
-    "stateScope": ["WV"],
+    "stateScope": [
+      "WV"
+    ],
     "prompt": "A downhill-truck or steep-grade warning sign on a West Virginia mountain highway tells drivers to:",
     "options": [
-      "Speed up to maintain momentum",
       "Prepare for a long, steep descent and control speed with a lower gear",
+      "Ignore it in a passenger car",
       "Stop at the bottom of the hill",
-      "Ignore it in a passenger car"
+      "Speed up to maintain momentum"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "Steep-grade warning signs alert you to a long descent common in West Virginia's terrain. Shift to a lower gear and control your speed to avoid overheating your brakes.",
     "difficulty": "medium",
-    "references": [{ "label": "WV Driver's Licensing Handbook", "citation": "WV DMV Driver's Licensing Handbook, Warning Signs", "url": "https://transportation.wv.gov/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf" }],
+    "references": [
+      {
+        "label": "WV Driver's Licensing Handbook",
+        "citation": "WV DMV Driver's Licensing Handbook, Warning Signs",
+        "url": "https://transportation.wv.gov/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "wv-right-of-way-001",
     "category": "right-of-way",
-    "stateScope": ["WV"],
+    "stateScope": [
+      "WV"
+    ],
     "prompt": "When you enter a roundabout in West Virginia, you must:",
     "options": [
       "Stop in the circle to let others in",
+      "Always come to a full stop before entering",
       "Yield to traffic already in the roundabout",
-      "Enter to the left of the center island",
-      "Always come to a full stop before entering"
+      "Enter to the left of the center island"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "At a roundabout, yield to vehicles already circulating, then enter to the right and travel counterclockwise when there is a safe gap.",
     "difficulty": "medium",
-    "references": [{ "label": "WV Driver's Licensing Handbook", "citation": "WV DMV Driver's Licensing Handbook, Roundabouts", "url": "https://transportation.wv.gov/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf" }],
+    "references": [
+      {
+        "label": "WV Driver's Licensing Handbook",
+        "citation": "WV DMV Driver's Licensing Handbook, Roundabouts",
+        "url": "https://transportation.wv.gov/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "wv-safe-driving-001",
     "category": "safe-driving",
-    "stateScope": ["WV"],
+    "stateScope": [
+      "WV"
+    ],
     "prompt": "On a narrow, winding West Virginia two-lane road, the safest way to handle blind curves is to:",
     "options": [
       "Cross the center line to straighten the curve",
       "Keep right, slow before the curve, and be ready for oncoming traffic",
-      "Accelerate through the curve",
-      "Use your high beams around every curve"
+      "Use your high beams around every curve",
+      "Accelerate through the curve"
     ],
     "correctIndex": 1,
     "explanation": "On winding roads, slow down before the curve, stay well to the right, and be prepared for oncoming vehicles you cannot yet see.",
     "difficulty": "easy",
-    "references": [{ "label": "WV Driver's Licensing Handbook", "citation": "WV DMV Driver's Licensing Handbook, Safe Driving", "url": "https://transportation.wv.gov/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf" }],
+    "references": [
+      {
+        "label": "WV Driver's Licensing Handbook",
+        "citation": "WV DMV Driver's Licensing Handbook, Safe Driving",
+        "url": "https://transportation.wv.gov/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "wv-sharing-the-road-001",
     "category": "sharing-the-road",
-    "stateScope": ["WV"],
+    "stateScope": [
+      "WV"
+    ],
     "prompt": "When sharing a West Virginia highway with a large truck, you should avoid:",
     "options": [
-      "Passing on the left when clear",
-      "Lingering in the truck's blind spots (no-zones) alongside and directly behind it",
       "Signaling before you change lanes",
-      "Leaving extra space when merging"
+      "Leaving extra space when merging",
+      "Lingering in the truck's blind spots (no-zones) alongside and directly behind it",
+      "Passing on the left when clear"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "Large trucks have wide blind spots (no-zones) on the sides, front, and rear. Avoid lingering in them, and if you cannot see the driver's mirrors, they cannot see you.",
     "difficulty": "easy",
-    "references": [{ "label": "WV Driver's Licensing Handbook", "citation": "WV DMV Driver's Licensing Handbook, Sharing the Road", "url": "https://transportation.wv.gov/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf" }],
+    "references": [
+      {
+        "label": "WV Driver's Licensing Handbook",
+        "citation": "WV DMV Driver's Licensing Handbook, Sharing the Road",
+        "url": "https://transportation.wv.gov/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   }
 ]

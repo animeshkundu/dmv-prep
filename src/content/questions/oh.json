@@ -2,271 +2,436 @@
   {
     "id": "oh-proc-001",
     "category": "traffic-laws",
-    "stateScope": ["OH"],
+    "stateScope": [
+      "OH"
+    ],
     "prompt": "The Ohio knowledge test has 40 questions. To pass you must:",
     "options": [
       "Answer at least 30 of the 40 questions correctly overall",
-      "Answer at least 35 questions correctly",
       "Answer all 40 questions correctly",
+      "Answer at least 35 questions correctly",
       "Pass only the traffic-sign questions"
     ],
     "correctIndex": 0,
     "explanation": "Ohio's knowledge test has 40 multiple-choice questions covering motor vehicle regulations and traffic signs. You must answer at least 75% correctly, which is 30 of 40 overall.",
     "difficulty": "medium",
-    "references": [{ "label": "Knowledge test", "citation": "Digest of Ohio Motor Vehicle Laws, Knowledge test", "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest" }],
+    "references": [
+      {
+        "label": "Knowledge test",
+        "citation": "Digest of Ohio Motor Vehicle Laws, Knowledge test",
+        "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "oh-alc-001",
     "category": "alcohol-drugs",
-    "stateScope": ["OH"],
+    "stateScope": [
+      "OH"
+    ],
     "prompt": "Under Ohio's zero-tolerance law, a driver under 21 can be charged with OVUAC at a BAC as low as:",
-    "options": ["0.08%", "0.05%", "0.02%", "0.01%"],
-    "correctIndex": 2,
+    "options": [
+      "0.02%",
+      "0.05%",
+      "0.08%",
+      "0.01%"
+    ],
+    "correctIndex": 0,
     "explanation": "Ohio's zero-tolerance law sets the limit for drivers under 21 at 0.02% BAC (the offense of Operating a Vehicle after Underage Consumption). The adult OVI limit is 0.08%.",
     "difficulty": "medium",
-    "references": [{ "label": "Zero tolerance", "citation": "Digest of Ohio Motor Vehicle Laws, Alcohol and driving", "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest" }],
+    "references": [
+      {
+        "label": "Zero tolerance",
+        "citation": "Digest of Ohio Motor Vehicle Laws, Alcohol and driving",
+        "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "oh-alc-002",
     "category": "alcohol-drugs",
-    "stateScope": ["OH"],
+    "stateScope": [
+      "OH"
+    ],
     "prompt": "In Ohio, an adult (21 or older) is guilty of OVI when driving with a BAC of at least:",
-    "options": ["0.10%", "0.08%", "0.05%", "0.04%"],
+    "options": [
+      "0.05%",
+      "0.08%",
+      "0.10%",
+      "0.04%"
+    ],
     "correctIndex": 1,
     "explanation": "Ohio's OVI (Operating a Vehicle Impaired) limit for adult drivers is 0.08% BAC. Commercial drivers are limited to 0.04%.",
     "difficulty": "easy",
-    "references": [{ "label": "OVI limits", "citation": "Digest of Ohio Motor Vehicle Laws, Alcohol and driving", "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest" }],
+    "references": [
+      {
+        "label": "OVI limits",
+        "citation": "Digest of Ohio Motor Vehicle Laws, Alcohol and driving",
+        "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "oh-pen-001",
     "category": "penalties-points",
-    "stateScope": ["OH"],
+    "stateScope": [
+      "OH"
+    ],
     "prompt": "In Ohio, accumulating how many points within a two-year period results in a license suspension?",
-    "options": ["6 points", "8 points", "12 points", "15 points"],
-    "correctIndex": 2,
+    "options": [
+      "15 points",
+      "6 points",
+      "8 points",
+      "12 points"
+    ],
+    "correctIndex": 3,
     "explanation": "Accumulating 12 or more points within a two-year period leads to a six-month suspension in Ohio, plus a remedial driving course and a license reexamination before reinstatement.",
     "difficulty": "medium",
-    "references": [{ "label": "Point system", "citation": "Digest of Ohio Motor Vehicle Laws, Point system", "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest" }],
+    "references": [
+      {
+        "label": "Point system",
+        "citation": "Digest of Ohio Motor Vehicle Laws, Point system",
+        "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "oh-speed-001",
     "category": "speed-limits",
-    "stateScope": ["OH"],
+    "stateScope": [
+      "OH"
+    ],
     "prompt": "The maximum speed limit on a rural Ohio interstate or turnpike, where posted, is:",
-    "options": ["65 mph", "70 mph", "75 mph", "55 mph"],
-    "correctIndex": 1,
+    "options": [
+      "70 mph",
+      "75 mph",
+      "55 mph",
+      "65 mph"
+    ],
+    "correctIndex": 0,
     "explanation": "Ohio posts a maximum of 70 mph on rural interstates and the Ohio Turnpike. You must always obey the posted limit, which may be lower.",
     "difficulty": "easy",
-    "references": [{ "label": "Speed limits", "citation": "Digest of Ohio Motor Vehicle Laws, Speed limits", "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest" }],
+    "references": [
+      {
+        "label": "Speed limits",
+        "citation": "Digest of Ohio Motor Vehicle Laws, Speed limits",
+        "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "oh-speed-002",
     "category": "speed-limits",
-    "stateScope": ["OH"],
+    "stateScope": [
+      "OH"
+    ],
     "prompt": "In an Ohio school zone during posted hours when children are present, the speed limit is:",
-    "options": ["15 mph", "20 mph", "25 mph", "30 mph"],
+    "options": [
+      "25 mph",
+      "20 mph",
+      "30 mph",
+      "15 mph"
+    ],
     "correctIndex": 1,
     "explanation": "Ohio sets a 20 mph limit in school zones during recess and while children are arriving or leaving, during the posted school hours.",
     "difficulty": "medium",
-    "references": [{ "label": "School zones", "citation": "Digest of Ohio Motor Vehicle Laws, Speed limits", "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest" }],
+    "references": [
+      {
+        "label": "School zones",
+        "citation": "Digest of Ohio Motor Vehicle Laws, Speed limits",
+        "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "oh-law-001",
     "category": "traffic-laws",
-    "stateScope": ["OH"],
+    "stateScope": [
+      "OH"
+    ],
     "prompt": "Under Ohio's Move Over Law, when approaching a stopped emergency, road-service, or maintenance vehicle with flashing lights on the roadside, you must:",
     "options": [
+      "Pass on the right shoulder",
       "Maintain speed and stay in your lane",
       "Move over one lane if possible, or slow down and proceed with caution if you cannot",
-      "Stop until the vehicle moves",
-      "Pass on the right shoulder"
+      "Stop until the vehicle moves"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "Ohio's Move Over Law requires drivers to move over one lane away from a stopped emergency, road-service, or maintenance vehicle displaying flashing lights, or to slow down and pass cautiously if moving over is not possible.",
     "difficulty": "medium",
-    "references": [{ "label": "Move Over Law", "citation": "Digest of Ohio Motor Vehicle Laws, Move Over Law", "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest" }],
+    "references": [
+      {
+        "label": "Move Over Law",
+        "citation": "Digest of Ohio Motor Vehicle Laws, Move Over Law",
+        "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "oh-gdl-001",
     "category": "gdl-teen",
-    "stateScope": ["OH"],
+    "stateScope": [
+      "OH"
+    ],
     "prompt": "In Ohio, a teen may apply for a temporary instruction permit (TIPIC) at what minimum age?",
-    "options": ["15", "15 years 6 months", "16", "16 years 6 months"],
-    "correctIndex": 1,
+    "options": [
+      "15 years 6 months",
+      "16 years 6 months",
+      "16",
+      "15"
+    ],
+    "correctIndex": 0,
     "explanation": "Ohio teens may apply for a Temporary Instruction Permit Identification Card (TIPIC) at 15 years and 6 months after passing the knowledge and vision tests.",
     "difficulty": "medium",
-    "references": [{ "label": "Permit age", "citation": "Digest of Ohio Motor Vehicle Laws, Graduated licensing", "url": "https://www.bmv.ohio.gov/dl-gdl.aspx" }],
+    "references": [
+      {
+        "label": "Permit age",
+        "citation": "Digest of Ohio Motor Vehicle Laws, Graduated licensing",
+        "url": "https://www.bmv.ohio.gov/dl-gdl.aspx"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "oh-gdl-002",
     "category": "gdl-teen",
-    "stateScope": ["OH"],
+    "stateScope": [
+      "OH"
+    ],
     "prompt": "Before the driving test, an Ohio teen permit holder under 18 must complete driver education and log at least:",
     "options": [
-      "25 hours of driving, all daytime",
-      "50 hours of driving, including 10 hours at night",
       "65 hours of driving, including 5 in bad weather",
-      "40 hours of driving with no night requirement"
+      "50 hours of driving, including 10 hours at night",
+      "40 hours of driving with no night requirement",
+      "25 hours of driving, all daytime"
     ],
     "correctIndex": 1,
     "explanation": "Ohio requires teens under 18 to complete an approved driver education course and log 50 hours of supervised driving, including 10 hours at night, plus hold the permit at least 6 months.",
     "difficulty": "hard",
-    "references": [{ "label": "Practice hours", "citation": "Digest of Ohio Motor Vehicle Laws, Graduated licensing", "url": "https://www.bmv.ohio.gov/dl-gdl.aspx" }],
+    "references": [
+      {
+        "label": "Practice hours",
+        "citation": "Digest of Ohio Motor Vehicle Laws, Graduated licensing",
+        "url": "https://www.bmv.ohio.gov/dl-gdl.aspx"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "oh-gdl-003",
     "category": "gdl-teen",
-    "stateScope": ["OH"],
+    "stateScope": [
+      "OH"
+    ],
     "prompt": "During the first 12 months after getting an Ohio probationary license, a 16-year-old may not drive during which hours (unless an exception applies)?",
     "options": [
       "11 p.m. to 5 a.m.",
+      "1 a.m. to 5 a.m.",
       "Midnight to 6 a.m.",
-      "10 p.m. to 6 a.m.",
-      "1 a.m. to 5 a.m."
+      "10 p.m. to 6 a.m."
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "For the first 12 months, a 16-year-old Ohio driver may not drive from midnight to 6 a.m. unless accompanied by a parent/guardian or for a listed exception. In the second year the restriction narrows to 1 a.m. to 5 a.m.",
     "difficulty": "hard",
-    "references": [{ "label": "Night restriction", "citation": "Digest of Ohio Motor Vehicle Laws, Graduated licensing", "url": "https://www.bmv.ohio.gov/dl-gdl.aspx" }],
+    "references": [
+      {
+        "label": "Night restriction",
+        "citation": "Digest of Ohio Motor Vehicle Laws, Graduated licensing",
+        "url": "https://www.bmv.ohio.gov/dl-gdl.aspx"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "oh-gdl-004",
     "category": "gdl-teen",
-    "stateScope": ["OH"],
+    "stateScope": [
+      "OH"
+    ],
     "prompt": "During the first 12 months of an Ohio probationary license, how many non-family passengers may the driver carry (with no parent present)?",
     "options": [
-      "No limit",
-      "No more than 1",
       "Up to 3",
-      "No passengers at all"
+      "No limit",
+      "No passengers at all",
+      "No more than 1"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "For the first 12 months, an Ohio probationary license holder may carry no more than one non-family-member passenger unless a parent or guardian is in the vehicle.",
     "difficulty": "medium",
-    "references": [{ "label": "Passenger limit", "citation": "Digest of Ohio Motor Vehicle Laws, Graduated licensing", "url": "https://www.bmv.ohio.gov/dl-gdl.aspx" }],
+    "references": [
+      {
+        "label": "Passenger limit",
+        "citation": "Digest of Ohio Motor Vehicle Laws, Graduated licensing",
+        "url": "https://www.bmv.ohio.gov/dl-gdl.aspx"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "oh-signal-001",
     "category": "traffic-signals",
-    "stateScope": ["OH"],
+    "stateScope": [
+      "OH"
+    ],
     "prompt": "In Ohio, a flashing red traffic signal means:",
     "options": [
-      "Slow down and proceed with caution",
-      "Stop, then proceed when it is safe, as at a stop sign",
       "The signal is broken; ignore it",
-      "Speed up to clear the intersection"
+      "Speed up to clear the intersection",
+      "Stop, then proceed when it is safe, as at a stop sign",
+      "Slow down and proceed with caution"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "A flashing red light means the same as a stop sign: come to a complete stop, then proceed when it is safe and you have yielded to other traffic and pedestrians.",
     "difficulty": "easy",
-    "references": [{ "label": "Traffic signals", "citation": "Digest of Ohio Motor Vehicle Laws, Traffic signals", "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest" }],
+    "references": [
+      {
+        "label": "Traffic signals",
+        "citation": "Digest of Ohio Motor Vehicle Laws, Traffic signals",
+        "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "oh-saf-001",
     "category": "safe-driving",
-    "stateScope": ["OH"],
+    "stateScope": [
+      "OH"
+    ],
     "prompt": "Ohio law requires you to use your headlights:",
     "options": [
       "Only when it is completely dark",
       "From sunset to sunrise and any time you use your windshield wipers due to weather",
-      "Only on the highway",
-      "Only when other cars have theirs on"
+      "Only when other cars have theirs on",
+      "Only on the highway"
     ],
     "correctIndex": 1,
     "explanation": "Ohio requires headlights from sunset to sunrise and any time weather conditions require the use of windshield wipers, such as rain, snow, or fog.",
     "difficulty": "medium",
-    "references": [{ "label": "Headlight use", "citation": "Digest of Ohio Motor Vehicle Laws, Headlights", "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest" }],
+    "references": [
+      {
+        "label": "Headlight use",
+        "citation": "Digest of Ohio Motor Vehicle Laws, Headlights",
+        "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "oh-law-002",
     "category": "traffic-laws",
-    "stateScope": ["OH"],
+    "stateScope": [
+      "OH"
+    ],
     "prompt": "Under Ohio's distracted driving law, using a cell phone in your hand while driving is:",
     "options": [
-      "Always allowed for adults",
-      "A primary offense for all drivers; you may generally only use a phone hands-free",
       "Allowed while stopped at a red light",
-      "Only banned for drivers under 18"
+      "Only banned for drivers under 18",
+      "Always allowed for adults",
+      "A primary offense for all drivers; you may generally only use a phone hands-free"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "Ohio law makes using or holding a cell phone or electronic device while driving a primary offense for all drivers, meaning an officer can stop you for it alone. Hands-free use is generally required.",
     "difficulty": "easy",
-    "references": [{ "label": "Distracted driving", "citation": "Digest of Ohio Motor Vehicle Laws, Distracted driving", "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest" }],
+    "references": [
+      {
+        "label": "Distracted driving",
+        "citation": "Digest of Ohio Motor Vehicle Laws, Distracted driving",
+        "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 2
   },
   {
     "id": "oh-row-001",
     "category": "right-of-way",
-    "stateScope": ["OH"],
+    "stateScope": [
+      "OH"
+    ],
     "prompt": "In Ohio, when you approach a school bus stopped with its red lights flashing and stop arm out on a two-lane road, you must:",
     "options": [
       "Slow to 20 mph and pass carefully",
+      "Honk to alert the driver and continue",
       "Stop at least 10 feet away and remain stopped until the bus resumes or the lights stop",
-      "Pass on the left if no children are visible",
-      "Honk to alert the driver and continue"
+      "Pass on the left if no children are visible"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "Ohio requires drivers in both directions on an undivided road to stop at least 10 feet from a school bus with flashing red lights and an extended stop arm, and to remain stopped until the bus moves or the lights stop flashing.",
     "difficulty": "medium",
-    "references": [{ "label": "School buses", "citation": "Digest of Ohio Motor Vehicle Laws, School buses", "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest" }],
+    "references": [
+      {
+        "label": "School buses",
+        "citation": "Digest of Ohio Motor Vehicle Laws, School buses",
+        "url": "https://statepatrol.ohio.gov/wps/portal/gov/oshp/about-us/oshp-publications/motor-vehicle-digest"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   }
 ]

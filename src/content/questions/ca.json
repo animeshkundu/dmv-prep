@@ -2,91 +2,146 @@
   {
     "id": "ca-speed-001",
     "category": "speed-limits",
-    "stateScope": ["CA"],
+    "stateScope": [
+      "CA"
+    ],
     "prompt": "Under California's Basic Speed Law, you must:",
     "options": [
       "Always drive exactly the posted limit",
       "Never drive faster than is safe for current conditions",
-      "Drive at least 10 mph under the limit in cities",
-      "Match the speed of the fastest nearby car"
+      "Match the speed of the fastest nearby car",
+      "Drive at least 10 mph under the limit in cities"
     ],
     "correctIndex": 1,
     "explanation": "California's Basic Speed Law means you may never drive faster than is safe for current conditions, regardless of the posted limit. In rain or fog the safe speed may be well below the sign.",
     "difficulty": "medium",
-    "references": [{ "label": "Basic Speed Law", "citation": "CA Driver Handbook, Speed Limits", "url": "https://www.dmv.ca.gov/portal/handbooks-and-manuals/california-driver-handbook/" }],
+    "references": [
+      {
+        "label": "Basic Speed Law",
+        "citation": "CA Driver Handbook, Speed Limits",
+        "url": "https://www.dmv.ca.gov/portal/handbooks-and-manuals/california-driver-handbook/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "ca-speed-002",
     "category": "speed-limits",
-    "stateScope": ["CA"],
+    "stateScope": [
+      "CA"
+    ],
     "prompt": "Unless otherwise posted, the speed limit in a California school zone when children are present is:",
-    "options": ["15 mph", "25 mph", "35 mph", "20 mph"],
-    "correctIndex": 1,
+    "options": [
+      "20 mph",
+      "15 mph",
+      "25 mph",
+      "35 mph"
+    ],
+    "correctIndex": 2,
     "explanation": "In California the school-zone limit is 25 mph when children are present, unless a lower limit is posted.",
     "difficulty": "medium",
-    "references": [{ "label": "School zones", "citation": "CA Driver Handbook, Speed Limits", "url": "https://www.dmv.ca.gov/portal/handbooks-and-manuals/california-driver-handbook/" }],
+    "references": [
+      {
+        "label": "School zones",
+        "citation": "CA Driver Handbook, Speed Limits",
+        "url": "https://www.dmv.ca.gov/portal/handbooks-and-manuals/california-driver-handbook/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "ca-alc-001",
     "category": "alcohol-drugs",
-    "stateScope": ["CA"],
+    "stateScope": [
+      "CA"
+    ],
     "prompt": "In California, a driver under 21 can be cited for driving with a blood alcohol concentration (BAC) as low as:",
-    "options": ["0.08%", "0.05%", "0.01%", "0.04%"],
-    "correctIndex": 2,
+    "options": [
+      "0.01%",
+      "0.05%",
+      "0.08%",
+      "0.04%"
+    ],
+    "correctIndex": 0,
     "explanation": "California has a zero-tolerance law for drivers under 21: a BAC of 0.01% or higher can result in a citation and license suspension.",
     "difficulty": "medium",
-    "references": [{ "label": "Zero tolerance", "citation": "CA Driver Handbook, Alcohol and Drugs", "url": "https://www.dmv.ca.gov/portal/handbooks-and-manuals/california-driver-handbook/" }],
+    "references": [
+      {
+        "label": "Zero tolerance",
+        "citation": "CA Driver Handbook, Alcohol and Drugs",
+        "url": "https://www.dmv.ca.gov/portal/handbooks-and-manuals/california-driver-handbook/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "ca-gdl-001",
     "category": "gdl-teen",
-    "stateScope": ["CA"],
+    "stateScope": [
+      "CA"
+    ],
     "prompt": "For the first 12 months, a California provisional (under-18) license holder generally may not:",
     "options": [
-      "Drive on the freeway at all",
       "Drive between 11 p.m. and 5 a.m. or carry passengers under 20, without an exception",
-      "Drive more than 25 miles from home",
-      "Drive a car with a manual transmission"
+      "Drive a car with a manual transmission",
+      "Drive on the freeway at all",
+      "Drive more than 25 miles from home"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "During the first 12 months, provisional drivers may not drive between 11 p.m. and 5 a.m., and may not carry passengers under 20, unless a listed exception applies (such as being accompanied by a licensed adult 25 or older).",
     "difficulty": "hard",
-    "references": [{ "label": "Provisional license", "citation": "CA Driver Handbook, Provisional Licensing", "url": "https://www.dmv.ca.gov/portal/handbooks-and-manuals/california-driver-handbook/" }],
+    "references": [
+      {
+        "label": "Provisional license",
+        "citation": "CA Driver Handbook, Provisional Licensing",
+        "url": "https://www.dmv.ca.gov/portal/handbooks-and-manuals/california-driver-handbook/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "ca-laws-001",
     "category": "traffic-laws",
-    "stateScope": ["CA"],
+    "stateScope": [
+      "CA"
+    ],
     "prompt": "Under California's hands-free law, while driving you may use a cell phone:",
     "options": [
-      "Held in your hand for short calls",
       "Hands-free, or with one swipe or touch on a properly mounted phone",
+      "Freely if you are over 18",
       "For texting at red lights",
-      "Freely if you are over 18"
+      "Held in your hand for short calls"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "California prohibits holding and operating a phone while driving. Adults may use it hands-free or make one swipe or touch on a properly mounted phone; drivers under 18 generally may not use a phone, even hands-free, except in an emergency.",
     "difficulty": "easy",
-    "references": [{ "label": "Hands-free law", "citation": "CA Driver Handbook, Distracted Driving", "url": "https://www.dmv.ca.gov/portal/handbooks-and-manuals/california-driver-handbook/" }],
+    "references": [
+      {
+        "label": "Hands-free law",
+        "citation": "CA Driver Handbook, Distracted Driving",
+        "url": "https://www.dmv.ca.gov/portal/handbooks-and-manuals/california-driver-handbook/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   }
 ]

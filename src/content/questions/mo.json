@@ -2,261 +2,436 @@
   {
     "id": "mo-safe-driving-001",
     "category": "safe-driving",
-    "stateScope": ["MO"],
+    "stateScope": [
+      "MO"
+    ],
     "prompt": "The Missouri written (road rules) knowledge test has 25 questions. To pass, you must answer at least:",
-    "options": ["18 correctly", "20 correctly", "22 correctly", "25 correctly"],
-    "correctIndex": 1,
+    "options": [
+      "18 correctly",
+      "25 correctly",
+      "22 correctly",
+      "20 correctly"
+    ],
+    "correctIndex": 3,
     "explanation": "Missouri's written knowledge test has 25 questions and requires 80%, so you must answer at least 20 correctly to pass.",
     "difficulty": "easy",
-    "references": [{ "label": "Written test", "citation": "Missouri Driver Guide, The Driver Examination", "url": "https://dor.mo.gov/forms/Driver_Guide.pdf" }],
+    "references": [
+      {
+        "label": "Written test",
+        "citation": "Missouri Driver Guide, The Driver Examination",
+        "url": "https://dor.mo.gov/forms/Driver_Guide.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 2
   },
   {
     "id": "mo-road-signs-001",
     "category": "road-signs",
-    "stateScope": ["MO"],
+    "stateScope": [
+      "MO"
+    ],
     "prompt": "On the Missouri road sign test, how many of the 20 questions must you answer correctly to pass?",
-    "options": ["14", "15", "16", "18"],
-    "correctIndex": 2,
+    "options": [
+      "18",
+      "14",
+      "15",
+      "16"
+    ],
+    "correctIndex": 3,
     "explanation": "The Missouri road sign test has 20 questions and requires 80%, so you must answer at least 16 correctly to pass.",
     "difficulty": "easy",
-    "references": [{ "label": "Sign test", "citation": "Missouri Driver Guide, The Driver Examination", "url": "https://dor.mo.gov/forms/Driver_Guide.pdf" }],
+    "references": [
+      {
+        "label": "Sign test",
+        "citation": "Missouri Driver Guide, The Driver Examination",
+        "url": "https://dor.mo.gov/forms/Driver_Guide.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "mo-speed-001",
     "category": "speed-limits",
-    "stateScope": ["MO"],
+    "stateScope": [
+      "MO"
+    ],
     "prompt": "Unless otherwise posted, the maximum speed limit on a Missouri interstate highway is:",
-    "options": ["55 mph", "65 mph", "70 mph", "75 mph"],
-    "correctIndex": 2,
+    "options": [
+      "55 mph",
+      "70 mph",
+      "65 mph",
+      "75 mph"
+    ],
+    "correctIndex": 1,
     "explanation": "Most Missouri interstate highways have a maximum posted speed limit of 70 mph unless a lower limit is posted.",
     "difficulty": "easy",
-    "references": [{ "label": "Speed limits", "citation": "Missouri Driver Guide, Speed Limits", "url": "https://dor.mo.gov/forms/Driver_Guide.pdf" }],
+    "references": [
+      {
+        "label": "Speed limits",
+        "citation": "Missouri Driver Guide, Speed Limits",
+        "url": "https://dor.mo.gov/forms/Driver_Guide.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "mo-alcohol-drugs-001",
     "category": "alcohol-drugs",
-    "stateScope": ["MO"],
+    "stateScope": [
+      "MO"
+    ],
     "prompt": "Under Missouri's Abuse and Lose / zero-tolerance law, a driver under 21 can lose their license at a BAC of:",
-    "options": ["0.08%", "0.05%", "0.02%", "0.01%"],
-    "correctIndex": 2,
+    "options": [
+      "0.02%",
+      "0.01%",
+      "0.08%",
+      "0.05%"
+    ],
+    "correctIndex": 0,
     "explanation": "Missouri applies a zero-tolerance standard to drivers under 21: a BAC of 0.02% or higher can result in license suspension.",
     "difficulty": "medium",
-    "references": [{ "label": "Zero tolerance", "citation": "Missouri Driver Guide, Alcohol, Drugs and Driving", "url": "https://dor.mo.gov/forms/Driver_Guide.pdf" }],
+    "references": [
+      {
+        "label": "Zero tolerance",
+        "citation": "Missouri Driver Guide, Alcohol, Drugs and Driving",
+        "url": "https://dor.mo.gov/forms/Driver_Guide.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "mo-alcohol-drugs-002",
     "category": "alcohol-drugs",
-    "stateScope": ["MO"],
+    "stateScope": [
+      "MO"
+    ],
     "prompt": "In Missouri, a driver 21 or older is legally intoxicated at a BAC of:",
-    "options": ["0.10%", "0.08%", "0.05%", "0.04%"],
+    "options": [
+      "0.04%",
+      "0.08%",
+      "0.10%",
+      "0.05%"
+    ],
     "correctIndex": 1,
     "explanation": "The BAC limit for adult drivers 21 and older in Missouri is 0.08%. Commercial drivers are limited to 0.04%.",
     "difficulty": "easy",
-    "references": [{ "label": "DWI limit", "citation": "Missouri Driver Guide, Alcohol, Drugs and Driving", "url": "https://dor.mo.gov/forms/Driver_Guide.pdf" }],
+    "references": [
+      {
+        "label": "DWI limit",
+        "citation": "Missouri Driver Guide, Alcohol, Drugs and Driving",
+        "url": "https://dor.mo.gov/forms/Driver_Guide.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "mo-gdl-teen-001",
     "category": "gdl-teen",
-    "stateScope": ["MO"],
+    "stateScope": [
+      "MO"
+    ],
     "prompt": "The minimum age to obtain a Missouri instruction permit under the graduated license law is:",
-    "options": ["14 yrs 6 mo", "15", "16", "17"],
+    "options": [
+      "17",
+      "15",
+      "16",
+      "14 yrs 6 mo"
+    ],
     "correctIndex": 1,
     "explanation": "Under Missouri's Graduated Driver License law, a teen may obtain an instruction permit at age 15.",
     "difficulty": "easy",
-    "references": [{ "label": "Instruction permit age", "citation": "Missouri Driver Guide, Graduated Driver License Law", "url": "https://dor.mo.gov/forms/Driver_Guide.pdf" }],
+    "references": [
+      {
+        "label": "Instruction permit age",
+        "citation": "Missouri Driver Guide, Graduated Driver License Law",
+        "url": "https://dor.mo.gov/forms/Driver_Guide.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "mo-gdl-teen-002",
     "category": "gdl-teen",
-    "stateScope": ["MO"],
+    "stateScope": [
+      "MO"
+    ],
     "prompt": "A Missouri instruction permit must be held for at least how long before applying for an intermediate license?",
-    "options": ["90 days", "182 days", "one year", "30 days"],
-    "correctIndex": 1,
+    "options": [
+      "90 days",
+      "one year",
+      "182 days",
+      "30 days"
+    ],
+    "correctIndex": 2,
     "explanation": "A Missouri instruction permit must be held for a minimum of 182 days before a teen can apply for an intermediate license.",
     "difficulty": "medium",
-    "references": [{ "label": "Permit holding period", "citation": "Missouri Driver Guide, Graduated Driver License Law", "url": "https://dor.mo.gov/forms/Driver_Guide.pdf" }],
+    "references": [
+      {
+        "label": "Permit holding period",
+        "citation": "Missouri Driver Guide, Graduated Driver License Law",
+        "url": "https://dor.mo.gov/forms/Driver_Guide.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 2
   },
   {
     "id": "mo-gdl-teen-003",
     "category": "gdl-teen",
-    "stateScope": ["MO"],
+    "stateScope": [
+      "MO"
+    ],
     "prompt": "While holding a Missouri instruction permit, a teen must complete supervised driving totaling:",
     "options": [
-      "20 hours, 5 at night",
-      "40 hours, 10 at night",
+      "60 hours, 20 at night",
       "50 hours, 10 at night",
-      "60 hours, 20 at night"
+      "20 hours, 5 at night",
+      "40 hours, 10 at night"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "Missouri requires 40 hours of supervised driving, including 10 hours at night, certified by a parent or guardian, before an intermediate license is issued.",
     "difficulty": "medium",
-    "references": [{ "label": "Supervised hours", "citation": "Missouri Driver Guide, Graduated Driver License Law", "url": "https://dor.mo.gov/forms/Driver_Guide.pdf" }],
+    "references": [
+      {
+        "label": "Supervised hours",
+        "citation": "Missouri Driver Guide, Graduated Driver License Law",
+        "url": "https://dor.mo.gov/forms/Driver_Guide.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "mo-gdl-teen-004",
     "category": "gdl-teen",
-    "stateScope": ["MO"],
+    "stateScope": [
+      "MO"
+    ],
     "prompt": "A Missouri intermediate license holder generally may not drive between which hours (without an exception)?",
     "options": [
-      "10 p.m. and 5 a.m.",
-      "11 p.m. and 5 a.m.",
       "1 a.m. and 5 a.m.",
-      "Midnight and 6 a.m."
+      "10 p.m. and 5 a.m.",
+      "Midnight and 6 a.m.",
+      "11 p.m. and 5 a.m."
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "explanation": "Missouri intermediate license holders may not drive between 1 a.m. and 5 a.m. unless traveling to or from work, school, or a church activity, or for an emergency.",
     "difficulty": "hard",
-    "references": [{ "label": "Night restriction", "citation": "Missouri Driver Guide, Graduated Driver License Law", "url": "https://dor.mo.gov/forms/Driver_Guide.pdf" }],
+    "references": [
+      {
+        "label": "Night restriction",
+        "citation": "Missouri Driver Guide, Graduated Driver License Law",
+        "url": "https://dor.mo.gov/forms/Driver_Guide.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "mo-gdl-teen-005",
     "category": "gdl-teen",
-    "stateScope": ["MO"],
+    "stateScope": [
+      "MO"
+    ],
     "prompt": "During the first 6 months with a Missouri intermediate license, the driver may carry no more than:",
     "options": [
-      "No passengers under 19",
-      "1 passenger under 19",
       "3 passengers under 19",
-      "4 passengers under 19"
+      "1 passenger under 19",
+      "4 passengers under 19",
+      "No passengers under 19"
     ],
     "correctIndex": 1,
     "explanation": "For the first 6 months, a Missouri intermediate driver may carry no more than one passenger under age 19. After that, the limit rises to no more than three passengers under 19.",
     "difficulty": "hard",
-    "references": [{ "label": "Passenger limit", "citation": "Missouri Driver Guide, Graduated Driver License Law", "url": "https://dor.mo.gov/forms/Driver_Guide.pdf" }],
+    "references": [
+      {
+        "label": "Passenger limit",
+        "citation": "Missouri Driver Guide, Graduated Driver License Law",
+        "url": "https://dor.mo.gov/forms/Driver_Guide.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "mo-penalties-points-001",
     "category": "penalties-points",
-    "stateScope": ["MO"],
+    "stateScope": [
+      "MO"
+    ],
     "prompt": "In Missouri, accumulating how many points within 18 months results in a license suspension?",
-    "options": ["4 points", "8 points", "12 points", "18 points"],
-    "correctIndex": 1,
+    "options": [
+      "8 points",
+      "12 points",
+      "4 points",
+      "18 points"
+    ],
+    "correctIndex": 0,
     "explanation": "Accumulating 8 points within 18 months results in a Missouri license suspension. An advisory letter is sent at 4 points in 12 months.",
     "difficulty": "medium",
-    "references": [{ "label": "Point system", "citation": "Missouri Driver Guide, The Point System", "url": "https://dor.mo.gov/forms/Driver_Guide.pdf" }],
+    "references": [
+      {
+        "label": "Point system",
+        "citation": "Missouri Driver Guide, The Point System",
+        "url": "https://dor.mo.gov/forms/Driver_Guide.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "mo-penalties-points-002",
     "category": "penalties-points",
-    "stateScope": ["MO"],
+    "stateScope": [
+      "MO"
+    ],
     "prompt": "In Missouri, accumulating 12 points within a 12-month period results in:",
     "options": [
       "A warning letter only",
-      "A 30-day suspension",
       "License revocation",
-      "No action"
+      "No action",
+      "A 30-day suspension"
     ],
-    "correctIndex": 2,
+    "correctIndex": 1,
     "explanation": "12 points in 12 months (or 18 in 24 months, or 24 in 36 months) results in revocation of a Missouri driver license.",
     "difficulty": "hard",
-    "references": [{ "label": "Point system", "citation": "Missouri Driver Guide, The Point System", "url": "https://dor.mo.gov/forms/Driver_Guide.pdf" }],
+    "references": [
+      {
+        "label": "Point system",
+        "citation": "Missouri Driver Guide, The Point System",
+        "url": "https://dor.mo.gov/forms/Driver_Guide.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "mo-traffic-laws-001",
     "category": "traffic-laws",
-    "stateScope": ["MO"],
+    "stateScope": [
+      "MO"
+    ],
     "prompt": "Under Missouri's Siddens Bening Hands Free Law, while driving you may not:",
     "options": [
+      "Speak to a passenger",
       "Use a phone in hands-free mode",
-      "Physically hold or support a cell phone or electronic device",
       "Use a mounted navigation device",
-      "Speak to a passenger"
+      "Physically hold or support a cell phone or electronic device"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "Missouri's Siddens Bening Hands Free Law prohibits holding or physically supporting an electronic device while driving; hands-free use is allowed.",
     "difficulty": "medium",
-    "references": [{ "label": "Hands-free law", "citation": "Missouri Driver Guide, Distracted Driving", "url": "https://dor.mo.gov/forms/Driver_Guide.pdf" }],
+    "references": [
+      {
+        "label": "Hands-free law",
+        "citation": "Missouri Driver Guide, Distracted Driving",
+        "url": "https://dor.mo.gov/forms/Driver_Guide.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "mo-traffic-laws-002",
     "category": "traffic-laws",
-    "stateScope": ["MO"],
+    "stateScope": [
+      "MO"
+    ],
     "prompt": "Missouri's Move Over Law requires drivers approaching a stopped emergency or MoDOT vehicle with flashing lights to:",
     "options": [
-      "Maintain speed in the same lane",
       "Move over a lane if possible, or slow down",
-      "Come to a complete stop",
-      "Turn on hazard lights and continue"
+      "Maintain speed in the same lane",
+      "Turn on hazard lights and continue",
+      "Come to a complete stop"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "Missouri's Move Over Law requires drivers to move over one lane away from stopped emergency and Department of Transportation vehicles with flashing lights, or slow down if moving over is not possible.",
     "difficulty": "easy",
-    "references": [{ "label": "Move over law", "citation": "Missouri Driver Guide, Move Over Law", "url": "https://dor.mo.gov/forms/Driver_Guide.pdf" }],
+    "references": [
+      {
+        "label": "Move over law",
+        "citation": "Missouri Driver Guide, Move Over Law",
+        "url": "https://dor.mo.gov/forms/Driver_Guide.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 2
   },
   {
     "id": "mo-safe-driving-002",
     "category": "safe-driving",
-    "stateScope": ["MO"],
+    "stateScope": [
+      "MO"
+    ],
     "prompt": "To be licensed in Missouri, an applicant must pass a vision test showing acuity of at least:",
     "options": [
-      "20/20 in both eyes",
       "20/40 in at least one eye",
+      "20/100 in one eye",
       "20/60 in both eyes",
-      "20/100 in one eye"
+      "20/20 in both eyes"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "Missouri requires visual acuity of at least 20/40 in one or both eyes, with or without corrective lenses, to obtain a license.",
     "difficulty": "medium",
-    "references": [{ "label": "Vision standard", "citation": "Missouri Driver Guide, The Driver Examination", "url": "https://dor.mo.gov/forms/Driver_Guide.pdf" }],
+    "references": [
+      {
+        "label": "Vision standard",
+        "citation": "Missouri Driver Guide, The Driver Examination",
+        "url": "https://dor.mo.gov/forms/Driver_Guide.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   }
 ]

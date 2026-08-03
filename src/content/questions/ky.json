@@ -2,246 +2,407 @@
   {
     "id": "ky-speed-001",
     "category": "speed-limits",
-    "stateScope": ["KY"],
+    "stateScope": [
+      "KY"
+    ],
     "prompt": "Unless otherwise posted, the maximum speed limit on a rural interstate highway in Kentucky is:",
-    "options": ["55 mph", "65 mph", "70 mph", "75 mph"],
+    "options": [
+      "65 mph",
+      "55 mph",
+      "70 mph",
+      "75 mph"
+    ],
     "correctIndex": 2,
     "explanation": "Kentucky's maximum speed limit on rural interstates is 70 mph where posted. Lower limits apply on some segments and in urban areas.",
     "difficulty": "easy",
-    "references": [{ "label": "Kentucky Driver Manual", "citation": "Kentucky State Police Driver Manual, Speed Limits", "url": "https://kentuckystatepolice.ky.gov/driver-testing/" }],
+    "references": [
+      {
+        "label": "Kentucky Driver Manual",
+        "citation": "Kentucky State Police Driver Manual, Speed Limits",
+        "url": "https://kentuckystatepolice.ky.gov/driver-testing/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "ky-alc-001",
     "category": "alcohol-drugs",
-    "stateScope": ["KY"],
+    "stateScope": [
+      "KY"
+    ],
     "prompt": "In Kentucky, a driver under 21 can be charged under the zero-tolerance law at a blood alcohol concentration (BAC) of:",
-    "options": ["0.08%", "0.05%", "0.02%", "0.01%"],
-    "correctIndex": 2,
+    "options": [
+      "0.02%",
+      "0.01%",
+      "0.08%",
+      "0.05%"
+    ],
+    "correctIndex": 0,
     "explanation": "Kentucky's zero-tolerance law makes it illegal for a driver under 21 to drive with a BAC of 0.02% or higher, compared with the adult limit of 0.08%.",
     "difficulty": "medium",
-    "references": [{ "label": "Kentucky Driver Manual", "citation": "Kentucky State Police Driver Manual, Alcohol and Drugs; KRS 189A.010", "url": "https://kentuckystatepolice.ky.gov/driver-testing/" }],
+    "references": [
+      {
+        "label": "Kentucky Driver Manual",
+        "citation": "Kentucky State Police Driver Manual, Alcohol and Drugs; KRS 189A.010",
+        "url": "https://kentuckystatepolice.ky.gov/driver-testing/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "ky-alc-002",
     "category": "alcohol-drugs",
-    "stateScope": ["KY"],
+    "stateScope": [
+      "KY"
+    ],
     "prompt": "The blood alcohol concentration (BAC) limit for an adult (21+) driver in Kentucky is:",
-    "options": ["0.10%", "0.08%", "0.05%", "0.04%"],
+    "options": [
+      "0.05%",
+      "0.08%",
+      "0.10%",
+      "0.04%"
+    ],
     "correctIndex": 1,
     "explanation": "A Kentucky driver 21 or older is driving under the influence at a BAC of 0.08% or higher. Commercial drivers are limited to 0.04%.",
     "difficulty": "easy",
-    "references": [{ "label": "Kentucky Driver Manual", "citation": "Kentucky State Police Driver Manual, Alcohol and Drugs; KRS 189A.010", "url": "https://kentuckystatepolice.ky.gov/driver-testing/" }],
+    "references": [
+      {
+        "label": "Kentucky Driver Manual",
+        "citation": "Kentucky State Police Driver Manual, Alcohol and Drugs; KRS 189A.010",
+        "url": "https://kentuckystatepolice.ky.gov/driver-testing/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "ky-gdl-001",
     "category": "gdl-teen",
-    "stateScope": ["KY"],
+    "stateScope": [
+      "KY"
+    ],
     "prompt": "What is the minimum age to obtain a Kentucky instruction (learner's) permit?",
-    "options": ["14", "15", "16", "17"],
-    "correctIndex": 1,
+    "options": [
+      "17",
+      "16",
+      "14",
+      "15"
+    ],
+    "correctIndex": 3,
     "explanation": "A Kentucky teen may obtain an instruction permit at age 15 after passing the vision and knowledge tests.",
     "difficulty": "easy",
-    "references": [{ "label": "Graduated Driver License", "citation": "IIHS Graduated Licensing Laws Table (Kentucky)", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
+    "references": [
+      {
+        "label": "Graduated Driver License",
+        "citation": "IIHS Graduated Licensing Laws Table (Kentucky)",
+        "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "ky-gdl-002",
     "category": "gdl-teen",
-    "stateScope": ["KY"],
+    "stateScope": [
+      "KY"
+    ],
     "prompt": "How many hours of supervised driving must a Kentucky permit holder log before the road test, and how many must be at night?",
     "options": [
-      "40 hours, 5 at night",
-      "50 hours, 10 at night",
       "60 hours, 10 at night",
-      "60 hours, 20 at night"
+      "40 hours, 5 at night",
+      "60 hours, 20 at night",
+      "50 hours, 10 at night"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "explanation": "Kentucky requires 60 hours of supervised driving, including at least 10 hours at night, before a permit holder can take the road test.",
     "difficulty": "medium",
-    "references": [{ "label": "Graduated Driver License", "citation": "IIHS Graduated Licensing Laws Table (Kentucky)", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
+    "references": [
+      {
+        "label": "Graduated Driver License",
+        "citation": "IIHS Graduated Licensing Laws Table (Kentucky)",
+        "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "ky-gdl-003",
     "category": "gdl-teen",
-    "stateScope": ["KY"],
+    "stateScope": [
+      "KY"
+    ],
     "prompt": "A Kentucky intermediate license holder may not drive unsupervised during which hours?",
     "options": [
       "9 p.m. to 5 a.m.",
-      "10 p.m. to 4 a.m.",
+      "Midnight to 6 a.m.",
       "11 p.m. to 6 a.m.",
-      "Midnight to 6 a.m."
+      "10 p.m. to 4 a.m."
     ],
-    "correctIndex": 3,
+    "correctIndex": 1,
     "explanation": "A Kentucky intermediate driver may not drive between midnight and 6 a.m. unless driving to or from work, school, or a medical emergency.",
     "difficulty": "medium",
-    "references": [{ "label": "Graduated Driver License", "citation": "IIHS Graduated Licensing Laws Table (Kentucky)", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
+    "references": [
+      {
+        "label": "Graduated Driver License",
+        "citation": "IIHS Graduated Licensing Laws Table (Kentucky)",
+        "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "ky-gdl-004",
     "category": "gdl-teen",
-    "stateScope": ["KY"],
+    "stateScope": [
+      "KY"
+    ],
     "prompt": "A Kentucky intermediate license holder may carry how many passengers under age 20 (unless supervised by a driving instructor)?",
-    "options": ["No more than 1", "No more than 2", "No more than 3", "No limit"],
-    "correctIndex": 0,
+    "options": [
+      "No more than 3",
+      "No more than 2",
+      "No more than 1",
+      "No limit"
+    ],
+    "correctIndex": 2,
     "explanation": "A Kentucky intermediate driver may carry no more than one passenger under age 20 unless supervised by a driving instructor or accompanied by a licensed adult 21 or older.",
     "difficulty": "hard",
-    "references": [{ "label": "Graduated Driver License", "citation": "IIHS Graduated Licensing Laws Table (Kentucky)", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
+    "references": [
+      {
+        "label": "Graduated Driver License",
+        "citation": "IIHS Graduated Licensing Laws Table (Kentucky)",
+        "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 2
   },
   {
     "id": "ky-gdl-005",
     "category": "gdl-teen",
-    "stateScope": ["KY"],
+    "stateScope": [
+      "KY"
+    ],
     "prompt": "While holding a Kentucky instruction permit, a driver may not drive during which hours?",
     "options": [
       "9 p.m. to 5 a.m.",
-      "Midnight to 6 a.m.",
       "10 p.m. to 4 a.m.",
-      "There is no restriction with a permit"
+      "There is no restriction with a permit",
+      "Midnight to 6 a.m."
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "Kentucky instruction permit holders may not drive between midnight and 6 a.m. and must always be accompanied by a licensed adult 21 or older.",
     "difficulty": "medium",
-    "references": [{ "label": "Graduated Driver License", "citation": "IIHS Graduated Licensing Laws Table (Kentucky)", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
+    "references": [
+      {
+        "label": "Graduated Driver License",
+        "citation": "IIHS Graduated Licensing Laws Table (Kentucky)",
+        "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "ky-pts-001",
     "category": "penalties-points",
-    "stateScope": ["KY"],
+    "stateScope": [
+      "KY"
+    ],
     "prompt": "For a Kentucky driver 18 or older, how many points accumulated within a 2-year period can lead to a license suspension?",
-    "options": ["7 points", "10 points", "12 points", "15 points"],
-    "correctIndex": 2,
+    "options": [
+      "15 points",
+      "7 points",
+      "10 points",
+      "12 points"
+    ],
+    "correctIndex": 3,
     "explanation": "A Kentucky driver 18 or older may face suspension after accumulating 12 or more points within a 2-year period. For drivers under 18, the threshold is lower at 7 points.",
     "difficulty": "medium",
-    "references": [{ "label": "Kentucky Driver Manual", "citation": "Kentucky State Police Driver Manual, Point System", "url": "https://kentuckystatepolice.ky.gov/driver-testing/" }],
+    "references": [
+      {
+        "label": "Kentucky Driver Manual",
+        "citation": "Kentucky State Police Driver Manual, Point System",
+        "url": "https://kentuckystatepolice.ky.gov/driver-testing/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "ky-laws-001",
     "category": "traffic-laws",
-    "stateScope": ["KY"],
+    "stateScope": [
+      "KY"
+    ],
     "prompt": "Under Kentucky's Move Over Law (KRS 189.930), when approaching a stopped emergency or public-safety vehicle with warning lights, you must:",
     "options": [
-      "Maintain your speed and lane",
-      "Move over one lane if possible, or slow down and proceed with caution",
       "Stop completely in your lane",
-      "Honk and pass"
+      "Honk and pass",
+      "Move over one lane if possible, or slow down and proceed with caution",
+      "Maintain your speed and lane"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "Kentucky's Move Over Law requires drivers to change lanes away from a stopped emergency, public-safety, or utility vehicle displaying warning lights when possible, or to slow down and proceed with caution if a lane change is not safe.",
     "difficulty": "easy",
-    "references": [{ "label": "Kentucky Driver Manual", "citation": "Kentucky State Police Driver Manual, Move Over Law; KRS 189.930", "url": "https://kentuckystatepolice.ky.gov/driver-testing/" }],
+    "references": [
+      {
+        "label": "Kentucky Driver Manual",
+        "citation": "Kentucky State Police Driver Manual, Move Over Law; KRS 189.930",
+        "url": "https://kentuckystatepolice.ky.gov/driver-testing/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "ky-laws-002",
     "category": "traffic-laws",
-    "stateScope": ["KY"],
+    "stateScope": [
+      "KY"
+    ],
     "prompt": "Kentucky's texting-while-driving law (KRS 189.292) prohibits drivers from:",
     "options": [
+      "Talking to passengers",
       "Making any hands-free phone calls",
-      "Writing, sending, or reading text-based messages while the vehicle is in motion",
       "Using GPS navigation at all",
-      "Talking to passengers"
+      "Writing, sending, or reading text-based messages while the vehicle is in motion"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "Kentucky prohibits writing, sending, or reading text-based communications while driving. Drivers under 18 face broader restrictions on all personal-communication-device use.",
     "difficulty": "medium",
-    "references": [{ "label": "Kentucky Driver Manual", "citation": "Kentucky State Police Driver Manual, Distracted Driving; KRS 189.292", "url": "https://kentuckystatepolice.ky.gov/driver-testing/" }],
+    "references": [
+      {
+        "label": "Kentucky Driver Manual",
+        "citation": "Kentucky State Police Driver Manual, Distracted Driving; KRS 189.292",
+        "url": "https://kentuckystatepolice.ky.gov/driver-testing/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "ky-rw-001",
     "category": "right-of-way",
-    "stateScope": ["KY"],
+    "stateScope": [
+      "KY"
+    ],
     "prompt": "In Kentucky, when a school bus stops with red lights flashing and stop arm extended on a two-lane road, drivers approaching from either direction must:",
     "options": [
-      "Slow to 15 mph",
       "Stop and remain stopped until the bus resumes motion or the lights stop flashing",
+      "Stop only if directly behind the bus",
       "Continue if no children are seen",
-      "Stop only if directly behind the bus"
+      "Slow to 15 mph"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "On a two-lane road, drivers in both directions must stop for a school bus with flashing red lights and an extended stop arm, and stay stopped until the bus moves or the lights are turned off.",
     "difficulty": "medium",
-    "references": [{ "label": "Kentucky Driver Manual", "citation": "Kentucky State Police Driver Manual, School Buses", "url": "https://kentuckystatepolice.ky.gov/driver-testing/" }],
+    "references": [
+      {
+        "label": "Kentucky Driver Manual",
+        "citation": "Kentucky State Police Driver Manual, School Buses",
+        "url": "https://kentuckystatepolice.ky.gov/driver-testing/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "ky-proc-001",
     "category": "traffic-laws",
-    "stateScope": ["KY"],
+    "stateScope": [
+      "KY"
+    ],
     "prompt": "The Kentucky knowledge test has 40 questions. How many must you answer correctly to pass?",
-    "options": ["28", "30", "32", "36"],
-    "correctIndex": 2,
+    "options": [
+      "32",
+      "30",
+      "36",
+      "28"
+    ],
+    "correctIndex": 0,
     "explanation": "You must answer at least 32 of the 40 questions correctly (80%) to pass the Kentucky knowledge test.",
     "difficulty": "easy",
-    "references": [{ "label": "Kentucky Driver Manual", "citation": "Kentucky State Police Driver Manual, The Written Test", "url": "https://kentuckystatepolice.ky.gov/driver-testing/" }],
+    "references": [
+      {
+        "label": "Kentucky Driver Manual",
+        "citation": "Kentucky State Police Driver Manual, The Written Test",
+        "url": "https://kentuckystatepolice.ky.gov/driver-testing/"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "ky-gdl-006",
     "category": "gdl-teen",
-    "stateScope": ["KY"],
+    "stateScope": [
+      "KY"
+    ],
     "prompt": "A Kentucky driver can obtain a full (unrestricted) license when they are:",
     "options": [
-      "16 with no waiting period",
       "17 after holding the intermediate license at least 180 days and completing driver education",
-      "17 with driver education only",
-      "16 and a half"
+      "16 and a half",
+      "16 with no waiting period",
+      "17 with driver education only"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "A Kentucky driver may move to a full license at age 17 after holding the intermediate license for at least 180 days and completing the required driver education program.",
     "difficulty": "hard",
-    "references": [{ "label": "Graduated Driver License", "citation": "IIHS Graduated Licensing Laws Table (Kentucky)", "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table" }],
+    "references": [
+      {
+        "label": "Graduated Driver License",
+        "citation": "IIHS Graduated Licensing Laws Table (Kentucky)",
+        "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   }
 ]

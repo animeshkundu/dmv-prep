@@ -2,271 +2,436 @@
   {
     "id": "ga-speed-001",
     "category": "speed-limits",
-    "stateScope": ["GA"],
+    "stateScope": [
+      "GA"
+    ],
     "prompt": "On a rural interstate in Georgia, the maximum posted speed limit is generally:",
-    "options": ["55 mph", "65 mph", "70 mph", "75 mph"],
-    "correctIndex": 2,
+    "options": [
+      "65 mph",
+      "55 mph",
+      "75 mph",
+      "70 mph"
+    ],
+    "correctIndex": 3,
     "explanation": "Georgia's maximum speed limit on rural interstates is 70 mph. You must still slow to a safe speed for traffic, weather, and road conditions.",
     "difficulty": "easy",
-    "references": [{ "label": "Georgia Driver's Manual", "citation": "GA DDS Driver's Manual, Speed Limits", "url": "https://dds.georgia.gov/dds-forms-and-manuals/manuals" }],
+    "references": [
+      {
+        "label": "Georgia Driver's Manual",
+        "citation": "GA DDS Driver's Manual, Speed Limits",
+        "url": "https://dds.georgia.gov/dds-forms-and-manuals/manuals"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "ga-speed-002",
     "category": "speed-limits",
-    "stateScope": ["GA"],
+    "stateScope": [
+      "GA"
+    ],
     "prompt": "Under Georgia's Super Speeder Law, an additional state fee applies to drivers convicted of going:",
     "options": [
-      "10 mph over any limit",
       "75 mph or more on a two-lane road, or 85 mph or more on any road",
+      "10 mph over any limit",
       "Any speed in a school zone",
       "65 mph or more on an interstate"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "Georgia's Super Speeder Law adds a $200 state fee for driving 75 mph or more on a two-lane road, or 85 mph or more on any road or highway. This is on top of local fines.",
     "difficulty": "medium",
-    "references": [{ "label": "Super Speeder", "citation": "GA DDS Points Schedule; O.C.G.A. § 40-6-189", "url": "https://dds.georgia.gov/georgia-licenseid/violations-suspensions-revocations/points-and-points-reduction" }],
+    "references": [
+      {
+        "label": "Super Speeder",
+        "citation": "GA DDS Points Schedule; O.C.G.A. § 40-6-189",
+        "url": "https://dds.georgia.gov/georgia-licenseid/violations-suspensions-revocations/points-and-points-reduction"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "ga-alc-001",
     "category": "alcohol-drugs",
-    "stateScope": ["GA"],
+    "stateScope": [
+      "GA"
+    ],
     "prompt": "In Georgia, a driver under 21 can be charged with DUI at a blood alcohol concentration (BAC) as low as:",
-    "options": ["0.08%", "0.05%", "0.04%", "0.02%"],
-    "correctIndex": 3,
+    "options": [
+      "0.05%",
+      "0.04%",
+      "0.02%",
+      "0.08%"
+    ],
+    "correctIndex": 2,
     "explanation": "Georgia has a zero-tolerance law for drivers under 21: a BAC of 0.02% or higher can result in a DUI charge and license suspension. The adult limit is 0.08%.",
     "difficulty": "medium",
-    "references": [{ "label": "Alcohol and the Law", "citation": "GA DDS Driver's Manual, Alcohol/Drugs; O.C.G.A. § 40-6-391", "url": "https://dds.georgia.gov/dds-forms-and-manuals/manuals" }],
+    "references": [
+      {
+        "label": "Alcohol and the Law",
+        "citation": "GA DDS Driver's Manual, Alcohol/Drugs; O.C.G.A. § 40-6-391",
+        "url": "https://dds.georgia.gov/dds-forms-and-manuals/manuals"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "ga-alc-002",
     "category": "alcohol-drugs",
-    "stateScope": ["GA"],
+    "stateScope": [
+      "GA"
+    ],
     "prompt": "In Georgia, the BAC limit for a driver operating a commercial vehicle (CDL) is:",
-    "options": ["0.08%", "0.04%", "0.02%", "0.10%"],
-    "correctIndex": 1,
+    "options": [
+      "0.02%",
+      "0.10%",
+      "0.08%",
+      "0.04%"
+    ],
+    "correctIndex": 3,
     "explanation": "Commercial drivers in Georgia are held to a stricter 0.04% BAC limit while operating a commercial vehicle, compared with 0.08% for non-commercial adult drivers.",
     "difficulty": "medium",
-    "references": [{ "label": "Commercial BAC", "citation": "GA DDS Driver's Manual, Alcohol/Drugs", "url": "https://dds.georgia.gov/dds-forms-and-manuals/manuals" }],
+    "references": [
+      {
+        "label": "Commercial BAC",
+        "citation": "GA DDS Driver's Manual, Alcohol/Drugs",
+        "url": "https://dds.georgia.gov/dds-forms-and-manuals/manuals"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "ga-gdl-001",
     "category": "gdl-teen",
-    "stateScope": ["GA"],
+    "stateScope": [
+      "GA"
+    ],
     "prompt": "A Georgia Class D (provisional) license holder is prohibited from driving during which hours?",
     "options": [
-      "10 p.m. to 5 a.m.",
-      "11 p.m. to 6 a.m.",
+      "9 p.m. to 6 a.m.",
       "12 a.m. (midnight) to 5 a.m.",
-      "9 p.m. to 6 a.m."
+      "11 p.m. to 6 a.m.",
+      "10 p.m. to 5 a.m."
     ],
-    "correctIndex": 2,
+    "correctIndex": 1,
     "explanation": "Georgia Class D license holders may not drive between 12:00 midnight and 5:00 a.m. This restriction has no exceptions for work, school, or emergencies.",
     "difficulty": "hard",
-    "references": [{ "label": "Class D restrictions", "citation": "GA DDS Teen Driving Laws; O.C.G.A. § 40-5-24", "url": "https://dds.georgia.gov/teen-driving-laws-faqs" }],
+    "references": [
+      {
+        "label": "Class D restrictions",
+        "citation": "GA DDS Teen Driving Laws; O.C.G.A. § 40-5-24",
+        "url": "https://dds.georgia.gov/teen-driving-laws-faqs"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "ga-gdl-002",
     "category": "gdl-teen",
-    "stateScope": ["GA"],
+    "stateScope": [
+      "GA"
+    ],
     "prompt": "During the first 6 months with a Georgia Class D license, who may ride as a passenger?",
     "options": [
-      "Up to three friends under 21",
-      "Only immediate family members",
+      "Anyone, with no restriction",
       "One passenger under 21",
-      "Anyone, with no restriction"
+      "Only immediate family members",
+      "Up to three friends under 21"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "For the first 6 months, a Class D holder may carry only immediate family members. Months 7-12 allow one non-family passenger under 21; after 12 months, up to three passengers under 21.",
     "difficulty": "hard",
-    "references": [{ "label": "Passenger limits", "citation": "GA DDS Teen Driving Laws; O.C.G.A. § 40-5-24", "url": "https://dds.georgia.gov/teen-driving-laws-faqs" }],
+    "references": [
+      {
+        "label": "Passenger limits",
+        "citation": "GA DDS Teen Driving Laws; O.C.G.A. § 40-5-24",
+        "url": "https://dds.georgia.gov/teen-driving-laws-faqs"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "ga-gdl-003",
     "category": "gdl-teen",
-    "stateScope": ["GA"],
+    "stateScope": [
+      "GA"
+    ],
     "prompt": "Under Joshua's Law, how many hours of supervised driving must a Georgia teen complete before getting a Class D license?",
     "options": [
-      "20 hours, none required at night",
-      "40 hours, 6 of which must be at night",
       "50 hours, 10 of which must be at night",
-      "60 hours, 10 of which must be at night"
+      "20 hours, none required at night",
+      "60 hours, 10 of which must be at night",
+      "40 hours, 6 of which must be at night"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "Joshua's Law requires 40 hours of supervised driving, including at least 6 hours at night, plus completion of an approved driver education course.",
     "difficulty": "medium",
-    "references": [{ "label": "Joshua's Law", "citation": "GA DDS Teen Driving Laws (Joshua's Law)", "url": "https://dds.georgia.gov/teen-driving-laws-faqs" }],
+    "references": [
+      {
+        "label": "Joshua's Law",
+        "citation": "GA DDS Teen Driving Laws (Joshua's Law)",
+        "url": "https://dds.georgia.gov/teen-driving-laws-faqs"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "ga-gdl-004",
     "category": "gdl-teen",
-    "stateScope": ["GA"],
+    "stateScope": [
+      "GA"
+    ],
     "prompt": "How long must a Georgia teen hold a Class CP instructional permit before applying for a Class D license?",
-    "options": ["30 days", "6 months", "12 months and 1 day", "2 years"],
-    "correctIndex": 2,
+    "options": [
+      "12 months and 1 day",
+      "2 years",
+      "30 days",
+      "6 months"
+    ],
+    "correctIndex": 0,
     "explanation": "A Class CP permit must be held for at least 12 months and 1 day, with no major traffic convictions, before a minor can apply for a Class D provisional license at age 16.",
     "difficulty": "medium",
-    "references": [{ "label": "Permit holding period", "citation": "GA DDS Teen Driving Laws; O.C.G.A. § 40-5-24", "url": "https://dds.georgia.gov/teen-driving-laws-faqs" }],
+    "references": [
+      {
+        "label": "Permit holding period",
+        "citation": "GA DDS Teen Driving Laws; O.C.G.A. § 40-5-24",
+        "url": "https://dds.georgia.gov/teen-driving-laws-faqs"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "ga-pts-001",
     "category": "penalties-points",
-    "stateScope": ["GA"],
+    "stateScope": [
+      "GA"
+    ],
     "prompt": "For a Georgia driver age 21 or older, license suspension results from accumulating how many points?",
     "options": [
-      "6 points in 12 months",
-      "10 points in 18 months",
       "15 points in any 24-month period",
-      "12 points in 36 months"
+      "12 points in 36 months",
+      "10 points in 18 months",
+      "6 points in 12 months"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "explanation": "Drivers 21 and older face suspension when they accumulate 15 points within any 24-month period. Drivers under 18 are suspended at just 4 points in 12 months.",
     "difficulty": "medium",
-    "references": [{ "label": "Points system", "citation": "GA DDS Points and Points Reduction", "url": "https://dds.georgia.gov/georgia-licenseid/violations-suspensions-revocations/points-and-points-reduction" }],
+    "references": [
+      {
+        "label": "Points system",
+        "citation": "GA DDS Points and Points Reduction",
+        "url": "https://dds.georgia.gov/georgia-licenseid/violations-suspensions-revocations/points-and-points-reduction"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "ga-pts-002",
     "category": "penalties-points",
-    "stateScope": ["GA"],
+    "stateScope": [
+      "GA"
+    ],
     "prompt": "In Georgia, completing a certified defensive driving course can reduce your points by up to:",
     "options": [
+      "15 points, anytime",
       "7 points, once every 5 years",
       "All points, once per year",
-      "3 points, once per license",
-      "15 points, anytime"
+      "3 points, once per license"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "A voluntary certified defensive driving (driver improvement) course can reduce your record by up to 7 points, but only once every 5 years.",
     "difficulty": "medium",
-    "references": [{ "label": "Points reduction", "citation": "GA DDS Points and Points Reduction", "url": "https://dds.georgia.gov/georgia-licenseid/violations-suspensions-revocations/points-and-points-reduction" }],
+    "references": [
+      {
+        "label": "Points reduction",
+        "citation": "GA DDS Points and Points Reduction",
+        "url": "https://dds.georgia.gov/georgia-licenseid/violations-suspensions-revocations/points-and-points-reduction"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 2
   },
   {
     "id": "ga-laws-001",
     "category": "traffic-laws",
-    "stateScope": ["GA"],
+    "stateScope": [
+      "GA"
+    ],
     "prompt": "Under the Hands-Free Georgia Act, while driving you may:",
     "options": [
-      "Hold your phone to read a text at a red light",
       "Hold and dial your phone if the call is short",
       "Not hold or support a phone with your body; use hands-free features only",
-      "Use any phone function if you are over 18"
+      "Use any phone function if you are over 18",
+      "Hold your phone to read a text at a red light"
     ],
-    "correctIndex": 2,
+    "correctIndex": 1,
     "explanation": "The Hands-Free Georgia Act prohibits holding or supporting a phone with any part of your body while driving. You may only use voice-activated or hands-free functions.",
     "difficulty": "easy",
-    "references": [{ "label": "Hands-Free Georgia Act", "citation": "GA DDS Driver's Manual; O.C.G.A. § 40-6-241", "url": "https://dds.georgia.gov/dds-forms-and-manuals/manuals" }],
+    "references": [
+      {
+        "label": "Hands-Free Georgia Act",
+        "citation": "GA DDS Driver's Manual; O.C.G.A. § 40-6-241",
+        "url": "https://dds.georgia.gov/dds-forms-and-manuals/manuals"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "ga-laws-002",
     "category": "traffic-laws",
-    "stateScope": ["GA"],
+    "stateScope": [
+      "GA"
+    ],
     "prompt": "Georgia's Move Over Law requires that when an emergency or utility vehicle is stopped on the roadside with flashing lights, you must:",
     "options": [
-      "Stop completely until it leaves",
-      "Move over one lane if possible, or slow down if you cannot",
+      "Maintain your speed and stay in your lane",
       "Honk to signal you have seen it",
-      "Maintain your speed and stay in your lane"
+      "Move over one lane if possible, or slow down if you cannot",
+      "Stop completely until it leaves"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "Georgia's Move Over Law requires drivers to move over one lane away from a stopped emergency, utility, or DOT vehicle with flashing lights. If moving over is unsafe, you must slow down. A violation adds 3 points.",
     "difficulty": "easy",
-    "references": [{ "label": "Move Over Law", "citation": "GA DDS Driver's Manual; O.C.G.A. § 40-6-16", "url": "https://dds.georgia.gov/dds-forms-and-manuals/manuals" }],
+    "references": [
+      {
+        "label": "Move Over Law",
+        "citation": "GA DDS Driver's Manual; O.C.G.A. § 40-6-16",
+        "url": "https://dds.georgia.gov/dds-forms-and-manuals/manuals"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "ga-shr-001",
     "category": "sharing-the-road",
-    "stateScope": ["GA"],
+    "stateScope": [
+      "GA"
+    ],
     "prompt": "In Georgia, when passing a bicyclist on the roadway you must leave a safe distance of at least:",
-    "options": ["1 foot", "3 feet", "6 feet", "No minimum is required"],
-    "correctIndex": 1,
+    "options": [
+      "1 foot",
+      "6 feet",
+      "3 feet",
+      "No minimum is required"
+    ],
+    "correctIndex": 2,
     "explanation": "Georgia law requires drivers to give at least 3 feet of clearance when passing a bicyclist, changing lanes if necessary to do so safely.",
     "difficulty": "medium",
-    "references": [{ "label": "Sharing the road", "citation": "GA DDS Driver's Manual; O.C.G.A. § 40-6-56", "url": "https://dds.georgia.gov/dds-forms-and-manuals/manuals" }],
+    "references": [
+      {
+        "label": "Sharing the road",
+        "citation": "GA DDS Driver's Manual; O.C.G.A. § 40-6-56",
+        "url": "https://dds.georgia.gov/dds-forms-and-manuals/manuals"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "ga-row-001",
     "category": "right-of-way",
-    "stateScope": ["GA"],
+    "stateScope": [
+      "GA"
+    ],
     "prompt": "You must stop for a stopped school bus with red lights flashing on a two-lane road:",
     "options": [
-      "Only if you are behind the bus",
       "From both directions of travel",
       "Never, if you slow down",
+      "Only if you are behind the bus",
       "Only when children are visible"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "On a two-lane road, traffic in both directions must stop for a school bus displaying flashing red lights and a stop arm. In Georgia, passing a stopped school bus is a 6-point violation.",
     "difficulty": "medium",
-    "references": [{ "label": "School buses", "citation": "GA DDS Driver's Manual; O.C.G.A. § 40-6-163", "url": "https://dds.georgia.gov/dds-forms-and-manuals/manuals" }],
+    "references": [
+      {
+        "label": "School buses",
+        "citation": "GA DDS Driver's Manual; O.C.G.A. § 40-6-163",
+        "url": "https://dds.georgia.gov/dds-forms-and-manuals/manuals"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "ga-proc-001",
     "category": "safe-driving",
-    "stateScope": ["GA"],
+    "stateScope": [
+      "GA"
+    ],
     "prompt": "To pass the Georgia vision screening for a regular Class C driver's license, you generally must have visual acuity of at least:",
-    "options": ["20/20 in both eyes", "20/40 in each eye", "20/60 in at least one eye", "20/100 in one eye"],
-    "correctIndex": 2,
+    "options": [
+      "20/40 in each eye",
+      "20/60 in at least one eye",
+      "20/20 in both eyes",
+      "20/100 in one eye"
+    ],
+    "correctIndex": 1,
     "explanation": "Georgia requires at least 20/60 vision in at least one eye, with or without corrective lenses, plus a horizontal field of vision of at least 140 degrees for a regular Class C license.",
     "difficulty": "easy",
-    "references": [{ "label": "Vision screening", "citation": "GA DDS Driver's Manual, Vision Requirements", "url": "https://dds.georgia.gov/dds-forms-and-manuals/manuals" }],
+    "references": [
+      {
+        "label": "Vision screening",
+        "citation": "GA DDS Driver's Manual, Vision Requirements",
+        "url": "https://dds.georgia.gov/dds-forms-and-manuals/manuals"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   }
 ]

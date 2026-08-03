@@ -2,92 +2,154 @@
   {
     "id": "tx-speed-001",
     "category": "speed-limits",
-    "stateScope": ["TX"],
+    "stateScope": [
+      "TX"
+    ],
     "prompt": "On a rural Texas interstate highway, the maximum speed limit is generally:",
-    "options": ["65 mph", "70 mph", "75 mph", "80 mph"],
-    "correctIndex": 2,
+    "options": [
+      "80 mph",
+      "75 mph",
+      "70 mph",
+      "65 mph"
+    ],
+    "correctIndex": 1,
     "explanation": "Most rural Texas interstates are posted at 75 mph, though a few posted toll roads (such as SH 130) allow up to 85 mph. Always obey the posted sign.",
     "difficulty": "medium",
-    "references": [{ "label": "Speed limits", "citation": "Texas Driver Handbook (DL-7), Speed Regulations", "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf" }],
+    "references": [
+      {
+        "label": "Speed limits",
+        "citation": "Texas Driver Handbook (DL-7), Speed Regulations",
+        "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "tx-speed-002",
     "category": "speed-limits",
-    "stateScope": ["TX"],
+    "stateScope": [
+      "TX"
+    ],
     "prompt": "In an active Texas school zone, you must slow to the posted limit (commonly 20 mph) and you are also prohibited from:",
     "options": [
-      "Using your headlights",
-      "Using a handheld cell phone",
       "Changing lanes",
-      "Playing the radio"
+      "Playing the radio",
+      "Using a handheld cell phone",
+      "Using your headlights"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "Texas law bans the use of handheld wireless devices in an active school zone, in addition to requiring you to obey the reduced speed limit (commonly 20 mph) when the zone is in effect.",
     "difficulty": "medium",
-    "references": [{ "label": "School zones", "citation": "Texas Driver Handbook (DL-7), School Zones and Distracted Driving", "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf" }],
+    "references": [
+      {
+        "label": "School zones",
+        "citation": "Texas Driver Handbook (DL-7), School Zones and Distracted Driving",
+        "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "tx-alc-001",
     "category": "alcohol-drugs",
-    "stateScope": ["TX"],
+    "stateScope": [
+      "TX"
+    ],
     "prompt": "Under Texas's zero-tolerance law, a driver under 21 can be charged with DUI for driving with:",
     "options": [
       "A BAC of 0.08% or higher",
+      "A BAC of 0.02% or higher",
       "A BAC of 0.05% or higher",
-      "Any detectable amount of alcohol in their system",
-      "A BAC of 0.02% or higher"
+      "Any detectable amount of alcohol in their system"
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "explanation": "Texas has a zero-tolerance law for minors: a driver under 21 with any detectable amount of alcohol can be charged with Driving Under the Influence by a Minor.",
     "difficulty": "medium",
-    "references": [{ "label": "Zero tolerance", "citation": "Texas Driver Handbook (DL-7), Alcohol and the Law", "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf" }],
+    "references": [
+      {
+        "label": "Zero tolerance",
+        "citation": "Texas Driver Handbook (DL-7), Alcohol and the Law",
+        "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "tx-alc-002",
     "category": "alcohol-drugs",
-    "stateScope": ["TX"],
+    "stateScope": [
+      "TX"
+    ],
     "prompt": "In Texas, a driver age 21 or older is legally considered intoxicated at a blood alcohol concentration (BAC) of:",
-    "options": ["0.05%", "0.08%", "0.10%", "0.04%"],
-    "correctIndex": 1,
+    "options": [
+      "0.08%",
+      "0.05%",
+      "0.04%",
+      "0.10%"
+    ],
+    "correctIndex": 0,
     "explanation": "The legal BAC limit for adult drivers in Texas is 0.08%. Commercial drivers are held to a stricter 0.04% limit.",
     "difficulty": "easy",
-    "references": [{ "label": "BAC limit", "citation": "Texas Driver Handbook (DL-7), Alcohol and the Law", "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf" }],
+    "references": [
+      {
+        "label": "BAC limit",
+        "citation": "Texas Driver Handbook (DL-7), Alcohol and the Law",
+        "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "tx-alc-003",
     "category": "alcohol-drugs",
-    "stateScope": ["TX"],
+    "stateScope": [
+      "TX"
+    ],
     "prompt": "While operating a commercial motor vehicle in Texas, the maximum legal BAC is:",
-    "options": ["0.08%", "0.02%", "0.04%", "0.00%"],
-    "correctIndex": 2,
+    "options": [
+      "0.02%",
+      "0.04%",
+      "0.08%",
+      "0.00%"
+    ],
+    "correctIndex": 1,
     "explanation": "Commercial drivers in Texas are considered intoxicated at a BAC of 0.04%, half the 0.08% limit that applies to non-commercial adult drivers.",
     "difficulty": "medium",
-    "references": [{ "label": "Commercial BAC", "citation": "Texas Driver Handbook (DL-7), Alcohol and the Law", "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf" }],
+    "references": [
+      {
+        "label": "Commercial BAC",
+        "citation": "Texas Driver Handbook (DL-7), Alcohol and the Law",
+        "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "tx-penalties-001",
     "category": "penalties-points",
-    "stateScope": ["TX"],
+    "stateScope": [
+      "TX"
+    ],
     "prompt": "In Texas, your driver license may be suspended as a habitual violator if you are convicted of:",
     "options": [
       "Two moving violations in a lifetime",
@@ -98,71 +160,112 @@
     "correctIndex": 1,
     "explanation": "Texas may suspend the license of a habitual violator who is convicted of four or more moving violations within a 12-month period, or seven or more within a 24-month period.",
     "difficulty": "hard",
-    "references": [{ "label": "Suspensions", "citation": "Texas Driver Handbook (DL-7), License Suspension and Revocation", "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf" }],
+    "references": [
+      {
+        "label": "Suspensions",
+        "citation": "Texas Driver Handbook (DL-7), License Suspension and Revocation",
+        "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "tx-gdl-001",
     "category": "gdl-teen",
-    "stateScope": ["TX"],
+    "stateScope": [
+      "TX"
+    ],
     "prompt": "During the first 12 months with a Texas provisional (under-18) license, you generally may not drive:",
     "options": [
       "On any highway",
+      "Without an adult in the car at any time",
       "Between midnight and 5 a.m., except for work, school, or an emergency",
-      "Faster than 45 mph",
-      "Without an adult in the car at any time"
+      "Faster than 45 mph"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "Texas GDL restrictions prohibit provisional drivers from driving between midnight and 5 a.m. during the first 12 months, unless the trip is for work, a school activity, or a medical emergency.",
     "difficulty": "medium",
-    "references": [{ "label": "Provisional restrictions", "citation": "Texas Driver Handbook (DL-7), Graduated Driver License Program", "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf" }],
+    "references": [
+      {
+        "label": "Provisional restrictions",
+        "citation": "Texas Driver Handbook (DL-7), Graduated Driver License Program",
+        "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "tx-gdl-002",
     "category": "gdl-teen",
-    "stateScope": ["TX"],
+    "stateScope": [
+      "TX"
+    ],
     "prompt": "During the first 12 months of a Texas provisional license, how many passengers under 21 (who are not family members) may you carry?",
-    "options": ["No limit", "No more than 1", "No more than 2", "No more than 3"],
-    "correctIndex": 1,
+    "options": [
+      "No more than 3",
+      "No limit",
+      "No more than 2",
+      "No more than 1"
+    ],
+    "correctIndex": 3,
     "explanation": "For the first 12 months, a Texas provisional license holder may carry no more than one passenger under 21 who is not a member of their family.",
     "difficulty": "medium",
-    "references": [{ "label": "Passenger limit", "citation": "Texas Driver Handbook (DL-7), Graduated Driver License Program", "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf" }],
+    "references": [
+      {
+        "label": "Passenger limit",
+        "citation": "Texas Driver Handbook (DL-7), Graduated Driver License Program",
+        "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 2
   },
   {
     "id": "tx-gdl-003",
     "category": "gdl-teen",
-    "stateScope": ["TX"],
+    "stateScope": [
+      "TX"
+    ],
     "prompt": "What is the minimum age to apply for a Texas learner license, and what else is required for applicants under 18?",
     "options": [
-      "14, with no other requirement",
       "15, and enrollment in a driver education course",
-      "16, with a full-time job",
-      "17, and 100 hours of practice"
+      "14, with no other requirement",
+      "17, and 100 hours of practice",
+      "16, with a full-time job"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "You may apply for a Texas learner license at 15. Applicants under 18 must be enrolled in or have completed an approved driver education course.",
     "difficulty": "easy",
-    "references": [{ "label": "Learner license", "citation": "Texas Driver Handbook (DL-7), Graduated Driver License Program", "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf" }],
+    "references": [
+      {
+        "label": "Learner license",
+        "citation": "Texas Driver Handbook (DL-7), Graduated Driver License Program",
+        "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "tx-gdl-004",
     "category": "gdl-teen",
-    "stateScope": ["TX"],
+    "stateScope": [
+      "TX"
+    ],
     "prompt": "Behind-the-wheel practice required of a Texas teen before a provisional license includes at least:",
     "options": [
       "10 hours total, none at night",
@@ -173,105 +276,162 @@
     "correctIndex": 1,
     "explanation": "Texas teens must complete at least 30 hours of supervised behind-the-wheel driving, 10 of which must be at night, as part of the driver education requirement.",
     "difficulty": "medium",
-    "references": [{ "label": "Supervised hours", "citation": "Texas Driver Handbook (DL-7), Driver Education Requirements", "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf" }],
+    "references": [
+      {
+        "label": "Supervised hours",
+        "citation": "Texas Driver Handbook (DL-7), Driver Education Requirements",
+        "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "tx-laws-001",
     "category": "traffic-laws",
-    "stateScope": ["TX"],
+    "stateScope": [
+      "TX"
+    ],
     "prompt": "Under the Texas Move Over/Slow Down law, when you approach a stopped police, emergency, tow, or TxDOT vehicle with flashing lights on a highway, you must:",
     "options": [
-      "Stop completely until it leaves",
       "Move over a lane, or if you cannot, slow to 20 mph below the posted speed limit",
+      "Stop completely until it leaves",
       "Honk to warn other drivers",
       "Maintain your current speed"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "The Texas Move Over/Slow Down law requires you to vacate the lane nearest the stopped vehicle. If you cannot move over safely, you must slow to at least 20 mph below the posted speed limit.",
     "difficulty": "medium",
-    "references": [{ "label": "Move Over law", "citation": "Texas Driver Handbook (DL-7), Move Over/Slow Down Law", "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf" }],
+    "references": [
+      {
+        "label": "Move Over law",
+        "citation": "Texas Driver Handbook (DL-7), Move Over/Slow Down Law",
+        "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 2
   },
   {
     "id": "tx-laws-002",
     "category": "traffic-laws",
-    "stateScope": ["TX"],
+    "stateScope": [
+      "TX"
+    ],
     "prompt": "Statewide in Texas, while driving it is illegal to:",
     "options": [
-      "Use any cell phone at all, even hands-free",
-      "Read, write, or send a text message (electronic messaging)",
       "Listen to music through the phone",
+      "Read, write, or send a text message (electronic messaging)",
+      "Use any cell phone at all, even hands-free",
       "Use a GPS navigation app"
     ],
     "correctIndex": 1,
     "explanation": "Texas has a statewide ban on reading, writing, or sending electronic messages (texting) while driving. Handheld use is further restricted in active school zones.",
     "difficulty": "easy",
-    "references": [{ "label": "Texting ban", "citation": "Texas Driver Handbook (DL-7), Distracted Driving", "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf" }],
+    "references": [
+      {
+        "label": "Texting ban",
+        "citation": "Texas Driver Handbook (DL-7), Distracted Driving",
+        "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "tx-penalties-002",
     "category": "penalties-points",
-    "stateScope": ["TX"],
+    "stateScope": [
+      "TX"
+    ],
     "prompt": "Refusing to give a specimen (breath or blood) when lawfully arrested for DWI in Texas results in:",
     "options": [
+      "A reduced fine",
       "No consequence",
       "An automatic license suspension under the implied consent law",
-      "A warning only",
-      "A reduced fine"
+      "A warning only"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "Under Texas's implied consent law, by driving on Texas roads you have consented to testing. Refusing a specimen after a lawful DWI arrest triggers an automatic license suspension.",
     "difficulty": "medium",
-    "references": [{ "label": "Implied consent", "citation": "Texas Driver Handbook (DL-7), Implied Consent", "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf" }],
+    "references": [
+      {
+        "label": "Implied consent",
+        "citation": "Texas Driver Handbook (DL-7), Implied Consent",
+        "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 2
   },
   {
     "id": "tx-safe-001",
     "category": "safe-driving",
-    "stateScope": ["TX"],
+    "stateScope": [
+      "TX"
+    ],
     "prompt": "On a Texas Class C knowledge test of 30 questions, how many must you answer correctly to pass?",
-    "options": ["18", "21", "24", "25"],
+    "options": [
+      "18",
+      "21",
+      "25",
+      "24"
+    ],
     "correctIndex": 1,
     "explanation": "The Texas Class C written knowledge test has 30 questions, and you must answer at least 21 correctly (70%) to pass.",
     "difficulty": "easy",
-    "references": [{ "label": "Knowledge test", "citation": "Texas Driver Handbook (DL-7), The Examination", "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf" }],
+    "references": [
+      {
+        "label": "Knowledge test",
+        "citation": "Texas Driver Handbook (DL-7), The Examination",
+        "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   },
   {
     "id": "tx-share-001",
     "category": "sharing-the-road",
-    "stateScope": ["TX"],
+    "stateScope": [
+      "TX"
+    ],
     "prompt": "When you are stopped for a school bus in Texas that is loading or unloading children with its red lights flashing, you may proceed only when:",
     "options": [
-      "The bus driver waves you on with any signal",
       "The flashing red lights are turned off and the bus begins to move, or the driver signals it is safe",
+      "You move to the far lane",
       "Three seconds have passed",
-      "You move to the far lane"
+      "The bus driver waves you on with any signal"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "In Texas you must remain stopped for a school bus with flashing red lights until the lights stop flashing, the bus starts moving, or the driver signals you to proceed.",
     "difficulty": "medium",
-    "references": [{ "label": "School buses", "citation": "Texas Driver Handbook (DL-7), School Buses", "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf" }],
+    "references": [
+      {
+        "label": "School buses",
+        "citation": "Texas Driver Handbook (DL-7), School Buses",
+        "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf"
+      }
+    ],
     "effectiveDate": "2026-07-24",
     "reviewStatus": "draft",
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
-    "lastVerified": "2026-07-24"
+    "lastVerified": "2026-07-24",
+    "contentVersion": 3
   }
 ]
