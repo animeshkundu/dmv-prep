@@ -11,14 +11,14 @@
       "url": "https://portal.ct.gov/-/media/DMV/20/29/R12.pdf",
       "contentType": "text/html",
       "status": 200,
-      "error": "extraction failed: pdftotext failed (1): Syntax Warning: May not be a PDF file (continuing anyway)\nSyntax Error (8): Illegal character <21> in hex string\nSyntax Error (10): Illegal character <6f> in hex string\nSyntax Error (12): Illegal character <74> in hex string\nSyntax Error (13): Illegal character <79> in hex string\nSyntax Error (14): Illegal character <70> in hex string\nSyntax Error (17): Illegal character <68> in hex string\nSyntax Error (18): Illegal character <74> in hex string\nSyntax Error (19): Illegal character <6d> in hex string\nSyntax Error (20): Illegal character <6c> in hex string\nSyntax Error (25): Illegal character <21> in hex string\nSyntax Error (26): Illegal character <2d> in hex string\nSyntax Error (27): Illegal character <2d> in hex string\nSyntax Error (28): Illegal character <5b> in hex string\nSyntax Error (29): Illegal character <69> in hex string\nSyntax Error (32): Illegal character <49> in hex string\nSyntax Error (36): Illegal character <5d> in hex string\nSyntax Error (39): Illegal character <68> in hex string\nSyntax Error (40): Illegal character <74> in hex string\nSyntax Error (41): Illegal character <6d> in hex string\nSyntax Error (42): Illegal character <6c> in hex string\nSyntax Error (45): Illegal character <6c> in hex string\nSyntax Error (47): Illegal character <73> in hex string\nSyntax Error (48): Illegal character <73> in hex string\nSyntax Error (49): Illegal character <3d> in hex string\nSyntax Error (50): Illegal character <22> in hex string\nSyntax Error (51): Illegal character <6c> in hex string\nSyntax Error (52): Illegal character <74> in hex string\nSyntax Error (53): Illegal character <2d> in hex string\nSyntax Error (54): Illegal character <69> in hex string\nSyntax Error (58): Illegal character <22> in hex string\nSyntax Error (60): Illegal character <6c> in hex string\nSyntax Error (62): Illegal character <6e> in hex string\nSyntax Error (63): Illegal character <67> in hex string\nSyntax Error (64): Illegal character <3d> in hex string\nSyntax Error (65): Illegal character <22> in hex string\nSyntax Error (67): Illegal character <6e> in hex string\nSyntax Error (68): Illegal character <22> in hex string\nSyntax Error (73): Illegal character <21> in hex string\nSyntax Error (74): Illegal character <5b> in hex string\nSyntax Error (76): Illegal character <6e> in hex string\nSyntax Error (78): Illegal character <69> in hex string\nSyntax Error (80): Illegal character <5d> in hex string\nSyntax Error (81): Illegal character <2d> in hex string\nSyntax Error (82): Illegal character <2d> in hex string\nSyntax Error (89): Illegal character <68> in hex string\nSyntax Error (90): Illegal character <74> in hex string\nSyntax Error (91): Illegal character <6d> in hex string\nSyntax Error (92): Illegal character <6c> in hex string\nSyntax Error (95): Illegal character <6c> in hex string\nSyntax Error (97): Illegal character <73> in hex string\nSyntax Error (98): Illegal character <73> in hex string\nSyntax Error (99): Illegal character <3d> in hex string\nSyntax Error (100): Illegal character <22> in hex string\nSyntax Error (101): Illegal character <6e> in hex string\nSyntax Error (102): Illegal character <6f> in hex string\nSyntax Error (103): Illegal character <2d> in hex string\nSyntax Error (104): Illegal character <6a> in hex string\nSyntax Error (105): Illegal character <73> in hex string\nSyntax Error (106): Illegal character <22> in hex string\nSyntax Error (108): Illegal character <6c> in hex string\nSyntax Error (110): Illegal character <6e> in hex string\nSyntax Error (111): Illegal character <67> in hex string\nSyntax Error (112): Illegal character <3d> in hex string\nSyntax Error (113): Illegal character <22> in hex string\nSyntax Error (115): Illegal character <6e> in hex string\nSyntax Error (116): Illegal character <22> in hex string\nSyntax Error (123): Illegal character <68> in hex string\nSyntax Error: Couldn't find trailer dictionary\nSyntax Error: Couldn't find trailer dictionary\nSyntax Error: Couldn't read xref table"
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
     },
     {
       "url": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf",
       "handbook": true,
-      "sha256": "c67a0adbe55ff4fdfaa6375aca70a2599284e0735cf748ac4e92b272a9281208",
       "contentType": "application/pdf",
-      "status": 200
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
     },
     {
       "url": "https://portal.ct.gov/dmv/licenses-permits-ids/take-knowledge-vision-test",
@@ -34,6 +34,5 @@
       "url": "https://www.cga.ct.gov/current/pub/chap_700.htm",
       "error": "fetch failed: fetch failed"
     }
-  ],
-  "handbookSnapshotHash": "c67a0adbe55ff4fdfaa6375aca70a2599284e0735cf748ac4e92b272a9281208"
+  ]
 }

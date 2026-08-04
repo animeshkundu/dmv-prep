@@ -16,10 +16,9 @@
     {
       "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf",
       "handbook": true,
-      "sha256": "95f209e2c5ac46815197ead7525d3a4a3a96727b3349e03514068f08c1814c71",
       "contentType": "application/pdf",
-      "status": 200
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
     }
-  ],
-  "handbookSnapshotHash": "95f209e2c5ac46815197ead7525d3a4a3a96727b3349e03514068f08c1814c71"
+  ]
 }

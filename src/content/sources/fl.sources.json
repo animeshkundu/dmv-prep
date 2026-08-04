@@ -15,16 +15,12 @@
     },
     {
       "url": "https://www.flhsmv.gov/driver-licenses-id-cards/licensing-requirements-teens-graduated-driver-license-laws-driving-curfews/class-e-knowledge-exam-driving-skills-test/",
-      "sha256": "3867865a2541cbf110504851a5268bef64b8d8081a0d54cbd17af120c23e5ecc",
-      "contentType": "text/html",
-      "status": 200
+      "error": "fetch failed: fetch failed"
     },
     {
       "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
       "handbook": true,
-      "sha256": "efc8175c404196feda29f115b1a680cddda8b8f61b24195cacb171eb4e24efa5",
-      "contentType": "application/pdf",
-      "status": 200
+      "error": "fetch failed: fetch failed"
     },
     {
       "url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0300-0399/0316/Sections/0316.066.html",
@@ -158,6 +154,5 @@
       "contentType": "text/html",
       "status": 200
     }
-  ],
-  "handbookSnapshotHash": "efc8175c404196feda29f115b1a680cddda8b8f61b24195cacb171eb4e24efa5"
+  ]
 }

@@ -53,6 +53,11 @@ export interface QuestionTemplate {
   /** From the §5.3 vocabulary, fixed before authoring. */
   tags: string[];
   requires: readonly TypedFactKey[];
+  /**
+   * Verified sibling facts that may only be read to reject an answer which is
+   * correct under a related rule in the same jurisdiction.
+   */
+  siblingFactKeys?: readonly TypedFactKey[];
   /** 'not-applicable' and 'unknown' facts are always skipped, regardless of this list. */
   supportsStatuses: FactStatusSupport[];
   /** How many distinct questions this template emits per state (its quota weight). */

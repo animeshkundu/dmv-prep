@@ -1,0 +1,46 @@
+[
+  {
+    "id": "tpl-law-seatbelt-nd-1",
+    "category": "traffic-laws",
+    "stateScope": [
+      "ND"
+    ],
+    "tags": [
+      "safe-following-scanning"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "seatBeltEnforcement",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-law-seatbelt",
+    "templateVersion": 1,
+    "prompt": "Choose the rule that applies to the seat-belt enforcement level in North Dakota.",
+    "options": [
+      "The rule applies only to front seats.",
+      "The belt rule is a primary offense.",
+      "The rule applies only to minor passengers.",
+      "The rule applies only to commercial vehicles."
+    ],
+    "correctIndex": 1,
+    "explanation": "The cited North Dakota rule sets the seat-belt enforcement level as shown in the correct answer.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "N.D.C.C. § 39-21-41.5 (Repealed by S.L. 2023, ch. 362, § 2); N.D.C.C. § 39-21-41.2 (occupant restraints)",
+        "citation": "N.D. Cent. Code §§ 39-21-41.2, 39-21-41.5 (repealed 2023)",
+        "url": "https://ndlegis.gov/cencode/t39c21.pdf"
+      }
+    ],
+    "effectiveDate": "2023-08-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  }
+]

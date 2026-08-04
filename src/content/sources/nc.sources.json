@@ -9,9 +9,7 @@
     },
     {
       "url": "https://www.iihs.org/topics/speed/speed-limit-laws",
-      "sha256": "381e82f5508e943ac29ba82b3c912cb493a4124a02c7e2ab4197e23180751b0d",
-      "contentType": "text/html",
-      "status": 200
+      "error": "fetch failed: fetch failed"
     },
     {
       "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/graduated-licensing.aspx",

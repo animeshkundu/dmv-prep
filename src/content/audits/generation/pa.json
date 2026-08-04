@@ -1,0 +1,576 @@
+{
+  "code": "PA",
+  "ledger": [],
+  "categorySummary": [
+    {
+      "category": "traffic-signals",
+      "expected": 2,
+      "actual": 0,
+      "shortfall": 2
+    },
+    {
+      "category": "right-of-way",
+      "expected": 4,
+      "actual": 0,
+      "shortfall": 4
+    },
+    {
+      "category": "parking",
+      "expected": 6,
+      "actual": 0,
+      "shortfall": 6
+    },
+    {
+      "category": "speed-limits",
+      "expected": 14,
+      "actual": 0,
+      "shortfall": 14
+    },
+    {
+      "category": "alcohol-drugs",
+      "expected": 14,
+      "actual": 0,
+      "shortfall": 14
+    },
+    {
+      "category": "traffic-laws",
+      "expected": 6,
+      "actual": 0,
+      "shortfall": 6
+    },
+    {
+      "category": "penalties-points",
+      "expected": 10,
+      "actual": 0,
+      "shortfall": 10
+    },
+    {
+      "category": "gdl-teen",
+      "expected": 14,
+      "actual": 0,
+      "shortfall": 14
+    }
+  ],
+  "shortfalls": [
+    {
+      "category": "traffic-signals",
+      "templateId": "tpl-signals-right-on-red",
+      "reason": "fact-unverified",
+      "factKey": "rightTurnOnRed",
+      "count": 2
+    },
+    {
+      "category": "right-of-way",
+      "templateId": "tpl-row-left-on-red",
+      "reason": "fact-unverified",
+      "factKey": "leftTurnOnRedFromOneWay",
+      "count": 2
+    },
+    {
+      "category": "right-of-way",
+      "templateId": "tpl-row-move-over",
+      "reason": "fact-unverified",
+      "factKey": "moveOver",
+      "count": 2
+    },
+    {
+      "category": "parking",
+      "templateId": "tpl-park-hydrant",
+      "reason": "fact-unverified",
+      "factKey": "parkFtFromHydrant",
+      "count": 2
+    },
+    {
+      "category": "parking",
+      "templateId": "tpl-park-crosswalk",
+      "reason": "fact-unverified",
+      "factKey": "parkFtFromCrosswalk",
+      "count": 1
+    },
+    {
+      "category": "parking",
+      "templateId": "tpl-park-stop-sign",
+      "reason": "fact-unverified",
+      "factKey": "parkFtFromStopSign",
+      "count": 2
+    },
+    {
+      "category": "parking",
+      "templateId": "tpl-park-railroad",
+      "reason": "fact-unverified",
+      "factKey": "parkFtFromRailroad",
+      "count": 1
+    },
+    {
+      "category": "speed-limits",
+      "templateId": "tpl-speed-rural-1",
+      "reason": "fact-unverified",
+      "factKey": "ruralInterstateMaxMph",
+      "count": 2
+    },
+    {
+      "category": "speed-limits",
+      "templateId": "tpl-speed-rural-2",
+      "reason": "fact-unverified",
+      "factKey": "ruralInterstateMaxMph",
+      "count": 2
+    },
+    {
+      "category": "speed-limits",
+      "templateId": "tpl-speed-urban-1",
+      "reason": "fact-unverified",
+      "factKey": "urbanInterstateMaxMph",
+      "count": 2
+    },
+    {
+      "category": "speed-limits",
+      "templateId": "tpl-speed-res-1",
+      "reason": "fact-unverified",
+      "factKey": "residentialDefaultMph",
+      "count": 2
+    },
+    {
+      "category": "speed-limits",
+      "templateId": "tpl-speed-school-1",
+      "reason": "fact-unverified",
+      "factKey": "schoolZoneMph",
+      "count": 2
+    },
+    {
+      "category": "speed-limits",
+      "templateId": "tpl-speed-school-2",
+      "reason": "fact-unverified",
+      "factKey": "schoolZoneMph",
+      "count": 2
+    },
+    {
+      "category": "speed-limits",
+      "templateId": "tpl-speed-basic-1",
+      "reason": "fact-unverified",
+      "factKey": "basicSpeedLaw",
+      "count": 2
+    },
+    {
+      "category": "alcohol-drugs",
+      "templateId": "tpl-dui-adult-1",
+      "reason": "fact-unverified",
+      "factKey": "bacAdult",
+      "count": 2
+    },
+    {
+      "category": "alcohol-drugs",
+      "templateId": "tpl-dui-adult-2",
+      "reason": "fact-unverified",
+      "factKey": "bacAdult",
+      "count": 2
+    },
+    {
+      "category": "alcohol-drugs",
+      "templateId": "tpl-dui-under21",
+      "reason": "fact-unverified",
+      "factKey": "bacUnder21",
+      "count": 2
+    },
+    {
+      "category": "alcohol-drugs",
+      "templateId": "tpl-dui-commercial",
+      "reason": "fact-unverified",
+      "factKey": "bacCommercial",
+      "count": 2
+    },
+    {
+      "category": "alcohol-drugs",
+      "templateId": "tpl-dui-implied",
+      "reason": "fact-unverified",
+      "factKey": "impliedConsentRefusal",
+      "count": 2
+    },
+    {
+      "category": "alcohol-drugs",
+      "templateId": "tpl-dui-open",
+      "reason": "fact-unverified",
+      "factKey": "openContainerProhibited",
+      "count": 2
+    },
+    {
+      "category": "alcohol-drugs",
+      "templateId": "tpl-dui-suspension",
+      "reason": "fact-unverified",
+      "factKey": "duiFirstSuspensionDays",
+      "count": 2
+    },
+    {
+      "category": "traffic-laws",
+      "templateId": "tpl-law-seatbelt",
+      "reason": "fact-unverified",
+      "factKey": "seatBeltEnforcement",
+      "count": 1
+    },
+    {
+      "category": "traffic-laws",
+      "templateId": "tpl-law-phone",
+      "reason": "fact-unverified",
+      "factKey": "handheldPhone",
+      "count": 1
+    },
+    {
+      "category": "traffic-laws",
+      "templateId": "tpl-law-texting",
+      "reason": "fact-unverified",
+      "factKey": "texting",
+      "count": 2
+    },
+    {
+      "category": "traffic-laws",
+      "templateId": "tpl-law-headlights",
+      "reason": "fact-unverified",
+      "factKey": "headlightsRequired",
+      "count": 2
+    },
+    {
+      "category": "penalties-points",
+      "templateId": "tpl-penalties-system",
+      "reason": "fact-unverified",
+      "factKey": "pointSystem",
+      "count": 2
+    },
+    {
+      "category": "penalties-points",
+      "templateId": "tpl-penalties-susp-1",
+      "reason": "fact-unverified",
+      "factKey": "pointSuspension",
+      "count": 2
+    },
+    {
+      "category": "penalties-points",
+      "templateId": "tpl-penalties-susp-2",
+      "reason": "fact-unverified",
+      "factKey": "pointSuspension",
+      "count": 2
+    },
+    {
+      "category": "penalties-points",
+      "templateId": "tpl-penalties-liab",
+      "reason": "fact-unverified",
+      "factKey": "minLiability",
+      "count": 2
+    },
+    {
+      "category": "penalties-points",
+      "templateId": "tpl-penalties-crash",
+      "reason": "fact-unverified",
+      "factKey": "crashReportThresholdUsd",
+      "count": 2
+    },
+    {
+      "category": "gdl-teen",
+      "templateId": "tpl-gdl-age-1",
+      "reason": "fact-unverified",
+      "factKey": "permitMinAgeMonths",
+      "count": 2
+    },
+    {
+      "category": "gdl-teen",
+      "templateId": "tpl-gdl-age-2",
+      "reason": "fact-unverified",
+      "factKey": "permitMinAgeMonths",
+      "count": 2
+    },
+    {
+      "category": "gdl-teen",
+      "templateId": "tpl-gdl-holding",
+      "reason": "fact-unverified",
+      "factKey": "permitHoldingMonths",
+      "count": 2
+    },
+    {
+      "category": "gdl-teen",
+      "templateId": "tpl-gdl-hours-tot",
+      "reason": "fact-unverified",
+      "factKey": "supervisedHoursTotal",
+      "count": 2
+    },
+    {
+      "category": "gdl-teen",
+      "templateId": "tpl-gdl-hours-night",
+      "reason": "fact-unverified",
+      "factKey": "supervisedHoursNight",
+      "count": 2
+    },
+    {
+      "category": "gdl-teen",
+      "templateId": "tpl-gdl-curfew",
+      "reason": "fact-unverified",
+      "factKey": "gdlNightCurfew",
+      "count": 2
+    },
+    {
+      "category": "gdl-teen",
+      "templateId": "tpl-gdl-passenger",
+      "reason": "fact-unverified",
+      "factKey": "gdlPassengerPhase1",
+      "count": 2
+    }
+  ],
+  "tagShortfalls": [
+    {
+      "tag": "signal-steady",
+      "templateId": "tpl-signals-right-on-red",
+      "category": "traffic-signals",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "row-left-turns",
+      "templateId": "tpl-row-left-on-red",
+      "category": "right-of-way",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "row-emergency-vehicles",
+      "templateId": "tpl-row-move-over",
+      "category": "right-of-way",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "parking-prohibited",
+      "templateId": "tpl-park-hydrant",
+      "category": "parking",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "parking-prohibited",
+      "templateId": "tpl-park-crosswalk",
+      "category": "parking",
+      "count": 1,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "parking-prohibited",
+      "templateId": "tpl-park-stop-sign",
+      "category": "parking",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "parking-prohibited",
+      "templateId": "tpl-park-railroad",
+      "category": "parking",
+      "count": 1,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "speed-posted-limits",
+      "templateId": "tpl-speed-rural-1",
+      "category": "speed-limits",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "speed-posted-limits",
+      "templateId": "tpl-speed-rural-2",
+      "category": "speed-limits",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "speed-posted-limits",
+      "templateId": "tpl-speed-urban-1",
+      "category": "speed-limits",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "speed-posted-limits",
+      "templateId": "tpl-speed-res-1",
+      "category": "speed-limits",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "speed-school-work-zones",
+      "templateId": "tpl-speed-school-1",
+      "category": "speed-limits",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "speed-school-work-zones",
+      "templateId": "tpl-speed-school-2",
+      "category": "speed-limits",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "speed-basic-law",
+      "templateId": "tpl-speed-basic-1",
+      "category": "speed-limits",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "alcohol-impairment-bac",
+      "templateId": "tpl-dui-adult-1",
+      "category": "alcohol-drugs",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "alcohol-impairment-bac",
+      "templateId": "tpl-dui-adult-2",
+      "category": "alcohol-drugs",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "alcohol-impairment-bac",
+      "templateId": "tpl-dui-under21",
+      "category": "alcohol-drugs",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "alcohol-impairment-bac",
+      "templateId": "tpl-dui-commercial",
+      "category": "alcohol-drugs",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "alcohol-implied-consent",
+      "templateId": "tpl-dui-implied",
+      "category": "alcohol-drugs",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "alcohol-implied-consent",
+      "templateId": "tpl-dui-open",
+      "category": "alcohol-drugs",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "alcohol-implied-consent",
+      "templateId": "tpl-dui-suspension",
+      "category": "alcohol-drugs",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "safe-following-scanning",
+      "templateId": "tpl-law-seatbelt",
+      "category": "traffic-laws",
+      "count": 1,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "safe-distraction-fatigue",
+      "templateId": "tpl-law-phone",
+      "category": "traffic-laws",
+      "count": 1,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "safe-distraction-fatigue",
+      "templateId": "tpl-law-texting",
+      "category": "traffic-laws",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "safe-weather-night",
+      "templateId": "tpl-law-headlights",
+      "category": "traffic-laws",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "collision-insurance-reporting",
+      "templateId": "tpl-penalties-system",
+      "category": "penalties-points",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "collision-insurance-reporting",
+      "templateId": "tpl-penalties-susp-1",
+      "category": "penalties-points",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "collision-insurance-reporting",
+      "templateId": "tpl-penalties-susp-2",
+      "category": "penalties-points",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "collision-insurance-reporting",
+      "templateId": "tpl-penalties-liab",
+      "category": "penalties-points",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "collision-insurance-reporting",
+      "templateId": "tpl-penalties-crash",
+      "category": "penalties-points",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "gdl-permit-rules",
+      "templateId": "tpl-gdl-age-1",
+      "category": "gdl-teen",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "gdl-permit-rules",
+      "templateId": "tpl-gdl-age-2",
+      "category": "gdl-teen",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "gdl-permit-rules",
+      "templateId": "tpl-gdl-holding",
+      "category": "gdl-teen",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "gdl-permit-rules",
+      "templateId": "tpl-gdl-hours-tot",
+      "category": "gdl-teen",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "gdl-permit-rules",
+      "templateId": "tpl-gdl-hours-night",
+      "category": "gdl-teen",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "gdl-to-full-license",
+      "templateId": "tpl-gdl-curfew",
+      "category": "gdl-teen",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "gdl-to-full-license",
+      "templateId": "tpl-gdl-passenger",
+      "category": "gdl-teen",
+      "count": 2,
+      "reason": "fact-unverified"
+    }
+  ]
+}

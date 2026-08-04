@@ -15,9 +15,9 @@
     {
       "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
       "handbook": true,
-      "sha256": "b5be6ae6ce1b251969b4d6f2afc5558a11ff013f13a7e86c9cdd0f0e872d95ef",
       "contentType": "application/pdf",
-      "status": 200
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
     },
     {
       "url": "https://mutcd.fhwa.dot.gov/",
@@ -67,6 +67,5 @@
       "contentType": "text/html",
       "status": 200
     }
-  ],
-  "handbookSnapshotHash": "b5be6ae6ce1b251969b4d6f2afc5558a11ff013f13a7e86c9cdd0f0e872d95ef"
+  ]
 }

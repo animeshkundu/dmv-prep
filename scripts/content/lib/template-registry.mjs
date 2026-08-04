@@ -4,7 +4,8 @@
  * TypeScript at build order step 7; this module only knows how to find them
  * and check the shape/rules the spec requires before any generation runs.
  */
-import { existsSync } from 'node:fs';
+import { createHash } from 'node:crypto';
+import { existsSync, readFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -13,6 +14,17 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..', '..', '..');
 
 export const REGISTRY_PATH = join(ROOT, 'src/content/templates/registry.ts');
+const TEMPLATE_SOURCE_PATH = join(ROOT, 'src/content/templates/t2-templates.ts');
+const LATTICE_SOURCE_PATH = join(ROOT, 'scripts/content/lib/lattices.mjs');
+
+/** Hash the files that define template closures and their allowed distractors. */
+export function templateSourceBundleHash() {
+  return createHash('sha256')
+    .update(readFileSync(TEMPLATE_SOURCE_PATH))
+    .update('\0')
+    .update(readFileSync(LATTICE_SOURCE_PATH))
+    .digest('hex');
+}
 
 /**
  * Dynamically imports `src/content/templates/registry.ts`. Node's built-in
@@ -23,13 +35,66 @@ export const REGISTRY_PATH = join(ROOT, 'src/content/templates/registry.ts');
  * the registry file itself doesn't exist, so callers can produce a precise,
  * honest error instead of an opaque module-resolution stack trace.
  */
-export async function loadTemplateRegistry() {
-  if (!existsSync(REGISTRY_PATH)) {
+export async function loadTemplateRegistry({ registryPath = REGISTRY_PATH } = {}) {
+  if (!existsSync(registryPath)) {
     return { templates: [], missing: true };
   }
-  const mod = await import(REGISTRY_PATH);
+  const mod = await import(registryPath);
   const templates = Array.isArray(mod.TEMPLATES) ? mod.TEMPLATES : [];
   return { templates, missing: false };
+}
+
+function callbackSource(callback) {
+  return typeof callback === 'function' ? Function.prototype.toString.call(callback) : null;
+}
+
+/**
+ * Hash every content-bearing template field, including callback source, so an
+ * approved `id@version` cannot silently authorize modified wording or options.
+ * This deliberately excludes no semantic fields: a template change requires a
+ * new audit entry (and normally a version bump) before it can emit questions.
+ */
+export function templateContentHash(template) {
+  const payload = {
+    id: template?.id ?? null,
+    version: template?.version ?? null,
+    category: template?.category ?? null,
+    tags: template?.tags ?? null,
+    requires: template?.requires ?? null,
+    siblingFactKeys: template?.siblingFactKeys ?? null,
+    supportsStatuses: template?.supportsStatuses ?? null,
+    instancesPerState: template?.instancesPerState ?? null,
+    difficulty: template?.difficulty ?? null,
+    claims: template?.claims ?? null,
+    appliesTo: callbackSource(template?.appliesTo),
+    prompts: Array.isArray(template?.prompts) ? template.prompts.map(callbackSource) : null,
+    correct: callbackSource(template?.correct),
+    distractorPool: callbackSource(template?.distractorPool),
+    explanations: Array.isArray(template?.explanations)
+      ? template.explanations.map(callbackSource)
+      : null,
+  };
+  return createHash('sha256').update(JSON.stringify(payload), 'utf8').digest('hex');
+}
+
+/** Return every missing or stale verification entry for the supplied registry. */
+export function templateVerificationErrors(templates, confirmedTemplateHashes) {
+  const errors = [];
+  for (const template of templates) {
+    const key = `${template.id}@${template.version}`;
+    const expectedHash = confirmedTemplateHashes.get(key);
+    if (!expectedHash) {
+      errors.push(`${key} has no confirmed verification-ledger entry`);
+      continue;
+    }
+    const actualHash = templateContentHash(template);
+    if (expectedHash !== actualHash) {
+      errors.push(
+        `${key} verification-ledger hash is stale (expected ${actualHash}, found ${expectedHash})`,
+      );
+    }
+  }
+  return errors;
 }
 
 /**

@@ -102,10 +102,9 @@
     {
       "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf",
       "handbook": true,
-      "sha256": "02cbb6545fe293b4b2a3b70ed2fa1d00aebd210e6062911fc73f7fbe555d2987",
       "contentType": "application/pdf",
-      "status": 200
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
     }
-  ],
-  "handbookSnapshotHash": "02cbb6545fe293b4b2a3b70ed2fa1d00aebd210e6062911fc73f7fbe555d2987"
+  ]
 }

@@ -1,0 +1,527 @@
+{
+  "code": "NM",
+  "ledger": [
+    {
+      "questionId": "tpl-row-move-over-nm-1",
+      "templateId": "tpl-row-move-over",
+      "templateVersion": 1,
+      "inputFactHash": "c1fc7fc659336cfa3ddf0edf18d453b6ebd5580036afa40dde39600e3efd7a82"
+    },
+    {
+      "questionId": "tpl-row-move-over-nm-2",
+      "templateId": "tpl-row-move-over",
+      "templateVersion": 1,
+      "inputFactHash": "c1fc7fc659336cfa3ddf0edf18d453b6ebd5580036afa40dde39600e3efd7a82"
+    },
+    {
+      "questionId": "tpl-speed-rural-1-nm-1",
+      "templateId": "tpl-speed-rural-1",
+      "templateVersion": 1,
+      "inputFactHash": "4610a158233301c691079f242e7e3c1b0257b7457ecb4c15a350ae5608b08b0a"
+    },
+    {
+      "questionId": "tpl-speed-rural-1-nm-2",
+      "templateId": "tpl-speed-rural-1",
+      "templateVersion": 1,
+      "inputFactHash": "4610a158233301c691079f242e7e3c1b0257b7457ecb4c15a350ae5608b08b0a"
+    },
+    {
+      "questionId": "tpl-speed-rural-2-nm-1",
+      "templateId": "tpl-speed-rural-2",
+      "templateVersion": 1,
+      "inputFactHash": "4610a158233301c691079f242e7e3c1b0257b7457ecb4c15a350ae5608b08b0a"
+    },
+    {
+      "questionId": "tpl-speed-rural-2-nm-2",
+      "templateId": "tpl-speed-rural-2",
+      "templateVersion": 1,
+      "inputFactHash": "4610a158233301c691079f242e7e3c1b0257b7457ecb4c15a350ae5608b08b0a"
+    },
+    {
+      "questionId": "tpl-speed-res-1-nm-1",
+      "templateId": "tpl-speed-res-1",
+      "templateVersion": 1,
+      "inputFactHash": "4610a158233301c691079f242e7e3c1b0257b7457ecb4c15a350ae5608b08b0a"
+    },
+    {
+      "questionId": "tpl-speed-res-1-nm-2",
+      "templateId": "tpl-speed-res-1",
+      "templateVersion": 1,
+      "inputFactHash": "4610a158233301c691079f242e7e3c1b0257b7457ecb4c15a350ae5608b08b0a"
+    },
+    {
+      "questionId": "tpl-speed-basic-1-nm-1",
+      "templateId": "tpl-speed-basic-1",
+      "templateVersion": 1,
+      "inputFactHash": "0180b7a9e1af597dfc9c0d52a71fe05e69c3e8772812a1ad1d180d2395194464"
+    },
+    {
+      "questionId": "tpl-speed-basic-1-nm-2",
+      "templateId": "tpl-speed-basic-1",
+      "templateVersion": 1,
+      "inputFactHash": "0180b7a9e1af597dfc9c0d52a71fe05e69c3e8772812a1ad1d180d2395194464"
+    },
+    {
+      "questionId": "tpl-dui-under21-nm-1",
+      "templateId": "tpl-dui-under21",
+      "templateVersion": 1,
+      "inputFactHash": "806531ffea5221deca353b4ed6773286ab3d62abec38e9ee9a4e753a46ccfacb"
+    },
+    {
+      "questionId": "tpl-dui-under21-nm-2",
+      "templateId": "tpl-dui-under21",
+      "templateVersion": 1,
+      "inputFactHash": "806531ffea5221deca353b4ed6773286ab3d62abec38e9ee9a4e753a46ccfacb"
+    },
+    {
+      "questionId": "tpl-dui-implied-nm-1",
+      "templateId": "tpl-dui-implied",
+      "templateVersion": 1,
+      "inputFactHash": "153b21c1ac406d407a7d558aff3861b75f12c55da856569ed566ec65cbbc837d"
+    },
+    {
+      "questionId": "tpl-dui-implied-nm-2",
+      "templateId": "tpl-dui-implied",
+      "templateVersion": 1,
+      "inputFactHash": "153b21c1ac406d407a7d558aff3861b75f12c55da856569ed566ec65cbbc837d"
+    },
+    {
+      "questionId": "tpl-dui-suspension-nm-1",
+      "templateId": "tpl-dui-suspension",
+      "templateVersion": 1,
+      "inputFactHash": "c29ce91c16e82ee52a7be63f8f565b3fa4577f57a65523036017ce4b431af40f"
+    },
+    {
+      "questionId": "tpl-dui-suspension-nm-2",
+      "templateId": "tpl-dui-suspension",
+      "templateVersion": 1,
+      "inputFactHash": "c29ce91c16e82ee52a7be63f8f565b3fa4577f57a65523036017ce4b431af40f"
+    },
+    {
+      "questionId": "tpl-law-seatbelt-nm-1",
+      "templateId": "tpl-law-seatbelt",
+      "templateVersion": 1,
+      "inputFactHash": "35b4f3056466f4d49068a28dc17e6b2e0c822c55e6ba69fc2e1222da71e3032e"
+    },
+    {
+      "questionId": "tpl-law-texting-nm-1",
+      "templateId": "tpl-law-texting",
+      "templateVersion": 1,
+      "inputFactHash": "32e6d80c9664e8db9de4c5e69da2aed9bbaf7a1e2cb4af1168475ea731e081a9"
+    },
+    {
+      "questionId": "tpl-law-texting-nm-2",
+      "templateId": "tpl-law-texting",
+      "templateVersion": 1,
+      "inputFactHash": "32e6d80c9664e8db9de4c5e69da2aed9bbaf7a1e2cb4af1168475ea731e081a9"
+    },
+    {
+      "questionId": "tpl-law-headlights-nm-1",
+      "templateId": "tpl-law-headlights",
+      "templateVersion": 1,
+      "inputFactHash": "5c2aca06bf0f3b000f915e74689de9238745975f585dca76494c20782f2a647d"
+    },
+    {
+      "questionId": "tpl-law-headlights-nm-2",
+      "templateId": "tpl-law-headlights",
+      "templateVersion": 1,
+      "inputFactHash": "5c2aca06bf0f3b000f915e74689de9238745975f585dca76494c20782f2a647d"
+    },
+    {
+      "questionId": "tpl-penalties-system-nm-1",
+      "templateId": "tpl-penalties-system",
+      "templateVersion": 1,
+      "inputFactHash": "472d04a9defae496a17b9ecbfb093800aee56ae404977d14fea37cb84a61ed0b"
+    },
+    {
+      "questionId": "tpl-penalties-system-nm-2",
+      "templateId": "tpl-penalties-system",
+      "templateVersion": 1,
+      "inputFactHash": "472d04a9defae496a17b9ecbfb093800aee56ae404977d14fea37cb84a61ed0b"
+    },
+    {
+      "questionId": "tpl-penalties-susp-1-nm-1",
+      "templateId": "tpl-penalties-susp-1",
+      "templateVersion": 1,
+      "inputFactHash": "67c20b0c5fcc90ba32a9ccd63cdb78d3408e1e48379e7c17f2e628afc6ce1f9f"
+    },
+    {
+      "questionId": "tpl-penalties-susp-1-nm-2",
+      "templateId": "tpl-penalties-susp-1",
+      "templateVersion": 1,
+      "inputFactHash": "67c20b0c5fcc90ba32a9ccd63cdb78d3408e1e48379e7c17f2e628afc6ce1f9f"
+    },
+    {
+      "questionId": "tpl-penalties-susp-2-nm-1",
+      "templateId": "tpl-penalties-susp-2",
+      "templateVersion": 1,
+      "inputFactHash": "67c20b0c5fcc90ba32a9ccd63cdb78d3408e1e48379e7c17f2e628afc6ce1f9f"
+    },
+    {
+      "questionId": "tpl-penalties-susp-2-nm-2",
+      "templateId": "tpl-penalties-susp-2",
+      "templateVersion": 1,
+      "inputFactHash": "67c20b0c5fcc90ba32a9ccd63cdb78d3408e1e48379e7c17f2e628afc6ce1f9f"
+    },
+    {
+      "questionId": "tpl-gdl-age-1-nm-1",
+      "templateId": "tpl-gdl-age-1",
+      "templateVersion": 1,
+      "inputFactHash": "114d4897455432f595866a2097cc8f2aadf79f98d84ee309a553e51bc69be21e"
+    },
+    {
+      "questionId": "tpl-gdl-age-1-nm-2",
+      "templateId": "tpl-gdl-age-1",
+      "templateVersion": 1,
+      "inputFactHash": "114d4897455432f595866a2097cc8f2aadf79f98d84ee309a553e51bc69be21e"
+    },
+    {
+      "questionId": "tpl-gdl-age-2-nm-1",
+      "templateId": "tpl-gdl-age-2",
+      "templateVersion": 1,
+      "inputFactHash": "114d4897455432f595866a2097cc8f2aadf79f98d84ee309a553e51bc69be21e"
+    },
+    {
+      "questionId": "tpl-gdl-age-2-nm-2",
+      "templateId": "tpl-gdl-age-2",
+      "templateVersion": 1,
+      "inputFactHash": "114d4897455432f595866a2097cc8f2aadf79f98d84ee309a553e51bc69be21e"
+    },
+    {
+      "questionId": "tpl-gdl-holding-nm-1",
+      "templateId": "tpl-gdl-holding",
+      "templateVersion": 1,
+      "inputFactHash": "0ee15602d04493d84195771ca41ad782c27c5379297ccd51de44e0adc81f8010"
+    },
+    {
+      "questionId": "tpl-gdl-holding-nm-2",
+      "templateId": "tpl-gdl-holding",
+      "templateVersion": 1,
+      "inputFactHash": "0ee15602d04493d84195771ca41ad782c27c5379297ccd51de44e0adc81f8010"
+    },
+    {
+      "questionId": "tpl-gdl-hours-tot-nm-1",
+      "templateId": "tpl-gdl-hours-tot",
+      "templateVersion": 1,
+      "inputFactHash": "229d2639817da9dd51216030c45442dc81b9b79ca8cb43a8fc71030dbc2c07bf"
+    },
+    {
+      "questionId": "tpl-gdl-hours-tot-nm-2",
+      "templateId": "tpl-gdl-hours-tot",
+      "templateVersion": 1,
+      "inputFactHash": "229d2639817da9dd51216030c45442dc81b9b79ca8cb43a8fc71030dbc2c07bf"
+    },
+    {
+      "questionId": "tpl-gdl-hours-night-nm-1",
+      "templateId": "tpl-gdl-hours-night",
+      "templateVersion": 1,
+      "inputFactHash": "98ea475f1c177776340801dc389d203b83e9a277f1078eedcf51259ac372f11d"
+    },
+    {
+      "questionId": "tpl-gdl-hours-night-nm-2",
+      "templateId": "tpl-gdl-hours-night",
+      "templateVersion": 1,
+      "inputFactHash": "98ea475f1c177776340801dc389d203b83e9a277f1078eedcf51259ac372f11d"
+    },
+    {
+      "questionId": "tpl-gdl-curfew-nm-1",
+      "templateId": "tpl-gdl-curfew",
+      "templateVersion": 1,
+      "inputFactHash": "c1925435b925733a8e5dc7cec89fc4324a66e482af5ac2bf5cc7ed55a1ef1c61"
+    },
+    {
+      "questionId": "tpl-gdl-curfew-nm-2",
+      "templateId": "tpl-gdl-curfew",
+      "templateVersion": 1,
+      "inputFactHash": "c1925435b925733a8e5dc7cec89fc4324a66e482af5ac2bf5cc7ed55a1ef1c61"
+    },
+    {
+      "questionId": "tpl-gdl-passenger-nm-1",
+      "templateId": "tpl-gdl-passenger",
+      "templateVersion": 1,
+      "inputFactHash": "e7a86b655da9c9966657397f4aee70e8c938393096e0cd9f5c221878ac78844f"
+    },
+    {
+      "questionId": "tpl-gdl-passenger-nm-2",
+      "templateId": "tpl-gdl-passenger",
+      "templateVersion": 1,
+      "inputFactHash": "e7a86b655da9c9966657397f4aee70e8c938393096e0cd9f5c221878ac78844f"
+    }
+  ],
+  "categorySummary": [
+    {
+      "category": "traffic-signals",
+      "expected": 2,
+      "actual": 0,
+      "shortfall": 2
+    },
+    {
+      "category": "right-of-way",
+      "expected": 4,
+      "actual": 2,
+      "shortfall": 2
+    },
+    {
+      "category": "parking",
+      "expected": 6,
+      "actual": 0,
+      "shortfall": 6
+    },
+    {
+      "category": "speed-limits",
+      "expected": 14,
+      "actual": 8,
+      "shortfall": 6
+    },
+    {
+      "category": "alcohol-drugs",
+      "expected": 14,
+      "actual": 6,
+      "shortfall": 8
+    },
+    {
+      "category": "traffic-laws",
+      "expected": 6,
+      "actual": 5,
+      "shortfall": 1
+    },
+    {
+      "category": "penalties-points",
+      "expected": 10,
+      "actual": 6,
+      "shortfall": 4
+    },
+    {
+      "category": "gdl-teen",
+      "expected": 14,
+      "actual": 14,
+      "shortfall": 0
+    }
+  ],
+  "shortfalls": [
+    {
+      "category": "traffic-signals",
+      "templateId": "tpl-signals-right-on-red",
+      "reason": "fact-unverified",
+      "factKey": "rightTurnOnRed",
+      "count": 2
+    },
+    {
+      "category": "right-of-way",
+      "templateId": "tpl-row-left-on-red",
+      "reason": "fact-unverified",
+      "factKey": "leftTurnOnRedFromOneWay",
+      "count": 2
+    },
+    {
+      "category": "parking",
+      "templateId": "tpl-park-hydrant",
+      "reason": "fact-unverified",
+      "factKey": "parkFtFromHydrant",
+      "count": 2
+    },
+    {
+      "category": "parking",
+      "templateId": "tpl-park-crosswalk",
+      "reason": "fact-unverified",
+      "factKey": "parkFtFromCrosswalk",
+      "count": 1
+    },
+    {
+      "category": "parking",
+      "templateId": "tpl-park-stop-sign",
+      "reason": "fact-unverified",
+      "factKey": "parkFtFromStopSign",
+      "count": 2
+    },
+    {
+      "category": "parking",
+      "templateId": "tpl-park-railroad",
+      "reason": "fact-unverified",
+      "factKey": "parkFtFromRailroad",
+      "count": 1
+    },
+    {
+      "category": "speed-limits",
+      "templateId": "tpl-speed-urban-1",
+      "reason": "fact-unverified",
+      "factKey": "urbanInterstateMaxMph",
+      "count": 2
+    },
+    {
+      "category": "speed-limits",
+      "templateId": "tpl-speed-school-1",
+      "reason": "insufficient-distractor-pool",
+      "count": 2
+    },
+    {
+      "category": "speed-limits",
+      "templateId": "tpl-speed-school-2",
+      "reason": "insufficient-distractor-pool",
+      "count": 2
+    },
+    {
+      "category": "alcohol-drugs",
+      "templateId": "tpl-dui-adult-1",
+      "reason": "fact-unverified",
+      "factKey": "bacAdult",
+      "count": 2
+    },
+    {
+      "category": "alcohol-drugs",
+      "templateId": "tpl-dui-adult-2",
+      "reason": "fact-unverified",
+      "factKey": "bacAdult",
+      "count": 2
+    },
+    {
+      "category": "alcohol-drugs",
+      "templateId": "tpl-dui-commercial",
+      "reason": "fact-unverified",
+      "factKey": "bacCommercial",
+      "count": 2
+    },
+    {
+      "category": "alcohol-drugs",
+      "templateId": "tpl-dui-open",
+      "reason": "fact-unverified",
+      "factKey": "openContainerProhibited",
+      "count": 2
+    },
+    {
+      "category": "traffic-laws",
+      "templateId": "tpl-law-phone",
+      "reason": "fact-unverified",
+      "factKey": "handheldPhone",
+      "count": 1
+    },
+    {
+      "category": "penalties-points",
+      "templateId": "tpl-penalties-liab",
+      "reason": "fact-unverified",
+      "factKey": "minLiability",
+      "count": 2
+    },
+    {
+      "category": "penalties-points",
+      "templateId": "tpl-penalties-crash",
+      "reason": "fact-unverified",
+      "factKey": "crashReportThresholdUsd",
+      "count": 2
+    }
+  ],
+  "tagShortfalls": [
+    {
+      "tag": "signal-steady",
+      "templateId": "tpl-signals-right-on-red",
+      "category": "traffic-signals",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "row-left-turns",
+      "templateId": "tpl-row-left-on-red",
+      "category": "right-of-way",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "parking-prohibited",
+      "templateId": "tpl-park-hydrant",
+      "category": "parking",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "parking-prohibited",
+      "templateId": "tpl-park-crosswalk",
+      "category": "parking",
+      "count": 1,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "parking-prohibited",
+      "templateId": "tpl-park-stop-sign",
+      "category": "parking",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "parking-prohibited",
+      "templateId": "tpl-park-railroad",
+      "category": "parking",
+      "count": 1,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "speed-posted-limits",
+      "templateId": "tpl-speed-urban-1",
+      "category": "speed-limits",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "speed-school-work-zones",
+      "templateId": "tpl-speed-school-1",
+      "category": "speed-limits",
+      "count": 2,
+      "reason": "insufficient-distractor-pool"
+    },
+    {
+      "tag": "speed-school-work-zones",
+      "templateId": "tpl-speed-school-2",
+      "category": "speed-limits",
+      "count": 2,
+      "reason": "insufficient-distractor-pool"
+    },
+    {
+      "tag": "alcohol-impairment-bac",
+      "templateId": "tpl-dui-adult-1",
+      "category": "alcohol-drugs",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "alcohol-impairment-bac",
+      "templateId": "tpl-dui-adult-2",
+      "category": "alcohol-drugs",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "alcohol-impairment-bac",
+      "templateId": "tpl-dui-commercial",
+      "category": "alcohol-drugs",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "alcohol-implied-consent",
+      "templateId": "tpl-dui-open",
+      "category": "alcohol-drugs",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "safe-distraction-fatigue",
+      "templateId": "tpl-law-phone",
+      "category": "traffic-laws",
+      "count": 1,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "collision-insurance-reporting",
+      "templateId": "tpl-penalties-liab",
+      "category": "penalties-points",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "collision-insurance-reporting",
+      "templateId": "tpl-penalties-crash",
+      "category": "penalties-points",
+      "count": 2,
+      "reason": "fact-unverified"
+    }
+  ]
+}

@@ -9,9 +9,9 @@
     {
       "url": "https://hidot.hawaii.gov/highways/files/2021/11/ENGLISH-Original-Hawaii-Drivers-Manual.pdf",
       "handbook": true,
-      "sha256": "3ade21e8271fdfc19d801f664e218c4f89133a59cacb8446b30ad12ed8347390",
       "contentType": "application/pdf",
-      "status": 200
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
     },
     {
       "url": "https://hidot.hawaii.gov/highways/library/motor-vehicle-safety-office/english-original-hawaii-drivers-manual/",
@@ -27,13 +27,11 @@
     },
     {
       "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol09_Ch0431-0435H/HRS0431/HRS_0431-0010C-0301.htm",
-      "status": 403,
-      "error": "HTTP 403"
+      "error": "fetch failed: fetch failed"
     },
     {
       "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol14_Ch0701-0853/HRS0291/HRS_0291-0003_0003.htm",
-      "status": 403,
-      "error": "HTTP 403"
+      "error": "fetch failed: fetch failed"
     },
     {
       "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol14_Ch0701-0853/HRS0291/HRS_0291-0011_0006.htm",
@@ -82,8 +80,7 @@
     },
     {
       "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol14_Ch0701-0853/HRS0291C/HRS_0291C-0137.htm",
-      "status": 403,
-      "error": "HTTP 403"
+      "error": "fetch failed: fetch failed"
     },
     {
       "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol14_Ch0701-0853/HRS0291E/HRS_0291E-0041.htm",
@@ -112,21 +109,15 @@
     },
     {
       "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table",
-      "sha256": "a4c2b59b06107a409c1a69df93e9cbf431e5b4e2e5c179d6b93528e8b768f3b5",
-      "contentType": "text/html",
-      "status": 200
+      "error": "fetch failed: fetch failed"
     },
     {
       "url": "https://www.iihs.org/topics/speed/speed-limit-laws-table",
-      "status": 404,
-      "error": "HTTP 404"
+      "error": "fetch failed: fetch failed"
     },
     {
       "url": "https://www.iihs.org/topics/teenagers/graduated-licensing-laws-table",
-      "sha256": "a4c2b59b06107a409c1a69df93e9cbf431e5b4e2e5c179d6b93528e8b768f3b5",
-      "contentType": "text/html",
-      "status": 200
+      "error": "fetch failed: fetch failed"
     }
-  ],
-  "handbookSnapshotHash": "3ade21e8271fdfc19d801f664e218c4f89133a59cacb8446b30ad12ed8347390"
+  ]
 }

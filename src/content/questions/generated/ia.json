@@ -1,0 +1,134 @@
+[
+  {
+    "id": "tpl-law-phone-ia-1",
+    "category": "traffic-laws",
+    "stateScope": [
+      "IA"
+    ],
+    "tags": [
+      "safe-distraction-fatigue"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "handheldPhone",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-law-phone",
+    "templateVersion": 1,
+    "prompt": "In Iowa, which statement correctly describes the handheld-phone policy?",
+    "options": [
+      "Drivers: phone holding is allowed.",
+      "School-zone: phone holding is barred.",
+      "New drivers: phone holding is barred.",
+      "All drivers: phone holding is barred."
+    ],
+    "correctIndex": 3,
+    "explanation": "Use the official Iowa citation on this question when checking the handheld-phone policy.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Iowa Code §321.276 and Iowa DPS implementation notice",
+        "citation": "Iowa Code §321.276; SF 22 (2025 Acts ch. 14), effective July 1, 2025",
+        "url": "https://dps.iowa.gov/press-release/2025-06-25/hands-free-its-law"
+      }
+    ],
+    "effectiveDate": "2025-07-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-law-texting-ia-1",
+    "category": "traffic-laws",
+    "stateScope": [
+      "IA"
+    ],
+    "tags": [
+      "safe-distraction-fatigue"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "texting",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-law-texting",
+    "templateVersion": 1,
+    "prompt": "A Iowa driver is reviewing the manual-texting policy. Select the accurate answer.",
+    "options": [
+      "Drivers: manual texting is allowed.",
+      "Truck drivers: manual texting is barred.",
+      "New drivers: manual texting is barred.",
+      "All drivers: manual texting is barred."
+    ],
+    "correctIndex": 3,
+    "explanation": "This answer follows the verified texting record for Iowa; conditions in that record still apply.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Iowa Code §321.276 and Iowa DPS implementation notice",
+        "citation": "Iowa Code §321.276; SF 22 (2025 Acts ch. 14), effective July 1, 2025",
+        "url": "https://dps.iowa.gov/press-release/2025-06-25/hands-free-its-law"
+      }
+    ],
+    "effectiveDate": "2025-07-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-law-texting-ia-2",
+    "category": "traffic-laws",
+    "stateScope": [
+      "IA"
+    ],
+    "tags": [
+      "safe-distraction-fatigue"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "texting",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-law-texting",
+    "templateVersion": 1,
+    "prompt": "Choose the rule that applies to the manual-texting policy in Iowa.",
+    "options": [
+      "All drivers: manual texting is barred.",
+      "New drivers: manual texting is barred.",
+      "Emergency texts: manual use is allowed.",
+      "Truck drivers: manual texting is barred."
+    ],
+    "correctIndex": 0,
+    "explanation": "This answer follows the verified texting record for Iowa; conditions in that record still apply.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Iowa Code §321.276 and Iowa DPS implementation notice",
+        "citation": "Iowa Code §321.276; SF 22 (2025 Acts ch. 14), effective July 1, 2025",
+        "url": "https://dps.iowa.gov/press-release/2025-06-25/hands-free-its-law"
+      }
+    ],
+    "effectiveDate": "2025-07-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  }
+]

@@ -1,0 +1,222 @@
+[
+  {
+    "id": "tpl-law-phone-sc-1",
+    "category": "traffic-laws",
+    "stateScope": [
+      "SC"
+    ],
+    "tags": [
+      "safe-distraction-fatigue"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "handheldPhone",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-law-phone",
+    "templateVersion": 1,
+    "prompt": "In South Carolina, which statement correctly describes the handheld-phone policy?",
+    "options": [
+      "Emergency use: phone holding is allowed.",
+      "All drivers: phone holding is barred.",
+      "New drivers: phone holding is barred.",
+      "Drivers: phone holding is allowed."
+    ],
+    "correctIndex": 1,
+    "explanation": "This answer follows the verified handheldPhone record for South Carolina; conditions in that record still apply.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "South Carolina Code",
+        "citation": "S.C. Code §56-5-3890",
+        "url": "https://www.scstatehouse.gov/code/t56c005.php"
+      }
+    ],
+    "effectiveDate": "2025-09-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-law-texting-sc-1",
+    "category": "traffic-laws",
+    "stateScope": [
+      "SC"
+    ],
+    "tags": [
+      "safe-distraction-fatigue"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "texting",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-law-texting",
+    "templateVersion": 1,
+    "prompt": "A South Carolina driver is reviewing the manual-texting policy. Select the accurate answer.",
+    "options": [
+      "Drivers: manual texting is allowed.",
+      "New drivers: manual texting is barred.",
+      "All drivers: manual texting is barred.",
+      "Truck drivers: manual texting is barred."
+    ],
+    "correctIndex": 2,
+    "explanation": "Use the official South Carolina citation on this question when checking the manual-texting policy.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "South Carolina Code",
+        "citation": "S.C. Code §56-5-3890",
+        "url": "https://www.scstatehouse.gov/code/t56c005.php"
+      }
+    ],
+    "effectiveDate": "2025-09-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-law-texting-sc-2",
+    "category": "traffic-laws",
+    "stateScope": [
+      "SC"
+    ],
+    "tags": [
+      "safe-distraction-fatigue"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "texting",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-law-texting",
+    "templateVersion": 1,
+    "prompt": "Choose the rule that applies to the manual-texting policy in South Carolina.",
+    "options": [
+      "School-zone: manual texting is barred.",
+      "Emergency texts: manual use is allowed.",
+      "All drivers: manual texting is barred.",
+      "Drivers: manual texting is allowed."
+    ],
+    "correctIndex": 2,
+    "explanation": "Use the official South Carolina citation on this question when checking the manual-texting policy.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "South Carolina Code",
+        "citation": "S.C. Code §56-5-3890",
+        "url": "https://www.scstatehouse.gov/code/t56c005.php"
+      }
+    ],
+    "effectiveDate": "2025-09-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-penalties-liab-sc-1",
+    "category": "penalties-points",
+    "stateScope": [
+      "SC"
+    ],
+    "tags": [
+      "collision-insurance-reporting"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "minLiability",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-penalties-liab",
+    "templateVersion": 1,
+    "prompt": "A South Carolina driver is reviewing the minimum liability coverage per person / crash / property. Select the accurate answer.",
+    "options": [
+      "$ 25,000 / $ 50,000 / $ 25,000",
+      "$ 35,000 / $ 70,000 / $ 25,000",
+      "$ 50,000 / $100,000 / $ 50,000",
+      "$100,000 / $300,000 / $100,000"
+    ],
+    "correctIndex": 0,
+    "explanation": "Use the official South Carolina citation on this question when checking the minimum liability coverage per person / crash / property.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "South Carolina Code",
+        "citation": "S.C. Code §38-77-140",
+        "url": "https://www.scstatehouse.gov/code/t38c077.php"
+      }
+    ],
+    "effectiveDate": "2014-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-penalties-liab-sc-2",
+    "category": "penalties-points",
+    "stateScope": [
+      "SC"
+    ],
+    "tags": [
+      "collision-insurance-reporting"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "minLiability",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-penalties-liab",
+    "templateVersion": 1,
+    "prompt": "Choose the rule that applies to the minimum liability coverage per person / crash / property in South Carolina.",
+    "options": [
+      "$ 35,000 / $ 70,000 / $ 25,000",
+      "$100,000 / $300,000 / $100,000",
+      "$ 15,000 / $ 30,000 / $  5,000",
+      "$ 25,000 / $ 50,000 / $ 25,000"
+    ],
+    "correctIndex": 3,
+    "explanation": "This answer follows the verified minLiability record for South Carolina; conditions in that record still apply.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "South Carolina Code",
+        "citation": "S.C. Code §38-77-140",
+        "url": "https://www.scstatehouse.gov/code/t38c077.php"
+      }
+    ],
+    "effectiveDate": "2014-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  }
+]

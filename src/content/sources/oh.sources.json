@@ -4,9 +4,9 @@
     {
       "url": "https://dam.assets.ohio.gov/image/upload/publicsafety.ohio.gov/hsy7607.pdf",
       "handbook": true,
-      "sha256": "65cdbbd8f04a3604ec0002c99a8a5db89f663f38533f311e04dd1dc5c6c30578",
       "contentType": "application/pdf",
-      "status": 200
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
     },
     {
       "url": "https://mutcd.fhwa.dot.gov/",
@@ -26,6 +26,5 @@
       "contentType": "text/html",
       "status": 200
     }
-  ],
-  "handbookSnapshotHash": "65cdbbd8f04a3604ec0002c99a8a5db89f663f38533f311e04dd1dc5c6c30578"
+  ]
 }

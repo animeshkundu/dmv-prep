@@ -26,7 +26,12 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { loadAllStates, loadVerifyAudits, repoPath } from './lib/content-io.mjs';
-import { loadTemplateRegistry, validateTemplateRegistry } from './lib/template-registry.mjs';
+import {
+  loadTemplateRegistry,
+  templateVerificationErrors,
+  templateSourceBundleHash,
+  validateTemplateRegistry,
+} from './lib/template-registry.mjs';
 import { generateForState } from './lib/generation-engine.mjs';
 import { validateVerificationLedger } from './lib/ledger-schema.mjs';
 
@@ -49,6 +54,19 @@ function renderAuditFile(audit) {
   return JSON.stringify(audit, null, 2) + '\n';
 }
 
+/**
+ * @param {string[]} argv
+ * @param {{
+ *   log?: typeof console.log,
+ *   error?: typeof console.error,
+ *   generatedDir?: string,
+ *   auditDir?: string,
+ *   templates?: object[],
+ *   states?: object[],
+ *   allocation?: object[],
+ *   verificationAudits?: object[],
+ * }} options
+ */
 export async function run(
   argv = process.argv.slice(2),
   {
@@ -56,6 +74,10 @@ export async function run(
     error = console.error,
     generatedDir = GENERATED_DIR,
     auditDir = AUDIT_DIR,
+    templates: suppliedTemplates,
+    states: suppliedStates,
+    allocation: suppliedAllocation,
+    verificationAudits: suppliedVerificationAudits,
   } = {},
 ) {
   const { check, write } = parseArgs(argv);
@@ -72,8 +94,11 @@ export async function run(
     return 1;
   }
   const { TEMPLATE_ALLOCATION } = await import(ALLOCATION_PATH);
+  const allocation = suppliedAllocation ?? TEMPLATE_ALLOCATION;
 
-  const { templates, missing } = await loadTemplateRegistry();
+  const { templates, missing } = suppliedTemplates
+    ? { templates: suppliedTemplates, missing: false }
+    : await loadTemplateRegistry();
   if (missing) {
     error('src/content/templates/registry.ts is missing; cannot generate.');
     return 1;
@@ -89,30 +114,34 @@ export async function run(
         'Every category will report a full shortfall — this is expected, not an error.',
     );
   }
-  const confirmedTemplates = new Set();
-  for (const rawAudit of loadVerifyAudits()) {
+  const confirmedTemplateHashes = new Map();
+  const confirmedSourceHashes = new Set();
+  for (const rawAudit of suppliedVerificationAudits ?? loadVerifyAudits()) {
     if (Array.isArray(rawAudit)) continue;
     const { __file: _file, ...audit } = rawAudit;
     validateVerificationLedger(audit);
     if (audit.tier !== 'T2') continue;
+    confirmedSourceHashes.add(audit.templateSourceHash);
     for (const entry of audit.templateEntries) {
       if (entry.verdict === 'confirmed') {
-        confirmedTemplates.add(`${entry.templateId}@${entry.templateVersion}`);
+        confirmedTemplateHashes.set(`${entry.templateId}@${entry.templateVersion}`, entry.templateHash);
       }
     }
   }
-  const unverifiedTemplates = templates.filter(
-    (template) => !confirmedTemplates.has(`${template.id}@${template.version}`),
-  );
-  if (unverifiedTemplates.length) {
+  const verificationErrors = templateVerificationErrors(templates, confirmedTemplateHashes);
+  if (templates.length && !confirmedSourceHashes.has(templateSourceBundleHash())) {
+    verificationErrors.push('no confirmed verification ledger matches the current template source bundle');
+  }
+  if (verificationErrors.length) {
     error(
       'Templates require confirmed verification ledgers before generation:\n' +
-      unverifiedTemplates.map((template) => `  - ${template.id}@${template.version}`).join('\n'),
+      verificationErrors.map((entry) => `  - ${entry}`).join('\n'),
     );
     return 1;
   }
 
-  const { records: states } = loadAllStates();
+  const { records: loadedStates } = loadAllStates();
+  const states = suppliedStates ?? loadedStates;
   if (states.length === 0) {
     error('No state records found under src/content/states; cannot generate.');
     return 1;
@@ -131,7 +160,7 @@ export async function run(
   }
 
   for (const state of sortedStates) {
-    const result = generateForState({ state, templates, allocation: TEMPLATE_ALLOCATION });
+    const result = generateForState({ state, templates, allocation });
     totalGenerated += result.questions.length;
     totalShortfall += result.shortfalls.reduce((sum, s) => sum + s.count, 0);
 
@@ -141,12 +170,11 @@ export async function run(
     if (check) {
       const committedExists = existsSync(generatedPath);
       if (result.questions.length === 0) {
-        // Nothing eligible to generate for this state yet. A stale committed
-        // file with real content would still be a mismatch (drift); an
-        // absent file, or one that's itself an empty array, is not.
-        if (committedExists && readFileSync(generatedPath, 'utf8') !== freshBytes) {
+        // Missing output is drift too: --write would create an explicit empty
+        // file, so --check must require it for a byte-identical round trip.
+        if (!committedExists || readFileSync(generatedPath, 'utf8') !== freshBytes) {
           reportLines.push(
-            `MISMATCH ${state.code}: fresh regeneration is empty but ${generatedPath} is not.`,
+            `MISMATCH ${state.code}: fresh regeneration is empty but ${generatedPath} is missing or differs.`,
           );
           mismatches += 1;
         }
@@ -170,11 +198,9 @@ export async function run(
       }
     } else {
       writeFileSync(generatedPath, freshBytes, 'utf8');
-      const generatedAt = new Date().toISOString();
       const audit = {
         code: state.code,
-        generatedAt,
-        ledger: result.ledger.map((entry) => ({ ...entry, generatedAt })),
+        ledger: result.ledger,
         categorySummary: result.categorySummary,
         shortfalls: result.shortfalls,
         tagShortfalls: result.tagShortfalls,

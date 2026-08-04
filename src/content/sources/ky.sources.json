@@ -3,7 +3,7 @@
   "sources": [
     {
       "url": "https://apps.legislature.ky.gov/law/statutes/",
-      "sha256": "673057f80ca4c9c33d471ae573454c352931785e3197af7b36c2a594a6bbe4a6",
+      "sha256": "d502e32e2df8901268279cadbff05a19d0413a6f8a54923482ae52cb34b010d0",
       "contentType": "text/html",
       "status": 200
     },
@@ -27,9 +27,7 @@
     },
     {
       "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table",
-      "sha256": "a4c2b59b06107a409c1a69df93e9cbf431e5b4e2e5c179d6b93528e8b768f3b5",
-      "contentType": "text/html",
-      "status": 200
+      "error": "fetch failed: fetch failed"
     }
   ],
   "handbookSnapshotHash": "c85d5f9ca003099f81277754c4c7d7655f4f2c334fe89a5515927f086eaf16bd"

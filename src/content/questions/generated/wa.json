@@ -1,0 +1,90 @@
+[
+  {
+    "id": "tpl-speed-basic-1-wa-1",
+    "category": "speed-limits",
+    "stateScope": [
+      "WA"
+    ],
+    "tags": [
+      "speed-basic-law"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "basicSpeedLaw",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-speed-basic-1",
+    "templateVersion": 1,
+    "prompt": "A Washington driver is reviewing the basic-speed rule. Select the accurate answer.",
+    "options": [
+      "The rule applies statewide.",
+      "No statewide rule applies.",
+      "Use the same speed on every road class.",
+      "Travel at the posted limit in all conditions."
+    ],
+    "correctIndex": 0,
+    "explanation": "This answer follows the verified basicSpeedLaw record for Washington; conditions in that record still apply.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Revised Code of Washington",
+        "citation": "RCW 46.61.400(1); 1965 ex.s. c 155 § 54",
+        "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.61.400"
+      }
+    ],
+    "effectiveDate": "1965-08-05",
+    "lastVerified": "2026-08-04",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-speed-basic-1-wa-2",
+    "category": "speed-limits",
+    "stateScope": [
+      "WA"
+    ],
+    "tags": [
+      "speed-basic-law"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "basicSpeedLaw",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-speed-basic-1",
+    "templateVersion": 1,
+    "prompt": "Choose the rule that applies to the basic-speed rule in Washington.",
+    "options": [
+      "Match the speed of the fastest nearby vehicle.",
+      "Travel at the posted limit in all conditions.",
+      "The rule applies statewide.",
+      "Travel ten mph below the limit in all conditions."
+    ],
+    "correctIndex": 2,
+    "explanation": "This answer follows the verified basicSpeedLaw record for Washington; conditions in that record still apply.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Revised Code of Washington",
+        "citation": "RCW 46.61.400(1); 1965 ex.s. c 155 § 54",
+        "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.61.400"
+      }
+    ],
+    "effectiveDate": "1965-08-05",
+    "lastVerified": "2026-08-04",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  }
+]

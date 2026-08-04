@@ -2,8 +2,14 @@
   "state": "AL",
   "sources": [
     {
+      "url": "https://admincode.legislature.state.al.us/administrative-code/760-X-1-.07",
+      "sha256": "6de5c6c7050d9e02b24b4193df1d5f25767bb8440e019edea23520b2d7d08929",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
       "url": "https://alison.legislature.state.al.us/code-of-alabama",
-      "sha256": "135676d95e5557313c6f57662f408348bc0cf96d1f4485f98a8fec6cf6b7b969",
+      "sha256": "156f034e61582ca08efc82d18b3207203ff52ae48f42c72dc518c67c303a09d6",
       "contentType": "text/html",
       "status": 200
     },
@@ -27,16 +33,8 @@
       "status": 200
     },
     {
-      "url": "https://www.alea.gov/dps/highway-patrol/speed-limits",
-      "sha256": "aa8501d6b03518e5fa2bc21f84ef7ec9e2deaa9d7191329f0319e22756f61be6",
-      "contentType": "text/html",
-      "status": 200
-    },
-    {
       "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table",
-      "sha256": "a4c2b59b06107a409c1a69df93e9cbf431e5b4e2e5c179d6b93528e8b768f3b5",
-      "contentType": "text/html",
-      "status": 200
+      "error": "fetch failed: fetch failed"
     }
   ],
   "handbookSnapshotHash": "37ccc59a63029a8c4fd07cf62c693c58b8b967e6da722b9e3540128838485c74"

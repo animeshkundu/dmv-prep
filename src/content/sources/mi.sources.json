@@ -9,52 +9,55 @@
     },
     {
       "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-310e",
-      "sha256": "7c08a7f5c218c7f4de817dbef6c7008da92adbe47da9619e9ec02801197cb8d1",
+      "sha256": "683806398e815857053b0fba6cb9785a9851c8a2041742493b39b2cdb4f0a75e",
       "contentType": "text/html",
       "status": 200
     },
     {
       "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-319",
-      "sha256": "ae31032ddb0c4c3550fad9bb453877d5b7badacfe0cbff4e7fa496b262c28c8a",
+      "sha256": "683806398e815857053b0fba6cb9785a9851c8a2041742493b39b2cdb4f0a75e",
       "contentType": "text/html",
       "status": 200
     },
     {
       "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-320",
-      "sha256": "81e3b21f131327b24892a40b6dff6936b0f0cbf9c8598ca4442c122ad131bd9c",
+      "sha256": "683806398e815857053b0fba6cb9785a9851c8a2041742493b39b2cdb4f0a75e",
       "contentType": "text/html",
       "status": 200
     },
     {
       "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-320a",
-      "status": 404,
-      "error": "HTTP 404"
+      "sha256": "683806398e815857053b0fba6cb9785a9851c8a2041742493b39b2cdb4f0a75e",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-602b",
-      "sha256": "bd55796b1ba5a651c4de610bfdecd9a9460afe83b45c99fcab1eb84be49e5bde",
+      "sha256": "683806398e815857053b0fba6cb9785a9851c8a2041742493b39b2cdb4f0a75e",
       "contentType": "text/html",
       "status": 200
     },
     {
       "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-612",
-      "sha256": "8c93e91fbca6fbe025ce43633ccff8e509abe57469ce37f1ea36955c2e41e99b",
+      "sha256": "683806398e815857053b0fba6cb9785a9851c8a2041742493b39b2cdb4f0a75e",
       "contentType": "text/html",
       "status": 200
     },
     {
       "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-622",
-      "status": 404,
-      "error": "HTTP 404"
+      "sha256": "683806398e815857053b0fba6cb9785a9851c8a2041742493b39b2cdb4f0a75e",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-624a",
-      "status": 404,
-      "error": "HTTP 404"
+      "sha256": "683806398e815857053b0fba6cb9785a9851c8a2041742493b39b2cdb4f0a75e",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-625",
-      "sha256": "4b984a540f649d3d4dd25bd7bcddd4b6c42ce8c78973d5c60255909bf0731ed4",
+      "sha256": "683806398e815857053b0fba6cb9785a9851c8a2041742493b39b2cdb4f0a75e",
       "contentType": "text/html",
       "status": 200
     },
@@ -72,13 +75,15 @@
     },
     {
       "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-627",
-      "status": 404,
-      "error": "HTTP 404"
+      "sha256": "683806398e815857053b0fba6cb9785a9851c8a2041742493b39b2cdb4f0a75e",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-628",
-      "status": 404,
-      "error": "HTTP 404"
+      "sha256": "683806398e815857053b0fba6cb9785a9851c8a2041742493b39b2cdb4f0a75e",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-653a",
@@ -88,8 +93,9 @@
     },
     {
       "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-674",
-      "status": 404,
-      "error": "HTTP 404"
+      "sha256": "683806398e815857053b0fba6cb9785a9851c8a2041742493b39b2cdb4f0a75e",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-684",
@@ -105,7 +111,7 @@
     },
     {
       "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-500-3009",
-      "sha256": "0c329b98c20595bb3261588972ae49b21e68e9029c344e8c4639b52d705381c8",
+      "sha256": "683806398e815857053b0fba6cb9785a9851c8a2041742493b39b2cdb4f0a75e",
       "contentType": "text/html",
       "status": 200
     },

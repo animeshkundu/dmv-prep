@@ -1,0 +1,1806 @@
+[
+  {
+    "id": "tpl-row-move-over-nm-1",
+    "category": "right-of-way",
+    "stateScope": [
+      "NM"
+    ],
+    "tags": [
+      "row-emergency-vehicles"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "moveOver",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-row-move-over",
+    "templateVersion": 1,
+    "prompt": "What should a learner know about the approach to a stopped covered roadside vehicle under New Mexico law?",
+    "options": [
+      "Keep speed and lane unless traffic stops.",
+      "Change lanes if safe; otherwise slow down.",
+      "Pass closely to avoid delaying traffic.",
+      "Slow down only; changing lanes is optional."
+    ],
+    "correctIndex": 1,
+    "explanation": "Use the official New Mexico citation on this question when checking the approach to a stopped covered roadside vehicle.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Operation of vehicles on approach of authorized emergency vehicles; stationary vehicles",
+        "citation": "NMSA 1978, § 66-7-332(B)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      }
+    ],
+    "effectiveDate": "2017-06-16",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-row-move-over-nm-2",
+    "category": "right-of-way",
+    "stateScope": [
+      "NM"
+    ],
+    "tags": [
+      "row-emergency-vehicles"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "moveOver",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-row-move-over",
+    "templateVersion": 1,
+    "prompt": "In New Mexico, which statement correctly describes the approach to a stopped covered roadside vehicle?",
+    "options": [
+      "Change lanes if safe; otherwise slow down.",
+      "Change lanes whenever it is safely possible.",
+      "Stop beside the roadside vehicle.",
+      "Keep speed and lane unless traffic stops."
+    ],
+    "correctIndex": 0,
+    "explanation": "Use the official New Mexico citation on this question when checking the approach to a stopped covered roadside vehicle.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Operation of vehicles on approach of authorized emergency vehicles; stationary vehicles",
+        "citation": "NMSA 1978, § 66-7-332(B)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      }
+    ],
+    "effectiveDate": "2017-06-16",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-speed-rural-1-nm-1",
+    "category": "speed-limits",
+    "stateScope": [
+      "NM"
+    ],
+    "tags": [
+      "speed-posted-limits"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "ruralInterstateMaxMph",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-speed-rural-1",
+    "templateVersion": 1,
+    "prompt": "In New Mexico, which statement correctly describes the rural-interstate maximum speed?",
+    "options": [
+      "65 mph",
+      "75 mph",
+      "80 mph",
+      "70 mph"
+    ],
+    "correctIndex": 1,
+    "explanation": "The cited New Mexico rule sets the rural-interstate maximum speed as shown in the correct answer.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Speed regulation",
+        "citation": "NMSA 1978, § 66-7-301(A)(4)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      }
+    ],
+    "effectiveDate": "2016-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-speed-rural-1-nm-2",
+    "category": "speed-limits",
+    "stateScope": [
+      "NM"
+    ],
+    "tags": [
+      "speed-posted-limits"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "ruralInterstateMaxMph",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-speed-rural-1",
+    "templateVersion": 1,
+    "prompt": "What should a learner know about the rural-interstate maximum speed under New Mexico law?",
+    "options": [
+      "65 mph",
+      "70 mph",
+      "75 mph",
+      "80 mph"
+    ],
+    "correctIndex": 2,
+    "explanation": "This answer follows the verified ruralInterstateMaxMph record for New Mexico; conditions in that record still apply.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Speed regulation",
+        "citation": "NMSA 1978, § 66-7-301(A)(4)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      }
+    ],
+    "effectiveDate": "2016-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-speed-rural-2-nm-1",
+    "category": "speed-limits",
+    "stateScope": [
+      "NM"
+    ],
+    "tags": [
+      "speed-posted-limits"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "ruralInterstateMaxMph",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-speed-rural-2",
+    "templateVersion": 1,
+    "prompt": "A New Mexico driver is reviewing the maximum rural-interstate posting. Select the accurate answer.",
+    "options": [
+      "80 mph",
+      "75 mph",
+      "70 mph",
+      "65 mph"
+    ],
+    "correctIndex": 1,
+    "explanation": "Use the official New Mexico citation on this question when checking the maximum rural-interstate posting.",
+    "difficulty": "hard",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Speed regulation",
+        "citation": "NMSA 1978, § 66-7-301(A)(4)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      }
+    ],
+    "effectiveDate": "2016-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-speed-rural-2-nm-2",
+    "category": "speed-limits",
+    "stateScope": [
+      "NM"
+    ],
+    "tags": [
+      "speed-posted-limits"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "ruralInterstateMaxMph",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-speed-rural-2",
+    "templateVersion": 1,
+    "prompt": "Choose the rule that applies to the maximum rural-interstate posting in New Mexico.",
+    "options": [
+      "80 mph",
+      "70 mph",
+      "75 mph",
+      "65 mph"
+    ],
+    "correctIndex": 2,
+    "explanation": "The cited New Mexico rule sets the maximum rural-interstate posting as shown in the correct answer.",
+    "difficulty": "hard",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Speed regulation",
+        "citation": "NMSA 1978, § 66-7-301(A)(4)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      }
+    ],
+    "effectiveDate": "2016-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-speed-res-1-nm-1",
+    "category": "speed-limits",
+    "stateScope": [
+      "NM"
+    ],
+    "tags": [
+      "speed-posted-limits"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "residentialDefaultMph",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-speed-res-1",
+    "templateVersion": 1,
+    "prompt": "Choose the rule that applies to the residential-district default speed in New Mexico.",
+    "options": [
+      "25 mph",
+      "20 mph",
+      "30 mph",
+      "35 mph"
+    ],
+    "correctIndex": 2,
+    "explanation": "Use the official New Mexico citation on this question when checking the residential-district default speed.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Speed regulation",
+        "citation": "NMSA 1978, § 66-7-301(A)(2)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      }
+    ],
+    "effectiveDate": "2016-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-speed-res-1-nm-2",
+    "category": "speed-limits",
+    "stateScope": [
+      "NM"
+    ],
+    "tags": [
+      "speed-posted-limits"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "residentialDefaultMph",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-speed-res-1",
+    "templateVersion": 1,
+    "prompt": "A New Mexico driver is reviewing the residential-district default speed. Select the accurate answer.",
+    "options": [
+      "20 mph",
+      "25 mph",
+      "35 mph",
+      "30 mph"
+    ],
+    "correctIndex": 3,
+    "explanation": "This answer follows the verified residentialDefaultMph record for New Mexico; conditions in that record still apply.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Speed regulation",
+        "citation": "NMSA 1978, § 66-7-301(A)(2)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      }
+    ],
+    "effectiveDate": "2016-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-speed-basic-1-nm-1",
+    "category": "speed-limits",
+    "stateScope": [
+      "NM"
+    ],
+    "tags": [
+      "speed-basic-law"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "basicSpeedLaw",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-speed-basic-1",
+    "templateVersion": 1,
+    "prompt": "Choose the rule that applies to the basic-speed rule in New Mexico.",
+    "options": [
+      "Match the speed of the fastest nearby vehicle.",
+      "Travel at the posted limit in all conditions.",
+      "Travel ten mph below the limit in all conditions.",
+      "The rule applies statewide."
+    ],
+    "correctIndex": 3,
+    "explanation": "The cited New Mexico rule sets the basic-speed rule as shown in the correct answer.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Speed regulation",
+        "citation": "NMSA 1978, § 66-7-301(B)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      }
+    ],
+    "effectiveDate": "2016-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-speed-basic-1-nm-2",
+    "category": "speed-limits",
+    "stateScope": [
+      "NM"
+    ],
+    "tags": [
+      "speed-basic-law"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "basicSpeedLaw",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-speed-basic-1",
+    "templateVersion": 1,
+    "prompt": "A New Mexico driver is reviewing the basic-speed rule. Select the accurate answer.",
+    "options": [
+      "Match the speed of the fastest nearby vehicle.",
+      "Stop whenever conditions begin changing.",
+      "No statewide rule applies.",
+      "The rule applies statewide."
+    ],
+    "correctIndex": 3,
+    "explanation": "Use the official New Mexico citation on this question when checking the basic-speed rule.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Speed regulation",
+        "citation": "NMSA 1978, § 66-7-301(B)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      }
+    ],
+    "effectiveDate": "2016-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-dui-under21-nm-1",
+    "category": "alcohol-drugs",
+    "stateScope": [
+      "NM"
+    ],
+    "tags": [
+      "alcohol-impairment-bac"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "bacUnder21",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-dui-under21",
+    "templateVersion": 1,
+    "prompt": "In New Mexico, which statement correctly describes the under-21 BAC limit?",
+    "options": [
+      "0.00%",
+      "0.04%",
+      "0.02%",
+      "0.01%"
+    ],
+    "correctIndex": 2,
+    "explanation": "This answer follows the verified bacUnder21 record for New Mexico; conditions in that record still apply.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Grounds for revocation of license; alcohol concentration thresholds",
+        "citation": "NMSA 1978, § 66-8-111(C)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      }
+    ],
+    "effectiveDate": "2025-06-20",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-dui-under21-nm-2",
+    "category": "alcohol-drugs",
+    "stateScope": [
+      "NM"
+    ],
+    "tags": [
+      "alcohol-impairment-bac"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "bacUnder21",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-dui-under21",
+    "templateVersion": 1,
+    "prompt": "What should a learner know about the under-21 BAC limit under New Mexico law?",
+    "options": [
+      "0.04%",
+      "0.00%",
+      "0.01%",
+      "0.02%"
+    ],
+    "correctIndex": 3,
+    "explanation": "This answer follows the verified bacUnder21 record for New Mexico; conditions in that record still apply.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Grounds for revocation of license; alcohol concentration thresholds",
+        "citation": "NMSA 1978, § 66-8-111(C)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      }
+    ],
+    "effectiveDate": "2025-06-20",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-dui-implied-nm-1",
+    "category": "alcohol-drugs",
+    "stateScope": [
+      "NM"
+    ],
+    "tags": [
+      "alcohol-implied-consent"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "impliedConsentRefusal",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-dui-implied",
+    "templateVersion": 1,
+    "prompt": "What should a learner know about the implied-consent test refusal consequence under New Mexico law?",
+    "options": [
+      "24-month suspension; a criminal offense after refusal.",
+      "3-month suspension; not a criminal offense.",
+      "6-month suspension; not a criminal offense.",
+      "12-month suspension; not a criminal offense."
+    ],
+    "correctIndex": 3,
+    "explanation": "Use the official New Mexico citation on this question when checking the implied-consent test refusal consequence.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Refusal to submit to chemical tests; revocation",
+        "citation": "NMSA 1978, § 66-8-111(B)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      }
+    ],
+    "effectiveDate": "2025-06-20",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-dui-implied-nm-2",
+    "category": "alcohol-drugs",
+    "stateScope": [
+      "NM"
+    ],
+    "tags": [
+      "alcohol-implied-consent"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "impliedConsentRefusal",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-dui-implied",
+    "templateVersion": 1,
+    "prompt": "In New Mexico, which statement correctly describes the implied-consent test refusal consequence?",
+    "options": [
+      "24-month suspension; a criminal offense after refusal.",
+      "12-month suspension; not a criminal offense.",
+      "6-month suspension; not a criminal offense.",
+      "12-month suspension; a criminal offense after refusal."
+    ],
+    "correctIndex": 1,
+    "explanation": "Use the official New Mexico citation on this question when checking the implied-consent test refusal consequence.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Refusal to submit to chemical tests; revocation",
+        "citation": "NMSA 1978, § 66-8-111(B)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      }
+    ],
+    "effectiveDate": "2025-06-20",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-dui-suspension-nm-1",
+    "category": "alcohol-drugs",
+    "stateScope": [
+      "NM"
+    ],
+    "tags": [
+      "alcohol-implied-consent"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "duiFirstSuspensionDays",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-dui-suspension",
+    "templateVersion": 1,
+    "prompt": "In New Mexico, which statement correctly describes the first-DUI suspension period?",
+    "options": [
+      "90 days",
+      "365 days",
+      "730 days",
+      "180 days"
+    ],
+    "correctIndex": 1,
+    "explanation": "The cited New Mexico rule sets the first-DUI suspension period as shown in the correct answer.",
+    "difficulty": "hard",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Mandatory revocation of license by division",
+        "citation": "NMSA 1978, § 66-5-29(C)(1)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      }
+    ],
+    "effectiveDate": "2007-06-15",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-dui-suspension-nm-2",
+    "category": "alcohol-drugs",
+    "stateScope": [
+      "NM"
+    ],
+    "tags": [
+      "alcohol-implied-consent"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "duiFirstSuspensionDays",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-dui-suspension",
+    "templateVersion": 1,
+    "prompt": "What should a learner know about the first-DUI suspension period under New Mexico law?",
+    "options": [
+      "365 days",
+      "90 days",
+      "180 days",
+      "730 days"
+    ],
+    "correctIndex": 0,
+    "explanation": "The cited New Mexico rule sets the first-DUI suspension period as shown in the correct answer.",
+    "difficulty": "hard",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Mandatory revocation of license by division",
+        "citation": "NMSA 1978, § 66-5-29(C)(1)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      }
+    ],
+    "effectiveDate": "2007-06-15",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-law-seatbelt-nm-1",
+    "category": "traffic-laws",
+    "stateScope": [
+      "NM"
+    ],
+    "tags": [
+      "safe-following-scanning"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "seatBeltEnforcement",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-law-seatbelt",
+    "templateVersion": 1,
+    "prompt": "What should a learner know about the seat-belt enforcement level under New Mexico law?",
+    "options": [
+      "The rule applies only to commercial vehicles.",
+      "The rule applies only to minor passengers.",
+      "The rule applies only to front seats.",
+      "The belt rule is a primary offense."
+    ],
+    "correctIndex": 3,
+    "explanation": "Use the official New Mexico citation on this question when checking the seat-belt enforcement level.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Enforcement programs (safety belt and child restraint enforcement)",
+        "citation": "NMSA 1978, § 66-7-373(D)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      }
+    ],
+    "effectiveDate": "2001-06-15",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-law-texting-nm-1",
+    "category": "traffic-laws",
+    "stateScope": [
+      "NM"
+    ],
+    "tags": [
+      "safe-distraction-fatigue"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "texting",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-law-texting",
+    "templateVersion": 1,
+    "prompt": "In New Mexico, which statement correctly describes the manual-texting policy?",
+    "options": [
+      "All drivers: manual texting is barred.",
+      "Emergency texts: manual use is allowed.",
+      "New drivers: manual texting is barred.",
+      "School-zone: manual texting is barred."
+    ],
+    "correctIndex": 0,
+    "explanation": "Use the official New Mexico citation on this question when checking the manual-texting policy.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Texting while driving",
+        "citation": "NMSA 1978, § 66-7-374",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      }
+    ],
+    "effectiveDate": "2014-07-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-law-texting-nm-2",
+    "category": "traffic-laws",
+    "stateScope": [
+      "NM"
+    ],
+    "tags": [
+      "safe-distraction-fatigue"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "texting",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-law-texting",
+    "templateVersion": 1,
+    "prompt": "What should a learner know about the manual-texting policy under New Mexico law?",
+    "options": [
+      "School-zone: manual texting is barred.",
+      "Emergency texts: manual use is allowed.",
+      "New drivers: manual texting is barred.",
+      "All drivers: manual texting is barred."
+    ],
+    "correctIndex": 3,
+    "explanation": "Use the official New Mexico citation on this question when checking the manual-texting policy.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Texting while driving",
+        "citation": "NMSA 1978, § 66-7-374",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      }
+    ],
+    "effectiveDate": "2014-07-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-law-headlights-nm-1",
+    "category": "traffic-laws",
+    "stateScope": [
+      "NM"
+    ],
+    "tags": [
+      "safe-weather-night"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "headlightsRequired",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-law-headlights",
+    "templateVersion": 1,
+    "prompt": "In New Mexico, which statement correctly describes the headlight timing rule?",
+    "options": [
+      "Use headlights after stopping at every intersection.",
+      "Use headlights only on roads without streetlights.",
+      "Use headlights only when another driver flashes the vehicle lights.",
+      "Use headlights without a wiper rule and 30 minutes after sunset."
+    ],
+    "correctIndex": 3,
+    "explanation": "Use the official New Mexico citation on this question when checking the headlight timing rule.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "When lighted lamps are required",
+        "citation": "NMSA 1978, § 66-3-802",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      }
+    ],
+    "effectiveDate": "2018-07-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-law-headlights-nm-2",
+    "category": "traffic-laws",
+    "stateScope": [
+      "NM"
+    ],
+    "tags": [
+      "safe-weather-night"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "headlightsRequired",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-law-headlights",
+    "templateVersion": 1,
+    "prompt": "What should a learner know about the headlight timing rule under New Mexico law?",
+    "options": [
+      "Use headlights only after full darkness begins.",
+      "Use headlights without a wiper rule and 30 minutes after sunset.",
+      "Use headlights only when another driver flashes the vehicle lights.",
+      "Use headlights with wipers and 60 minutes after sunset."
+    ],
+    "correctIndex": 1,
+    "explanation": "The cited New Mexico rule sets the headlight timing rule as shown in the correct answer.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "When lighted lamps are required",
+        "citation": "NMSA 1978, § 66-3-802",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      }
+    ],
+    "effectiveDate": "2018-07-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-penalties-system-nm-1",
+    "category": "penalties-points",
+    "stateScope": [
+      "NM"
+    ],
+    "tags": [
+      "collision-insurance-reporting"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "pointSystem",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-penalties-system",
+    "templateVersion": 1,
+    "prompt": "A New Mexico driver is reviewing the statewide driver-point system. Select the accurate answer.",
+    "options": [
+      "Only warning notices are issued.",
+      "A statewide point system applies.",
+      "No statewide point system applies.",
+      "A commercial-only point system applies."
+    ],
+    "correctIndex": 1,
+    "explanation": "This answer follows the verified pointSystem record for New Mexico; conditions in that record still apply.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "18.19.5.55 NMAC, Point system",
+        "citation": "18.19.5.55 NMAC",
+        "url": "https://www.srca.nm.gov/parts/title18/18.019.0005.html"
+      }
+    ],
+    "effectiveDate": "2023-03-14",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-penalties-system-nm-2",
+    "category": "penalties-points",
+    "stateScope": [
+      "NM"
+    ],
+    "tags": [
+      "collision-insurance-reporting"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "pointSystem",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-penalties-system",
+    "templateVersion": 1,
+    "prompt": "Choose the rule that applies to the statewide driver-point system in New Mexico.",
+    "options": [
+      "Only monetary fines are assessed.",
+      "A statewide point system applies.",
+      "A commercial-only point system applies.",
+      "Only warning notices are issued."
+    ],
+    "correctIndex": 1,
+    "explanation": "This answer follows the verified pointSystem record for New Mexico; conditions in that record still apply.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "18.19.5.55 NMAC, Point system",
+        "citation": "18.19.5.55 NMAC",
+        "url": "https://www.srca.nm.gov/parts/title18/18.019.0005.html"
+      }
+    ],
+    "effectiveDate": "2023-03-14",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-penalties-susp-1-nm-1",
+    "category": "penalties-points",
+    "stateScope": [
+      "NM"
+    ],
+    "tags": [
+      "collision-insurance-reporting"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "pointSuspension",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-penalties-susp-1",
+    "templateVersion": 1,
+    "prompt": "A New Mexico driver is reviewing the point accumulation before suspension. Select the accurate answer.",
+    "options": [
+      "18 points within 24 months.",
+      "8 points within 12 months.",
+      "12 points within 12 months.",
+      "6 points within 12 months."
+    ],
+    "correctIndex": 2,
+    "explanation": "The cited New Mexico rule sets the point accumulation before suspension as shown in the correct answer.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "18.19.5.55 NMAC, Point system",
+        "citation": "18.19.5.55 NMAC",
+        "url": "https://www.srca.nm.gov/parts/title18/18.019.0005.html"
+      }
+    ],
+    "effectiveDate": "2023-03-14",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-penalties-susp-1-nm-2",
+    "category": "penalties-points",
+    "stateScope": [
+      "NM"
+    ],
+    "tags": [
+      "collision-insurance-reporting"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "pointSuspension",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-penalties-susp-1",
+    "templateVersion": 1,
+    "prompt": "Choose the rule that applies to the point accumulation before suspension in New Mexico.",
+    "options": [
+      "10 points within 12 months.",
+      "6 points within 12 months.",
+      "18 points within 24 months.",
+      "12 points within 12 months."
+    ],
+    "correctIndex": 3,
+    "explanation": "This answer follows the verified pointSuspension record for New Mexico; conditions in that record still apply.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "18.19.5.55 NMAC, Point system",
+        "citation": "18.19.5.55 NMAC",
+        "url": "https://www.srca.nm.gov/parts/title18/18.019.0005.html"
+      }
+    ],
+    "effectiveDate": "2023-03-14",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-penalties-susp-2-nm-1",
+    "category": "penalties-points",
+    "stateScope": [
+      "NM"
+    ],
+    "tags": [
+      "collision-insurance-reporting"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "pointSuspension",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-penalties-susp-2",
+    "templateVersion": 1,
+    "prompt": "In New Mexico, which statement correctly describes the license-suspension point threshold?",
+    "options": [
+      "12 points within 12 months.",
+      "18 points within 24 months.",
+      "8 points within 12 months.",
+      "15 points within 12 months."
+    ],
+    "correctIndex": 0,
+    "explanation": "This answer follows the verified pointSuspension record for New Mexico; conditions in that record still apply.",
+    "difficulty": "hard",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "18.19.5.55 NMAC, Point system",
+        "citation": "18.19.5.55 NMAC",
+        "url": "https://www.srca.nm.gov/parts/title18/18.019.0005.html"
+      }
+    ],
+    "effectiveDate": "2023-03-14",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-penalties-susp-2-nm-2",
+    "category": "penalties-points",
+    "stateScope": [
+      "NM"
+    ],
+    "tags": [
+      "collision-insurance-reporting"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "pointSuspension",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-penalties-susp-2",
+    "templateVersion": 1,
+    "prompt": "What should a learner know about the license-suspension point threshold under New Mexico law?",
+    "options": [
+      "8 points within 12 months.",
+      "6 points within 12 months.",
+      "15 points within 12 months.",
+      "12 points within 12 months."
+    ],
+    "correctIndex": 3,
+    "explanation": "Use the official New Mexico citation on this question when checking the license-suspension point threshold.",
+    "difficulty": "hard",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "18.19.5.55 NMAC, Point system",
+        "citation": "18.19.5.55 NMAC",
+        "url": "https://www.srca.nm.gov/parts/title18/18.019.0005.html"
+      }
+    ],
+    "effectiveDate": "2023-03-14",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-gdl-age-1-nm-1",
+    "category": "gdl-teen",
+    "stateScope": [
+      "NM"
+    ],
+    "tags": [
+      "gdl-permit-rules"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "permitMinAgeMonths",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-gdl-age-1",
+    "templateVersion": 1,
+    "prompt": "A New Mexico driver is reviewing the minimum permit age in months. Select the accurate answer.",
+    "options": [
+      "180 months",
+      "174 months",
+      "186 months",
+      "168 months"
+    ],
+    "correctIndex": 0,
+    "explanation": "This answer follows the verified permitMinAgeMonths record for New Mexico; conditions in that record still apply.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Provisional licenses; instruction permits",
+        "citation": "NMSA 1978, § 66-5-8(E)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      }
+    ],
+    "effectiveDate": "2011-06-17",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-gdl-age-1-nm-2",
+    "category": "gdl-teen",
+    "stateScope": [
+      "NM"
+    ],
+    "tags": [
+      "gdl-permit-rules"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "permitMinAgeMonths",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-gdl-age-1",
+    "templateVersion": 1,
+    "prompt": "Choose the rule that applies to the minimum permit age in months in New Mexico.",
+    "options": [
+      "186 months",
+      "180 months",
+      "168 months",
+      "174 months"
+    ],
+    "correctIndex": 1,
+    "explanation": "Use the official New Mexico citation on this question when checking the minimum permit age in months.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Provisional licenses; instruction permits",
+        "citation": "NMSA 1978, § 66-5-8(E)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      }
+    ],
+    "effectiveDate": "2011-06-17",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-gdl-age-2-nm-1",
+    "category": "gdl-teen",
+    "stateScope": [
+      "NM"
+    ],
+    "tags": [
+      "gdl-permit-rules"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "permitMinAgeMonths",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-gdl-age-2",
+    "templateVersion": 1,
+    "prompt": "In New Mexico, which statement correctly describes the permit-eligibility age in months?",
+    "options": [
+      "180 months",
+      "174 months",
+      "186 months",
+      "168 months"
+    ],
+    "correctIndex": 0,
+    "explanation": "This answer follows the verified permitMinAgeMonths record for New Mexico; conditions in that record still apply.",
+    "difficulty": "hard",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Provisional licenses; instruction permits",
+        "citation": "NMSA 1978, § 66-5-8(E)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      }
+    ],
+    "effectiveDate": "2011-06-17",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-gdl-age-2-nm-2",
+    "category": "gdl-teen",
+    "stateScope": [
+      "NM"
+    ],
+    "tags": [
+      "gdl-permit-rules"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "permitMinAgeMonths",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-gdl-age-2",
+    "templateVersion": 1,
+    "prompt": "What should a learner know about the permit-eligibility age in months under New Mexico law?",
+    "options": [
+      "174 months",
+      "180 months",
+      "168 months",
+      "186 months"
+    ],
+    "correctIndex": 1,
+    "explanation": "This answer follows the verified permitMinAgeMonths record for New Mexico; conditions in that record still apply.",
+    "difficulty": "hard",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Provisional licenses; instruction permits",
+        "citation": "NMSA 1978, § 66-5-8(E)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      }
+    ],
+    "effectiveDate": "2011-06-17",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-gdl-holding-nm-1",
+    "category": "gdl-teen",
+    "stateScope": [
+      "NM"
+    ],
+    "tags": [
+      "gdl-permit-rules"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "permitHoldingMonths",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-gdl-holding",
+    "templateVersion": 1,
+    "prompt": "What should a learner know about the permit holding period under New Mexico law?",
+    "options": [
+      "3 months",
+      "9 months",
+      "1 months",
+      "6 months"
+    ],
+    "correctIndex": 3,
+    "explanation": "The cited New Mexico rule sets the permit holding period as shown in the correct answer.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Provisional licenses; instruction permits",
+        "citation": "NMSA 1978, § 66-5-8(A)(2)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      }
+    ],
+    "effectiveDate": "2011-06-17",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-gdl-holding-nm-2",
+    "category": "gdl-teen",
+    "stateScope": [
+      "NM"
+    ],
+    "tags": [
+      "gdl-permit-rules"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "permitHoldingMonths",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-gdl-holding",
+    "templateVersion": 1,
+    "prompt": "In New Mexico, which statement correctly describes the permit holding period?",
+    "options": [
+      "6 months",
+      "3 months",
+      "9 months",
+      "1 months"
+    ],
+    "correctIndex": 0,
+    "explanation": "The cited New Mexico rule sets the permit holding period as shown in the correct answer.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Provisional licenses; instruction permits",
+        "citation": "NMSA 1978, § 66-5-8(A)(2)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      }
+    ],
+    "effectiveDate": "2011-06-17",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-gdl-hours-tot-nm-1",
+    "category": "gdl-teen",
+    "stateScope": [
+      "NM"
+    ],
+    "tags": [
+      "gdl-permit-rules"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "supervisedHoursTotal",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-gdl-hours-tot",
+    "templateVersion": 1,
+    "prompt": "A New Mexico driver is reviewing the total supervised practice requirement. Select the accurate answer.",
+    "options": [
+      "60 hours",
+      "30 hours",
+      "40 hours",
+      "50 hours"
+    ],
+    "correctIndex": 3,
+    "explanation": "This answer follows the verified supervisedHoursTotal record for New Mexico; conditions in that record still apply.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Provisional licenses; instruction permits",
+        "citation": "NMSA 1978, § 66-5-8(B)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      }
+    ],
+    "effectiveDate": "2011-06-17",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-gdl-hours-tot-nm-2",
+    "category": "gdl-teen",
+    "stateScope": [
+      "NM"
+    ],
+    "tags": [
+      "gdl-permit-rules"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "supervisedHoursTotal",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-gdl-hours-tot",
+    "templateVersion": 1,
+    "prompt": "Choose the rule that applies to the total supervised practice requirement in New Mexico.",
+    "options": [
+      "50 hours",
+      "30 hours",
+      "40 hours",
+      "60 hours"
+    ],
+    "correctIndex": 0,
+    "explanation": "Use the official New Mexico citation on this question when checking the total supervised practice requirement.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Provisional licenses; instruction permits",
+        "citation": "NMSA 1978, § 66-5-8(B)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      }
+    ],
+    "effectiveDate": "2011-06-17",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-gdl-hours-night-nm-1",
+    "category": "gdl-teen",
+    "stateScope": [
+      "NM"
+    ],
+    "tags": [
+      "gdl-permit-rules"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "supervisedHoursNight",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-gdl-hours-night",
+    "templateVersion": 1,
+    "prompt": "In New Mexico, which statement correctly describes the supervised night-practice requirement?",
+    "options": [
+      "10 hours",
+      "12 hours",
+      "8 hours",
+      "5 hours"
+    ],
+    "correctIndex": 0,
+    "explanation": "This answer follows the verified supervisedHoursNight record for New Mexico; conditions in that record still apply.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Provisional licenses; instruction permits",
+        "citation": "NMSA 1978, § 66-5-8(B)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      }
+    ],
+    "effectiveDate": "2011-06-17",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-gdl-hours-night-nm-2",
+    "category": "gdl-teen",
+    "stateScope": [
+      "NM"
+    ],
+    "tags": [
+      "gdl-permit-rules"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "supervisedHoursNight",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-gdl-hours-night",
+    "templateVersion": 1,
+    "prompt": "What should a learner know about the supervised night-practice requirement under New Mexico law?",
+    "options": [
+      "8 hours",
+      "12 hours",
+      "10 hours",
+      "5 hours"
+    ],
+    "correctIndex": 2,
+    "explanation": "The cited New Mexico rule sets the supervised night-practice requirement as shown in the correct answer.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Provisional licenses; instruction permits",
+        "citation": "NMSA 1978, § 66-5-8(B)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      }
+    ],
+    "effectiveDate": "2011-06-17",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-gdl-curfew-nm-1",
+    "category": "gdl-teen",
+    "stateScope": [
+      "NM"
+    ],
+    "tags": [
+      "gdl-to-full-license"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "gdlNightCurfew",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-gdl-curfew",
+    "templateVersion": 1,
+    "prompt": "In New Mexico, which statement correctly describes the provisional-license night restriction?",
+    "options": [
+      "No driving from 12 AM to 5 AM.",
+      "No driving from 10 PM to 5 AM.",
+      "No driving from 11 PM to 6 AM.",
+      "No driving from 11 PM to 5 AM."
+    ],
+    "correctIndex": 0,
+    "explanation": "The cited New Mexico rule sets the provisional-license night restriction as shown in the correct answer.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Provisional licenses; instruction permits",
+        "citation": "NMSA 1978, § 66-5-8(C)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      }
+    ],
+    "effectiveDate": "2011-06-17",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-gdl-curfew-nm-2",
+    "category": "gdl-teen",
+    "stateScope": [
+      "NM"
+    ],
+    "tags": [
+      "gdl-to-full-license"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "gdlNightCurfew",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-gdl-curfew",
+    "templateVersion": 1,
+    "prompt": "What should a learner know about the provisional-license night restriction under New Mexico law?",
+    "options": [
+      "No driving from 9 PM to 5 AM.",
+      "No driving from 11 PM to 5 AM.",
+      "No driving from 11 PM to 6 AM.",
+      "No driving from 12 AM to 5 AM."
+    ],
+    "correctIndex": 3,
+    "explanation": "The cited New Mexico rule sets the provisional-license night restriction as shown in the correct answer.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Provisional licenses; instruction permits",
+        "citation": "NMSA 1978, § 66-5-8(C)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      }
+    ],
+    "effectiveDate": "2011-06-17",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-gdl-passenger-nm-1",
+    "category": "gdl-teen",
+    "stateScope": [
+      "NM"
+    ],
+    "tags": [
+      "gdl-to-full-license"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "gdlPassengerPhase1",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-gdl-passenger",
+    "templateVersion": 1,
+    "prompt": "In New Mexico, which statement correctly describes the initial GDL passenger restriction?",
+    "options": [
+      "2 passengers under 21; family exemption: yes.",
+      "0 passengers under 18; family exemption: no.",
+      "1 passenger under 21; family exemption: yes.",
+      "1 passenger under 18; family exemption: no."
+    ],
+    "correctIndex": 2,
+    "explanation": "Use the official New Mexico citation on this question when checking the initial GDL passenger restriction.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Provisional licenses; instruction permits",
+        "citation": "NMSA 1978, § 66-5-8(C)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      }
+    ],
+    "effectiveDate": "2011-06-17",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-gdl-passenger-nm-2",
+    "category": "gdl-teen",
+    "stateScope": [
+      "NM"
+    ],
+    "tags": [
+      "gdl-to-full-license"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "gdlPassengerPhase1",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-gdl-passenger",
+    "templateVersion": 1,
+    "prompt": "What should a learner know about the initial GDL passenger restriction under New Mexico law?",
+    "options": [
+      "1 passenger under 21; family exemption: yes.",
+      "0 passengers under 20; family exemption: yes.",
+      "2 passengers under 20; family exemption: no.",
+      "0 passengers under 18; family exemption: no."
+    ],
+    "correctIndex": 0,
+    "explanation": "This answer follows the verified gdlPassengerPhase1 record for New Mexico; conditions in that record still apply.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Provisional licenses; instruction permits",
+        "citation": "NMSA 1978, § 66-5-8(C)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      }
+    ],
+    "effectiveDate": "2011-06-17",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  }
+]

@@ -1,0 +1,1630 @@
+[
+  {
+    "id": "tpl-signals-right-on-red-ca-1",
+    "category": "traffic-signals",
+    "stateScope": [
+      "CA"
+    ],
+    "tags": [
+      "signal-steady"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "rightTurnOnRed",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-signals-right-on-red",
+    "templateVersion": 1,
+    "prompt": "A California driver is reviewing the right turn at a steady red signal. Select the accurate answer.",
+    "options": [
+      "Yield first, then turn without making a complete stop.",
+      "After stopping, turn when the way is clear.",
+      "Turn without making a full stop.",
+      "Turn only when a sign permits it."
+    ],
+    "correctIndex": 1,
+    "explanation": "The cited California rule sets the right turn at a steady red signal as shown in the correct answer.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "California Legislative Information",
+        "citation": "Cal. Veh. Code § 21453",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=21453.&lawCode=VEH"
+      }
+    ],
+    "effectiveDate": "2023-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-signals-right-on-red-ca-2",
+    "category": "traffic-signals",
+    "stateScope": [
+      "CA"
+    ],
+    "tags": [
+      "signal-steady"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "rightTurnOnRed",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-signals-right-on-red",
+    "templateVersion": 1,
+    "prompt": "Choose the rule that applies to the right turn at a steady red signal in California.",
+    "options": [
+      "After stopping, turn when the way is clear.",
+      "Remain stopped until the signal changes.",
+      "Turn without making a full stop.",
+      "Yield first, then turn without making a complete stop."
+    ],
+    "correctIndex": 0,
+    "explanation": "The cited California rule sets the right turn at a steady red signal as shown in the correct answer.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "California Legislative Information",
+        "citation": "Cal. Veh. Code § 21453",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=21453.&lawCode=VEH"
+      }
+    ],
+    "effectiveDate": "2023-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-row-left-on-red-ca-1",
+    "category": "right-of-way",
+    "stateScope": [
+      "CA"
+    ],
+    "tags": [
+      "row-left-turns"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "leftTurnOnRedFromOneWay",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-row-left-on-red",
+    "templateVersion": 1,
+    "prompt": "A California driver is reviewing the left turn on red from one one-way street to another. Select the accurate answer.",
+    "options": [
+      "Wait for an officer to direct the entire turn movement.",
+      "Turn after stopping when the way is clear.",
+      "Turn only after a green arrow appears for your lane.",
+      "Turn without stopping if the road is empty."
+    ],
+    "correctIndex": 1,
+    "explanation": "Use the official California citation on this question when checking the left turn on red from one one-way street to another.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "California Legislative Information",
+        "citation": "Cal. Veh. Code § 21453",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=21453.&lawCode=VEH"
+      }
+    ],
+    "effectiveDate": "2023-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-row-left-on-red-ca-2",
+    "category": "right-of-way",
+    "stateScope": [
+      "CA"
+    ],
+    "tags": [
+      "row-left-turns"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "leftTurnOnRedFromOneWay",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-row-left-on-red",
+    "templateVersion": 1,
+    "prompt": "Choose the rule that applies to the left turn on red from one one-way street to another in California.",
+    "options": [
+      "Remain stopped until the signal changes.",
+      "Turn after stopping when the way is clear.",
+      "Treat the red signal as a yield sign.",
+      "Wait for an officer to direct the entire turn movement."
+    ],
+    "correctIndex": 1,
+    "explanation": "This answer follows the verified leftTurnOnRedFromOneWay record for California; conditions in that record still apply.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "California Legislative Information",
+        "citation": "Cal. Veh. Code § 21453",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=21453.&lawCode=VEH"
+      }
+    ],
+    "effectiveDate": "2023-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-row-move-over-ca-1",
+    "category": "right-of-way",
+    "stateScope": [
+      "CA"
+    ],
+    "tags": [
+      "row-emergency-vehicles"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "moveOver",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-row-move-over",
+    "templateVersion": 1,
+    "prompt": "In California, which statement correctly describes the approach to a stopped covered roadside vehicle?",
+    "options": [
+      "Keep speed and lane unless traffic stops.",
+      "Change lanes if safe; otherwise slow down.",
+      "Change lanes whenever it is safely possible.",
+      "Slow down only; changing lanes is optional."
+    ],
+    "correctIndex": 1,
+    "explanation": "Use the official California citation on this question when checking the approach to a stopped covered roadside vehicle.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "California Legislative Information",
+        "citation": "Cal. Veh. Code § 21809",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=21809.&lawCode=VEH"
+      }
+    ],
+    "effectiveDate": "2026-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-row-move-over-ca-2",
+    "category": "right-of-way",
+    "stateScope": [
+      "CA"
+    ],
+    "tags": [
+      "row-emergency-vehicles"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "moveOver",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-row-move-over",
+    "templateVersion": 1,
+    "prompt": "What should a learner know about the approach to a stopped covered roadside vehicle under California law?",
+    "options": [
+      "Change lanes if safe; otherwise slow down.",
+      "Stop beside the roadside vehicle.",
+      "Change lanes whenever it is safely possible.",
+      "Pass closely to avoid delaying traffic."
+    ],
+    "correctIndex": 0,
+    "explanation": "This answer follows the verified moveOver record for California; conditions in that record still apply.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "California Legislative Information",
+        "citation": "Cal. Veh. Code § 21809",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=21809.&lawCode=VEH"
+      }
+    ],
+    "effectiveDate": "2026-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-dui-adult-1-ca-1",
+    "category": "alcohol-drugs",
+    "stateScope": [
+      "CA"
+    ],
+    "tags": [
+      "alcohol-impairment-bac"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "bacAdult",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-dui-adult-1",
+    "templateVersion": 1,
+    "prompt": "Choose the rule that applies to the adult per se BAC limit in California.",
+    "options": [
+      "0.10%",
+      "0.02%",
+      "0.08%",
+      "0.05%"
+    ],
+    "correctIndex": 2,
+    "explanation": "Use the official California citation on this question when checking the adult per se BAC limit.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "California Legislative Information",
+        "citation": "Cal. Veh. Code § 23152",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=23152.&lawCode=VEH"
+      }
+    ],
+    "effectiveDate": "2017-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-dui-adult-1-ca-2",
+    "category": "alcohol-drugs",
+    "stateScope": [
+      "CA"
+    ],
+    "tags": [
+      "alcohol-impairment-bac"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "bacAdult",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-dui-adult-1",
+    "templateVersion": 1,
+    "prompt": "A California driver is reviewing the adult per se BAC limit. Select the accurate answer.",
+    "options": [
+      "0.08%",
+      "0.10%",
+      "0.02%",
+      "0.05%"
+    ],
+    "correctIndex": 0,
+    "explanation": "This answer follows the verified bacAdult record for California; conditions in that record still apply.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "California Legislative Information",
+        "citation": "Cal. Veh. Code § 23152",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=23152.&lawCode=VEH"
+      }
+    ],
+    "effectiveDate": "2017-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-dui-adult-2-ca-1",
+    "category": "alcohol-drugs",
+    "stateScope": [
+      "CA"
+    ],
+    "tags": [
+      "alcohol-impairment-bac"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "bacAdult",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-dui-adult-2",
+    "templateVersion": 1,
+    "prompt": "What should a learner know about the adult alcohol concentration that establishes per se impairment under California law?",
+    "options": [
+      "0.10%",
+      "0.08%",
+      "0.02%",
+      "0.05%"
+    ],
+    "correctIndex": 1,
+    "explanation": "The cited California rule sets the adult alcohol concentration that establishes per se impairment as shown in the correct answer.",
+    "difficulty": "hard",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "California Legislative Information",
+        "citation": "Cal. Veh. Code § 23152",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=23152.&lawCode=VEH"
+      }
+    ],
+    "effectiveDate": "2017-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-dui-adult-2-ca-2",
+    "category": "alcohol-drugs",
+    "stateScope": [
+      "CA"
+    ],
+    "tags": [
+      "alcohol-impairment-bac"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "bacAdult",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-dui-adult-2",
+    "templateVersion": 1,
+    "prompt": "In California, which statement correctly describes the adult alcohol concentration that establishes per se impairment?",
+    "options": [
+      "0.10%",
+      "0.02%",
+      "0.08%",
+      "0.05%"
+    ],
+    "correctIndex": 2,
+    "explanation": "Use the official California citation on this question when checking the adult alcohol concentration that establishes per se impairment.",
+    "difficulty": "hard",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "California Legislative Information",
+        "citation": "Cal. Veh. Code § 23152",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=23152.&lawCode=VEH"
+      }
+    ],
+    "effectiveDate": "2017-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-dui-commercial-ca-1",
+    "category": "alcohol-drugs",
+    "stateScope": [
+      "CA"
+    ],
+    "tags": [
+      "alcohol-impairment-bac"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "bacCommercial",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-dui-commercial",
+    "templateVersion": 1,
+    "prompt": "In California, which statement correctly describes the commercial-driver BAC limit?",
+    "options": [
+      "0.04%",
+      "0.00%",
+      "0.05%",
+      "0.02%"
+    ],
+    "correctIndex": 0,
+    "explanation": "This answer follows the verified bacCommercial record for California; conditions in that record still apply.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "California Legislative Information",
+        "citation": "Cal. Veh. Code § 23152",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=23152.&lawCode=VEH"
+      }
+    ],
+    "effectiveDate": "2017-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-dui-commercial-ca-2",
+    "category": "alcohol-drugs",
+    "stateScope": [
+      "CA"
+    ],
+    "tags": [
+      "alcohol-impairment-bac"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "bacCommercial",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-dui-commercial",
+    "templateVersion": 1,
+    "prompt": "What should a learner know about the commercial-driver BAC limit under California law?",
+    "options": [
+      "0.05%",
+      "0.04%",
+      "0.00%",
+      "0.02%"
+    ],
+    "correctIndex": 1,
+    "explanation": "This answer follows the verified bacCommercial record for California; conditions in that record still apply.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "California Legislative Information",
+        "citation": "Cal. Veh. Code § 23152",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=23152.&lawCode=VEH"
+      }
+    ],
+    "effectiveDate": "2017-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-dui-open-ca-1",
+    "category": "alcohol-drugs",
+    "stateScope": [
+      "CA"
+    ],
+    "tags": [
+      "alcohol-implied-consent"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "openContainerProhibited",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-dui-open",
+    "templateVersion": 1,
+    "prompt": "Choose the rule that applies to the open-container rule in California.",
+    "options": [
+      "The rule applies only during daylight.",
+      "The rule applies statewide.",
+      "The rule applies only to commercial vehicles.",
+      "No statewide rule applies."
+    ],
+    "correctIndex": 1,
+    "explanation": "This answer follows the verified openContainerProhibited record for California; conditions in that record still apply.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "California Legislative Information",
+        "citation": "Cal. Veh. Code § 23223",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=23223.&lawCode=VEH"
+      }
+    ],
+    "effectiveDate": "2020-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-dui-open-ca-2",
+    "category": "alcohol-drugs",
+    "stateScope": [
+      "CA"
+    ],
+    "tags": [
+      "alcohol-implied-consent"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "openContainerProhibited",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-dui-open",
+    "templateVersion": 1,
+    "prompt": "A California driver is reviewing the open-container rule. Select the accurate answer.",
+    "options": [
+      "The rule applies statewide.",
+      "The rule applies only after a crash.",
+      "The rule applies only during daylight.",
+      "The rule applies only on rural highways."
+    ],
+    "correctIndex": 0,
+    "explanation": "The cited California rule sets the open-container rule as shown in the correct answer.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "California Legislative Information",
+        "citation": "Cal. Veh. Code § 23223",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=23223.&lawCode=VEH"
+      }
+    ],
+    "effectiveDate": "2020-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-law-phone-ca-1",
+    "category": "traffic-laws",
+    "stateScope": [
+      "CA"
+    ],
+    "tags": [
+      "safe-distraction-fatigue"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "handheldPhone",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-law-phone",
+    "templateVersion": 1,
+    "prompt": "Choose the rule that applies to the handheld-phone policy in California.",
+    "options": [
+      "Drivers: phone holding is allowed.",
+      "New drivers: phone holding is barred.",
+      "School-zone: phone holding is barred.",
+      "All drivers: phone holding is barred."
+    ],
+    "correctIndex": 3,
+    "explanation": "Use the official California citation on this question when checking the handheld-phone policy.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "California Legislative Information",
+        "citation": "Cal. Veh. Code § 23123.5",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=23123.5&lawCode=VEH"
+      }
+    ],
+    "effectiveDate": "2018-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-law-texting-ca-1",
+    "category": "traffic-laws",
+    "stateScope": [
+      "CA"
+    ],
+    "tags": [
+      "safe-distraction-fatigue"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "texting",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-law-texting",
+    "templateVersion": 1,
+    "prompt": "What should a learner know about the manual-texting policy under California law?",
+    "options": [
+      "All drivers: manual texting is barred.",
+      "Truck drivers: manual texting is barred.",
+      "School-zone: manual texting is barred.",
+      "New drivers: manual texting is barred."
+    ],
+    "correctIndex": 0,
+    "explanation": "The cited California rule sets the manual-texting policy as shown in the correct answer.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "California Legislative Information",
+        "citation": "Cal. Veh. Code § 23123.5",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=23123.5&lawCode=VEH"
+      }
+    ],
+    "effectiveDate": "2018-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-law-texting-ca-2",
+    "category": "traffic-laws",
+    "stateScope": [
+      "CA"
+    ],
+    "tags": [
+      "safe-distraction-fatigue"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "texting",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-law-texting",
+    "templateVersion": 1,
+    "prompt": "In California, which statement correctly describes the manual-texting policy?",
+    "options": [
+      "School-zone: manual texting is barred.",
+      "New drivers: manual texting is barred.",
+      "All drivers: manual texting is barred.",
+      "Emergency texts: manual use is allowed."
+    ],
+    "correctIndex": 2,
+    "explanation": "Use the official California citation on this question when checking the manual-texting policy.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "California Legislative Information",
+        "citation": "Cal. Veh. Code § 23123.5",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=23123.5&lawCode=VEH"
+      }
+    ],
+    "effectiveDate": "2018-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-penalties-system-ca-1",
+    "category": "penalties-points",
+    "stateScope": [
+      "CA"
+    ],
+    "tags": [
+      "collision-insurance-reporting"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "pointSystem",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-penalties-system",
+    "templateVersion": 1,
+    "prompt": "Choose the rule that applies to the statewide driver-point system in California.",
+    "options": [
+      "A commercial-only point system applies.",
+      "A statewide point system applies.",
+      "A local-only point system applies.",
+      "Only warning notices are issued."
+    ],
+    "correctIndex": 1,
+    "explanation": "This answer follows the verified pointSystem record for California; conditions in that record still apply.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "California Legislative Information",
+        "citation": "Cal. Veh. Code § 12810.5",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=12810.5.&lawCode=VEH"
+      }
+    ],
+    "effectiveDate": "2008-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-penalties-system-ca-2",
+    "category": "penalties-points",
+    "stateScope": [
+      "CA"
+    ],
+    "tags": [
+      "collision-insurance-reporting"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "pointSystem",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-penalties-system",
+    "templateVersion": 1,
+    "prompt": "A California driver is reviewing the statewide driver-point system. Select the accurate answer.",
+    "options": [
+      "A statewide point system applies.",
+      "No statewide point system applies.",
+      "Only monetary fines are assessed.",
+      "A local-only point system applies."
+    ],
+    "correctIndex": 0,
+    "explanation": "This answer follows the verified pointSystem record for California; conditions in that record still apply.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "California Legislative Information",
+        "citation": "Cal. Veh. Code § 12810.5",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=12810.5.&lawCode=VEH"
+      }
+    ],
+    "effectiveDate": "2008-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-penalties-liab-ca-1",
+    "category": "penalties-points",
+    "stateScope": [
+      "CA"
+    ],
+    "tags": [
+      "collision-insurance-reporting"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "minLiability",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-penalties-liab",
+    "templateVersion": 1,
+    "prompt": "What should a learner know about the minimum liability coverage per person / crash / property under California law?",
+    "options": [
+      "$ 50,000 / $100,000 / $ 50,000",
+      "$100,000 / $300,000 / $100,000",
+      "$ 30,000 / $ 60,000 / $ 15,000",
+      "$ 25,000 / $ 50,000 / $ 25,000"
+    ],
+    "correctIndex": 2,
+    "explanation": "The cited California rule sets the minimum liability coverage per person / crash / property as shown in the correct answer.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "California Legislative Information",
+        "citation": "Cal. Veh. Code § 16056",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=16056.&lawCode=VEH"
+      }
+    ],
+    "effectiveDate": "2025-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-penalties-liab-ca-2",
+    "category": "penalties-points",
+    "stateScope": [
+      "CA"
+    ],
+    "tags": [
+      "collision-insurance-reporting"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "minLiability",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-penalties-liab",
+    "templateVersion": 1,
+    "prompt": "In California, which statement correctly describes the minimum liability coverage per person / crash / property?",
+    "options": [
+      "$ 30,000 / $ 60,000 / $ 15,000",
+      "$ 15,000 / $ 30,000 / $  5,000",
+      "$ 25,000 / $ 50,000 / $ 25,000",
+      "$ 35,000 / $ 70,000 / $ 25,000"
+    ],
+    "correctIndex": 0,
+    "explanation": "Use the official California citation on this question when checking the minimum liability coverage per person / crash / property.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "California Legislative Information",
+        "citation": "Cal. Veh. Code § 16056",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=16056.&lawCode=VEH"
+      }
+    ],
+    "effectiveDate": "2025-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-penalties-crash-ca-1",
+    "category": "penalties-points",
+    "stateScope": [
+      "CA"
+    ],
+    "tags": [
+      "collision-insurance-reporting"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "crashReportThresholdUsd",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-penalties-crash",
+    "templateVersion": 1,
+    "prompt": "In California, which statement correctly describes the reportable-crash property-damage threshold?",
+    "options": [
+      "five hundred dollars",
+      "seven hundred fifty dollars",
+      "one thousand five hundred dollars",
+      "one thousand dollars"
+    ],
+    "correctIndex": 3,
+    "explanation": "This answer follows the verified crashReportThresholdUsd record for California; conditions in that record still apply.",
+    "difficulty": "hard",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "California Legislative Information",
+        "citation": "Cal. Veh. Code § 16000",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=16000.&lawCode=VEH"
+      }
+    ],
+    "effectiveDate": "2017-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-penalties-crash-ca-2",
+    "category": "penalties-points",
+    "stateScope": [
+      "CA"
+    ],
+    "tags": [
+      "collision-insurance-reporting"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "crashReportThresholdUsd",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-penalties-crash",
+    "templateVersion": 1,
+    "prompt": "What should a learner know about the reportable-crash property-damage threshold under California law?",
+    "options": [
+      "one thousand dollars",
+      "one thousand five hundred dollars",
+      "five hundred dollars",
+      "seven hundred fifty dollars"
+    ],
+    "correctIndex": 0,
+    "explanation": "The cited California rule sets the reportable-crash property-damage threshold as shown in the correct answer.",
+    "difficulty": "hard",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "California Legislative Information",
+        "citation": "Cal. Veh. Code § 16000",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=16000.&lawCode=VEH"
+      }
+    ],
+    "effectiveDate": "2017-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-gdl-age-1-ca-1",
+    "category": "gdl-teen",
+    "stateScope": [
+      "CA"
+    ],
+    "tags": [
+      "gdl-permit-rules"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "permitMinAgeMonths",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-gdl-age-1",
+    "templateVersion": 1,
+    "prompt": "Choose the rule that applies to the minimum permit age in months in California.",
+    "options": [
+      "180 months",
+      "186 months",
+      "174 months",
+      "192 months"
+    ],
+    "correctIndex": 1,
+    "explanation": "This answer follows the verified permitMinAgeMonths record for California; conditions in that record still apply.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "California Legislative Information",
+        "citation": "Cal. Veh. Code § 12509",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=12509.&lawCode=VEH"
+      }
+    ],
+    "effectiveDate": "2023-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-gdl-age-1-ca-2",
+    "category": "gdl-teen",
+    "stateScope": [
+      "CA"
+    ],
+    "tags": [
+      "gdl-permit-rules"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "permitMinAgeMonths",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-gdl-age-1",
+    "templateVersion": 1,
+    "prompt": "A California driver is reviewing the minimum permit age in months. Select the accurate answer.",
+    "options": [
+      "192 months",
+      "174 months",
+      "180 months",
+      "186 months"
+    ],
+    "correctIndex": 3,
+    "explanation": "This answer follows the verified permitMinAgeMonths record for California; conditions in that record still apply.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "California Legislative Information",
+        "citation": "Cal. Veh. Code § 12509",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=12509.&lawCode=VEH"
+      }
+    ],
+    "effectiveDate": "2023-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-gdl-age-2-ca-1",
+    "category": "gdl-teen",
+    "stateScope": [
+      "CA"
+    ],
+    "tags": [
+      "gdl-permit-rules"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "permitMinAgeMonths",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-gdl-age-2",
+    "templateVersion": 1,
+    "prompt": "What should a learner know about the permit-eligibility age in months under California law?",
+    "options": [
+      "180 months",
+      "186 months",
+      "174 months",
+      "192 months"
+    ],
+    "correctIndex": 1,
+    "explanation": "Use the official California citation on this question when checking the permit-eligibility age in months.",
+    "difficulty": "hard",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "California Legislative Information",
+        "citation": "Cal. Veh. Code § 12509",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=12509.&lawCode=VEH"
+      }
+    ],
+    "effectiveDate": "2023-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-gdl-age-2-ca-2",
+    "category": "gdl-teen",
+    "stateScope": [
+      "CA"
+    ],
+    "tags": [
+      "gdl-permit-rules"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "permitMinAgeMonths",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-gdl-age-2",
+    "templateVersion": 1,
+    "prompt": "In California, which statement correctly describes the permit-eligibility age in months?",
+    "options": [
+      "186 months",
+      "174 months",
+      "192 months",
+      "180 months"
+    ],
+    "correctIndex": 0,
+    "explanation": "The cited California rule sets the permit-eligibility age in months as shown in the correct answer.",
+    "difficulty": "hard",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "California Legislative Information",
+        "citation": "Cal. Veh. Code § 12509",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=12509.&lawCode=VEH"
+      }
+    ],
+    "effectiveDate": "2023-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-gdl-holding-ca-1",
+    "category": "gdl-teen",
+    "stateScope": [
+      "CA"
+    ],
+    "tags": [
+      "gdl-permit-rules"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "permitHoldingMonths",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-gdl-holding",
+    "templateVersion": 1,
+    "prompt": "In California, which statement correctly describes the permit holding period?",
+    "options": [
+      "3 months",
+      "1 months",
+      "9 months",
+      "6 months"
+    ],
+    "correctIndex": 3,
+    "explanation": "The cited California rule sets the permit holding period as shown in the correct answer.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "California Legislative Information",
+        "citation": "Cal. Veh. Code § 12814.6",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=12814.6.&lawCode=VEH"
+      }
+    ],
+    "effectiveDate": "2023-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-gdl-holding-ca-2",
+    "category": "gdl-teen",
+    "stateScope": [
+      "CA"
+    ],
+    "tags": [
+      "gdl-permit-rules"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "permitHoldingMonths",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-gdl-holding",
+    "templateVersion": 1,
+    "prompt": "What should a learner know about the permit holding period under California law?",
+    "options": [
+      "1 months",
+      "6 months",
+      "3 months",
+      "9 months"
+    ],
+    "correctIndex": 1,
+    "explanation": "This answer follows the verified permitHoldingMonths record for California; conditions in that record still apply.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "California Legislative Information",
+        "citation": "Cal. Veh. Code § 12814.6",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=12814.6.&lawCode=VEH"
+      }
+    ],
+    "effectiveDate": "2023-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-gdl-hours-tot-ca-1",
+    "category": "gdl-teen",
+    "stateScope": [
+      "CA"
+    ],
+    "tags": [
+      "gdl-permit-rules"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "supervisedHoursTotal",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-gdl-hours-tot",
+    "templateVersion": 1,
+    "prompt": "Choose the rule that applies to the total supervised practice requirement in California.",
+    "options": [
+      "30 hours",
+      "40 hours",
+      "50 hours",
+      "60 hours"
+    ],
+    "correctIndex": 2,
+    "explanation": "Use the official California citation on this question when checking the total supervised practice requirement.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "California Legislative Information",
+        "citation": "Cal. Veh. Code § 12814.6",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=12814.6.&lawCode=VEH"
+      }
+    ],
+    "effectiveDate": "2023-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-gdl-hours-tot-ca-2",
+    "category": "gdl-teen",
+    "stateScope": [
+      "CA"
+    ],
+    "tags": [
+      "gdl-permit-rules"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "supervisedHoursTotal",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-gdl-hours-tot",
+    "templateVersion": 1,
+    "prompt": "A California driver is reviewing the total supervised practice requirement. Select the accurate answer.",
+    "options": [
+      "60 hours",
+      "40 hours",
+      "30 hours",
+      "50 hours"
+    ],
+    "correctIndex": 3,
+    "explanation": "Use the official California citation on this question when checking the total supervised practice requirement.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "California Legislative Information",
+        "citation": "Cal. Veh. Code § 12814.6",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=12814.6.&lawCode=VEH"
+      }
+    ],
+    "effectiveDate": "2023-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-gdl-hours-night-ca-1",
+    "category": "gdl-teen",
+    "stateScope": [
+      "CA"
+    ],
+    "tags": [
+      "gdl-permit-rules"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "supervisedHoursNight",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-gdl-hours-night",
+    "templateVersion": 1,
+    "prompt": "What should a learner know about the supervised night-practice requirement under California law?",
+    "options": [
+      "8 hours",
+      "10 hours",
+      "5 hours",
+      "12 hours"
+    ],
+    "correctIndex": 1,
+    "explanation": "The cited California rule sets the supervised night-practice requirement as shown in the correct answer.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "California Legislative Information",
+        "citation": "Cal. Veh. Code § 12814.6",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=12814.6.&lawCode=VEH"
+      }
+    ],
+    "effectiveDate": "2023-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-gdl-hours-night-ca-2",
+    "category": "gdl-teen",
+    "stateScope": [
+      "CA"
+    ],
+    "tags": [
+      "gdl-permit-rules"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "supervisedHoursNight",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-gdl-hours-night",
+    "templateVersion": 1,
+    "prompt": "In California, which statement correctly describes the supervised night-practice requirement?",
+    "options": [
+      "8 hours",
+      "5 hours",
+      "10 hours",
+      "12 hours"
+    ],
+    "correctIndex": 2,
+    "explanation": "The cited California rule sets the supervised night-practice requirement as shown in the correct answer.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "California Legislative Information",
+        "citation": "Cal. Veh. Code § 12814.6",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=12814.6.&lawCode=VEH"
+      }
+    ],
+    "effectiveDate": "2023-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-gdl-curfew-ca-1",
+    "category": "gdl-teen",
+    "stateScope": [
+      "CA"
+    ],
+    "tags": [
+      "gdl-to-full-license"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "gdlNightCurfew",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-gdl-curfew",
+    "templateVersion": 1,
+    "prompt": "What should a learner know about the provisional-license night restriction under California law?",
+    "options": [
+      "No driving from 12 AM to 6 AM.",
+      "No driving from 11 PM to 6 AM.",
+      "No driving from 9 PM to 5 AM.",
+      "No driving from 11 PM to 5 AM."
+    ],
+    "correctIndex": 3,
+    "explanation": "This answer follows the verified gdlNightCurfew record for California; conditions in that record still apply.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "California Legislative Information",
+        "citation": "Cal. Veh. Code § 12814.6",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=12814.6.&lawCode=VEH"
+      }
+    ],
+    "effectiveDate": "2023-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-gdl-curfew-ca-2",
+    "category": "gdl-teen",
+    "stateScope": [
+      "CA"
+    ],
+    "tags": [
+      "gdl-to-full-license"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "gdlNightCurfew",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-gdl-curfew",
+    "templateVersion": 1,
+    "prompt": "In California, which statement correctly describes the provisional-license night restriction?",
+    "options": [
+      "No driving from 12 AM to 6 AM.",
+      "No driving from 12 AM to 5 AM.",
+      "No driving from 11 PM to 5 AM.",
+      "No driving from 9 PM to 5 AM."
+    ],
+    "correctIndex": 2,
+    "explanation": "Use the official California citation on this question when checking the provisional-license night restriction.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "California Legislative Information",
+        "citation": "Cal. Veh. Code § 12814.6",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=12814.6.&lawCode=VEH"
+      }
+    ],
+    "effectiveDate": "2023-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-gdl-passenger-ca-1",
+    "category": "gdl-teen",
+    "stateScope": [
+      "CA"
+    ],
+    "tags": [
+      "gdl-to-full-license"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "gdlPassengerPhase1",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-gdl-passenger",
+    "templateVersion": 1,
+    "prompt": "What should a learner know about the initial GDL passenger restriction under California law?",
+    "options": [
+      "1 passenger under 21; family exemption: yes.",
+      "2 passengers under 21; family exemption: yes.",
+      "0 passengers under 20; family exemption: yes.",
+      "1 passenger under 18; family exemption: no."
+    ],
+    "correctIndex": 2,
+    "explanation": "The cited California rule sets the initial GDL passenger restriction as shown in the correct answer.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "California Legislative Information",
+        "citation": "Cal. Veh. Code § 12814.6",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=12814.6.&lawCode=VEH"
+      }
+    ],
+    "effectiveDate": "2023-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-gdl-passenger-ca-2",
+    "category": "gdl-teen",
+    "stateScope": [
+      "CA"
+    ],
+    "tags": [
+      "gdl-to-full-license"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "gdlPassengerPhase1",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-gdl-passenger",
+    "templateVersion": 1,
+    "prompt": "In California, which statement correctly describes the initial GDL passenger restriction?",
+    "options": [
+      "2 passengers under 20; family exemption: no.",
+      "0 passengers under 20; family exemption: yes.",
+      "2 passengers under 21; family exemption: yes.",
+      "1 passenger under 21; family exemption: yes."
+    ],
+    "correctIndex": 1,
+    "explanation": "Use the official California citation on this question when checking the initial GDL passenger restriction.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "California Legislative Information",
+        "citation": "Cal. Veh. Code § 12814.6",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=12814.6.&lawCode=VEH"
+      }
+    ],
+    "effectiveDate": "2023-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  }
+]

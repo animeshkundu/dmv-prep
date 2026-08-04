@@ -10,9 +10,9 @@
     {
       "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
       "handbook": true,
-      "sha256": "36ee2ddc2e90f9ba9bd4933746a88bcd2d8e9705ce98c92b464f8488795c46d7",
       "contentType": "application/pdf",
-      "status": 200
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
     },
     {
       "url": "https://oklahoma.gov/service/all-pages/driver-education.html",
@@ -26,6 +26,5 @@
       "contentType": "text/html",
       "status": 200
     }
-  ],
-  "handbookSnapshotHash": "36ee2ddc2e90f9ba9bd4933746a88bcd2d8e9705ce98c92b464f8488795c46d7"
+  ]
 }

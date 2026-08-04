@@ -15,14 +15,36 @@ import { getVerifiedFact, statusEligibility, factInputHash } from './facts.mjs';
 import { buildSalt, saltedIndex, saltedSample } from './salts.mjs';
 
 const REQUIRED_OPTION_COUNT = 4; // 1 correct + 3 distractors, per §4.2/§4.3
+const PLACEHOLDER_TEXT = /\boption\s+(?:text\s+for\s+)?[a-z0-9]+\s+(?:which\s+is\s+)?plausible\b|\[object Object\]|fake png content|lorem ipsum/i;
+
+function invalidOptionReason(options, correctIndex) {
+  if (
+    options.some(
+      (option) =>
+        typeof option !== 'string' ||
+        option.trim().length === 0 ||
+        PLACEHOLDER_TEXT.test(option),
+    )
+  ) {
+    return 'placeholder-option-content';
+  }
+
+  const lengths = options.map((option) => option.length);
+  const longest = Math.max(...lengths);
+  if (lengths[correctIndex] === longest && lengths.filter((length) => length === longest).length === 1) {
+    return 'option-length-parity';
+  }
+
+  return undefined;
+}
 
 /** Builds the read-only context object a template's callbacks receive. */
-export function buildCtx(state) {
+export function buildCtx(state, facts = {}) {
   return {
     code: state.code,
     name: state.name,
     agencyShort: state.agencyShort,
-    facts: state.typedFacts ?? {},
+    facts,
   };
 }
 
@@ -36,11 +58,6 @@ export function buildCtx(state) {
  * required factKey to `{ fact }`, or `{ eligible: false, reason, factKey }`.
  */
 export function evaluateTemplateForState(template, state) {
-  const ctx = buildCtx(state);
-  if (typeof template.appliesTo === 'function' && !template.appliesTo(ctx)) {
-    return { eligible: false, reason: 'template-not-applicable' };
-  }
-
   const factsUsed = {};
   for (const factKey of template.requires) {
     const verified = getVerifiedFact(state, factKey);
@@ -53,6 +70,24 @@ export function evaluateTemplateForState(template, state) {
     }
     factsUsed[factKey] = { fact: verified.fact };
   }
+
+  // Sibling values may only remove a distractor when they independently pass
+  // the same verified-fact gate. They are still ledgered so their changes
+  // invalidate dependent output.
+  for (const factKey of template.siblingFactKeys ?? []) {
+    if (factsUsed[factKey]) continue;
+    const verified = getVerifiedFact(state, factKey);
+    if (!verified.ok || verified.fact.state.status !== 'value') continue;
+    factsUsed[factKey] = { fact: verified.fact };
+  }
+
+  const ctx = buildCtx(
+    state,
+    Object.fromEntries(Object.entries(factsUsed).map(([key, value]) => [key, value.fact])),
+  );
+  if (typeof template.appliesTo === 'function' && !template.appliesTo(ctx)) {
+    return { eligible: false, reason: 'template-not-applicable' };
+  }
   return { eligible: true, factsUsed };
 }
 
@@ -63,10 +98,20 @@ export function evaluateTemplateForState(template, state) {
  * correct value) is reported rather than padded with a fabricated option.
  */
 export function buildInstances(template, state, factsUsed) {
-  const ctx = buildCtx(state);
+  const ctx = buildCtx(
+    state,
+    Object.fromEntries(Object.entries(factsUsed).map(([key, value]) => [key, value.fact])),
+  );
   const rows = [];
   let shortfallCount = 0;
   let shortfallReason;
+  const shortfallCounts = new Map();
+
+  const recordShortfall = (reason) => {
+    shortfallCount += 1;
+    shortfallReason ??= reason;
+    shortfallCounts.set(reason, (shortfallCounts.get(reason) ?? 0) + 1);
+  };
 
   for (let n = 1; n <= template.instancesPerState; n++) {
     const id = `${template.id}-${state.code.toLowerCase()}-${n}`;
@@ -75,8 +120,7 @@ export function buildInstances(template, state, factsUsed) {
     const neededDistractors = REQUIRED_OPTION_COUNT - 1;
 
     if (distractorPool.length < neededDistractors) {
-      shortfallCount += 1;
-      shortfallReason = 'insufficient-distractor-pool';
+      recordShortfall('insufficient-distractor-pool');
       continue;
     }
 
@@ -97,6 +141,11 @@ export function buildInstances(template, state, factsUsed) {
     // (not reimplemented), seeded so the order is deterministic per instance.
     const options = shuffle([correct, ...distractors], buildSalt(template.id, state.code, n, 'options'));
     const correctIndex = options.indexOf(correct);
+    const optionReason = invalidOptionReason(options, correctIndex);
+    if (optionReason) {
+      recordShortfall(optionReason);
+      continue;
+    }
 
     const primaryClaim = template.claims.find((c) => c.usage === 'correct-answer') ?? template.claims[0];
     const primaryFact = primaryClaim ? factsUsed[primaryClaim.factKey]?.fact : undefined;
@@ -123,7 +172,11 @@ export function buildInstances(template, state, factsUsed) {
       references: primaryFact ? [primaryFact.citation] : [],
       effectiveDate: primaryFact?.effectiveDate,
       lastVerified: primaryFact?.lastVerified,
-      reviewStatus: 'adversarially-verified',
+      // A confirmed template review does not make every emitted fact instance
+      // a separately reviewed question row. The fact citation remains
+      // verified, while the generated wording stays explicitly auditable.
+      reviewStatus: 'draft',
+      verifyNote: 'Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.',
       contentVersion: 1,
     };
 
@@ -138,7 +191,12 @@ export function buildInstances(template, state, factsUsed) {
     });
   }
 
-  return { rows, shortfallCount, shortfallReason };
+  return {
+    rows,
+    shortfallCount,
+    shortfallReason,
+    shortfalls: [...shortfallCounts].map(([reason, count]) => ({ reason, count })),
+  };
 }
 
 /**
@@ -218,11 +276,21 @@ export function generateForState({ state, templates, allocation }) {
       }
       actual += built.rows.length;
 
-      if (built.shortfallCount > 0) {
-        const reason = built.shortfallReason ?? 'insufficient-distractor-pool';
-        shortfalls.push({ category, templateId: entry.id, reason, count: built.shortfallCount });
+      for (const shortfall of built.shortfalls) {
+        shortfalls.push({
+          category,
+          templateId: entry.id,
+          reason: shortfall.reason,
+          count: shortfall.count,
+        });
         for (const tag of template.tags) {
-          tagShortfalls.push({ tag, templateId: entry.id, category, count: built.shortfallCount, reason });
+          tagShortfalls.push({
+            tag,
+            templateId: entry.id,
+            category,
+            count: shortfall.count,
+            reason: shortfall.reason,
+          });
         }
       }
     }

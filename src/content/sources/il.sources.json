@@ -105,12 +105,12 @@
     },
     {
       "url": "https://www.ilsos.gov/departments/drivers/drivers_license/home.html",
-      "error": "fetch failed: The operation was aborted due to timeout"
+      "error": "fetch failed: fetch failed"
     },
     {
       "url": "https://www.ilsos.gov/publications/pdf_publications/dsd_a112.pdf",
       "handbook": true,
-      "error": "fetch failed: The operation was aborted due to timeout"
+      "error": "fetch failed: fetch failed"
     }
   ]
 }

@@ -1,0 +1,90 @@
+[
+  {
+    "id": "tpl-penalties-liab-ma-1",
+    "category": "penalties-points",
+    "stateScope": [
+      "MA"
+    ],
+    "tags": [
+      "collision-insurance-reporting"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "minLiability",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-penalties-liab",
+    "templateVersion": 1,
+    "prompt": "A Massachusetts driver is reviewing the minimum liability coverage per person / crash / property. Select the accurate answer.",
+    "options": [
+      "$100,000 / $300,000 / $100,000",
+      "$ 15,000 / $ 30,000 / $  5,000",
+      "$ 25,000 / $ 50,000 / $ 10,000",
+      "$ 25,000 / $ 50,000 / $ 30,000"
+    ],
+    "correctIndex": 3,
+    "explanation": "Use the official Massachusetts citation on this question when checking the minimum liability coverage per person / crash / property.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "M.G.L. c. 90, §§ 34A, 34O",
+        "citation": "Mass. Gen. Laws ch. 90, §§ 34A, 34O (as amended by St. 2024, c. 275, § 4)",
+        "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXIV/Chapter90/Section34O"
+      }
+    ],
+    "effectiveDate": "2025-07-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-penalties-liab-ma-2",
+    "category": "penalties-points",
+    "stateScope": [
+      "MA"
+    ],
+    "tags": [
+      "collision-insurance-reporting"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "minLiability",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-penalties-liab",
+    "templateVersion": 1,
+    "prompt": "Choose the rule that applies to the minimum liability coverage per person / crash / property in Massachusetts.",
+    "options": [
+      "$ 25,000 / $ 50,000 / $ 25,000",
+      "$ 30,000 / $ 60,000 / $ 15,000",
+      "$100,000 / $300,000 / $100,000",
+      "$ 25,000 / $ 50,000 / $ 30,000"
+    ],
+    "correctIndex": 3,
+    "explanation": "The cited Massachusetts rule sets the minimum liability coverage per person / crash / property as shown in the correct answer.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "M.G.L. c. 90, §§ 34A, 34O",
+        "citation": "Mass. Gen. Laws ch. 90, §§ 34A, 34O (as amended by St. 2024, c. 275, § 4)",
+        "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXIV/Chapter90/Section34O"
+      }
+    ],
+    "effectiveDate": "2025-07-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  }
+]

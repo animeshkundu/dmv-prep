@@ -1,0 +1,1674 @@
+[
+  {
+    "id": "tpl-signals-right-on-red-nj-1",
+    "category": "traffic-signals",
+    "stateScope": [
+      "NJ"
+    ],
+    "tags": [
+      "signal-steady"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "rightTurnOnRed",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-signals-right-on-red",
+    "templateVersion": 1,
+    "prompt": "A New Jersey driver is reviewing the right turn at a steady red signal. Select the accurate answer.",
+    "options": [
+      "Turn only when an officer waves you through.",
+      "Yield first, then turn without making a complete stop.",
+      "Remain stopped until the signal changes.",
+      "After stopping, turn when the way is clear."
+    ],
+    "correctIndex": 3,
+    "explanation": "The cited New Jersey rule sets the right turn at a steady red signal as shown in the correct answer.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Turns at intersections; right turn on red, as amended by P.L.2009, c.319 (effective the first day of the third month after the January 18, 2010 approval)",
+        "citation": "N.J.S.A. 39:4-115 (P.L.2009, c.319, s.3)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2008/AL09/319_.PDF"
+      }
+    ],
+    "effectiveDate": "2010-04-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-signals-right-on-red-nj-2",
+    "category": "traffic-signals",
+    "stateScope": [
+      "NJ"
+    ],
+    "tags": [
+      "signal-steady"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "rightTurnOnRed",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-signals-right-on-red",
+    "templateVersion": 1,
+    "prompt": "Choose the rule that applies to the right turn at a steady red signal in New Jersey.",
+    "options": [
+      "Wait for a green arrow before starting your turn.",
+      "Turn without making a full stop.",
+      "After stopping, turn when the way is clear.",
+      "Remain stopped until the signal changes."
+    ],
+    "correctIndex": 2,
+    "explanation": "The cited New Jersey rule sets the right turn at a steady red signal as shown in the correct answer.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Turns at intersections; right turn on red, as amended by P.L.2009, c.319 (effective the first day of the third month after the January 18, 2010 approval)",
+        "citation": "N.J.S.A. 39:4-115 (P.L.2009, c.319, s.3)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2008/AL09/319_.PDF"
+      }
+    ],
+    "effectiveDate": "2010-04-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-row-left-on-red-nj-1",
+    "category": "right-of-way",
+    "stateScope": [
+      "NJ"
+    ],
+    "tags": [
+      "row-left-turns"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "leftTurnOnRedFromOneWay",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-row-left-on-red",
+    "templateVersion": 1,
+    "prompt": "A New Jersey driver is reviewing the left turn on red from one one-way street to another. Select the accurate answer.",
+    "options": [
+      "Turn only when a sign permits it.",
+      "Treat the red signal as a yield sign.",
+      "Turn only after a green arrow appears for your lane.",
+      "Remain stopped until the signal changes."
+    ],
+    "correctIndex": 3,
+    "explanation": "This answer follows the verified leftTurnOnRedFromOneWay record for New Jersey; conditions in that record still apply.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Turns at intersections; right turn on red, as amended by P.L.2009, c.319 (effective the first day of the third month after the January 18, 2010 approval)",
+        "citation": "N.J.S.A. 39:4-115 (P.L.2009, c.319, s.3)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2008/AL09/319_.PDF"
+      }
+    ],
+    "effectiveDate": "2010-04-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-row-left-on-red-nj-2",
+    "category": "right-of-way",
+    "stateScope": [
+      "NJ"
+    ],
+    "tags": [
+      "row-left-turns"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "leftTurnOnRedFromOneWay",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-row-left-on-red",
+    "templateVersion": 1,
+    "prompt": "Choose the rule that applies to the left turn on red from one one-way street to another in New Jersey.",
+    "options": [
+      "Wait for an officer to direct the entire turn movement.",
+      "Turn without stopping if the road is empty.",
+      "Remain stopped until the signal changes.",
+      "Turn only after a green arrow appears for your lane."
+    ],
+    "correctIndex": 2,
+    "explanation": "Use the official New Jersey citation on this question when checking the left turn on red from one one-way street to another.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Turns at intersections; right turn on red, as amended by P.L.2009, c.319 (effective the first day of the third month after the January 18, 2010 approval)",
+        "citation": "N.J.S.A. 39:4-115 (P.L.2009, c.319, s.3)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2008/AL09/319_.PDF"
+      }
+    ],
+    "effectiveDate": "2010-04-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-row-move-over-nj-1",
+    "category": "right-of-way",
+    "stateScope": [
+      "NJ"
+    ],
+    "tags": [
+      "row-emergency-vehicles"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "moveOver",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-row-move-over",
+    "templateVersion": 1,
+    "prompt": "In New Jersey, which statement correctly describes the approach to a stopped covered roadside vehicle?",
+    "options": [
+      "Change lanes whenever it is safely possible.",
+      "Pass closely to avoid delaying traffic.",
+      "Change lanes if safe; otherwise slow down.",
+      "Stop beside the roadside vehicle."
+    ],
+    "correctIndex": 2,
+    "explanation": "Use the official New Jersey citation on this question when checking the approach to a stopped covered roadside vehicle.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Approaching stationary vehicles; move over, as amended by P.L.2025, c.248 (approved and effective January 12, 2026)",
+        "citation": "N.J.S.A. 39:4-92.2 (P.L.2025, c.248, s.1)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2024/AL25/248_.PDF"
+      }
+    ],
+    "effectiveDate": "2026-01-12",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-row-move-over-nj-2",
+    "category": "right-of-way",
+    "stateScope": [
+      "NJ"
+    ],
+    "tags": [
+      "row-emergency-vehicles"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "moveOver",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-row-move-over",
+    "templateVersion": 1,
+    "prompt": "What should a learner know about the approach to a stopped covered roadside vehicle under New Jersey law?",
+    "options": [
+      "Slow down only; changing lanes is optional.",
+      "Keep speed and lane unless traffic stops.",
+      "Change lanes if safe; otherwise slow down.",
+      "Pass closely to avoid delaying traffic."
+    ],
+    "correctIndex": 2,
+    "explanation": "The cited New Jersey rule sets the approach to a stopped covered roadside vehicle as shown in the correct answer.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Approaching stationary vehicles; move over, as amended by P.L.2025, c.248 (approved and effective January 12, 2026)",
+        "citation": "N.J.S.A. 39:4-92.2 (P.L.2025, c.248, s.1)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2024/AL25/248_.PDF"
+      }
+    ],
+    "effectiveDate": "2026-01-12",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-park-stop-sign-nj-1",
+    "category": "parking",
+    "stateScope": [
+      "NJ"
+    ],
+    "tags": [
+      "parking-prohibited"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "parkFtFromStopSign",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-park-stop-sign",
+    "templateVersion": 1,
+    "prompt": "In New Jersey, which statement correctly describes the stop-sign parking distance?",
+    "options": [
+      "50 feet",
+      "100 feet",
+      "30 feet",
+      "25 feet"
+    ],
+    "correctIndex": 0,
+    "explanation": "This answer follows the verified parkFtFromStopSign record for New Jersey; conditions in that record still apply.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Places where parking prohibited, as amended by P.L.2025, c.155 (approved and effective November 13, 2025)",
+        "citation": "N.J.S.A. 39:4-138 (P.L.2025, c.155, s.2)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2024/AL25/155_.PDF"
+      }
+    ],
+    "effectiveDate": "2025-11-13",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-park-stop-sign-nj-2",
+    "category": "parking",
+    "stateScope": [
+      "NJ"
+    ],
+    "tags": [
+      "parking-prohibited"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "parkFtFromStopSign",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-park-stop-sign",
+    "templateVersion": 1,
+    "prompt": "What should a learner know about the stop-sign parking distance under New Jersey law?",
+    "options": [
+      "30 feet",
+      "100 feet",
+      "50 feet",
+      "25 feet"
+    ],
+    "correctIndex": 2,
+    "explanation": "The cited New Jersey rule sets the stop-sign parking distance as shown in the correct answer.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Places where parking prohibited, as amended by P.L.2025, c.155 (approved and effective November 13, 2025)",
+        "citation": "N.J.S.A. 39:4-138 (P.L.2025, c.155, s.2)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2024/AL25/155_.PDF"
+      }
+    ],
+    "effectiveDate": "2025-11-13",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-park-railroad-nj-1",
+    "category": "parking",
+    "stateScope": [
+      "NJ"
+    ],
+    "tags": [
+      "parking-prohibited"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "parkFtFromRailroad",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-park-railroad",
+    "templateVersion": 1,
+    "prompt": "Choose the rule that applies to the railroad-crossing parking distance in New Jersey.",
+    "options": [
+      "25 feet",
+      "100 feet",
+      "50 feet",
+      "30 feet"
+    ],
+    "correctIndex": 2,
+    "explanation": "The cited New Jersey rule sets the railroad-crossing parking distance as shown in the correct answer.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Places where parking prohibited, as amended by P.L.2025, c.155 (approved and effective November 13, 2025)",
+        "citation": "N.J.S.A. 39:4-138 (P.L.2025, c.155, s.2)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2024/AL25/155_.PDF"
+      }
+    ],
+    "effectiveDate": "2025-11-13",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-speed-school-1-nj-1",
+    "category": "speed-limits",
+    "stateScope": [
+      "NJ"
+    ],
+    "tags": [
+      "speed-school-work-zones"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "schoolZoneMph",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-speed-school-1",
+    "templateVersion": 1,
+    "prompt": "What should a learner know about the school-zone speed where the cited conditions apply under New Jersey law?",
+    "options": [
+      "15 mph",
+      "30 mph",
+      "20 mph",
+      "25 mph"
+    ],
+    "correctIndex": 3,
+    "explanation": "The cited New Jersey rule sets the school-zone speed where the cited conditions apply as shown in the correct answer.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Rates of speed, as amended by P.L.2019, c.5 (approved and effective January 31, 2019)",
+        "citation": "N.J.S.A. 39:4-98 (P.L.2019, c.5, s.4)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2018/AL19/5_.PDF"
+      }
+    ],
+    "effectiveDate": "2019-01-31",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-speed-school-1-nj-2",
+    "category": "speed-limits",
+    "stateScope": [
+      "NJ"
+    ],
+    "tags": [
+      "speed-school-work-zones"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "schoolZoneMph",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-speed-school-1",
+    "templateVersion": 1,
+    "prompt": "In New Jersey, which statement correctly describes the school-zone speed where the cited conditions apply?",
+    "options": [
+      "20 mph",
+      "25 mph",
+      "30 mph",
+      "15 mph"
+    ],
+    "correctIndex": 1,
+    "explanation": "This answer follows the verified schoolZoneMph record for New Jersey; conditions in that record still apply.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Rates of speed, as amended by P.L.2019, c.5 (approved and effective January 31, 2019)",
+        "citation": "N.J.S.A. 39:4-98 (P.L.2019, c.5, s.4)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2018/AL19/5_.PDF"
+      }
+    ],
+    "effectiveDate": "2019-01-31",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-speed-school-2-nj-1",
+    "category": "speed-limits",
+    "stateScope": [
+      "NJ"
+    ],
+    "tags": [
+      "speed-school-work-zones"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "schoolZoneMph",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-speed-school-2",
+    "templateVersion": 1,
+    "prompt": "Choose the rule that applies to the posted school-zone speed under the cited conditions in New Jersey.",
+    "options": [
+      "15 mph",
+      "20 mph",
+      "25 mph",
+      "30 mph"
+    ],
+    "correctIndex": 2,
+    "explanation": "The cited New Jersey rule sets the posted school-zone speed under the cited conditions as shown in the correct answer.",
+    "difficulty": "hard",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Rates of speed, as amended by P.L.2019, c.5 (approved and effective January 31, 2019)",
+        "citation": "N.J.S.A. 39:4-98 (P.L.2019, c.5, s.4)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2018/AL19/5_.PDF"
+      }
+    ],
+    "effectiveDate": "2019-01-31",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-speed-school-2-nj-2",
+    "category": "speed-limits",
+    "stateScope": [
+      "NJ"
+    ],
+    "tags": [
+      "speed-school-work-zones"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "schoolZoneMph",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-speed-school-2",
+    "templateVersion": 1,
+    "prompt": "A New Jersey driver is reviewing the posted school-zone speed under the cited conditions. Select the accurate answer.",
+    "options": [
+      "25 mph",
+      "30 mph",
+      "20 mph",
+      "15 mph"
+    ],
+    "correctIndex": 0,
+    "explanation": "This answer follows the verified schoolZoneMph record for New Jersey; conditions in that record still apply.",
+    "difficulty": "hard",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Rates of speed, as amended by P.L.2019, c.5 (approved and effective January 31, 2019)",
+        "citation": "N.J.S.A. 39:4-98 (P.L.2019, c.5, s.4)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2018/AL19/5_.PDF"
+      }
+    ],
+    "effectiveDate": "2019-01-31",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-speed-basic-1-nj-1",
+    "category": "speed-limits",
+    "stateScope": [
+      "NJ"
+    ],
+    "tags": [
+      "speed-basic-law"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "basicSpeedLaw",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-speed-basic-1",
+    "templateVersion": 1,
+    "prompt": "A New Jersey driver is reviewing the basic-speed rule. Select the accurate answer.",
+    "options": [
+      "Stop whenever conditions begin changing.",
+      "Travel at the posted limit in all conditions.",
+      "The rule applies statewide.",
+      "Match the speed of the fastest nearby vehicle."
+    ],
+    "correctIndex": 2,
+    "explanation": "The cited New Jersey rule sets the basic-speed rule as shown in the correct answer.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Rates of speed, as amended by P.L.2019, c.5 (approved and effective January 31, 2019)",
+        "citation": "N.J.S.A. 39:4-98 (P.L.2019, c.5, s.4)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2018/AL19/5_.PDF"
+      }
+    ],
+    "effectiveDate": "2019-01-31",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-speed-basic-1-nj-2",
+    "category": "speed-limits",
+    "stateScope": [
+      "NJ"
+    ],
+    "tags": [
+      "speed-basic-law"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "basicSpeedLaw",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-speed-basic-1",
+    "templateVersion": 1,
+    "prompt": "Choose the rule that applies to the basic-speed rule in New Jersey.",
+    "options": [
+      "Stop whenever conditions begin changing.",
+      "The rule applies statewide.",
+      "Travel at the posted limit in all conditions.",
+      "Match the speed of the fastest nearby vehicle."
+    ],
+    "correctIndex": 1,
+    "explanation": "Use the official New Jersey citation on this question when checking the basic-speed rule.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Rates of speed, as amended by P.L.2019, c.5 (approved and effective January 31, 2019)",
+        "citation": "N.J.S.A. 39:4-98 (P.L.2019, c.5, s.4)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2018/AL19/5_.PDF"
+      }
+    ],
+    "effectiveDate": "2019-01-31",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-dui-adult-1-nj-1",
+    "category": "alcohol-drugs",
+    "stateScope": [
+      "NJ"
+    ],
+    "tags": [
+      "alcohol-impairment-bac"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "bacAdult",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-dui-adult-1",
+    "templateVersion": 1,
+    "prompt": "Choose the rule that applies to the adult per se BAC limit in New Jersey.",
+    "options": [
+      "0.10%",
+      "0.04%",
+      "0.05%",
+      "0.08%"
+    ],
+    "correctIndex": 3,
+    "explanation": "The cited New Jersey rule sets the adult per se BAC limit as shown in the correct answer.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "“Florence's Law”, lowering the per se limit to 0.08%, approved and effective January 20, 2004",
+        "citation": "N.J.S.A. 39:4-50 (P.L.2003, c.314, s.2)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2002/AL03/314_.PDF"
+      }
+    ],
+    "effectiveDate": "2004-01-20",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-dui-adult-1-nj-2",
+    "category": "alcohol-drugs",
+    "stateScope": [
+      "NJ"
+    ],
+    "tags": [
+      "alcohol-impairment-bac"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "bacAdult",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-dui-adult-1",
+    "templateVersion": 1,
+    "prompt": "A New Jersey driver is reviewing the adult per se BAC limit. Select the accurate answer.",
+    "options": [
+      "0.08%",
+      "0.10%",
+      "0.05%",
+      "0.04%"
+    ],
+    "correctIndex": 0,
+    "explanation": "The cited New Jersey rule sets the adult per se BAC limit as shown in the correct answer.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "“Florence's Law”, lowering the per se limit to 0.08%, approved and effective January 20, 2004",
+        "citation": "N.J.S.A. 39:4-50 (P.L.2003, c.314, s.2)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2002/AL03/314_.PDF"
+      }
+    ],
+    "effectiveDate": "2004-01-20",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-dui-adult-2-nj-1",
+    "category": "alcohol-drugs",
+    "stateScope": [
+      "NJ"
+    ],
+    "tags": [
+      "alcohol-impairment-bac"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "bacAdult",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-dui-adult-2",
+    "templateVersion": 1,
+    "prompt": "What should a learner know about the adult alcohol concentration that establishes per se impairment under New Jersey law?",
+    "options": [
+      "0.10%",
+      "0.04%",
+      "0.08%",
+      "0.05%"
+    ],
+    "correctIndex": 2,
+    "explanation": "The cited New Jersey rule sets the adult alcohol concentration that establishes per se impairment as shown in the correct answer.",
+    "difficulty": "hard",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "“Florence's Law”, lowering the per se limit to 0.08%, approved and effective January 20, 2004",
+        "citation": "N.J.S.A. 39:4-50 (P.L.2003, c.314, s.2)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2002/AL03/314_.PDF"
+      }
+    ],
+    "effectiveDate": "2004-01-20",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-dui-adult-2-nj-2",
+    "category": "alcohol-drugs",
+    "stateScope": [
+      "NJ"
+    ],
+    "tags": [
+      "alcohol-impairment-bac"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "bacAdult",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-dui-adult-2",
+    "templateVersion": 1,
+    "prompt": "In New Jersey, which statement correctly describes the adult alcohol concentration that establishes per se impairment?",
+    "options": [
+      "0.04%",
+      "0.05%",
+      "0.08%",
+      "0.10%"
+    ],
+    "correctIndex": 2,
+    "explanation": "This answer follows the verified bacAdult record for New Jersey; conditions in that record still apply.",
+    "difficulty": "hard",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "“Florence's Law”, lowering the per se limit to 0.08%, approved and effective January 20, 2004",
+        "citation": "N.J.S.A. 39:4-50 (P.L.2003, c.314, s.2)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2002/AL03/314_.PDF"
+      }
+    ],
+    "effectiveDate": "2004-01-20",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-dui-open-nj-1",
+    "category": "alcohol-drugs",
+    "stateScope": [
+      "NJ"
+    ],
+    "tags": [
+      "alcohol-implied-consent"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "openContainerProhibited",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-dui-open",
+    "templateVersion": 1,
+    "prompt": "Choose the rule that applies to the open-container rule in New Jersey.",
+    "options": [
+      "The rule applies only to commercial vehicles.",
+      "The rule applies only in school zones.",
+      "The rule applies statewide.",
+      "The rule applies only on rural highways."
+    ],
+    "correctIndex": 2,
+    "explanation": "Use the official New Jersey citation on this question when checking the open-container rule.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Consumption of alcoholic beverage in motor vehicle; possession of open container, enacted by P.L.2000, c.83 (approved and, as to this section, effective August 14, 2000)",
+        "citation": "N.J.S.A. 39:4-51b (L.2000, c.83, s.6)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2000/AL00/83_.PDF"
+      }
+    ],
+    "effectiveDate": "2000-08-14",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-dui-open-nj-2",
+    "category": "alcohol-drugs",
+    "stateScope": [
+      "NJ"
+    ],
+    "tags": [
+      "alcohol-implied-consent"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "openContainerProhibited",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-dui-open",
+    "templateVersion": 1,
+    "prompt": "A New Jersey driver is reviewing the open-container rule. Select the accurate answer.",
+    "options": [
+      "The rule applies statewide.",
+      "The rule applies only after a crash.",
+      "No statewide rule applies.",
+      "The rule applies only in school zones."
+    ],
+    "correctIndex": 0,
+    "explanation": "Use the official New Jersey citation on this question when checking the open-container rule.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Consumption of alcoholic beverage in motor vehicle; possession of open container, enacted by P.L.2000, c.83 (approved and, as to this section, effective August 14, 2000)",
+        "citation": "N.J.S.A. 39:4-51b (L.2000, c.83, s.6)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2000/AL00/83_.PDF"
+      }
+    ],
+    "effectiveDate": "2000-08-14",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-law-phone-nj-1",
+    "category": "traffic-laws",
+    "stateScope": [
+      "NJ"
+    ],
+    "tags": [
+      "safe-distraction-fatigue"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "handheldPhone",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-law-phone",
+    "templateVersion": 1,
+    "prompt": "Choose the rule that applies to the handheld-phone policy in New Jersey.",
+    "options": [
+      "All drivers: phone holding is barred.",
+      "New drivers: phone holding is barred.",
+      "Truck drivers: phone holding is barred.",
+      "Emergency use: phone holding is allowed."
+    ],
+    "correctIndex": 0,
+    "explanation": "Use the official New Jersey citation on this question when checking the handheld-phone policy.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Use of wireless telephones and electronic communication devices, as amended by P.L.2013, c.70 (effective the first day of the 13th month following the June 27, 2013 approval)",
+        "citation": "N.J.S.A. 39:4-97.3 (P.L.2013, c.70)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2012/AL13/70_.PDF"
+      }
+    ],
+    "effectiveDate": "2014-07-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-law-texting-nj-1",
+    "category": "traffic-laws",
+    "stateScope": [
+      "NJ"
+    ],
+    "tags": [
+      "safe-distraction-fatigue"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "texting",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-law-texting",
+    "templateVersion": 1,
+    "prompt": "What should a learner know about the manual-texting policy under New Jersey law?",
+    "options": [
+      "New drivers: manual texting is barred.",
+      "Truck drivers: manual texting is barred.",
+      "All drivers: manual texting is barred.",
+      "Drivers: manual texting is allowed."
+    ],
+    "correctIndex": 2,
+    "explanation": "This answer follows the verified texting record for New Jersey; conditions in that record still apply.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Use of wireless telephones and electronic communication devices, as amended by P.L.2013, c.70 (effective the first day of the 13th month following the June 27, 2013 approval)",
+        "citation": "N.J.S.A. 39:4-97.3 (P.L.2013, c.70)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2012/AL13/70_.PDF"
+      }
+    ],
+    "effectiveDate": "2014-07-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-law-texting-nj-2",
+    "category": "traffic-laws",
+    "stateScope": [
+      "NJ"
+    ],
+    "tags": [
+      "safe-distraction-fatigue"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "texting",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-law-texting",
+    "templateVersion": 1,
+    "prompt": "In New Jersey, which statement correctly describes the manual-texting policy?",
+    "options": [
+      "All drivers: manual texting is barred.",
+      "Truck drivers: manual texting is barred.",
+      "School-zone: manual texting is barred.",
+      "Emergency texts: manual use is allowed."
+    ],
+    "correctIndex": 0,
+    "explanation": "This answer follows the verified texting record for New Jersey; conditions in that record still apply.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Use of wireless telephones and electronic communication devices, as amended by P.L.2013, c.70 (effective the first day of the 13th month following the June 27, 2013 approval)",
+        "citation": "N.J.S.A. 39:4-97.3 (P.L.2013, c.70)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2012/AL13/70_.PDF"
+      }
+    ],
+    "effectiveDate": "2014-07-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-penalties-liab-nj-1",
+    "category": "penalties-points",
+    "stateScope": [
+      "NJ"
+    ],
+    "tags": [
+      "collision-insurance-reporting"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "minLiability",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-penalties-liab",
+    "templateVersion": 1,
+    "prompt": "What should a learner know about the minimum liability coverage per person / crash / property under New Jersey law?",
+    "options": [
+      "$ 50,000 / $100,000 / $ 50,000",
+      "$ 35,000 / $ 70,000 / $ 25,000",
+      "$ 30,000 / $ 60,000 / $ 15,000",
+      "$ 25,000 / $ 50,000 / $ 25,000"
+    ],
+    "correctIndex": 1,
+    "explanation": "This answer follows the verified minLiability record for New Jersey; conditions in that record still apply.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Maintenance of motor vehicle liability insurance coverage",
+        "citation": "N.J.S.A. 39:6B-1(a)",
+        "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1/32635"
+      }
+    ],
+    "effectiveDate": "2026-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-penalties-liab-nj-2",
+    "category": "penalties-points",
+    "stateScope": [
+      "NJ"
+    ],
+    "tags": [
+      "collision-insurance-reporting"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "minLiability",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-penalties-liab",
+    "templateVersion": 1,
+    "prompt": "In New Jersey, which statement correctly describes the minimum liability coverage per person / crash / property?",
+    "options": [
+      "$ 35,000 / $ 70,000 / $ 25,000",
+      "$ 15,000 / $ 30,000 / $  5,000",
+      "$ 50,000 / $100,000 / $ 50,000",
+      "$100,000 / $300,000 / $100,000"
+    ],
+    "correctIndex": 0,
+    "explanation": "Use the official New Jersey citation on this question when checking the minimum liability coverage per person / crash / property.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Maintenance of motor vehicle liability insurance coverage",
+        "citation": "N.J.S.A. 39:6B-1(a)",
+        "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1/32635"
+      }
+    ],
+    "effectiveDate": "2026-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-gdl-age-1-nj-1",
+    "category": "gdl-teen",
+    "stateScope": [
+      "NJ"
+    ],
+    "tags": [
+      "gdl-permit-rules"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "permitMinAgeMonths",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-gdl-age-1",
+    "templateVersion": 1,
+    "prompt": "Choose the rule that applies to the minimum permit age in months in New Jersey.",
+    "options": [
+      "198 months",
+      "186 months",
+      "192 months",
+      "180 months"
+    ],
+    "correctIndex": 2,
+    "explanation": "This answer follows the verified permitMinAgeMonths record for New Jersey; conditions in that record still apply.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Special learner's permit, as amended by P.L.2021, c.139 (approved and effective June 30, 2021)",
+        "citation": "N.J.S.A. 39:3-13.1 (P.L.2021, c.139, s.6)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2020/AL21/139_.PDF"
+      }
+    ],
+    "effectiveDate": "2021-06-30",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-gdl-age-1-nj-2",
+    "category": "gdl-teen",
+    "stateScope": [
+      "NJ"
+    ],
+    "tags": [
+      "gdl-permit-rules"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "permitMinAgeMonths",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-gdl-age-1",
+    "templateVersion": 1,
+    "prompt": "A New Jersey driver is reviewing the minimum permit age in months. Select the accurate answer.",
+    "options": [
+      "192 months",
+      "198 months",
+      "180 months",
+      "186 months"
+    ],
+    "correctIndex": 0,
+    "explanation": "This answer follows the verified permitMinAgeMonths record for New Jersey; conditions in that record still apply.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Special learner's permit, as amended by P.L.2021, c.139 (approved and effective June 30, 2021)",
+        "citation": "N.J.S.A. 39:3-13.1 (P.L.2021, c.139, s.6)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2020/AL21/139_.PDF"
+      }
+    ],
+    "effectiveDate": "2021-06-30",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-gdl-age-2-nj-1",
+    "category": "gdl-teen",
+    "stateScope": [
+      "NJ"
+    ],
+    "tags": [
+      "gdl-permit-rules"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "permitMinAgeMonths",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-gdl-age-2",
+    "templateVersion": 1,
+    "prompt": "What should a learner know about the permit-eligibility age in months under New Jersey law?",
+    "options": [
+      "198 months",
+      "186 months",
+      "192 months",
+      "180 months"
+    ],
+    "correctIndex": 2,
+    "explanation": "This answer follows the verified permitMinAgeMonths record for New Jersey; conditions in that record still apply.",
+    "difficulty": "hard",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Special learner's permit, as amended by P.L.2021, c.139 (approved and effective June 30, 2021)",
+        "citation": "N.J.S.A. 39:3-13.1 (P.L.2021, c.139, s.6)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2020/AL21/139_.PDF"
+      }
+    ],
+    "effectiveDate": "2021-06-30",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-gdl-age-2-nj-2",
+    "category": "gdl-teen",
+    "stateScope": [
+      "NJ"
+    ],
+    "tags": [
+      "gdl-permit-rules"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "permitMinAgeMonths",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-gdl-age-2",
+    "templateVersion": 1,
+    "prompt": "In New Jersey, which statement correctly describes the permit-eligibility age in months?",
+    "options": [
+      "180 months",
+      "186 months",
+      "198 months",
+      "192 months"
+    ],
+    "correctIndex": 3,
+    "explanation": "This answer follows the verified permitMinAgeMonths record for New Jersey; conditions in that record still apply.",
+    "difficulty": "hard",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Special learner's permit, as amended by P.L.2021, c.139 (approved and effective June 30, 2021)",
+        "citation": "N.J.S.A. 39:3-13.1 (P.L.2021, c.139, s.6)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2020/AL21/139_.PDF"
+      }
+    ],
+    "effectiveDate": "2021-06-30",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-gdl-holding-nj-1",
+    "category": "gdl-teen",
+    "stateScope": [
+      "NJ"
+    ],
+    "tags": [
+      "gdl-permit-rules"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "permitHoldingMonths",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-gdl-holding",
+    "templateVersion": 1,
+    "prompt": "In New Jersey, which statement correctly describes the permit holding period?",
+    "options": [
+      "1 months",
+      "6 months",
+      "9 months",
+      "3 months"
+    ],
+    "correctIndex": 1,
+    "explanation": "The cited New Jersey rule sets the permit holding period as shown in the correct answer.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Examination permits and special learner's permits, as amended by P.L.2023, c.216 (effective the first day of the 13th month after the January 8, 2024 approval)",
+        "citation": "N.J.S.A. 39:3-13.4 (P.L.2023, c.216, s.2)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2022/AL23/216_.PDF"
+      }
+    ],
+    "effectiveDate": "2025-02-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-gdl-holding-nj-2",
+    "category": "gdl-teen",
+    "stateScope": [
+      "NJ"
+    ],
+    "tags": [
+      "gdl-permit-rules"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "permitHoldingMonths",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-gdl-holding",
+    "templateVersion": 1,
+    "prompt": "What should a learner know about the permit holding period under New Jersey law?",
+    "options": [
+      "3 months",
+      "6 months",
+      "1 months",
+      "9 months"
+    ],
+    "correctIndex": 1,
+    "explanation": "The cited New Jersey rule sets the permit holding period as shown in the correct answer.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Examination permits and special learner's permits, as amended by P.L.2023, c.216 (effective the first day of the 13th month after the January 8, 2024 approval)",
+        "citation": "N.J.S.A. 39:3-13.4 (P.L.2023, c.216, s.2)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2022/AL23/216_.PDF"
+      }
+    ],
+    "effectiveDate": "2025-02-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-gdl-hours-tot-nj-1",
+    "category": "gdl-teen",
+    "stateScope": [
+      "NJ"
+    ],
+    "tags": [
+      "gdl-permit-rules"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "supervisedHoursTotal",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-gdl-hours-tot",
+    "templateVersion": 1,
+    "prompt": "Choose the rule that applies to the total supervised practice requirement in New Jersey.",
+    "options": [
+      "30 hours",
+      "60 hours",
+      "50 hours",
+      "40 hours"
+    ],
+    "correctIndex": 2,
+    "explanation": "This answer follows the verified supervisedHoursTotal record for New Jersey; conditions in that record still apply.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Examination permits and special learner's permits, as amended by P.L.2023, c.216 (effective the first day of the 13th month after the January 8, 2024 approval)",
+        "citation": "N.J.S.A. 39:3-13.4 (P.L.2023, c.216, s.2)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2022/AL23/216_.PDF"
+      }
+    ],
+    "effectiveDate": "2025-02-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-gdl-hours-tot-nj-2",
+    "category": "gdl-teen",
+    "stateScope": [
+      "NJ"
+    ],
+    "tags": [
+      "gdl-permit-rules"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "supervisedHoursTotal",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-gdl-hours-tot",
+    "templateVersion": 1,
+    "prompt": "A New Jersey driver is reviewing the total supervised practice requirement. Select the accurate answer.",
+    "options": [
+      "40 hours",
+      "60 hours",
+      "50 hours",
+      "30 hours"
+    ],
+    "correctIndex": 2,
+    "explanation": "Use the official New Jersey citation on this question when checking the total supervised practice requirement.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Examination permits and special learner's permits, as amended by P.L.2023, c.216 (effective the first day of the 13th month after the January 8, 2024 approval)",
+        "citation": "N.J.S.A. 39:3-13.4 (P.L.2023, c.216, s.2)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2022/AL23/216_.PDF"
+      }
+    ],
+    "effectiveDate": "2025-02-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-gdl-hours-night-nj-1",
+    "category": "gdl-teen",
+    "stateScope": [
+      "NJ"
+    ],
+    "tags": [
+      "gdl-permit-rules"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "supervisedHoursNight",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-gdl-hours-night",
+    "templateVersion": 1,
+    "prompt": "What should a learner know about the supervised night-practice requirement under New Jersey law?",
+    "options": [
+      "5 hours",
+      "12 hours",
+      "8 hours",
+      "10 hours"
+    ],
+    "correctIndex": 3,
+    "explanation": "Use the official New Jersey citation on this question when checking the supervised night-practice requirement.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Examination permits and special learner's permits, as amended by P.L.2023, c.216 (effective the first day of the 13th month after the January 8, 2024 approval)",
+        "citation": "N.J.S.A. 39:3-13.4 (P.L.2023, c.216, s.2)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2022/AL23/216_.PDF"
+      }
+    ],
+    "effectiveDate": "2025-02-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-gdl-hours-night-nj-2",
+    "category": "gdl-teen",
+    "stateScope": [
+      "NJ"
+    ],
+    "tags": [
+      "gdl-permit-rules"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "supervisedHoursNight",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-gdl-hours-night",
+    "templateVersion": 1,
+    "prompt": "In New Jersey, which statement correctly describes the supervised night-practice requirement?",
+    "options": [
+      "10 hours",
+      "5 hours",
+      "12 hours",
+      "8 hours"
+    ],
+    "correctIndex": 0,
+    "explanation": "This answer follows the verified supervisedHoursNight record for New Jersey; conditions in that record still apply.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Examination permits and special learner's permits, as amended by P.L.2023, c.216 (effective the first day of the 13th month after the January 8, 2024 approval)",
+        "citation": "N.J.S.A. 39:3-13.4 (P.L.2023, c.216, s.2)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2022/AL23/216_.PDF"
+      }
+    ],
+    "effectiveDate": "2025-02-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-gdl-curfew-nj-1",
+    "category": "gdl-teen",
+    "stateScope": [
+      "NJ"
+    ],
+    "tags": [
+      "gdl-to-full-license"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "gdlNightCurfew",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-gdl-curfew",
+    "templateVersion": 1,
+    "prompt": "What should a learner know about the provisional-license night restriction under New Jersey law?",
+    "options": [
+      "No driving from 12 AM to 5 AM.",
+      "No driving from 10 PM to 5 AM.",
+      "No driving from 11 PM to 6 AM.",
+      "No driving from 11 PM to 5 AM."
+    ],
+    "correctIndex": 3,
+    "explanation": "Use the official New Jersey citation on this question when checking the provisional-license night restriction.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Examination permits and special learner's permits, as amended by P.L.2023, c.216 (effective the first day of the 13th month after the January 8, 2024 approval)",
+        "citation": "N.J.S.A. 39:3-13.4 (P.L.2023, c.216, s.2)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2022/AL23/216_.PDF"
+      }
+    ],
+    "effectiveDate": "2025-02-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-gdl-curfew-nj-2",
+    "category": "gdl-teen",
+    "stateScope": [
+      "NJ"
+    ],
+    "tags": [
+      "gdl-to-full-license"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "gdlNightCurfew",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-gdl-curfew",
+    "templateVersion": 1,
+    "prompt": "In New Jersey, which statement correctly describes the provisional-license night restriction?",
+    "options": [
+      "No driving from 12 AM to 6 AM.",
+      "No driving from 11 PM to 5 AM.",
+      "No driving from 11 PM to 6 AM.",
+      "No driving from 12 AM to 5 AM."
+    ],
+    "correctIndex": 1,
+    "explanation": "This answer follows the verified gdlNightCurfew record for New Jersey; conditions in that record still apply.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Examination permits and special learner's permits, as amended by P.L.2023, c.216 (effective the first day of the 13th month after the January 8, 2024 approval)",
+        "citation": "N.J.S.A. 39:3-13.4 (P.L.2023, c.216, s.2)",
+        "url": "https://pub.njleg.state.nj.us/Bills/2022/AL23/216_.PDF"
+      }
+    ],
+    "effectiveDate": "2025-02-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  }
+]

@@ -10,9 +10,9 @@
     {
       "url": "https://dmv.sc.gov/sites/scdmv/files/2026-01/Drivers%20Manual.pdf",
       "handbook": true,
-      "sha256": "6bd51726b21ab8980a40bb8b123e1ae35abac7444bbc798baf50f21d9bd48514",
       "contentType": "application/pdf",
-      "status": 200
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
     },
     {
       "url": "https://mutcd.fhwa.dot.gov/",
@@ -28,9 +28,7 @@
     },
     {
       "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table",
-      "sha256": "a4c2b59b06107a409c1a69df93e9cbf431e5b4e2e5c179d6b93528e8b768f3b5",
-      "contentType": "text/html",
-      "status": 200
+      "error": "fetch failed: fetch failed"
     },
     {
       "url": "https://www.scstatehouse.gov/code/t38c077.php",
@@ -50,6 +48,5 @@
       "contentType": "text/html",
       "status": 200
     }
-  ],
-  "handbookSnapshotHash": "6bd51726b21ab8980a40bb8b123e1ae35abac7444bbc798baf50f21d9bd48514"
+  ]
 }

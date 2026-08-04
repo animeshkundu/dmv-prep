@@ -16,9 +16,9 @@
     {
       "url": "https://dmv.vermont.gov/sites/dmv/files/documents/VN-007-Drivers_Manual.pdf",
       "handbook": true,
-      "sha256": "efdfd182ea0a4e579bfdd085a436aad5f6eb959ffadaba01049a4e80c18dead2",
       "contentType": "application/pdf",
-      "status": 200
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
     },
     {
       "url": "https://mutcd.fhwa.dot.gov/",
@@ -26,6 +26,5 @@
       "contentType": "text/html",
       "status": 200
     }
-  ],
-  "handbookSnapshotHash": "efdfd182ea0a4e579bfdd085a436aad5f6eb959ffadaba01049a4e80c18dead2"
+  ]
 }

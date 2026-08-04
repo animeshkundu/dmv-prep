@@ -57,9 +57,9 @@
     {
       "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf",
       "handbook": true,
-      "sha256": "4fdcc079ec8f91a3d933c0acacc1a6ab2dc1895746ffbfc5930f36337558a4a2",
       "contentType": "application/pdf",
-      "status": 200
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
     },
     {
       "url": "https://mutcd.fhwa.dot.gov/",
@@ -67,6 +67,5 @@
       "contentType": "text/html",
       "status": 200
     }
-  ],
-  "handbookSnapshotHash": "4fdcc079ec8f91a3d933c0acacc1a6ab2dc1895746ffbfc5930f36337558a4a2"
+  ]
 }
