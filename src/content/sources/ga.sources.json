@@ -8,10 +8,11 @@
       "status": 200
     },
     {
-      "url": "https://dds.georgia.gov/document/document/drivers-manual/download",
+      "url": "https://dds.georgia.gov/document/document/ga-drivers-manual-2023-2024/download",
       "handbook": true,
-      "status": 404,
-      "error": "HTTP 404"
+      "sha256": "373f7ca66e6915c891dbee87c0fac71f4f28b5d29e42871426b6e760cac6f55b",
+      "contentType": "application/pdf",
+      "status": 200
     },
     {
       "url": "https://dds.georgia.gov/georgia-licenseid/violations-suspensions-revocations/points-and-points-reduction",
@@ -59,5 +60,6 @@
       "contentType": "text/html",
       "status": 200
     }
-  ]
+  ],
+  "handbookSnapshotHash": "373f7ca66e6915c891dbee87c0fac71f4f28b5d29e42871426b6e760cac6f55b"
 }

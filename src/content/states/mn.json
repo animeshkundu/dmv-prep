@@ -721,7 +721,7 @@
     }
   ],
   "effectiveDate": "2026-07-24",
-  "sourceSnapshotHash": "seed-pending-verification",
+  "sourceSnapshotHash": "88aa9622be31549dd28a9e8c34217c8cc1a298564d7a07feb9a094fb6d3539c4",
   "reviewStatus": "adversarially-verified",
   "lastVerified": "2026-07-24",
   "contentVersion": 1

@@ -112,28 +112,32 @@
     {
       "url": "https://www.mass.gov/how-to/request-a-drivers-manual",
       "handbook": true,
-      "status": 403,
-      "error": "HTTP 403"
+      "sha256": "43ed51630e744383e2bb3ba09f6a548cddbd0698531ac414e9b952dfd1c305ca",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.mass.gov/info-details/first-time-driver-start-here",
-      "status": 403,
-      "error": "HTTP 403"
+      "status": 404,
+      "error": "HTTP 404"
     },
     {
       "url": "https://www.mass.gov/info-details/surchargeable-incidents",
-      "status": 403,
-      "error": "HTTP 403"
+      "sha256": "d29389751f3fb08959f5406d5653ce5dcd358e44d2647d6db39124c5484aa89d",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.mass.gov/info-details/suspensions-from-multiple-offenses",
-      "status": 403,
-      "error": "HTTP 403"
+      "sha256": "122e0b53cc20e85cfda06252780421365ecedbc840cffe7d9d138675c7da2581",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.mass.gov/service-details/rmv-fee-schedule",
-      "status": 403,
-      "error": "HTTP 403"
+      "status": 404,
+      "error": "HTTP 404"
     }
-  ]
+  ],
+  "handbookSnapshotHash": "43ed51630e744383e2bb3ba09f6a548cddbd0698531ac414e9b952dfd1c305ca"
 }

@@ -5,14 +5,20 @@
   "agencyShort": "DMV",
   "officialSiteUrl": "https://portal.ct.gov/dmv",
   "handbookLandingUrl": "https://portal.ct.gov/dmv/licenses-permits-ids/take-knowledge-vision-test",
-  "handbookPdfUrl": "https://portal.ct.gov/-/media/DMV/20/29/R12.pdf",
+  "handbookPdfUrl": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf",
   "handbookFormat": "pdf",
   "handbookEditionYear": 2024,
   "handbookCopyrightStatus": "terms-of-use",
   "handbookTermsUrl": "https://portal.ct.gov/policies",
   "applicantVariants": [
-    { "id": "under-18", "label": "Under 18 (learner's permit, 16-17)" },
-    { "id": "adult", "label": "Adult (18+)" }
+    {
+      "id": "under-18",
+      "label": "Under 18 (learner's permit, 16-17)"
+    },
+    {
+      "id": "adult",
+      "label": "Adult (18+)"
+    }
   ],
   "examVariants": [
     {
@@ -20,7 +26,10 @@
       "label": "Under-18 knowledge test (Class D)",
       "numQuestions": 25,
       "numToPass": 20,
-      "languages": ["en", "es"],
+      "languages": [
+        "en",
+        "es"
+      ],
       "onlineAvailable": false
     },
     {
@@ -28,7 +37,10 @@
       "label": "Adult knowledge test (Class D)",
       "numQuestions": 25,
       "numToPass": 20,
-      "languages": ["en", "es"],
+      "languages": [
+        "en",
+        "es"
+      ],
       "onlineAvailable": false
     }
   ],
@@ -72,7 +84,11 @@
     "moveOverRule": "Slow down and, when safe, move over one lane for stopped emergency, maintenance, and tow vehicles displaying flashing lights",
     "interstateMaxSpeed": "65 mph",
     "schoolZoneSpeed": "As posted in marked school zones (commonly reduced, often 20 mph)",
-    "namedLaws": ["Move Over Law", "Hands-Free Law", "Work Zone Safety Course requirement"]
+    "namedLaws": [
+      "Move Over Law",
+      "Hands-Free Law",
+      "Work Zone Safety Course requirement"
+    ]
   },
   "references": [
     {
@@ -87,7 +103,7 @@
     }
   ],
   "effectiveDate": "2026-07-24",
-  "sourceSnapshotHash": "seed-pending-verification",
+  "sourceSnapshotHash": "c67a0adbe55ff4fdfaa6375aca70a2599284e0735cf748ac4e92b272a9281208",
   "reviewStatus": "adversarially-verified",
   "lastVerified": "2026-07-24",
   "contentVersion": 1,

@@ -9,61 +9,61 @@
     },
     {
       "url": "https://ndlegis.gov/cencode/t39c06-1.pdf",
+      "sha256": "8f269cd6954bfb0acf68bf6921844952757706c3812cb97c54da43dc5c19d7ed",
       "contentType": "application/pdf",
-      "status": 200,
-      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+      "status": 200
     },
     {
       "url": "https://ndlegis.gov/cencode/t39c06-2.pdf",
+      "sha256": "96bcd8cb7ce377e46f512902cdac4e1b960bd6aa3712de67d3d2f642768f0084",
       "contentType": "application/pdf",
-      "status": 200,
-      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+      "status": 200
     },
     {
       "url": "https://ndlegis.gov/cencode/t39c06.pdf",
+      "sha256": "860e5183522a9742f7c0d206ce2c081131811275ee7488f77f34ccf30c86d78f",
       "contentType": "application/pdf",
-      "status": 200,
-      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+      "status": 200
     },
     {
       "url": "https://ndlegis.gov/cencode/t39c08.pdf",
+      "sha256": "a6bd92a65c59aa01716808f24a0cc28d97b81f76160ea56fcbff1e6386e431b2",
       "contentType": "application/pdf",
-      "status": 200,
-      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+      "status": 200
     },
     {
       "url": "https://ndlegis.gov/cencode/t39c09.pdf",
+      "sha256": "d65b52e93f58444238d0b50d3bb4f212cce0c74695e24adf311f41e93a4606aa",
       "contentType": "application/pdf",
-      "status": 200,
-      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+      "status": 200
     },
     {
       "url": "https://ndlegis.gov/cencode/t39c10.pdf",
+      "sha256": "f72b050230f2c25349b2fae809493549159ae4348c4f32926769186a0c4819cf",
       "contentType": "application/pdf",
-      "status": 200,
-      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+      "status": 200
     },
     {
       "url": "https://ndlegis.gov/cencode/t39c16-1.pdf",
+      "sha256": "aa41b4494c30b0bb305c543f826904d2d8bd72010fbde8245c65c7d05b6826ff",
       "contentType": "application/pdf",
-      "status": 200,
-      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+      "status": 200
     },
     {
       "url": "https://ndlegis.gov/cencode/t39c20.pdf",
+      "sha256": "a1fb7f41b1f5f275616948f657c4cf38a996936429a44432b3f75f10359a70ab",
       "contentType": "application/pdf",
-      "status": 200,
-      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+      "status": 200
     },
     {
       "url": "https://ndlegis.gov/cencode/t39c21.pdf",
+      "sha256": "7792e6ab7a3b4d1e86064a40ab7f00473320a02252e41133a4eae1817b815e4b",
       "contentType": "application/pdf",
-      "status": 200,
-      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+      "status": 200
     },
     {
       "url": "https://www.dot.nd.gov/driver/driver-license",
-      "sha256": "43b21fc4f14237e3bab5e0a7e982c6118e114319e23ed1ca8fb3fe00c1874115",
+      "sha256": "b5c3210ee1a5d58398aefcc8a521e819852ab10f1ff907f258d3ebd08dd3d671",
       "contentType": "text/html",
       "status": 200
     },
@@ -76,9 +76,9 @@
     {
       "url": "https://www.dot.nd.gov/sites/www/files/documents/Drivers%20-%20documents/noncommercial-manual.pdf",
       "handbook": true,
+      "sha256": "3f7010c9e8ccf48b97ddbed9d0486ef9ac6c0c84249e2169f44164e07cbe69cd",
       "contentType": "application/pdf",
-      "status": 200,
-      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+      "status": 200
     },
     {
       "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table",
@@ -92,5 +92,6 @@
       "contentType": "text/html",
       "status": 200
     }
-  ]
+  ],
+  "handbookSnapshotHash": "3f7010c9e8ccf48b97ddbed9d0486ef9ac6c0c84249e2169f44164e07cbe69cd"
 }

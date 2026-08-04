@@ -16,9 +16,9 @@
     {
       "url": "https://iowadot.gov/media/7308/download",
       "handbook": true,
+      "sha256": "7937966d374e3780789f4f7606bee0fb31896bd707277684b4cb89d11c0a65e2",
       "contentType": "application/pdf",
-      "status": 200,
-      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+      "status": 200
     },
     {
       "url": "https://mutcd.fhwa.dot.gov/",
@@ -28,67 +28,94 @@
     },
     {
       "url": "https://www.legis.iowa.gov/docs/code/321.180B.pdf",
+      "sha256": "03d2a6820c6a3fee66dd4a589124d0b81fd95398ab5b61f4f6a8c81d74dcefc2",
       "contentType": "application/pdf",
-      "status": 200,
-      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+      "status": 200
     },
     {
       "url": "https://www.legis.iowa.gov/docs/code/321.257.pdf",
-      "error": "fetch failed: fetch failed"
+      "sha256": "54863f037de1bbf01245301f2944ed4a84c5f81182e4499c325c4e63c687345e",
+      "contentType": "application/pdf",
+      "status": 200
     },
     {
       "url": "https://www.legis.iowa.gov/docs/code/321.266.pdf",
-      "error": "fetch failed: fetch failed"
+      "sha256": "8e368f8b3fd016c018ebab9a4f44eb8a3eae18fb637cde16f19e718237167e02",
+      "contentType": "application/pdf",
+      "status": 200
     },
     {
       "url": "https://www.legis.iowa.gov/docs/code/321.284.pdf",
+      "sha256": "203bc49dc3a245baa1b9ff50f6a2843970981f508b6051ad6832656187ea42f7",
       "contentType": "application/pdf",
-      "status": 200,
-      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+      "status": 200
     },
     {
       "url": "https://www.legis.iowa.gov/docs/code/321.285.pdf",
-      "error": "fetch failed: fetch failed"
+      "sha256": "d9c4f2efb8fd2e9d3ce0a5ad68ffd161bbbf60b17724cdc827f124977c107ff4",
+      "contentType": "application/pdf",
+      "status": 200
     },
     {
       "url": "https://www.legis.iowa.gov/docs/code/321.323A.pdf",
-      "error": "fetch failed: fetch failed"
+      "sha256": "75f70cfb4714dc7b81c1e30a6fdbd5c08af48dfd5fa83c720e716c348a074e04",
+      "contentType": "application/pdf",
+      "status": 200
     },
     {
       "url": "https://www.legis.iowa.gov/docs/code/321.358.pdf",
-      "error": "fetch failed: fetch failed"
+      "sha256": "3a4e5ea7820c9e55b87832cdbd47768888a2b7a4130d7f9af353e9f6d9e25234",
+      "contentType": "application/pdf",
+      "status": 200
     },
     {
       "url": "https://www.legis.iowa.gov/docs/code/321.409.pdf",
-      "error": "fetch failed: fetch failed"
+      "sha256": "42d7ea850a48960fc8dcfcfbc47955351a7bd1ca197a488485c6c9428f0fc599",
+      "contentType": "application/pdf",
+      "status": 200
     },
     {
       "url": "https://www.legis.iowa.gov/docs/code/321.445.pdf",
-      "error": "fetch failed: fetch failed"
+      "sha256": "42d7f9e557a79ad5d2748d4f92f7793bcd1097b61cffb7e920292ec37a2e810c",
+      "contentType": "application/pdf",
+      "status": 200
     },
     {
       "url": "https://www.legis.iowa.gov/docs/code/321.pdf",
-      "error": "fetch failed: fetch failed"
+      "sha256": "d064670a8c87cedacf05fd4c98e54e727da8f4277a3e785d84ff1e849689b5f6",
+      "contentType": "application/pdf",
+      "status": 200
     },
     {
       "url": "https://www.legis.iowa.gov/docs/code/321A.21.pdf",
-      "error": "fetch failed: fetch failed"
+      "sha256": "18b3d14c91d9eac8f012cd72d5d3bc71a62e921a8b15c54c1bd6b2608573c7c8",
+      "contentType": "application/pdf",
+      "status": 200
     },
     {
       "url": "https://www.legis.iowa.gov/docs/code/321J.2.pdf",
-      "error": "fetch failed: fetch failed"
+      "sha256": "35611095945fad0058e4686b4c4965a8a1e4a737a4794acef4ea9fda58d0ef48",
+      "contentType": "application/pdf",
+      "status": 200
     },
     {
       "url": "https://www.legis.iowa.gov/docs/code/321J.2A.pdf",
-      "error": "fetch failed: fetch failed"
+      "sha256": "217bce6aeb897e092ccf3553a4f41cfb16f80b5a0b4399cc3456bef3910779a0",
+      "contentType": "application/pdf",
+      "status": 200
     },
     {
       "url": "https://www.legis.iowa.gov/docs/code/321J.6.pdf",
-      "error": "fetch failed: fetch failed"
+      "sha256": "e40c1115b054c86a3a9c01689174a739c32eb70df2cc09184f4d8ce42ce195cc",
+      "contentType": "application/pdf",
+      "status": 200
     },
     {
       "url": "https://www.legis.iowa.gov/docs/code/321J.9.pdf",
-      "error": "fetch failed: fetch failed"
+      "sha256": "2f29b71c7bb5ab35ef69b0ab8bf5e78868f2884b48a5c2d112a9c941212e9d3b",
+      "contentType": "application/pdf",
+      "status": 200
     }
-  ]
+  ],
+  "handbookSnapshotHash": "7937966d374e3780789f4f7606bee0fb31896bd707277684b4cb89d11c0a65e2"
 }

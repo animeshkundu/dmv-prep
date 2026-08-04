@@ -10,8 +10,14 @@
   "handbookEditionYear": 2023,
   "handbookCopyrightStatus": "unknown",
   "applicantVariants": [
-    { "id": "under-18", "label": "Under 18 (graduated licensing / provisional)" },
-    { "id": "adult", "label": "Adult (18 and older)" }
+    {
+      "id": "under-18",
+      "label": "Under 18 (graduated licensing / provisional)"
+    },
+    {
+      "id": "adult",
+      "label": "Adult (18 and older)"
+    }
   ],
   "examVariants": [
     {
@@ -19,7 +25,9 @@
       "label": "Class D knowledge test (all ages)",
       "numQuestions": 20,
       "numToPass": 16,
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "onlineAvailable": false
     }
   ],
@@ -62,7 +70,11 @@
     "moveOverRule": "Move over a lane or slow down for stopped emergency, law-enforcement and other authorized vehicles displaying flashing lights",
     "interstateMaxSpeed": "55 mph unless otherwise posted",
     "schoolZoneSpeed": "Obey the posted school-zone limit when children are present",
-    "namedLaws": ["Move Over Law", "Zero Tolerance Law (under 21)", "Texting/electronic device ban"]
+    "namedLaws": [
+      "Move Over Law",
+      "Zero Tolerance Law (under 21)",
+      "Texting/electronic device ban"
+    ]
   },
   "typedFacts": {
     "bacAdult": {
@@ -73,7 +85,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Alaska Statutes",
-        "citation": "AS \u00a7 28.35.030(a)(2)",
+        "citation": "AS § 28.35.030(a)(2)",
         "url": "https://www.akleg.gov/basis/statutes.asp"
       },
       "lastVerified": "2026-07-27",
@@ -87,7 +99,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Alaska Statutes",
-        "citation": "AS \u00a7 28.35.280",
+        "citation": "AS § 28.35.280",
         "url": "https://www.akleg.gov/basis/statutes.asp"
       },
       "lastVerified": "2026-07-27",
@@ -101,7 +113,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Alaska Statutes",
-        "citation": "AS \u00a7 28.33.030",
+        "citation": "AS § 28.33.030",
         "url": "https://www.akleg.gov/basis/statutes.asp"
       },
       "lastVerified": "2026-07-27",
@@ -115,7 +127,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Alaska Statutes",
-        "citation": "AS \u00a7 28.35.032",
+        "citation": "AS § 28.35.032",
         "url": "https://www.akleg.gov/basis/statutes.asp"
       },
       "lastVerified": "2026-07-27",
@@ -129,7 +141,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Alaska Statutes",
-        "citation": "AS \u00a7 28.35.029",
+        "citation": "AS § 28.35.029",
         "url": "https://www.akleg.gov/basis/statutes.asp"
       },
       "lastVerified": "2026-07-27",
@@ -143,7 +155,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Alaska Statutes",
-        "citation": "AS \u00a7 28.15.181",
+        "citation": "AS § 28.15.181",
         "url": "https://www.akleg.gov/basis/statutes.asp"
       },
       "lastVerified": "2026-07-27",
@@ -213,7 +225,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Alaska Statutes",
-        "citation": "AS \u00a7 28.35.140",
+        "citation": "AS § 28.35.140",
         "url": "https://www.akleg.gov/basis/statutes.asp"
       },
       "lastVerified": "2026-07-27",
@@ -255,7 +267,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Alaska Statutes",
-        "citation": "AS \u00a7 28.05.095",
+        "citation": "AS § 28.05.095",
         "url": "https://www.akleg.gov/basis/statutes.asp"
       },
       "lastVerified": "2026-07-27",
@@ -269,7 +281,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Alaska Statutes",
-        "citation": "AS \u00a7 28.15.057",
+        "citation": "AS § 28.15.057",
         "url": "https://www.akleg.gov/basis/statutes.asp"
       },
       "lastVerified": "2026-07-27",
@@ -283,7 +295,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Alaska Statutes",
-        "citation": "AS \u00a7 28.35.161",
+        "citation": "AS § 28.35.161",
         "url": "https://www.akleg.gov/basis/statutes.asp"
       },
       "lastVerified": "2026-07-27",
@@ -297,7 +309,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Alaska Statutes",
-        "citation": "AS \u00a7 28.35.185",
+        "citation": "AS § 28.35.185",
         "url": "https://www.akleg.gov/basis/statutes.asp"
       },
       "lastVerified": "2026-07-27",
@@ -409,7 +421,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Alaska Statutes",
-        "citation": "AS \u00a7 28.15.051",
+        "citation": "AS § 28.15.051",
         "url": "https://www.akleg.gov/basis/statutes.asp"
       },
       "lastVerified": "2026-07-27",
@@ -423,7 +435,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Alaska Statutes",
-        "citation": "AS \u00a7 28.15.055",
+        "citation": "AS § 28.15.055",
         "url": "https://www.akleg.gov/basis/statutes.asp"
       },
       "lastVerified": "2026-07-27",
@@ -437,7 +449,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Alaska Statutes",
-        "citation": "AS \u00a7 28.15.055",
+        "citation": "AS § 28.15.055",
         "url": "https://www.akleg.gov/basis/statutes.asp"
       },
       "lastVerified": "2026-07-27",
@@ -451,7 +463,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Alaska Statutes",
-        "citation": "AS \u00a7 28.15.055",
+        "citation": "AS § 28.15.055",
         "url": "https://www.akleg.gov/basis/statutes.asp"
       },
       "lastVerified": "2026-07-27",
@@ -465,7 +477,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Alaska Statutes",
-        "citation": "AS \u00a7 28.15.055",
+        "citation": "AS § 28.15.055",
         "url": "https://www.akleg.gov/basis/statutes.asp"
       },
       "lastVerified": "2026-07-27",
@@ -479,7 +491,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Alaska Statutes",
-        "citation": "AS \u00a7 28.15.055",
+        "citation": "AS § 28.15.055",
         "url": "https://www.akleg.gov/basis/statutes.asp"
       },
       "lastVerified": "2026-07-27",
@@ -493,7 +505,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Alaska Statutes",
-        "citation": "AS \u00a7 28.22.101",
+        "citation": "AS § 28.22.101",
         "url": "https://www.akleg.gov/basis/statutes.asp"
       },
       "lastVerified": "2026-07-27",
@@ -507,7 +519,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Alaska Statutes",
-        "citation": "AS \u00a7 28.35.080",
+        "citation": "AS § 28.35.080",
         "url": "https://www.akleg.gov/basis/statutes.asp"
       },
       "lastVerified": "2026-07-27",
@@ -537,7 +549,7 @@
     }
   ],
   "effectiveDate": "2026-07-24",
-  "sourceSnapshotHash": "seed-pending-verification",
+  "sourceSnapshotHash": "8b4c06a027112868d21f2ba69eb5447979cb606dc58216738515c7d34e6f035d",
   "reviewStatus": "draft",
   "verifyNote": "Official Alaska sources confirm the 20-question/16-correct exam, permit age 14, permit and license fees, BAC limits, and 12-points-in-12-months/18-points-in-24-months suspension thresholds. The manual does not print an edition year, so 2023 remains a placeholder; provisional restrictions and the full-license age still need direct official confirmation.",
   "lastVerified": "2026-07-24",

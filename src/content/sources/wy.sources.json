@@ -19,10 +19,11 @@
       "status": 200
     },
     {
-      "url": "https://www.dot.state.wy.us/files/live/sites/wydot/files/shared/Driver_Services/Manuals/DRIV_LIC.pdf",
+      "url": "https://www.dot.state.wy.us/files/live/sites/wydot/files/shared/Driver_Services/Help%20Documents%20and%20Manuals/2021_DriverManual_web_ClassC_w%20cover.pdf",
       "handbook": true,
-      "status": 404,
-      "error": "HTTP 404"
+      "sha256": "46d251c4dbab04d60e8a9d2625cf25b2cc6bf3b9fa4b65a6ae97746baa6a9578",
+      "contentType": "application/pdf",
+      "status": 200
     },
     {
       "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html",
@@ -30,5 +31,6 @@
       "contentType": "text/html",
       "status": 200
     }
-  ]
+  ],
+  "handbookSnapshotHash": "46d251c4dbab04d60e8a9d2625cf25b2cc6bf3b9fa4b65a6ae97746baa6a9578"
 }

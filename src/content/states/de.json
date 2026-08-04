@@ -10,8 +10,14 @@
   "handbookEditionYear": 2024,
   "handbookCopyrightStatus": "unknown",
   "applicantVariants": [
-    { "id": "under-18", "label": "Under 18 (Graduated Driver License / Level 1 permit)" },
-    { "id": "adult", "label": "Adult (18+)" }
+    {
+      "id": "under-18",
+      "label": "Under 18 (Graduated Driver License / Level 1 permit)"
+    },
+    {
+      "id": "adult",
+      "label": "Adult (18+)"
+    }
   ],
   "examVariants": [
     {
@@ -19,7 +25,9 @@
       "label": "Under-18 knowledge test (Class D)",
       "numQuestions": 30,
       "numToPass": 24,
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "onlineAvailable": false
     },
     {
@@ -27,7 +35,9 @@
       "label": "Adult knowledge test (Class D)",
       "numQuestions": 30,
       "numToPass": 24,
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "onlineAvailable": false
     }
   ],
@@ -69,7 +79,11 @@
     "moveOverRule": "Move over a lane, or slow down if you cannot change lanes safely, for stopped emergency and authorized vehicles displaying flashing lights",
     "interstateMaxSpeed": "65 mph on interstate highways where posted",
     "schoolZoneSpeed": "20 mph in a school zone during posted school hours",
-    "namedLaws": ["Move Over Law", "Hands-Free (electronic communication device) Law", "Aggressive Driving Law"]
+    "namedLaws": [
+      "Move Over Law",
+      "Hands-Free (electronic communication device) Law",
+      "Aggressive Driving Law"
+    ]
   },
   "references": [
     {
@@ -89,7 +103,7 @@
     }
   ],
   "effectiveDate": "2026-07-24",
-  "sourceSnapshotHash": "seed-pending-verification",
+  "sourceSnapshotHash": "886bd2a9c89568632f26ab2b339fe3d86e1047ee4ec637153ee3cea98e027de0",
   "reviewStatus": "adversarially-verified",
   "verifyNote": "Official Delaware DMV sources confirm the 30-question exam with 24 correct required, age 16 minimum, GDL rules, current $50 Class D fee, and the 14-calculated-point mandatory suspension. The direct June 2024 manual PDF is recorded. The numeric vision standard was not confirmed in the official manual, so it remains separately qualified.",
   "lastVerified": "2026-07-24",

@@ -15,8 +15,9 @@
     },
     {
       "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-319",
-      "status": 404,
-      "error": "HTTP 404"
+      "sha256": "ae31032ddb0c4c3550fad9bb453877d5b7badacfe0cbff4e7fa496b262c28c8a",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-320",
@@ -26,9 +27,8 @@
     },
     {
       "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-320a",
-      "sha256": "683806398e815857053b0fba6cb9785a9851c8a2041742493b39b2cdb4f0a75e",
-      "contentType": "text/html",
-      "status": 200
+      "status": 404,
+      "error": "HTTP 404"
     },
     {
       "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-602b",
@@ -49,9 +49,8 @@
     },
     {
       "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-624a",
-      "sha256": "0cdd5748404583ab5d900102b44fd1925028c1c50c6795b770c496f5615ecad3",
-      "contentType": "text/html",
-      "status": 200
+      "status": 404,
+      "error": "HTTP 404"
     },
     {
       "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-625",
@@ -61,13 +60,13 @@
     },
     {
       "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-625f",
-      "sha256": "1ba8aeda68f5d58ee68f96c997cee9bdca46024e22c9a29bfc03e8709c861261",
+      "sha256": "683806398e815857053b0fba6cb9785a9851c8a2041742493b39b2cdb4f0a75e",
       "contentType": "text/html",
       "status": 200
     },
     {
       "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-625m",
-      "sha256": "40f494898268abcefce7bea868dcaa457a3ca2a9267dd2792ddfbabbc3f39f23",
+      "sha256": "683806398e815857053b0fba6cb9785a9851c8a2041742493b39b2cdb4f0a75e",
       "contentType": "text/html",
       "status": 200
     },
@@ -78,9 +77,8 @@
     },
     {
       "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-628",
-      "sha256": "683806398e815857053b0fba6cb9785a9851c8a2041742493b39b2cdb4f0a75e",
-      "contentType": "text/html",
-      "status": 200
+      "status": 404,
+      "error": "HTTP 404"
     },
     {
       "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-653a",
@@ -90,9 +88,8 @@
     },
     {
       "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-674",
-      "sha256": "e6a97e0cb8dfb5de40d8ea734caf5cb3aba81f327719c524ff6414ed4775deda",
-      "contentType": "text/html",
-      "status": 200
+      "status": 404,
+      "error": "HTTP 404"
     },
     {
       "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-684",
@@ -102,36 +99,41 @@
     },
     {
       "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-710e",
-      "sha256": "eeb7dfce3a8f7005651d3bb154f6b992857806eca1abe96b206afc24911ba31d",
+      "sha256": "683806398e815857053b0fba6cb9785a9851c8a2041742493b39b2cdb4f0a75e",
       "contentType": "text/html",
       "status": 200
     },
     {
       "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-500-3009",
-      "status": 404,
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://www.michigan.gov/mdot/travel/michigan-speed-limits",
-      "status": 404,
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://www.michigan.gov/msp/divisions/ohsp/ohsp-traffic-safety-programs/impaired-driving/impaired-driving-law",
-      "sha256": "71f320e23da6b93128f195a6446d895433daf397afd8a2012f3109fa389348ae",
+      "sha256": "0c329b98c20595bb3261588972ae49b21e68e9029c344e8c4639b52d705381c8",
       "contentType": "text/html",
       "status": 200
     },
     {
+      "url": "https://www.michigan.gov/mdot/travel/michigan-speed-limits",
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://www.michigan.gov/msp/divisions/ohsp/ohsp-traffic-safety-programs/impaired-driving/impaired-driving-law",
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
       "url": "https://www.michigan.gov/msp/divisions/ohsp/traffic-safety-programs/distracted-driving",
-      "status": 404,
-      "error": "HTTP 404"
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://www.michigan.gov/sos/-/media/Project/Websites/sos/Resources/Forms-and-publications/WEDMK/WEDMK.pdf?rev=f6e4e5b6c4304bc38aea503b40819f26&hash=188AD895EB387F9C459EB319524FBBD8",
+      "handbook": true,
+      "status": 403,
+      "error": "HTTP 403"
     },
     {
       "url": "https://www.michigan.gov/sos/all-services/manuals/what-every-driver-must-know",
-      "handbook": true,
-      "status": 404,
-      "error": "HTTP 404"
+      "status": 403,
+      "error": "HTTP 403"
     }
   ]
 }

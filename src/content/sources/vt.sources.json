@@ -3,19 +3,22 @@
   "sources": [
     {
       "url": "https://dmv.vermont.gov/licenses/fees",
-      "status": 403,
-      "error": "HTTP 403"
+      "sha256": "0d69e136b239f216a4624b1ccda268b577c81bb9c8d91d4c82c784c646c793db",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://dmv.vermont.gov/licenses/new/learners-permit",
-      "status": 403,
-      "error": "HTTP 403"
+      "sha256": "6dacca748947147df093251daa4f864ee1974cf291f982201d3af2c95cc2e7f4",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://dmv.vermont.gov/sites/dmv/files/documents/VN-007-Drivers_Manual.pdf",
       "handbook": true,
-      "status": 403,
-      "error": "HTTP 403"
+      "sha256": "efdfd182ea0a4e579bfdd085a436aad5f6eb959ffadaba01049a4e80c18dead2",
+      "contentType": "application/pdf",
+      "status": 200
     },
     {
       "url": "https://mutcd.fhwa.dot.gov/",
@@ -23,5 +26,6 @@
       "contentType": "text/html",
       "status": 200
     }
-  ]
+  ],
+  "handbookSnapshotHash": "efdfd182ea0a4e579bfdd085a436aad5f6eb959ffadaba01049a4e80c18dead2"
 }

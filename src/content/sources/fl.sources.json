@@ -22,125 +22,142 @@
     {
       "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
       "handbook": true,
+      "sha256": "efc8175c404196feda29f115b1a680cddda8b8f61b24195cacb171eb4e24efa5",
       "contentType": "application/pdf",
-      "status": 200,
-      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+      "status": 200
     },
     {
       "url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0300-0399/0316/Sections/0316.066.html",
-      "sha256": "657fa2fd9ed198da8b3c18df7e312b87f5755ed0ba3f630d9635fc60c9cc9a5b",
+      "sha256": "da6c653b38c63fc901629cc5ddfa7c6dd89eedd44146ac9459eeeeba766daa47",
       "contentType": "text/html",
       "status": 200
     },
     {
       "url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0300-0399/0316/Sections/0316.075.html",
-      "sha256": "962c7e4b97e97a2482df21c977cb5010982f79913e9429753f078822b888c8ed",
+      "sha256": "2d5cd1cb2deb9a0267ec9d1f320a78ec44b2a0973d91db3989107324056f4328",
       "contentType": "text/html",
       "status": 200
     },
     {
       "url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0300-0399/0316/Sections/0316.126.html",
-      "sha256": "56fa23b8501d7960b96aeb98eaee060cbd3749283b00083c3bb13feca749dd57",
+      "sha256": "7064dbd3034c5e8ea164dbbee20c68497920d7147ed6f926561157ff884443dc",
       "contentType": "text/html",
       "status": 200
     },
     {
       "url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0300-0399/0316/Sections/0316.183.html",
-      "sha256": "ceeeed565d076c39c7ce977befe51fdb2e5b488bbab259cc4fe383c5e17d2992",
+      "sha256": "19c927cf1ac4d40f9648131eafd423208b4e4cfe3f6a77a10bcd0a1907f61eeb",
       "contentType": "text/html",
       "status": 200
     },
     {
       "url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0300-0399/0316/Sections/0316.189.html",
-      "sha256": "a8fe2a4aa36b78663a829474f46ecc3b7e24ab00582c495a1187f4595b64a7ab",
+      "sha256": "126eb105f78040919645424447ca410a0a2bc58ad16a26c8470c815fbe2abf7d",
       "contentType": "text/html",
       "status": 200
     },
     {
       "url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0300-0399/0316/Sections/0316.1895.html",
-      "sha256": "77b2cb76a588c59109d8d150225af55c8172028662e0bb1ebd9ce5c57217c1f0",
+      "sha256": "9550181af1cc7a041f7620d0ebce7c9265c567f8f2a8c59b52a2ad651b4f8b6f",
       "contentType": "text/html",
       "status": 200
     },
     {
       "url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0300-0399/0316/Sections/0316.193.html",
-      "sha256": "ecb8ee8e5c44d518d2fd39d851af38ba78ef48e2da138f4530b3e2bd46b533e3",
+      "sha256": "abf93000e71e510f00de3cf421d18e4da51808e5d8e9eb483baeece2a83658f6",
       "contentType": "text/html",
       "status": 200
     },
     {
       "url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0300-0399/0316/Sections/0316.1932.html",
-      "error": "fetch failed: fetch failed"
+      "sha256": "338c1225a45d57940a95c3eee64bde006cc915dcf13122ae95674622a9c52e76",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0300-0399/0316/Sections/0316.1936.html",
-      "sha256": "1f76b7614af4b0728c08c23b4397da2efbf795a73b7440666241b87f639c5b7f",
+      "sha256": "2e0d79ecd55acf738782660ee26b4d0decbfaa3b1ea7d3b0ccc2a2e7edb33640",
       "contentType": "text/html",
       "status": 200
     },
     {
       "url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0300-0399/0316/Sections/0316.1945.html",
-      "error": "fetch failed: fetch failed"
+      "sha256": "f5dab4ebf17bfade87cbbdf9757356c09c3dfa6117c2711b46650af01cf0b371",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0300-0399/0316/Sections/0316.217.html",
-      "sha256": "ad7c362e8aab35dced8b25998e0fc6de2b76f7b3d52af7e3fa4e4ac4577e98ba",
+      "sha256": "86e9b3a3af84ada522cdc89472c5dbe8ed59f10742ea287136569a48777e1027",
       "contentType": "text/html",
       "status": 200
     },
     {
       "url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0300-0399/0316/Sections/0316.305.html",
-      "error": "fetch failed: fetch failed"
+      "sha256": "57d6c54ac2b079761097bfd9686699f1b225212cda739bd9c2a868fea71ebeff",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0300-0399/0316/Sections/0316.306.html",
-      "error": "fetch failed: fetch failed"
+      "sha256": "fdc639f33968ff4c71547acd29650f6d56be8bee92ec6bf5d08d02e74589c4aa",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0300-0399/0316/Sections/0316.614.html",
-      "sha256": "63537581fec2b91647182b36ddac2fb3502a0314038417ef99a0ef2abcc59802",
+      "sha256": "341218079769ca3cf6ecdd490f51f3bc046ccd9ce2772dc42c5201577ea69baa",
       "contentType": "text/html",
       "status": 200
     },
     {
       "url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0300-0399/0322/Sections/0322.05.html",
-      "sha256": "5c1ab8df7b122cb75ab4c0fa2ca6ae80d5457ae628e8986c8e7bf062a269d72d",
+      "sha256": "b4d41602ee81ab0023b6dda316543868bd38ba59e350e5654036925c203dda43",
       "contentType": "text/html",
       "status": 200
     },
     {
       "url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0300-0399/0322/Sections/0322.09.html",
-      "error": "fetch failed: fetch failed"
+      "sha256": "3552aa94f1d50f5bb3547ff75ad8c6b55e4ba297686c5365eab98312dc61630b",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0300-0399/0322/Sections/0322.16.html",
-      "error": "fetch failed: fetch failed"
+      "sha256": "cd8bd933e0393e4e3ff48c54bfffdc050cb388c01ac00449aa10b8af033d78c0",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0300-0399/0322/Sections/0322.2615.html",
-      "sha256": "bb0485733bfcdd6b27deb51b651cf4dfd0413ea118d16f30c832c16a41b681fd",
+      "sha256": "a7a95ece27cabf0356a2ee483f4b16fd1fae9cd45d8f54a3dd25b6e961c7e7ee",
       "contentType": "text/html",
       "status": 200
     },
     {
       "url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0300-0399/0322/Sections/0322.2616.html",
-      "sha256": "c0f6a10897064d1e66655741211666149e48460476cfa09b3ddaf2e41001e856",
+      "sha256": "39a851c8a3467c904797502dd0e61df984e3bdf78cdf6629649d03c83cb9f545",
       "contentType": "text/html",
       "status": 200
     },
     {
       "url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0300-0399/0322/Sections/0322.27.html",
-      "error": "fetch failed: fetch failed"
+      "sha256": "a4b412e36abe93a7db9674cc0eb536cb5803ecc82c59b1d09afb49a2b31b88ee",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0300-0399/0322/Sections/0322.62.html",
-      "error": "fetch failed: fetch failed"
+      "sha256": "6adff2979bef6c4a0966a99c9df7bfb20177852b31e864167bd5bb06e417531c",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0300-0399/0324/Sections/0324.022.html",
-      "sha256": "243937c209d3a0b527740f46d22abcbe3b757de9031b8f7253902708be137f68",
+      "sha256": "c77c2a927d5e9aaa1f4f70774485e96969bb93ac8e838a0cd0fdf826068a0fcf",
       "contentType": "text/html",
       "status": 200
     }
-  ]
+  ],
+  "handbookSnapshotHash": "efc8175c404196feda29f115b1a680cddda8b8f61b24195cacb171eb4e24efa5"
 }

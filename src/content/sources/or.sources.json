@@ -9,7 +9,6 @@
     },
     {
       "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx",
-      "handbook": true,
       "status": 404,
       "error": "HTTP 404"
     },
@@ -18,6 +17,14 @@
       "sha256": "637d27a139f2bf9934eb9d8ac6d7b593b3ef1d7774f70e0cb8864e2b2aab65bc",
       "contentType": "text/html",
       "status": 200
+    },
+    {
+      "url": "https://www.oregon.gov/odot/Forms/DMV/37.pdf",
+      "handbook": true,
+      "sha256": "57e50fd53bc92e2055cca9546cdb404c1341a8693fd10466fd769afe74e99e11",
+      "contentType": "application/pdf",
+      "status": 200
     }
-  ]
+  ],
+  "handbookSnapshotHash": "57e50fd53bc92e2055cca9546cdb404c1341a8693fd10466fd769afe74e99e11"
 }

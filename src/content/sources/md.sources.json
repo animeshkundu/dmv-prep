@@ -130,9 +130,9 @@
     {
       "url": "https://mva.maryland.gov/Documents/DL-002.pdf",
       "handbook": true,
+      "sha256": "662c89a3e8e2f896a9e5d306c73a9943d20edb11d4a3d68a2f2ab54f5b703882",
       "contentType": "application/pdf",
-      "status": 200,
-      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+      "status": 200
     },
     {
       "url": "https://mva.maryland.gov/your-mva-guide/drivers-revoked-or-suspended-licenses/drivers-license-points",
@@ -152,5 +152,6 @@
       "contentType": "text/html",
       "status": 200
     }
-  ]
+  ],
+  "handbookSnapshotHash": "662c89a3e8e2f896a9e5d306c73a9943d20edb11d4a3d68a2f2ab54f5b703882"
 }

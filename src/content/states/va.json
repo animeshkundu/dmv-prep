@@ -10,8 +10,14 @@
   "handbookEditionYear": 2026,
   "handbookCopyrightStatus": "terms-of-use",
   "applicantVariants": [
-    { "id": "under-18", "label": "Under 18 (learner's permit, GDL)" },
-    { "id": "adult", "label": "Adult (18+)" }
+    {
+      "id": "under-18",
+      "label": "Under 18 (learner's permit, GDL)"
+    },
+    {
+      "id": "adult",
+      "label": "Adult (18+)"
+    }
   ],
   "examVariants": [
     {
@@ -33,7 +39,10 @@
           "note": "Must score at least 80% (24 of 30) on the general knowledge section"
         }
       ],
-      "languages": ["en", "es"],
+      "languages": [
+        "en",
+        "es"
+      ],
       "onlineAvailable": false
     }
   ],
@@ -77,7 +86,11 @@
     "moveOverRule": "Move over one lane or slow down for stopped emergency, law-enforcement, and highway vehicles displaying flashing or warning lights",
     "interstateMaxSpeed": "70 mph (where posted; 55 mph default on other highways)",
     "schoolZoneSpeed": "25 mph (or as posted, when lights flash / children present)",
-    "namedLaws": ["Move Over Law", "Hands-Free Law", "Zero Tolerance Law"]
+    "namedLaws": [
+      "Move Over Law",
+      "Hands-Free Law",
+      "Zero Tolerance Law"
+    ]
   },
   "typedFacts": {
     "bacAdult": {
@@ -542,7 +555,7 @@
     }
   ],
   "effectiveDate": "2026-07-24",
-  "sourceSnapshotHash": "seed-pending-verification",
+  "sourceSnapshotHash": "95f209e2c5ac46815197ead7525d3a4a3a96727b3349e03514068f08c1814c71",
   "reviewStatus": "adversarially-verified",
   "lastVerified": "2026-07-27",
   "contentVersion": 1

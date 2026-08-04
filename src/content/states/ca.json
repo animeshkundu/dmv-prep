@@ -11,8 +11,14 @@
   "handbookCopyrightStatus": "terms-of-use",
   "handbookTermsUrl": "https://www.dmv.ca.gov/portal/privacy-policy/conditions-of-use/",
   "applicantVariants": [
-    { "id": "under-18", "label": "Under 18 (provisional instruction permit)" },
-    { "id": "adult", "label": "Adult (18+)" }
+    {
+      "id": "under-18",
+      "label": "Under 18 (provisional instruction permit)"
+    },
+    {
+      "id": "adult",
+      "label": "Adult (18+)"
+    }
   ],
   "examVariants": [
     {
@@ -20,7 +26,10 @@
       "label": "Under-18 knowledge test (Class C)",
       "numQuestions": 46,
       "numToPass": 38,
-      "languages": ["en", "es"],
+      "languages": [
+        "en",
+        "es"
+      ],
       "onlineAvailable": false
     },
     {
@@ -28,7 +37,10 @@
       "label": "Adult knowledge test (Class C)",
       "numQuestions": 36,
       "numToPass": 30,
-      "languages": ["en", "es"],
+      "languages": [
+        "en",
+        "es"
+      ],
       "onlineAvailable": false
     }
   ],
@@ -74,7 +86,11 @@
     "moveOverRule": "Move over or slow down for stopped emergency and Caltrans vehicles displaying flashing lights",
     "interstateMaxSpeed": "65 mph (70 mph on some posted segments)",
     "schoolZoneSpeed": "25 mph when children are present",
-    "namedLaws": ["Basic Speed Law", "Move Over Law", "Hands-Free Law"]
+    "namedLaws": [
+      "Basic Speed Law",
+      "Move Over Law",
+      "Hands-Free Law"
+    ]
   },
   "typedFacts": {
     "impliedConsentRefusal": {
@@ -85,7 +101,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "California Legislative Information",
-        "citation": "Cal. Veh. Code \u00a7 13353",
+        "citation": "Cal. Veh. Code § 13353",
         "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=13353.&lawCode=VEH"
       },
       "lastVerified": "2026-07-27",
@@ -99,7 +115,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "California Legislative Information",
-        "citation": "Cal. Veh. Code \u00a7 13352",
+        "citation": "Cal. Veh. Code § 13352",
         "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=13352.&lawCode=VEH"
       },
       "lastVerified": "2026-07-27",
@@ -113,7 +129,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "California Legislative Information",
-        "citation": "Cal. Veh. Code \u00a7 22356",
+        "citation": "Cal. Veh. Code § 22356",
         "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=22356.&lawCode=VEH"
       },
       "lastVerified": "2026-07-27",
@@ -127,7 +143,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "California Legislative Information",
-        "citation": "Cal. Veh. Code \u00a7 22356",
+        "citation": "Cal. Veh. Code § 22356",
         "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=22356.&lawCode=VEH"
       },
       "lastVerified": "2026-07-27",
@@ -141,7 +157,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "California Legislative Information",
-        "citation": "Cal. Veh. Code \u00a7 22352",
+        "citation": "Cal. Veh. Code § 22352",
         "url": "https://leginfo.legislature.ca.gov/faces/selectFromMultiples.xhtml?lawCode=VEH&sectionNum=22352."
       },
       "lastVerified": "2026-07-27",
@@ -155,7 +171,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "California Legislative Information",
-        "citation": "Cal. Veh. Code \u00a7 22352",
+        "citation": "Cal. Veh. Code § 22352",
         "url": "https://leginfo.legislature.ca.gov/faces/selectFromMultiples.xhtml?lawCode=VEH&sectionNum=22352."
       },
       "lastVerified": "2026-07-27",
@@ -169,7 +185,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "California Legislative Information",
-        "citation": "Cal. Veh. Code \u00a7 22350",
+        "citation": "Cal. Veh. Code § 22350",
         "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=22350.&lawCode=VEH"
       },
       "lastVerified": "2026-07-27",
@@ -183,7 +199,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "California Legislative Information",
-        "citation": "Cal. Veh. Code \u00a7 27315",
+        "citation": "Cal. Veh. Code § 27315",
         "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=27315.&lawCode=VEH"
       },
       "lastVerified": "2026-07-27",
@@ -197,7 +213,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "California Legislative Information",
-        "citation": "Cal. Veh. Code \u00a7 24400",
+        "citation": "Cal. Veh. Code § 24400",
         "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=24400.&lawCode=VEH"
       },
       "lastVerified": "2026-07-27",
@@ -211,7 +227,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "California Legislative Information",
-        "citation": "Cal. Veh. Code \u00a7 22500",
+        "citation": "Cal. Veh. Code § 22500",
         "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=22500.&lawCode=VEH"
       },
       "lastVerified": "2026-07-27",
@@ -225,7 +241,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "California Legislative Information",
-        "citation": "Cal. Veh. Code \u00a7 22500",
+        "citation": "Cal. Veh. Code § 22500",
         "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=22500.&lawCode=VEH"
       },
       "lastVerified": "2026-07-27",
@@ -239,7 +255,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "California Legislative Information",
-        "citation": "Cal. Veh. Code \u00a7 22500",
+        "citation": "Cal. Veh. Code § 22500",
         "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=22500.&lawCode=VEH"
       },
       "lastVerified": "2026-07-27",
@@ -253,7 +269,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "California Legislative Information",
-        "citation": "Cal. Veh. Code \u00a7 22500",
+        "citation": "Cal. Veh. Code § 22500",
         "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=22500.&lawCode=VEH"
       },
       "lastVerified": "2026-07-27",
@@ -267,7 +283,7 @@
       "display": "0.08%",
       "citation": {
         "label": "California Legislative Information",
-        "citation": "Cal. Veh. Code \u00a7 23152",
+        "citation": "Cal. Veh. Code § 23152",
         "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=23152.&lawCode=VEH"
       },
       "effectiveDate": "2017-01-01",
@@ -288,7 +304,7 @@
       "display": "0.01% (under 21)",
       "citation": {
         "label": "California Legislative Information",
-        "citation": "Cal. Veh. Code \u00a7 23136",
+        "citation": "Cal. Veh. Code § 23136",
         "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=23136.&lawCode=VEH"
       },
       "effectiveDate": "1996-02-09",
@@ -309,7 +325,7 @@
       "display": "0.04% (commercial motor vehicle)",
       "citation": {
         "label": "California Legislative Information",
-        "citation": "Cal. Veh. Code \u00a7 23152",
+        "citation": "Cal. Veh. Code § 23152",
         "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=23152.&lawCode=VEH"
       },
       "effectiveDate": "2017-01-01",
@@ -330,7 +346,7 @@
       "display": "Prohibited",
       "citation": {
         "label": "California Legislative Information",
-        "citation": "Cal. Veh. Code \u00a7 23223",
+        "citation": "Cal. Veh. Code § 23223",
         "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=23223.&lawCode=VEH"
       },
       "effectiveDate": "2020-01-01",
@@ -351,7 +367,7 @@
       "display": "Allowed after stop unless prohibited by sign",
       "citation": {
         "label": "California Legislative Information",
-        "citation": "Cal. Veh. Code \u00a7 21453",
+        "citation": "Cal. Veh. Code § 21453",
         "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=21453.&lawCode=VEH"
       },
       "effectiveDate": "2023-01-01",
@@ -372,7 +388,7 @@
       "display": "Allowed from one-way street onto one-way street after stop",
       "citation": {
         "label": "California Legislative Information",
-        "citation": "Cal. Veh. Code \u00a7 21453",
+        "citation": "Cal. Veh. Code § 21453",
         "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=21453.&lawCode=VEH"
       },
       "effectiveDate": "2023-01-01",
@@ -393,7 +409,7 @@
       "display": "Handheld use banned for all drivers (statutory exceptions apply)",
       "citation": {
         "label": "California Legislative Information",
-        "citation": "Cal. Veh. Code \u00a7 23123.5",
+        "citation": "Cal. Veh. Code § 23123.5",
         "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=23123.5&lawCode=VEH"
       },
       "effectiveDate": "2018-01-01",
@@ -414,7 +430,7 @@
       "display": "Texting while holding/operating a handheld device is banned",
       "citation": {
         "label": "California Legislative Information",
-        "citation": "Cal. Veh. Code \u00a7 23123.5",
+        "citation": "Cal. Veh. Code § 23123.5",
         "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=23123.5&lawCode=VEH"
       },
       "effectiveDate": "2018-01-01",
@@ -436,7 +452,7 @@
       "display": "Change lanes when practicable or slow to a safe reasonable speed",
       "citation": {
         "label": "California Legislative Information",
-        "citation": "Cal. Veh. Code \u00a7 21809",
+        "citation": "Cal. Veh. Code § 21809",
         "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=21809.&lawCode=VEH"
       },
       "effectiveDate": "2026-01-01",
@@ -451,7 +467,7 @@
       "display": "Yes",
       "citation": {
         "label": "California Legislative Information",
-        "citation": "Cal. Veh. Code \u00a7 12810.5",
+        "citation": "Cal. Veh. Code § 12810.5",
         "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=12810.5.&lawCode=VEH"
       },
       "effectiveDate": "2008-01-01",
@@ -461,12 +477,12 @@
     "pointSuspension": {
       "state": {
         "status": "unknown",
-        "reason": "Vehicle Code \u00a7 12810.5 establishes a negligent-operator presumption at several point counts, not one automatic suspension threshold representable by this fact."
+        "reason": "Vehicle Code § 12810.5 establishes a negligent-operator presumption at several point counts, not one automatic suspension threshold representable by this fact."
       },
       "display": "Unknown (no single automatic suspension threshold)",
       "citation": {
         "label": "California Legislative Information",
-        "citation": "Cal. Veh. Code \u00a7 12810.5",
+        "citation": "Cal. Veh. Code § 12810.5",
         "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=12810.5.&lawCode=VEH"
       },
       "lastVerified": "2026-07-27",
@@ -479,14 +495,14 @@
         "conditions": [
           {
             "kind": "driver-age",
-            "detail": "Applicant has the driver-education/training status required by Vehicle Code \u00a7 12509(a)(1)-(3)."
+            "detail": "Applicant has the driver-education/training status required by Vehicle Code § 12509(a)(1)-(3)."
           }
         ]
       },
       "display": "15 years 6 months",
       "citation": {
         "label": "California Legislative Information",
-        "citation": "Cal. Veh. Code \u00a7 12509",
+        "citation": "Cal. Veh. Code § 12509",
         "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=12509.&lawCode=VEH"
       },
       "effectiveDate": "2023-01-01",
@@ -507,7 +523,7 @@
       "display": "6 months",
       "citation": {
         "label": "California Legislative Information",
-        "citation": "Cal. Veh. Code \u00a7 12814.6",
+        "citation": "Cal. Veh. Code § 12814.6",
         "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=12814.6.&lawCode=VEH"
       },
       "effectiveDate": "2023-01-01",
@@ -528,7 +544,7 @@
       "display": "50 supervised driving hours",
       "citation": {
         "label": "California Legislative Information",
-        "citation": "Cal. Veh. Code \u00a7 12814.6",
+        "citation": "Cal. Veh. Code § 12814.6",
         "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=12814.6.&lawCode=VEH"
       },
       "effectiveDate": "2023-01-01",
@@ -549,7 +565,7 @@
       "display": "10 hours during darkness",
       "citation": {
         "label": "California Legislative Information",
-        "citation": "Cal. Veh. Code \u00a7 12814.6",
+        "citation": "Cal. Veh. Code § 12814.6",
         "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=12814.6.&lawCode=VEH"
       },
       "effectiveDate": "2023-01-01",
@@ -570,10 +586,10 @@
           }
         ]
       },
-      "display": "11 p.m.\u20135 a.m. for first 12 months (exceptions apply)",
+      "display": "11 p.m.–5 a.m. for first 12 months (exceptions apply)",
       "citation": {
         "label": "California Legislative Information",
-        "citation": "Cal. Veh. Code \u00a7 12814.6",
+        "citation": "Cal. Veh. Code § 12814.6",
         "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=12814.6.&lawCode=VEH"
       },
       "effectiveDate": "2023-01-01",
@@ -598,7 +614,7 @@
       "display": "No passengers under 20 for first 12 months (exceptions apply)",
       "citation": {
         "label": "California Legislative Information",
-        "citation": "Cal. Veh. Code \u00a7 12814.6",
+        "citation": "Cal. Veh. Code § 12814.6",
         "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=12814.6.&lawCode=VEH"
       },
       "effectiveDate": "2023-01-01",
@@ -623,7 +639,7 @@
       "display": "$30,000 / $60,000 / $15,000",
       "citation": {
         "label": "California Legislative Information",
-        "citation": "Cal. Veh. Code \u00a7 16056",
+        "citation": "Cal. Veh. Code § 16056",
         "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=16056.&lawCode=VEH"
       },
       "effectiveDate": "2025-01-01",
@@ -644,7 +660,7 @@
       "display": "More than $1,000 property damage",
       "citation": {
         "label": "California Legislative Information",
-        "citation": "Cal. Veh. Code \u00a7 16000",
+        "citation": "Cal. Veh. Code § 16000",
         "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=16000.&lawCode=VEH"
       },
       "effectiveDate": "2017-01-01",
@@ -665,7 +681,7 @@
     }
   ],
   "effectiveDate": "2026-07-24",
-  "sourceSnapshotHash": "seed-pending-verification",
+  "sourceSnapshotHash": "b45f86ef8be54c7775d6cf349b1fe7d3faecfd74905672140f279a3c8a0c895e",
   "reviewStatus": "adversarially-verified",
   "lastVerified": "2026-07-24",
   "contentVersion": 1

@@ -5,7 +5,7 @@
   "agencyShort": "DPS",
   "officialSiteUrl": "https://oklahoma.gov/service.html",
   "handbookLandingUrl": "https://oklahoma.gov/service/all-pages/driver-education.html",
-  "handbookPdfUrl": "https://oklahoma.gov/content/dam/ok/en/oklahoma/documents/drivers/drivermanual.pdf",
+  "handbookPdfUrl": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
   "handbookFormat": "pdf",
   "handbookEditionYear": 2023,
   "handbookCopyrightStatus": "terms-of-use",
@@ -103,7 +103,7 @@
     }
   ],
   "effectiveDate": "2026-07-24",
-  "sourceSnapshotHash": "seed-pending-verification",
+  "sourceSnapshotHash": "36ee2ddc2e90f9ba9bd4933746a88bcd2d8e9705ce98c92b464f8488795c46d7",
   "reviewStatus": "draft",
   "verifyNote": "Official Service Oklahoma pages confirmed the exam, ages, and 4-year permit/license fees, but the cited official pages did not conclusively confirm an 8-year credential fee; only the confirmed 4-year fees are retained.",
   "lastVerified": "2026-07-24",

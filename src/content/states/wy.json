@@ -5,13 +5,19 @@
   "agencyShort": "DOT",
   "officialSiteUrl": "https://www.dot.state.wy.us/driverservices",
   "handbookLandingUrl": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html",
-  "handbookPdfUrl": "https://www.dot.state.wy.us/files/live/sites/wydot/files/shared/Driver_Services/Manuals/DRIV_LIC.pdf",
+  "handbookPdfUrl": "https://www.dot.state.wy.us/files/live/sites/wydot/files/shared/Driver_Services/Help%20Documents%20and%20Manuals/2021_DriverManual_web_ClassC_w%20cover.pdf",
   "handbookFormat": "pdf",
   "handbookEditionYear": 2024,
   "handbookCopyrightStatus": "unknown",
   "applicantVariants": [
-    { "id": "under-18", "label": "Under 18 (graduated licensing)" },
-    { "id": "adult", "label": "Adult (18+)" }
+    {
+      "id": "under-18",
+      "label": "Under 18 (graduated licensing)"
+    },
+    {
+      "id": "adult",
+      "label": "Adult (18+)"
+    }
   ],
   "examVariants": [
     {
@@ -19,7 +25,9 @@
       "label": "Wyoming knowledge (written) test — Class C, all applicants",
       "numQuestions": 25,
       "numToPass": 20,
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "onlineAvailable": false
     }
   ],
@@ -63,7 +71,11 @@
     "moveOverRule": "Slow down and, when safe, move over a lane for stopped emergency and service vehicles displaying flashing lights",
     "interstateMaxSpeed": "80 mph on posted Interstate segments (otherwise 75 mph)",
     "schoolZoneSpeed": "20 mph in a posted school zone",
-    "namedLaws": ["Move Over Law", "Implied Consent Law", "Texting-While-Driving Ban"]
+    "namedLaws": [
+      "Move Over Law",
+      "Implied Consent Law",
+      "Texting-While-Driving Ban"
+    ]
   },
   "typedFacts": {
     "bacAdult": {
@@ -74,7 +86,7 @@
       "display": "Not verified",
       "citation": {
         "label": "Wyoming Rules of the Road Driver License Manual",
-        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "citation": "WYDOT Driver Services — Driver Manuals",
         "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
       },
       "lastVerified": "2026-07-27",
@@ -88,7 +100,7 @@
       "display": "Not verified",
       "citation": {
         "label": "Wyoming Rules of the Road Driver License Manual",
-        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "citation": "WYDOT Driver Services — Driver Manuals",
         "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
       },
       "lastVerified": "2026-07-27",
@@ -102,7 +114,7 @@
       "display": "Not verified",
       "citation": {
         "label": "Wyoming Rules of the Road Driver License Manual",
-        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "citation": "WYDOT Driver Services — Driver Manuals",
         "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
       },
       "lastVerified": "2026-07-27",
@@ -116,7 +128,7 @@
       "display": "Not verified",
       "citation": {
         "label": "Wyoming Rules of the Road Driver License Manual",
-        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "citation": "WYDOT Driver Services — Driver Manuals",
         "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
       },
       "lastVerified": "2026-07-27",
@@ -130,7 +142,7 @@
       "display": "Not verified",
       "citation": {
         "label": "Wyoming Rules of the Road Driver License Manual",
-        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "citation": "WYDOT Driver Services — Driver Manuals",
         "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
       },
       "lastVerified": "2026-07-27",
@@ -144,7 +156,7 @@
       "display": "Not verified",
       "citation": {
         "label": "Wyoming Rules of the Road Driver License Manual",
-        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "citation": "WYDOT Driver Services — Driver Manuals",
         "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
       },
       "lastVerified": "2026-07-27",
@@ -158,7 +170,7 @@
       "display": "Not verified",
       "citation": {
         "label": "Wyoming Rules of the Road Driver License Manual",
-        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "citation": "WYDOT Driver Services — Driver Manuals",
         "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
       },
       "lastVerified": "2026-07-27",
@@ -172,7 +184,7 @@
       "display": "Not verified",
       "citation": {
         "label": "Wyoming Rules of the Road Driver License Manual",
-        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "citation": "WYDOT Driver Services — Driver Manuals",
         "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
       },
       "lastVerified": "2026-07-27",
@@ -186,7 +198,7 @@
       "display": "Not verified",
       "citation": {
         "label": "Wyoming Rules of the Road Driver License Manual",
-        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "citation": "WYDOT Driver Services — Driver Manuals",
         "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
       },
       "lastVerified": "2026-07-27",
@@ -200,7 +212,7 @@
       "display": "Not verified",
       "citation": {
         "label": "Wyoming Rules of the Road Driver License Manual",
-        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "citation": "WYDOT Driver Services — Driver Manuals",
         "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
       },
       "lastVerified": "2026-07-27",
@@ -214,7 +226,7 @@
       "display": "Not verified",
       "citation": {
         "label": "Wyoming Rules of the Road Driver License Manual",
-        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "citation": "WYDOT Driver Services — Driver Manuals",
         "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
       },
       "lastVerified": "2026-07-27",
@@ -228,7 +240,7 @@
       "display": "Not verified",
       "citation": {
         "label": "Wyoming Rules of the Road Driver License Manual",
-        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "citation": "WYDOT Driver Services — Driver Manuals",
         "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
       },
       "lastVerified": "2026-07-27",
@@ -242,7 +254,7 @@
       "display": "Not verified",
       "citation": {
         "label": "Wyoming Rules of the Road Driver License Manual",
-        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "citation": "WYDOT Driver Services — Driver Manuals",
         "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
       },
       "lastVerified": "2026-07-27",
@@ -256,7 +268,7 @@
       "display": "Not verified",
       "citation": {
         "label": "Wyoming Rules of the Road Driver License Manual",
-        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "citation": "WYDOT Driver Services — Driver Manuals",
         "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
       },
       "lastVerified": "2026-07-27",
@@ -270,7 +282,7 @@
       "display": "Not verified",
       "citation": {
         "label": "Wyoming Rules of the Road Driver License Manual",
-        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "citation": "WYDOT Driver Services — Driver Manuals",
         "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
       },
       "lastVerified": "2026-07-27",
@@ -284,7 +296,7 @@
       "display": "Not verified",
       "citation": {
         "label": "Wyoming Rules of the Road Driver License Manual",
-        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "citation": "WYDOT Driver Services — Driver Manuals",
         "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
       },
       "lastVerified": "2026-07-27",
@@ -298,7 +310,7 @@
       "display": "Not verified",
       "citation": {
         "label": "Wyoming Rules of the Road Driver License Manual",
-        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "citation": "WYDOT Driver Services — Driver Manuals",
         "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
       },
       "lastVerified": "2026-07-27",
@@ -312,7 +324,7 @@
       "display": "Not verified",
       "citation": {
         "label": "Wyoming Rules of the Road Driver License Manual",
-        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "citation": "WYDOT Driver Services — Driver Manuals",
         "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
       },
       "lastVerified": "2026-07-27",
@@ -326,7 +338,7 @@
       "display": "Not verified",
       "citation": {
         "label": "Wyoming Rules of the Road Driver License Manual",
-        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "citation": "WYDOT Driver Services — Driver Manuals",
         "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
       },
       "lastVerified": "2026-07-27",
@@ -340,7 +352,7 @@
       "display": "Not verified",
       "citation": {
         "label": "Wyoming Rules of the Road Driver License Manual",
-        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "citation": "WYDOT Driver Services — Driver Manuals",
         "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
       },
       "lastVerified": "2026-07-27",
@@ -354,7 +366,7 @@
       "display": "Not verified",
       "citation": {
         "label": "Wyoming Rules of the Road Driver License Manual",
-        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "citation": "WYDOT Driver Services — Driver Manuals",
         "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
       },
       "lastVerified": "2026-07-27",
@@ -368,7 +380,7 @@
       "display": "Not verified",
       "citation": {
         "label": "Wyoming Rules of the Road Driver License Manual",
-        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "citation": "WYDOT Driver Services — Driver Manuals",
         "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
       },
       "lastVerified": "2026-07-27",
@@ -382,7 +394,7 @@
       "display": "Not verified",
       "citation": {
         "label": "Wyoming Rules of the Road Driver License Manual",
-        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "citation": "WYDOT Driver Services — Driver Manuals",
         "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
       },
       "lastVerified": "2026-07-27",
@@ -396,7 +408,7 @@
       "display": "Not verified",
       "citation": {
         "label": "Wyoming Rules of the Road Driver License Manual",
-        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "citation": "WYDOT Driver Services — Driver Manuals",
         "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
       },
       "lastVerified": "2026-07-27",
@@ -410,7 +422,7 @@
       "display": "Not verified",
       "citation": {
         "label": "Wyoming Rules of the Road Driver License Manual",
-        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "citation": "WYDOT Driver Services — Driver Manuals",
         "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
       },
       "lastVerified": "2026-07-27",
@@ -424,7 +436,7 @@
       "display": "Not verified",
       "citation": {
         "label": "Wyoming Rules of the Road Driver License Manual",
-        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "citation": "WYDOT Driver Services — Driver Manuals",
         "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
       },
       "lastVerified": "2026-07-27",
@@ -438,7 +450,7 @@
       "display": "Not verified",
       "citation": {
         "label": "Wyoming Rules of the Road Driver License Manual",
-        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "citation": "WYDOT Driver Services — Driver Manuals",
         "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
       },
       "lastVerified": "2026-07-27",
@@ -452,7 +464,7 @@
       "display": "Not verified",
       "citation": {
         "label": "Wyoming Rules of the Road Driver License Manual",
-        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "citation": "WYDOT Driver Services — Driver Manuals",
         "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
       },
       "lastVerified": "2026-07-27",
@@ -466,7 +478,7 @@
       "display": "Not verified",
       "citation": {
         "label": "Wyoming Rules of the Road Driver License Manual",
-        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "citation": "WYDOT Driver Services — Driver Manuals",
         "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
       },
       "lastVerified": "2026-07-27",
@@ -480,7 +492,7 @@
       "display": "Not verified",
       "citation": {
         "label": "Wyoming Rules of the Road Driver License Manual",
-        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "citation": "WYDOT Driver Services — Driver Manuals",
         "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
       },
       "lastVerified": "2026-07-27",
@@ -494,7 +506,7 @@
       "display": "Not verified",
       "citation": {
         "label": "Wyoming Rules of the Road Driver License Manual",
-        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "citation": "WYDOT Driver Services — Driver Manuals",
         "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
       },
       "lastVerified": "2026-07-27",
@@ -508,7 +520,7 @@
       "display": "Not verified",
       "citation": {
         "label": "Wyoming Rules of the Road Driver License Manual",
-        "citation": "WYDOT Driver Services \u2014 Driver Manuals",
+        "citation": "WYDOT Driver Services — Driver Manuals",
         "url": "https://www.dot.state.wy.us/home/driver_license_records/formsapplications/driver-manuals.html"
       },
       "lastVerified": "2026-07-27",
@@ -533,7 +545,7 @@
     }
   ],
   "effectiveDate": "2026-07-24",
-  "sourceSnapshotHash": "seed-pending-verification",
+  "sourceSnapshotHash": "46d251c4dbab04d60e8a9d2625cf25b2cc6bf3b9fa4b65a6ae97746baa6a9578",
   "reviewStatus": "draft",
   "verifyNote": "Official WYDOT sources resolve the current 2024 Class C manual and confirm $45 regular learner-permit and Class C license fees. The 25-question/20-correct test is consistently reported but was not located in an official page excerpt; Wyoming's lack of a demerit-point system and the four-moving-violations suspension rule also remain unconfirmed from an accessible official passage.",
   "lastVerified": "2026-07-27",

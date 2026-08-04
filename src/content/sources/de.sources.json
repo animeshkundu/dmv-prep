@@ -4,9 +4,9 @@
     {
       "url": "https://citizen.dmv.de.gov/forms/driver_serv_forms/pdfs/J102083_DMV_Manual_2024_06_Web.pdf",
       "handbook": true,
+      "sha256": "886bd2a9c89568632f26ab2b339fe3d86e1047ee4ec637153ee3cea98e027de0",
       "contentType": "application/pdf",
-      "status": 200,
-      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+      "status": 200
     },
     {
       "url": "https://delcode.delaware.gov/title21/index.html",
@@ -38,5 +38,6 @@
       "contentType": "text/html",
       "status": 200
     }
-  ]
+  ],
+  "handbookSnapshotHash": "886bd2a9c89568632f26ab2b339fe3d86e1047ee4ec637153ee3cea98e027de0"
 }

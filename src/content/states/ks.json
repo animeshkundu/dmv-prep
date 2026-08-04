@@ -10,8 +10,14 @@
   "handbookEditionYear": 2022,
   "handbookCopyrightStatus": "unknown",
   "applicantVariants": [
-    { "id": "under-18", "label": "Under 18 (instruction permit / restricted / GDL)" },
-    { "id": "adult", "label": "Adult (18+)" }
+    {
+      "id": "under-18",
+      "label": "Under 18 (instruction permit / restricted / GDL)"
+    },
+    {
+      "id": "adult",
+      "label": "Adult (18+)"
+    }
   ],
   "examVariants": [
     {
@@ -19,7 +25,10 @@
       "label": "Class C knowledge (written) test",
       "numQuestions": 25,
       "numToPass": 20,
-      "languages": ["en", "es"],
+      "languages": [
+        "en",
+        "es"
+      ],
       "onlineAvailable": true
     },
     {
@@ -27,7 +36,10 @@
       "label": "Under-18 Class C knowledge (written) test",
       "numQuestions": 25,
       "numToPass": 20,
-      "languages": ["en", "es"],
+      "languages": [
+        "en",
+        "es"
+      ],
       "onlineAvailable": true
     }
   ],
@@ -71,7 +83,10 @@
     "moveOverRule": "Move over a lane, or slow down if you cannot safely move, for stopped emergency, tow, and highway-maintenance vehicles with flashing lights",
     "interstateMaxSpeed": "75 mph (rural interstates, where posted)",
     "schoolZoneSpeed": "20 mph when posted (varies by posted sign)",
-    "namedLaws": ["Move Over Law", "Zero Tolerance Law"]
+    "namedLaws": [
+      "Move Over Law",
+      "Zero Tolerance Law"
+    ]
   },
   "references": [
     {
@@ -91,7 +106,7 @@
     }
   ],
   "effectiveDate": "2026-07-24",
-  "sourceSnapshotHash": "seed-pending-verification",
+  "sourceSnapshotHash": "97f948fa2813ae6f55c38a33ee1ced62ed7a16d959e4d254eac56d4b6a74f190",
   "reviewStatus": "draft",
   "verifyNote": "The official handbook is revised February 2022 and confirms 25 questions with an 80% passing score (20 correct), ages, and GDL rules. The official fee chart is dated May 2023 and confirms permit, test, and age-banded adult Class C fees, but its under-21 'Class C or M' row bundles a $20 motorcycle fee and does not unambiguously state the Class C-only total. The state-level school-zone 20 mph summary also remains unconfirmed by the handbook.",
   "lastVerified": "2026-07-27",

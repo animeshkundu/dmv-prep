@@ -130,15 +130,16 @@
     {
       "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf",
       "handbook": true,
+      "sha256": "97f948fa2813ae6f55c38a33ee1ced62ed7a16d959e4d254eac56d4b6a74f190",
       "contentType": "application/pdf",
-      "status": 200,
-      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+      "status": 200
     },
     {
       "url": "https://www.ksrevenue.gov/pdf/dmvlicfees.pdf",
+      "sha256": "80e9b3d216c536c50dfbfeb8bffff4e4afde5d2eb37892c84da437a9bc9b8391",
       "contentType": "application/pdf",
-      "status": 200,
-      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+      "status": 200
     }
-  ]
+  ],
+  "handbookSnapshotHash": "97f948fa2813ae6f55c38a33ee1ced62ed7a16d959e4d254eac56d4b6a74f190"
 }

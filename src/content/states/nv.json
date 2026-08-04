@@ -10,8 +10,14 @@
   "handbookEditionYear": 2024,
   "handbookCopyrightStatus": "unknown",
   "applicantVariants": [
-    { "id": "under-18", "label": "Under 18 (instruction permit / GDL)" },
-    { "id": "adult", "label": "Adult (18+)" }
+    {
+      "id": "under-18",
+      "label": "Under 18 (instruction permit / GDL)"
+    },
+    {
+      "id": "adult",
+      "label": "Adult (18+)"
+    }
   ],
   "examVariants": [
     {
@@ -19,7 +25,10 @@
       "label": "Class C knowledge test (all applicants)",
       "numQuestions": 25,
       "numToPass": 20,
-      "languages": ["en", "es"],
+      "languages": [
+        "en",
+        "es"
+      ],
       "onlineAvailable": true
     }
   ],
@@ -62,7 +71,11 @@
     "moveOverRule": "Move over or slow down for stopped emergency, tow, and highway maintenance vehicles displaying flashing lights",
     "interstateMaxSpeed": "80 mph (posted segments of rural interstate)",
     "schoolZoneSpeed": "15 or 25 mph as posted; generally effective on school days from 30 minutes before school begins until 30 minutes after school ends, unless otherwise posted",
-    "namedLaws": ["Move Over Law", "Zero Tolerance Law", "Hands-Free Law"]
+    "namedLaws": [
+      "Move Over Law",
+      "Zero Tolerance Law",
+      "Hands-Free Law"
+    ]
   },
   "typedFacts": {
     "bacAdult": {
@@ -537,7 +550,7 @@
     }
   ],
   "effectiveDate": "2026-07-24",
-  "sourceSnapshotHash": "seed-pending-verification",
+  "sourceSnapshotHash": "a401e36c17cddeb5ac1ca6aef6ce5832aa5940891f550d765815d93c1414b27e",
   "reviewStatus": "adversarially-verified",
   "lastVerified": "2026-07-24",
   "contentVersion": 1

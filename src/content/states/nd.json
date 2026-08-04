@@ -10,8 +10,14 @@
   "handbookEditionYear": 2025,
   "handbookCopyrightStatus": "unknown",
   "applicantVariants": [
-    { "id": "under-18", "label": "Under 18 (graduated licensing)" },
-    { "id": "adult", "label": "Adult (18 and older)" }
+    {
+      "id": "under-18",
+      "label": "Under 18 (graduated licensing)"
+    },
+    {
+      "id": "adult",
+      "label": "Adult (18 and older)"
+    }
   ],
   "examVariants": [
     {
@@ -19,7 +25,9 @@
       "label": "Noncommercial (Class D) knowledge test",
       "numQuestions": 25,
       "numToPass": 20,
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "onlineAvailable": true
     }
   ],
@@ -62,7 +70,11 @@
     "moveOverRule": "Move over a lane or slow down for stopped emergency, law-enforcement, tow and DOT vehicles displaying flashing lights",
     "interstateMaxSpeed": "80 mph on rural interstate highways unless otherwise posted",
     "schoolZoneSpeed": "Obey the posted school-zone limit when children are present",
-    "namedLaws": ["Move Over Law", "Zero Tolerance Law (under 21)", "Texting/handheld device ban"]
+    "namedLaws": [
+      "Move Over Law",
+      "Zero Tolerance Law (under 21)",
+      "Texting/handheld device ban"
+    ]
   },
   "typedFacts": {
     "bacAdult": {
@@ -630,7 +642,7 @@
     }
   ],
   "effectiveDate": "2026-07-24",
-  "sourceSnapshotHash": "seed-pending-verification",
+  "sourceSnapshotHash": "3f7010c9e8ccf48b97ddbed9d0486ef9ac6c0c84249e2169f44164e07cbe69cd",
   "reviewStatus": "adversarially-verified",
   "verifyNote": "Official NDDOT sources confirm age 14, online knowledge-test availability, $15 permit and Class D fees, the 12-point suspension threshold, and the current revised-2025 manual. The 25-question/20-correct exam format is confirmed by official search material. Rural interstate speed was corrected to 80 mph.",
   "lastVerified": "2026-07-24",

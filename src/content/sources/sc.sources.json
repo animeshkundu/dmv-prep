@@ -10,9 +10,9 @@
     {
       "url": "https://dmv.sc.gov/sites/scdmv/files/2026-01/Drivers%20Manual.pdf",
       "handbook": true,
+      "sha256": "6bd51726b21ab8980a40bb8b123e1ae35abac7444bbc798baf50f21d9bd48514",
       "contentType": "application/pdf",
-      "status": 200,
-      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+      "status": 200
     },
     {
       "url": "https://mutcd.fhwa.dot.gov/",
@@ -34,15 +34,22 @@
     },
     {
       "url": "https://www.scstatehouse.gov/code/t38c077.php",
-      "error": "fetch failed: fetch failed"
+      "sha256": "a44bd6e6d2d921bb7bd2610f774767ef42059156c04d2064e1f78505e44c3646",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.scstatehouse.gov/code/t56c001.php",
-      "error": "fetch failed: fetch failed"
+      "sha256": "48fd9ccda95cf68bd2b8e882094a4c281d627f3a34fc92d9c04ed72600783c6d",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.scstatehouse.gov/code/t56c005.php",
-      "error": "fetch failed: fetch failed"
+      "sha256": "ac48a5ed3530b32c78aeb4ad228f3afe6dff1256c7fd930c7425e45a648366c2",
+      "contentType": "text/html",
+      "status": 200
     }
-  ]
+  ],
+  "handbookSnapshotHash": "6bd51726b21ab8980a40bb8b123e1ae35abac7444bbc798baf50f21d9bd48514"
 }

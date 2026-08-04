@@ -4,7 +4,7 @@
   "agencyName": "Michigan Secretary of State",
   "agencyShort": "SOS",
   "officialSiteUrl": "https://www.michigan.gov/sos",
-  "handbookLandingUrl": "https://www.michigan.gov/sos/all-services/manuals/what-every-driver-must-know",
+  "handbookLandingUrl": "https://www.michigan.gov/sos/resources/forms/what-every-driver-must-know",
   "handbookFormat": "mixed",
   "handbookEditionYear": 2025,
   "handbookCopyrightStatus": "unknown",
@@ -693,5 +693,6 @@
   "reviewStatus": "draft",
   "verifyNote": "Current Michigan SOS sources confirm adult online availability and fees but do not publish the exact operational knowledge-test question count or passing count; 50/40 remains unconfirmed.",
   "lastVerified": "2026-07-24",
-  "contentVersion": 1
+  "contentVersion": 1,
+  "handbookPdfUrl": "https://www.michigan.gov/sos/-/media/Project/Websites/sos/Resources/Forms-and-publications/WEDMK/WEDMK.pdf?rev=f6e4e5b6c4304bc38aea503b40819f26&hash=188AD895EB387F9C459EB319524FBBD8"
 }

@@ -10,8 +10,14 @@
   "handbookEditionYear": 2019,
   "handbookCopyrightStatus": "unknown",
   "applicantVariants": [
-    { "id": "under-18", "label": "Under 18 (instruction permit, graduated licensing)" },
-    { "id": "adult", "label": "Adult (18+) Class D knowledge test" }
+    {
+      "id": "under-18",
+      "label": "Under 18 (instruction permit, graduated licensing)"
+    },
+    {
+      "id": "adult",
+      "label": "Adult (18+) Class D knowledge test"
+    }
   ],
   "examVariants": [
     {
@@ -19,7 +25,10 @@
       "label": "Under-18 knowledge test (Class D)",
       "numQuestions": 25,
       "numToPass": 18,
-      "languages": ["en", "es"],
+      "languages": [
+        "en",
+        "es"
+      ],
       "onlineAvailable": false
     },
     {
@@ -27,7 +36,10 @@
       "label": "Adult knowledge test (Class D)",
       "numQuestions": 25,
       "numToPass": 18,
-      "languages": ["en", "es"],
+      "languages": [
+        "en",
+        "es"
+      ],
       "onlineAvailable": false
     }
   ],
@@ -70,7 +82,11 @@
     "moveOverRule": "Move over a lane or slow down for stopped emergency, police, and highway maintenance vehicles displaying flashing lights",
     "interstateMaxSpeed": "75 mph",
     "schoolZoneSpeed": "15 mph in a marked school zone during posted hours (unless otherwise posted)",
-    "namedLaws": ["Statewide texting ban", "Move Over Law", "Zero Tolerance Law"]
+    "namedLaws": [
+      "Statewide texting ban",
+      "Move Over Law",
+      "Zero Tolerance Law"
+    ]
   },
   "typedFacts": {
     "bacAdult": {
@@ -634,7 +650,7 @@
     }
   ],
   "effectiveDate": "2026-07-24",
-  "sourceSnapshotHash": "seed-pending-verification",
+  "sourceSnapshotHash": "9288ae8b9b1be5dba17ca4cd70dd1a127070611c2c04eb0915a6aa3a3d3a7c3f",
   "reviewStatus": "adversarially-verified",
   "lastVerified": "2026-07-24",
   "contentVersion": 1

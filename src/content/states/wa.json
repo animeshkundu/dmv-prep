@@ -11,8 +11,14 @@
   "handbookCopyrightStatus": "terms-of-use",
   "handbookTermsUrl": "https://dol.wa.gov/privacy-and-conditions-use",
   "applicantVariants": [
-    { "id": "under-18", "label": "Under 18 (instruction permit, GDL)" },
-    { "id": "adult", "label": "Adult (18+)" }
+    {
+      "id": "under-18",
+      "label": "Under 18 (instruction permit, GDL)"
+    },
+    {
+      "id": "adult",
+      "label": "Adult (18+)"
+    }
   ],
   "examVariants": [
     {
@@ -20,7 +26,10 @@
       "label": "Knowledge test (under 18)",
       "numQuestions": 40,
       "numToPass": 32,
-      "languages": ["en", "es"],
+      "languages": [
+        "en",
+        "es"
+      ],
       "onlineAvailable": false
     },
     {
@@ -28,7 +37,10 @@
       "label": "Knowledge test (adult)",
       "numQuestions": 40,
       "numToPass": 32,
-      "languages": ["en", "es"],
+      "languages": [
+        "en",
+        "es"
+      ],
       "onlineAvailable": false
     }
   ],
@@ -70,7 +82,11 @@
     "moveOverRule": "Move over one lane or slow down for stopped emergency, tow, and roadside-assistance vehicles displaying flashing lights (RCW 46.61.212)",
     "interstateMaxSpeed": "70 mph (where posted on rural interstates)",
     "schoolZoneSpeed": "20 mph when children are present or as posted",
-    "namedLaws": ["Move Over Law", "E-DUI / Hands-Free Electronics Law (RCW 46.61.672)", "Zero Tolerance Law"]
+    "namedLaws": [
+      "Move Over Law",
+      "E-DUI / Hands-Free Electronics Law (RCW 46.61.672)",
+      "Zero Tolerance Law"
+    ]
   },
   "typedFacts": {
     "bacAdult": {
@@ -536,7 +552,7 @@
     }
   ],
   "effectiveDate": "2026-07-24",
-  "sourceSnapshotHash": "seed-pending-verification",
+  "sourceSnapshotHash": "4fdcc079ec8f91a3d933c0acacc1a6ab2dc1895746ffbfc5930f36337558a4a2",
   "reviewStatus": "draft",
   "verifyNote": "The handbook snapshot and most typed facts remain unverified; only individually cited verified facts may be consumed.",
   "lastVerified": "2026-08-04",

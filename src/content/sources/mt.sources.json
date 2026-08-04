@@ -27,9 +27,9 @@
     {
       "url": "https://mvdmt.gov/wp-content/uploads/2026/05/25-0100M-Montana-Driver-Manual-English-05.26.pdf",
       "handbook": true,
+      "sha256": "b9b3a3c58a574fe8a7d30e2d9ba5bef5aa0a35796f77136edafab796d19c5888",
       "contentType": "application/pdf",
-      "status": 200,
-      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+      "status": 200
     },
     {
       "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table",
@@ -37,5 +37,6 @@
       "contentType": "text/html",
       "status": 200
     }
-  ]
+  ],
+  "handbookSnapshotHash": "b9b3a3c58a574fe8a7d30e2d9ba5bef5aa0a35796f77136edafab796d19c5888"
 }

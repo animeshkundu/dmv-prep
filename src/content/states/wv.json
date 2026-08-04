@@ -10,8 +10,14 @@
   "handbookEditionYear": 2022,
   "handbookCopyrightStatus": "unknown",
   "applicantVariants": [
-    { "id": "level-1", "label": "Level 1 instruction permit (graduated licensing)" },
-    { "id": "adult", "label": "Adult (18+) Class E knowledge test" }
+    {
+      "id": "level-1",
+      "label": "Level 1 instruction permit (graduated licensing)"
+    },
+    {
+      "id": "adult",
+      "label": "Adult (18+) Class E knowledge test"
+    }
   ],
   "examVariants": [
     {
@@ -19,7 +25,9 @@
       "label": "Level 1 instruction permit knowledge test (Class E)",
       "numQuestions": 25,
       "numToPass": 19,
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "onlineAvailable": true
     },
     {
@@ -27,7 +35,9 @@
       "label": "Adult knowledge test (Class E)",
       "numQuestions": 25,
       "numToPass": 19,
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "onlineAvailable": true
     }
   ],
@@ -71,7 +81,11 @@
     "moveOverRule": "Move over a lane or slow down for stopped emergency, tow, and utility vehicles displaying flashing lights",
     "interstateMaxSpeed": "70 mph unless otherwise posted",
     "schoolZoneSpeed": "15 mph in a school zone when lights are flashing or children are present",
-    "namedLaws": ["Statewide texting and handheld ban", "Move Over Law", "Graduated Driver's License (GDL) law"]
+    "namedLaws": [
+      "Statewide texting and handheld ban",
+      "Move Over Law",
+      "Graduated Driver's License (GDL) law"
+    ]
   },
   "typedFacts": {
     "bacAdult": {
@@ -536,7 +550,7 @@
     }
   ],
   "effectiveDate": "2026-07-24",
-  "sourceSnapshotHash": "seed-pending-verification",
+  "sourceSnapshotHash": "ed6c772b4fb7232981f1a70bc93f8e958ad6751e5520262b59308c05eaed2c7c",
   "reviewStatus": "draft",
   "verifyNote": "Official DMV sources confirm the 25-question/19-correct exam, online availability, ages, GDL rules, point thresholds, and the handbook's July 2022 revision. The current $40 Class E license fee could not be confirmed officially, so the state remains draft.",
   "lastVerified": "2026-07-27",

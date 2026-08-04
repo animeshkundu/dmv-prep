@@ -5,7 +5,7 @@
   "agencyShort": "DMV",
   "officialSiteUrl": "https://dmv.ri.gov/",
   "handbookLandingUrl": "https://dmv.ri.gov/licenses-permits-ids/permits-tests/operator-manuals",
-  "handbookPdfUrl": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf",
+  "handbookPdfUrl": "https://dmv.ri.gov/media/966/download",
   "handbookFormat": "pdf",
   "handbookEditionYear": 2022,
   "handbookCopyrightStatus": "unknown",
@@ -104,7 +104,7 @@
     }
   ],
   "effectiveDate": "2026-07-24",
-  "sourceSnapshotHash": "seed-pending-verification",
+  "sourceSnapshotHash": "a815fd5848fe335c04bda03968bf91f3aafc55085f45bcfd36c77718c1cd358b",
   "reviewStatus": "adversarially-verified",
   "verifyNote": "Official RI DMV pages confirm the 25-question exam with 20 correct required, current permit/license fees, minimum ages, and GDL requirements. Rhode Island does not use a demerit-point system. The numeric vision acuity standard remains unconfirmed, so the field states only that screening is administered.",
   "lastVerified": "2026-07-24",

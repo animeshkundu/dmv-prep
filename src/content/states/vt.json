@@ -11,8 +11,14 @@
   "handbookCopyrightStatus": "terms-of-use",
   "handbookTermsUrl": "https://dmv.vermont.gov/",
   "applicantVariants": [
-    { "id": "under-18", "label": "Under 18 (learner permit / junior license)" },
-    { "id": "adult", "label": "Adult (18+)" }
+    {
+      "id": "under-18",
+      "label": "Under 18 (learner permit / junior license)"
+    },
+    {
+      "id": "adult",
+      "label": "Adult (18+)"
+    }
   ],
   "examVariants": [
     {
@@ -20,7 +26,9 @@
       "label": "Vermont knowledge (permit) test — all applicants",
       "numQuestions": 20,
       "numToPass": 16,
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "onlineAvailable": true
     }
   ],
@@ -64,7 +72,11 @@
     "moveOverRule": "Slow down and, when safe, move over a lane for stopped emergency, towing, and highway maintenance vehicles displaying flashing lights",
     "interstateMaxSpeed": "65 mph",
     "schoolZoneSpeed": "As posted; reduced when children are present",
-    "namedLaws": ["Move Over Law", "Hands-Free Law", "Zero Tolerance Law"]
+    "namedLaws": [
+      "Move Over Law",
+      "Hands-Free Law",
+      "Zero Tolerance Law"
+    ]
   },
   "typedFacts": {
     "bacAdult": {
@@ -534,7 +546,7 @@
     }
   ],
   "effectiveDate": "2026-07-24",
-  "sourceSnapshotHash": "seed-pending-verification",
+  "sourceSnapshotHash": "efdfd182ea0a4e579bfdd085a436aad5f6eb959ffadaba01049a4e80c18dead2",
   "reviewStatus": "adversarially-verified",
   "verifyNote": "Official Vermont DMV sources confirm the 20-question/16-correct test, permit age 15, current permit/license fees, BAC limits, GDL requirements, and 10-point suspension threshold. The current manual PDF resolves, but its November 2024 edition date and the locally posted school-zone rule were not independently confirmed in this review.",
   "lastVerified": "2026-07-27",

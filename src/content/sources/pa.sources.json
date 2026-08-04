@@ -22,9 +22,10 @@
     {
       "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
       "handbook": true,
+      "sha256": "d9beef97719672796151e61ece73e5933d377eb22ddab2d81d959bfcb89c0f8b",
       "contentType": "application/pdf",
-      "status": 200,
-      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+      "status": 200
     }
-  ]
+  ],
+  "handbookSnapshotHash": "d9beef97719672796151e61ece73e5933d377eb22ddab2d81d959bfcb89c0f8b"
 }

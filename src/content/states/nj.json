@@ -11,8 +11,14 @@
   "handbookCopyrightStatus": "terms-of-use",
   "handbookTermsUrl": "https://www.nj.gov/nj/legal.html",
   "applicantVariants": [
-    { "id": "under-21", "label": "Under 21 (GDL: special learner's or examination permit)" },
-    { "id": "adult", "label": "Adult (21+)" }
+    {
+      "id": "under-21",
+      "label": "Under 21 (GDL: special learner's or examination permit)"
+    },
+    {
+      "id": "adult",
+      "label": "Adult (21+)"
+    }
   ],
   "examVariants": [
     {
@@ -20,7 +26,10 @@
       "label": "Knowledge test (Class D) - GDL applicant",
       "numQuestions": 50,
       "numToPass": 40,
-      "languages": ["en", "es"],
+      "languages": [
+        "en",
+        "es"
+      ],
       "onlineAvailable": false
     },
     {
@@ -28,7 +37,10 @@
       "label": "Knowledge test (Class D) - adult",
       "numQuestions": 50,
       "numToPass": 40,
-      "languages": ["en", "es"],
+      "languages": [
+        "en",
+        "es"
+      ],
       "onlineAvailable": false
     }
   ],
@@ -72,7 +84,11 @@
     "moveOverRule": "Move over one lane or slow down for stopped emergency, tow, and highway maintenance vehicles displaying flashing lights",
     "interstateMaxSpeed": "65 mph (where posted, including the Turnpike and Garden State Parkway)",
     "schoolZoneSpeed": "25 mph (unless otherwise posted)",
-    "namedLaws": ["Kyleigh's Law (GDL red decal)", "Move Over Law", "Hands-Free / Wireless Device Law"]
+    "namedLaws": [
+      "Kyleigh's Law (GDL red decal)",
+      "Move Over Law",
+      "Hands-Free / Wireless Device Law"
+    ]
   },
   "typedFacts": {
     "bacAdult": {
@@ -687,7 +703,7 @@
     }
   ],
   "effectiveDate": "2026-07-24",
-  "sourceSnapshotHash": "seed-pending-verification",
+  "sourceSnapshotHash": "61b2728536ca3e23210463033da33e08ed526d9a03d4ca17912b6ee5435e905b",
   "reviewStatus": "adversarially-verified",
   "lastVerified": "2026-07-24",
   "contentVersion": 1

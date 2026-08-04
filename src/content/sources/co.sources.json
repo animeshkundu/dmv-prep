@@ -12,25 +12,27 @@
       "error": "HTTP 404"
     },
     {
-      "url": "https://dmv.colorado.gov/driver-handbook",
-      "handbook": true,
-      "status": 403,
-      "error": "HTTP 403"
-    },
-    {
       "url": "https://dmv.colorado.gov/driver-handbooks",
-      "status": 403,
-      "error": "HTTP 403"
+      "status": 404,
+      "error": "HTTP 404"
     },
     {
       "url": "https://dmv.colorado.gov/fees",
-      "status": 403,
-      "error": "HTTP 403"
+      "status": 404,
+      "error": "HTTP 404"
     },
     {
       "url": "https://dmv.colorado.gov/permits-first-time-driver-license",
-      "status": 403,
-      "error": "HTTP 403"
+      "sha256": "2b178b5fdc7cf5646d0d0c3338d9c6ae82f27022440db64f2c240ba0691ee1a3",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://dmv.colorado.gov/sites/dmv/files/documents/DR_2337_Jan2025.pdf",
+      "handbook": true,
+      "sha256": "42bb75c16cd25eaa65b703e14e7e97157cae64d606f998dbe43b0418e709cebf",
+      "contentType": "application/pdf",
+      "status": 200
     },
     {
       "url": "https://mutcd.fhwa.dot.gov/",
@@ -38,5 +40,6 @@
       "contentType": "text/html",
       "status": 200
     }
-  ]
+  ],
+  "handbookSnapshotHash": "42bb75c16cd25eaa65b703e14e7e97157cae64d606f998dbe43b0418e709cebf"
 }
