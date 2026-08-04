@@ -118,19 +118,28 @@
     {
       "url": "https://www.maine.gov/sos/bmv/driver-licenses-and-ids/car-license/driver-license-manual-and-Maine-motorist-handbook-and-study-guide",
       "handbook": true,
-      "error": "fetch failed: fetch failed"
+      "sha256": "016d88c083baac1ecf33b245c02e6bdf74634d6993b600de711ef222b3c3584a",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.maine.gov/sos/bmv/driver-licenses-and-ids/car-license/drivers-license-exam",
-      "error": "fetch failed: fetch failed"
+      "sha256": "a724def8647ef67f46d1a967a0ac17a0b1e012bda8746ae363c20037c149a48b",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.maine.gov/sos/bmv/driver-licenses-and-ids/car-license/how-to-obtain-a-license",
-      "error": "fetch failed: fetch failed"
+      "sha256": "75200bffe63b7eb28ba74904b20b5d6601656adb9c188ee06f4dbf89dd47021e",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.mainelegislature.org/legis/statutes/29-A/title29-Asec2074.html",
-      "error": "fetch failed: fetch failed"
+      "sha256": "6f13b8ef85aa97b9a8a19430f71d389e23ac747fd4844df0a9f2437e2a99d9ba",
+      "contentType": "text/html",
+      "status": 200
     }
-  ]
+  ],
+  "handbookSnapshotHash": "016d88c083baac1ecf33b245c02e6bdf74634d6993b600de711ef222b3c3584a"
 }

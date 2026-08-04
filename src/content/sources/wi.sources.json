@@ -10,9 +10,9 @@
     {
       "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
       "handbook": true,
+      "sha256": "365ace33829733ac1353c07b79a81803f81becad5e6cd1dce4bc4b206c885b0c",
       "contentType": "application/pdf",
-      "status": 200,
-      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+      "status": 200
     },
     {
       "url": "https://wisconsindot.gov/Pages/dmv/license-drvs/susp-or-rvkd/owi.aspx",
@@ -25,5 +25,6 @@
       "status": 404,
       "error": "HTTP 404"
     }
-  ]
+  ],
+  "handbookSnapshotHash": "365ace33829733ac1353c07b79a81803f81becad5e6cd1dce4bc4b206c885b0c"
 }

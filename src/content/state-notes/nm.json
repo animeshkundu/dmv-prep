@@ -1,0 +1,82 @@
+[
+  {
+    "id": "nm-posted-limits-rural-interstate",
+    "state": "NM",
+    "unitId": "posted-limits",
+    "kind": "extra",
+    "title": "Rural interstate maximum",
+    "body": "New Mexico law authorizes a maximum posting of 75 mph on highways and, in practice, that is the highest limit used on rural interstates. The sign posted for the roadway still controls: a driver may not treat the statewide ceiling as the limit on a segment carrying a lower sign, and conditions can require a safer speed below the posting.",
+    "references": [
+      {
+        "label": "New Mexico speed regulation",
+        "citation": "NMSA 1978, § 66-7-301(A)(4)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      }
+    ],
+    "effectiveDate": "2016-01-01",
+    "reviewStatus": "draft",
+    "verifyNote": "The cited official statute was checked against the typed fact; independent cross-lab prose review remains pending.",
+    "lastVerified": "2026-07-27",
+    "contentVersion": 1
+  },
+  {
+    "id": "nm-school-work-zones-school-speed",
+    "state": "NM",
+    "unitId": "school-and-work-zones",
+    "kind": "exception",
+    "title": "When the school-zone limit applies",
+    "body": "The New Mexico school-zone rule sets 15 mph when the school is properly posted and children are going to or leaving school. The number is not a general all-day limit for every road beside a school. Drivers should use the signs and active conditions to identify the zone, while still choosing a lower safe speed if visibility or pedestrian activity requires it.",
+    "references": [
+      {
+        "label": "New Mexico speed regulation",
+        "citation": "NMSA 1978, § 66-7-301(A)(1)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      }
+    ],
+    "effectiveDate": "2016-01-01",
+    "reviewStatus": "draft",
+    "verifyNote": "The cited official statute was checked against the typed fact; independent cross-lab prose review remains pending.",
+    "lastVerified": "2026-07-27",
+    "contentVersion": 1
+  },
+  {
+    "id": "nm-distraction-fatigue-texting",
+    "state": "NM",
+    "unitId": "distraction-and-fatigue",
+    "kind": "emphasis",
+    "title": "Manual texting is prohibited",
+    "body": "New Mexico prohibits a driver from reading, viewing, or manually typing a text message on a handheld mobile communication device while driving. The rule is narrower than a complete safety plan: entering navigation, searching for content, or handling another distracting task can still take attention from the roadway. Set up the trip before moving and stop safely before interacting with a device.",
+    "references": [
+      {
+        "label": "New Mexico texting while driving law",
+        "citation": "NMSA 1978, § 66-7-374",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      }
+    ],
+    "effectiveDate": "2014-07-01",
+    "reviewStatus": "draft",
+    "verifyNote": "The cited official statute was checked against the typed fact; independent cross-lab prose review remains pending.",
+    "lastVerified": "2026-07-27",
+    "contentVersion": 1
+  },
+  {
+    "id": "nm-permit-rules-minimum-age",
+    "state": "NM",
+    "unitId": "permit-rules",
+    "kind": "extra",
+    "title": "Instruction-permit eligibility",
+    "body": "A New Mexico instruction permit may be issued at age 15 to an applicant enrolled in or finished with an approved driver-education course. Eligibility does not remove the permit's supervision and practice conditions. Applicants should confirm that the course, supervising driver, documents, and vehicle all meet current Motor Vehicle Division requirements before relying on age alone.",
+    "references": [
+      {
+        "label": "New Mexico provisional licenses and instruction permits",
+        "citation": "NMSA 1978, § 66-5-8(E)",
+        "url": "https://nmonesource.com/nmos/nmsa/en/4422/1/document.do"
+      }
+    ],
+    "effectiveDate": "2011-06-17",
+    "reviewStatus": "draft",
+    "verifyNote": "The cited official statute was checked against the typed fact; independent cross-lab prose review remains pending.",
+    "lastVerified": "2026-07-27",
+    "contentVersion": 1
+  }
+]

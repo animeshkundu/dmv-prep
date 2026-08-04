@@ -39,7 +39,7 @@
       "75 mph or more on a two-lane road, or 85 mph or more on any road",
       "10 mph over any limit",
       "Any speed in a school zone",
-      "65 mph or more on an interstate"
+      "65 mph or more on any interstate, or 55 mph or more on other roads"
     ],
     "correctIndex": 0,
     "explanation": "Georgia's Super Speeder Law adds a $200 state fee for driving 75 mph or more on a two-lane road, or 85 mph or more on any road or highway. This is on top of local fines.",
@@ -123,7 +123,7 @@
     ],
     "prompt": "A Georgia Class D (provisional) license holder is prohibited from driving during which hours?",
     "options": [
-      "9 p.m. to 6 a.m.",
+      "Sunset to sunrise, unless a parent is riding along",
       "12 a.m. (midnight) to 5 a.m.",
       "11 p.m. to 6 a.m.",
       "10 p.m. to 5 a.m."
@@ -240,7 +240,7 @@
     "prompt": "For a Georgia driver age 21 or older, license suspension results from accumulating how many points?",
     "options": [
       "15 points in any 24-month period",
-      "12 points in 36 months",
+      "12 points in any 36-month period, plus a fine",
       "10 points in 18 months",
       "6 points in 12 months"
     ],
@@ -270,7 +270,7 @@
     "options": [
       "15 points, anytime",
       "7 points, once every 5 years",
-      "All points, once per year",
+      "All accumulated points, once every calendar year",
       "3 points, once per license"
     ],
     "correctIndex": 1,

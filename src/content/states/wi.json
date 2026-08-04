@@ -10,8 +10,14 @@
   "handbookEditionYear": 2025,
   "handbookCopyrightStatus": "terms-of-use",
   "applicantVariants": [
-    { "id": "under-18", "label": "Under 18 (instruction permit, GDL)" },
-    { "id": "adult", "label": "Adult (18+) Class D" }
+    {
+      "id": "under-18",
+      "label": "Under 18 (instruction permit, GDL)"
+    },
+    {
+      "id": "adult",
+      "label": "Adult (18+) Class D"
+    }
   ],
   "examVariants": [
     {
@@ -19,7 +25,10 @@
       "label": "Under-18 knowledge test - Class D (regular license)",
       "numQuestions": 50,
       "numToPass": 40,
-      "languages": ["en", "es"],
+      "languages": [
+        "en",
+        "es"
+      ],
       "onlineAvailable": true
     },
     {
@@ -27,7 +36,10 @@
       "label": "Adult knowledge test - Class D (regular license)",
       "numQuestions": 50,
       "numToPass": 40,
-      "languages": ["en", "es"],
+      "languages": [
+        "en",
+        "es"
+      ],
       "onlineAvailable": false
     }
   ],
@@ -72,7 +84,11 @@
     "moveOverRule": "Move over a lane, or slow down if you cannot, for stopped emergency, tow, and highway maintenance vehicles displaying flashing warning lights",
     "interstateMaxSpeed": "70 mph on rural interstates where posted",
     "schoolZoneSpeed": "Reduced posted limit near schools when children are present (commonly 15 mph)",
-    "namedLaws": ["Move Over Law", "Absolute Sobriety Law (Not a Drop)", "Graduated Driver Licensing (GDL) Law"]
+    "namedLaws": [
+      "Move Over Law",
+      "Absolute Sobriety Law (Not a Drop)",
+      "Graduated Driver Licensing (GDL) Law"
+    ]
   },
   "typedFacts": {
     "bacAdult": {
@@ -542,7 +558,7 @@
     }
   ],
   "effectiveDate": "2026-07-24",
-  "sourceSnapshotHash": "seed-pending-verification",
+  "sourceSnapshotHash": "365ace33829733ac1353c07b79a81803f81becad5e6cd1dce4bc4b206c885b0c",
   "reviewStatus": "adversarially-verified",
   "verifyNote": "The current official WisDOT BDS126 handbook and current knowledge-test page confirm the requirements, but WisDOT does not identify an edition year for the live handbook PDF; handbookEditionYear remains 2025 pending an edition-dated official source.",
   "lastVerified": "2026-07-27",

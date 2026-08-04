@@ -240,7 +240,7 @@
     "prompt": "You approach a red, eight-sided (octagonal) sign. You must:",
     "options": [
       "Come to a complete stop, then proceed when it is safe",
-      "Slow down and proceed if the way looks clear",
+      "Slow down and continue if the way ahead appears to be clear",
       "Stop only if another vehicle is present",
       "Yield only to pedestrians"
     ],
@@ -268,7 +268,7 @@
     ],
     "prompt": "A diamond-shaped sign with a yellow background and black symbols is used to:",
     "options": [
-      "Give a regulatory order such as a speed limit",
+      "Give a regulatory order, such as a speed limit or turn ban",
       "Warn of possible hazards or changing conditions ahead",
       "Mark a work zone",
       "Provide highway route numbers"

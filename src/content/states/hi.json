@@ -5,7 +5,7 @@
   "agencyShort": "DMV",
   "officialSiteUrl": "https://hidot.hawaii.gov/highways/",
   "handbookLandingUrl": "https://hidot.hawaii.gov/highways/library/motor-vehicle-safety-office/english-original-hawaii-drivers-manual/",
-  "handbookPdfUrl": "https://hidot.hawaii.gov/highways/files/2019/01/Hawaii-Drivers-Manual.pdf",
+  "handbookPdfUrl": "https://hidot.hawaii.gov/highways/files/2021/11/ENGLISH-Original-Hawaii-Drivers-Manual.pdf",
   "handbookFormat": "pdf",
   "handbookEditionYear": 2019,
   "handbookCopyrightStatus": "terms-of-use",
@@ -91,7 +91,7 @@
     }
   ],
   "effectiveDate": "2026-07-24",
-  "sourceSnapshotHash": "seed-pending-verification",
+  "sourceSnapshotHash": "3ade21e8271fdfc19d801f664e218c4f89133a59cacb8446b30ad12ed8347390",
   "reviewStatus": "adversarially-verified",
   "lastVerified": "2026-07-24",
   "contentVersion": 1,

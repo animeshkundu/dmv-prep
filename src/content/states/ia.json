@@ -10,8 +10,14 @@
   "handbookEditionYear": 2024,
   "handbookCopyrightStatus": "unknown",
   "applicantVariants": [
-    { "id": "under-18", "label": "Under 18 (instruction permit / intermediate license)" },
-    { "id": "adult", "label": "Adult (18+)" }
+    {
+      "id": "under-18",
+      "label": "Under 18 (instruction permit / intermediate license)"
+    },
+    {
+      "id": "adult",
+      "label": "Adult (18+)"
+    }
   ],
   "examVariants": [
     {
@@ -19,7 +25,10 @@
       "label": "Knowledge test (all applicants)",
       "numQuestions": 35,
       "numToPass": 28,
-      "languages": ["en", "es"],
+      "languages": [
+        "en",
+        "es"
+      ],
       "onlineAvailable": false
     }
   ],
@@ -62,7 +71,11 @@
     "moveOverRule": "Move over or slow down for stopped emergency, tow, maintenance, and utility vehicles displaying flashing lights (Iowa Code § 321.323A)",
     "interstateMaxSpeed": "70 mph (rural interstate)",
     "schoolZoneSpeed": "25 mph unless a different limit is posted",
-    "namedLaws": ["Move Over Law", "Zero Tolerance Law", "Hands-Free Law (effective July 1, 2025)"]
+    "namedLaws": [
+      "Move Over Law",
+      "Zero Tolerance Law",
+      "Hands-Free Law (effective July 1, 2025)"
+    ]
   },
   "references": [
     {
@@ -82,7 +95,7 @@
     }
   ],
   "effectiveDate": "2026-07-24",
-  "sourceSnapshotHash": "seed-pending-verification",
+  "sourceSnapshotHash": "7937966d374e3780789f4f7606bee0fb31896bd707277684b4cb89d11c0a65e2",
   "reviewStatus": "draft",
   "verifyNote": "The current official Iowa Driver's Manual and DOT practice-test page do not publish the live knowledge-test question count or passing mark; 35 questions / 28 correct remains unconfirmed. Retest timing and fee also remain unconfirmed.",
   "lastVerified": "2026-07-27",

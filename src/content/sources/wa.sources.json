@@ -2,6 +2,48 @@
   "state": "WA",
   "sources": [
     {
+      "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.20.055",
+      "sha256": "935707e9f208d0fceaa2909b5b0d0796071c233d8bb05318518f026e8fa7087a",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.20.075",
+      "sha256": "f9be90dd237d38ca890ef5d8eae520c0fcc9ccac28877bb80a865bd6ced9d225",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.20.202",
+      "sha256": "4f61ebe8adf33ba9b027e9c8968fd3af3e4239dc9d0b04761e6a37a577f3e793",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.61.212",
+      "sha256": "d344fbef613cf702f6b742db2e72b85188c717ce6442688b7dd9c5c69e69f342",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.61.400",
+      "sha256": "553c97c77b664bbac86b3a18b18a257ec3130388b2d322d32b036c059312f5f2",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.61.672",
+      "sha256": "c828f76ad539e1a6e3d5affa1233b65b453239cc12c8c521ee3e28907071e07a",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
+      "url": "https://app.leg.wa.gov/wac/default.aspx?cite=308-104-025",
+      "sha256": "3dc214b0a996eea4a933173bf333e192654e67d173c88a880aa825fec9ebc9c1",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
       "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-licenses/driver-license-fees",
       "status": 404,
       "error": "HTTP 404"
@@ -15,9 +57,9 @@
     {
       "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf",
       "handbook": true,
+      "sha256": "4fdcc079ec8f91a3d933c0acacc1a6ab2dc1895746ffbfc5930f36337558a4a2",
       "contentType": "application/pdf",
-      "status": 200,
-      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+      "status": 200
     },
     {
       "url": "https://mutcd.fhwa.dot.gov/",
@@ -25,5 +67,6 @@
       "contentType": "text/html",
       "status": 200
     }
-  ]
+  ],
+  "handbookSnapshotHash": "4fdcc079ec8f91a3d933c0acacc1a6ab2dc1895746ffbfc5930f36337558a4a2"
 }

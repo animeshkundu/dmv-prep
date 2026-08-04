@@ -37,7 +37,7 @@
     "prompt": "In a West Virginia school zone, the reduced speed limit applies when:",
     "options": [
       "The warning lights are flashing or children are present",
-      "Only on weekdays year-round, at all hours",
+      "Only on weekdays during the school year, at any hour of the day",
       "Only when a crossing guard waves you down",
       "Only during summer break"
     ],
@@ -210,7 +210,7 @@
     ],
     "prompt": "In West Virginia's point system, accumulating 12 points results in:",
     "options": [
-      "Permanent revocation",
+      "Permanent revocation of your driving privileges",
       "A 30-day license suspension",
       "No action",
       "Only a warning letter"

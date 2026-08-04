@@ -82,10 +82,25 @@ export function collectSourcePlan(states, questions) {
   return { allUrls: [...allUrls].sort(), byState };
 }
 
+// Several state DMV hosts reject header-less or non-conventional requests
+// outright (HTTP 403), so identify the fetcher using the standard
+// `Mozilla/5.0 (compatible; <name>/<version>; +<url>)` bot convention rather
+// than silently recording every official source as unreachable.
+const USER_AGENT =
+  'Mozilla/5.0 (compatible; dmv-prep-source-fetcher/1.0; +https://github.com/animeshkundu/dmv-prep)';
+
 export async function fetchSource(url, fetchImpl = fetch) {
   let response;
   try {
-    response = await fetchImpl(url, { redirect: 'follow', signal: AbortSignal.timeout(30_000) });
+    response = await fetchImpl(url, {
+      redirect: 'follow',
+      signal: AbortSignal.timeout(60_000),
+      headers: {
+        'user-agent': USER_AGENT,
+        accept: 'application/pdf,text/html,application/xhtml+xml,*/*',
+        'accept-language': 'en-US,en;q=0.9',
+      },
+    });
   } catch (error) {
     return { url, error: `fetch failed: ${error instanceof Error ? error.message : String(error)}` };
   }

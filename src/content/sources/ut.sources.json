@@ -16,9 +16,9 @@
     {
       "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-REV-3.2026.pdf",
       "handbook": true,
+      "sha256": "9cf15f70d79dca30d0bffb12e52b852d0e094dafed3f648f53560b9ba5622fe9",
       "contentType": "application/pdf",
-      "status": 200,
-      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+      "status": 200
     },
     {
       "url": "https://le.utah.gov/xcode/Title31A/Chapter22/31A-22-S304.html",
@@ -104,5 +104,6 @@
       "contentType": "text/html",
       "status": 200
     }
-  ]
+  ],
+  "handbookSnapshotHash": "9cf15f70d79dca30d0bffb12e52b852d0e094dafed3f648f53560b9ba5622fe9"
 }

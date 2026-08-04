@@ -67,7 +67,7 @@
     "options": [
       "5 points",
       "3 points",
-      "8 points",
+      "8 points, plus any out-of-state convictions",
       "12 points"
     ],
     "correctIndex": 3,
@@ -212,7 +212,7 @@
     "options": [
       "10 p.m. to 4 a.m.",
       "Midnight to 5 a.m.",
-      "9 p.m. to 6 a.m.",
+      "Sunset to sunrise, with no work or school exception",
       "11 p.m. to 5 a.m."
     ],
     "correctIndex": 1,

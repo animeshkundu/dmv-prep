@@ -110,9 +110,7 @@
     {
       "url": "https://www.ilsos.gov/publications/pdf_publications/dsd_a112.pdf",
       "handbook": true,
-      "contentType": "application/pdf",
-      "status": 200,
-      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+      "error": "fetch failed: The operation was aborted due to timeout"
     }
   ]
 }

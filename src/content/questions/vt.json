@@ -239,7 +239,7 @@
     ],
     "prompt": "A flashing red traffic signal means you must:",
     "options": [
-      "Stop and wait for the light to turn green",
+      "Stop and wait for the light to change to a steady green",
       "Stop, then proceed when it is safe, as at a stop sign",
       "Speed up to clear the intersection",
       "Slow down and proceed with caution"

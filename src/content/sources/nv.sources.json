@@ -28,9 +28,9 @@
     {
       "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
       "handbook": true,
+      "sha256": "a401e36c17cddeb5ac1ca6aef6ce5832aa5940891f550d765815d93c1414b27e",
       "contentType": "application/pdf",
-      "status": 200,
-      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+      "status": 200
     },
     {
       "url": "https://mutcd.fhwa.dot.gov/",
@@ -58,7 +58,9 @@
     },
     {
       "url": "https://www.leg.state.nv.us/nrs/nrs-484b.html#NRS484BSec450",
-      "error": "fetch failed: The operation was aborted due to timeout"
+      "sha256": "f56a6c5542bceb27f5ff962753b9e1b04e0ffcaad8ffe2334d84daa36fa6152e",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.leg.state.nv.us/nrs/nrs-484c.html",
@@ -72,5 +74,6 @@
       "contentType": "text/html",
       "status": 200
     }
-  ]
+  ],
+  "handbookSnapshotHash": "a401e36c17cddeb5ac1ca6aef6ce5832aa5940891f550d765815d93c1414b27e"
 }

@@ -5,7 +5,7 @@
   "agencyShort": "DDS",
   "officialSiteUrl": "https://dds.georgia.gov/",
   "handbookLandingUrl": "https://dds.georgia.gov/dds-forms-and-manuals/manuals",
-  "handbookPdfUrl": "https://dds.georgia.gov/document/document/drivers-manual/download",
+  "handbookPdfUrl": "https://dds.georgia.gov/document/document/ga-drivers-manual-2023-2024/download",
   "handbookFormat": "pdf",
   "handbookEditionYear": 2024,
   "handbookCopyrightStatus": "unknown",
@@ -124,7 +124,7 @@
     }
   ],
   "effectiveDate": "2026-07-24",
-  "sourceSnapshotHash": "seed-pending-verification",
+  "sourceSnapshotHash": "373f7ca66e6915c891dbee87c0fac71f4f28b5d29e42871426b6e760cac6f55b",
   "reviewStatus": "adversarially-verified",
   "lastVerified": "2026-07-24",
   "contentVersion": 1,

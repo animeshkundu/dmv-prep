@@ -37,7 +37,7 @@
     ],
     "prompt": "Under Utah's 'Not-a-Drop' law, a driver under 21 can be cited and lose their license for driving with:",
     "options": [
-      "A BAC of 0.05% or higher",
+      "A BAC of 0.05% or higher, Utah's adult DUI limit",
       "A BAC of 0.08% or higher",
       "A BAC of 0.02% or higher",
       "Any measurable amount of alcohol in their body"
@@ -218,7 +218,7 @@
     "prompt": "A Utah driver under 18 generally may not drive between:",
     "options": [
       "Midnight and 5 a.m.",
-      "9 p.m. and 6 a.m.",
+      "From dusk until dawn, unless a parent approves the trip",
       "11 p.m. and 6 a.m.",
       "10 p.m. and 5 a.m."
     ],
@@ -368,7 +368,7 @@
     "prompt": "A flashing red traffic signal means you must:",
     "options": [
       "Stop, then proceed when it is safe, as you would at a stop sign",
-      "The signal is out of order and should be ignored",
+      "The signal is out of order and may be ignored entirely by drivers",
       "Slow down and proceed without stopping",
       "Speed up to clear the intersection"
     ],
@@ -400,7 +400,7 @@
       "The road is one-way",
       "Neither direction of traffic may cross the lines to pass",
       "You may pass only at night",
-      "Passing is allowed from both directions"
+      "Passing is allowed from both directions whenever the road is clear"
     ],
     "correctIndex": 1,
     "explanation": "A solid double yellow center line means passing is prohibited for traffic in both directions. You may cross only to turn into or out of a driveway or road when safe.",

@@ -153,7 +153,7 @@
     "prompt": "With a Rhode Island limited provisional license, unsupervised driving is generally allowed only during which hours?",
     "options": [
       "5 a.m. to 1 a.m. (no unsupervised driving 1 a.m.-5 a.m.)",
-      "Only during daylight hours",
+      "Only between sunrise and sunset, with no evening driving at all",
       "6 a.m. to 10 p.m.",
       "Any time, with no restriction"
     ],
@@ -387,7 +387,7 @@
       "Lane changing is discouraged; stay within your lane",
       "You must stop ahead",
       "The road is one-way",
-      "You may change lanes freely"
+      "You may change lanes freely whenever the traffic allows"
     ],
     "correctIndex": 0,
     "explanation": "A solid white line separates lanes of traffic going the same direction and discourages lane changes. A broken white line means you may change lanes when it is safe.",

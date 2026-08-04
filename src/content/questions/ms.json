@@ -242,7 +242,7 @@
       "A school zone or school crossing",
       "A hospital ahead",
       "A no-passing zone",
-      "A railroad crossing"
+      "A railroad crossing a short way ahead"
     ],
     "correctIndex": 0,
     "explanation": "A pentagon-shaped sign marks a school zone or school crossing. Slow down and watch for children when approaching.",
@@ -268,7 +268,7 @@
     ],
     "prompt": "A round (circular) sign with a black X and the letters RR marks:",
     "options": [
-      "A regional route",
+      "A regional route number marker",
       "A railroad crossing ahead",
       "A rest area",
       "A roundabout"
@@ -326,7 +326,7 @@
     ],
     "prompt": "A painted curb and signs marking a space with the International Symbol of Access (wheelchair symbol) mean:",
     "options": [
-      "Anyone may park for a short time",
+      "Anyone may park there briefly, as long as they are loading or unloading passengers",
       "Loading zone only",
       "No stopping at any time",
       "Parking is reserved for vehicles displaying a valid disability placard or plate"

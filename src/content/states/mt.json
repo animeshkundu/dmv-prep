@@ -10,8 +10,14 @@
   "handbookEditionYear": 2026,
   "handbookCopyrightStatus": "unknown",
   "applicantVariants": [
-    { "id": "under-18", "label": "Under 18 (learner license / graduated program)" },
-    { "id": "adult", "label": "Adult (18+)" }
+    {
+      "id": "under-18",
+      "label": "Under 18 (learner license / graduated program)"
+    },
+    {
+      "id": "adult",
+      "label": "Adult (18+)"
+    }
   ],
   "examVariants": [
     {
@@ -19,7 +25,9 @@
       "label": "Under-18 knowledge test (Class D)",
       "numQuestions": 33,
       "numToPass": 27,
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "onlineAvailable": false
     },
     {
@@ -27,7 +35,9 @@
       "label": "Adult knowledge test (Class D)",
       "numQuestions": 33,
       "numToPass": 27,
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "onlineAvailable": false
     }
   ],
@@ -70,7 +80,11 @@
     "moveOverRule": "Move over a lane or slow down for stopped emergency, law enforcement, and other authorized vehicles displaying flashing lights",
     "interstateMaxSpeed": "80 mph (rural interstate, daytime and night); lower where posted, e.g. 65 mph in urban areas",
     "schoolZoneSpeed": "As posted; obey reduced school-zone limits when children are present (Montana has no single statewide school-zone number)",
-    "namedLaws": ["Basic Rule (speed)", "Move Over Law", "Implied Consent Law"]
+    "namedLaws": [
+      "Basic Rule (speed)",
+      "Move Over Law",
+      "Implied Consent Law"
+    ]
   },
   "typedFacts": {
     "bacAdult": {
@@ -540,7 +554,7 @@
     }
   ],
   "effectiveDate": "2026-07-24",
-  "sourceSnapshotHash": "seed-pending-verification",
+  "sourceSnapshotHash": "b9b3a3c58a574fe8a7d30e2d9ba5bef5aa0a35796f77136edafab796d19c5888",
   "reviewStatus": "adversarially-verified",
   "lastVerified": "2026-07-24",
   "contentVersion": 1

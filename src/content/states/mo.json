@@ -5,13 +5,19 @@
   "agencyShort": "DOR",
   "officialSiteUrl": "https://dor.mo.gov/driver-license/",
   "handbookLandingUrl": "https://dor.mo.gov/driver-license/guide/",
-  "handbookPdfUrl": "https://dor.mo.gov/forms/Driver_Guide.pdf",
+  "handbookPdfUrl": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
   "handbookFormat": "pdf",
   "handbookEditionYear": 2025,
   "handbookCopyrightStatus": "public-domain",
   "applicantVariants": [
-    { "id": "under-18", "label": "Teen (under 18, graduated license)" },
-    { "id": "adult", "label": "Adult (18+)" }
+    {
+      "id": "under-18",
+      "label": "Teen (under 18, graduated license)"
+    },
+    {
+      "id": "adult",
+      "label": "Adult (18+)"
+    }
   ],
   "examVariants": [
     {
@@ -19,7 +25,9 @@
       "label": "Written (road rules) knowledge test",
       "numQuestions": 25,
       "numToPass": 20,
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "onlineAvailable": false
     },
     {
@@ -27,7 +35,9 @@
       "label": "Road sign test",
       "numQuestions": 20,
       "numToPass": 16,
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "onlineAvailable": false
     }
   ],
@@ -69,7 +79,12 @@
     "moveOverRule": "Move over a lane or slow down for stopped emergency and Department of Transportation vehicles displaying flashing lights",
     "interstateMaxSpeed": "70 mph (posted maximum on interstates)",
     "schoolZoneSpeed": "Reduced limit as posted during school hours",
-    "namedLaws": ["Move Over Law", "Abuse and Lose Law", "Zero Tolerance Law", "Siddens Bening Hands Free Law"]
+    "namedLaws": [
+      "Move Over Law",
+      "Abuse and Lose Law",
+      "Zero Tolerance Law",
+      "Siddens Bening Hands Free Law"
+    ]
   },
   "typedFacts": {
     "bacAdult": {
@@ -534,7 +549,7 @@
     }
   ],
   "effectiveDate": "2026-07-24",
-  "sourceSnapshotHash": "seed-pending-verification",
+  "sourceSnapshotHash": "b5be6ae6ce1b251969b4d6f2afc5558a11ff013f13a7e86c9cdd0f0e872d95ef",
   "reviewStatus": "adversarially-verified",
   "lastVerified": "2026-07-24",
   "contentVersion": 1

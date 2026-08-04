@@ -3,9 +3,15 @@
   "sources": [
     {
       "url": "https://hidot.hawaii.gov/highways/files/2019/01/Hawaii-Drivers-Manual.pdf",
-      "handbook": true,
       "status": 404,
       "error": "HTTP 404"
+    },
+    {
+      "url": "https://hidot.hawaii.gov/highways/files/2021/11/ENGLISH-Original-Hawaii-Drivers-Manual.pdf",
+      "handbook": true,
+      "sha256": "3ade21e8271fdfc19d801f664e218c4f89133a59cacb8446b30ad12ed8347390",
+      "contentType": "application/pdf",
+      "status": 200
     },
     {
       "url": "https://hidot.hawaii.gov/highways/library/motor-vehicle-safety-office/english-original-hawaii-drivers-manual/",
@@ -121,5 +127,6 @@
       "contentType": "text/html",
       "status": 200
     }
-  ]
+  ],
+  "handbookSnapshotHash": "3ade21e8271fdfc19d801f664e218c4f89133a59cacb8446b30ad12ed8347390"
 }

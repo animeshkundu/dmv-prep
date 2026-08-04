@@ -8,8 +8,14 @@
       "status": 200
     },
     {
-      "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf",
+      "url": "https://dmv.ri.gov/media/966/download",
       "handbook": true,
+      "sha256": "a815fd5848fe335c04bda03968bf91f3aafc55085f45bcfd36c77718c1cd358b",
+      "contentType": "application/pdf",
+      "status": 200
+    },
+    {
+      "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf",
       "status": 404,
       "error": "HTTP 404"
     },
@@ -25,5 +31,6 @@
       "contentType": "text/html",
       "status": 200
     }
-  ]
+  ],
+  "handbookSnapshotHash": "a815fd5848fe335c04bda03968bf91f3aafc55085f45bcfd36c77718c1cd358b"
 }

@@ -153,7 +153,7 @@
     "prompt": "Under New York's Leandra's Law, driving while intoxicated with a passenger age 15 or younger is:",
     "options": [
       "Legal if the child is asleep",
-      "A warning on the first offense",
+      "A warning on the first offense, then a misdemeanor",
       "Only a traffic ticket",
       "Charged as a felony, even on a first offense"
     ],
@@ -181,7 +181,7 @@
     ],
     "prompt": "In New York, your driver license may be suspended if you accumulate:",
     "options": [
-      "20 points within 5 years",
+      "20 points within any 5-year period",
       "11 points within 18 months",
       "3 points within 6 months",
       "6 points within 12 months"
@@ -213,7 +213,7 @@
       "Retake the road test",
       "Attend traffic court weekly",
       "Pay a Driver Responsibility Assessment",
-      "Surrender your license permanently"
+      "Surrender your license until the points expire"
     ],
     "correctIndex": 2,
     "explanation": "Drivers who receive 6 or more points within 18 months must pay a Driver Responsibility Assessment fee to the NY DMV, separate from any fines.",
@@ -416,7 +416,7 @@
       "Show a place of interest",
       "Warn of a hazard or a change in road conditions ahead",
       "Mark a highway exit number",
-      "Give a regulation you must obey by law"
+      "Give a traffic regulation that every driver must obey by law"
     ],
     "correctIndex": 1,
     "explanation": "Yellow diamond-shaped signs are warning signs that alert you to hazards or changes ahead, such as curves, intersections, or merging traffic. Knowing sign shapes and colors helps with the road-sign portion of the NY test.",

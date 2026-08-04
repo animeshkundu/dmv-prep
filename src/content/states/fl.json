@@ -10,8 +10,14 @@
   "handbookEditionYear": 2025,
   "handbookCopyrightStatus": "terms-of-use",
   "applicantVariants": [
-    { "id": "under-18", "label": "Under 18 (requires TLSAE course)" },
-    { "id": "adult", "label": "Adult (18+)" }
+    {
+      "id": "under-18",
+      "label": "Under 18 (requires TLSAE course)"
+    },
+    {
+      "id": "adult",
+      "label": "Adult (18+)"
+    }
   ],
   "examVariants": [
     {
@@ -27,7 +33,10 @@
           "note": "10 of the 50 questions cover road signs; there is no separate road-sign minimum, only the overall 40/50 (80%) passing score."
         }
       ],
-      "languages": ["en", "es"],
+      "languages": [
+        "en",
+        "es"
+      ],
       "onlineAvailable": true
     }
   ],
@@ -71,7 +80,11 @@
     "moveOverRule": "Move over one lane, or slow to 20 mph below the posted limit, for stopped law enforcement, emergency, tow, utility, and sanitation vehicles with flashing lights",
     "interstateMaxSpeed": "70 mph",
     "schoolZoneSpeed": "20 mph when the school-zone signal is flashing or the reduced limit is posted",
-    "namedLaws": ["Move Over Act", "Florida Ban on Texting While Driving Law", "Hands-free requirement in school and work zones"]
+    "namedLaws": [
+      "Move Over Act",
+      "Florida Ban on Texting While Driving Law",
+      "Hands-free requirement in school and work zones"
+    ]
   },
   "references": [
     {
@@ -91,7 +104,7 @@
     }
   ],
   "effectiveDate": "2026-07-24",
-  "sourceSnapshotHash": "seed-pending-verification",
+  "sourceSnapshotHash": "efc8175c404196feda29f115b1a680cddda8b8f61b24195cacb171eb4e24efa5",
   "reviewStatus": "adversarially-verified",
   "lastVerified": "2026-07-24",
   "contentVersion": 1,

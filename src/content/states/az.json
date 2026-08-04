@@ -10,8 +10,14 @@
   "handbookEditionYear": 2024,
   "handbookCopyrightStatus": "unknown",
   "applicantVariants": [
-    { "id": "under-18", "label": "Under 18 (Class G instruction permit)" },
-    { "id": "adult", "label": "Adult (18+)" }
+    {
+      "id": "under-18",
+      "label": "Under 18 (Class G instruction permit)"
+    },
+    {
+      "id": "adult",
+      "label": "Adult (18+)"
+    }
   ],
   "examVariants": [
     {
@@ -19,7 +25,10 @@
       "label": "Under-18 knowledge test (Class G)",
       "numQuestions": 30,
       "numToPass": 24,
-      "languages": ["en", "es"],
+      "languages": [
+        "en",
+        "es"
+      ],
       "onlineAvailable": true
     },
     {
@@ -27,7 +36,10 @@
       "label": "Adult knowledge test (Class D/G)",
       "numQuestions": 30,
       "numToPass": 24,
-      "languages": ["en", "es"],
+      "languages": [
+        "en",
+        "es"
+      ],
       "onlineAvailable": false
     }
   ],
@@ -71,7 +83,10 @@
     "moveOverRule": "Move over one lane or slow down for stopped emergency, tow, utility, and other vehicles displaying flashing lights (A.R.S. 28-775)",
     "interstateMaxSpeed": "75 mph where posted",
     "schoolZoneSpeed": "15 mph when children are present and school is in session",
-    "namedLaws": ["Move Over Law", "Hands-Free Law (A.R.S. 28-914)"]
+    "namedLaws": [
+      "Move Over Law",
+      "Hands-Free Law (A.R.S. 28-914)"
+    ]
   },
   "typedFacts": {
     "bacAdult": {
@@ -82,7 +97,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Arizona Revised Statutes",
-        "citation": "A.R.S. \u00a7 28-1381",
+        "citation": "A.R.S. § 28-1381",
         "url": "https://www.azleg.gov/ars/28/01381.htm"
       },
       "lastVerified": "2026-07-27",
@@ -96,7 +111,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Arizona Revised Statutes",
-        "citation": "A.R.S. \u00a7 4-244",
+        "citation": "A.R.S. § 4-244",
         "url": "https://www.azleg.gov/ars/04/00244.htm"
       },
       "lastVerified": "2026-07-27",
@@ -110,7 +125,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Arizona Revised Statutes",
-        "citation": "A.R.S. \u00a7 28-1381",
+        "citation": "A.R.S. § 28-1381",
         "url": "https://www.azleg.gov/ars/28/01381.htm"
       },
       "lastVerified": "2026-07-27",
@@ -124,7 +139,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Arizona Revised Statutes",
-        "citation": "A.R.S. \u00a7 28-1321",
+        "citation": "A.R.S. § 28-1321",
         "url": "https://www.azleg.gov/ars/28/01321.htm"
       },
       "lastVerified": "2026-07-27",
@@ -138,7 +153,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Arizona Revised Statutes",
-        "citation": "A.R.S. \u00a7 4-251",
+        "citation": "A.R.S. § 4-251",
         "url": "https://www.azleg.gov/ars/04/00251.htm"
       },
       "lastVerified": "2026-07-27",
@@ -152,7 +167,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Arizona Revised Statutes",
-        "citation": "A.R.S. \u00a7 28-1385",
+        "citation": "A.R.S. § 28-1385",
         "url": "https://www.azleg.gov/ars/28/01385.htm"
       },
       "lastVerified": "2026-07-27",
@@ -161,12 +176,12 @@
     "ruralInterstateMaxMph": {
       "state": {
         "status": "unknown",
-        "reason": "A.R.S. \u00a7\u00a7 28-701 and 28-702 make the limit depend on posting; the retrieved primary text did not establish one statewide rural-interstate maximum with an effective date."
+        "reason": "A.R.S. §§ 28-701 and 28-702 make the limit depend on posting; the retrieved primary text did not establish one statewide rural-interstate maximum with an effective date."
       },
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Arizona Revised Statutes",
-        "citation": "A.R.S. \u00a7 28-702",
+        "citation": "A.R.S. § 28-702",
         "url": "https://www.azleg.gov/ars/28/00702.htm"
       },
       "lastVerified": "2026-07-27",
@@ -175,12 +190,12 @@
     "urbanInterstateMaxMph": {
       "state": {
         "status": "unknown",
-        "reason": "A.R.S. \u00a7\u00a7 28-701 and 28-702 make the limit depend on posting; the retrieved primary text did not establish one statewide urban-interstate maximum with an effective date."
+        "reason": "A.R.S. §§ 28-701 and 28-702 make the limit depend on posting; the retrieved primary text did not establish one statewide urban-interstate maximum with an effective date."
       },
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Arizona Revised Statutes",
-        "citation": "A.R.S. \u00a7 28-702",
+        "citation": "A.R.S. § 28-702",
         "url": "https://www.azleg.gov/ars/28/00702.htm"
       },
       "lastVerified": "2026-07-27",
@@ -194,7 +209,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Arizona Revised Statutes",
-        "citation": "A.R.S. \u00a7 28-701",
+        "citation": "A.R.S. § 28-701",
         "url": "https://www.azleg.gov/ars/28/00701.htm"
       },
       "lastVerified": "2026-07-27",
@@ -208,7 +223,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Arizona Revised Statutes",
-        "citation": "A.R.S. \u00a7 28-701",
+        "citation": "A.R.S. § 28-701",
         "url": "https://www.azleg.gov/ars/28/00701.htm"
       },
       "lastVerified": "2026-07-27",
@@ -222,7 +237,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Arizona Revised Statutes",
-        "citation": "A.R.S. \u00a7 28-701",
+        "citation": "A.R.S. § 28-701",
         "url": "https://www.azleg.gov/ars/28/00701.htm"
       },
       "lastVerified": "2026-07-27",
@@ -236,7 +251,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Arizona Revised Statutes",
-        "citation": "A.R.S. \u00a7 28-645",
+        "citation": "A.R.S. § 28-645",
         "url": "https://www.azleg.gov/ars/28/00645.htm"
       },
       "lastVerified": "2026-07-27",
@@ -250,7 +265,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Arizona Revised Statutes",
-        "citation": "A.R.S. \u00a7 28-645",
+        "citation": "A.R.S. § 28-645",
         "url": "https://www.azleg.gov/ars/28/00645.htm"
       },
       "lastVerified": "2026-07-27",
@@ -264,7 +279,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Arizona Revised Statutes",
-        "citation": "A.R.S. \u00a7 28-909",
+        "citation": "A.R.S. § 28-909",
         "url": "https://www.azleg.gov/ars/28/00909.htm"
       },
       "lastVerified": "2026-07-27",
@@ -284,7 +299,7 @@
       "display": "Handheld device use prohibited for all drivers (statutory exemptions apply)",
       "citation": {
         "label": "Arizona Revised Statutes",
-        "citation": "A.R.S. \u00a7 28-914",
+        "citation": "A.R.S. § 28-914",
         "url": "https://www.azleg.gov/ars/28/00914.htm"
       },
       "effectiveDate": "2021-01-01",
@@ -305,7 +320,7 @@
       "display": "Text-based device use prohibited for all drivers (statutory exemptions apply)",
       "citation": {
         "label": "Arizona Revised Statutes",
-        "citation": "A.R.S. \u00a7 28-914",
+        "citation": "A.R.S. § 28-914",
         "url": "https://www.azleg.gov/ars/28/00914.htm"
       },
       "effectiveDate": "2021-01-01",
@@ -320,7 +335,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Arizona Revised Statutes",
-        "citation": "A.R.S. \u00a7 28-775",
+        "citation": "A.R.S. § 28-775",
         "url": "https://www.azleg.gov/ars/28/00775.htm"
       },
       "lastVerified": "2026-07-27",
@@ -334,7 +349,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Arizona Revised Statutes",
-        "citation": "A.R.S. \u00a7 28-922",
+        "citation": "A.R.S. § 28-922",
         "url": "https://www.azleg.gov/ars/28/00922.htm"
       },
       "lastVerified": "2026-07-27",
@@ -348,7 +363,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Arizona Revised Statutes",
-        "citation": "A.R.S. \u00a7 28-873",
+        "citation": "A.R.S. § 28-873",
         "url": "https://www.azleg.gov/ars/28/00873.htm"
       },
       "lastVerified": "2026-07-27",
@@ -362,7 +377,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Arizona Revised Statutes",
-        "citation": "A.R.S. \u00a7 28-873",
+        "citation": "A.R.S. § 28-873",
         "url": "https://www.azleg.gov/ars/28/00873.htm"
       },
       "lastVerified": "2026-07-27",
@@ -376,7 +391,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Arizona Revised Statutes",
-        "citation": "A.R.S. \u00a7 28-873",
+        "citation": "A.R.S. § 28-873",
         "url": "https://www.azleg.gov/ars/28/00873.htm"
       },
       "lastVerified": "2026-07-27",
@@ -390,7 +405,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Arizona Revised Statutes",
-        "citation": "A.R.S. \u00a7 28-873",
+        "citation": "A.R.S. § 28-873",
         "url": "https://www.azleg.gov/ars/28/00873.htm"
       },
       "lastVerified": "2026-07-27",
@@ -404,7 +419,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Arizona Revised Statutes",
-        "citation": "A.R.S. \u00a7 28-3306",
+        "citation": "A.R.S. § 28-3306",
         "url": "https://www.azleg.gov/ars/28/03306.htm"
       },
       "lastVerified": "2026-07-27",
@@ -418,7 +433,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Arizona Revised Statutes",
-        "citation": "A.R.S. \u00a7 28-3306",
+        "citation": "A.R.S. § 28-3306",
         "url": "https://www.azleg.gov/ars/28/03306.htm"
       },
       "lastVerified": "2026-07-27",
@@ -432,7 +447,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Arizona Revised Statutes",
-        "citation": "A.R.S. \u00a7 28-3154",
+        "citation": "A.R.S. § 28-3154",
         "url": "https://www.azleg.gov/ars/28/03154.htm"
       },
       "lastVerified": "2026-07-27",
@@ -446,7 +461,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Arizona Revised Statutes",
-        "citation": "A.R.S. \u00a7 28-3154",
+        "citation": "A.R.S. § 28-3154",
         "url": "https://www.azleg.gov/ars/28/03154.htm"
       },
       "lastVerified": "2026-07-27",
@@ -460,7 +475,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Arizona Revised Statutes",
-        "citation": "A.R.S. \u00a7 28-3160",
+        "citation": "A.R.S. § 28-3160",
         "url": "https://www.azleg.gov/ars/28/03160.htm"
       },
       "lastVerified": "2026-07-27",
@@ -474,7 +489,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Arizona Revised Statutes",
-        "citation": "A.R.S. \u00a7 28-3160",
+        "citation": "A.R.S. § 28-3160",
         "url": "https://www.azleg.gov/ars/28/03160.htm"
       },
       "lastVerified": "2026-07-27",
@@ -488,7 +503,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Arizona Revised Statutes",
-        "citation": "A.R.S. \u00a7 28-3160",
+        "citation": "A.R.S. § 28-3160",
         "url": "https://www.azleg.gov/ars/28/03160.htm"
       },
       "lastVerified": "2026-07-27",
@@ -502,7 +517,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Arizona Revised Statutes",
-        "citation": "A.R.S. \u00a7 28-3160",
+        "citation": "A.R.S. § 28-3160",
         "url": "https://www.azleg.gov/ars/28/03160.htm"
       },
       "lastVerified": "2026-07-27",
@@ -516,7 +531,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Arizona Revised Statutes",
-        "citation": "A.R.S. \u00a7 28-4009",
+        "citation": "A.R.S. § 28-4009",
         "url": "https://www.azleg.gov/ars/28/04009.htm"
       },
       "lastVerified": "2026-07-27",
@@ -530,7 +545,7 @@
       "display": "Unknown (provision effective date not verified)",
       "citation": {
         "label": "Arizona Revised Statutes",
-        "citation": "A.R.S. \u00a7 28-667",
+        "citation": "A.R.S. § 28-667",
         "url": "https://www.azleg.gov/ars/28/00667.htm"
       },
       "lastVerified": "2026-07-27",
@@ -555,7 +570,7 @@
     }
   ],
   "effectiveDate": "2026-07-24",
-  "sourceSnapshotHash": "seed-pending-verification",
+  "sourceSnapshotHash": "4bef15a813d8a0da6685b7cc87ad1f64a44ba738166bf0a2270683b3811fd3c5",
   "reviewStatus": "adversarially-verified",
   "lastVerified": "2026-07-24",
   "contentVersion": 1

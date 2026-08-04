@@ -3,101 +3,106 @@
   "sources": [
     {
       "url": "http://public.leginfo.state.ny.us/lawssrch.cgi?NVLWO:&hwebpage=LAWS&QLAWDATA=%24%24VAT1111%24%24%40TXVAT01111&LIST=LAW",
-      "sha256": "d5928f8e9161df7de031dd310bcbe418f8d12ea708bdb4dfae7a38c44711c44a",
+      "sha256": "1d72f487bb84dc45f6c5d691984a9ea9b9e67c13e9f83773b5d08584ab7688b4",
       "contentType": "text/html",
       "status": 200
     },
     {
       "url": "http://public.leginfo.state.ny.us/lawssrch.cgi?NVLWO:&hwebpage=LAWS&QLAWDATA=%24%24VAT1180%24%24%40TXVAT01180&LIST=LAW",
-      "sha256": "edda303d4a19e72cbdd74e5f9d5eecebcc66f1aed320adf6e3a42f05f7811c93",
+      "sha256": "a91dd81a1b60f7972f4cd2cf0302048eafc6a698c9a5470091d60e62d9cbb81a",
       "contentType": "text/html",
       "status": 200
     },
     {
       "url": "http://public.leginfo.state.ny.us/lawssrch.cgi?NVLWO:&hwebpage=LAWS&QLAWDATA=%24%24VAT1192-A%24%24%40TXVAT01192-A&LIST=LAW",
-      "sha256": "2862f795a11b4d0fd57a51cdf7d1abec745edd628fb9ab2beae83cde3b5e8de3",
+      "sha256": "0c1978c344c42f6aa674fe8052b555326f274154e283df75ac11c697154529a2",
       "contentType": "text/html",
       "status": 200
     },
     {
       "url": "http://public.leginfo.state.ny.us/lawssrch.cgi?NVLWO:&hwebpage=LAWS&QLAWDATA=%24%24VAT1192%24%24%40TXVAT01192&LIST=LAW",
-      "sha256": "a6a22a5ca539818a5a784ebc5fc48fb9e2e49e714a84bb0a542a99c4b7fc6bba",
+      "sha256": "3f5cd81aef9b32e6523f03a7c07d298f1447afe3dcc10ec51196f433d9bb8b38",
       "contentType": "text/html",
       "status": 200
     },
     {
       "url": "http://public.leginfo.state.ny.us/lawssrch.cgi?NVLWO:&hwebpage=LAWS&QLAWDATA=%24%24VAT1202%24%24%40TXVAT01202&LIST=LAW",
-      "sha256": "3fd1a302ca80c03d8b4671bcee3ffe682c7313825d5870a4828d1492063c8d04",
+      "sha256": "e5c5d6c173242cc7a24a36a95570bd1055a27ae015d5d1a902966b57f8b8556d",
       "contentType": "text/html",
       "status": 200
     },
     {
       "url": "http://public.leginfo.state.ny.us/lawssrch.cgi?NVLWO:&hwebpage=LAWS&QLAWDATA=%24%24VAT1225-C%24%24%40TXVAT01225-C&LIST=LAW",
-      "sha256": "bd5097ff97ec3c1ad524519aa2843b56164e01cda107137e5dd133779034bdc6",
+      "sha256": "db59ed8209a16bdd0930b090971ac72eeb7f51d92dfbc5e88b4dd5560c03b338",
       "contentType": "text/html",
       "status": 200
     },
     {
       "url": "http://public.leginfo.state.ny.us/lawssrch.cgi?NVLWO:&hwebpage=LAWS&QLAWDATA=%24%24VAT1225-D%24%24%40TXVAT01225-D&LIST=LAW",
-      "sha256": "1dd0b7cd976096011d019f53cd2b54aa89f3db80e2e9f1fc3b2fff19cdfc833a",
+      "sha256": "a5e4b9857e5ea4826a0cbe7c97c72e17113fee65a571ec2c05aab0349c5542ff",
       "contentType": "text/html",
       "status": 200
     },
     {
       "url": "http://public.leginfo.state.ny.us/lawssrch.cgi?NVLWO:&hwebpage=LAWS&QLAWDATA=%24%24VAT1227%24%24%40TXVAT01227&LIST=LAW",
-      "sha256": "9fdf52ee57d7878c94f4cf72f03b350e8c92a2091477959825a6f628d72cc1c8",
+      "sha256": "c0f930d2bb8e8c1ffd51c5d81b03a883d00da0d79e39af2d0c1f5a8118e34bcd",
       "contentType": "text/html",
       "status": 200
     },
     {
       "url": "http://public.leginfo.state.ny.us/lawssrch.cgi?NVLWO:&hwebpage=LAWS&QLAWDATA=%24%24VAT1229-C%24%24%40TXVAT01229-C&LIST=LAW",
-      "sha256": "e1c752f1ffc7b1560d93f7d4f54affe94cde4392e8510fe76fc4429e77b52ddf",
+      "sha256": "04a1b629d34a0879db37ae43ddd2f5e5307869270a5c336e1665187bb10e3093",
       "contentType": "text/html",
       "status": 200
     },
     {
       "url": "http://public.leginfo.state.ny.us/lawssrch.cgi?NVLWO:&hwebpage=LAWS&QLAWDATA=%24%24VAT375%24%24%40TXVAT0375&LIST=LAW",
-      "sha256": "827a4ff5d1390bef1ff47ab0a44be06f02ae302dce8af1d3766e39c1af3ca287",
+      "sha256": "388a259dc31baf5ffe08fbd565e18d205bc3c8ca6c051c6ee5533d3881c50db5",
       "contentType": "text/html",
       "status": 200
     },
     {
       "url": "http://public.leginfo.state.ny.us/lawssrch.cgi?NVLWO:&hwebpage=LAWS&QLAWDATA=%24%24VAT502%24%24%40TXVAT0502&LIST=LAW",
-      "sha256": "9dc94859a50c95c1f70d2c0296d99c819f49963a3ffa227e94c2ce1891b967c7",
+      "sha256": "1e30ef88051c460c8866328a474ca5695df6b2ad39002119eff2f4493b4b4f64",
       "contentType": "text/html",
       "status": 200
     },
     {
       "url": "http://public.leginfo.state.ny.us/lawssrch.cgi?NVLWO:&hwebpage=LAWS&QLAWDATA=%24%24VAT605%24%24%40TXVAT0605&LIST=LAW",
-      "sha256": "602c3a6f4d6fb93652caa8989803fdcc7d96c4f5d179a726fc95e3f0768f5958",
+      "sha256": "b49b3ca94e3172206ad62fa8c6c0f395900fbececcaf7ff80e1bf794a6d49be0",
       "contentType": "text/html",
       "status": 200
     },
     {
       "url": "https://dmv.ny.gov/brochure/mv21.pdf",
       "handbook": true,
-      "status": 403,
-      "error": "HTTP 403"
+      "sha256": "39edbd46c0c28aabbd04af1047465e4192312ade3c3f31ec3e26e32c32387578",
+      "contentType": "application/pdf",
+      "status": 200
     },
     {
       "url": "https://dmv.ny.gov/driver-license/fees-refunds",
-      "status": 403,
-      "error": "HTTP 403"
+      "sha256": "6b5fecf76c9da99486a1598dd6ad0c4766637bd40c01cbdc96230df190d055ff",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://dmv.ny.gov/insurance/insurance-requirements",
-      "status": 403,
-      "error": "HTTP 403"
+      "sha256": "c674a36c7f9c01705eb0c553ca6be1d3a5aa1812f6d98e07d265ec4e80502b26",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://dmv.ny.gov/points-and-penalties/the-new-york-state-driver-point-system",
-      "status": 403,
-      "error": "HTTP 403"
+      "sha256": "3dc508d7b76782e614df249166bedbf7ae3d1820e6d8ef96e3462e1090a319cf",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://dmv.ny.gov/tickets/about-nys-driver-point-system",
-      "status": 403,
-      "error": "HTTP 403"
+      "sha256": "3dc508d7b76782e614df249166bedbf7ae3d1820e6d8ef96e3462e1090a319cf",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://mutcd.fhwa.dot.gov/",
@@ -123,5 +128,6 @@
       "contentType": "text/html",
       "status": 200
     }
-  ]
+  ],
+  "handbookSnapshotHash": "39edbd46c0c28aabbd04af1047465e4192312ade3c3f31ec3e26e32c32387578"
 }

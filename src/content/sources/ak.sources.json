@@ -22,9 +22,9 @@
     {
       "url": "https://dmv.alaska.gov/media/t5ef5vi2/dlman.pdf",
       "handbook": true,
+      "sha256": "8b4c06a027112868d21f2ba69eb5447979cb606dc58216738515c7d34e6f035d",
       "contentType": "application/pdf",
-      "status": 200,
-      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+      "status": 200
     },
     {
       "url": "https://mutcd.fhwa.dot.gov/",
@@ -50,5 +50,6 @@
       "contentType": "text/html",
       "status": 200
     }
-  ]
+  ],
+  "handbookSnapshotHash": "8b4c06a027112868d21f2ba69eb5447979cb606dc58216738515c7d34e6f035d"
 }

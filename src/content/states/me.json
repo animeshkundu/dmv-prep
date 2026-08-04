@@ -9,8 +9,14 @@
   "handbookEditionYear": 2023,
   "handbookCopyrightStatus": "public-domain",
   "applicantVariants": [
-    { "id": "under-18", "label": "Under 18 (intermediate license applicant)" },
-    { "id": "adult", "label": "Adult (18+)" }
+    {
+      "id": "under-18",
+      "label": "Under 18 (intermediate license applicant)"
+    },
+    {
+      "id": "adult",
+      "label": "Adult (18+)"
+    }
   ],
   "examVariants": [
     {
@@ -18,7 +24,16 @@
       "label": "Class C (car) knowledge test",
       "numQuestions": 30,
       "numToPass": 24,
-      "languages": ["en", "es", "fr", "so", "ar", "pt", "vi", "zh"],
+      "languages": [
+        "en",
+        "es",
+        "fr",
+        "so",
+        "ar",
+        "pt",
+        "vi",
+        "zh"
+      ],
       "onlineAvailable": false
     }
   ],
@@ -61,7 +76,12 @@
     "moveOverRule": "Move over a lane, or slow to a safe speed if you cannot, for stopped emergency, maintenance, and service vehicles displaying flashing lights",
     "interstateMaxSpeed": "70 mph on posted interstate segments (unless otherwise posted)",
     "schoolZoneSpeed": "15 mph in a school zone during posted hours or when the zone is in use",
-    "namedLaws": ["Move Over Law", "OUI (Operating Under the Influence) Law", "Distracted Driving / Hands-Free Law", "Zero Tolerance Law (under 21)"]
+    "namedLaws": [
+      "Move Over Law",
+      "OUI (Operating Under the Influence) Law",
+      "Distracted Driving / Hands-Free Law",
+      "Zero Tolerance Law (under 21)"
+    ]
   },
   "references": [
     {
@@ -81,7 +101,7 @@
     }
   ],
   "effectiveDate": "2026-07-24",
-  "sourceSnapshotHash": "seed-pending-verification",
+  "sourceSnapshotHash": "016d88c083baac1ecf33b245c02e6bdf74634d6993b600de711ef222b3c3584a",
   "reviewStatus": "adversarially-verified",
   "lastVerified": "2026-07-27",
   "contentVersion": 1,

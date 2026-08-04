@@ -10,7 +10,7 @@
       "Always drive exactly the posted limit",
       "Never drive faster than is safe for current conditions",
       "Match the speed of the fastest nearby car",
-      "Drive at least 10 mph under the limit in cities"
+      "Drive at least 10 mph below the posted limit in all cities"
     ],
     "correctIndex": 1,
     "explanation": "California's Basic Speed Law means you may never drive faster than is safe for current conditions, regardless of the posted limit. In rain or fog the safe speed may be well below the sign.",

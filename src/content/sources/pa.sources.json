@@ -9,16 +9,23 @@
     },
     {
       "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual",
-      "error": "fetch failed: fetch failed"
+      "sha256": "f9ad9a0d67dbe9c1cd20932bff00113af6f6b31f68eb1a68500aacd1413e711c",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/testing",
-      "error": "fetch failed: fetch failed"
+      "sha256": "95555e5a45a88c07896770ab9ce4c3c41252355a1711c9c3d2494ef95ac7fc7a",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
       "handbook": true,
-      "error": "fetch failed: fetch failed"
+      "sha256": "d9beef97719672796151e61ece73e5933d377eb22ddab2d81d959bfcb89c0f8b",
+      "contentType": "application/pdf",
+      "status": 200
     }
-  ]
+  ],
+  "handbookSnapshotHash": "d9beef97719672796151e61ece73e5933d377eb22ddab2d81d959bfcb89c0f8b"
 }

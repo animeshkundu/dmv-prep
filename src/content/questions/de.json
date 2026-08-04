@@ -68,7 +68,7 @@
       "Suspension of your driving privileges",
       "An automatic license upgrade",
       "A cash reward for safe driving",
-      "No consequences at all"
+      "A surcharge on your insurance but no license action"
     ],
     "correctIndex": 0,
     "explanation": "Delaware uses a driver point system. Points from moving violations stay on your record, and accumulating a high total (for example, 14 or more points) can result in suspension of your driving privileges.",
@@ -96,7 +96,7 @@
     "options": [
       "Carries no penalty if you slow down",
       "Adds a high number of points and can bring fines and suspension",
-      "Is legal on multi-lane roads",
+      "Is treated as a minor infraction carrying a fixed fine and no points",
       "Only applies to commercial drivers"
     ],
     "correctIndex": 1,
@@ -356,7 +356,7 @@
     "prompt": "A double solid yellow center line means:",
     "options": [
       "The lane to the right is one-way",
-      "Passing is allowed for both directions",
+      "Passing is permitted from both directions whenever the road ahead appears clear",
       "Neither direction may cross to pass (except to turn into a driveway or road)",
       "You may park along the line"
     ],

@@ -9,8 +9,14 @@
   "handbookEditionYear": 2021,
   "handbookCopyrightStatus": "unknown",
   "applicantVariants": [
-    { "id": "under-18", "label": "Under 18 (graduated licensing)" },
-    { "id": "adult", "label": "Adult (18 and older)" }
+    {
+      "id": "under-18",
+      "label": "Under 18 (graduated licensing)"
+    },
+    {
+      "id": "adult",
+      "label": "Adult (18 and older)"
+    }
   ],
   "examVariants": [
     {
@@ -18,7 +24,9 @@
       "label": "Class D knowledge test (all ages)",
       "numQuestions": 25,
       "numToPass": 20,
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "onlineAvailable": false
     }
   ],
@@ -60,7 +68,11 @@
     "moveOverRule": "Move over a lane or slow down for stopped emergency, law-enforcement, tow and highway-maintenance vehicles displaying flashing lights",
     "interstateMaxSpeed": "80 mph on rural interstates",
     "schoolZoneSpeed": "Obey the posted school-zone limit when children are present",
-    "namedLaws": ["Move Over Law", "Zero Tolerance Law (under 21)", "Texting/handheld device ban"]
+    "namedLaws": [
+      "Move Over Law",
+      "Zero Tolerance Law (under 21)",
+      "Texting/handheld device ban"
+    ]
   },
   "references": [
     {
@@ -80,7 +92,7 @@
     }
   ],
   "effectiveDate": "2026-07-24",
-  "sourceSnapshotHash": "seed-pending-verification",
+  "sourceSnapshotHash": "159fb150ac00e2bf0185b6b3f643fe4d18279e254b7e8ddcdf6d6da90bae7305",
   "reviewStatus": "adversarially-verified",
   "verifyNote": "Official South Dakota sources confirm the 25-question/20-correct exam format, minimum age 14, current $38 original/renewal license fee effective July 1, 2025, and the REV 2021 manual edition. School-zone limits remain locally posted rather than a single statewide number.",
   "lastVerified": "2026-07-27",

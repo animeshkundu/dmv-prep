@@ -10,8 +10,14 @@
   "handbookEditionYear": 2025,
   "handbookCopyrightStatus": "terms-of-use",
   "applicantVariants": [
-    { "id": "junior", "label": "Under 18 (junior permit/license)" },
-    { "id": "adult", "label": "Adult (18+)" }
+    {
+      "id": "junior",
+      "label": "Under 18 (junior permit/license)"
+    },
+    {
+      "id": "adult",
+      "label": "Adult (18+)"
+    }
   ],
   "examVariants": [
     {
@@ -27,7 +33,9 @@
           "note": "The test includes 4 road-sign questions; you must answer at least 2 of them correctly in addition to passing overall."
         }
       ],
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "onlineAvailable": false
     }
   ],
@@ -72,7 +80,12 @@
     "moveOverRule": "Ambrose-Searles Move Over Act: move over or slow down for stopped emergency, hazard, and maintenance vehicles displaying flashing lights",
     "interstateMaxSpeed": "65 mph",
     "schoolZoneSpeed": "Varies; obey the posted school-zone limit and indicated hours or flashing signals",
-    "namedLaws": ["Ambrose-Searles Move Over Act", "Leandra's Law", "Hands-free / handheld device ban", "Zero Tolerance Law"]
+    "namedLaws": [
+      "Ambrose-Searles Move Over Act",
+      "Leandra's Law",
+      "Hands-free / handheld device ban",
+      "Zero Tolerance Law"
+    ]
   },
   "typedFacts": {
     "bacAdult": {
@@ -667,7 +680,7 @@
     }
   ],
   "effectiveDate": "2026-07-24",
-  "sourceSnapshotHash": "seed-pending-verification",
+  "sourceSnapshotHash": "39edbd46c0c28aabbd04af1047465e4192312ade3c3f31ec3e26e32c32387578",
   "reviewStatus": "adversarially-verified",
   "lastVerified": "2026-07-24",
   "contentVersion": 1

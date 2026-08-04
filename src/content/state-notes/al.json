@@ -1,0 +1,82 @@
+[
+  {
+    "id": "al-posted-limits-interstate-maximum",
+    "state": "AL",
+    "unitId": "posted-limits",
+    "kind": "extra",
+    "title": "Interstate maximum",
+    "body": "Alabama law permits a 70 mph maximum on interstate highways unless a different limit is posted. The number is a ceiling under favorable conditions, not a target when traffic, weather, visibility, or the roadway makes a lower speed necessary.",
+    "references": [
+      {
+        "label": "Code of Alabama",
+        "citation": "Ala. Code § 32-5A-171(4)",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama"
+      }
+    ],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "draft",
+    "verifyNote": "The current statutory text was checked; the provision's exact effective-date history still needs independent confirmation.",
+    "lastVerified": "2026-08-04",
+    "contentVersion": 1
+  },
+  {
+    "id": "al-impairment-under-21",
+    "state": "AL",
+    "unitId": "impairment-and-bac",
+    "kind": "exception",
+    "title": "Under-21 alcohol threshold",
+    "body": "Alabama applies a 0.02 percent blood-alcohol threshold to a driver under 21. That lower threshold is separate from the adult per se rule, so a young driver cannot rely on the adult number when deciding whether driving is lawful or safe.",
+    "references": [
+      {
+        "label": "Code of Alabama",
+        "citation": "Ala. Code § 32-5A-191(b)",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama"
+      }
+    ],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "draft",
+    "verifyNote": "The current statutory text was checked; the provision's exact effective-date history still needs independent confirmation.",
+    "lastVerified": "2026-08-04",
+    "contentVersion": 1
+  },
+  {
+    "id": "al-gdl-night-restriction",
+    "state": "AL",
+    "unitId": "to-full-license",
+    "kind": "extra",
+    "title": "Stage II night restriction",
+    "body": "A Stage II driver generally may not drive from midnight through 6 a.m. Alabama lists limited exceptions, including documented travel to or from work and certain school, religious, medical, and emergency trips. A social or recreational trip does not become exempt merely because an adult knows about it.",
+    "references": [
+      {
+        "label": "Code of Alabama",
+        "citation": "Ala. Code § 32-6-7.2(c)(1)",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama"
+      }
+    ],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "draft",
+    "verifyNote": "The current statutory text was checked; the provision's exact effective-date history still needs independent confirmation.",
+    "lastVerified": "2026-08-04",
+    "contentVersion": 1
+  },
+  {
+    "id": "al-basic-speed-weather",
+    "state": "AL",
+    "unitId": "basic-speed-law",
+    "kind": "emphasis",
+    "title": "Posted limit does not override conditions",
+    "body": "Alabama's basic speed rule requires a reasonable and prudent speed for existing and potential hazards. A posted maximum does not authorize maintaining that speed through poor visibility, slick pavement, a curve, a hill crest, or another condition that calls for more time and space.",
+    "references": [
+      {
+        "label": "Code of Alabama",
+        "citation": "Ala. Code § 32-5A-170",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama"
+      }
+    ],
+    "effectiveDate": "2026-07-24",
+    "reviewStatus": "draft",
+    "verifyNote": "The current statutory text was checked; the provision's exact effective-date history still needs independent confirmation.",
+    "lastVerified": "2026-08-04",
+    "contentVersion": 1
+  }
+]

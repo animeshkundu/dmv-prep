@@ -3,7 +3,9 @@
   "sources": [
     {
       "url": "https://dps.sd.gov/driver-licensing",
-      "error": "fetch failed: fetch failed"
+      "sha256": "353eec49c1d7ebda7008db1d553e76dfdb43caeb4e32e4184218d002b6fab7b9",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://mutcd.fhwa.dot.gov/",
@@ -116,11 +118,16 @@
     {
       "url": "https://www.sd.gov/dps?id=cs_kb_article_view&sysparm_article=KB0043733",
       "handbook": true,
-      "error": "fetch failed: fetch failed"
+      "sha256": "159fb150ac00e2bf0185b6b3f643fe4d18279e254b7e8ddcdf6d6da90bae7305",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.sd.gov/dps?id=cs_kb_article_view&sysparm_article=KB0043734",
-      "error": "fetch failed: fetch failed"
+      "sha256": "159fb150ac00e2bf0185b6b3f643fe4d18279e254b7e8ddcdf6d6da90bae7305",
+      "contentType": "text/html",
+      "status": 200
     }
-  ]
+  ],
+  "handbookSnapshotHash": "159fb150ac00e2bf0185b6b3f643fe4d18279e254b7e8ddcdf6d6da90bae7305"
 }

@@ -10,9 +10,9 @@
     {
       "url": "https://transportation.wv.gov/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf",
       "handbook": true,
+      "sha256": "ed6c772b4fb7232981f1a70bc93f8e958ad6751e5520262b59308c05eaed2c7c",
       "contentType": "application/pdf",
-      "status": 200,
-      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+      "status": 200
     },
     {
       "url": "https://transportation.wv.gov/DMV/Drivers/Pages/Point-System.aspx",
@@ -20,5 +20,6 @@
       "contentType": "text/html",
       "status": 200
     }
-  ]
+  ],
+  "handbookSnapshotHash": "ed6c772b4fb7232981f1a70bc93f8e958ad6751e5520262b59308c05eaed2c7c"
 }

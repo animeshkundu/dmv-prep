@@ -10,9 +10,18 @@
   "handbookEditionYear": 2026,
   "handbookCopyrightStatus": "unknown",
   "applicantVariants": [
-    { "id": "under-18", "label": "Under 18 (learner permit / intermediate license)" },
-    { "id": "adult", "label": "Adult (18+)" },
-    { "id": "previously-licensed", "label": "Previously licensed applicant" }
+    {
+      "id": "under-18",
+      "label": "Under 18 (learner permit / intermediate license)"
+    },
+    {
+      "id": "adult",
+      "label": "Adult (18+)"
+    },
+    {
+      "id": "previously-licensed",
+      "label": "Previously licensed applicant"
+    }
   ],
   "examVariants": [
     {
@@ -20,7 +29,10 @@
       "label": "Class D knowledge test (never previously licensed)",
       "numQuestions": 50,
       "numToPass": 40,
-      "languages": ["en", "es"],
+      "languages": [
+        "en",
+        "es"
+      ],
       "onlineAvailable": false
     },
     {
@@ -28,7 +40,10 @@
       "label": "Class D knowledge test (previously licensed)",
       "numQuestions": 25,
       "numToPass": 20,
-      "languages": ["en", "es"],
+      "languages": [
+        "en",
+        "es"
+      ],
       "onlineAvailable": false
     }
   ],
@@ -71,7 +86,11 @@
     "moveOverRule": "Move over a lane if safe, or slow down, for stopped emergency, tow, and maintenance vehicles displaying flashing lights",
     "interstateMaxSpeed": "80 mph (posted segments of rural interstate)",
     "schoolZoneSpeed": "20 mph in a marked school zone",
-    "namedLaws": [".05 DUI Law", "Not-a-Drop Law", "Move Over Law"]
+    "namedLaws": [
+      ".05 DUI Law",
+      "Not-a-Drop Law",
+      "Move Over Law"
+    ]
   },
   "references": [
     {
@@ -91,7 +110,7 @@
     }
   ],
   "effectiveDate": "2026-07-24",
-  "sourceSnapshotHash": "seed-pending-verification",
+  "sourceSnapshotHash": "9cf15f70d79dca30d0bffb12e52b852d0e094dafed3f648f53560b9ba5622fe9",
   "reviewStatus": "draft",
   "verifyNote": "Official DLD confirms the 50-question closed-book test for never-licensed applicants and the 25-question open-book test for previously licensed applicants, but its current written-test page does not publish the passing threshold for the 25-question variant; 20 correct is retained pending direct official confirmation.",
   "lastVerified": "2026-07-27",

@@ -3,11 +3,14 @@
     "id": "nat-row-003",
     "category": "right-of-way",
     "stateScope": "all",
+    "tags": [
+      "row-intersections"
+    ],
     "prompt": "At an intersection with no signs or signals, two vehicles arrive at about the same time. Who should yield?",
     "options": [
       "The faster vehicle yields",
       "Neither vehicle needs to yield",
-      "The vehicle on the right yields",
+      "The vehicle on the right yields whenever the other driver arrives at nearly the same time",
       "The vehicle on the left yields to the vehicle on the right"
     ],
     "correctIndex": 3,
@@ -29,10 +32,13 @@
     "id": "nat-row-004",
     "category": "right-of-way",
     "stateScope": "all",
+    "tags": [
+      "row-intersections"
+    ],
     "prompt": "You are making a left turn at an intersection with a green light (no green arrow). Oncoming traffic is approaching. You must:",
     "options": [
       "Yield to oncoming traffic and turn only when there is a safe gap",
-      "Proceed because you have the green light",
+      "Proceed because the green light gives left-turning traffic priority over approaching vehicles",
       "Turn quickly before they arrive",
       "Expect oncoming traffic to stop for you"
     ],
@@ -57,7 +63,7 @@
     "stateScope": "all",
     "prompt": "When you are pulling out of a driveway or alley onto a street, you must:",
     "options": [
-      "Enter quickly to claim the lane",
+      "Enter the street far enough to make approaching traffic slow down and create a gap for you",
       "Yield to traffic and pedestrians already on the street or sidewalk",
       "Expect other traffic to slow for you",
       "Sound your horn and proceed"
@@ -81,6 +87,9 @@
     "id": "nat-row-006",
     "category": "right-of-way",
     "stateScope": "all",
+    "tags": [
+      "row-intersections"
+    ],
     "prompt": "At a T-intersection with no signs, the driver on the road that ends (the top of the 'T') should:",
     "options": [
       "Expect through traffic to stop",
@@ -110,7 +119,7 @@
     "prompt": "On a two-way road, an emergency vehicle is approaching with lights and siren on. You should:",
     "options": [
       "Continue at the same speed",
-      "Stop immediately in your lane",
+      "Stop immediately in your current lane so the emergency vehicle can choose a route around you",
       "Speed up to get out of the way",
       "Safely pull to the right edge of the road and stop until it passes"
     ],
@@ -133,6 +142,9 @@
     "id": "nat-row-008",
     "category": "right-of-way",
     "stateScope": "all",
+    "tags": [
+      "row-intersections"
+    ],
     "prompt": "When entering a roundabout, you must:",
     "options": [
       "Yield to traffic already circulating in the roundabout",
@@ -164,7 +176,7 @@
       "Force their way into the lane",
       "Adjust speed and yield to traffic already on the highway",
       "Stop at the end of the ramp and wait",
-      "Expect highway traffic to move over"
+      "Expect highway traffic to move over because ramp traffic automatically has the right-of-way"
     ],
     "correctIndex": 1,
     "explanation": "A merging driver should match the speed of highway traffic and yield, blending into a safe gap rather than forcing in or stopping on the ramp.",
@@ -211,6 +223,9 @@
     "id": "nat-row-011",
     "category": "right-of-way",
     "stateScope": "all",
+    "tags": [
+      "row-intersections"
+    ],
     "prompt": "At a four-way stop, the vehicle that should generally proceed first is the one that:",
     "options": [
       "Has the most passengers",
@@ -237,10 +252,13 @@
     "id": "nat-row-012",
     "category": "right-of-way",
     "stateScope": "all",
+    "tags": [
+      "row-intersections"
+    ],
     "prompt": "A vehicle is already lawfully in the intersection when you approach. You should:",
     "options": [
       "Let the vehicle already in the intersection clear it first",
-      "Enter anyway if you have room",
+      "Enter beside it if your path appears open because your signal gives you priority",
       "Sound your horn",
       "Assume it will back up"
     ],
@@ -272,7 +290,7 @@
     "imageAsset": "stop",
     "prompt": "After stopping at a stop sign, before you proceed you must:",
     "options": [
-      "Wait for a green light",
+      "Proceed as soon as your vehicle has stopped because cross traffic must then yield",
       "Yield to cross traffic and pedestrians, then proceed when it is safe",
       "Go immediately once stopped",
       "Assume cross traffic will stop"
@@ -296,6 +314,9 @@
     "id": "nat-row-014",
     "category": "right-of-way",
     "stateScope": "all",
+    "tags": [
+      "row-intersections"
+    ],
     "prompt": "Right-of-way rules at an intersection primarily identify:",
     "options": [
       "Who may force another driver to stop",
@@ -324,7 +345,7 @@
     "stateScope": "all",
     "prompt": "You want to turn left across a sidewalk to enter a parking lot, and a pedestrian is walking along the sidewalk. You should:",
     "options": [
-      "Speed up to clear the sidewalk first",
+      "Turn across the sidewalk before the pedestrian reaches your driveway because vehicles use the roadway first",
       "Honk so they wait",
       "Turn in front of the pedestrian",
       "Yield and let the pedestrian pass before crossing the sidewalk"
@@ -377,7 +398,7 @@
     "prompt": "When you park on a hill where there is no curb, you should turn your front wheels:",
     "options": [
       "Straight ahead",
-      "Toward the center of the road",
+      "Toward the center of the road so the vehicle would roll into the nearest traffic lane",
       "Toward the edge of the road, so the car would roll away from traffic",
       "It makes no difference"
     ],
@@ -429,7 +450,7 @@
     "prompt": "It is illegal to park in which of the following places?",
     "options": [
       "Blocking a fire hydrant, crosswalk, or driveway",
-      "In a metered space",
+      "At an expired parking meter even when local rules allow payment before enforcement begins",
       "In a parking garage",
       "On a marked residential street"
     ],
@@ -454,7 +475,7 @@
     "stateScope": "all",
     "prompt": "You should never stop or park your vehicle:",
     "options": [
-      "In a parking lot",
+      "Along a curb immediately beyond an intersection, where drivers can still steer around you",
       "On a railroad crossing or within an intersection",
       "In a driveway you own",
       "On a residential street"
@@ -480,7 +501,7 @@
     "stateScope": "all",
     "prompt": "To legally park in a space marked with the international symbol of accessibility (a wheelchair symbol), you must:",
     "options": [
-      "Be picking someone up",
+      "Be carrying a passenger with limited mobility even when no permit or special plate is displayed",
       "Only park briefly",
       "Have a valid disability permit or license plate",
       "Have a large vehicle"
@@ -506,8 +527,8 @@
     "stateScope": "all",
     "prompt": "When you pull out of a parallel parking space to rejoin traffic, you should:",
     "options": [
-      "Back up first",
-      "Expect traffic to stop for you",
+      "Back into the travel lane first, then signal after your vehicle is visible to approaching traffic",
+      "Signal and pull out immediately because approaching traffic must yield to a vehicle leaving a space",
       "Pull out quickly",
       "Signal, check your mirrors and blind spot, and yield to passing traffic"
     ],
@@ -534,7 +555,7 @@
     "options": [
       "Parallel to and close to the curb",
       "Angled out into the lane",
-      "As far from the curb as possible",
+      "As far from the curb as the lane allows",
       "Facing oncoming traffic"
     ],
     "correctIndex": 0,
@@ -558,7 +579,7 @@
     "stateScope": "all",
     "prompt": "If your vehicle breaks down and you must stop on the shoulder of a highway, you should:",
     "options": [
-      "Leave without warning other drivers",
+      "Leave the vehicle partly in the travel lane so approaching drivers will notice it sooner",
       "Move as far off the road as possible and turn on your hazard lights",
       "Leave it in the travel lane",
       "Stand in the traffic lane to flag help"
@@ -584,7 +605,7 @@
     "stateScope": "all",
     "prompt": "'Double parking' means stopping your vehicle:",
     "options": [
-      "In two spaces at once",
+      "Occupying two adjacent marked spaces with part of the vehicle in each space",
       "In a parking garage",
       "Alongside another vehicle that is already parked at the curb",
       "At an angle"
@@ -636,7 +657,7 @@
     "stateScope": "all",
     "prompt": "You should signal your intention to turn:",
     "options": [
-      "Only if other cars are close",
+      "Only after entering the turn, when the vehicle's direction is already obvious to others",
       "As you begin the turn",
       "After you complete the turn",
       "Well before the turn, to give others time to react"
@@ -660,10 +681,13 @@
     "id": "nat-laws-003",
     "category": "traffic-laws",
     "stateScope": "all",
+    "tags": [
+      "signal-steady"
+    ],
     "prompt": "At a red light where right turns are allowed, before turning right on red you must:",
     "options": [
       "Come to a complete stop, then yield to traffic and pedestrians before turning",
-      "Wait for a green arrow",
+      "Slow almost to a stop and turn because a full stop is unnecessary when the lane and crosswalk look clear",
       "Sound your horn first",
       "Turn without stopping if the way looks clear"
     ],
@@ -714,7 +738,7 @@
     "stateScope": "all",
     "prompt": "When you pass another vehicle, you should return to your lane only when:",
     "options": [
-      "The other driver signals you",
+      "The front of your vehicle has just passed the other vehicle's front bumper",
       "You have cleared its front bumper",
       "You can see the passed vehicle in your rearview mirror",
       "You are alongside the other vehicle"
@@ -740,7 +764,7 @@
     "stateScope": "all",
     "prompt": "You should not attempt to pass another vehicle when:",
     "options": [
-      "The vehicle ahead is slow",
+      "The vehicle ahead is traveling below the limit even though the road ahead is straight and visible",
       "You are on a multi-lane one-way street",
       "The road is straight and clear",
       "Approaching a hill or curve where you cannot see oncoming traffic"
@@ -792,7 +816,7 @@
     "stateScope": "all",
     "prompt": "To make a right turn at a corner, you should generally turn from:",
     "options": [
-      "The left lane",
+      "Whichever lane has the shortest queue, even when it is separated from the right curb by other lanes",
       "The lane closest to the right curb",
       "The center lane",
       "Any lane you choose"
@@ -818,8 +842,8 @@
     "stateScope": "all",
     "prompt": "When you are preparing to back your vehicle, you should:",
     "options": [
-      "Have a passenger steer",
-      "Rely on one mirror only",
+      "Have a passenger outside the vehicle direct every movement without checking the other side",
+      "Rely on the rearview camera alone and begin backing once its display shows no obstacle behind the vehicle",
       "Check all around and behind using direct views and available mirrors or cameras, then back slowly",
       "Back up as quickly as possible"
     ],
@@ -844,7 +868,7 @@
     "stateScope": "all",
     "prompt": "The safest and most recommended way to handle a phone while driving is to:",
     "options": [
-      "Hold the phone below the dashboard",
+      "Hold the phone below the dashboard so other drivers cannot see that you are reading it",
       "Text only at red lights",
       "Read messages quickly between turns",
       "Avoid texting and hold calls until you can stop safely"
@@ -871,7 +895,7 @@
     "prompt": "In the United States, on a road with two or more lanes in the same direction, slower traffic should generally:",
     "options": [
       "Keep to the right and use the left lanes for passing",
-      "Drive in the center",
+      "Remain in whichever lane has the fewest vehicles, including the left lane",
       "Use the left lane",
       "Change lanes constantly"
     ],
@@ -898,7 +922,7 @@
     "options": [
       "Leave if the damage seems minor",
       "Stop, and exchange information with the other party",
-      "Only stop if someone is injured",
+      "Only stop when someone appears injured, because property-only crashes do not require information",
       "Move on if no police are present"
     ],
     "correctIndex": 1,
@@ -923,7 +947,7 @@
     "prompt": "Wearing a properly fastened seat belt is:",
     "options": [
       "Optional for adults",
-      "Only for front-seat passengers under 18",
+      "Only for front-seat passengers, because adults in rear seats are protected without one",
       "Required for the driver and helps prevent injury in a crash",
       "Only needed on highways"
     ],
@@ -948,8 +972,8 @@
     "stateScope": "all",
     "prompt": "You may make a U-turn only when:",
     "options": [
-      "Traffic is heavy",
-      "You feel like it",
+      "Traffic is heavy enough that other drivers will have to stop and make room for you",
+      "You signal first, even if a posted restriction prohibits the maneuver at that location",
       "You are on a curve",
       "It is not prohibited and you have a clear view and enough space to complete it safely"
     ],
@@ -975,8 +999,8 @@
     "prompt": "It is unsafe and generally illegal to drive when your view or control is blocked by:",
     "options": [
       "Cargo, frost, or objects that obstruct your vision or movement",
-      "Working headlights",
-      "A clean windshield",
+      "Head restraints adjusted high enough to support the back of each occupant's head",
+      "Items on the dashboard, even when they leave most of the windshield unobstructed",
       "A rearview mirror"
     ],
     "correctIndex": 0,
@@ -1003,7 +1027,7 @@
       "Signal again",
       "Make sure your turn signal has turned off",
       "Immediately change lanes",
-      "Leave the turn signal on"
+      "Leave the turn signal on so drivers behind know which direction you turned at the last intersection"
     ],
     "correctIndex": 1,
     "explanation": "Check that your signal has canceled after a turn. A signal left blinking misleads other drivers about your next move.",
@@ -1027,7 +1051,7 @@
     "prompt": "Basic speed law in every state requires that you:",
     "options": [
       "Drive as fast as traffic allows",
-      "Always drive the posted maximum",
+      "Always drive the posted maximum unless another vehicle is traveling even faster",
       "Never drive faster than is safe for current conditions",
       "Match the speed of the fastest car"
     ],

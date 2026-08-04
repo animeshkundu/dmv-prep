@@ -37,7 +37,7 @@
     "prompt": "Under Wisconsin's Absolute Sobriety ('Not a Drop') law, a driver under 21 may not drive with a BAC of:",
     "options": [
       "Any amount above 0.00%",
-      "0.08% or higher",
+      "0.08% or higher, the adult limit",
       "0.05% or higher",
       "0.02% or higher"
     ],
@@ -97,7 +97,7 @@
       "Doubled for a second conviction within the year",
       "Reduced by half",
       "Always forgiven",
-      "Not counted at all"
+      "Not counted at all during the first probationary year"
     ],
     "correctIndex": 0,
     "explanation": "For probationary (new) drivers, Wisconsin doubles the demerit points for a second moving-violation conviction within a year, making a suspension more likely.",
@@ -183,7 +183,7 @@
     "options": [
       "10 p.m. to 5 a.m.",
       "11 p.m. to 6 a.m.",
-      "9 p.m. to 4 a.m.",
+      "From dusk to dawn, unless driving for farm or work duties",
       "Midnight to 5 a.m."
     ],
     "correctIndex": 3,
@@ -387,7 +387,7 @@
       "A small fine only",
       "License revocation and possible ignition interlock",
       "A verbal warning only",
-      "No consequence for a first refusal"
+      "No consequence for a first refusal, only for repeats"
     ],
     "correctIndex": 1,
     "explanation": "Driving in Wisconsin means you have consented to chemical testing. Refusing a lawful test leads to license revocation and can require an ignition interlock device, in addition to any OWI penalties.",

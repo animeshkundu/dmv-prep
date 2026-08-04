@@ -8,10 +8,11 @@
       "status": 200
     },
     {
-      "url": "https://oklahoma.gov/content/dam/ok/en/oklahoma/documents/drivers/drivermanual.pdf",
+      "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
       "handbook": true,
-      "status": 404,
-      "error": "HTTP 404"
+      "sha256": "36ee2ddc2e90f9ba9bd4933746a88bcd2d8e9705ce98c92b464f8488795c46d7",
+      "contentType": "application/pdf",
+      "status": 200
     },
     {
       "url": "https://oklahoma.gov/service/all-pages/driver-education.html",
@@ -25,5 +26,6 @@
       "contentType": "text/html",
       "status": 200
     }
-  ]
+  ],
+  "handbookSnapshotHash": "36ee2ddc2e90f9ba9bd4933746a88bcd2d8e9705ce98c92b464f8488795c46d7"
 }

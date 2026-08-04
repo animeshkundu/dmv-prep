@@ -65,7 +65,7 @@
     ],
     "prompt": "In Arizona, a driver under 21 can be charged for driving with:",
     "options": [
-      "A BAC of 0.05% or higher only",
+      "A BAC of 0.05% or higher, the same limit as adult drivers",
       "A BAC of 0.02% or higher only",
       "Any amount of alcohol in their body (zero tolerance)",
       "A BAC of 0.08% or higher only"
@@ -154,7 +154,7 @@
     "options": [
       "11 p.m. and 6 a.m.",
       "Midnight and 5 a.m.",
-      "9 p.m. and 5 a.m.",
+      "Sunset to sunrise, with no exception for work or school",
       "10 p.m. and 4 a.m."
     ],
     "correctIndex": 1,
@@ -355,7 +355,7 @@
     ],
     "prompt": "In Arizona's dust-prone areas, if you encounter a severe dust storm and cannot see, the recommended action is to:",
     "options": [
-      "Turn on hazard lights and continue at reduced speed",
+      "Turn on your hazard lights and continue driving slowly until you are out of the storm",
       "Slow down but keep driving with lights on",
       "Pull off the roadway, stop, turn off lights, and take your foot off the brake",
       "Stop in the travel lane and wait"

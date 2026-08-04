@@ -4,13 +4,15 @@
     {
       "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
       "handbook": true,
+      "sha256": "88aa9622be31549dd28a9e8c34217c8cc1a298564d7a07feb9a094fb6d3539c4",
       "contentType": "application/pdf",
-      "status": 200,
-      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+      "status": 200
     },
     {
       "url": "https://dps.mn.gov/divisions/dvs/Pages/default.aspx",
-      "error": "fetch failed: fetch failed"
+      "sha256": "24b71a73ff8a33466e33ef4d7a33eebf5231b7a04f66e6ea5b6ff9042c92afa5",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://mutcd.fhwa.dot.gov/",
@@ -20,67 +22,100 @@
     },
     {
       "url": "https://www.revisor.mn.gov/statutes/cite/169.06",
-      "error": "fetch failed: fetch failed"
+      "sha256": "fdb87e441c92c676c1e5440aa9b3a9c96c66d520b7c1ee490e1d588fb1e05528",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.revisor.mn.gov/statutes/cite/169.09",
-      "error": "fetch failed: fetch failed"
+      "sha256": "148b555832bc0a34a7f86f2a012a424497913be16b81ca3284069b60a7c518da",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.revisor.mn.gov/statutes/cite/169.14",
-      "error": "fetch failed: fetch failed"
+      "sha256": "5c9f3e925a03ae8befe6df4b5895171e3f54c62bb7ddae0ff6d97814005922eb",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.revisor.mn.gov/statutes/cite/169.18",
-      "error": "fetch failed: fetch failed"
+      "sha256": "084a62d48b44fddde682c0a8b0232adcb719b3974ece73271f673d8bf816d1f8",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.revisor.mn.gov/statutes/cite/169.34",
-      "error": "fetch failed: fetch failed"
+      "sha256": "93b5ae8e2998db0ea7f5304a8c8eb91e034fa0a1e8cb76edc2a32e78a5987d6c",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.revisor.mn.gov/statutes/cite/169.475",
-      "error": "fetch failed: fetch failed"
+      "sha256": "5a58f736a6dcc7396f0380aeb2194df73aeb83108670377c5d67de09dcd070a4",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.revisor.mn.gov/statutes/cite/169.48",
-      "error": "fetch failed: fetch failed"
+      "sha256": "624b2bbad2158e6306eae704eb015dbe400f60ada30b5206d8014df121c96b84",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.revisor.mn.gov/statutes/cite/169.686",
-      "error": "fetch failed: fetch failed"
+      "sha256": "bc851f27f45e6aa8b822bdd0396367b73b889cbd4680508c939c2dc0de8588eb",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.revisor.mn.gov/statutes/cite/169A.20",
-      "error": "fetch failed: fetch failed"
+      "sha256": "c4c6640003a7bcf422e50067a9044ab5ac11ff3a574f32152f32ed6005507990",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.revisor.mn.gov/statutes/cite/169A.33",
-      "error": "fetch failed: fetch failed"
+      "sha256": "1129829f5d9b8fda7ce6b8d1834911a2886fe8fcb60d509485433a9910c55859",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.revisor.mn.gov/statutes/cite/169A.35",
-      "error": "fetch failed: fetch failed"
+      "sha256": "c0b50817bf8df53e1a1ac3d7c4811e158356078f3202a7f9a5a55cf0f7f03ee6",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.revisor.mn.gov/statutes/cite/171.05",
-      "error": "fetch failed: fetch failed"
+      "sha256": "40cd219a54a1e5113e7e797753a87a44879c8c87931140ba787677303995379c",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.revisor.mn.gov/statutes/cite/171.055",
-      "error": "fetch failed: fetch failed"
+      "sha256": "8bef72058e444412266ee2da537548253b3ce5e2fe1d63655a0a4be14fc5b872",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.revisor.mn.gov/statutes/cite/171.17",
-      "error": "fetch failed: fetch failed"
+      "sha256": "78947bc680869fd3fc612a82f016e56e9a624117e4729b1bebd5b2e182cbbe9b",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.revisor.mn.gov/statutes/cite/171.178",
-      "error": "fetch failed: fetch failed"
+      "sha256": "4065613ed32308352fbfb04ac04423dfdf5399c87636da133e926faa51e473d9",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.revisor.mn.gov/statutes/cite/65B.49",
-      "error": "fetch failed: fetch failed"
+      "sha256": "a07ee6c24359dca363eecc011d94cdac212a5792a5d17b42900e5e5b1fc4bf2d",
+      "contentType": "text/html",
+      "status": 200
     }
-  ]
+  ],
+  "handbookSnapshotHash": "88aa9622be31549dd28a9e8c34217c8cc1a298564d7a07feb9a094fb6d3539c4"
 }

@@ -4,13 +4,15 @@
     {
       "url": "https://apps.azdot.gov/files/mvd/mvd-forms-lib/99-0117.pdf",
       "handbook": true,
+      "sha256": "4bef15a813d8a0da6685b7cc87ad1f64a44ba738166bf0a2270683b3811fd3c5",
       "contentType": "application/pdf",
-      "status": 200,
-      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+      "status": 200
     },
     {
       "url": "https://azdot.gov/motor-vehicles/driver-services/driver-license-information/fees-driver-license",
-      "error": "fetch failed: fetch failed"
+      "sha256": "108eb0ee770c11015cff997a55a610d35fedf058f14d767789cbd68e0ca04bda",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://azdot.gov/mvd/services/driver-license-ID/permit-test",
@@ -142,5 +144,6 @@
       "contentType": "text/html",
       "status": 200
     }
-  ]
+  ],
+  "handbookSnapshotHash": "4bef15a813d8a0da6685b7cc87ad1f64a44ba738166bf0a2270683b3811fd3c5"
 }

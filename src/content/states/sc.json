@@ -10,8 +10,14 @@
   "handbookEditionYear": 2024,
   "handbookCopyrightStatus": "terms-of-use",
   "applicantVariants": [
-    { "id": "under-18", "label": "Under 18 (beginner's permit, conditional/route-restricted GDL)" },
-    { "id": "adult", "label": "Adult (18+)" }
+    {
+      "id": "under-18",
+      "label": "Under 18 (beginner's permit, conditional/route-restricted GDL)"
+    },
+    {
+      "id": "adult",
+      "label": "Adult (18+)"
+    }
   ],
   "examVariants": [
     {
@@ -19,7 +25,9 @@
       "label": "Class D knowledge test (all ages)",
       "numQuestions": 30,
       "numToPass": 24,
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "onlineAvailable": false
     }
   ],
@@ -63,7 +71,11 @@
     "moveOverRule": "Move over one lane, or slow down if you cannot safely change lanes, for stopped emergency, law-enforcement, and recovery vehicles displaying flashing lights",
     "interstateMaxSpeed": "70 mph",
     "schoolZoneSpeed": "Reduced posted limit during school hours (commonly 15-25 mph where posted)",
-    "namedLaws": ["Emma's Law (ignition interlock)", "Move Over Law", "Texting-while-driving ban"]
+    "namedLaws": [
+      "Emma's Law (ignition interlock)",
+      "Move Over Law",
+      "Texting-while-driving ban"
+    ]
   },
   "references": [
     {
@@ -83,7 +95,7 @@
     }
   ],
   "effectiveDate": "2026-07-24",
-  "sourceSnapshotHash": "seed-pending-verification",
+  "sourceSnapshotHash": "6bd51726b21ab8980a40bb8b123e1ae35abac7444bbc798baf50f21d9bd48514",
   "reviewStatus": "adversarially-verified",
   "lastVerified": "2026-07-27",
   "contentVersion": 1,

@@ -17,9 +17,9 @@
     "difficulty": "easy",
     "references": [
       {
-        "label": "Alabama Speed Limits",
-        "citation": "ALEA Speed Limits; Alabama Driver Manual",
-        "url": "https://www.alea.gov/dps/highway-patrol/speed-limits"
+        "label": "Code of Alabama",
+        "citation": "Ala. Code § 32-5A-171(4)",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama"
       }
     ],
     "effectiveDate": "2026-07-24",
@@ -46,9 +46,9 @@
     "difficulty": "medium",
     "references": [
       {
-        "label": "Alabama Driver Manual",
-        "citation": "ALEA Alabama Driver Manual, Alcohol and Driving",
-        "url": "https://www.alea.gov/dps/driver-license/driver-license-manuals"
+        "label": "Code of Alabama",
+        "citation": "Ala. Code § 32-5A-191(b)",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama"
       }
     ],
     "effectiveDate": "2026-07-24",
@@ -67,7 +67,7 @@
     "options": [
       "0.10%",
       "0.05%",
-      "0.04%",
+      "0.06%",
       "0.08%"
     ],
     "correctIndex": 3,
@@ -75,9 +75,9 @@
     "difficulty": "easy",
     "references": [
       {
-        "label": "Alabama Driver Manual",
-        "citation": "ALEA Alabama Driver Manual, Alcohol and Driving",
-        "url": "https://www.alea.gov/dps/driver-license/driver-license-manuals"
+        "label": "Code of Alabama",
+        "citation": "Ala. Code § 32-5A-191(a)(1)",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama"
       }
     ],
     "effectiveDate": "2026-07-24",
@@ -104,9 +104,9 @@
     "difficulty": "easy",
     "references": [
       {
-        "label": "Graduated Driver License",
-        "citation": "IIHS Graduated Licensing Laws Table (Alabama)",
-        "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table"
+        "label": "Code of Alabama",
+        "citation": "Ala. Code § 32-6-7.2",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama"
       }
     ],
     "effectiveDate": "2026-07-24",
@@ -133,9 +133,9 @@
     "difficulty": "medium",
     "references": [
       {
-        "label": "Graduated Driver License",
-        "citation": "IIHS Graduated Licensing Laws Table (Alabama)",
-        "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table"
+        "label": "Code of Alabama",
+        "citation": "Ala. Code § 32-6-7.2",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama"
       }
     ],
     "effectiveDate": "2026-07-24",
@@ -162,9 +162,9 @@
     "difficulty": "medium",
     "references": [
       {
-        "label": "Graduated Driver License",
-        "citation": "IIHS Graduated Licensing Laws Table (Alabama)",
-        "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table"
+        "label": "Code of Alabama",
+        "citation": "Ala. Code § 32-6-7.2(c)(1)",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama"
       }
     ],
     "effectiveDate": "2026-07-24",
@@ -191,9 +191,9 @@
     "difficulty": "medium",
     "references": [
       {
-        "label": "Graduated Driver License",
-        "citation": "IIHS Graduated Licensing Laws Table (Alabama)",
-        "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table"
+        "label": "Code of Alabama",
+        "citation": "Ala. Code § 32-6-7.2(c)(2)",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama"
       }
     ],
     "effectiveDate": "2026-07-24",
@@ -211,18 +211,18 @@
     "prompt": "In Alabama, a driver may obtain an unrestricted (Stage III) license when they are:",
     "options": [
       "17 and have held the Stage II license for at least 6 months",
-      "16 and a half",
-      "18 regardless of prior license",
-      "16 with no waiting period"
+      "16 after completing driver education with no restricted-license period",
+      "18 regardless of how long the Stage II restricted license was held",
+      "16 after holding a learner license for at least 30 days"
     ],
     "correctIndex": 0,
     "explanation": "An Alabama driver can move to an unrestricted Stage III license at age 17, provided they have held the Stage II restricted license for at least 6 months with a clean record.",
     "difficulty": "hard",
     "references": [
       {
-        "label": "Graduated Driver License",
-        "citation": "IIHS Graduated Licensing Laws Table (Alabama)",
-        "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table"
+        "label": "Code of Alabama",
+        "citation": "Ala. Code § 32-6-7.2(d)",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama"
       }
     ],
     "effectiveDate": "2026-07-24",
@@ -249,9 +249,9 @@
     "difficulty": "medium",
     "references": [
       {
-        "label": "Alabama Point System",
-        "citation": "ALEA Driver License Point System",
-        "url": "https://www.alea.gov/dps/driver-license/driver-license-point-system"
+        "label": "Alabama Law Enforcement Agency point system",
+        "citation": "Ala. Admin. Code § 760-X-1-.07",
+        "url": "https://admincode.legislature.state.al.us/administrative-code/760-X-1-.07"
       }
     ],
     "effectiveDate": "2026-07-24",
@@ -268,19 +268,19 @@
     ],
     "prompt": "Under Alabama's Move Over Law, when approaching a stopped emergency vehicle with flashing lights on a multilane road, you should:",
     "options": [
-      "Maintain your speed and lane",
-      "Come to a complete stop in your lane",
+      "Maintain the posted speed in the lane closest to the stopped vehicle",
+      "Come to a complete stop in your lane before passing the stopped vehicle",
       "Move over one lane away, or slow down if you cannot change lanes safely",
-      "Turn on your hazard lights and continue"
+      "Turn on your hazard lights and continue in the same lane at normal speed"
     ],
     "correctIndex": 2,
     "explanation": "Alabama's Move Over Law requires drivers to vacate the lane closest to a stopped emergency or recovery vehicle when possible, or to slow down if changing lanes cannot be done safely.",
     "difficulty": "easy",
     "references": [
       {
-        "label": "Alabama Driver Manual",
-        "citation": "ALEA Alabama Driver Manual, Move Over Law",
-        "url": "https://www.alea.gov/dps/driver-license/driver-license-manuals"
+        "label": "Code of Alabama",
+        "citation": "Ala. Code § 32-5A-58.2",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama"
       }
     ],
     "effectiveDate": "2026-07-24",
@@ -297,9 +297,9 @@
     ],
     "prompt": "Alabama law regarding cell phones while driving prohibits:",
     "options": [
-      "Only phone calls over 5 minutes",
-      "All cell phone use by every driver",
-      "Using a phone while stopped at a red light",
+      "Only phone calls that continue for more than five minutes while driving",
+      "Every phone use, including an emergency call from a parked vehicle",
+      "Using navigation while stopped in a legally parked vehicle",
       "Writing, sending, or reading text-based messages while driving"
     ],
     "correctIndex": 3,
@@ -307,9 +307,9 @@
     "difficulty": "medium",
     "references": [
       {
-        "label": "Alabama Driver Manual",
-        "citation": "ALEA Alabama Driver Manual, Distracted Driving",
-        "url": "https://www.alea.gov/dps/driver-license/driver-license-manuals"
+        "label": "Code of Alabama",
+        "citation": "Ala. Code § 32-5A-350",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama"
       }
     ],
     "effectiveDate": "2026-07-24",
@@ -326,19 +326,19 @@
     ],
     "prompt": "In Alabama, when you approach an intersection with a stopped school bus displaying flashing red lights and an extended stop arm on an undivided road, you must:",
     "options": [
-      "Slow to 15 mph and pass carefully",
+      "Slow to 15 mph and pass after checking carefully for children",
       "Stop, whether you are behind or meeting the bus",
-      "Stop only if you are directly behind the bus",
-      "Continue if no children are visible"
+      "Stop only when following directly behind the school bus",
+      "Continue when no children are visible near the roadway"
     ],
     "correctIndex": 1,
     "explanation": "On an undivided roadway, drivers in both directions must stop for a school bus with flashing red lights and an extended stop arm, and remain stopped until the lights stop flashing and the arm is withdrawn.",
     "difficulty": "medium",
     "references": [
       {
-        "label": "Alabama Driver Manual",
-        "citation": "ALEA Alabama Driver Manual, School Buses",
-        "url": "https://www.alea.gov/dps/driver-license/driver-license-manuals"
+        "label": "Code of Alabama",
+        "citation": "Ala. Code § 32-5A-154",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama"
       }
     ],
     "effectiveDate": "2026-07-24",
@@ -384,10 +384,10 @@
     ],
     "prompt": "Alabama's STAR I.D. is the state's version of a:",
     "options": [
-      "Temporary paper permit",
-      "Motorcycle endorsement",
+      "A temporary paper credential used while a license is processed",
+      "A motorcycle-only endorsement added to a standard license",
       "REAL ID-compliant credential for federal identification",
-      "Commercial driver license"
+      "A commercial driver license for interstate freight operation"
     ],
     "correctIndex": 2,
     "explanation": "The STAR I.D. is Alabama's REAL ID-compliant credential. It requires documents proving identity/legal presence, Social Security number, and two proofs of Alabama street address, and is needed for boarding domestic flights.",
@@ -404,5 +404,130 @@
     "verifyNote": "This question has not received independent cross-lab verification or a confirmed audit ledger.",
     "lastVerified": "2026-07-24",
     "contentVersion": 3
+  },
+  {
+    "id": "al-speed-002",
+    "category": "speed-limits",
+    "stateScope": [
+      "AL"
+    ],
+    "tags": [
+      "speed-basic-law"
+    ],
+    "prompt": "Rain has made an Alabama highway slick and visibility is poor, although the posted limit is 55 mph. What does the basic speed law require?",
+    "options": [
+      "Maintain 55 mph because the sign sets the safe speed in all conditions",
+      "Reduce speed to a reasonable and prudent level for the rain",
+      "Drive 55 mph until another vehicle ahead begins to slow",
+      "Stop in the travel lane and wait for the rain to end"
+    ],
+    "correctIndex": 1,
+    "explanation": "Alabama's basic speed law requires a reasonable and prudent speed for actual and potential hazards. A posted maximum does not make that speed safe during poor weather.",
+    "difficulty": "medium",
+    "references": [
+      {
+        "label": "Code of Alabama",
+        "citation": "Ala. Code § 32-5A-170",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama"
+      }
+    ],
+    "effectiveDate": "2026-08-04",
+    "reviewStatus": "draft",
+    "verifyNote": "The statutory rule was checked, but its current effective-date history and the question wording still need independent review.",
+    "lastVerified": "2026-08-04",
+    "contentVersion": 1
+  },
+  {
+    "id": "al-alc-003",
+    "category": "alcohol-drugs",
+    "stateScope": [
+      "AL"
+    ],
+    "tags": [
+      "alcohol-impairment-bac"
+    ],
+    "prompt": "Which situation is prohibited by Alabama's open-container law?",
+    "options": [
+      "An open container secured in the trunk or in an area not normally occupied by passengers",
+      "A closed and factory-sealed bottle carried in the passenger area while traveling from a store to a private residence",
+      "An open alcoholic beverage container in the passenger area while on a public highway or right-of-way",
+      "An empty beverage container kept in a rear cargo area that is not accessible to occupants"
+    ],
+    "correctIndex": 2,
+    "explanation": "Alabama prohibits possessing an open alcoholic-beverage container in the passenger area of a motor vehicle on a public highway or right-of-way, subject to statutory exceptions.",
+    "difficulty": "medium",
+    "references": [
+      {
+        "label": "Code of Alabama",
+        "citation": "Ala. Code § 32-5A-330",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama"
+      }
+    ],
+    "effectiveDate": "2026-08-04",
+    "reviewStatus": "draft",
+    "verifyNote": "The statutory rule was checked, but its current effective-date history and the question wording still need independent review.",
+    "lastVerified": "2026-08-04",
+    "contentVersion": 1
+  },
+  {
+    "id": "al-pts-002",
+    "category": "penalties-points",
+    "stateScope": [
+      "AL"
+    ],
+    "prompt": "What suspension period applies when an Alabama driver accumulates 12 to 14 points within two years?",
+    "options": [
+      "A 30-day license suspension",
+      "A 60-day license suspension",
+      "A 90-day license suspension",
+      "A 180-day license suspension"
+    ],
+    "correctIndex": 1,
+    "explanation": "Alabama's point schedule assigns a 60-day suspension for 12 to 14 points accumulated within two years. Higher totals result in longer suspensions.",
+    "difficulty": "medium",
+    "references": [
+      {
+        "label": "Alabama Administrative Code",
+        "citation": "Ala. Admin. Code § 760-X-1-.07",
+        "url": "https://admincode.legislature.state.al.us/administrative-code/760-X-1-.07"
+      }
+    ],
+    "effectiveDate": "2026-08-04",
+    "reviewStatus": "draft",
+    "verifyNote": "The administrative rule was checked, but its current effective-date history and the question wording still need independent review.",
+    "lastVerified": "2026-08-04",
+    "contentVersion": 1
+  },
+  {
+    "id": "al-gdl-006",
+    "category": "gdl-teen",
+    "stateScope": [
+      "AL"
+    ],
+    "tags": [
+      "gdl-to-full-license"
+    ],
+    "prompt": "Which trip can qualify for an exception to Alabama's midnight-to-6 a.m. restriction for a Stage II driver?",
+    "options": [
+      "Driving to meet friends after a school event because the group plans to remain together",
+      "Driving to or from a scheduled work shift",
+      "Driving home from a late movie when no licensed adult is available",
+      "Driving to a recreational practice that is not sponsored by the school"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Stage II restriction includes an exception for travel to or from work. Social and unsponsored recreational trips do not qualify for that exception.",
+    "difficulty": "medium",
+    "references": [
+      {
+        "label": "Code of Alabama",
+        "citation": "Ala. Code § 32-6-7.2(c)(1)",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama"
+      }
+    ],
+    "effectiveDate": "2026-08-04",
+    "reviewStatus": "draft",
+    "verifyNote": "The statutory exception was checked, but its current effective-date history and the question wording still need independent review.",
+    "lastVerified": "2026-08-04",
+    "contentVersion": 1
   }
 ]

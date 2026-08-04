@@ -39,7 +39,7 @@
       "Slow to the reduced speed posted for the school zone",
       "Increase speed to clear the zone quickly",
       "Maintain the normal street speed limit",
-      "Stop completely before entering the zone"
+      "Come to a complete stop before entering the school zone"
     ],
     "correctIndex": 0,
     "explanation": "In a school zone you must slow to the reduced limit posted for that zone (commonly 15 mph) whenever the warning flashers are operating or children are present.",

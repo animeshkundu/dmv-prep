@@ -94,7 +94,7 @@
     ],
     "prompt": "By driving on Wyoming roads, you agree under the implied-consent law to:",
     "options": [
-      "Pay any fine without a hearing",
+      "Pay any fine that is imposed without the right to request a court hearing",
       "Submit to chemical testing for alcohol or drugs if lawfully arrested",
       "Allow a search of your home",
       "Waive the right to a lawyer"
@@ -356,7 +356,7 @@
     "prompt": "Unlike many states, Wyoming does not use a demerit-point system. Instead, your license can be suspended for:",
     "options": [
       "Parking violations",
-      "Driving an out-of-state vehicle",
+      "Driving an out-of-state vehicle without registering it in Wyoming",
       "Four moving-violation convictions within a 12-month period",
       "Any single speeding ticket"
     ],

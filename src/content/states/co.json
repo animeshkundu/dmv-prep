@@ -4,13 +4,19 @@
   "agencyName": "Colorado Division of Motor Vehicles",
   "agencyShort": "DMV",
   "officialSiteUrl": "https://dmv.colorado.gov/",
-  "handbookLandingUrl": "https://dmv.colorado.gov/driver-handbook",
+  "handbookLandingUrl": "https://dmv.colorado.gov/drivereducation",
   "handbookFormat": "mixed",
   "handbookEditionYear": 2023,
   "handbookCopyrightStatus": "unknown",
   "applicantVariants": [
-    { "id": "under-18", "label": "Under 18 (Level 1 instruction permit)" },
-    { "id": "adult", "label": "Adult (18+)" }
+    {
+      "id": "under-18",
+      "label": "Under 18 (Level 1 instruction permit)"
+    },
+    {
+      "id": "adult",
+      "label": "Adult (18+)"
+    }
   ],
   "examVariants": [
     {
@@ -18,7 +24,10 @@
       "label": "Under-18 knowledge test",
       "numQuestions": 25,
       "numToPass": 20,
-      "languages": ["en", "es"],
+      "languages": [
+        "en",
+        "es"
+      ],
       "onlineAvailable": true
     },
     {
@@ -26,7 +35,10 @@
       "label": "Adult knowledge test",
       "numQuestions": 25,
       "numToPass": 20,
-      "languages": ["en", "es"],
+      "languages": [
+        "en",
+        "es"
+      ],
       "onlineAvailable": true
     }
   ],
@@ -70,7 +82,11 @@
     "moveOverRule": "Slow down and, when safe, move over one lane for stopped emergency, maintenance, tow, and utility vehicles displaying flashing lights",
     "interstateMaxSpeed": "75 mph where posted",
     "schoolZoneSpeed": "20 mph or as posted, with doubled fines",
-    "namedLaws": ["Express Consent Law", "Move Over Law", "Hands-Free Law"]
+    "namedLaws": [
+      "Express Consent Law",
+      "Move Over Law",
+      "Hands-Free Law"
+    ]
   },
   "references": [
     {
@@ -90,7 +106,7 @@
     }
   ],
   "effectiveDate": "2026-07-24",
-  "sourceSnapshotHash": "seed-pending-verification",
+  "sourceSnapshotHash": "42bb75c16cd25eaa65b703e14e7e97157cae64d606f998dbe43b0418e709cebf",
   "reviewStatus": "adversarially-verified",
   "lastVerified": "2026-07-24",
   "contentVersion": 1,
@@ -543,5 +559,6 @@
       "lastVerified": "2026-07-27",
       "confidence": "unknown"
     }
-  }
+  },
+  "handbookPdfUrl": "https://dmv.colorado.gov/sites/dmv/files/documents/DR_2337_Jan2025.pdf"
 }

@@ -1,30 +1,34 @@
 ---
-title: Right-of-Way Basics
+unitId: intersections-and-stops
+module: right-of-way
+moduleOrder: 2
+title: Intersections and Stops
 category: right-of-way
 stateScope: all
-summary: Who goes first at intersections, crosswalks, and merges, and why yielding is about safety, not just rules.
-order: 10
+summary: Read arrival order, controls, paths, and conflicts before deciding when to proceed.
+order: 0
+estimatedMinutes: 5
+objectives: [Identify the controlling device, Compare conflicting paths, Choose a safe yielding decision]
+quizCategories: [right-of-way]
+quizTags: [row-intersections]
+factCallouts: [rightTurnOnRed]
+checkCount: 5
+prerequisites: []
 lastVerified: "2026-07-23"
 contentVersion: 1
 references:
-  - label: Right-of-way rules
-    citation: State driver handbook, right-of-way
+  - label: Manual on Uniform Traffic Control Devices
+    citation: MUTCD Ch. 2B
+    url: https://mutcd.fhwa.dot.gov/
 ---
 
-Right-of-way is not something you *have*. It is something you **give**. The law says who should yield, but a good driver yields whenever it prevents a crash, even when they technically have the right to go.
+Right-of-way rules organize conflicting paths; they do not guarantee that another road user will yield. Before moving, identify the control facing you, scan every approach, and locate anyone already within the conflict area.
 
-## The core rules
+At a stop-controlled intersection, complete the stop before judging arrival order. If paths conflict, use the applicable yielding rule and confirm that the other driver is actually responding as expected. A blocked view, a fast approach, or a person entering the roadway is a reason to wait.
 
-- **Four-way stops:** first to arrive goes first. If two arrive together, the driver on the **left yields to the driver on the right**.
-- **Left turns:** a driver turning left must yield to oncoming traffic that is close enough to be a hazard.
-- **Pedestrians:** yield to anyone in a crosswalk, marked or not, even when your light is green.
-- **Emergency vehicles:** pull to the right edge and stop for approaching sirens and flashing lights.
-- **Roundabouts:** yield to traffic already in the circle, then enter when there is a safe gap.
+## Decision routine
 
-## Merging and entering
-
-When entering a road from a driveway, alley, or on-ramp, you yield to traffic already on the road. On a freeway on-ramp, match the speed of traffic and merge into a gap. Do not stop on the ramp unless traffic forces it.
-
-## The mindset
-
-If two drivers both insist on their right of way, the result is a collision. When in doubt, yield. It costs a few seconds. Not yielding can cost far more.
+- Find the sign or signal that controls your approach.
+- Check for road users already committed to the intersection.
+- Compare arrival order only after everyone who must stop has stopped.
+- Yield rather than forcing another person to correct for your movement.

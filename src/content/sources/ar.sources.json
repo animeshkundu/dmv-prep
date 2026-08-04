@@ -10,9 +10,9 @@
     {
       "url": "https://media.ark.org/dps/Arkansas-DL-Manual-English-1.pdf",
       "handbook": true,
+      "sha256": "9363d99a0b118be7e0e474333ca6721b3de8fcb1ae3aef46c71ac4241e16893e",
       "contentType": "application/pdf",
-      "status": 200,
-      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
+      "status": 200
     },
     {
       "url": "https://mutcd.fhwa.dot.gov/",
@@ -26,5 +26,6 @@
       "contentType": "text/html",
       "status": 200
     }
-  ]
+  ],
+  "handbookSnapshotHash": "9363d99a0b118be7e0e474333ca6721b3de8fcb1ae3aef46c71ac4241e16893e"
 }

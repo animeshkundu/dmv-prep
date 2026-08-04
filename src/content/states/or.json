@@ -4,7 +4,7 @@
   "agencyName": "Oregon Driver and Motor Vehicle Services (DMV)",
   "agencyShort": "DMV",
   "officialSiteUrl": "https://www.oregon.gov/odot/dmv/",
-  "handbookLandingUrl": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx",
+  "handbookLandingUrl": "https://www.oregon.gov/odot/DMV/Pages/Form/manuals.aspx",
   "handbookFormat": "mixed",
   "handbookEditionYear": 2024,
   "handbookCopyrightStatus": "terms-of-use",
@@ -101,7 +101,7 @@
     }
   ],
   "effectiveDate": "2026-07-24",
-  "sourceSnapshotHash": "seed-pending-verification",
+  "sourceSnapshotHash": "57e50fd53bc92e2055cca9546cdb404c1341a8693fd10466fd769afe74e99e11",
   "reviewStatus": "adversarially-verified",
   "lastVerified": "2026-07-24",
   "contentVersion": 1,
@@ -554,5 +554,6 @@
       "lastVerified": "2026-07-27",
       "confidence": "unknown"
     }
-  }
+  },
+  "handbookPdfUrl": "https://www.oregon.gov/odot/Forms/DMV/37.pdf"
 }
