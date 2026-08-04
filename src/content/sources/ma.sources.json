@@ -112,23 +112,28 @@
     {
       "url": "https://www.mass.gov/how-to/request-a-drivers-manual",
       "handbook": true,
-      "error": "fetch failed: fetch failed"
+      "status": 403,
+      "error": "HTTP 403"
     },
     {
       "url": "https://www.mass.gov/info-details/first-time-driver-start-here",
-      "error": "fetch failed: fetch failed"
+      "status": 403,
+      "error": "HTTP 403"
     },
     {
       "url": "https://www.mass.gov/info-details/surchargeable-incidents",
-      "error": "fetch failed: fetch failed"
+      "status": 403,
+      "error": "HTTP 403"
     },
     {
       "url": "https://www.mass.gov/info-details/suspensions-from-multiple-offenses",
-      "error": "fetch failed: fetch failed"
+      "status": 403,
+      "error": "HTTP 403"
     },
     {
       "url": "https://www.mass.gov/service-details/rmv-fee-schedule",
-      "error": "fetch failed: fetch failed"
+      "status": 403,
+      "error": "HTTP 403"
     }
   ]
 }

@@ -513,14 +513,49 @@ const questions = defineCollection({
 const lessons = defineCollection({
   loader: glob({ base: './src/content/lessons', pattern: '**/*.md' }),
   schema: z.object({
+    unitId: z.string().min(1),
+    module: z.enum([
+      'signs',
+      'signals-markings',
+      'right-of-way',
+      'speed',
+      'lane-use',
+      'parking',
+      'sharing-the-road',
+      'safe-driving',
+      'alcohol-drugs',
+      'collisions-insurance',
+      'licensing-gdl',
+    ]),
+    moduleOrder: z.number().int().nonnegative(),
     title: z.string().min(1),
     category: questionCategory,
     stateScope: z.union([z.literal('all'), z.array(stateCode).min(1)]).default('all'),
     summary: z.string().min(1),
     order: z.number().int().nonnegative().default(0),
-    references: z.array(reference).default([]),
+    estimatedMinutes: z.number().int().positive().default(4),
+    objectives: z.array(z.string().min(1)).min(1).max(6),
+    quizCategories: z.array(questionCategory).min(1),
+    quizTags: z.array(z.string().min(1)).default([]),
+    factCallouts: z.array(typedFactKey).default([]),
+    checkCount: z.number().int().positive().default(5),
+    prerequisites: z.array(z.string().min(1)).default([]),
+    references: z.array(reference).min(1),
     lastVerified: isoDate,
     contentVersion: z.number().int().nonnegative().default(1),
+  }),
+});
+
+const stateNotes = defineCollection({
+  loader: arrayJsonLoader('src/content/state-notes'),
+  schema: z.object({
+    id: z.string().min(1),
+    state: stateCode,
+    unitId: z.string().min(1),
+    kind: z.enum(['exception', 'extra', 'emphasis']),
+    title: z.string().min(1),
+    body: z.string().min(1),
+    ...provenance,
   }),
 });
 
@@ -595,4 +630,4 @@ const signs = defineCollection({
     }),
 });
 
-export const collections = { states, questions, lessons, signs };
+export const collections = { states, questions, lessons, stateNotes, signs };

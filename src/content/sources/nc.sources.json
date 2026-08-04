@@ -15,92 +15,136 @@
     },
     {
       "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/graduated-licensing.aspx",
-      "error": "fetch failed: fetch failed"
+      "status": 404,
+      "error": "HTTP 404"
     },
     {
       "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/handbooks.aspx",
       "handbook": true,
-      "error": "fetch failed: fetch failed"
+      "sha256": "c920b7aee1420b35592b909162d0865472c29d63fcf222d578ee0b3ee9682e88",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.ncdot.gov/dmv/license-id/license-suspension/Pages/default.aspx",
-      "error": "fetch failed: fetch failed"
+      "sha256": "30614c02cb23d80a6042bd7b6ef2d416179868259adb7181e837306d8f6177f8",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.ncleg.gov/EnactedLegislation/SessionLaws/HTML/2021-2022/SL2022-68.html",
-      "error": "fetch failed: fetch failed"
+      "sha256": "b40217f9a84abda56ca536aee61c41d6eaa9593c2c9737a4962b1a4bde7d04f4",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.ncleg.gov/EnactedLegislation/SessionLaws/HTML/2023-2024/SL2023-133.html",
-      "error": "fetch failed: fetch failed"
+      "sha256": "d46f02494f958411d684bcaf56263b60b7ea03c61e81ebe59f116ecbe699b68e",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-11.html",
-      "error": "fetch failed: fetch failed"
+      "sha256": "040ce15148040e1daac7828cbfca2a16c0bc1102dd253eb117d3e46631ae30ba",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-129.html",
-      "error": "fetch failed: fetch failed"
+      "sha256": "893df0a1a106e8b0a065df53af6d8bf95507463e83a5f8d5e738a3fa4db395c2",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-135.2A.html",
-      "error": "fetch failed: fetch failed"
+      "sha256": "2191dfa118b572e104964041700f108c71e9c4db7cc0488972c45b3627ca065f",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-137.3.html",
-      "error": "fetch failed: fetch failed"
+      "sha256": "d9b90e07245f3e14d543d77d2f4dd5681d75662841226cb853fcc9ff8ba5f2b2",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-137.4A.html",
-      "error": "fetch failed: fetch failed"
+      "sha256": "b17323d2f51745144980be50046e000e841e2e3ce7fc15a2648c924df9d4b2ad",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-138.1.html",
-      "error": "fetch failed: fetch failed"
+      "sha256": "96b930e461ac56095d0b8327f7327b097d31c8a4bc544eba7613f2c7163ed6c1",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-138.2.html",
-      "error": "fetch failed: fetch failed"
+      "sha256": "93f0bdb012d813729810300b335891f9e9b0442912b605f3156aba01f37aee3d",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-138.3.html",
-      "error": "fetch failed: fetch failed"
+      "sha256": "1db4f137c24995aac58b5b8ff3c8037ee9b45ed6821611452fa4dad0f9bb92f0",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-138.7.html",
-      "error": "fetch failed: fetch failed"
+      "sha256": "5e2156c40cfd235be9714e455a9e143dfb9bb772df44767105ae9562853f0b4b",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-141.1.html",
-      "error": "fetch failed: fetch failed"
+      "sha256": "3a3e2dad61df212ffa6abb786ac9cf8f95f942ba98f8387d2ab642c842330fd2",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-141.html",
-      "error": "fetch failed: fetch failed"
+      "sha256": "501d330b7401b5e652f4e97b51a0bc70e4db53a6b0b01ce43655a925ede2a9f8",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-158.html",
-      "error": "fetch failed: fetch failed"
+      "sha256": "ecfa98b31c572b926e744c99f340da37e962f7ee8dd1341e71cb892e7932a99d",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-16.2.html",
-      "error": "fetch failed: fetch failed"
+      "sha256": "4983db2944bc9665b23214c1e12979e9b4c78c95a0b4cad1acce7cea9f8136c6",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-16.html",
-      "error": "fetch failed: fetch failed"
+      "sha256": "79f67ad869f1cc1a66740e1b61a8b5f4e503e7388db581f594ffc1662bc1bd7c",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-162.html",
-      "error": "fetch failed: fetch failed"
+      "sha256": "8a4be237242b3da412bbe117d05ea0bb2dd83182a3c020ba0cc87ef3852e732d",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-166.1.html",
-      "error": "fetch failed: fetch failed"
+      "sha256": "c45f112c63f9b970775b82fe9874dee54de5c469bf3cb8422cc742f3a091e864",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-17.html",
-      "error": "fetch failed: fetch failed"
+      "sha256": "9716d36e0d5802ec5a28a7a47b60b4571d7364c39d268bd1276083c0c7215915",
+      "contentType": "text/html",
+      "status": 200
     }
-  ]
+  ],
+  "handbookSnapshotHash": "c920b7aee1420b35592b909162d0865472c29d63fcf222d578ee0b3ee9682e88"
 }

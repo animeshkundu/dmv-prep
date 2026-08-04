@@ -10,11 +10,14 @@
     {
       "url": "https://www.oregon.gov/odot/dmv/pages/driverid/drivermanual.aspx",
       "handbook": true,
-      "error": "fetch failed: fetch failed"
+      "status": 404,
+      "error": "HTTP 404"
     },
     {
       "url": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Testing.aspx",
-      "error": "fetch failed: fetch failed"
+      "sha256": "637d27a139f2bf9934eb9d8ac6d7b593b3ef1d7774f70e0cb8864e2b2aab65bc",
+      "contentType": "text/html",
+      "status": 200
     }
   ]
 }

@@ -5,7 +5,7 @@
     "stateScope": "all",
     "prompt": "A school bus ahead turns on its flashing yellow lights. This means:",
     "options": [
-      "You must stop immediately",
+      "Continue at the posted speed until the red lights come on because yellow lights do not require preparation",
       "The bus is about to stop to load or unload; slow down and be ready to stop",
       "You may pass at full speed",
       "The bus is broken down"
@@ -59,7 +59,7 @@
     "options": [
       "Tailgate to encourage it to speed up",
       "Drive beside it in the same lane",
-      "Follow closer than you would a car",
+      "Follow closer than you would a car because a motorcycle needs less distance to stop",
       "Leave a safe following distance and extra room to react"
     ],
     "correctIndex": 3,
@@ -84,7 +84,7 @@
     "prompt": "Large trucks have big blind spots. A good rule to remember is:",
     "options": [
       "If you cannot see the truck driver in the truck's side mirror, the driver cannot see you",
-      "Trucks can always see you",
+      "Stay beside the cab where you assume the truck's mirrors provide the driver a complete view of adjacent lanes",
       "Blind spots only exist on the left",
       "You should stay directly behind a truck"
     ],
@@ -109,7 +109,7 @@
     "stateScope": "all",
     "prompt": "A large truck is making a right turn at an intersection and swings wide to the left first. You should:",
     "options": [
-      "Assume it is turning left",
+      "Enter the open space on the truck's right because its initial left swing means that side is available",
       "Never try to pass on the right between the truck and the curb",
       "Squeeze into the gap on its right",
       "Pass quickly on the right"
@@ -135,7 +135,7 @@
     "stateScope": "all",
     "prompt": "When you approach a bicyclist riding on the road, you should:",
     "options": [
-      "Pass as closely as possible",
+      "Pass at your normal speed as long as the bicyclist remains near the outside edge of the lane",
       "Honk to make them move over",
       "Slow down and pass only when you can leave a safe distance",
       "Expect them to ride on the sidewalk"
@@ -188,7 +188,7 @@
     "prompt": "When another driver is passing you, you should:",
     "options": [
       "Maintain your speed or ease off slightly and stay in your lane",
-      "Brake hard",
+      "Increase speed until the passing driver abandons the maneuver and returns behind you",
       "Speed up so they cannot pass",
       "Move toward the center line"
     ],
@@ -216,7 +216,7 @@
       "Tailgate until it moves over",
       "Slow down early and pass only when it is safe",
       "Pass immediately on a curve",
-      "Assume it will speed up"
+      "Assume it will speed up after noticing you, so there is no need to adjust your following distance"
     ],
     "correctIndex": 1,
     "explanation": "The slow-moving-vehicle emblem marks equipment traveling well below traffic speed. Reduce speed early and pass only when you have a clear, safe view.",
@@ -266,7 +266,7 @@
     "prompt": "When you approach a stopped emergency vehicle with flashing lights on the side of the road, you should:",
     "options": [
       "Stop in the travel lane",
-      "Maintain speed and stay in your lane",
+      "Maintain your speed in the nearest lane because flashing lights warn the stopped crew to stay clear",
       "Speed past quickly",
       "Slow down and, if safe and possible, move over to give it room"
     ],
@@ -292,7 +292,7 @@
     "prompt": "Where should you look for bicyclists and motorcyclists that are easy to miss?",
     "options": [
       "In your blind spots and when you are turning or changing lanes",
-      "Only on highways",
+      "Only in the lane ahead, because two-wheeled vehicles do not remain hidden beside a car",
       "Only in parking lots",
       "Only far ahead"
     ],
@@ -317,7 +317,7 @@
     "stateScope": "all",
     "prompt": "The safest place to position your vehicle relative to a large truck on the highway is:",
     "options": [
-      "In front of it, then braking",
+      "Stay immediately beside the cab because that is where the truck driver can always see a nearby car",
       "Where you can see its mirrors and it has clear space around it",
       "Directly behind it, very close",
       "Beside it in its blind spot"
@@ -370,7 +370,7 @@
     "prompt": "When you want to pass a bicyclist but oncoming traffic is close, you should:",
     "options": [
       "Honk continuously",
-      "Pass on the shoulder",
+      "Move closer to the center line and pass beside the bicyclist before the oncoming vehicle reaches you",
       "Pass anyway, squeezing by",
       "Wait behind the bicyclist until you can pass with safe clearance"
     ],
@@ -393,12 +393,15 @@
     "id": "nat-safe-003",
     "category": "safe-driving",
     "stateScope": "all",
+    "tags": [
+      "safe-weather-night"
+    ],
     "prompt": "In rain, snow, or other poor conditions, your following distance should be:",
     "options": [
       "Zero, to keep up with traffic",
       "Shorter than normal",
       "Increased beyond the normal following distance",
-      "The same as normal"
+      "The same as normal because lower speeds in poor weather offset the loss of traction and visibility"
     ],
     "correctIndex": 2,
     "explanation": "Poor conditions increase stopping distance, so increase your following distance well beyond the usual three seconds to give yourself time to react.",
@@ -419,9 +422,12 @@
     "id": "nat-safe-004",
     "category": "safe-driving",
     "stateScope": "all",
+    "tags": [
+      "safe-weather-night"
+    ],
     "prompt": "If your vehicle begins to hydroplane on a wet road, you should:",
     "options": [
-      "Accelerate to regain traction",
+      "Brake firmly while steering toward the shoulder so the tires cut through the layer of water",
       "Brake hard immediately",
       "Turn the wheel sharply",
       "Ease off the gas and steer gently in the direction you want to travel"
@@ -448,7 +454,7 @@
     "prompt": "If the rear of your vehicle starts to skid, you should steer:",
     "options": [
       "In the direction you want the front of the car to go",
-      "In the opposite direction of the skid",
+      "In the opposite direction of the skid so the rear tires are forced back toward their original path",
       "Toward the shoulder",
       "Straight ahead and brake hard"
     ],
@@ -473,7 +479,7 @@
     "stateScope": "all",
     "prompt": "If a front tire suddenly blows out while you are driving, you should:",
     "options": [
-      "Turn sharply to the shoulder",
+      "Brake firmly and steer toward the shoulder immediately before the damaged tire pulls the vehicle out of its lane",
       "Grip the wheel firmly, ease off the gas, and steer straight before slowing gently",
       "Accelerate to stay in control",
       "Brake hard right away"
@@ -497,9 +503,12 @@
     "id": "nat-safe-007",
     "category": "safe-driving",
     "stateScope": "all",
+    "tags": [
+      "safe-weather-night"
+    ],
     "prompt": "You should dim your high-beam headlights to low beams when:",
     "options": [
-      "It starts to get dark",
+      "Whenever the roadway has streetlights, because high beams reduce the contrast around other vehicles",
       "You are alone on the highway",
       "Approaching or following other vehicles at night",
       "Driving on an empty rural road"
@@ -549,6 +558,9 @@
     "id": "nat-safe-009",
     "category": "safe-driving",
     "stateScope": "all",
+    "tags": [
+      "safe-weather-night"
+    ],
     "prompt": "At night you should drive at a speed that lets you:",
     "options": [
       "Stop within the distance lit by your headlights",
@@ -575,9 +587,12 @@
     "id": "nat-safe-010",
     "category": "safe-driving",
     "stateScope": "all",
+    "tags": [
+      "safe-weather-night"
+    ],
     "prompt": "When an oncoming vehicle fails to dim its high beams, you should:",
     "options": [
-      "Stare at the oncoming lights",
+      "Look directly at the bright lamps so you can keep tracking the exact position of the oncoming vehicle",
       "Look toward the right edge of your lane until it passes",
       "Close your eyes briefly",
       "Turn on your own high beams"
@@ -629,7 +644,7 @@
     "stateScope": "all",
     "prompt": "A vehicle with anti-lock brakes (ABS) is best stopped in an emergency by:",
     "options": [
-      "Pumping the brake pedal rapidly",
+      "Pump the brake pedal rapidly because releasing it repeatedly helps the anti-lock system engage",
       "Using only the parking brake",
       "Pressing lightly then releasing",
       "Applying firm, steady pressure and steering as needed"
@@ -653,11 +668,14 @@
     "id": "nat-safe-013",
     "category": "safe-driving",
     "stateScope": "all",
+    "tags": [
+      "safe-weather-night"
+    ],
     "prompt": "A road is often most slippery:",
     "options": [
       "During the first few minutes of rain, when water mixes with oil and dust",
       "Only when it is dry",
-      "After it has been raining for many hours",
+      "After rain has continued for several hours and has washed every trace of oil from the pavement",
       "Only when it is snowing"
     ],
     "correctIndex": 0,
@@ -681,7 +699,7 @@
     "stateScope": "all",
     "prompt": "When you drive through a work zone, you should:",
     "options": [
-      "Keep your normal speed",
+      "Maintain your normal speed while watching only the vehicle ahead so sudden lane shifts are easier to follow",
       "Slow down, watch for workers, and follow the temporary signs and flaggers",
       "Change lanes frequently",
       "Follow the car ahead closely"
@@ -705,9 +723,12 @@
     "id": "nat-safe-015",
     "category": "safe-driving",
     "stateScope": "all",
+    "tags": [
+      "safe-weather-night"
+    ],
     "prompt": "When roads are icy, the safest way to handle the brakes and accelerator is to:",
     "options": [
-      "Brake hard at the last moment",
+      "Brake hard at the last moment so the tires dig through the ice before you begin steering",
       "Use them abruptly",
       "Use gentle, gradual inputs and slow down well in advance",
       "Accelerate quickly to keep momentum"
@@ -734,7 +755,7 @@
     "prompt": "If you miss your exit on a highway, you should:",
     "options": [
       "Make a U-turn across the median",
-      "Stop and back up on the shoulder",
+      "Stop on the shoulder and reverse slowly until you can reenter the exit ramp",
       "Reverse in the travel lane",
       "Continue to the next exit and turn around safely"
     ],
@@ -761,7 +782,7 @@
     "options": [
       "Stay calm, avoid eye contact, and give them room",
       "Brake hard to teach them a lesson",
-      "Follow them to talk it out",
+      "Follow them to a stopping place so you can explain which maneuver caused the disagreement",
       "Speed up and challenge them"
     ],
     "correctIndex": 0,
@@ -785,7 +806,7 @@
     "stateScope": "all",
     "prompt": "Maintaining a 'space cushion' around your vehicle means:",
     "options": [
-      "Only leaving space in front",
+      "Keeping open space only in front because hazards beside or behind you cannot affect your escape path",
       "Keeping open space on all sides so you have room to react",
       "Driving as close as possible to other cars",
       "Filling the space around you"
@@ -811,7 +832,7 @@
     "stateScope": "all",
     "prompt": "The best way to check for vehicles in your blind spot before changing lanes is to:",
     "options": [
-      "Rely on the rearview mirror alone",
+      "Rely on the side mirror alone once the vehicle behind disappears from the rearview mirror",
       "Speed up and hope it is empty",
       "Glance over your shoulder toward the lane you are moving into",
       "Assume it is clear if mirrors look clear"
@@ -835,9 +856,12 @@
     "id": "nat-safe-020",
     "category": "safe-driving",
     "stateScope": "all",
+    "tags": [
+      "safe-weather-night"
+    ],
     "prompt": "When bright sun causes glare that makes it hard to see, you should:",
     "options": [
-      "Drive with your high beams on",
+      "Drive faster so the glare affects you for less time while keeping your eyes fixed on the lane ahead",
       "Speed up to get out of it",
       "Close your eyes briefly",
       "Use the sun visor and sunglasses, and slow down"
@@ -864,7 +888,7 @@
     "prompt": "If your vehicle stalls on railroad tracks and a train is approaching, you should:",
     "options": [
       "Get everyone out and move away from the tracks in the direction of the train",
-      "Wait for the train to stop",
+      "Remain inside with the seat belt fastened and keep trying to restart until the train is close",
       "Push the car yourself",
       "Stay in the car and try to restart it"
     ],
@@ -915,7 +939,7 @@
     "stateScope": "all",
     "prompt": "After driving through deep water, your brakes may be wet and less effective. You should:",
     "options": [
-      "Turn off the engine",
+      "Avoid touching the brake pedal until you have driven at normal speed long enough for airflow to dry it",
       "Brake hard once to dry them",
       "Test them gently and apply light pressure while moving slowly to dry them",
       "Avoid using them for miles"
@@ -965,10 +989,13 @@
     "id": "nat-safe-025",
     "category": "safe-driving",
     "stateScope": "all",
+    "tags": [
+      "safe-weather-night"
+    ],
     "prompt": "In heavy rain that makes it hard to see, in addition to slowing down you should:",
     "options": [
       "Turn on your headlights (low beams) so you can see and be seen",
-      "Use only your high beams",
+      "Use high beams so the brighter light reflects from the rain and makes lane markings easier to see",
       "Turn off your headlights",
       "Turn on the interior lights"
     ],
@@ -995,7 +1022,7 @@
     "options": [
       "With your knees",
       "With both hands on opposite sides of the wheel",
-      "With one hand at the top",
+      "With one hand at the top so the other hand remains free to adjust controls while moving",
       "With one finger"
     ],
     "correctIndex": 1,
@@ -1019,7 +1046,7 @@
     "stateScope": "all",
     "prompt": "In residential areas and near parks or schools, you should be especially alert for:",
     "options": [
-      "Interstate on-ramps",
+      "Drivers entering from interstate ramps, because high-speed merging is the main residential hazard",
       "Toll booths",
       "Children who may run into the street unexpectedly",
       "Wide highways"

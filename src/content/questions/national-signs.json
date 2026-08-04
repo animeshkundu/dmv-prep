@@ -3,9 +3,12 @@
     "id": "nat-signs-003",
     "category": "road-signs",
     "stateScope": "all",
+    "tags": [
+      "sign-shapes-colors"
+    ],
     "prompt": "A downward-pointing (inverted) triangle sign tells you to:",
     "options": [
-      "Make a U-turn",
+      "Come to a complete stop and wait until every approach to the intersection is empty",
       "Slow down and give the right-of-way, stopping if necessary",
       "Stop and wait for a signal",
       "Speed up to merge"
@@ -30,6 +33,9 @@
     "id": "nat-signs-004",
     "category": "road-signs",
     "stateScope": "all",
+    "tags": [
+      "sign-shapes-colors"
+    ],
     "prompt": "A round, yellow sign with a black 'X' and the letters 'RR' warns you that:",
     "options": [
       "The road curves right then left",
@@ -57,6 +63,9 @@
     "id": "nat-signs-005",
     "category": "road-signs",
     "stateScope": "all",
+    "tags": [
+      "sign-shapes-colors"
+    ],
     "prompt": "A yellow, pennant-shaped (sideways triangle) sign on the left side of the road means:",
     "options": [
       "Trucks entering",
@@ -84,10 +93,13 @@
     "id": "nat-signs-006",
     "category": "road-signs",
     "stateScope": "all",
+    "tags": [
+      "sign-shapes-colors"
+    ],
     "prompt": "A five-sided (pentagon) sign that points up is used to warn of:",
     "options": [
       "A school zone or school crossing",
-      "A steep hill",
+      "A general warning area where any unusually shaped roadside hazard may be present",
       "A hospital ahead",
       "A dead-end street"
     ],
@@ -111,6 +123,9 @@
     "id": "nat-signs-007",
     "category": "road-signs",
     "stateScope": "all",
+    "tags": [
+      "sign-shapes-colors"
+    ],
     "prompt": "Orange-colored signs are used to indicate:",
     "options": [
       "Motorist services",
@@ -138,9 +153,12 @@
     "id": "nat-signs-008",
     "category": "road-signs",
     "stateScope": "all",
+    "tags": [
+      "sign-shapes-colors"
+    ],
     "prompt": "A blue sign with white letters or symbols generally tells you about:",
     "options": [
-      "A sharp curve",
+      "Mandatory traffic rules that apply specifically to trucks and commercial vehicles",
       "A no-passing zone",
       "Motorist services such as food, fuel, or lodging",
       "A warning hazard"
@@ -165,11 +183,14 @@
     "id": "nat-signs-009",
     "category": "road-signs",
     "stateScope": "all",
+    "tags": [
+      "sign-shapes-colors"
+    ],
     "prompt": "Brown-colored signs are typically used for:",
     "options": [
       "Regulatory speed limits",
       "Railroad crossings",
-      "Construction zones",
+      "Temporary traffic controls used only where construction workers are present",
       "Recreational and cultural interest areas such as parks"
     ],
     "correctIndex": 3,
@@ -192,6 +213,9 @@
     "id": "nat-signs-010",
     "category": "road-signs",
     "stateScope": "all",
+    "tags": [
+      "sign-shapes-colors"
+    ],
     "prompt": "Green highway signs most often provide:",
     "options": [
       "Directions, distances, and destinations",
@@ -219,6 +243,9 @@
     "id": "nat-signs-011",
     "category": "road-signs",
     "stateScope": "all",
+    "tags": [
+      "sign-shapes-colors"
+    ],
     "prompt": "A white rectangular sign with black lettering usually shows:",
     "options": [
       "A recreation area",
@@ -248,7 +275,7 @@
     "stateScope": "all",
     "prompt": "A crossbuck (a large white 'X' reading 'RAILROAD CROSSING') marks:",
     "options": [
-      "A four-way stop",
+      "The beginning of a road where trains and motor vehicles share the same travel lane",
       "A hospital zone",
       "The location of a railroad grade crossing",
       "A pedestrian crosswalk"
@@ -273,10 +300,13 @@
     "id": "nat-signs-013",
     "category": "road-signs",
     "stateScope": "all",
+    "tags": [
+      "sign-shapes-colors"
+    ],
     "prompt": "A bright fluorescent yellow-green sign is used to warn drivers of:",
     "options": [
       "A no-passing zone",
-      "An upcoming toll booth",
+      "A temporary detour around utility work that remains in place during daylight hours",
       "Nearby fuel stations",
       "Pedestrians, bicyclists, or school zones"
     ],
@@ -300,6 +330,9 @@
     "id": "nat-signs-014",
     "category": "road-signs",
     "stateScope": "all",
+    "tags": [
+      "sign-shapes-colors"
+    ],
     "prompt": "A red circle with a red slash drawn through a symbol means:",
     "options": [
       "The action shown is prohibited",
@@ -328,7 +361,7 @@
     "stateScope": "all",
     "prompt": "You are driving and see a 'WRONG WAY' sign facing you. This means:",
     "options": [
-      "You are on the correct ramp",
+      "The ramp continues one way, but you may proceed slowly until a safe place to turn around appears",
       "You are traveling against traffic and must not continue",
       "There is a detour ahead",
       "You may proceed with caution"
@@ -353,9 +386,12 @@
     "id": "nat-signs-016",
     "category": "road-signs",
     "stateScope": "all",
+    "tags": [
+      "sign-shapes-colors"
+    ],
     "prompt": "A slow-moving-vehicle emblem is a reflective:",
     "options": [
-      "Blue square",
+      "A yellow diamond with a dark border and a vehicle silhouette in the center",
       "Green circle",
       "Orange triangle with a red border",
       "White diamond"
@@ -434,11 +470,14 @@
     "id": "nat-signals-002",
     "category": "traffic-signals",
     "stateScope": "all",
+    "tags": [
+      "signal-steady"
+    ],
     "prompt": "A steady yellow traffic light means:",
     "options": [
       "The light is about to turn red; stop if you can do so safely",
       "Stop and wait for a green arrow",
-      "The signal is out of service",
+      "The signal is ending its cycle, so accelerate to enter the intersection before cross traffic receives green",
       "Speed up to beat the red"
     ],
     "correctIndex": 0,
@@ -461,11 +500,14 @@
     "id": "nat-signals-003",
     "category": "traffic-signals",
     "stateScope": "all",
+    "tags": [
+      "signal-steady"
+    ],
     "prompt": "A steady green arrow pointing left means:",
     "options": [
       "Left turns are prohibited",
       "You may turn left, and oncoming traffic is being held for you",
-      "Yield to oncoming traffic before turning left",
+      "Yield to oncoming traffic before turning left even though the arrow assigns you a protected movement",
       "You must turn left even if unsafe"
     ],
     "correctIndex": 1,
@@ -488,10 +530,13 @@
     "id": "nat-signals-004",
     "category": "traffic-signals",
     "stateScope": "all",
+    "tags": [
+      "signal-steady"
+    ],
     "prompt": "A steady red arrow pointing left means:",
     "options": [
       "The signal is broken",
-      "Turn left after yielding",
+      "You may turn left after yielding because the red arrow applies only to vehicles continuing straight",
       "You may not make the left turn while the arrow is red",
       "Proceed straight only"
     ],
@@ -546,7 +591,7 @@
     "options": [
       "You may turn left but must yield to oncoming traffic and pedestrians",
       "Stop before turning left",
-      "You have a protected left turn",
+      "You have a protected left turn and oncoming drivers must remain stopped until the arrow changes",
       "Left turns are not allowed"
     ],
     "correctIndex": 0,
@@ -595,10 +640,13 @@
     "id": "nat-signals-008",
     "category": "traffic-signals",
     "stateScope": "all",
+    "tags": [
+      "signal-steady"
+    ],
     "prompt": "You have a green light but traffic ahead is backed up through the intersection. You should:",
     "options": [
       "Sound your horn and push forward",
-      "Enter the intersection and wait there",
+      "Enter the intersection and wait there because a green light reserves the space for you",
       "Stay behind the line until you can clear the intersection completely",
       "Change lanes in the middle of the intersection"
     ],
@@ -621,6 +669,9 @@
     "id": "nat-signals-009",
     "category": "traffic-signals",
     "stateScope": "all",
+    "tags": [
+      "signal-steady"
+    ],
     "prompt": "A lane-use signal showing a steady red 'X' above your lane means:",
     "options": [
       "Merge left immediately",
@@ -648,6 +699,9 @@
     "id": "nat-signals-010",
     "category": "traffic-signals",
     "stateScope": "all",
+    "tags": [
+      "signal-steady"
+    ],
     "prompt": "A pedestrian signal showing a steady 'upraised hand' symbol means a pedestrian should:",
     "options": [
       "Not start crossing the street",
@@ -675,9 +729,12 @@
     "id": "nat-signals-011",
     "category": "traffic-signals",
     "stateScope": "all",
+    "tags": [
+      "signal-steady"
+    ],
     "prompt": "A green traffic light means:",
     "options": [
-      "Go, even if the intersection is blocked",
+      "Proceed immediately because a green indication gives entering traffic priority over vehicles and people still in the intersection",
       "Go if the intersection is clear, after yielding to any traffic or pedestrians still in it",
       "Turn only",
       "Stop, then go"
@@ -728,6 +785,9 @@
     "id": "nat-markings-002",
     "category": "pavement-markings",
     "stateScope": "all",
+    "tags": [
+      "markings-lines-colors"
+    ],
     "prompt": "A broken (dashed) yellow center line means:",
     "options": [
       "Passing is never allowed",
@@ -755,6 +815,9 @@
     "id": "nat-markings-003",
     "category": "pavement-markings",
     "stateScope": "all",
+    "tags": [
+      "markings-lines-colors"
+    ],
     "prompt": "Two solid yellow lines in the center of the road mean:",
     "options": [
       "Parking is permitted",
@@ -782,6 +845,9 @@
     "id": "nat-markings-004",
     "category": "pavement-markings",
     "stateScope": "all",
+    "tags": [
+      "markings-lines-colors"
+    ],
     "prompt": "White lines painted between lanes separate:",
     "options": [
       "Bicycle lanes only",
@@ -809,6 +875,9 @@
     "id": "nat-markings-005",
     "category": "pavement-markings",
     "stateScope": "all",
+    "tags": [
+      "markings-lines-colors"
+    ],
     "prompt": "A broken (dashed) white line between lanes means:",
     "options": [
       "You may change lanes when it is safe",
@@ -836,9 +905,12 @@
     "id": "nat-markings-006",
     "category": "pavement-markings",
     "stateScope": "all",
+    "tags": [
+      "markings-lines-colors"
+    ],
     "prompt": "A single solid white line separating lanes going the same direction means:",
     "options": [
-      "Passing is required",
+      "Crossing the line is encouraged whenever the adjacent lane is moving more quickly than your current lane",
       "Crossing the line is discouraged; change lanes only if it is permitted and safe",
       "Lane changes are encouraged",
       "The road is closed"
@@ -863,9 +935,12 @@
     "id": "nat-markings-007",
     "category": "pavement-markings",
     "stateScope": "all",
+    "tags": [
+      "markings-lines-colors"
+    ],
     "prompt": "A solid white line painted across your lane at an intersection is a:",
     "options": [
-      "Crosswalk",
+      "A crosswalk boundary that vehicles may cross before stopping when no pedestrian is present",
       "Bike lane",
       "Stop line marking where to stop",
       "Center line"
@@ -893,7 +968,7 @@
     "prompt": "A lane in the center of the road bordered by a solid yellow line and a broken yellow line on each side is:",
     "options": [
       "A bicycle lane",
-      "A passing lane",
+      "A passing lane that drivers from either direction may enter whenever the opposing lane is clear",
       "A breakdown lane",
       "A shared center left-turn lane for both directions"
     ],
@@ -946,7 +1021,7 @@
     "stateScope": "all",
     "prompt": "A white diamond symbol painted in a lane usually indicates:",
     "options": [
-      "A lane that is closed",
+      "A lane reserved for vehicles traveling below the normal speed of surrounding traffic",
       "A lane reserved for certain vehicles, such as carpools or buses",
       "A parking lane",
       "A no-passing zone"
@@ -998,6 +1073,9 @@
     "id": "nat-markings-012",
     "category": "pavement-markings",
     "stateScope": "all",
+    "tags": [
+      "markings-lines-colors"
+    ],
     "prompt": "A solid white line along the right side of a travel lane marks:",
     "options": [
       "A bus stop",
@@ -1052,6 +1130,9 @@
     "id": "nat-markings-014",
     "category": "pavement-markings",
     "stateScope": "all",
+    "tags": [
+      "markings-lines-colors"
+    ],
     "prompt": "The color of the line that separates traffic moving in opposite directions is:",
     "options": [
       "White",

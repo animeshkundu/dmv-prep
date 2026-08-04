@@ -21,16 +21,22 @@
     },
     {
       "url": "https://www.mvd.newmexico.gov/resources/mvd-procedures-manuals/download-manuals/",
-      "error": "fetch failed: fetch failed"
+      "sha256": "4e4556603ed3f8ae92dc79e59dfb7b3b030a79914ad70bdbdfb5c7fcc68811b2",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.mvd.newmexico.gov/wp-content/uploads/2020/12/English-Drivers-Manualver11.19.19.pdf",
       "handbook": true,
-      "error": "fetch failed: fetch failed"
+      "contentType": "application/pdf",
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
     },
     {
       "url": "https://www.srca.nm.gov/parts/title18/18.019.0005.html",
-      "error": "fetch failed: fetch failed"
+      "sha256": "91527f2d4d835c71cfdb7e4af751a36a110506b16155dba33438f0e21e7af050",
+      "contentType": "text/html",
+      "status": 200
     }
   ]
 }

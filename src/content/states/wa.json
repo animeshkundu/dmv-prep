@@ -215,17 +215,18 @@
     },
     "basicSpeedLaw": {
       "state": {
-        "status": "unknown",
-        "reason": "basic-speed-law applicability: The official DOL guide and accessible statutory material were reviewed, but this audit did not establish a rule-level effective date together with the exact value/conditions required for a verified fact."
+        "status": "value",
+        "value": true
       },
-      "display": "Not verified",
+      "display": "Drivers must use a reasonable and prudent speed for actual and potential hazards.",
       "citation": {
-        "label": "Washington Driver Guide",
-        "citation": "WA DOL Washington Driver Guide",
-        "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides"
+        "label": "Revised Code of Washington",
+        "citation": "RCW 46.61.400(1); 1965 ex.s. c 155 § 54",
+        "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.61.400"
       },
-      "lastVerified": "2026-07-27",
-      "confidence": "unknown"
+      "effectiveDate": "1965-08-05",
+      "lastVerified": "2026-08-04",
+      "confidence": "verified"
     },
     "rightTurnOnRed": {
       "state": {
@@ -536,7 +537,8 @@
   ],
   "effectiveDate": "2026-07-24",
   "sourceSnapshotHash": "seed-pending-verification",
-  "reviewStatus": "adversarially-verified",
-  "lastVerified": "2026-07-27",
+  "reviewStatus": "draft",
+  "verifyNote": "The handbook snapshot and most typed facts remain unverified; only individually cited verified facts may be consumed.",
+  "lastVerified": "2026-08-04",
   "contentVersion": 1
 }

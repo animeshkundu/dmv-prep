@@ -37,7 +37,7 @@
     "prompt": "For drivers 21 and older, Washington's legal blood alcohol concentration limit is:",
     "options": [
       "0.05%",
-      "0.04%",
+      "0.06%",
       "0.08%",
       "0.10%"
     ],
@@ -116,6 +116,44 @@
     "contentVersion": 3
   },
   {
+    "id": "wa-speed-003",
+    "category": "speed-limits",
+    "stateScope": [
+      "WA"
+    ],
+    "tags": [
+      "speed-basic-law"
+    ],
+    "claims": [
+      {
+        "factKey": "basicSpeedLaw",
+        "usage": "correct-answer"
+      }
+    ],
+    "prompt": "A Washington highway is posted at 50 mph, but dense fog sharply reduces visibility. What does the basic speed law require?",
+    "options": [
+      "Slow to a speed that is reasonable and prudent for the limited visibility",
+      "Continue at 50 mph because posted limits account for every road condition",
+      "Use high beams and hold 50 mph unless another driver begins to slow",
+      "Stop in the travel lane until normal visibility returns"
+    ],
+    "correctIndex": 0,
+    "explanation": "RCW 46.61.400 requires a reasonable and prudent speed for actual and potential hazards. A posted maximum does not excuse driving too fast for limited visibility.",
+    "difficulty": "medium",
+    "references": [
+      {
+        "label": "Revised Code of Washington",
+        "citation": "RCW 46.61.400(1)",
+        "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.61.400"
+      }
+    ],
+    "effectiveDate": "1965-08-05",
+    "reviewStatus": "draft",
+    "verifyNote": "The statutory rule and typed fact are verified; independent cross-lab review of the question remains pending.",
+    "lastVerified": "2026-08-04",
+    "contentVersion": 1
+  },
+  {
     "id": "wa-pts-001",
     "category": "penalties-points",
     "stateScope": [
@@ -123,19 +161,19 @@
     ],
     "prompt": "For a regular Washington driver, which moving-violation record triggers a 60-day suspension?",
     "options": [
-      "Only an alcohol-related violation",
-      "Any 2 moving violations in 5 years",
+      "Only one alcohol-related violation within a five-year period",
+      "Any two moving violations within a five-year period",
       "6 moving violations in 12 months or 7 in 24 months",
-      "12 points in 2 years"
+      "12 violation points accumulated during a two-year period"
     ],
     "correctIndex": 2,
     "explanation": "Washington does not use a numeric point system. A regular driver's license is suspended for 60 days after 6 moving violations in 12 months or 7 moving violations in 24 months.",
     "difficulty": "hard",
     "references": [
       {
-        "label": "Washington Driver Guide",
-        "citation": "WA DOL Washington Driver Guide, Your Driving Record",
-        "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides"
+        "label": "Washington Administrative Code",
+        "citation": "WAC 308-104-025",
+        "url": "https://app.leg.wa.gov/wac/default.aspx?cite=308-104-025"
       }
     ],
     "effectiveDate": "2026-07-24",
@@ -153,18 +191,18 @@
     "prompt": "In Washington, a teen may get an instruction permit at age 15 only if they:",
     "options": [
       "Are enrolled in an approved driver education course",
-      "Have parental permission alone",
-      "Live more than 10 miles from school",
-      "Have a job"
+      "Have a parent sign the application without taking driver education",
+      "Live far enough from school to qualify for a transportation exception",
+      "Hold a job that requires travel between different work locations"
     ],
     "correctIndex": 0,
     "explanation": "Washington allows an instruction permit at 15 if the teen is enrolled in an approved driver education course; otherwise the minimum age is 15 years and 6 months.",
     "difficulty": "medium",
     "references": [
       {
-        "label": "Washington Driver Guide",
-        "citation": "WA DOL Washington Driver Guide, Teens and Driving",
-        "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides"
+        "label": "Revised Code of Washington",
+        "citation": "RCW 46.20.055(1)(b)",
+        "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.20.055"
       }
     ],
     "effectiveDate": "2026-07-24",
@@ -210,19 +248,19 @@
     ],
     "prompt": "During the first 6 months with a Washington intermediate license, the driver may carry:",
     "options": [
-      "Only one passenger under 20",
-      "Any number of passengers",
+      "One passenger under 20 who is not a member of the driver's family",
+      "Any number of passengers if each person uses an available seat belt",
       "No passengers under 20 (except family members)",
-      "Up to three passengers under 20"
+      "Up to three passengers under 20, including non-family passengers"
     ],
     "correctIndex": 2,
     "explanation": "For the first 6 months, a Washington intermediate driver may not carry passengers under 20 unless they are family members. For the next 6 months, no more than three passengers under 20.",
     "difficulty": "hard",
     "references": [
       {
-        "label": "Washington Driver Guide",
-        "citation": "WA DOL Washington Driver Guide, Intermediate License",
-        "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides"
+        "label": "Revised Code of Washington",
+        "citation": "RCW 46.20.075(2)",
+        "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.20.075"
       }
     ],
     "effectiveDate": "2026-07-24",
@@ -269,18 +307,18 @@
     "prompt": "Under Washington's E-DUI (hands-free electronics) law, while driving you may:",
     "options": [
       "Not hold a phone or other electronic device in your hand",
-      "Watch a video if stopped in traffic",
-      "Use a hand-held device if you are over 18",
-      "Hold your phone to read a text"
+      "Watch a video while stopped temporarily in ordinary traffic",
+      "Use a handheld device whenever the driver is at least 18",
+      "Hold a phone briefly to read a message while stopped at a signal"
     ],
     "correctIndex": 0,
     "explanation": "Washington's E-DUI law prohibits holding a phone or electronic device while driving, including while stopped in traffic. Use hands-free or voice features only.",
     "difficulty": "medium",
     "references": [
       {
-        "label": "Washington Driver Guide",
-        "citation": "WA DOL Washington Driver Guide, Distracted Driving (E-DUI)",
-        "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides"
+        "label": "Revised Code of Washington",
+        "citation": "RCW 46.61.672(1), (6)",
+        "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.61.672"
       }
     ],
     "effectiveDate": "2026-07-24",
@@ -297,19 +335,19 @@
     ],
     "prompt": "Under Washington's Move Over Law, when approaching a stopped emergency or tow vehicle with flashing lights, you must:",
     "options": [
-      "Flash your headlights and pass",
+      "Flash your headlights and pass in the nearest lane without reducing speed",
       "Move over one lane if safe, or slow down if you cannot change lanes",
-      "Keep your speed and lane",
-      "Stop completely on the shoulder"
+      "Keep the same lane and speed whenever the shoulder remains open",
+      "Stop completely on the shoulder before passing the response scene"
     ],
     "correctIndex": 1,
     "explanation": "Washington's Move Over Law requires drivers to move over one lane away from stopped emergency, tow, and roadside-assistance vehicles displaying flashing lights, or to slow down if changing lanes is not safe.",
     "difficulty": "medium",
     "references": [
       {
-        "label": "Washington Driver Guide",
-        "citation": "WA DOL Washington Driver Guide, Emergency Vehicles",
-        "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides"
+        "label": "Revised Code of Washington",
+        "citation": "RCW 46.61.212(2)",
+        "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.61.212"
       }
     ],
     "effectiveDate": "2026-07-24",
@@ -355,19 +393,19 @@
     ],
     "prompt": "A standard Washington driver license is NOT valid for boarding domestic flights under federal REAL ID rules. The Washington credential that IS accepted is the:",
     "options": [
-      "Standard license with a star",
-      "Instruction permit",
+      "Standard driver license with a federally compliant star",
+      "Washington instruction permit issued after identity review",
       "Enhanced Driver License (EDL)",
-      "Commercial driver license"
+      "Washington commercial driver license without an enhanced designation"
     ],
     "correctIndex": 2,
     "explanation": "Washington's standard license is not REAL ID-compliant. The Enhanced Driver License (EDL), which verifies identity, U.S. citizenship, and residency, meets federal requirements for domestic air travel.",
     "difficulty": "medium",
     "references": [
       {
-        "label": "Washington Driver Guide",
-        "citation": "WA DOL Washington Driver Guide, Types of Licenses",
-        "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides"
+        "label": "Revised Code of Washington",
+        "citation": "RCW 46.20.202(3)",
+        "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.20.202"
       }
     ],
     "effectiveDate": "2026-07-24",

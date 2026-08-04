@@ -2,6 +2,12 @@
   "state": "WA",
   "sources": [
     {
+      "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.61.400",
+      "sha256": "553c97c77b664bbac86b3a18b18a257ec3130388b2d322d32b036c059312f5f2",
+      "contentType": "text/html",
+      "status": 200
+    },
+    {
       "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-licenses/driver-license-fees",
       "status": 404,
       "error": "HTTP 404"

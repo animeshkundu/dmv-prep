@@ -93,20 +93,28 @@
     },
     {
       "url": "https://www.nj.gov/mvc/about/gdlsafety.htm",
-      "error": "fetch failed: fetch failed"
+      "sha256": "1e0ce57c588130f985c217d144137f61b414ca9e4fb8516f004a7b696faf7903",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.nj.gov/mvc/license/firstlic.htm",
-      "error": "fetch failed: fetch failed"
+      "sha256": "59881eab3f51abe6798f75f0cd7aa8e3517e827f6d58b7fd3a5b99b17c987383",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.nj.gov/mvc/license/suspension.htm",
-      "error": "fetch failed: fetch failed"
+      "sha256": "86701b88783f31a25ec3b451bf284df332852903b6e94dd056aaad650cf4278c",
+      "contentType": "text/html",
+      "status": 200
     },
     {
       "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
       "handbook": true,
-      "error": "fetch failed: fetch failed"
+      "contentType": "application/pdf",
+      "status": 200,
+      "error": "extraction failed: The operation was aborted due to timeout"
     }
   ]
 }

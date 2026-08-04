@@ -4,7 +4,8 @@
     "category": "road-signs",
     "stateScope": "all",
     "tags": [
-      "sign-identify"
+      "sign-identify",
+      "sign-shapes-colors"
     ],
     "coversSigns": [
       "stop"
@@ -37,6 +38,9 @@
     "id": "nat-signs-002",
     "category": "road-signs",
     "stateScope": "all",
+    "tags": [
+      "sign-shapes-colors"
+    ],
     "prompt": "A yellow, diamond-shaped sign indicates:",
     "options": [
       "A general warning about conditions ahead",
@@ -91,6 +95,9 @@
     "id": "nat-row-001",
     "category": "right-of-way",
     "stateScope": "all",
+    "tags": [
+      "row-intersections"
+    ],
     "prompt": "At a four-way stop, two vehicles arrive at the same time. Who goes first?",
     "options": [
       "The vehicle on the left",
@@ -148,7 +155,7 @@
       "Leave enough time and space to stop if the vehicle ahead slows",
       "Follow as closely as possible",
       "Stay exactly half a car length behind",
-      "Use the same fixed distance at every speed"
+      "Use the same fixed distance at every speed because braking room does not change with speed"
     ],
     "correctIndex": 0,
     "explanation": "Leave enough time and space to react and stop if the vehicle ahead slows. Increase that space at higher speeds and in poor road, weather, or visibility conditions.",
@@ -225,7 +232,7 @@
     "options": [
       "Away from the curb (toward the street)",
       "It does not matter",
-      "Toward the curb",
+      "Toward the curb so the front tire can roll away from it before the vehicle enters the street",
       "Straight ahead"
     ],
     "correctIndex": 0,
