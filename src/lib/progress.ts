@@ -1,4 +1,5 @@
 import type { DayEntry, MockResult, Progress, Question } from './types';
+import { masteryByCategory as masteryByCategoryScore } from './mastery';
 import { localDayKey, shiftDayKey } from './day';
 
 export const emptyProgress = (): Progress => ({ attempts: {}, mockResults: [] });
@@ -8,6 +9,7 @@ export function recordAttempt(
   question: Pick<Question, 'id' | 'category'>,
   correct: boolean,
   now = new Date(),
+  stateCode?: string,
 ): Progress {
   const previous = progress.attempts[question.id];
   // Reconstructed migration history cannot be mixed with observed outcomes:
@@ -23,6 +25,7 @@ export function recordAttempt(
       [question.id]: {
         questionId: question.id,
         category: question.category,
+        ...(stateCode ? { stateCode } : previous?.stateCode ? { stateCode: previous.stateCode } : {}),
         correct: (previous?.correct ?? 0) + (correct ? 1 : 0),
         incorrect: (previous?.incorrect ?? 0) + (correct ? 0 : 1),
         lastSeen: now.toISOString(),
@@ -39,15 +42,7 @@ export function recordMock(progress: Progress, result: MockResult): Progress {
 }
 
 export function masteryByCategory(progress: Progress): Record<string, number> {
-  const totals: Record<string, { correct: number; total: number }> = {};
-  for (const attempt of Object.values(progress.attempts)) {
-    const row = (totals[attempt.category] ??= { correct: 0, total: 0 });
-    row.correct += attempt.correct;
-    row.total += attempt.correct + attempt.incorrect;
-  }
-  return Object.fromEntries(
-    Object.entries(totals).map(([category, row]) => [category, row.total ? row.correct / row.total : 0]),
-  );
+  return masteryByCategoryScore(progress);
 }
 
 export function streakDays(progress: Progress, now = new Date(), dayLog?: Record<string, DayEntry>): number {

@@ -40,6 +40,7 @@ export interface TestDefinition {
 type ActivitySink = (activity: ActivityEvent) => void | Promise<void>;
 
 const categoryLabel = (category: string) => category.replaceAll('-', ' ');
+const createRunId = () => globalThis.crypto?.randomUUID?.() ?? `${Date.now()}-${Math.random()}`;
 
 function toRunnerQuestion(input: unknown): RunnerQuestion | undefined {
   const item = input as Partial<RunnerQuestion>;
@@ -78,26 +79,6 @@ function normalizeBank(payload: unknown): RunnerQuestion[] {
   return items.map(toRunnerQuestion).filter((item): item is RunnerQuestion => Boolean(item));
 }
 
-/**
- * A short bank (offline starter seed) cannot fill a 46-question exam, so scale the run's
- * targets to what is actually being asked rather than presenting an unpassable exam.
- */
-function fitVariant(variant: ExamVariant, exam: RunnerQuestion[]): ExamVariant {
-  if (exam.length >= variant.numQuestions) return variant;
-  const total = Math.max(1, exam.length);
-  const ratio = variant.numToPass / variant.numQuestions;
-  return {
-    ...variant,
-    numQuestions: total,
-    numToPass: Math.min(total, Math.max(1, Math.round(ratio * total))),
-    subRequirements: variant.subRequirements?.map((requirement) => {
-      const available = exam.filter((item) => item.category === requirement.category).length;
-      const outOf = Math.min(requirement.outOf, available);
-      return { ...requirement, outOf, minCorrect: Math.min(requirement.minCorrect, outOf) };
-    }),
-  };
-}
-
 export default function TestRunner({
   state,
   definition,
@@ -130,6 +111,7 @@ export default function TestRunner({
   const [signs, setSigns] = useState<Record<string, ClientSign>>({});
 
   const [runIndex, setRunIndex] = useState(0);
+  const [runId, setRunId] = useState('initial');
   const [activeCategory, setActiveCategory] = useState<Question['category'] | 'all'>(
     category ?? 'all',
   );
@@ -155,8 +137,8 @@ export default function TestRunner({
   );
 
   const attemptSeed = isMock
-    ? `${state}:${variantId}:${runIndex}`
-    : `${state}:${challengeSet ? 'challenge' : activeCategory}:${runIndex}`;
+    ? `${state}:${variantId}:${runId}:${runIndex}`
+    : `${state}:${challengeSet ? 'challenge' : activeCategory}:${runId}:${runIndex}`;
 
   const set = useMemo(() => {
     if (isMock) return variant ? buildMockExam(state, variant, pool, attemptSeed) : [];
@@ -176,8 +158,25 @@ export default function TestRunner({
   );
   const presented: PresentedQuestion<RunnerQuestion> | undefined = presentedSet[index];
   const question = presented?.question;
-  const runVariant = variant ? fitVariant(variant, set) : undefined;
-  const shortened = Boolean(variant && runVariant && runVariant.numQuestions < variant.numQuestions);
+  const runVariant = variant;
+  const variantAvailability = variant
+    ? (() => {
+        const candidatePool = variant.categoryScope?.length
+          ? pool.filter((item) => variant.categoryScope!.includes(item.category))
+          : pool;
+        const requirement = variant.subRequirements?.find(
+          (item) => candidatePool.filter((question) => question.category === item.category).length < item.outOf,
+        );
+        if (candidatePool.length < variant.numQuestions) {
+          return `Only ${candidatePool.length} verified questions are available for this ${variant.numQuestions}-question exam.`;
+        }
+        if (requirement) {
+          const available = candidatePool.filter((question) => question.category === requirement.category).length;
+          return `Only ${available} ${categoryLabel(requirement.category)} questions are available; this exam requires ${requirement.outOf}.`;
+        }
+        return undefined;
+      })()
+    : 'No exam variant is available.';
 
   useEffect(() => {
     if (!bankUrl) return;
@@ -215,6 +214,10 @@ export default function TestRunner({
       cancelled = true;
     };
   }, [bankUrl, bankVersion, state]);
+
+  useEffect(() => {
+    setRunId(createRunId());
+  }, []);
 
   useEffect(() => {
     if (!signUrl) return;
@@ -287,17 +290,6 @@ export default function TestRunner({
 
   function select(displayIndex: number) {
     if (!presented || (submitted && definition.feedback === 'immediate')) return;
-    if (isMock) {
-      void onActivity({
-        kind: 'question-answered',
-        attemptId: `${attemptSeed}:${presented.question.id}`,
-        questionId: presented.question.id,
-        category: presented.question.category,
-        correct: displayIndex === presented.correctIndex,
-        source: 'mock',
-        stateCode: state,
-      });
-    }
     setAnswers((current) => ({ ...current, [presented.question.id]: displayIndex }));
   }
 
@@ -309,6 +301,7 @@ export default function TestRunner({
     setPool(nextPool());
     setActiveCategory(nextCategory);
     setChallengeSet(undefined);
+    setRunId(createRunId());
     setRunIndex((value) => value + 1);
     setIndex(0);
     setAnswers({});
@@ -320,6 +313,7 @@ export default function TestRunner({
 
   function startChallengeBank() {
     setChallengeSet(missed);
+    setRunId(createRunId());
     setRunIndex((value) => value + 1);
     setIndex(0);
     setAnswers({});
@@ -330,7 +324,9 @@ export default function TestRunner({
   }
 
   function startMock() {
+    if (variantAvailability) return;
     setPool(nextPool());
+    setRunId(createRunId());
     setRunIndex((value) => value + 1);
     setStarted(true);
     setIndex(0);
@@ -366,7 +362,7 @@ export default function TestRunner({
   }
 
   async function finish() {
-    if (completed || !runVariant) return;
+    if (completed || !runVariant || variantAvailability) return;
     setCompleted(true);
     const stored: Record<string, number | undefined> = {};
     for (const item of presentedSet) {
@@ -384,6 +380,22 @@ export default function TestRunner({
       completedAt: new Date().toISOString(),
       passThreshold: outcome.passThreshold,
     };
+    await Promise.all(
+      presentedSet
+        .filter((item) => answers[item.question.id] !== undefined)
+        .map((item) => {
+        const answer = answers[item.question.id];
+        return onActivity({
+          kind: 'question-answered',
+          attemptId: `${attemptSeed}:${item.question.id}`,
+          questionId: item.question.id,
+          category: item.question.category,
+          correct: answer === item.correctIndex,
+          source: 'mock',
+          stateCode: state,
+        });
+      }),
+    );
     await onActivity({ kind: 'mock-finished', attemptId: `${attemptSeed}:result`, result });
     if (!outcome.passed) event('mock_fail', { state, variant: runVariant.variantId });
   }
@@ -451,7 +463,12 @@ export default function TestRunner({
             Loading the full {state} question bank…
           </p>
         )}
-        <button class="btn btn-primary" onClick={startMock}>
+        {variantAvailability && (
+          <p class="badge" role="status">
+            Full simulator unavailable · {variantAvailability}
+          </p>
+        )}
+        <button class="btn btn-primary" onClick={startMock} disabled={Boolean(variantAvailability)}>
           Start mock exam <span aria-hidden="true">→</span>
         </button>
       </section>
@@ -582,12 +599,6 @@ export default function TestRunner({
       )}
       {challengeSet && <p class="badge">Challenge bank · missed questions only</p>}
       {bankNotice}
-      {isMock && shortened && (
-        <p class="badge" role="status">
-          Shortened rehearsal: {set.length} questions instead of {variant?.numQuestions}, scored
-          against a matching target.
-        </p>
-      )}
       <section class="study-card card" aria-label={isMock ? 'Mock exam' : 'Practice quiz'}>
         <div class="study-meta">
           <p class="muted">

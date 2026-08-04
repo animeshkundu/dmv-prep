@@ -89,21 +89,52 @@ function previousDay(day: string): string {
 function updateStreak(game: GameState, day: string): GameState {
   let current = 0;
   let cursor = day;
-  while (game.dayLog[cursor] && isActiveDay(game.dayLog[cursor]!)) {
-    current++;
-    cursor = previousDay(cursor);
+  let freezes = game.streak.freezes;
+  let lastFreezeUsed = game.streak.lastFreezeUsed;
+  const frozenDays = new Set(game.streak.frozenDays ?? (lastFreezeUsed ? [lastFreezeUsed] : []));
+  while (true) {
+    const entry = game.dayLog[cursor];
+    if (entry && isActiveDay(entry)) {
+      current++;
+      cursor = previousDay(cursor);
+      continue;
+    }
+    // A freeze only covers a missed day before an active day. It is never
+    // spent merely because today's partial activity has not reached the goal.
+    if (cursor !== day && frozenDays.has(cursor)) {
+      current++;
+      cursor = previousDay(cursor);
+      continue;
+    }
+    if (cursor !== day && freezes > 0) {
+      freezes--;
+      lastFreezeUsed = cursor;
+      frozenDays.add(cursor);
+      current++;
+      cursor = previousDay(cursor);
+      continue;
+    }
+    break;
   }
+  const earnsFreeze = current > 0 && current % 7 === 0 && game.streak.lastStreakRewardDay !== day;
+  const nextXp = game.xp + (earnsFreeze ? 50 : 0);
   return {
     ...game,
+    xp: nextXp,
+    level: levelForXp(nextXp),
     streak: {
       ...game.streak,
       current,
       longest: Math.max(game.streak.longest, current),
+      freezes: Math.min(3, freezes + (earnsFreeze ? 1 : 0)),
+      ...(lastFreezeUsed ? { lastFreezeUsed } : {}),
+      ...(frozenDays.size ? { frozenDays: [...frozenDays] } : {}),
+      ...(earnsFreeze ? { lastStreakRewardDay: day } : {}),
     },
   };
 }
 
-function applyGame(game: GameState, event: ActivityEvent, now: Date): GameState {
+function applyGame(game: GameState, event: ActivityEvent, now: Date, retiredChallengeItem = false): GameState {
   const day = localDayKey(now);
   let xp = game.xp;
   let credits = 0;
@@ -112,6 +143,7 @@ function applyGame(game: GameState, event: ActivityEvent, now: Date): GameState 
   switch (event.kind) {
     case 'question-answered':
       xp += event.correct ? 5 : 2;
+      if (retiredChallengeItem) xp += 25;
       credits = 1;
       changes = { answers: 1 };
       break;
@@ -149,9 +181,19 @@ function applyGame(game: GameState, event: ActivityEvent, now: Date): GameState 
     const goal = updated.dailyGoal.date === day
       ? updated.dailyGoal
       : { ...updated.dailyGoal, date: day, earned: 0 };
+    const earned = goal.earned + credits;
+    const completedGoal = earned >= goal.target && !goal.awardedAt;
+    if (completedGoal) {
+      xp += 25;
+      updated = { ...updated, xp, level: levelForXp(xp) };
+    }
     updated = {
       ...updated,
-      dailyGoal: { ...goal, earned: goal.earned + credits },
+      dailyGoal: {
+        ...goal,
+        earned,
+        ...(completedGoal ? { awardedAt: now.toISOString() } : {}),
+      },
     };
   }
   return updateStreak(updated, day);
@@ -161,7 +203,7 @@ function updateChallenge(
   bank: ChallengeBank,
   event: Extract<ActivityEvent, { kind: 'question-answered' }>,
   now: Date,
-): ChallengeBank {
+): { bank: ChallengeBank; retired: boolean } {
   const day = localDayKey(now);
   const id = `q:${event.questionId}`;
   const existing = bank.items[id];
@@ -169,7 +211,7 @@ function updateChallenge(
     ? event.source as ChallengeItem['source'][number]
     : 'practice';
 
-  if (!existing && event.correct) return bank;
+  if (!existing && event.correct) return { bank, retired: false };
   const item: ChallengeItem = existing ?? {
     id,
     kind: 'question',
@@ -193,6 +235,7 @@ function updateChallenge(
     lastSeenAt: now.toISOString(),
   };
 
+  const wasRetired = Boolean(updated.retiredAt);
   if (!event.correct) {
     updated.misses++;
     updated.correctStreak = 0;
@@ -206,7 +249,40 @@ function updateChallenge(
       updated.retiredAt ??= now.toISOString();
     }
   }
-  return { items: { ...bank.items, [id]: updated } };
+  return { bank: { items: { ...bank.items, [id]: updated } }, retired: !wasRetired && Boolean(updated.retiredAt) };
+}
+
+function awardAchievements(
+  game: GameState,
+  progress: Progress,
+  challenge: ChallengeBank,
+  event: ActivityEvent,
+  now: Date,
+): GameState {
+  let updated = game;
+  const answers = Object.values(progress.attempts)
+    .reduce((total, attempt) => total + attempt.correct + attempt.incorrect, 0);
+  if (answers >= 1) updated = unlockedFrom(updated, 'first-answer', now);
+  if (answers >= 100) updated = unlockedFrom(updated, 'century', now);
+  if (answers >= 1000) updated = unlockedFrom(updated, 'thousand', now);
+  if (updated.level >= 5) updated = unlockedFrom(updated, 'level-5', now);
+  if (updated.level >= 10) updated = unlockedFrom(updated, 'level-10', now);
+  if (event.kind === 'mock-finished') {
+    updated = unlockedFrom(updated, 'first-mock', now);
+    if (event.result.passed) updated = unlockedFrom(updated, 'mock-passed', now);
+  }
+  if (updated.streak.current >= 3) updated = unlockedFrom(updated, 'three-day-streak', now);
+  if (updated.streak.current >= 7) updated = unlockedFrom(updated, 'seven-day-streak', now);
+  const retired = Object.values(challenge.items).filter((item) => item.retiredAt);
+  if (retired.length >= 10) updated = unlockedFrom(updated, 'comeback', now);
+  if (retired.some((item) => item.misses >= 3)) updated = unlockedFrom(updated, 'persistent', now);
+  return updated;
+}
+
+function unlockedFrom(game: GameState, id: string, now: Date): GameState {
+  return game.achievements[id]
+    ? game
+    : { ...game, achievements: { ...game.achievements, [id]: { unlockedAt: now.toISOString(), seen: false } } };
 }
 
 function updateStudy(study: StudyState, event: ActivityEvent, now: Date): StudyState {
@@ -236,12 +312,21 @@ async function processActivity(event: ActivityEvent, now: Date): Promise<void> {
     getStudy(),
   ]);
   const nextProgress: Progress = event.kind === 'question-answered'
-    ? recordAttempt(progress, { id: event.questionId, category: event.category }, event.correct, now)
+    ? recordAttempt(progress, { id: event.questionId, category: event.category }, event.correct, now, event.stateCode)
     : event.kind === 'mock-finished'
       ? recordMock(progress, event.result)
       : progress;
-  const nextChallenge = event.kind === 'question-answered' ? updateChallenge(challenge, event, now) : challenge;
-  const nextGame = applyGame({ ...emptyGameState(), ...game }, event, now);
+  const challengeUpdate = event.kind === 'question-answered'
+    ? updateChallenge(challenge, event, now)
+    : { bank: challenge, retired: false };
+  const nextChallenge = challengeUpdate.bank;
+  const nextGame = awardAchievements(
+    applyGame({ ...emptyGameState(), ...game }, event, now, challengeUpdate.retired),
+    nextProgress,
+    nextChallenge,
+    event,
+    now,
+  );
   const nextStudy = updateStudy({ ...emptyStudyState(), ...study }, event, now);
   const nextSession: SessionState = {
     ...session,

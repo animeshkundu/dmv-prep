@@ -68,6 +68,7 @@ export interface CardState {
 export interface Attempt {
   questionId: string;
   category: Question['category'];
+  stateCode?: string;
   correct: number;
   incorrect: number;
   lastSeen: string;
@@ -100,6 +101,7 @@ export interface Settings {
   theme?: 'light' | 'dark' | 'system';
   targetRetention?: number;
   challengeRetireThreshold?: number;
+  sessionSize?: number;
 }
 
 export interface ChallengeItem {
@@ -134,9 +136,16 @@ export interface GameState {
   xp: number;
   level: number;
   dayLog: Record<string, DayEntry>;
-  streak: { current: number; longest: number; freezes: number; lastFreezeUsed?: string };
+  streak: {
+    current: number;
+    longest: number;
+    freezes: number;
+    lastFreezeUsed?: string;
+    frozenDays?: string[];
+    lastStreakRewardDay?: string;
+  };
   achievements: Record<string, { unlockedAt: string; seen: boolean }>;
-  dailyGoal: { target: number; date: string; earned: number };
+  dailyGoal: { target: number; date: string; earned: number; awardedAt?: string };
 }
 
 export interface StudyState {

@@ -1,0 +1,31 @@
+@media print {
+  header,
+  nav,
+  footer:not(.print-disclaimer),
+  .breadcrumbs,
+  .print-action {
+    display: none !important;
+  }
+
+  body {
+    background: #fff !important;
+    color: #000 !important;
+  }
+
+  .card,
+  .cheat-fact {
+    break-inside: avoid;
+    box-shadow: none !important;
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+  }
+
+  .print-disclaimer {
+    display: block;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+  }
+}

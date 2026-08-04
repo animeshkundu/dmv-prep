@@ -5,6 +5,7 @@ import StateProgress from '../../islands/StateProgress';
 import { STATES, byCode, stateSlug } from '../../lib/states-directory';
 import { studyContent } from '../../lib/content';
 import { href } from '../../lib/site';
+import { applicableQuestions } from '../../lib/questions';
 import '../../styles/pages.css';
 
 export function getStaticPaths() {
@@ -13,13 +14,15 @@ export function getStaticPaths() {
 
 const code = Astro.params.code!.toUpperCase();
 const directory = byCode(code)!;
-const { state } = await studyContent(code);
+const { state, questions } = await studyContent(code);
+const questionPool = applicableQuestions(questions, code).map(({ id, category }) => ({ id, category }));
 const statePath = `/state/${stateSlug(code)}`;
 const links = [
   { marker: '10', title: 'Practice questions', copy: 'Learn with instant explanations and citations.', path: 'practice' },
   { marker: '✓', title: 'Mock exam', copy: 'Rehearse the format and score target without hints.', path: 'mock' },
   { marker: '↻', title: 'Smart flashcards', copy: 'Review the right rule just before you forget it.', path: 'flashcards' },
   { marker: '→', title: 'Permit guide', copy: 'Know the documents, age rules, fees, and official links.', path: 'guide' },
+  { marker: '⌑', title: 'Quick reference', copy: 'Print source-verified state facts when they are available.', path: 'cheat-sheet' },
 ];
 const description = `Free ${directory.name} DMV permit practice tests, mock exams, flashcards, handbook citations, and a step-by-step learner's permit guide.`;
 const courseSchema = {
@@ -57,6 +60,8 @@ const courseSchema = {
       practiceHref={href(`${statePath}/practice`)}
       mockHref={href(`${statePath}/mock`)}
       progressHref={href('/progress')}
+      questionPool={questionPool}
+      variants={state?.examVariants ?? []}
     />
 
     {state ? (

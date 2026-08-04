@@ -13,13 +13,35 @@
 import { readdir, readFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import { join } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-const ROOT = new URL('..', import.meta.url).pathname;
+// fileURLToPath, not URL.pathname: on Windows the latter yields "/C:/...", which
+// every fs call then misses, silently leaving the corpus loops with nothing to
+// iterate and the validator reporting success without validating anything.
+const ROOT = fileURLToPath(new URL('..', import.meta.url));
 const Q_DIR = join(ROOT, 'src/content/questions');
 const S_DIR = join(ROOT, 'src/content/states');
 
 const errors = [];
 const warnings = [];
+const questions = [];
+const states = [];
+const QUESTION_CATEGORIES = [
+  'road-signs',
+  'traffic-signals',
+  'pavement-markings',
+  'right-of-way',
+  'parking',
+  'speed-limits',
+  'alcohol-drugs',
+  'sharing-the-road',
+  'safe-driving',
+  'traffic-laws',
+  'penalties-points',
+  'gdl-teen',
+];
+const FLOOR_PER_STATE_TOTAL = 500;
+const FLOOR_PER_CATEGORY = 25;
 
 async function jsonFiles(dir) {
   if (!existsSync(dir)) return [];
@@ -53,6 +75,7 @@ for (const file of await jsonFiles(Q_DIR)) {
     if (q.stateScope === undefined) errors.push(`${file} [${id}]: missing stateScope`);
     if (q.reviewStatus === 'draft' || q.reviewStatus === undefined)
       warnings.push(`${file} [${id}]: reviewStatus is draft/unset (not launch-verified)`);
+    questions.push(q);
   }
 }
 
@@ -83,6 +106,33 @@ for (const file of await jsonFiles(S_DIR)) {
   }
   if (!hasCitations(data.references)) errors.push(`${file}: missing citation(s)`);
   if (!data.lastVerified) errors.push(`${file}: missing lastVerified`);
+  states.push(data);
+}
+
+// §2's coverage floors, reported against the same raw corpus shape the content
+// acceptance suite reads. These stay warnings until the corpus is authored:
+// §11 build order step 11 is where they flip to hard failures, once steps 4-8
+// have actually populated the pools. Failing here beforehand would halt CI at
+// this step and skip the generation, unit-test and build gates behind it.
+for (const state of states) {
+  const applicable = questions.filter((question) =>
+    question.stateScope === 'all'
+      ? !question.stateExceptions?.includes(state.code)
+      : Array.isArray(question.stateScope) && question.stateScope.includes(state.code),
+  );
+  if (applicable.length < FLOOR_PER_STATE_TOTAL) {
+    warnings.push(
+      `${state.code}: ${applicable.length} applicable questions (< ${FLOOR_PER_STATE_TOTAL} §2 floor)`,
+    );
+  }
+  for (const category of QUESTION_CATEGORIES) {
+    const count = applicable.filter((question) => question.category === category).length;
+    if (count < FLOOR_PER_CATEGORY) {
+      warnings.push(
+        `${state.code}/${category}: ${count} applicable questions (< ${FLOOR_PER_CATEGORY} §2 floor)`,
+      );
+    }
+  }
 }
 
 for (const w of warnings) console.warn('⚠️  ' + w);

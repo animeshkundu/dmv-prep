@@ -1,7 +1,6 @@
 import { Rating, createEmptyCard, fsrs, generatorParameters, type Card, type CardInput } from 'ts-fsrs';
 import type { CardState, Grade } from './types';
 
-const scheduler = fsrs(generatorParameters());
 const ratings: Record<Grade, Rating.Again | Rating.Hard | Rating.Good | Rating.Easy> = {
   again: Rating.Again,
   hard: Rating.Hard,
@@ -42,6 +41,13 @@ export function newCard(id: string, now = new Date()): CardState {
   return serialize(id, createEmptyCard(now));
 }
 
-export function reviewCard(card: CardState, grade: Grade, now: Date): CardState {
+export function reviewCard(
+  card: CardState,
+  grade: Grade,
+  now: Date,
+  targetRetention = 0.9,
+): CardState {
+  const retention = Math.min(0.99, Math.max(0.7, targetRetention));
+  const scheduler = fsrs(generatorParameters({ request_retention: retention }));
   return serialize(card.id, scheduler.next(deserialize(card), now, ratings[grade]).card);
 }
