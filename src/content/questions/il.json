@@ -36,7 +36,7 @@
     ],
     "prompt": "Under Illinois's zero-tolerance law, a driver under 21 will lose driving privileges for having a BAC of:",
     "options": [
-      "0.05% or higher",
+      "0.05% or higher, matching the adult standard",
       "0.02% or higher",
       "Any trace of alcohol (greater than 0.00%)",
       "0.08% or higher only"
@@ -123,7 +123,7 @@
     ],
     "prompt": "The Illinois school-zone speed limit of 20 mph applies:",
     "options": [
-      "At all times, 24 hours a day",
+      "At all hours of every day of the year, including school holidays",
       "Only between midnight and 6 a.m.",
       "Only during summer break",
       "On school days from 7 a.m. to 4 p.m. when children are present"
@@ -326,7 +326,7 @@
     ],
     "prompt": "In Illinois, at a red traffic light you may turn right after stopping:",
     "options": [
-      "Without stopping if no cars are visible",
+      "Without stopping first, as long as no other cars are visible",
       "Only when a green arrow appears",
       "Never; right on red is always illegal",
       "After a full stop and yielding, unless a sign prohibits it"

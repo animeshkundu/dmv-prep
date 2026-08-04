@@ -340,7 +340,7 @@
       "Give a warning about conditions ahead",
       "Mark a freeway exit",
       "Show a speed limit",
-      "Indicate a stop is required"
+      "Indicate that a complete stop is required"
     ],
     "correctIndex": 0,
     "explanation": "Diamond-shaped yellow or yellow-green signs are warning signs. They alert you to hazards or changes ahead, such as curves, pedestrian crossings, or merging traffic.",

@@ -95,7 +95,7 @@
     "prompt": "Under the District's zero-tolerance policy, a driver under 21 can be charged for driving with:",
     "options": [
       "A BAC of 0.08% or more",
-      "Only if visibly intoxicated",
+      "Only if the driver appears visibly intoxicated",
       "Any measurable amount of alcohol",
       "A BAC of 0.05% or more"
     ],
@@ -300,7 +300,7 @@
       "Allowed only for taxis",
       "Prohibited unless a sign specifically permits it",
       "Always allowed after stopping",
-      "Allowed unless a sign prohibits it"
+      "Allowed after a full stop unless a sign prohibits it"
     ],
     "correctIndex": 1,
     "explanation": "DC law generally prohibits right turns on red beginning in 2025 unless DDOT posts a sign specifically allowing the turn. Always obey the intersection's signs and yield to pedestrians and cross traffic.",
@@ -386,7 +386,7 @@
     "options": [
       "Permanent revocation",
       "No action",
-      "A warning letter only",
+      "A warning letter and mandatory traffic school",
       "A 90-day license suspension"
     ],
     "correctIndex": 3,

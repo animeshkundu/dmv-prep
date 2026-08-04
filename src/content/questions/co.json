@@ -123,7 +123,7 @@
     ],
     "prompt": "Under Colorado's Express Consent Law, if you drive on Colorado roads you have agreed to:",
     "options": [
-      "Waive the right to a lawyer during a DUI stop",
+      "Waive your right to speak with a lawyer during any DUI stop",
       "Pay all fines before contesting them",
       "Allow a search of your vehicle at any time",
       "Take a blood or breath test if lawfully arrested for DUI"
@@ -242,7 +242,7 @@
       "Midnight and 5 a.m.",
       "10 p.m. and 4 a.m.",
       "11 p.m. and 6 a.m.",
-      "1 a.m. and 5 a.m."
+      "From dusk until dawn, whenever headlights are required"
     ],
     "correctIndex": 0,
     "explanation": "For the first 12 months, a Colorado minor may not drive between midnight and 5 a.m. unless driving for work, school, or a medical emergency, or accompanied by a licensed adult.",
@@ -269,7 +269,7 @@
     "prompt": "For an adult driver 21 or older, Colorado may suspend a license for accumulating:",
     "options": [
       "12 points in 12 months or 18 in 24 months",
-      "20 points in 12 months",
+      "20 points in 12 months or 30 points in 24 months",
       "9 points in 12 months",
       "6 points in 12 months"
     ],

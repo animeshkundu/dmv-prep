@@ -269,7 +269,7 @@
     "prompt": "A flashing red traffic signal means you should:",
     "options": [
       "Stop, then proceed when it is safe, as you would at a stop sign",
-      "Stop and wait for the light to turn green",
+      "Stop and remain stopped until the light finally turns green again",
       "Slow down and proceed with caution",
       "Speed up to clear the intersection"
     ],
@@ -358,7 +358,7 @@
       "The lane is for turning only",
       "The road is one-way",
       "You may pass when it is safe and the way is clear",
-      "Passing is never allowed"
+      "Passing is never allowed on a two-way road like this"
     ],
     "correctIndex": 2,
     "explanation": "A broken yellow center line means passing is permitted on your side when the road ahead is clear and it is safe to do so.",
@@ -386,7 +386,7 @@
     "options": [
       "Is unlimited",
       "Depends on the driver's age, with lower thresholds for younger drivers",
-      "Is the same for every driver",
+      "Is the same for every driver, regardless of age, experience or license class",
       "Only applies to commercial drivers"
     ],
     "correctIndex": 1,

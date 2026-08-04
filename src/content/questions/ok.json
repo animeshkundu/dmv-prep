@@ -95,7 +95,7 @@
     "prompt": "In Oklahoma, your driver's license may be suspended when you accumulate:",
     "options": [
       "10 or more points within a 5-year period",
-      "6 or more points at any time",
+      "6 or more points within any 12-month period",
       "4 or more points in 12 months",
       "12 or more points in 1 year"
     ],
@@ -271,7 +271,7 @@
       "Slow down for a curve",
       "Do not enter",
       "Come to a complete stop",
-      "Yield to other traffic"
+      "Yield to all other traffic"
     ],
     "correctIndex": 2,
     "explanation": "The eight-sided red sign is the only shape used for a stop sign. It means come to a complete stop, then proceed when it is safe and legal.",
@@ -298,7 +298,7 @@
     "prompt": "At an intersection with a steady red light, after coming to a complete stop you may turn right:",
     "options": [
       "Only when a sign prohibits it",
-      "Never, red always means no turns",
+      "Never, because a steady red light always prohibits turns of any kind at every intersection in the state",
       "Only if another car turns first",
       "When it is safe and no sign prohibits the turn, after yielding to traffic and pedestrians"
     ],

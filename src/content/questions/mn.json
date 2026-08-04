@@ -36,7 +36,7 @@
     ],
     "prompt": "Under Minnesota's 'Not a Drop' law, a driver under 21 may not operate a vehicle with a BAC of:",
     "options": [
-      "0.04% or higher",
+      "0.04% or higher, the commercial-driver limit",
       "0.08% or higher",
       "Any amount above 0.00%",
       "0.02% or higher"
@@ -65,7 +65,7 @@
     ],
     "prompt": "Under Minnesota's implied consent law, refusing to submit to a required chemical test after a lawful DWI arrest:",
     "options": [
-      "Only applies to commercial drivers",
+      "Only applies to commercial drivers, not private cars",
       "Has no separate penalty",
       "Is allowed once per year",
       "Is a crime and results in license revocation"
@@ -154,7 +154,7 @@
     "options": [
       "10 p.m. and 5 a.m.",
       "11 p.m. and 6 a.m.",
-      "9 p.m. and 4 a.m.",
+      "From dusk to dawn, unless driving to a school activity",
       "Midnight and 5 a.m."
     ],
     "correctIndex": 3,
@@ -385,7 +385,7 @@
     "prompt": "How does Minnesota track traffic violations against a driver's record?",
     "options": [
       "By charging escalating fees only",
-      "With a demerit point system like most states",
+      "With a demerit point system like most other states, suspending the license once a fixed point total is reached",
       "Through annual driver exams",
       "Minnesota does not use a point system; suspensions are based on specific violations and convictions"
     ],

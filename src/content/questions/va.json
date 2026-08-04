@@ -152,7 +152,7 @@
     ],
     "prompt": "A Virginia driver under 18 with a provisional license generally may not drive between:",
     "options": [
-      "1 a.m. and 5 a.m.",
+      "Sunset and sunrise, unless driving to a school event",
       "10 p.m. and 6 a.m.",
       "Midnight and 4 a.m.",
       "11 p.m. and 5 a.m."
@@ -329,7 +329,7 @@
       "18 points in 12 months or 24 points in 24 months",
       "6 points in 12 months",
       "12 points in 12 months",
-      "20 points in any period"
+      "20 points in any period, counted from your first ticket"
     ],
     "correctIndex": 0,
     "explanation": "Virginia suspends an adult driver's license after 18 demerit points in 12 months or 24 points in 24 months. Demerit points are assigned as 3, 4, or 6 per conviction.",

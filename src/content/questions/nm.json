@@ -153,7 +153,7 @@
     "prompt": "A New Mexico provisional license holder is generally restricted from driving during which hours (unless an exception applies)?",
     "options": [
       "11 p.m. to 6 a.m.",
-      "9 p.m. to 4 a.m.",
+      "Sunset to sunrise, with no exception for travel to work",
       "10 p.m. to 5 a.m.",
       "Midnight to 5 a.m."
     ],
@@ -299,7 +299,7 @@
     "options": [
       "Give a regulatory order you must obey",
       "Mark a construction zone only",
-      "Show route and distance information",
+      "Show route, distance and destination information to drivers",
       "Warn you of a hazard or change in conditions ahead"
     ],
     "correctIndex": 3,
@@ -328,7 +328,7 @@
     "options": [
       "Slow down and proceed with caution",
       "Stop, then proceed when it is safe, as at a stop sign",
-      "Stop and wait for the light to turn green",
+      "Stop and wait there until the light finally turns green",
       "Continue without stopping"
     ],
     "correctIndex": 1,

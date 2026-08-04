@@ -38,7 +38,7 @@
     "options": [
       "The High BAC 'Super Drunk' Law",
       "The Basic Speed Law",
-      "The Move Over Law",
+      "The Implied Consent Law for chemical testing",
       "Kelsey's Law"
     ],
     "correctIndex": 0,
@@ -268,7 +268,7 @@
     ],
     "prompt": "Under Michigan's basic speed law, you must:",
     "options": [
-      "Match the speed of surrounding traffic even if unsafe",
+      "Match the speed of surrounding traffic, even when that speed is unsafe for conditions",
       "Drive 5 mph below the limit at all times",
       "Always drive the exact posted limit",
       "Drive at a careful and prudent speed no greater than is reasonable for conditions"
@@ -386,7 +386,7 @@
     "options": [
       "Treat it as a green light",
       "Stop, then proceed when it is safe, as at a stop sign",
-      "Stop and wait for the light to change to green",
+      "Stop and wait for the signal to change to a steady green",
       "Slow down and proceed with caution"
     ],
     "correctIndex": 1,

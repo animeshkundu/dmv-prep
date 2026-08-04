@@ -184,7 +184,7 @@
       "Provide route or destination information",
       "Warn you of a hazard or a change in road conditions ahead",
       "Mark a construction detour",
-      "Give a regulatory order such as a speed limit"
+      "Give a regulatory order, such as a speed limit you must obey"
     ],
     "correctIndex": 1,
     "explanation": "Yellow diamond-shaped signs are warning signs. They alert you to conditions ahead such as curves, merges, or pedestrian crossings so you can prepare to react.",
@@ -210,7 +210,7 @@
     ],
     "prompt": "At an intersection a steady red light for your direction means you must:",
     "options": [
-      "Stop only if other traffic is present",
+      "Stop only when other traffic or pedestrians are actually present at the intersection",
       "Slow down and proceed with caution",
       "Stop, and you may turn right after stopping unless a sign prohibits it",
       "Treat it as a yield"
@@ -387,7 +387,7 @@
       "It does not keep any driving record",
       "By counting only parking tickets",
       "Through a driving record of convictions, where serious or repeated offenses lead to suspension or revocation",
-      "A numeric demerit-point total that suspends you at a set score"
+      "A numeric demerit-point total that automatically suspends the license once the driver reaches a fixed statewide score"
     ],
     "correctIndex": 2,
     "explanation": "Hawaii does not use a fixed numeric point system like some states. Instead, convictions are recorded on your driving abstract, and serious or repeat violations can result in suspension or revocation.",

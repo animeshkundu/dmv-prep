@@ -7,7 +7,7 @@
     ],
     "prompt": "Under Maine's zero-tolerance law, a driver under 21 who is found with any measurable alcohol faces:",
     "options": [
-      "A citation only above 0.08%",
+      "A citation only if the driver is over the adult limit of 0.08% and appears impaired",
       "License suspension, because the under-21 limit is 0.00% (any amount)",
       "Only a warning",
       "No penalty on a first offense"
@@ -66,7 +66,7 @@
     "prompt": "During the first months of holding a Maine intermediate license, a driver may not drive during which hours?",
     "options": [
       "10 p.m. to 6 a.m.",
-      "1 a.m. to 4 a.m.",
+      "Any time after dark, unless a parent is in the vehicle",
       "Midnight to 5 a.m.",
       "11 p.m. to 5 a.m."
     ],
@@ -357,7 +357,7 @@
     "options": [
       "Automatic license upgrade",
       "Suspension of your driver's license",
-      "Removal of all prior points",
+      "Removal of all prior points from your record",
       "A cash reward"
     ],
     "correctIndex": 1,

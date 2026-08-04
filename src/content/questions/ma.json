@@ -153,7 +153,7 @@
     "prompt": "A Massachusetts Junior Operator (under 18) may not drive between the hours of:",
     "options": [
       "11 p.m. and 5 a.m.",
-      "Midnight and 6 a.m.",
+      "From one hour after sunset until one hour before sunrise",
       "12:30 a.m. and 5 a.m., unless with a parent or guardian",
       "10 p.m. and 4 a.m."
     ],
@@ -268,7 +268,7 @@
     ],
     "prompt": "In Massachusetts, receiving 3 speeding tickets within 12 months results in:",
     "options": [
-      "No action until a 4th ticket",
+      "No action until a fourth ticket in the same year",
       "An automatic 30-day license suspension",
       "A warning letter only",
       "A required road test"

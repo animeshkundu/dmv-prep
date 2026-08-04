@@ -38,7 +38,7 @@
     "options": [
       "Drive 5 mph below the limit at all times",
       "Drive at a speed that is reasonable and prudent for existing conditions",
-      "Always drive the posted maximum limit to keep up with traffic",
+      "Always drive the posted maximum limit in order to keep up with the flow of traffic",
       "Never exceed 55 mph anywhere in the state"
     ],
     "correctIndex": 1,
@@ -268,7 +268,7 @@
     ],
     "prompt": "A diamond-shaped sign with a yellow background and black symbols is used to:",
     "options": [
-      "Provide route or destination information",
+      "Provide route, distance or destination information for drivers ahead",
       "Mark a construction work zone",
       "Warn you of possible hazards or changing road conditions ahead",
       "Give a regulatory order you must obey"
@@ -385,7 +385,7 @@
     "prompt": "A flashing red traffic signal means:",
     "options": [
       "Slow down and proceed with caution",
-      "The signal is out of order, so speed up",
+      "The signal is out of order, so proceed without stopping",
       "Stop, then proceed when it is safe, as at a stop sign",
       "Go without stopping"
     ],

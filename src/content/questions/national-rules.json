@@ -555,7 +555,7 @@
     "options": [
       "Parallel to and close to the curb",
       "Angled out into the lane",
-      "As far from the curb as possible",
+      "As far from the curb as the lane allows",
       "Facing oncoming traffic"
     ],
     "correctIndex": 0,

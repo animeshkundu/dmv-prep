@@ -269,7 +269,7 @@
     "prompt": "During the first 12 months after getting an Ohio probationary license, a 16-year-old may not drive during which hours (unless an exception applies)?",
     "options": [
       "11 p.m. to 5 a.m.",
-      "1 a.m. to 5 a.m.",
+      "Any time after dark until the next morning, without exception",
       "Midnight to 6 a.m.",
       "10 p.m. to 6 a.m."
     ],
@@ -326,7 +326,7 @@
     ],
     "prompt": "In Ohio, a flashing red traffic signal means:",
     "options": [
-      "The signal is broken; ignore it",
+      "The signal is broken, so you may drive straight through",
       "Speed up to clear the intersection",
       "Stop, then proceed when it is safe, as at a stop sign",
       "Slow down and proceed with caution"

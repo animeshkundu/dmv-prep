@@ -14,7 +14,7 @@
     "prompt": "What does a red, eight-sided (octagonal) sign always mean?",
     "options": [
       "Road ends ahead",
-      "Slow down and proceed",
+      "Slow down and proceed with care",
       "Yield to traffic",
       "Come to a complete stop"
     ],
@@ -44,7 +44,7 @@
     "prompt": "A yellow, diamond-shaped sign indicates:",
     "options": [
       "A general warning about conditions ahead",
-      "A regulation you must obey",
+      "A traffic regulation that you must obey by law",
       "A destination or service",
       "A construction detour only"
     ],
@@ -312,7 +312,7 @@
     "options": [
       "Passing is not allowed on your side",
       "The road is one-way",
-      "Passing is allowed",
+      "Passing is allowed in both directions",
       "You may park along it"
     ],
     "correctIndex": 0,

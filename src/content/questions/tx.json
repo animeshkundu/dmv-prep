@@ -36,7 +36,7 @@
     ],
     "prompt": "In an active Texas school zone, you must slow to the posted limit (commonly 20 mph) and you are also prohibited from:",
     "options": [
-      "Changing lanes",
+      "Changing lanes anywhere in the zone",
       "Playing the radio",
       "Using a handheld cell phone",
       "Using your headlights"
@@ -65,7 +65,7 @@
     ],
     "prompt": "Under Texas's zero-tolerance law, a driver under 21 can be charged with DUI for driving with:",
     "options": [
-      "A BAC of 0.08% or higher",
+      "A BAC of 0.08% or higher, the same limit as for adults",
       "A BAC of 0.02% or higher",
       "A BAC of 0.05% or higher",
       "Any detectable amount of alcohol in their system"
@@ -152,7 +152,7 @@
     ],
     "prompt": "In Texas, your driver license may be suspended as a habitual violator if you are convicted of:",
     "options": [
-      "Two moving violations in a lifetime",
+      "Two or more moving violations in a lifetime, no matter how many years apart they occur",
       "Four or more moving violations within 12 months, or seven or more within 24 months",
       "Any single speeding ticket",
       "Ten or more parking tickets"
@@ -355,7 +355,7 @@
     ],
     "prompt": "Refusing to give a specimen (breath or blood) when lawfully arrested for DWI in Texas results in:",
     "options": [
-      "A reduced fine",
+      "A reduced fine, since a refusal cannot be used as evidence in court",
       "No consequence",
       "An automatic license suspension under the implied consent law",
       "A warning only"

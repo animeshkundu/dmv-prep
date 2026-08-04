@@ -38,7 +38,7 @@
     "prompt": "A driver with an Iowa intermediate license generally may not drive between:",
     "options": [
       "12:30 a.m. and 5 a.m.",
-      "10 p.m. and 5 a.m.",
+      "Any time after dark until the following morning",
       "11 p.m. and 5 a.m.",
       "Midnight and 6 a.m."
     ],
@@ -310,7 +310,7 @@
       "A no-passing zone",
       "A hospital ahead",
       "A school zone or school crossing",
-      "A railroad crossing"
+      "A railroad crossing a short way ahead"
     ],
     "correctIndex": 2,
     "explanation": "A five-sided pentagon sign marks a school zone or school crossing. Slow down and watch for children.",
@@ -398,7 +398,7 @@
     "prompt": "A broken (dashed) yellow center line on a two-way road means:",
     "options": [
       "You may pass when it is safe, on your side with the dashed line",
-      "You must stay in the center of the road",
+      "You must stay in the center of the roadway until the marking ends",
       "The road is one-way",
       "Passing is never allowed"
     ],

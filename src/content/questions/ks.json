@@ -65,7 +65,7 @@
     ],
     "prompt": "In Kansas, refusing to submit to a chemical (breath or blood) test when lawfully requested can result in:",
     "options": [
-      "No penalty if you are later found sober",
+      "No penalty at all if you are later found to be sober",
       "Only a small fine",
       "A warning for the first refusal",
       "An automatic administrative license suspension"
@@ -268,7 +268,7 @@
     ],
     "prompt": "An orange diamond-shaped sign most commonly indicates:",
     "options": [
-      "A regulatory speed limit",
+      "A regulatory speed limit you must obey",
       "A construction or work zone ahead",
       "A recreational area",
       "A school crossing"
@@ -300,7 +300,7 @@
       "Come to a complete stop, then proceed when it is safe",
       "Slow down and proceed with caution",
       "Treat it as a green light",
-      "Stop only if other cars are present"
+      "Stop only if other cars are present at the intersection"
     ],
     "correctIndex": 0,
     "explanation": "A flashing red signal is treated the same as a stop sign: stop completely, then proceed when the way is clear.",
@@ -329,7 +329,7 @@
       "The road is one-way",
       "You may change lanes when it is safe",
       "Passing is prohibited",
-      "The lane is for buses only"
+      "The lane is reserved for buses and taxis"
     ],
     "correctIndex": 1,
     "explanation": "Dashed white lines separate lanes of traffic moving in the same direction and indicate that lane changes are permitted when safe.",

@@ -8,7 +8,7 @@
     "prompt": "Under Oregon's Basic Rule, you must drive:",
     "options": [
       "At exactly the posted speed at all times",
-      "At least as fast as surrounding traffic",
+      "At least as fast as the surrounding traffic, because driving slower than the flow is always unlawful",
       "No faster than 55 mph on any road",
       "At a speed that is reasonable and safe for existing conditions, never faster than the posted limit"
     ],
@@ -66,7 +66,7 @@
     "prompt": "Oregon's zero-tolerance law means a driver under 21 can lose their license for driving with a blood alcohol concentration of:",
     "options": [
       "Any measurable amount above 0.00%",
-      "0.02% or more only",
+      "0.02% or more, the standard for young drivers",
       "0.08% or more",
       "0.05% or more"
     ],
@@ -125,7 +125,7 @@
     "options": [
       "Midnight to 5 a.m.",
       "11 p.m. to 5 a.m.",
-      "9 p.m. to 4 a.m.",
+      "Sunset to sunrise, unless a licensed adult rides along",
       "10 p.m. to 6 a.m."
     ],
     "correctIndex": 0,
@@ -298,7 +298,7 @@
     "prompt": "A five-sided (pentagon-shaped) sign on an Oregon road warns you of:",
     "options": [
       "A hospital ahead",
-      "A railroad crossing",
+      "A railroad crossing a short way ahead",
       "A no-passing zone",
       "A school zone or school crossing"
     ],
@@ -328,7 +328,7 @@
     "options": [
       "Traffic ahead is one-way",
       "You may not change lanes",
-      "The lane is for buses only",
+      "The lane is reserved for buses and carpools",
       "You may change lanes when it is safe"
     ],
     "correctIndex": 3,

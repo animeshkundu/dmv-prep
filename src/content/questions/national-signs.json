@@ -131,7 +131,7 @@
       "Motorist services",
       "Construction and work zones",
       "Recreation areas",
-      "Permanent regulations"
+      "Permanent traffic regulations"
     ],
     "correctIndex": 1,
     "explanation": "Orange is the standard color for temporary traffic control in construction and maintenance work zones. Expect workers, equipment, and changed conditions.",
@@ -221,7 +221,7 @@
       "Directions, distances, and destinations",
       "Warnings of hazards ahead",
       "Prohibited movements",
-      "Locations of gas stations"
+      "Locations of gas stations, food and lodging"
     ],
     "correctIndex": 0,
     "explanation": "Green guide signs give directional information: destinations, distances, exit names, and street names.",
@@ -251,7 +251,7 @@
       "A recreation area",
       "A traffic law or regulation you must obey",
       "A tourist attraction",
-      "A warning about the road ahead"
+      "A warning about hazardous road conditions ahead"
     ],
     "correctIndex": 1,
     "explanation": "White signs with black legends are regulatory. They state laws you must follow, such as lane use, turning rules, or posted limits.",
@@ -420,7 +420,7 @@
     "options": [
       "A zoo is ahead",
       "A petting farm is nearby",
-      "Hunting is permitted",
+      "Hunting is permitted alongside this road",
       "Animals may cross the road in this area"
     ],
     "correctIndex": 3,
@@ -446,7 +446,7 @@
     "prompt": "A yellow diamond sign with a curving arrow means:",
     "options": [
       "The road ahead curves in the direction of the arrow",
-      "You must turn in the direction of the arrow",
+      "You are required to turn in the direction the arrow points",
       "One-way traffic ahead",
       "A passing lane begins"
     ],
@@ -564,7 +564,7 @@
     "options": [
       "The road is closed",
       "Turns are prohibited",
-      "Stop completely, then go",
+      "Come to a complete stop, then proceed",
       "Slow down and proceed with caution"
     ],
     "correctIndex": 3,
@@ -790,7 +790,7 @@
     ],
     "prompt": "A broken (dashed) yellow center line means:",
     "options": [
-      "Passing is never allowed",
+      "Passing is never allowed anywhere on this road",
       "You may pass when it is safe to do so",
       "You must not change lanes",
       "The road is one-way"
@@ -881,7 +881,7 @@
     "prompt": "A broken (dashed) white line between lanes means:",
     "options": [
       "You may change lanes when it is safe",
-      "The lane is for turning only",
+      "The lane ahead is reserved for turning only",
       "Traffic ahead is one-way",
       "You may never change lanes"
     ],
@@ -995,7 +995,7 @@
     "prompt": "White markings that form a crosswalk across the road indicate:",
     "options": [
       "A designated place for pedestrians to cross",
-      "A place for vehicles to park",
+      "A place where vehicles may stop and park briefly",
       "A no-stopping zone",
       "A lane for turning"
     ],
@@ -1048,7 +1048,7 @@
     "stateScope": "all",
     "prompt": "A white arrow painted in your lane pointing only to the right means:",
     "options": [
-      "You may go straight or right",
+      "You may go straight through or turn right",
       "You may pass on the right",
       "Traffic in that lane must turn right",
       "The lane is ending"
@@ -1080,7 +1080,7 @@
     "options": [
       "A bus stop",
       "A passing zone",
-      "The center of the road",
+      "The center line of a two-way roadway",
       "The right edge of the roadway"
     ],
     "correctIndex": 3,
@@ -1108,7 +1108,7 @@
       "You may not pass, but oncoming traffic may",
       "Both directions may pass",
       "Neither direction may pass",
-      "You may pass but oncoming traffic may not"
+      "You may pass, but oncoming traffic may never pass"
     ],
     "correctIndex": 0,
     "explanation": "Passing rules follow the line on your own side. A solid yellow line on your side means you may not pass; the broken line lets the other direction pass.",
@@ -1135,7 +1135,7 @@
     ],
     "prompt": "The color of the line that separates traffic moving in opposite directions is:",
     "options": [
-      "White",
+      "White (the same as lane lines)",
       "Yellow",
       "Blue",
       "Green"

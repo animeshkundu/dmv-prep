@@ -65,7 +65,7 @@
     ],
     "prompt": "In Connecticut, your driver's license may be suspended for accumulating how many points on your driving record?",
     "options": [
-      "6 or more points in 6 months",
+      "6 or more points in any rolling 6-month window",
       "4 or more points in 12 months",
       "10 or more points within 24 months",
       "12 or more points at any time"
@@ -242,7 +242,7 @@
       "Stop, then proceed when it is safe, as at a stop sign",
       "Speed up to clear the intersection",
       "Slow down and proceed with caution",
-      "Stop and wait for the light to turn green"
+      "Stop and remain stopped until the signal changes to green"
     ],
     "correctIndex": 0,
     "explanation": "A flashing red light has the same meaning as a stop sign: come to a complete stop, then proceed when the way is clear.",
@@ -270,7 +270,7 @@
     "options": [
       "Give a regulation you must obey by law",
       "Mark a work zone only",
-      "Provide route or destination information",
+      "Provide route, distance and destination information for travelers ahead",
       "Warn you of a possible hazard or a change in road conditions ahead"
     ],
     "correctIndex": 3,

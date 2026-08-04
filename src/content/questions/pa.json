@@ -125,7 +125,7 @@
     "options": [
       "Take no action until 12 points are reached",
       "Require a special written point examination, passing which removes 2 points",
-      "Suspend the license for 30 days automatically",
+      "Automatically suspend the license for 30 days and require a full re-examination",
       "Revoke the license permanently"
     ],
     "correctIndex": 1,
