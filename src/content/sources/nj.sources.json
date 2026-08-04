@@ -3,9 +3,8 @@
   "sources": [
     {
       "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1/32635",
-      "sha256": "e70b40616bdb9f2bb663071ea17f6b05203172d665662c10af3f6b309ec8c54c",
-      "contentType": "text/html",
-      "status": 200
+      "status": 500,
+      "error": "HTTP 500"
     },
     {
       "url": "https://mutcd.fhwa.dot.gov/",
@@ -15,81 +14,79 @@
     },
     {
       "url": "https://pub.njleg.state.nj.us/Bills/2000/AL00/83_.PDF",
-      "sha256": "9faf71a1c099fbe0564d86bb0c8aace22f445ff921b2fecf17a22660b8c9e1bc",
       "contentType": "application/pdf",
-      "status": 200
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
     },
     {
       "url": "https://pub.njleg.state.nj.us/Bills/2002/AL03/314_.PDF",
-      "sha256": "d5f6441ce0ce3c70b80c35daf83f856fcff44ca84e831d1373c65384ee8331ae",
       "contentType": "application/pdf",
-      "status": 200
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
     },
     {
       "url": "https://pub.njleg.state.nj.us/Bills/2006/AL07/266_.PDF",
-      "sha256": "544d50aba1791a4601f469b4d81a647f7362a7029ed90abe7ce0227482228d8a",
       "contentType": "application/pdf",
-      "status": 200
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
     },
     {
       "url": "https://pub.njleg.state.nj.us/Bills/2008/AL09/319_.PDF",
-      "sha256": "124bacdeee55d7d506035b8fa272fcc32cfddac009a7c5920d9fbe90fe9b10ba",
       "contentType": "application/pdf",
-      "status": 200
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
     },
     {
       "url": "https://pub.njleg.state.nj.us/Bills/2012/AL13/70_.PDF",
-      "sha256": "a1187aab31324de2914528bd42e19e0b5600c202377c916b7e8f4f46bcfa4941",
       "contentType": "application/pdf",
-      "status": 200
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
     },
     {
       "url": "https://pub.njleg.state.nj.us/Bills/2014/AL15/50_.PDF",
-      "sha256": "b3c5c889d6889ca9965d476a9db313e6de8f028906d18894871e94b1f82e2aa7",
       "contentType": "application/pdf",
-      "status": 200
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
     },
     {
       "url": "https://pub.njleg.state.nj.us/Bills/2018/AL19/248_.PDF",
-      "sha256": "f28aa95e0b39238891fd0a1f6ae0d3e29c666fd719e3b3743aee42d823b00f8f",
       "contentType": "application/pdf",
-      "status": 200
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
     },
     {
       "url": "https://pub.njleg.state.nj.us/Bills/2018/AL19/5_.PDF",
-      "sha256": "4a71ec0423963f83e4d8709cffb9d926598acf63c7c0e387d56f0df22fa7365f",
       "contentType": "application/pdf",
-      "status": 200
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
     },
     {
       "url": "https://pub.njleg.state.nj.us/Bills/2020/AL21/139_.PDF",
-      "sha256": "007547fbe64ca435c7a781a6054aa97874aac95cf667cceef8f8f555e71ebc8c",
       "contentType": "application/pdf",
-      "status": 200
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
     },
     {
       "url": "https://pub.njleg.state.nj.us/Bills/2022/AL23/216_.PDF",
-      "sha256": "839b2b75a3a80bc8264c8fa5291160cc91a3653128cddea29aaf028c707201b2",
       "contentType": "application/pdf",
-      "status": 200
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
     },
     {
       "url": "https://pub.njleg.state.nj.us/Bills/2024/AL25/155_.PDF",
-      "sha256": "eafad10223e1a36fd3f12b601cef5ad83e92b89627a0f8e18123342bdf0f32ac",
       "contentType": "application/pdf",
-      "status": 200
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
     },
     {
       "url": "https://pub.njleg.state.nj.us/Bills/2024/AL25/248_.PDF",
-      "sha256": "14dae9d786d25ef5f3188787507765eb47655f7b39a1c53437597419bbe184c4",
       "contentType": "application/pdf",
-      "status": 200
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
     },
     {
       "url": "https://www.iihs.org/topics/speed/speed-limit-laws",
-      "sha256": "381e82f5508e943ac29ba82b3c912cb493a4124a02c7e2ab4197e23180751b0d",
-      "contentType": "text/html",
-      "status": 200
+      "error": "fetch failed: fetch failed"
     },
     {
       "url": "https://www.nj.gov/mvc/about/gdlsafety.htm",
@@ -112,10 +109,9 @@
     {
       "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
       "handbook": true,
-      "sha256": "61b2728536ca3e23210463033da33e08ed526d9a03d4ca17912b6ee5435e905b",
       "contentType": "application/pdf",
-      "status": 200
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
     }
-  ],
-  "handbookSnapshotHash": "61b2728536ca3e23210463033da33e08ed526d9a03d4ca17912b6ee5435e905b"
+  ]
 }

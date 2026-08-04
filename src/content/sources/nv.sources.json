@@ -28,9 +28,9 @@
     {
       "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
       "handbook": true,
-      "sha256": "a401e36c17cddeb5ac1ca6aef6ce5832aa5940891f550d765815d93c1414b27e",
       "contentType": "application/pdf",
-      "status": 200
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
     },
     {
       "url": "https://mutcd.fhwa.dot.gov/",
@@ -74,6 +74,5 @@
       "contentType": "text/html",
       "status": 200
     }
-  ],
-  "handbookSnapshotHash": "a401e36c17cddeb5ac1ca6aef6ce5832aa5940891f550d765815d93c1414b27e"
+  ]
 }

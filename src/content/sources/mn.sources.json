@@ -4,9 +4,9 @@
     {
       "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
       "handbook": true,
-      "sha256": "88aa9622be31549dd28a9e8c34217c8cc1a298564d7a07feb9a094fb6d3539c4",
       "contentType": "application/pdf",
-      "status": 200
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
     },
     {
       "url": "https://dps.mn.gov/divisions/dvs/Pages/default.aspx",
@@ -116,6 +116,5 @@
       "contentType": "text/html",
       "status": 200
     }
-  ],
-  "handbookSnapshotHash": "88aa9622be31549dd28a9e8c34217c8cc1a298564d7a07feb9a094fb6d3539c4"
+  ]
 }

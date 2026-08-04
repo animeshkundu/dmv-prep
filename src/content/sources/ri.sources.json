@@ -10,9 +10,9 @@
     {
       "url": "https://dmv.ri.gov/media/966/download",
       "handbook": true,
-      "sha256": "a815fd5848fe335c04bda03968bf91f3aafc55085f45bcfd36c77718c1cd358b",
       "contentType": "application/pdf",
-      "status": 200
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
     },
     {
       "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/OperatorsManual_5_2_2022.pdf",
@@ -27,10 +27,7 @@
     },
     {
       "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table",
-      "sha256": "a4c2b59b06107a409c1a69df93e9cbf431e5b4e2e5c179d6b93528e8b768f3b5",
-      "contentType": "text/html",
-      "status": 200
+      "error": "fetch failed: fetch failed"
     }
-  ],
-  "handbookSnapshotHash": "a815fd5848fe335c04bda03968bf91f3aafc55085f45bcfd36c77718c1cd358b"
+  ]
 }

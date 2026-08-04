@@ -1,0 +1,266 @@
+[
+  {
+    "id": "tpl-dui-adult-1-nh-1",
+    "category": "alcohol-drugs",
+    "stateScope": [
+      "NH"
+    ],
+    "tags": [
+      "alcohol-impairment-bac"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "bacAdult",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-dui-adult-1",
+    "templateVersion": 1,
+    "prompt": "In New Hampshire, which statement correctly describes the adult per se BAC limit?",
+    "options": [
+      "0.08%",
+      "0.05%",
+      "0.10%",
+      "0.04%"
+    ],
+    "correctIndex": 0,
+    "explanation": "This answer follows the verified bacAdult record for New Hampshire; conditions in that record still apply.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "New Hampshire Revised Statutes Online",
+        "citation": "N.H. Rev. Stat. Ann. § 265-A:2",
+        "url": "https://gc.nh.gov/rsa/html/XXI/265-A/265-A-2.htm"
+      }
+    ],
+    "effectiveDate": "2013-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-dui-adult-1-nh-2",
+    "category": "alcohol-drugs",
+    "stateScope": [
+      "NH"
+    ],
+    "tags": [
+      "alcohol-impairment-bac"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "bacAdult",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-dui-adult-1",
+    "templateVersion": 1,
+    "prompt": "What should a learner know about the adult per se BAC limit under New Hampshire law?",
+    "options": [
+      "0.05%",
+      "0.04%",
+      "0.08%",
+      "0.10%"
+    ],
+    "correctIndex": 2,
+    "explanation": "The cited New Hampshire rule sets the adult per se BAC limit as shown in the correct answer.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "New Hampshire Revised Statutes Online",
+        "citation": "N.H. Rev. Stat. Ann. § 265-A:2",
+        "url": "https://gc.nh.gov/rsa/html/XXI/265-A/265-A-2.htm"
+      }
+    ],
+    "effectiveDate": "2013-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-dui-adult-2-nh-1",
+    "category": "alcohol-drugs",
+    "stateScope": [
+      "NH"
+    ],
+    "tags": [
+      "alcohol-impairment-bac"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "bacAdult",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-dui-adult-2",
+    "templateVersion": 1,
+    "prompt": "A New Hampshire driver is reviewing the adult alcohol concentration that establishes per se impairment. Select the accurate answer.",
+    "options": [
+      "0.04%",
+      "0.10%",
+      "0.05%",
+      "0.08%"
+    ],
+    "correctIndex": 3,
+    "explanation": "This answer follows the verified bacAdult record for New Hampshire; conditions in that record still apply.",
+    "difficulty": "hard",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "New Hampshire Revised Statutes Online",
+        "citation": "N.H. Rev. Stat. Ann. § 265-A:2",
+        "url": "https://gc.nh.gov/rsa/html/XXI/265-A/265-A-2.htm"
+      }
+    ],
+    "effectiveDate": "2013-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-dui-adult-2-nh-2",
+    "category": "alcohol-drugs",
+    "stateScope": [
+      "NH"
+    ],
+    "tags": [
+      "alcohol-impairment-bac"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "bacAdult",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-dui-adult-2",
+    "templateVersion": 1,
+    "prompt": "Choose the rule that applies to the adult alcohol concentration that establishes per se impairment in New Hampshire.",
+    "options": [
+      "0.05%",
+      "0.04%",
+      "0.08%",
+      "0.10%"
+    ],
+    "correctIndex": 2,
+    "explanation": "This answer follows the verified bacAdult record for New Hampshire; conditions in that record still apply.",
+    "difficulty": "hard",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "New Hampshire Revised Statutes Online",
+        "citation": "N.H. Rev. Stat. Ann. § 265-A:2",
+        "url": "https://gc.nh.gov/rsa/html/XXI/265-A/265-A-2.htm"
+      }
+    ],
+    "effectiveDate": "2013-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-dui-under21-nh-1",
+    "category": "alcohol-drugs",
+    "stateScope": [
+      "NH"
+    ],
+    "tags": [
+      "alcohol-impairment-bac"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "bacUnder21",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-dui-under21",
+    "templateVersion": 1,
+    "prompt": "A New Hampshire driver is reviewing the under-21 BAC limit. Select the accurate answer.",
+    "options": [
+      "0.02%",
+      "0.04%",
+      "0.00%",
+      "0.01%"
+    ],
+    "correctIndex": 0,
+    "explanation": "This answer follows the verified bacUnder21 record for New Hampshire; conditions in that record still apply.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "New Hampshire Revised Statutes Online",
+        "citation": "N.H. Rev. Stat. Ann. § 265-A:2",
+        "url": "https://gc.nh.gov/rsa/html/XXI/265-A/265-A-2.htm"
+      }
+    ],
+    "effectiveDate": "2013-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-dui-under21-nh-2",
+    "category": "alcohol-drugs",
+    "stateScope": [
+      "NH"
+    ],
+    "tags": [
+      "alcohol-impairment-bac"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "bacUnder21",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-dui-under21",
+    "templateVersion": 1,
+    "prompt": "Choose the rule that applies to the under-21 BAC limit in New Hampshire.",
+    "options": [
+      "0.04%",
+      "0.00%",
+      "0.02%",
+      "0.01%"
+    ],
+    "correctIndex": 2,
+    "explanation": "The cited New Hampshire rule sets the under-21 BAC limit as shown in the correct answer.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "New Hampshire Revised Statutes Online",
+        "citation": "N.H. Rev. Stat. Ann. § 265-A:2",
+        "url": "https://gc.nh.gov/rsa/html/XXI/265-A/265-A-2.htm"
+      }
+    ],
+    "effectiveDate": "2013-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  }
+]

@@ -1,25 +1,29 @@
 [
   {
     "id": "stop",
-    "status": "pending",
+    "status": "downloaded",
     "mutcdCode": "R1-1",
     "mutcdEdition": "11th-ed-rev-1",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:MUTCD_R1-1.svg",
     "sourceLabel": "Wikimedia Commons - PD MUTCD",
     "license": "public-domain-mutcd",
     "licenseEvidence": "MUTCD p. I-1: shall not be protected by a patent, trademark, or copyright",
-    "legacyAsset": "/signs/stop.svg"
+    "legacyAsset": "/signs/stop.svg",
+    "assetSha256": "8aca9490633c79032b2701979ce1e7792aa52395bf05fc82c3be5c8c49bd9d08",
+    "retrieved": "2026-08-04"
   },
   {
     "id": "yield",
-    "status": "pending",
+    "status": "downloaded",
     "mutcdCode": "R1-2",
     "mutcdEdition": "11th-ed-rev-1",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:MUTCD_R1-2.svg",
     "sourceLabel": "Wikimedia Commons - PD MUTCD",
     "license": "public-domain-mutcd",
     "licenseEvidence": "MUTCD p. I-1: shall not be protected by a patent, trademark, or copyright",
-    "legacyAsset": "/signs/yield.svg"
+    "legacyAsset": "/signs/yield.svg",
+    "assetSha256": "a567d079f462629fafefd58c285d71137bb1832456788550f3e246a8dd2dd0e1",
+    "retrieved": "2026-08-04"
   },
   {
     "id": "speed-limit",

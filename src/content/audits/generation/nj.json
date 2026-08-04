@@ -1,0 +1,522 @@
+{
+  "code": "NJ",
+  "ledger": [
+    {
+      "questionId": "tpl-signals-right-on-red-nj-1",
+      "templateId": "tpl-signals-right-on-red",
+      "templateVersion": 1,
+      "inputFactHash": "87db35241b5adda447bf381324bdd81a954fb038a35a1404348cf5b666bc0b7f"
+    },
+    {
+      "questionId": "tpl-signals-right-on-red-nj-2",
+      "templateId": "tpl-signals-right-on-red",
+      "templateVersion": 1,
+      "inputFactHash": "87db35241b5adda447bf381324bdd81a954fb038a35a1404348cf5b666bc0b7f"
+    },
+    {
+      "questionId": "tpl-row-left-on-red-nj-1",
+      "templateId": "tpl-row-left-on-red",
+      "templateVersion": 1,
+      "inputFactHash": "3c3344396d379afe82f3caeb235be811cfd63ef8bcc73d909acc301dc5107f81"
+    },
+    {
+      "questionId": "tpl-row-left-on-red-nj-2",
+      "templateId": "tpl-row-left-on-red",
+      "templateVersion": 1,
+      "inputFactHash": "3c3344396d379afe82f3caeb235be811cfd63ef8bcc73d909acc301dc5107f81"
+    },
+    {
+      "questionId": "tpl-row-move-over-nj-1",
+      "templateId": "tpl-row-move-over",
+      "templateVersion": 1,
+      "inputFactHash": "dee970837366653a85a75d1faa8aa80161f78bd7c48a1c33946f85ffac655a86"
+    },
+    {
+      "questionId": "tpl-row-move-over-nj-2",
+      "templateId": "tpl-row-move-over",
+      "templateVersion": 1,
+      "inputFactHash": "dee970837366653a85a75d1faa8aa80161f78bd7c48a1c33946f85ffac655a86"
+    },
+    {
+      "questionId": "tpl-park-stop-sign-nj-1",
+      "templateId": "tpl-park-stop-sign",
+      "templateVersion": 1,
+      "inputFactHash": "00338d90bc91faf40532d993fb5ac197868dae9e9da86141aa8721dda0c5bd85"
+    },
+    {
+      "questionId": "tpl-park-stop-sign-nj-2",
+      "templateId": "tpl-park-stop-sign",
+      "templateVersion": 1,
+      "inputFactHash": "00338d90bc91faf40532d993fb5ac197868dae9e9da86141aa8721dda0c5bd85"
+    },
+    {
+      "questionId": "tpl-park-railroad-nj-1",
+      "templateId": "tpl-park-railroad",
+      "templateVersion": 1,
+      "inputFactHash": "00338d90bc91faf40532d993fb5ac197868dae9e9da86141aa8721dda0c5bd85"
+    },
+    {
+      "questionId": "tpl-speed-school-1-nj-1",
+      "templateId": "tpl-speed-school-1",
+      "templateVersion": 1,
+      "inputFactHash": "d96e27deea6352ff9d135dc2fa0501db769c5e0753002bf977deb3a6023a59f4"
+    },
+    {
+      "questionId": "tpl-speed-school-1-nj-2",
+      "templateId": "tpl-speed-school-1",
+      "templateVersion": 1,
+      "inputFactHash": "d96e27deea6352ff9d135dc2fa0501db769c5e0753002bf977deb3a6023a59f4"
+    },
+    {
+      "questionId": "tpl-speed-school-2-nj-1",
+      "templateId": "tpl-speed-school-2",
+      "templateVersion": 1,
+      "inputFactHash": "d96e27deea6352ff9d135dc2fa0501db769c5e0753002bf977deb3a6023a59f4"
+    },
+    {
+      "questionId": "tpl-speed-school-2-nj-2",
+      "templateId": "tpl-speed-school-2",
+      "templateVersion": 1,
+      "inputFactHash": "d96e27deea6352ff9d135dc2fa0501db769c5e0753002bf977deb3a6023a59f4"
+    },
+    {
+      "questionId": "tpl-speed-basic-1-nj-1",
+      "templateId": "tpl-speed-basic-1",
+      "templateVersion": 1,
+      "inputFactHash": "0180b7a9e1af597dfc9c0d52a71fe05e69c3e8772812a1ad1d180d2395194464"
+    },
+    {
+      "questionId": "tpl-speed-basic-1-nj-2",
+      "templateId": "tpl-speed-basic-1",
+      "templateVersion": 1,
+      "inputFactHash": "0180b7a9e1af597dfc9c0d52a71fe05e69c3e8772812a1ad1d180d2395194464"
+    },
+    {
+      "questionId": "tpl-dui-adult-1-nj-1",
+      "templateId": "tpl-dui-adult-1",
+      "templateVersion": 1,
+      "inputFactHash": "28a4b95658a8cf9b4dbb28a645e68709bea7ffc53c16195bdb4f94f91b44c17e"
+    },
+    {
+      "questionId": "tpl-dui-adult-1-nj-2",
+      "templateId": "tpl-dui-adult-1",
+      "templateVersion": 1,
+      "inputFactHash": "28a4b95658a8cf9b4dbb28a645e68709bea7ffc53c16195bdb4f94f91b44c17e"
+    },
+    {
+      "questionId": "tpl-dui-adult-2-nj-1",
+      "templateId": "tpl-dui-adult-2",
+      "templateVersion": 1,
+      "inputFactHash": "28a4b95658a8cf9b4dbb28a645e68709bea7ffc53c16195bdb4f94f91b44c17e"
+    },
+    {
+      "questionId": "tpl-dui-adult-2-nj-2",
+      "templateId": "tpl-dui-adult-2",
+      "templateVersion": 1,
+      "inputFactHash": "28a4b95658a8cf9b4dbb28a645e68709bea7ffc53c16195bdb4f94f91b44c17e"
+    },
+    {
+      "questionId": "tpl-dui-open-nj-1",
+      "templateId": "tpl-dui-open",
+      "templateVersion": 1,
+      "inputFactHash": "0010e5d57d0132b8540f04249b8c3cc888183946bf40ed1341dc4a59d920ce15"
+    },
+    {
+      "questionId": "tpl-dui-open-nj-2",
+      "templateId": "tpl-dui-open",
+      "templateVersion": 1,
+      "inputFactHash": "0010e5d57d0132b8540f04249b8c3cc888183946bf40ed1341dc4a59d920ce15"
+    },
+    {
+      "questionId": "tpl-law-phone-nj-1",
+      "templateId": "tpl-law-phone",
+      "templateVersion": 1,
+      "inputFactHash": "068cef873911e9e8092be7da3c3e56fa4fbc55c3a6f07e3e9d5630780900041d"
+    },
+    {
+      "questionId": "tpl-law-texting-nj-1",
+      "templateId": "tpl-law-texting",
+      "templateVersion": 1,
+      "inputFactHash": "32e6d80c9664e8db9de4c5e69da2aed9bbaf7a1e2cb4af1168475ea731e081a9"
+    },
+    {
+      "questionId": "tpl-law-texting-nj-2",
+      "templateId": "tpl-law-texting",
+      "templateVersion": 1,
+      "inputFactHash": "32e6d80c9664e8db9de4c5e69da2aed9bbaf7a1e2cb4af1168475ea731e081a9"
+    },
+    {
+      "questionId": "tpl-penalties-liab-nj-1",
+      "templateId": "tpl-penalties-liab",
+      "templateVersion": 1,
+      "inputFactHash": "bdb7d3be856a5202cef4b40e39b9235dcc3c729a2514356a65e9c1e64d2a9a76"
+    },
+    {
+      "questionId": "tpl-penalties-liab-nj-2",
+      "templateId": "tpl-penalties-liab",
+      "templateVersion": 1,
+      "inputFactHash": "bdb7d3be856a5202cef4b40e39b9235dcc3c729a2514356a65e9c1e64d2a9a76"
+    },
+    {
+      "questionId": "tpl-gdl-age-1-nj-1",
+      "templateId": "tpl-gdl-age-1",
+      "templateVersion": 1,
+      "inputFactHash": "cee24398f6bd547b30fa996c613e0d7804f98f022abe5f81dfa51679456487be"
+    },
+    {
+      "questionId": "tpl-gdl-age-1-nj-2",
+      "templateId": "tpl-gdl-age-1",
+      "templateVersion": 1,
+      "inputFactHash": "cee24398f6bd547b30fa996c613e0d7804f98f022abe5f81dfa51679456487be"
+    },
+    {
+      "questionId": "tpl-gdl-age-2-nj-1",
+      "templateId": "tpl-gdl-age-2",
+      "templateVersion": 1,
+      "inputFactHash": "cee24398f6bd547b30fa996c613e0d7804f98f022abe5f81dfa51679456487be"
+    },
+    {
+      "questionId": "tpl-gdl-age-2-nj-2",
+      "templateId": "tpl-gdl-age-2",
+      "templateVersion": 1,
+      "inputFactHash": "cee24398f6bd547b30fa996c613e0d7804f98f022abe5f81dfa51679456487be"
+    },
+    {
+      "questionId": "tpl-gdl-holding-nj-1",
+      "templateId": "tpl-gdl-holding",
+      "templateVersion": 1,
+      "inputFactHash": "0ee15602d04493d84195771ca41ad782c27c5379297ccd51de44e0adc81f8010"
+    },
+    {
+      "questionId": "tpl-gdl-holding-nj-2",
+      "templateId": "tpl-gdl-holding",
+      "templateVersion": 1,
+      "inputFactHash": "0ee15602d04493d84195771ca41ad782c27c5379297ccd51de44e0adc81f8010"
+    },
+    {
+      "questionId": "tpl-gdl-hours-tot-nj-1",
+      "templateId": "tpl-gdl-hours-tot",
+      "templateVersion": 1,
+      "inputFactHash": "229d2639817da9dd51216030c45442dc81b9b79ca8cb43a8fc71030dbc2c07bf"
+    },
+    {
+      "questionId": "tpl-gdl-hours-tot-nj-2",
+      "templateId": "tpl-gdl-hours-tot",
+      "templateVersion": 1,
+      "inputFactHash": "229d2639817da9dd51216030c45442dc81b9b79ca8cb43a8fc71030dbc2c07bf"
+    },
+    {
+      "questionId": "tpl-gdl-hours-night-nj-1",
+      "templateId": "tpl-gdl-hours-night",
+      "templateVersion": 1,
+      "inputFactHash": "98ea475f1c177776340801dc389d203b83e9a277f1078eedcf51259ac372f11d"
+    },
+    {
+      "questionId": "tpl-gdl-hours-night-nj-2",
+      "templateId": "tpl-gdl-hours-night",
+      "templateVersion": 1,
+      "inputFactHash": "98ea475f1c177776340801dc389d203b83e9a277f1078eedcf51259ac372f11d"
+    },
+    {
+      "questionId": "tpl-gdl-curfew-nj-1",
+      "templateId": "tpl-gdl-curfew",
+      "templateVersion": 1,
+      "inputFactHash": "90d6f98a8082c75968af7e66c6258e9cc31ab0469525eac53dd3215c3c512986"
+    },
+    {
+      "questionId": "tpl-gdl-curfew-nj-2",
+      "templateId": "tpl-gdl-curfew",
+      "templateVersion": 1,
+      "inputFactHash": "90d6f98a8082c75968af7e66c6258e9cc31ab0469525eac53dd3215c3c512986"
+    }
+  ],
+  "categorySummary": [
+    {
+      "category": "traffic-signals",
+      "expected": 2,
+      "actual": 2,
+      "shortfall": 0
+    },
+    {
+      "category": "right-of-way",
+      "expected": 4,
+      "actual": 4,
+      "shortfall": 0
+    },
+    {
+      "category": "parking",
+      "expected": 6,
+      "actual": 3,
+      "shortfall": 3
+    },
+    {
+      "category": "speed-limits",
+      "expected": 14,
+      "actual": 6,
+      "shortfall": 8
+    },
+    {
+      "category": "alcohol-drugs",
+      "expected": 14,
+      "actual": 6,
+      "shortfall": 8
+    },
+    {
+      "category": "traffic-laws",
+      "expected": 6,
+      "actual": 3,
+      "shortfall": 3
+    },
+    {
+      "category": "penalties-points",
+      "expected": 10,
+      "actual": 2,
+      "shortfall": 8
+    },
+    {
+      "category": "gdl-teen",
+      "expected": 14,
+      "actual": 12,
+      "shortfall": 2
+    }
+  ],
+  "shortfalls": [
+    {
+      "category": "parking",
+      "templateId": "tpl-park-hydrant",
+      "reason": "insufficient-distractor-pool",
+      "count": 2
+    },
+    {
+      "category": "parking",
+      "templateId": "tpl-park-crosswalk",
+      "reason": "status-unsupported:varies",
+      "factKey": "parkFtFromCrosswalk",
+      "count": 1
+    },
+    {
+      "category": "speed-limits",
+      "templateId": "tpl-speed-rural-1",
+      "reason": "fact-unverified",
+      "factKey": "ruralInterstateMaxMph",
+      "count": 2
+    },
+    {
+      "category": "speed-limits",
+      "templateId": "tpl-speed-rural-2",
+      "reason": "fact-unverified",
+      "factKey": "ruralInterstateMaxMph",
+      "count": 2
+    },
+    {
+      "category": "speed-limits",
+      "templateId": "tpl-speed-urban-1",
+      "reason": "fact-unverified",
+      "factKey": "urbanInterstateMaxMph",
+      "count": 2
+    },
+    {
+      "category": "speed-limits",
+      "templateId": "tpl-speed-res-1",
+      "reason": "status-unsupported:varies",
+      "factKey": "residentialDefaultMph",
+      "count": 2
+    },
+    {
+      "category": "alcohol-drugs",
+      "templateId": "tpl-dui-under21",
+      "reason": "insufficient-distractor-pool",
+      "count": 2
+    },
+    {
+      "category": "alcohol-drugs",
+      "templateId": "tpl-dui-commercial",
+      "reason": "fact-unverified",
+      "factKey": "bacCommercial",
+      "count": 2
+    },
+    {
+      "category": "alcohol-drugs",
+      "templateId": "tpl-dui-implied",
+      "reason": "fact-unverified",
+      "factKey": "impliedConsentRefusal",
+      "count": 2
+    },
+    {
+      "category": "alcohol-drugs",
+      "templateId": "tpl-dui-suspension",
+      "reason": "fact-unverified",
+      "factKey": "duiFirstSuspensionDays",
+      "count": 2
+    },
+    {
+      "category": "traffic-laws",
+      "templateId": "tpl-law-seatbelt",
+      "reason": "status-unsupported:varies",
+      "factKey": "seatBeltEnforcement",
+      "count": 1
+    },
+    {
+      "category": "traffic-laws",
+      "templateId": "tpl-law-headlights",
+      "reason": "fact-unverified",
+      "factKey": "headlightsRequired",
+      "count": 2
+    },
+    {
+      "category": "penalties-points",
+      "templateId": "tpl-penalties-system",
+      "reason": "fact-unverified",
+      "factKey": "pointSystem",
+      "count": 2
+    },
+    {
+      "category": "penalties-points",
+      "templateId": "tpl-penalties-susp-1",
+      "reason": "fact-unverified",
+      "factKey": "pointSuspension",
+      "count": 2
+    },
+    {
+      "category": "penalties-points",
+      "templateId": "tpl-penalties-susp-2",
+      "reason": "fact-unverified",
+      "factKey": "pointSuspension",
+      "count": 2
+    },
+    {
+      "category": "penalties-points",
+      "templateId": "tpl-penalties-crash",
+      "reason": "insufficient-distractor-pool",
+      "count": 2
+    },
+    {
+      "category": "gdl-teen",
+      "templateId": "tpl-gdl-passenger",
+      "reason": "fact-unverified",
+      "factKey": "gdlPassengerPhase1",
+      "count": 2
+    }
+  ],
+  "tagShortfalls": [
+    {
+      "tag": "parking-prohibited",
+      "templateId": "tpl-park-hydrant",
+      "category": "parking",
+      "count": 2,
+      "reason": "insufficient-distractor-pool"
+    },
+    {
+      "tag": "parking-prohibited",
+      "templateId": "tpl-park-crosswalk",
+      "category": "parking",
+      "count": 1,
+      "reason": "status-unsupported:varies"
+    },
+    {
+      "tag": "speed-posted-limits",
+      "templateId": "tpl-speed-rural-1",
+      "category": "speed-limits",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "speed-posted-limits",
+      "templateId": "tpl-speed-rural-2",
+      "category": "speed-limits",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "speed-posted-limits",
+      "templateId": "tpl-speed-urban-1",
+      "category": "speed-limits",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "speed-posted-limits",
+      "templateId": "tpl-speed-res-1",
+      "category": "speed-limits",
+      "count": 2,
+      "reason": "status-unsupported:varies"
+    },
+    {
+      "tag": "alcohol-impairment-bac",
+      "templateId": "tpl-dui-under21",
+      "category": "alcohol-drugs",
+      "count": 2,
+      "reason": "insufficient-distractor-pool"
+    },
+    {
+      "tag": "alcohol-impairment-bac",
+      "templateId": "tpl-dui-commercial",
+      "category": "alcohol-drugs",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "alcohol-implied-consent",
+      "templateId": "tpl-dui-implied",
+      "category": "alcohol-drugs",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "alcohol-implied-consent",
+      "templateId": "tpl-dui-suspension",
+      "category": "alcohol-drugs",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "safe-following-scanning",
+      "templateId": "tpl-law-seatbelt",
+      "category": "traffic-laws",
+      "count": 1,
+      "reason": "status-unsupported:varies"
+    },
+    {
+      "tag": "safe-weather-night",
+      "templateId": "tpl-law-headlights",
+      "category": "traffic-laws",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "collision-insurance-reporting",
+      "templateId": "tpl-penalties-system",
+      "category": "penalties-points",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "collision-insurance-reporting",
+      "templateId": "tpl-penalties-susp-1",
+      "category": "penalties-points",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "collision-insurance-reporting",
+      "templateId": "tpl-penalties-susp-2",
+      "category": "penalties-points",
+      "count": 2,
+      "reason": "fact-unverified"
+    },
+    {
+      "tag": "collision-insurance-reporting",
+      "templateId": "tpl-penalties-crash",
+      "category": "penalties-points",
+      "count": 2,
+      "reason": "insufficient-distractor-pool"
+    },
+    {
+      "tag": "gdl-to-full-license",
+      "templateId": "tpl-gdl-passenger",
+      "category": "gdl-teen",
+      "count": 2,
+      "reason": "fact-unverified"
+    }
+  ]
+}

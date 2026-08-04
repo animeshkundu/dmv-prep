@@ -30,9 +30,9 @@
     {
       "url": "https://dmv.colorado.gov/sites/dmv/files/documents/DR_2337_Jan2025.pdf",
       "handbook": true,
-      "sha256": "42bb75c16cd25eaa65b703e14e7e97157cae64d606f998dbe43b0418e709cebf",
       "contentType": "application/pdf",
-      "status": 200
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
     },
     {
       "url": "https://mutcd.fhwa.dot.gov/",
@@ -40,6 +40,5 @@
       "contentType": "text/html",
       "status": 200
     }
-  ],
-  "handbookSnapshotHash": "42bb75c16cd25eaa65b703e14e7e97157cae64d606f998dbe43b0418e709cebf"
+  ]
 }

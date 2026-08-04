@@ -10,9 +10,9 @@
     {
       "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf",
       "handbook": true,
-      "sha256": "39fe7e582ae6bbbe6b4195fdd2f856a8396c0742d9adcdaa9b7d929c3887ec4e",
       "contentType": "application/pdf",
-      "status": 200
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
     },
     {
       "url": "https://legislature.idaho.gov/statutesrules/idstat/Title18/T18CH80/SECT18-8002/",
@@ -116,6 +116,5 @@
       "contentType": "text/html",
       "status": 200
     }
-  ],
-  "handbookSnapshotHash": "39fe7e582ae6bbbe6b4195fdd2f856a8396c0742d9adcdaa9b7d929c3887ec4e"
+  ]
 }

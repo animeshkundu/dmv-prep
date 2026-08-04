@@ -1,0 +1,178 @@
+[
+  {
+    "id": "tpl-dui-adult-1-ut-1",
+    "category": "alcohol-drugs",
+    "stateScope": [
+      "UT"
+    ],
+    "tags": [
+      "alcohol-impairment-bac"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "bacAdult",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-dui-adult-1",
+    "templateVersion": 1,
+    "prompt": "A Utah driver is reviewing the adult per se BAC limit. Select the accurate answer.",
+    "options": [
+      "0.04%",
+      "0.02%",
+      "0.05%",
+      "0.08%"
+    ],
+    "correctIndex": 2,
+    "explanation": "The cited Utah rule sets the adult per se BAC limit as shown in the correct answer.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Utah Code",
+        "citation": "Utah Code §41-6a-502",
+        "url": "https://le.utah.gov/xcode/Title41/Chapter6A/41-6a-S502.html"
+      }
+    ],
+    "effectiveDate": "2018-12-30",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-dui-adult-1-ut-2",
+    "category": "alcohol-drugs",
+    "stateScope": [
+      "UT"
+    ],
+    "tags": [
+      "alcohol-impairment-bac"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "bacAdult",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-dui-adult-1",
+    "templateVersion": 1,
+    "prompt": "Choose the rule that applies to the adult per se BAC limit in Utah.",
+    "options": [
+      "0.02%",
+      "0.08%",
+      "0.05%",
+      "0.04%"
+    ],
+    "correctIndex": 2,
+    "explanation": "The cited Utah rule sets the adult per se BAC limit as shown in the correct answer.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Utah Code",
+        "citation": "Utah Code §41-6a-502",
+        "url": "https://le.utah.gov/xcode/Title41/Chapter6A/41-6a-S502.html"
+      }
+    ],
+    "effectiveDate": "2018-12-30",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-dui-adult-2-ut-1",
+    "category": "alcohol-drugs",
+    "stateScope": [
+      "UT"
+    ],
+    "tags": [
+      "alcohol-impairment-bac"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "bacAdult",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-dui-adult-2",
+    "templateVersion": 1,
+    "prompt": "In Utah, which statement correctly describes the adult alcohol concentration that establishes per se impairment?",
+    "options": [
+      "0.08%",
+      "0.05%",
+      "0.04%",
+      "0.02%"
+    ],
+    "correctIndex": 1,
+    "explanation": "The cited Utah rule sets the adult alcohol concentration that establishes per se impairment as shown in the correct answer.",
+    "difficulty": "hard",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Utah Code",
+        "citation": "Utah Code §41-6a-502",
+        "url": "https://le.utah.gov/xcode/Title41/Chapter6A/41-6a-S502.html"
+      }
+    ],
+    "effectiveDate": "2018-12-30",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-dui-adult-2-ut-2",
+    "category": "alcohol-drugs",
+    "stateScope": [
+      "UT"
+    ],
+    "tags": [
+      "alcohol-impairment-bac"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "bacAdult",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-dui-adult-2",
+    "templateVersion": 1,
+    "prompt": "What should a learner know about the adult alcohol concentration that establishes per se impairment under Utah law?",
+    "options": [
+      "0.05%",
+      "0.04%",
+      "0.02%",
+      "0.08%"
+    ],
+    "correctIndex": 0,
+    "explanation": "The cited Utah rule sets the adult alcohol concentration that establishes per se impairment as shown in the correct answer.",
+    "difficulty": "hard",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "Utah Code",
+        "citation": "Utah Code §41-6a-502",
+        "url": "https://le.utah.gov/xcode/Title41/Chapter6A/41-6a-S502.html"
+      }
+    ],
+    "effectiveDate": "2018-12-30",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  }
+]

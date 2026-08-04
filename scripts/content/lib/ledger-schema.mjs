@@ -290,6 +290,7 @@ export function validateVerificationLedger(value) {
       'reviewedAt',
       'attestation',
       'attestationNote',
+      'templateSourceHash',
       'entries',
       'templateEntries',
     ],
@@ -316,6 +317,9 @@ export function validateVerificationLedger(value) {
 
   if (result.tier === 'T2') {
     if (result.entries !== undefined) fail('T2 ledgers must not contain question entries', ['entries']);
+    if (result.templateSourceHash !== undefined) {
+      hash(result.templateSourceHash, ['templateSourceHash']);
+    }
     array(result.templateEntries, ['templateEntries'], { min: 1 });
     result.templateEntries.forEach((entry, i) => verdict(entry, ['templateEntries', i], { template: true }));
     if (result.templateEntries.some((entry) => entry.verdict !== 'confirmed')) {

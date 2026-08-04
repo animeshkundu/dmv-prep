@@ -14,6 +14,8 @@ import { buildSalt, saltedIndex, saltedSample } from '../../scripts/content/lib/
 import { BAC_LATTICE, SPEED_LATTICE, nearestLatticeNeighbors } from '../../scripts/content/lib/lattices.mjs';
 import {
   loadTemplateRegistry,
+  templateContentHash,
+  templateVerificationErrors,
   validateTemplateRegistry,
 } from '../../scripts/content/lib/template-registry.mjs';
 import { repoPath } from '../../scripts/content/lib/content-io.mjs';
@@ -232,8 +234,10 @@ describe('generation-engine: deterministic salts (§4.4)', () => {
   it('picks the prompt/explanation phrasing exactly the salted index predicts', () => {
     const tpl = bacTemplate();
     const s = state();
-    const ctx = buildCtx(s);
     const evaluation = evaluateTemplateForState(tpl, s);
+    expect(evaluation.eligible).toBe(true);
+    if (!evaluation.eligible) throw new Error('Fixture BAC fact must be eligible.');
+    const ctx = buildCtx(s, { bacAdult: s.typedFacts.bacAdult });
     const built = buildInstances(tpl, s, evaluation.factsUsed);
     const first = built.rows[0].question;
     const expectedPromptIdx = saltedIndex(buildSalt(tpl.id, s.code, 1, 'prompt'), tpl.prompts.length);
@@ -276,6 +280,25 @@ describe('generation-engine: honest failure, never fabrication (§3, §11)', () 
     expect(built.shortfallReason).toBe('insufficient-distractor-pool');
   });
 
+  it('rejects placeholder options and a uniquely longest correct answer before either can ship', () => {
+    const placeholder = bacTemplate({
+      distractorPool: () => Array.from({ length: 6 }, (_, index) => `Option ${index + 1} which is plausible.`),
+    });
+    const longCorrect = bacTemplate({
+      correct: () => 'A much longer answer that exposes the correct choice by length alone.',
+      distractorPool: () => ['Short one.', 'Short two.', 'Short three.', 'Short four.', 'Short five.', 'Short six.'],
+    });
+    const s = state();
+
+    const placeholderRows = buildInstances(placeholder, s, evaluateTemplateForState(placeholder, s).factsUsed);
+    expect(placeholderRows.rows).toEqual([]);
+    expect(placeholderRows.shortfallReason).toBe('placeholder-option-content');
+
+    const longCorrectRows = buildInstances(longCorrect, s, evaluateTemplateForState(longCorrect, s).factsUsed);
+    expect(longCorrectRows.rows).toEqual([]);
+    expect(longCorrectRows.shortfallReason).toBe('option-length-parity');
+  });
+
   it('never includes a wall-clock or verification stamp in a generated row (§4.5)', () => {
     const tpl = bacTemplate();
     const s = state();
@@ -287,7 +310,8 @@ describe('generation-engine: honest failure, never fabrication (§3, §11)', () 
       expect(question).not.toHaveProperty('verifiedAt');
       expect(question).not.toHaveProperty('verificationAuditId');
       expect(question).not.toHaveProperty('sourceSnapshotHash');
-      expect(question.reviewStatus).toBe('adversarially-verified');
+      expect(question.reviewStatus).toBe('draft');
+      expect(question.verifyNote).toContain('confidence:verified typed fact');
     }
   });
 
@@ -429,10 +453,28 @@ describe('template-registry: maxTemplatesPerFactKey = 2 (§4.4)', () => {
   });
 
   it('the real (currently empty) registry loads and validates cleanly', async () => {
-    const { templates, missing } = await loadTemplateRegistry();
+    const { templates, missing } = await loadTemplateRegistry({
+      registryPath: repoPath('tests/fixtures/empty-template-registry.ts'),
+    });
     expect(missing).toBe(false);
     expect(Array.isArray(templates)).toBe(true);
     expect(validateTemplateRegistry(templates)).toMatchObject({ ok: true });
+  });
+
+  it('the populated production registry loads and validates cleanly', async () => {
+    const { templates, missing } = await loadTemplateRegistry();
+    expect(missing).toBe(false);
+    expect(templates.length).toBeGreaterThan(0);
+    expect(validateTemplateRegistry(templates)).toMatchObject({ ok: true });
+  });
+
+  it('rejects a confirmed template entry when its content hash is stale', () => {
+    const template = bacTemplate();
+    const key = `${template.id}@${template.version}`;
+    const hashes = new Map([[key, templateContentHash(template)]]);
+    expect(templateVerificationErrors([template], hashes)).toEqual([]);
+    hashes.set(key, '0'.repeat(64));
+    expect(templateVerificationErrors([template], hashes)).toHaveLength(1);
   });
 });
 
@@ -450,13 +492,23 @@ describe('generate-templated.mjs CLI: --check/--write contract (§4.5)', () => {
   });
 
   it('--check against the real (template-less) repo passes without writing anything', async () => {
-    const generatedDir = repoPath('src/content/questions/generated');
-    const auditDir = repoPath('src/content/audits/generation');
+    const root = mkdtempSync(join(tmpdir(), 'dmv-generation-check-'));
+    rmSync(root, { recursive: true, force: true });
+    const generatedDir = join(root, 'generated');
+    const auditDir = join(root, 'audits');
+    let message = '';
+    const options = {
+      log: () => {},
+      error: (error: unknown) => (message = String(error)),
+      templates: [],
+      generatedDir,
+      auditDir,
+    };
+    expect(await run(['--write'], options)).toBe(0);
     const before = { generated: existsSync(generatedDir), audits: existsSync(auditDir) };
+    const code = await run(['--check'], options);
 
-    const code = await run(['--check'], { log: () => {}, error: () => {} });
-
-    expect(code).toBe(0);
+    expect(code, message).toBe(0);
     // --check must never write, regardless of what it found.
     expect(existsSync(generatedDir)).toBe(before.generated);
     expect(existsSync(auditDir)).toBe(before.audits);
@@ -472,7 +524,7 @@ describe('generate-templated.mjs CLI: --check/--write contract (§4.5)', () => {
     });
 
     it('writes empty, byte-reproducible generated files given the real empty registry, and --check then agrees', async () => {
-      const options = { log: () => {}, error: () => {}, generatedDir, auditDir };
+      const options = { log: () => {}, error: () => {}, generatedDir, auditDir, templates: [] };
       const writeCode = await run(['--write'], options);
       expect(writeCode).toBe(0);
       expect(existsSync(generatedDir)).toBe(true);

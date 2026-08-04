@@ -22,9 +22,9 @@
     {
       "url": "https://dmv.alaska.gov/media/t5ef5vi2/dlman.pdf",
       "handbook": true,
-      "sha256": "8b4c06a027112868d21f2ba69eb5447979cb606dc58216738515c7d34e6f035d",
       "contentType": "application/pdf",
-      "status": 200
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
     },
     {
       "url": "https://mutcd.fhwa.dot.gov/",
@@ -46,10 +46,7 @@
     },
     {
       "url": "https://www.iihs.org/research-areas/teenagers/graduated-licensing-laws-table",
-      "sha256": "a4c2b59b06107a409c1a69df93e9cbf431e5b4e2e5c179d6b93528e8b768f3b5",
-      "contentType": "text/html",
-      "status": 200
+      "error": "fetch failed: fetch failed"
     }
-  ],
-  "handbookSnapshotHash": "8b4c06a027112868d21f2ba69eb5447979cb606dc58216738515c7d34e6f035d"
+  ]
 }

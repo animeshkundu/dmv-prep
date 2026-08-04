@@ -1,0 +1,178 @@
+[
+  {
+    "id": "tpl-row-move-over-nc-1",
+    "category": "right-of-way",
+    "stateScope": [
+      "NC"
+    ],
+    "tags": [
+      "row-emergency-vehicles"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "moveOver",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-row-move-over",
+    "templateVersion": 1,
+    "prompt": "A North Carolina driver is reviewing the approach to a stopped covered roadside vehicle. Select the accurate answer.",
+    "options": [
+      "Slow down only; changing lanes is optional.",
+      "Change lanes if safe; otherwise slow down.",
+      "Pass closely to avoid delaying traffic.",
+      "Stop beside the roadside vehicle."
+    ],
+    "correctIndex": 1,
+    "explanation": "This answer follows the verified moveOver record for North Carolina; conditions in that record still apply.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "N.C. Gen. Stat. § 20-157(f) as rewritten by S.L. 2022-68, s. 6.(a) (s. 6.(b): effective August 1, 2022)",
+        "citation": "N.C. Gen. Stat. § 20-157(f); 2022 N.C. Sess. Laws 68, s. 6",
+        "url": "https://www.ncleg.gov/EnactedLegislation/SessionLaws/HTML/2021-2022/SL2022-68.html"
+      }
+    ],
+    "effectiveDate": "2022-08-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-row-move-over-nc-2",
+    "category": "right-of-way",
+    "stateScope": [
+      "NC"
+    ],
+    "tags": [
+      "row-emergency-vehicles"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "moveOver",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-row-move-over",
+    "templateVersion": 1,
+    "prompt": "Choose the rule that applies to the approach to a stopped covered roadside vehicle in North Carolina.",
+    "options": [
+      "Change lanes if safe; otherwise slow down.",
+      "Pass closely to avoid delaying traffic.",
+      "Slow down only; changing lanes is optional.",
+      "Keep speed and lane unless traffic stops."
+    ],
+    "correctIndex": 0,
+    "explanation": "The cited North Carolina rule sets the approach to a stopped covered roadside vehicle as shown in the correct answer.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "N.C. Gen. Stat. § 20-157(f) as rewritten by S.L. 2022-68, s. 6.(a) (s. 6.(b): effective August 1, 2022)",
+        "citation": "N.C. Gen. Stat. § 20-157(f); 2022 N.C. Sess. Laws 68, s. 6",
+        "url": "https://www.ncleg.gov/EnactedLegislation/SessionLaws/HTML/2021-2022/SL2022-68.html"
+      }
+    ],
+    "effectiveDate": "2022-08-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-penalties-liab-nc-1",
+    "category": "penalties-points",
+    "stateScope": [
+      "NC"
+    ],
+    "tags": [
+      "collision-insurance-reporting"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "minLiability",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-penalties-liab",
+    "templateVersion": 1,
+    "prompt": "Choose the rule that applies to the minimum liability coverage per person / crash / property in North Carolina.",
+    "options": [
+      "$ 35,000 / $ 70,000 / $ 25,000",
+      "$ 15,000 / $ 30,000 / $  5,000",
+      "$ 50,000 / $100,000 / $ 50,000",
+      "$ 25,000 / $ 50,000 / $ 10,000"
+    ],
+    "correctIndex": 2,
+    "explanation": "This answer follows the verified minLiability record for North Carolina; conditions in that record still apply.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "S.L. 2023-133, Part XII, s. 12.(i) (raising G.S. 20-279.21(b)(2) limits)",
+        "citation": "N.C. Gen. Stat. § 20-279.21(b)(2); 2023 N.C. Sess. Laws 133, s. 12",
+        "url": "https://www.ncleg.gov/EnactedLegislation/SessionLaws/HTML/2023-2024/SL2023-133.html"
+      }
+    ],
+    "effectiveDate": "2025-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-penalties-liab-nc-2",
+    "category": "penalties-points",
+    "stateScope": [
+      "NC"
+    ],
+    "tags": [
+      "collision-insurance-reporting"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "minLiability",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-penalties-liab",
+    "templateVersion": 1,
+    "prompt": "A North Carolina driver is reviewing the minimum liability coverage per person / crash / property. Select the accurate answer.",
+    "options": [
+      "$ 35,000 / $ 70,000 / $ 25,000",
+      "$100,000 / $300,000 / $100,000",
+      "$ 50,000 / $100,000 / $ 50,000",
+      "$ 25,000 / $ 50,000 / $ 25,000"
+    ],
+    "correctIndex": 2,
+    "explanation": "This answer follows the verified minLiability record for North Carolina; conditions in that record still apply.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "S.L. 2023-133, Part XII, s. 12.(i) (raising G.S. 20-279.21(b)(2) limits)",
+        "citation": "N.C. Gen. Stat. § 20-279.21(b)(2); 2023 N.C. Sess. Laws 133, s. 12",
+        "url": "https://www.ncleg.gov/EnactedLegislation/SessionLaws/HTML/2023-2024/SL2023-133.html"
+      }
+    ],
+    "effectiveDate": "2025-01-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  }
+]

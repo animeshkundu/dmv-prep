@@ -21,10 +21,9 @@
     {
       "url": "https://www.oregon.gov/odot/Forms/DMV/37.pdf",
       "handbook": true,
-      "sha256": "57e50fd53bc92e2055cca9546cdb404c1341a8693fd10466fd769afe74e99e11",
       "contentType": "application/pdf",
-      "status": 200
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
     }
-  ],
-  "handbookSnapshotHash": "57e50fd53bc92e2055cca9546cdb404c1341a8693fd10466fd769afe74e99e11"
+  ]
 }

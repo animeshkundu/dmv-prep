@@ -1,0 +1,266 @@
+[
+  {
+    "id": "tpl-row-move-over-ny-1",
+    "category": "right-of-way",
+    "stateScope": [
+      "NY"
+    ],
+    "tags": [
+      "row-emergency-vehicles"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "moveOver",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-row-move-over",
+    "templateVersion": 1,
+    "prompt": "What should a learner know about the approach to a stopped covered roadside vehicle under New York law?",
+    "options": [
+      "Change lanes if safe; otherwise slow down.",
+      "Pass closely to avoid delaying traffic.",
+      "Keep speed and lane unless traffic stops.",
+      "Change lanes whenever it is safely possible."
+    ],
+    "correctIndex": 0,
+    "explanation": "This answer follows the verified moveOver record for New York; conditions in that record still apply.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "L.2023, ch.517 (S5129A), amending VTL § 1144-a and adding subdivision (d) to cover every stopped, standing or parked vehicle; § 2: effective the one hundred eightieth day after it became law (signed September 29, 2023)",
+        "citation": "N.Y. Veh. & Traf. Law § 1144-a; L.2023, ch. 517",
+        "url": "https://nyassembly.gov/leg/?default_fld=&bn=S05129&term=2023&Summary=Y&Actions=Y&Text=Y"
+      }
+    ],
+    "effectiveDate": "2024-03-27",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-row-move-over-ny-2",
+    "category": "right-of-way",
+    "stateScope": [
+      "NY"
+    ],
+    "tags": [
+      "row-emergency-vehicles"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "moveOver",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-row-move-over",
+    "templateVersion": 1,
+    "prompt": "In New York, which statement correctly describes the approach to a stopped covered roadside vehicle?",
+    "options": [
+      "Keep speed and lane unless traffic stops.",
+      "Change lanes whenever it is safely possible.",
+      "Pass closely to avoid delaying traffic.",
+      "Change lanes if safe; otherwise slow down."
+    ],
+    "correctIndex": 3,
+    "explanation": "This answer follows the verified moveOver record for New York; conditions in that record still apply.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "L.2023, ch.517 (S5129A), amending VTL § 1144-a and adding subdivision (d) to cover every stopped, standing or parked vehicle; § 2: effective the one hundred eightieth day after it became law (signed September 29, 2023)",
+        "citation": "N.Y. Veh. & Traf. Law § 1144-a; L.2023, ch. 517",
+        "url": "https://nyassembly.gov/leg/?default_fld=&bn=S05129&term=2023&Summary=Y&Actions=Y&Text=Y"
+      }
+    ],
+    "effectiveDate": "2024-03-27",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-dui-implied-ny-1",
+    "category": "alcohol-drugs",
+    "stateScope": [
+      "NY"
+    ],
+    "tags": [
+      "alcohol-implied-consent"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "impliedConsentRefusal",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-dui-implied",
+    "templateVersion": 1,
+    "prompt": "What should a learner know about the implied-consent test refusal consequence under New York law?",
+    "options": [
+      "12-month suspension; not a criminal offense.",
+      "6-month suspension; not a criminal offense.",
+      "24-month suspension; a criminal offense after refusal.",
+      "3-month suspension; not a criminal offense."
+    ],
+    "correctIndex": 0,
+    "explanation": "This answer follows the verified impliedConsentRefusal record for New York; conditions in that record still apply.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "L.2006, ch.732, § 23 (S8232), amending VTL § 1194(2)(d)(1) to raise the refusal revocation from six months to one year; § 27: effective the first of November next succeeding enactment (signed September 13, 2006)",
+        "citation": "N.Y. Veh. & Traf. Law § 1194(2)(d)(1); L.2006, ch. 732, § 23",
+        "url": "https://nyassembly.gov/leg/?default_fld=&bn=S08232&term=2005&Summary=Y&Actions=Y&Text=Y"
+      }
+    ],
+    "effectiveDate": "2006-11-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-dui-implied-ny-2",
+    "category": "alcohol-drugs",
+    "stateScope": [
+      "NY"
+    ],
+    "tags": [
+      "alcohol-implied-consent"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "impliedConsentRefusal",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-dui-implied",
+    "templateVersion": 1,
+    "prompt": "In New York, which statement correctly describes the implied-consent test refusal consequence?",
+    "options": [
+      "12-month suspension; a criminal offense after refusal.",
+      "24-month suspension; a criminal offense after refusal.",
+      "3-month suspension; not a criminal offense.",
+      "12-month suspension; not a criminal offense."
+    ],
+    "correctIndex": 3,
+    "explanation": "This answer follows the verified impliedConsentRefusal record for New York; conditions in that record still apply.",
+    "difficulty": "medium",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "L.2006, ch.732, § 23 (S8232), amending VTL § 1194(2)(d)(1) to raise the refusal revocation from six months to one year; § 27: effective the first of November next succeeding enactment (signed September 13, 2006)",
+        "citation": "N.Y. Veh. & Traf. Law § 1194(2)(d)(1); L.2006, ch. 732, § 23",
+        "url": "https://nyassembly.gov/leg/?default_fld=&bn=S08232&term=2005&Summary=Y&Actions=Y&Text=Y"
+      }
+    ],
+    "effectiveDate": "2006-11-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-dui-suspension-ny-1",
+    "category": "alcohol-drugs",
+    "stateScope": [
+      "NY"
+    ],
+    "tags": [
+      "alcohol-implied-consent"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "duiFirstSuspensionDays",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-dui-suspension",
+    "templateVersion": 1,
+    "prompt": "In New York, which statement correctly describes the first-DUI suspension period?",
+    "options": [
+      "180 days",
+      "90 days",
+      "60 days",
+      "365 days"
+    ],
+    "correctIndex": 0,
+    "explanation": "This answer follows the verified duiFirstSuspensionDays record for New York; conditions in that record still apply.",
+    "difficulty": "hard",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "L.2006, ch.732, § 6 (S8232), amending VTL § 1193(2)(b)(2): \"Six months, where the holder is convicted of a violation of subdivision two, three, four or four-a of section eleven hundred ninety-two\"; § 27: effective the first of November next succeeding enactment (signed September 13, 2006)",
+        "citation": "N.Y. Veh. & Traf. Law § 1193(2)(b)(2); L.2006, ch. 732, § 6",
+        "url": "https://nyassembly.gov/leg/?default_fld=&bn=S08232&term=2005&Summary=Y&Actions=Y&Text=Y"
+      }
+    ],
+    "effectiveDate": "2006-11-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  },
+  {
+    "id": "tpl-dui-suspension-ny-2",
+    "category": "alcohol-drugs",
+    "stateScope": [
+      "NY"
+    ],
+    "tags": [
+      "alcohol-implied-consent"
+    ],
+    "tier": "T2",
+    "claims": [
+      {
+        "factKey": "duiFirstSuspensionDays",
+        "usage": "correct-answer"
+      }
+    ],
+    "templateId": "tpl-dui-suspension",
+    "templateVersion": 1,
+    "prompt": "What should a learner know about the first-DUI suspension period under New York law?",
+    "options": [
+      "365 days",
+      "60 days",
+      "90 days",
+      "180 days"
+    ],
+    "correctIndex": 3,
+    "explanation": "The cited New York rule sets the first-DUI suspension period as shown in the correct answer.",
+    "difficulty": "hard",
+    "languages": [
+      "en"
+    ],
+    "references": [
+      {
+        "label": "L.2006, ch.732, § 6 (S8232), amending VTL § 1193(2)(b)(2): \"Six months, where the holder is convicted of a violation of subdivision two, three, four or four-a of section eleven hundred ninety-two\"; § 27: effective the first of November next succeeding enactment (signed September 13, 2006)",
+        "citation": "N.Y. Veh. & Traf. Law § 1193(2)(b)(2); L.2006, ch. 732, § 6",
+        "url": "https://nyassembly.gov/leg/?default_fld=&bn=S08232&term=2005&Summary=Y&Actions=Y&Text=Y"
+      }
+    ],
+    "effectiveDate": "2006-11-01",
+    "lastVerified": "2026-07-27",
+    "reviewStatus": "draft",
+    "verifyNote": "Generated from a confirmed T2 template and a confidence:verified typed fact; row-level wording review remains pending.",
+    "contentVersion": 1
+  }
+]

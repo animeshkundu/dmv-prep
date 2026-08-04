@@ -57,9 +57,7 @@
     },
     {
       "url": "https://www.iihs.org/topics/teenagers/graduated-licensing-laws-table",
-      "sha256": "a4c2b59b06107a409c1a69df93e9cbf431e5b4e2e5c179d6b93528e8b768f3b5",
-      "contentType": "text/html",
-      "status": 200
+      "error": "fetch failed: fetch failed"
     }
   ]
 }

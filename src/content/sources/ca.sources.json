@@ -129,9 +129,9 @@
     {
       "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
       "handbook": true,
-      "sha256": "b45f86ef8be54c7775d6cf349b1fe7d3faecfd74905672140f279a3c8a0c895e",
       "contentType": "application/pdf",
-      "status": 200
+      "status": 200,
+      "error": "unsupported: PDF text extraction requires the pdftotext executable; refusing to hash raw PDF bytes."
     },
     {
       "url": "https://www.dmv.ca.gov/portal/handbooks-and-manuals/california-driver-handbook/",
@@ -139,6 +139,5 @@
       "contentType": "text/html",
       "status": 200
     }
-  ],
-  "handbookSnapshotHash": "b45f86ef8be54c7775d6cf349b1fe7d3faecfd74905672140f279a3c8a0c895e"
+  ]
 }
